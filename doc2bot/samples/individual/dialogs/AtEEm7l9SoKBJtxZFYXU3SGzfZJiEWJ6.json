@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省舟山市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "行驶驾驶",
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T16",
+            "T9"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证有关的问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T9",
+            "T16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，具体是身体条件变化降低准驾车型换领机动车驾驶证、达到规定年龄换领机动车驾驶证还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "身体条件变化降低准驾车型换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理身体条件变化降低准驾车型换领机动车驾驶证这个业务结果多久会送达到我这里？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理这个业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "有什么情况是不能办理的呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    }
+]

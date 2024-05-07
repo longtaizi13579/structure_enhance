@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省宁波市驾驶证办理的常用服务有哪些呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T10",
+            "T138"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有遗失补领机动车驾驶证、期满换领机动车驾驶证和补换领行驶证等，请问您想咨询哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是遗失补领机动车驾驶证的办结时限问题",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您说的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "法定办结时限是多长时间呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一个工作日之内",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还挺快的，那收费的话可以微信支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，到现场的话是人工办理还是自助办理呢？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "抱歉，我们目前不支持自助终端办理，您可以找人工窗口",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那如果是驾驶证到期换领的话有相关投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址和投诉网址，您需要哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "电话吧",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话为0575--81500020",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那这个业务又要去哪儿办呢？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您说的是期满换领机动车驾驶证还是补换领行驶证呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是期满换领机动车驾驶证的办理地点",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

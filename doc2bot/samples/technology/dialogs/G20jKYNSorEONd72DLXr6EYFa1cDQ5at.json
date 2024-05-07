@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "电话簿访问描述文件都有什么功能？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "电话簿访问描述文件(PBAP)"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "允许车载套件显示来电者姓名。允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。允许车载套件显示通话记录。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "允许车载套件显示来电者姓名。",
+            "允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。",
+            "允许车载套件显示通话记录。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "iOS支持蓝牙描述高级音频分发描述文件吗？",
+        "act": "verification",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "高级音频分发描述文件(A2DP)"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "A2DP允许通过蓝牙连接将高品质音频（立体声或单声道）从一台设备流化到另一台设备。使用A2DP能够以无线方式将iOS设备上的音乐通过无线耳机、扬声器或兼容的车载音频系统播放。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "A2DP允许通过蓝牙连接将高品质音频（立体声或单声道）从一台设备流化到另一台设备。使用A2DP能够以无线方式将iOS设备上的音乐通过无线耳机、扬声器或兼容的车载音频系统播放。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "AVRCP允许通过兼容设备遥控iOS设备上的哪些功能？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "音频/视频遥控描述文件(AVRCP1.4)",
+            "AVRCP允许通过兼容设备遥控iOS设备上的播放功能。通常，这些蓝牙设备也使用A2DP描述文件。最新版本的iOS支持以下AVRCP功能："
+        ],
+        "grounding_id": [
+            "1",
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "暂停、播放、停止、下一个曲目、上一个曲目、元数据、浏览。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "暂停",
+            "播放",
+            "停止",
+            "下一个曲目",
+            "上一个曲目",
+            "元数据",
+            "浏览*"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iOS支持蓝牙描述哪些高级音频分发描述文件？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "高级音频分发描述文件(A2DP)"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个描述文件适用于iPhone5s及更新机型、iPadAir及更新机型、iPodtouch（第6代）及更新机型。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "这个描述文件适用于iPhone5s及更新机型、iPadAir及更新机型、iPodtouch（第6代）及更新机型。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

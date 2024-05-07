@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我昨天不小心从梯子上摔下来了，感觉脚特别疼，是不是骨折了？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "医学主题",
+            "骨折"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1236"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "除了疼痛，有没有肿胀并且有淤伤？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折",
+            "如果跟骨骨折，脚跟有触痛，足部和脚踝通常会肿胀，无法承重。"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可能是跟骨骨折了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折",
+            "骨折发生于脚底的足跟骨（跟骨）。（另见骨折概述。）"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这该怎么治疗啊？",
+        "act": "how",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折",
+            "医生需咨询骨科医生，以确定脚跟骨折的最佳治疗方法。"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个需咨询骨科医生，以确定跟骨骨折的最佳治疗方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "医生需咨询骨科医生，以确定脚跟骨折的最佳治疗方法。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一般都会用什么方式进行治疗？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折的治疗",
+            "跟骨骨折的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不严重的话，可以等消肿后上石膏用夹板固定，通过休息、冰敷、压迫等方法治疗，严重的话，可能需要手术。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "有时保护（通常上夹板）、休息、冰敷、压迫和抬高",
+            "石膏（消肿后）",
+            "可能需要手术"
+        ],
+        "grounding_id": [
+            "37",
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "骨头愈合后就好了吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "痊愈后还需要进行物理治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "痊愈后进行物理治疗"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "愈合后，骨头会不会变形？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折的治疗"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个需要向矫形外科专家咨询。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "向矫形外科专家咨询"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我感觉膝盖也有点疼，这是怎么回事？",
+        "act": "why",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "脚跟骨折需要巨大的外力，因此膝盖或脊柱也常会受伤。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "脚跟骨折通常由巨大的外力所致，如从高处（从梯子上跳下）坠落后脚着地。其他原因包括车祸和运动相关损伤。脚跟骨折需要巨大的外力，因此膝盖和/或脊柱也常会受伤。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "跟骨骨折一般都有什么症状？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折的症状"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "脚跟骨折有触痛，足和踝通常非常肿胀并且有淤伤，患者足部不能负重。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "脚跟骨折有触痛。足和踝通常非常肿胀并且有淤伤。患者足部不能负重。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "去医院的话，都需要做什么检查？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "跟骨骨折"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "通常，医生会根据X光片来诊断脚跟骨折，但有时也需要进行计算机断层扫描。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_骨折_跟骨骨折.json",
+        "grounding": [
+            "通常，医生会根据X光片来诊断脚跟骨折，但有时也需要进行计算机断层扫描。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

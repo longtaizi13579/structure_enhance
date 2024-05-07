@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "不是公司的法人变更，一般啥时候能去登记?",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "非公司企业法人变更登记",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在浙江省湖州市吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理时间为工作日的9：00-17:00，中午无午休的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "工作日9：00-17:00（中午不休）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个一般办理需要多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想问的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "38",
+            "57"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限为30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这么就吗，那这个申请是不是没有数量限制？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "141",
+            "142"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，目前是无数量限制的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有啥联系方式不，我先问清楚吧，防止到时候浪费不必要的时间。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以拨打0572-2058484进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业变更_常用服务_非公司企业法人变更登记.json",
+        "grounding": [
+            "0572-2058484"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

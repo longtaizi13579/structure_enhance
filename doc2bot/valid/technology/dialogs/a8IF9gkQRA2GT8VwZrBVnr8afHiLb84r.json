@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好是这样我想对一张照片上的一段外文进行翻译iPhone要怎么弄呢",
+        "act": "why",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "在iPhone或iPad上拷贝和翻译照片中的文本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "安装iOS15及更高版本或iPadOS15.1及更高版本后， 您可以使用“实况文本”来拷贝照片中的文本、将文本翻译成其他语言、拨打电话等等。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "您可以使用“实况文本”来拷贝照片中的文本、将文本翻译成其他语言、拨打电话等等。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哎呦我都没注意这个系统版本，要是没到这个版本能用吗",
+        "act": "verification",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "安装iOS15及更高版本或iPadOS15.1及更高版本后，"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不能您最好看一下没到的话就更新一下",
+        "act": "ans/no",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "您可以使用“实况文本”来拷贝照片中的文本、将文本翻译成其他语言、拨打电话等等。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那个就是你刚说的拨打电话是怎么个情况",
+        "act": "how",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "拨打电话或发送电子邮件"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "拨打电话或发送电子邮件: 首先，打开“照片”App并选择一张照片，或选择一张在线图像。 然后，轻点电话号码或电子邮件地址。再然后轻点“呼叫”或“发送信息”。根据照片、图像或网站的不同，您可能会看到拨打FaceTime通话或“添加到通讯录”的选项。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "拨打电话或发送电子邮件",
+            "打开“照片”App并选择一张照片，或选择一张在线图像。",
+            "轻点电话号码或电子邮件地址。",
+            "然后轻点“呼叫”或“发送信息”。根据照片、图像或网站的不同，您可能会看到拨打FaceTime通话或“添加到通讯录”的选项。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我复述一下看我记得对不对第一步就是打开“照片”App并选择一张照片，或选择一张在线图像对吧",
+        "act": "verification",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "打开“照片”App并选择一张照片，或选择一张在线图像。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的 ",
+        "act": "ans/yes",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "打开“照片”App并选择一张照片，或选择一张在线图像。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "就是还有最后一步是轻点“呼叫”或“发送信息”。根据照片、图像或网站的不同，您可能会看到拨打FaceTime通话或“添加到通讯录”的选项，对吧",
+        "act": "verification",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "然后轻点“呼叫”或“发送信息”。根据照片、图像或网站的不同，您可能会看到拨打FaceTime通话或“添加到通讯录”的选项。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "然后轻点“呼叫”或“发送信息”。根据照片、图像或网站的不同，您可能会看到拨打FaceTime通话或“添加到通讯录”的选项。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有就是使用实况文本这个具体是怎么样的",
+        "act": "how",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "使用“实况文本”获取照片和图像中的信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“实况文本”功能可以识别照片和在线图像中的信息，您只需轻点相应信息，就可以拨打电话、发送电子邮件或查询路线。另外，在“相机”App中，或是在“备忘录”或“提醒事项”等App中使用摄像头时，您也可以使用“实况文本”—将摄像头对准带有文本的照片或图像，然后轻点“实况文本”按钮。要为所有支持的语言打开“实况文本”，请按照以下步骤操作打开“设置”App；轻点“通用”；轻点“语言与地区”，然后打开“实况文本”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "“实况文本”功能可以识别照片和在线图像中的信息，您只需轻点相应信息，就可以拨打电话、发送电子邮件或查询路线。另外，在“相机”App中，或是在“备忘录”或“提醒事项”等App中使用摄像头时，您也可以使用“实况文本”—将摄像头对准带有文本的照片或图像，然后轻点“实况文本”按钮。",
+            "要为所有支持的语言打开“实况文本”，请按照以下步骤操作：",
+            "打开“设置”App。",
+            "轻点“通用”。",
+            "轻点“语言与地区”，然后打开“实况文本”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个对机型有要求吗",
+        "act": "verification",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "要使用“实况文本”，您需要装有iOS15或更高版本的iPhoneXS、iPhoneXR或更新机型。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要使用“实况文本”，您需要装有iOS15或更高版本的iPhoneXS、iPhoneXR或更新机型。还有一些苹果产品也可以使用“实况文本”这个您要了解吗",
+        "act": "verification",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "要使用“实况文本”，您需要装有iOS15或更高版本的iPhoneXS、iPhoneXR或更新机型。",
+            "在装有iPadOS15.1或更高版本的12.9英寸iPadPro（第3代）或更新机型、11英寸iPadPro（所有机型）、iPadAir（第3代）或更新机型、iPad（第8代）或更新机型以及iPadmini（第5代）或更新机型上，也可以使用“实况文本”。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的您都给说一下吧",
+        "act": "ans/yes",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "在装有iPadOS15.1或更高版本的12.9英寸iPadPro（第3代）或更新机型、11英寸iPadPro（所有机型）、iPadAir（第3代）或更新机型、iPad（第8代）或更新机型以及iPadmini（第5代）或更新机型上，也可以使用“实况文本”。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "在装有iPadOS15.1或更高版本的12.9英寸iPadPro（第3代）或更新机型、11英寸iPadPro（所有机型）、iPadAir（第3代）或更新机型、iPad（第8代）或更新机型以及iPadmini（第5代）或更新机型上，也可以使用“实况文本”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上拷贝和翻译照片中的文本.json",
+        "grounding": [
+            "在装有iPadOS15.1或更高版本的12.9英寸iPadPro（第3代）或更新机型、11英寸iPadPro（所有机型）、iPadAir（第3代）或更新机型、iPad（第8代）或更新机型以及iPadmini（第5代）或更新机型上，也可以使用“实况文本”。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

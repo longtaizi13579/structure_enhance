@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省绍兴市出境定居提取住房公积金的情况",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "公积金",
+            "公积金提取",
+            "出境定居提取住房公积金"
+        ],
+        "grounding_id": [
+            "T7",
+            "T208",
+            "T214",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道什么呢？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个是收费的吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "277"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那就好，别的信息咨询的话有没有其他途径",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪一个",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道咨询地址在哪",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果是死亡或者被宣告死亡提取住房公积金的话去哪里办呢？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "死亡或者被宣告死亡提取住房公积金",
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "1",
+            "124"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体地址为绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "具体地址",
+            "绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口"
+        ],
+        "grounding_id": [
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理的流程是怎么样的？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "271"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程一般为: 1.申请 2.受理 3.审查/审核 4.办结",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查/审核",
+            "办结"
+        ],
+        "grounding_id": [
+            "271",
+            "272",
+            "274",
+            "283",
+            "292"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请的话去哪里？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "272"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请人至中心网点提交申请材料，或在浙江政务服务网进行网上申报。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "申请人至中心网点提交申请材料，或在浙江政务服务网进行网上申报。"
+        ],
+        "grounding_id": [
+            "273"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "申请完就可以了是吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的，您还要满足一些条件才会受理，您需要了解吗？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "129",
+            "132"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "什么受理条件？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "职工死亡、被宣告死亡申请提取",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "职工死亡、被宣告死亡申请提取"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    }
+]

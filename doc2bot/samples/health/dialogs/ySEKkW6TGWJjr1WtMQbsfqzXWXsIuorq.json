@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "今天医生给我开了一些药，有的名字怎么很简单，有的为什么读都读不懂？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询的是药品的化学名，通用名和商品名的区别吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "些许药品名称知识可能有助于理解药品标签。每种药品都至少有三个名称——化学名、通用名（非专利名或正式名）、商品名（专用名或商标名）（请参见侧边栏）。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有什么区别？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "药物的化学名通常很复杂，一般官方机构向药品赋予的都是通用名。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "化学名表述药物的原子或分子结构。药物的化学名通常很复杂，且使用不便。故官方机构向药品赋予通用名。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "为什么我感冒去药店买药，有些药不卖？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "感冒药有很多种，您需要的是哪种？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "处方药—在医生监督下可安全使用的药物，须凭由政府批准的执业专科医生（如内科医生、牙科医生、足科医生、从业护士、医生助理或兽医）开具的处方才能获得。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我就买一些头孢拉定等消炎药，为什么都不卖？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "药店买不到的一般是处方药，处方药是需要在医生的监督下安全使用的药物。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "处方药—在医生监督下可安全使用的药物，须凭由政府批准的执业专科医生（如内科医生、牙科医生、足科医生、从业护士、医生助理或兽医）开具的处方才能获得。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我看有的消炎药不都一样的嘛，就名字难读些。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不同的消炎药，它的药效和成分比例是不同的，有些是不需要医生给予指定的用量。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那像三九感冒灵，这个名字就一目了然，知道是治感冒的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "三九感冒灵是商品名，商品名一般由生产或分销药品的制药公司选择，有的会用一些通俗易懂的名称。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "商品名由生产或分销药品的制药公司选择。获得专利的药物通常以商品名出售（品牌药）。在制药公司专利失效后生产的品牌药的仿制形式产品可以按通用名（例如）或按制造商自有商品名（例如Advil[雅维]）出售。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "三九感冒灵在药店就能买。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "药店能买的都是非处方药，买不到的就是处方药，要去医院。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "法律将药物分为处方药和非处方药两类。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "通过非官方渠道购买处方药违法吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "药品"
+        ],
+        "grounding_id": [
+            "T2894"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "违法，我国法律上有将药物分为处方药和非处方药。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物概述.json",
+        "grounding": [
+            "法律将药物分为处方药和非处方药两类。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

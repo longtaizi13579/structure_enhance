@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想投资一批进口的割草机设备进货到我开在浙江省宁波市的厂里，听说进口的机器要交税，我应该办理什么税务服务呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "税务服务",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T73",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请个国家鼓励项目免税确认的流程。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "帮我查下宁波市的线下办事点的地址在哪里呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体地址：宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）三楼基建帮办席位FB001-FB004",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "具体地址",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125",
+            "127"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理过程中如果对服务不满意可以投诉吗？投诉电话是？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，投诉电话是0574-12345。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，有没有他们的线下办事点的电话呢？我想先咨询下。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，咨询电是：0574-87185521。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "0574-87185521",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我办理完这个国家鼓励项目免税确认的申请后，大概多久可以通过。",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们需要审查和拜访厂详细情况，会法定办结时限的20个工作日内完成。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我在网上申请，里面有付费的地方我可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "391"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "现目前还不支持线上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "392"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我提交的申请你们多久可以看到并着手帮我处理？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们会在8个工作日内完成。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "8（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

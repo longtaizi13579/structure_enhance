@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下在iPhone或iPadPro上使用拟我表情的相关问题？",
+        "act": "what",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "在iPhone或iPadPro上使用拟我表情"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询创建拟我表情、如何在FaceTime通话中使用动态拟我表情、管理拟我表情还是其他？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "如何创建拟我表情"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解如何创建拟我表情？",
+        "act": "how",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "如何创建拟我表情"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“信息”并轻点“编写”按钮以开始编写新信息。或者选择一个已有的对话。然后轻点“拟我表情”按钮，然后向右轻扫并轻点“全新拟我表情”按钮，自定拟我表情的特性，例如肤色、发型、眼睛等。最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "打开“信息”并轻点“编写”按钮以开始编写新信息。或者选择一个已有的对话。",
+            "轻点“拟我表情”按钮，然后向右轻扫并轻点“全新拟我表情”按钮。",
+            "自定拟我表情的特性，例如肤色、发型、眼睛等。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，如何在FaceTime通话中使用动态拟我表情？",
+        "act": "how",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "如何在FaceTime通话中使用动态拟我表情"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体步骤：步骤1: 确保您拥有兼容的iPhone或iPadPro；步骤2: 打开FaceTime通话并拨打电话；步骤3: 当通话开始时，轻点“效果”按钮；步骤4: 轻点您想要使用的拟我表情；步骤5: 使用您自定的拟我表情继续进行FaceTime通话。",
+        "act": "ans/open",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "具体步骤",
+            "确保您拥有兼容的iPhone或iPadPro。",
+            "打开FaceTime通话并拨打电话。",
+            "当通话开始时，轻点“效果”按钮。",
+            "轻点您想要使用的拟我表情。",
+            "使用您自定的拟我表情继续进行FaceTime通话。或者轻点“关闭”按钮，以继续通话而不使用拟我表情或回到FaceTime通话菜单。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "31",
+            "35",
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "步骤5还有其他什么方法？",
+        "act": "what",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "使用您自定的拟我表情继续进行FaceTime通话。或者轻点“关闭”按钮，以继续通话而不使用拟我表情或回到FaceTime通话菜单。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还可以轻点“关闭”按钮，以继续通话而不使用拟我表情或回到FaceTime通话菜单。",
+        "act": "ans/open",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "使用您自定的拟我表情继续进行FaceTime通话。或者轻点“关闭”按钮，以继续通话而不使用拟我表情或回到FaceTime通话菜单。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "对于我已经创建的拟我表情，可以进行复制或者删除吗？",
+        "act": "verification",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "管理拟我表情",
+            "想要更改您已创建的拟我表情？您可以编辑特性，复制现有拟我表情但使用新特性，或者删除拟我表情。"
+        ],
+        "grounding_id": [
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以编辑特性，复制现有拟我表情但使用新特性，或者删除拟我表情。",
+        "act": "ans/yes",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "想要更改您已创建的拟我表情？您可以编辑特性，复制现有拟我表情但使用新特性，或者删除拟我表情。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "具体如何操作呢？",
+        "act": "how",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "想要更改您已创建的拟我表情？您可以编辑特性，复制现有拟我表情但使用新特性，或者删除拟我表情。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先 打开“信息”并轻点“编写”按钮以开始编写新信息。或者选择一个已有的对话。然后轻点“拟我表情”按钮或“拟我表情贴纸”按钮，选择所需的拟我表情。最后轻点“更多”按钮。然后选取“编辑”、“复制”或“删除”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPadPro上使用拟我表情.json",
+        "grounding": [
+            "打开“信息”并轻点“编写”按钮以开始编写新信息。或者选择一个已有的对话。",
+            "轻点“拟我表情”按钮或“拟我表情贴纸”按钮，然后选择所需的拟我表情。",
+            "轻点“更多”按钮。然后选取“编辑”、“复制”或“删除”。"
+        ],
+        "grounding_id": [
+            "41",
+            "42",
+            "43"
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下我想在我的AppleTV下一些使用的软件，该怎么操作？",
+        "act": "how",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "在AppleTV上下载App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您首先打开AppStoreApp。 然后浏览或搜索您要下载的App。 选择价格或“获取”按钮。如果您看到的是“打开”按钮，而不是价格或“获取”按钮，说明这个App已经下载过。",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "具体步骤",
+            "打开AppStoreApp。",
+            "浏览或搜索您要下载的App。",
+            "选择价格或“获取”按钮。如果您看到的是“打开”按钮，而不是价格或“获取”按钮，说明这个App已经下载过。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这些软件会下载到哪里，可以调整吗？",
+        "act": "verification",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "App会显示在主屏幕上。您可以在主屏幕上移动App，也可以隐藏App。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这些App会显示在主屏幕上。您可以在主屏幕上移动App，也可以隐藏App。",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "如何查找您购买的App",
+            "App会显示在主屏幕上。您可以在主屏幕上移动App，也可以隐藏App。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我该从哪里下载APP呢？",
+        "act": "where",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "您可以从AppleTV上的AppStore下载App和游戏。如果您使用的是AppleTV（第3代），则只能更新内建App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您是AppleTV第几代呢？",
+        "act": "question/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "您可以从AppleTV上的AppStore下载App和游戏。如果您使用的是AppleTV（第3代），则只能更新内建App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "应该是第三代",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "您可以从AppleTV上的AppStore下载App和游戏。如果您使用的是AppleTV（第3代），则只能更新内建App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以从AppleTV上的AppStore下载App和游戏。但如果您使用的是AppleTV（第3代），只能更新内建App。",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "在AppleTV上下载App",
+            "您可以从AppleTV上的AppStore下载App和游戏。如果您使用的是AppleTV（第3代），则只能更新内建App。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    }
+]

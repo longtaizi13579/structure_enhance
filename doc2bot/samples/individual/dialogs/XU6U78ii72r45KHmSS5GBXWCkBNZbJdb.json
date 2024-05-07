@@ -1,0 +1,230 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，是浙江省宁波市的，想咨询下公积金的问题？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T10",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解个体工商户、自由职业者住房公积金缴存登记，还是个人住房公积金账户转移？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下个体工商户、自由职业者住房公积金缴存登记，是否支持自助办理？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "个体工商户、自由职业者住房公积金缴存登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "正常情况，几天能办完？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限为20（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理方式都有哪些？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前的办理形式有：网上申请和现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能不能通过网上支付？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "个体工商户、自由职业者住房公积金缴存登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "231"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程：步骤1: 申请 步骤2: 受理 步骤3: 审查/审核 步骤4: 办结",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查/审核",
+            "办结"
+        ],
+        "grounding_id": [
+            "231",
+            "232",
+            "234",
+            "243",
+            "252"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "审查标准是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "审查标准"
+        ],
+        "grounding_id": [
+            "257"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据审核情况，做出予以办结或不予以办结的决定。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "根据审核情况，做出予以办结或不予以办结的决定。"
+        ],
+        "grounding_id": [
+            "258"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "正常情况下，几天能办完？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限为20（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    }
+]

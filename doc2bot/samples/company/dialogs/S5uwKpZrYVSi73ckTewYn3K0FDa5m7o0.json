@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我打算开一家餐饮店，想要了解一下浙江舟山这边办理卫生许可证的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "办理流程",
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "1",
+            "1706",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "办理流程是1.申请 2.受理 3.审查 4.决定 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "1706",
+            "1707",
+            "1709",
+            "1718",
+            "1727",
+            "1736"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，我还有一些关于办理卫生许可证的问题想要了解，我可以怎样咨询一下呢？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边有咨询电话和咨询地址，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "麻烦和我说一下咨询的地址在哪里吧？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址在舟山市定海区千岛街道翁山路530号舟山市卫生健康委员会",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "舟山市定海区千岛街道翁山路530号舟山市卫生健康委员会"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，麻烦咨询电话也告诉我一下是多少，谢谢",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询电话是0580-2034302",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0580-2034302"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，还有办理地方的工作人员上班时间是什么时候呢？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理的时间在8:30-12:00；下午：2:00-5:00。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定工作日上午：8:30-12:00；下午：2:00-5:00。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我还想了解一下这个设立的依据是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1742"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "设立依据包括公共场所卫生管理条例和公共场所卫生管理条例实施细则",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "设定依据",
+            "公共场所卫生管理条例",
+            "公共场所卫生管理条例实施细则"
+        ],
+        "grounding_id": [
+            "1742",
+            "1743",
+            "1752"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那我办理这个大概要多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是问法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个法定办结时限是多久的呢？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日的",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

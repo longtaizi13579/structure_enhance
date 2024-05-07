@@ -1,0 +1,306 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，iPhone里查找App里面“遗落时通知”有什么用？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我可以设置不接受通知吗？",
+        "act": "verification",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以。您可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。",
+        "act": "ans/yes",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，在iPhone上使用“照片”中的“人物”相簿的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解：修正混淆的名字和面孔，使用“人物”相簿中的“减少出现” ，运作方式，合并同一个人的照片，更改缩略图照片，还是其它？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "修正混淆的名字和面孔"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "修正混淆的名字和面孔是什么意思？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "修正混淆的名字和面孔"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您发现照片集中有识别错的某个人的照片，可以将它移除。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "如果您发现照片集中有识别错的某个人的照片，可以将它移除。具体操作如下："
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "具体操作方法是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "如果您发现照片集中有识别错的某个人的照片，可以将它移除。具体操作如下："
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体操作如下：: 首先，在“人物”相簿中，轻点这个人。 然后，轻点“选择”，然后轻点“显示面孔”，以使每张照片都聚焦到这个人的面孔。 接着，轻点不是这个人的每一张照片。 最后，轻点“共享”按钮，然后轻点“这不是[名字]”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "如果您发现照片集中有识别错的某个人的照片，可以将它移除。具体操作如下：",
+            "在“人物”相簿中，轻点这个人。",
+            "轻点“选择”，然后轻点“显示面孔”，以使每张照片都聚焦到这个人的面孔。",
+            "轻点不是这个人的每一张照片。",
+            "轻点“共享”按钮，然后轻点“这不是[名字]”。"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "使用“人物”相簿中的“减少出现”指的是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "使用“人物”相簿中的“减少出现”"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iOS14和更高版本中，您可以让“照片”App降低推荐某些人物的频率。这会调整“照片”App整理“回忆”、“精选照片”以及“照片”小组件中所显示照片的方式，从而减少您看到这些人物的照片的机会。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iOS14和更高版本中，您可以让“照片”App降低推荐某些人物的频率。这会调整“照片”App整理“回忆”、“精选照片”以及“照片”小组件中所显示照片的方式，从而减少您看到这些人物的照片的机会。具体操作如下："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果您选择减少出现某人后，怎么才能在相薄中再次看到这个人？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "如果您选择减少出现某人，",
+            "则您必须重置“回忆”设置才能在“人物”相簿中再次看到这个人。前往“设置”>“照片”，轻点“还原已建议的回忆”，然后轻点“还原”以确认。"
+        ],
+        "grounding_id": [
+            "34",
+            "51"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您选择减少出现某人，则您必须重置“回忆”设置才能在“人物”相簿中再次看到这个人。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "如果您选择减少出现某人，",
+            "则您必须重置“回忆”设置才能在“人物”相簿中再次看到这个人。前往“设置”>“照片”，轻点“还原已建议的回忆”，然后轻点“还原”以确认。"
+        ],
+        "grounding_id": [
+            "34",
+            "51"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "具体怎么操作？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "则您必须重置“回忆”设置才能在“人物”相簿中再次看到这个人。前往“设置”>“照片”，轻点“还原已建议的回忆”，然后轻点“还原”以确认。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "前往“设置”>“照片”，轻点“还原已建议的回忆”，然后轻点“还原”以确认。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "则您必须重置“回忆”设置才能在“人物”相簿中再次看到这个人。前往“设置”>“照片”，轻点“还原已建议的回忆”，然后轻点“还原”以确认。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "“照片”中的“人物”相簿有什么用？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "合并同一个人的照片是什么意思？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "合并同一个人的照片"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "有时，系统会在“人物”相簿的多个群组中识别出同一个人，可以所有照片合并到一个组中。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "有时，系统会在“人物”相簿的多个群组中识别出同一个人。要将所有照片合并到一个组中："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "具体怎么操作？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "有时，系统会在“人物”相簿的多个群组中识别出同一个人。要将所有照片合并到一个组中："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "首先，前往“人物”相簿，并轻点“选择”。然后，选择要合并的人物。 接着，轻点屏幕底部附近的“合并”。 最后，轻点“是”以确认合并。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "前往“人物”相簿，并轻点“选择”。",
+            "选择要合并的人物。",
+            "轻点屏幕底部附近的“合并”。",
+            "轻点“是”以确认合并。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ]
+    }
+]

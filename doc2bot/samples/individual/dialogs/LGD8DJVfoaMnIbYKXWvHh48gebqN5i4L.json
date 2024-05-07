@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T10",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "赴台探亲签注的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "常用服务",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "T269",
+            "9987"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "9988",
+            "9990",
+            "9999",
+            "10008",
+            "10014"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "制证签发这一步的办理时限是多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "制证签发",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "10008",
+            "10010"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "2个工作日",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "10011"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果我还想咨询其他问题，有几种咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询地址告诉我一下吧。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "宁波市鄞州区宁穿路1901号D2001号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "宁波市鄞州区宁穿路1901号D2001号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "工作日上午：9：00—12：00；下午：13：30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "工作日上午：9：00—12：00；下午：13：30—17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

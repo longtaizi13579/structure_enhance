@@ -1,0 +1,370 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省嘉兴市接触机动车质押的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "浙江省_嘉兴市",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "T11",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工作日的8：30——17：00，周六上午8：30—12：00；下午2：00—5：00",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "工作日：8：30——17：00，周六上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我可以知道这项业务的设定依据吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "设定依据",
+            "依据文号"
+        ],
+        "grounding_id": [
+            "294",
+            "298"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "设定依据为机动车登记规定（公安部124号令）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车登记规定（公安部124号令）",
+            "公安部第124号令"
+        ],
+        "grounding_id": [
+            "295",
+            "299"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，申请的话是本人去就可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，申请办理机动车质押备案或者解除质押备案的，由机动车所有人和典当行共同申请。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "申请办理机动车质押备案或者解除质押备案的，由机动车所有人和典当行共同申请。"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果车目前是被查封的话可以申请吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的不予办理解除质押备案",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "有下列情形之一的，不予办理解除质押备案：",
+            "2.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的。"
+        ],
+        "grounding_id": [
+            "143",
+            "318"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，如果我还想知道别的相关信息的话应该通过什么途径呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话、咨询地址、咨询网址，请问你需要我为您提供哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道咨询的地点在哪儿？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那我可以知道申请的流程是什么样的吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "258"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "258",
+            "259",
+            "261",
+            "270",
+            "279",
+            "288"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那是只要提交申请就会受理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "259",
+            "261",
+            "268"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的，决定受理与否，如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那我还想知道审核的一些情况",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "审核"
+        ],
+        "grounding_id": [
+            "270"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "请问您是想知道办理时限、审批标准还是办理结果呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理时限",
+            "审批标准",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "271",
+            "275",
+            "277"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想知道办理结果是怎么通知的呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "277"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "申请材料齐全、符合法定形式的，予以办理。申请材料不齐全或者不符合法定形式的，当场告知申请人需要补正的全部内容。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "277"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那制证的时候是还需要审核吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "制证",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "279",
+            "284"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "是的，对材料齐全、符合法定形式的申请，办理业务，签注登记证书",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "对材料齐全、符合法定形式的申请，办理业务，签注登记证书"
+        ],
+        "grounding_id": [
+            "285"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那办理这个是收费的吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "最后的结果什么时候能送到呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

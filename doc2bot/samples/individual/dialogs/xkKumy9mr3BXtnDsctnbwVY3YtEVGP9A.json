@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下在浙江省湖州市办理失业补助领取的话要多久？  ",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "浙江省_湖州市",
+            "失业补助金申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T13",
+            "T13",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "从受理之日算起，法定办结时限是5个工作日",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如果审核过了，多久能够收到申领通知？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个的话一个工作日内就可以收到通知的",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "啊，那要将近一个周呢，能否提前个一两天呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，这个不行的，承诺办理时限最快也是5个工作日哦",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样啊，那行吧，那这个补助金的话我可以怎么去申请呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以网上申请、现场窗口申请和现场自助机申请的",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那申请下来以后，可以去自助机器上领取吗？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，您可以到相关网点的自助机上领取的",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，谢谢，那我过段时间要搬去别的地方，是不是要申请失业关系转移啊？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，需要办理失业保险关系转移申请的，这个承诺您5个工作日可以办好。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我担心到时候关系转好了，我还没搬走，这个期限可以延长吗",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

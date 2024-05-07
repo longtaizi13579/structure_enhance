@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省金华市，想要咨询关于行驶证驾驶证的相关问题。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "浙江省_金华市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T6",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想要询问行驶驾驶、拖拉机、联合收割机操作人员驾驶证转出省外换证还是大中型客货车实习期满考试的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证省外转入换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道拖拉机、联合收割机操作人员驾驶证省外转入换证的办理可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证省外转入换证",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "393"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "抱歉，我们系统不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "394"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那拖拉机、联合收割机操作人员驾驶证省外转入换证办理费用是怎么规定的。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证省外转入换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想要询问收费标准还是想要确认办理流程是否收费呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "388",
+            "389"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道整个手续办下来一共需要多少费用。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "389"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理手续是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "390"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我要去哪里办理呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的办理地点是金华市行政服务中心二楼公安专区。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点",
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安专区C03-C26窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询换领机动车驾驶证的相关信息需要去哪里呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询地址是金华市交警支队车管所。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "除了直接去现场，有没有电话咨询的方式。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的咨询电话是0579-88900000、0579-82082501、0579-82461652。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话",
+            "0579-88900000、0579-82082501、0579-82461652"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那办理达到规定年龄换领机动车驾驶证的相关费用，可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "359"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以，我们支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "360"
+        ]
+    }
+]

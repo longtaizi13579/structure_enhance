@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我是绍兴的，我想知道这个出口免税证明是那个部门发的呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "补办出口退（免）税证明",
+            "来源渠道",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "139",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，是税务机关发的，您是想要办理相关的业务吗？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "政府部门核发，来源渠道：税务机关"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我想补办这个免税证明。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "补办出口退（免）税证明"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那请问您是想要了解报名材料的类型、形式、规格、还是必要性呢？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "来源渠道",
+            "材料类型",
+            "材料形式",
+            "纸质材料份数",
+            "纸质材料规格",
+            "材料必要性"
+        ],
+        "grounding_id": [
+            "139",
+            "141",
+            "143",
+            "145",
+            "147",
+            "149"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道这些那些报名材料都是必要的吗？我有的找不到了，万一你们不受理了怎么办？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "申报材料",
+            "材料必要性"
+        ],
+        "grounding_id": [
+            "136",
+            "149"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有一些材料是不必要的，然后我们的受理标准是材料要齐全才能办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "非必要",
+            "受理标准",
+            "申请人提交资料齐全的，主管税务机关应当按规定当场受理；资料不齐全的，主管税务机关不予受理，并一次性告知申请人应补正内容。"
+        ],
+        "grounding_id": [
+            "150",
+            "151",
+            "152"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，我后面去查查要哪些材料，我还想是不是不可以网上支付哇，我看到好多这种业务都是不接受的，不知道你们是不是？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "218"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不支持的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "219"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行，那我后面跑一趟去交。如果我要投诉怎么办？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想要现场投诉还是电话投诉呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我个电话吧，跑过去太累了。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好，投诉电话是0575-85228655。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "投诉电话",
+            "0575-85228655"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    }
+]

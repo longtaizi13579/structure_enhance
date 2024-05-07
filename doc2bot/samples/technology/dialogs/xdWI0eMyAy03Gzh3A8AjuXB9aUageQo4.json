@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一些关于AirPods的一些问题",
+        "act": "what",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问如何查找型号、据型号识别您的AirPods 还是识别您的充电盒",
+        "act": "multiple-choice",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "查找型号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何查到我AirPods的型号",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "查找型号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好，您需要前往“设置”>“蓝牙”*。然后在列表中找到您的AirPods（例如，“John的AirPods”）。轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“蓝牙”*。",
+            "在列表中找到您的AirPods（例如，“John的AirPods”）。",
+            "轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是不好使啊，还有没有别的办法？",
+        "act": "verification",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "查找型号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您的设备运行的不是iOS14或iPadOS14或更高版本，并且您的AirPods已连接到您的设备，那么可以通过以下方法来查找型号：前往“设置”>“通用”>“关于本机”，向下滚动直至看到您AirPods的名称，然后轻点这个名称就可以了。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "*如果您的设备运行的不是iOS14或iPadOS14或更高版本，并且您的AirPods已连接到您的设备，那么可以通过以下方法来查找型号：前往“设置”>“通用”>“关于本机”，向下滚动直至看到您AirPods的名称，然后轻点这个名称。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，我了解了，我想买AppleTVRemote我有点犹豫，你给我介绍一下",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解AppleTVRemote第几代",
+        "act": "question/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "第一代吧",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "AppleTVRemote（第1代）具有黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）",
+            "描述：黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：AppleTV4K和AppleTVHD序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个第一代遥控器怎么与AppleTV连接的？",
+        "act": "how",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：SiriRemote（第1代）或AppleTVRemote（第1代）随附于AppleTV4K（第1代）和AppleTVHD*，并配备触控表面，供进行触控浏览。这款遥控器使用蓝牙4.0与AppleTV通信，并使用红外线技术来控制其他设备。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这款遥控器使用蓝牙4.0与AppleTV通信，并使用红外线技术来控制其他设备。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：SiriRemote（第1代）或AppleTVRemote（第1代）随附于AppleTV4K（第1代）和AppleTVHD*，并配备触控表面，供进行触控浏览。这款遥控器使用蓝牙4.0与AppleTV通信，并使用红外线技术来控制其他设备。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "行，明白了，我还想问AppleUSB-C数字影音多端口转换器这边的问题",
+        "act": "what",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "关于AppleUSB-C数字影音多端口转换器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你是想了解视频、据传输以及为其他设备充电、还是为Mac或iPadPro充电",
+        "act": "multiple-choice",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "视频"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "视频这方面，这个转换器适配的最新机型是哪个？兼容显示屏吗?",
+        "act": "verification",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "视频",
+            "A2119型号是这款转换器的最新机型。它在与macOSMojave10.14.6或更高版本或者iOS12.4或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI2.0。在连接到兼容的播放设备和显示屏、电视机或投影仪时，它还支持HDR10和杜比视界格式的HDR视频。"
+        ],
+        "grounding_id": [
+            "16",
+            "20"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "A2119型号是这款转换器的最新机型。在连接到兼容的播放设备和显示屏、电视机或投影仪时，它支持HDR10和杜比视界格式的HDR视频。",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "A2119型号是这款转换器的最新机型。它在与macOSMojave10.14.6或更高版本或者iOS12.4或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI2.0。在连接到兼容的播放设备和显示屏、电视机或投影仪时，它还支持HDR10和杜比视界格式的HDR视频。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江省舟山市港澳探亲签注的一些情况",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "T9",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道什么呢？",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是否支持网上支付",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "4415"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "支持的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "4416"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那收费的标准是根据什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "4419"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "根据国家发展和改革委员会、财政部发改价格914号和1186号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格[2019]914号、[2017]1186号：香港、澳门探亲一次有效签注15元/件；短期（不超过一年）多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "4420"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那是怎么收费的啊？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "4419"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您说的是一次有效签注还是短期（不超过一年）多次有效签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格[2019]914号、[2017]1186号：香港、澳门探亲一次有效签注15元/件；短期（不超过一年）多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "4420"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "短期（不超过一年）多次有效签注",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费标准",
+            "国家发展和改革委员会、财政部发改价格[2019]914号、[2017]1186号：香港、澳门探亲一次有效签注15元/件；短期（不超过一年）多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "4419",
+            "4420"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "80元/件",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格[2019]914号、[2017]1186号：香港、澳门探亲一次有效签注15元/件；短期（不超过一年）多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "4420"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那大概多久可以办结？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

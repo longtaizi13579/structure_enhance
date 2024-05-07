@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于将显示屏连接到Mac的相关问题？",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "将显示屏连接到Mac"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解可连接的显示屏数量，连接显示屏，还是使用“隔空播放”？",
+        "act": "multiple-choice",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下可连接的显示屏数量。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据Mac机型，您可以连接一台或多台外置显示屏。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "根据Mac机型，您可以连接一台或多台外置显示屏。要了解Mac支持的外置显示屏数量，请查看它的技术规格页面："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何查询Mac支持的外置显示屏的具体数量？",
+        "act": "how",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "根据Mac机型，您可以连接一台或多台外置显示屏。要了解Mac支持的外置显示屏数量，请查看它的技术规格页面："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "操作步骤：1: 选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。2: 前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。3: 点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果使用的是搭载Apple芯片的Mac电脑，最多可以连接几台显示屏？",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "搭载Apple芯片的Mac电脑",
+            "搭载Apple芯片的Mac电脑可以连接最多5台显示屏，具体取决于Mac上所用的芯片。要了解您的Mac搭载哪种芯片，请选取苹果菜单>“关于本机”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "搭载Apple芯片的Mac电脑可以连接最多5台显示屏，具体取决于Mac上所用的芯片。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "搭载Apple芯片的Mac电脑可以连接最多5台显示屏，具体取决于Mac上所用的芯片。要了解您的Mac搭载哪种芯片，请选取苹果菜单>“关于本机”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果使用的是搭载M1Max的Mac，可以连接几台显示屏？",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1Max的Mac："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在MacBookPro上，您可以使用雷雳4(USB-C)端口和HDMI端口，将最多四台外置显示屏连接到您的Mac。在MacStudio上，您可以使用电脑背面的雷雳4(USB-C)端口和HDMI端口，将最多五台外置显示屏连接到您的Mac。[17]",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "在MacBookPro上，您可以使用雷雳4(USB-C)端口和HDMI端口，将最多四台外置显示屏连接到您的Mac。",
+            "在MacStudio上，您可以使用电脑背面的雷雳4(USB-C)端口和HDMI端口，将最多五台外置显示屏连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果使用的是搭载M1Pro的Mac，可以连接几台显示屏？",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1Pro的Mac："
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以使用雷雳4(USB-C)端口和HDMI端口，将最多两台外置显示屏连接到您的Mac。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "您可以使用雷雳4(USB-C)端口和HDMI端口，将最多两台外置显示屏连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

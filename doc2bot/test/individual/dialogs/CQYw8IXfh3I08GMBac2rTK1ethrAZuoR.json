@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省嘉兴市这边想把我的车质押备案，想要了解一下关于这方面的信息，可以怎样了解呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "T11",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边有咨询电话和咨询地址，你需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询电话是0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，有的问题电话会了解不清楚，咨询地址在什么地方呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址在嘉兴市南湖区余新镇南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—8号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "嘉兴市南湖区余新镇南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—8号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，那办理地方的工作人员都是什么时间办理的呀？我抽空去一下",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理时间在工作日：8：30——17：00，周六上午8：30—12：00；下午2：00—5：00",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "工作日：8：30——17：00，周六上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "和我的上班时间有冲突啊，那我可以在那边的自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你的意思是否可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以的，不支持自助终端办理的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "行吧，那我请假吧，那办理要交的费用可以在网上交吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "315"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个也不可以的，不支持网上支付的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好吧好吧，那我办理可以怎样申请呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "你可以网上申请或者现场窗口申请的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是不是所有的机动车都可以质押备案",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不是的，如果有下列情形之一的，是不予办理质押备案的\n1.机动车所有人提交的证明、凭证无效的；\n2.机动车达到国家规定的强制报废标准的；\n3.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；\n4.机动车属于被盗抢的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "有下列情形之一的，不予办理质押备案：",
+            "4.机动车属于被盗抢的。",
+            "3.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；",
+            "2.机动车达到国家规定的强制报废标准的；",
+            "1.机动车所有人提交的证明、凭证无效的；"
+        ],
+        "grounding_id": [
+            "143",
+            "324",
+            "323",
+            "322",
+            "321"
+        ]
+    }
+]

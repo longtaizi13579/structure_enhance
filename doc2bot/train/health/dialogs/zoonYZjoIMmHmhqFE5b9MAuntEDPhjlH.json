@@ -1,0 +1,191 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我哥皮肤最近很不好，去医院医生说是一种叫胡须癣的皮肤病，我想了解一下关于胡须癣的相关信息。",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）",
+            "皮肤病"
+        ],
+        "grounding_id": [
+            "1",
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解关于胡须癣的治疗、症状、诊断还是相关其他方面的呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）",
+            "胡须癣的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我先了解一下关于这个胡须癣的治疗方法吧",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）",
+            "胡须癣的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "医院的医生有说这个胡须癣可以怎么治疗的吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）",
+            "胡须癣的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有说先让口服那个什么药物治疗",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣的治疗",
+            "治疗方法主要有：",
+            "口服抗真菌药物"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "嗯，可以口服抗真菌药物治疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "治疗方法主要有：",
+            "口服抗真菌药物"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那除此之外还有别的治疗的方法吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣的治疗"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还有一个治疗方法就是有时也会用皮质类固醇进行治疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "治疗方法主要有：",
+            "有时用皮质类固醇"
+        ],
+        "grounding_id": [
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，谢谢，我还想了解一下这个胡须癣是什么，怎么导致的呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "胡须癣又叫须癣是一种的皮肤癣菌病，，通常是须毛癣菌或疣状毛癣菌导致的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "胡须癣（须癣）",
+            "须癣是一种皮肤癣菌病。通常是须毛癣菌或疣状毛癣菌导致的。"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "您对这个皮肤癣菌病是否有过了解呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "皮肤癣菌病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "user",
+        "utterance": "了解的不是很多，麻烦讲解一下",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "皮肤癣菌病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "皮肤癣菌病是皮肤和甲的真菌感染，因多种不同的真菌引起，按照在身体上发生的位置分类。皮肤癣菌感染也被称为环癣或癣。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤真菌感染_胡须癣（须癣）.json",
+        "grounding": [
+            "皮肤癣菌病",
+            "皮肤癣菌病是皮肤和甲的真菌感染，因多种不同的真菌引起，按照在身体上发生的位置分类。皮肤癣菌感染也被称为环癣或癣。"
+        ],
+        "grounding_id": [
+            "10",
+            "24"
+        ]
+    }
+]

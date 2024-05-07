@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "解决Compressor中的问题,该怎么办？",
+        "act": "how",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "解决Compressor中的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": ".断开外部设备的连接？或者.重新启动Mac？或者检查系统要求等，你想要了解哪一种？",
+        "act": "multiple-choice",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "2.断开外部设备的连接"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "断开外部设备的连接",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "2.断开外部设备的连接"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有时，不兼容或出现故障的外部设备可能会导致Compressor出现问题。要测试外部设备，请进行以下操作",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "有时，不兼容或出现故障的外部设备可能会导致Compressor出现问题。要测试外部设备，请进行以下操作："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体怎么做呢？",
+        "act": "how",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "有时，不兼容或出现故障的外部设备可能会导致Compressor出现问题。要测试外部设备，请进行以下操作："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先将Mac关机。 其次断开除键盘和鼠标之外的所有外部设备的连接。 再次重置NVRAM。您只需在第一次断开外部设备的连接时进行此操作。 最后打开Compressor，并尝试重现问题。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开除键盘和鼠标之外的所有外部设备的连接。",
+            "重置NVRAM。您只需在第一次断开外部设备的连接时进行此操作。",
+            "打开Compressor，并尝试重现问题。如果问题不再出现，则逐个重新连接设备，直至您可以重现问题。如果设备要求在重新连接后重新启动Mac，请确保照做。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果问题不再出现呢？",
+        "act": "how",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "打开Compressor，并尝试重现问题。如果问题不再出现，则逐个重新连接设备，直至您可以重现问题。如果设备要求在重新连接后重新启动Mac，请确保照做。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果问题不再出现，则逐个重新连接设备，直至您可以重现问题。如果设备要求在重新连接后重新启动Mac，请确保照做。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "打开Compressor，并尝试重现问题。如果问题不再出现，则逐个重新连接设备，直至您可以重现问题。如果设备要求在重新连接后重新启动Mac，请确保照做。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "重新启动Mac有什么作用？",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "建议列出的顺序操作前，需要做什么？",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "请按照以下建议列出的顺序操作，直至您查明或解决问题。操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "请按照以下建议列出的顺序操作，直至您查明或解决问题。操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "检查系统要求是什么？",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "4.检查系统要求"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "确保您的电脑满足Compressor系统要求。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "确保您的电脑满足Compressor系统要求。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果出现“检测到ApplePay问题”这条信息，可以使用ApplePay或“钱包”进行支付或通行吗？",
+        "act": "verification",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "则您必须先在设备上重新安装iOS或iPadOS，然后才能使用ApplePay或“钱包”进行支付或通行。某些“钱包”凭证可能在无法进行支付时仍然可用。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的。您必须先在设备上重新安装iOS或iPadOS，然后才能使用ApplePay或“钱包”进行支付或通行。某些“钱包”凭证可能在无法进行支付时仍然可用。",
+        "act": "ans/no",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "则您必须先在设备上重新安装iOS或iPadOS，然后才能使用ApplePay或“钱包”进行支付或通行。某些“钱包”凭证可能在无法进行支付时仍然可用。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

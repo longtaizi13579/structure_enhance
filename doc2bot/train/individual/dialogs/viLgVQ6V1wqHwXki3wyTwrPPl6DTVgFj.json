@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下这个公积金的事提取公积金",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "公积金",
+            "公积金提取"
+        ],
+        "grounding_id": [
+            "T208",
+            "T214"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您是在哪个省市缴纳公积金的",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "啊，浙江绍兴市，是这样缴纳公积金的人如果已经不在世了，想提取公积金有什么咨询方式吗",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "死亡或者被宣告死亡提取住房公积金",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "帮您查询了一下，有三种方式，一咨询电话二咨询地址三咨询网址您需要哪一个",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "地址是在哪呀",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "地址是浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那电话咨询电话你也说一下吧",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的您记一下0575-12329",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "0575-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯办这个提取公积金支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那这个一般多久能办好呀",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限3（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那这个都有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，因为我老家是浙江省台州市，我的户口簿上有曾用名，我的护照无法使用了，我该办理什么业务呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以办理个护照加注的申请流程。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有没有客服电话呢？我想打电话问下。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，电话是0576-12345、0576-88212219",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0576-12345、0576-88212219"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我办理的这个护照加注业务收取费用吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "不收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1586"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是不收费的哦。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1586"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果后面有收费的项目，可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1589"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前不支持网上支付哦，这个业务是不会收取费用的哦，您可以放心。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1590"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，好的，那我该怎么申请呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "1544"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "1545"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我申请成功后必须要马上去办理吗？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个是有办理时限的，承诺办结时限 7个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我办理成功后，什么时候可以拿呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "送达时限是自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理这个大概要多久才办的成功啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

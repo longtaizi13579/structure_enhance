@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的Mac上有多个macOS版本，会不会影响我的使用啊？主要是怕数据丢失。",
+        "act": "verification",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请备份您的Mac，尤其是当您计划安装Beta版macOS时。Beta版软件是仍在开发中的软件，因此某些App和服务可能无法按预期方式工作。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "请备份您的Mac，尤其是当您计划安装Beta版macOS时。Beta版软件是仍在开发中的软件，因此某些App和服务可能无法按预期方式工作。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如果我是安装在新卷宗上呢，还会有问题吗？",
+        "act": "what",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是说您在新卷宗上安装macOS吗？",
+        "act": "verification",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在新宗卷上安装兼容的macOS"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，可以安装吗？",
+        "act": "ans/yes",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在新宗卷上安装兼容的macOS"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您要安装的macOS与您的Mac兼容，您可以将这个macOS安装到新宗卷上。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "如果您要安装的macOS与您的Mac兼容，您可以将这个macOS安装到新宗卷上。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，请问我在安装时要怎么找到新卷宗呢？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在新宗卷上安装兼容的macOS"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当安装器打开并要求您选取安装位置时，请点按“显示所有磁盘”，选择新宗卷，然后继续操作。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "当安装器打开并要求您选取安装位置时，请点按“显示所有磁盘”，选择新宗卷，然后继续操作。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，安装之后操作方便吗？",
+        "act": "what",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是指启动新卷宗上的系统吗？",
+        "act": "verification",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，安装好之后启动macOS会不会比较麻烦？",
+        "act": "verification",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您在内建启动磁盘的新宗卷上安装兼容的macOS，则Mac可以从任一宗卷启动。这样就能轻松使用较新的macOS，同时保留之前安装且软件可能需要使用的macOS。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "如果您在内建启动磁盘的新宗卷上安装兼容的macOS，则Mac可以从任一宗卷启动。这样就能轻松使用较新的macOS，同时保留之前安装且软件可能需要使用的macOS。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那在多个版本之间切换呢？要怎么操作啊？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在macOS版本之间切换"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要在已安装的macOS版本之间切换，只需从另一个宗卷启动Mac。您可以通过更改Mac启动磁盘来完成这一操作。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要在已安装的macOS版本之间切换，只需从另一个宗卷启动Mac。您可以通过更改Mac启动磁盘来完成这一操作。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

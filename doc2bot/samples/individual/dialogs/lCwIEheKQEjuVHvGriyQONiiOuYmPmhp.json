@@ -1,0 +1,484 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T11",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车业务的有关问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车在车辆管理所管辖区域内转移登记、机动车灭失注销登记、机动车解除抵押登记还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询机动车在车辆管理所管辖区域内转移登记这个业务的费用问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "1116"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1124"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "收费项目名称是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1124"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "1 摩托车反光号牌、2 机动车登记证书、3 挂车反光号牌、4 机动车行驶证、5 机动车临时号牌、6 汽车反光号牌都需要收费。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5\t机动车临时号牌"
+        ],
+        "grounding_id": [
+            "1161"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "机动车临时号牌多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5\t机动车临时号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1161",
+            "1162"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "5元/张",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "1163"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想咨询一下进口机动车注册登记费用的有关问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "4970"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "4979"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "收费项目都有什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "4979"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "1 摩托车反光号牌、2 机动车登记证书、3 挂车反光号牌、4 机动车行驶证、5 机动车临时号牌、6 汽车反光号牌都需要收费。",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "5\t摩托车反光号牌"
+        ],
+        "grounding_id": [
+            "5016"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "摩托车反光号牌多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "5\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "5016",
+            "5017"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "70元/副",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "5018"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "机动车临时号牌多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "3\t.机动车临时号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "4998",
+            "4999"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "5元/张",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "5000"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "这个业务的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "4908"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2. 查验 3.受理 4.审核 5.制证 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "送达",
+            "制证",
+            "审核",
+            "申请",
+            " 查验",
+            "受理"
+        ],
+        "grounding_id": [
+            "4941",
+            "4934",
+            "4927",
+            "4909",
+            "4911",
+            "4920"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "查验这步的时限是多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            " 查验",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "4911",
+            "4912"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "当天即办",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "4913"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "什么人负责受理？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "受理",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "4920",
+            "4921"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "受理岗工作人员",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "受理岗"
+        ],
+        "grounding_id": [
+            "4922"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "制证的审批标准是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "制证",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "4934",
+            "4937"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "对材料齐全、符合法定形式的申请，签注机动车登记证书、核发机动车行驶证。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "对材料齐全、符合法定形式的申请，签注机动车登记证书、核发机动车行驶证。"
+        ],
+        "grounding_id": [
+            "4938"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "这个业务的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "工作日：上午8：30—12：00；下午2：00—5：00。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "工作日：上午8：30—12：00；下午2：00—5：00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "办理这个业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": "有，1辆机动车只能申请1次",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "1辆机动车只能申请1次"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 32,
+        "role": "user",
+        "utterance": "不符合环保规定的机动车能办理这个业务吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "禁止性要求",
+            "（十）机动车排放标准不符合环保规定的。"
+        ],
+        "grounding_id": [
+            "137",
+            "5076"
+        ]
+    },
+    {
+        "turn": 33,
+        "role": "system",
+        "utterance": "不能",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "（十）机动车排放标准不符合环保规定的。",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "5076",
+            "137"
+        ]
+    }
+]

@@ -1,0 +1,442 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下浙江省杭州市关于台湾通行证及签注的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询赴台乘务签注、赴台商务签注、应邀赴台签注、赴台定居签注其中哪项问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询赴台乘务签注的一些基本信息？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您是想咨询事项名称、事项类型、基本编码、办事信息还是其他问题呢？ ",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询有关办事信息的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们可以提供四类办事信息相关问题的回答包括是否网办、办理形式、通办范围、是否支持预约办理，您想咨询哪个方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理形式具体有哪几种呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "两种，您可以网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想咨询赴台商务签注的相关问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想咨询线下办事点、申请条件、申报材料、办理流程、设定依据、收费标准还是其他问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "2868"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想咨询有关收费标准的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "2868"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，那您想了解的是是否收费、收费依据、是否支持网上支付、收费项目名称中的哪项问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "2873"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想问下赴台商务签注是否支持网上支付？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "2873"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "支持的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "2874"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "赴台商务签注的收费项目的名称是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "2875"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "分别为赴台商务一次有效签注和赴台商务多次有效签注。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "1\t赴台商务一次有效签注；多次有效签注"
+        ],
+        "grounding_id": [
+            "2876"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这两种签注的收费标准分别是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "1\t赴台商务一次有效签注；多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "2876",
+            "2877"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "赴台商务一次有效签注15元一件而多次有效签注80元一件。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务一次有效签注15元/件；多次有效签注80元/件"
+        ],
+        "grounding_id": [
+            "2878"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "赴台商务签注的咨询方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "我们可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "麻烦告诉我一下咨询电话？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "咨询电话一共三部，分别为0571-88209209；0571-87071973；0571-87074431。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "0571-88209209；0571-87071973；0571-87074431"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "赴台商务签注相关问题的咨询地址是在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "咨询方式",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "咨询地址为上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼值班长专柜。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼值班长专柜"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我想咨询一下赴台商务签注的基本信息？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "我们可以提供很多方面的基本信息，您是想问自然人主题分类、行政相对人权利和义务、办事信息、中介服务、结果信息还是其他基本信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "我想问是赴台商务签注的办事信息？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "是否网办、办理形式、通办范围、是否支持预约办理这四个方面我们都可以给您解答，请问您想问那一方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "我想办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "网上申请和现场窗口申请均可。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "那么，赴台商务签注的法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": "时限为30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解公司变更登记的相关信息",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解基本信息、线下办事点还是申请条件？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "线下办事点",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解具体地址吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "浙江省市场监督管理局（浙江省知识产权局）（浙江省杭州市西湖区西溪街道莫干山路77号金汇大厦一楼注册大厅1-6号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "浙江省市场监督管理局（浙江省知识产权局）（浙江省杭州市西湖区西溪街道莫干山路77号金汇大厦一楼注册大厅1-6号窗口）"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "请告诉我办理时间",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "星期一至星期五：夏季：8:30--18:00；冬季：8:30-17:30（法定节假日按国家假期安排调整办理时间）",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "星期一至星期五：夏季：8:30--18:00；冬季：8:30-17:30（法定节假日按国家假期安排调整办理时间）"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请告诉我联系电话",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0571-88380676",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "0571-88380676"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解基本信息",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您想了解是否进驻政务大厅、是否支持自助终端办理还是自然人主题分类 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是否支持自助终端办理",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想知道办理这项业务的收费标准",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您想了解是否收费、收费依据、是否支持网上支付中的哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "319"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是否收费",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "319"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "320"
+        ]
+    }
+]

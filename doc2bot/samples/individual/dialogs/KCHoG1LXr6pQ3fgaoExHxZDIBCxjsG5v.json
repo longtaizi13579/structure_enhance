@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，去年在工作中受伤，如今做康复治疗一年了，这个费用怎么办？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工作单位有没有给你买工伤保险？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以申请工伤医疗（康复）费用申报。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果在办理过程中遇到问题，该通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有三种投诉方式，投诉电话，投诉地址，投诉网址，你看需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我投诉电话吧",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线0571-12345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你把投诉地址也给我吧？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址：杭州市人力社保综合服务大厅（中河中路248号）服务台。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（中河中路248号）服务台"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我去申请报销这个费用的话，那边的工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理时间是：工作日，夏季：上午9:00-12:00下午14:00-17:00；冬季：上午9:00-12:00下午冬令时13:30-17:00。（双休日安排值班）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工作日，夏季：上午9:00-12:00下午14:00-17:00；冬季：上午9:00-12:00下午冬令时13:30-17:00。（双休日安排值班）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办事处的地址在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "地址在：杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）窗口32--36。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "具体地址",
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）窗口32--36"
+        ],
+        "grounding_id": [
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "还有别的办理地点吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有的，您还可以到：杭州市人力社保综合服务大厅（杭州市上城区小营街道中河中路248号）5-12号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（杭州市上城区小营街道中河中路248号）5-12号窗口"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办好之后，几天能拿到？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "送达时限：自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

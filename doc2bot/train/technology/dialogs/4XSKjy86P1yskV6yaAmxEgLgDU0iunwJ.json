@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下在iPhone和iPad上关注和播放Apple播客中的节目",
+        "act": "what",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "在iPhone和iPad上关注和播放Apple播客中的节目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想问如何在 iPhone 或 iPad 上关注播客还是如何在 iPhone 或 iPad 上取消关注播客还是如何选取单集的播放顺序等等呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "如何在iPhone或iPad上关注播客"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问关于如何在iPhone或iPad上关注播客的问题，我想要查找您关注的播客怎么操作？",
+        "act": "how",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "如何在iPhone或iPad上关注播客",
+            "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。"
+        ],
+        "grounding_id": [
+            "27",
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我想尝试在澳大利亚通过Alexa收听儿童不宜内容咋办？",
+        "act": "how",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "如果您尝试在澳大利亚、奥地利、巴西、加拿大、法国、德国、爱尔兰、意大利、墨西哥或西班牙通过Alexa收听儿童不宜内容，您可以在Apple设备上的“播客”App中收听。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在Apple设备上的“播客”App中收听。",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "如果您尝试在澳大利亚、奥地利、巴西、加拿大、法国、德国、爱尔兰、意大利、墨西哥或西班牙通过Alexa收听儿童不宜内容，您可以在Apple设备上的“播客”App中收听。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对了，我爸昨天告诉我受让我向Amazon寻求协助。可是我不知道原因？",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "请向Amazon寻求协助。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可能是因为您在设置或使用Alexa、AmazonEcho设备或FireTV设备方面需要协助，",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "如果您在设置或使用Alexa、AmazonEcho设备或FireTV设备方面需要协助，"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

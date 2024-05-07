@@ -1,0 +1,280 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省衢州市的，想咨询下生育保险问题？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "生育保险"
+        ],
+        "grounding_id": [
+            "T5",
+            "T175"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解计划生育手术并发症鉴定，生育补助金申领，还是生育津贴支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下计划生育手术并发症鉴定，一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "承诺办结时限是：10（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "承诺办结时限",
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉地址是：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼A厅综合咨询服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "投诉地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼A厅综合咨询服务窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问下生育津贴，办事处那边的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "生育津贴支付",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询地址是：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）1楼B厅衢州市人社医保办事大厅。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "咨询地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）1楼B厅衢州市人社医保办事大厅"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "咨询电话是什么，也给我吧？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "咨询电话是：0570-3079655。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3079655"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限为20（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "投诉电话是：0570-3079432",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_生育津贴支付.json",
+        "grounding": [
+            "投诉电话",
+            "0570-3079432"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    }
+]

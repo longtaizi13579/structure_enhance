@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想设置下我的AirPods，应该怎么操作呢？",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "更改AirPods和AirPodsPro的设置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想给您的AirPods命名、打开或关闭“自动人耳检测”还是将“麦克风”设置为左耳、右耳或自动呢？",
+        "act": "multiple-choice",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "为您的AirPods命名"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想给我的改个名字。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "为您的AirPods命名"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您要打开充电盒，在iPhone、iPad或iPodtouch上，前往“设置”>“蓝牙”，然后轻点您的AirPods旁边的“更多信息”按钮，再轻点当前名称，最后输入AirPods的新名称，点完成就可以啦。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "打开充电盒。",
+            "在iPhone、iPad或iPodtouch上，前往“设置”>“蓝牙”。",
+            "轻点您的AirPods旁边的“更多信息”按钮。",
+            "轻点当前名称。",
+            "输入AirPods的新名称。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，我还想知道一下，iCloud照片有必要和照片搭配使用吗？",
+        "act": "verification",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "设置和使用“iCloud照片”",
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有必要的，搭配使用可使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那iCloud是自动备份的吗？",
+        "act": "verification",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”会将您拍摄的所有照片和视频自动存放在iCloud中，这样您便可以随时从任意设备访问您的图库。当您在一台设备上对个人收藏做出任何更改时，这些更改也会出现在您的其他设备上。您的照片和视频会按照“年”、“月”、“日”和“所有照片”进行归类。而且，您所有的“回忆”和“人物”在所有位置上都会保持最新。这样，您便可以快速找到想要寻找的时刻、家庭成员或朋友。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，“iCloud照片”会将您拍摄的所有照片和视频自动存放在iCloud中，这样您便可以随时从任意设备访问您的图库。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”会将您拍摄的所有照片和视频自动存放在iCloud中，这样您便可以随时从任意设备访问您的图库。当您在一台设备上对个人收藏做出任何更改时，这些更改也会出现在您的其他设备上。您的照片和视频会按照“年”、“月”、“日”和“所有照片”进行归类。而且，您所有的“回忆”和“人物”在所有位置上都会保持最新。这样，您便可以快速找到想要寻找的时刻、家庭成员或朋友。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

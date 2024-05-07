@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下浙江省衢州市鉴定计划生育手术之后的并发症需不需要花钱啊？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "计划生育手术并发症鉴定",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "1",
+            "262"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "计划生育手术并发症鉴定是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那申请的时候有数量上的限制啊？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们没有在数量上的限制的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个申请完之后就一等能够通过吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要申请人提交的申办材料齐全、规范、有效我们才会受理的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那什么是有效的申请？有没有限制条件什么的？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果是因施术者违反计划生育技术服务规范等实施计划生育手术造成受术者人身损害的，就不属于并发症，按相关法律、法规的规定处理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "了解了，那我通过什么渠道申请呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过网上申请、现场窗口申请或邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

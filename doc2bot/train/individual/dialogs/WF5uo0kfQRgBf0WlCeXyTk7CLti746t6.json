@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省宁波市，想去台湾探亲，办理签注的流程是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "赴台探亲签注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "9987"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，办理流程是：1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "9987",
+            "9988",
+            "9990",
+            "9999",
+            "10008",
+            "10014"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那具体申请的内容是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "9988"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体申请内容是：申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "申请",
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "9988",
+            "9989"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那受理后几天能办好？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1",
+            "9990",
+            "9991"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的办理时限是2个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理时限",
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "9991",
+            "9992"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是不是审核通过后，就直接发证了？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "审核审批"
+        ],
+        "grounding_id": [
+            "9999"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，通过核查的制作签发出入境证件，不通过的退回审核审批环节。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "制证签发",
+            "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。"
+        ],
+        "grounding_id": [
+            "1",
+            "10008",
+            "10009"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以快递送到我手里吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "10014"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，EMS工作人员省内2日就可以送达了。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达",
+            "EMS工作人员省内2日送达"
+        ],
+        "grounding_id": [
+            "10014",
+            "10015"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "10042"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "10043"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在办理过程中，如果有不满意的地方，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址、投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉电话：0574-12345。您记一下。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "0574-12345",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    }
+]

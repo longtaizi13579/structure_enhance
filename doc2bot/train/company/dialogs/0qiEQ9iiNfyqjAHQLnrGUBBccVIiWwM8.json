@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在杭州想去办理营业单位开业登记，想知道办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "营业单位及非法人分支机构开业登记",
+            "浙江省_杭州市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T10",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的办结时限吧，多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我记得这个是要收费的，现在可以支持网上付钱吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "310"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_企业开办_企业设立_营业单位及非法人分支机构开业登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在金华市办外商投资合伙企业登记的法定办结时间呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

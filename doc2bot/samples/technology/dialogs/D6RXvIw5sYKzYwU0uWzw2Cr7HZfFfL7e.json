@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下如果“购买前询问”无法正常使用的情况",
+        "act": "what",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果“购买前询问”无法正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解看不到您的“购买前询问”请求还是如果您的孩子看到“无法‘要求准许’”信息或是进一步了解",
+        "act": "multiple-choice",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果您的孩子看到“无法‘要求准许’”信息"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果孩子看到“无法‘要求准许’”信息",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果您的孩子看到“无法‘要求准许’”信息"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个您是想了解检查您在购买项目时使用的AppleID还是查看“家人共享”设置或是确保您使用的是受支持的设备",
+        "act": "multiple-choice",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "查看“家人共享”设置"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个查看“家人共享”设置，查看家庭成员的帐户是不是已打开“购买前询问”，可以前往“设置”或“系统偏好设置”还有别的方式吗吗",
+        "act": "verification",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "查看“家人共享”设置",
+            "如果您是家庭组织者，",
+            "您可以前往“设置”或“系统偏好设置”，以查看家庭成员的帐户是不是已打开“购买前询问”。"
+        ],
+        "grounding_id": [
+            "47",
+            "48",
+            "68"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "没有了",
+        "act": "ans/no",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "您可以前往“设置”或“系统偏好设置”，以查看家庭成员的帐户是不是已打开“购买前询问”。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果看不到“购买前询问”请求如何呢",
+        "act": "how",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果看不到您的“购买前询问”请求"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您没有看到某个“购买前询问”通知，您可以在iPhone、iPad、iPodtouch或Mac上的“通知中心”中查找相应请求。如果您仍然看不到您的“购买前询问”请求，请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。在iPhone、iPad或iPodtouch上打开“通知中心”在Mac上打开“通知中心”",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "您可以在iPhone、iPad、iPodtouch或Mac上的“通知中心”中查找相应请求。如果您仍然看不到您的“购买前询问”请求，请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。",
+            "在iPhone、iPad或iPodtouch上打开“通知中心”",
+            "在Mac上打开“通知中心”"
+        ],
+        "grounding_id": [
+            "65",
+            "8",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果仍然看不到“购买前询问”请求，是不是就得检查登录的AppleID，检查“家人共享”设置呀",
+        "act": "verification",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。",
+            "如果您仍然看不到您的“购买前询问”请求，"
+        ],
+        "grounding_id": [
+            "67",
+            "66"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。"
+        ],
+        "grounding_id": [
+            "67"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果孩子看到“无法‘要求准许’”信息这个是什么情况",
+        "act": "what",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果您的孩子看到“无法‘要求准许’”信息"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "打开“购买前询问”后，如果您的孩子请求家庭群组的组织者批准某项购买，则您的孩子可能会看到“无法‘要求准许’。您无法要求准许，因为您登录的iCloud和iTunes帐户并未彼此关联。",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "打开“购买前询问”后，如果您的孩子请求家庭群组的组织者批准某项购买，则您的孩子可能会看到“无法‘要求准许’。您无法要求准许，因为您登录的iCloud和iTunes帐户并未彼此关联。”"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果“购买前询问”无法正常使用除了看不到“购买前询问”通知还有什么",
+        "act": "what",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果“购买前询问”无法正常使用",
+            "了解如果您看不到“购买前询问”通知，或者您的孩子在请求家庭群组组织者批准购买后看到“无法‘要求准许’”，该怎么做。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "还有您的孩子在请求家庭群组组织者批准购买后看到“无法‘要求准许’”，该怎么做",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "了解如果您看不到“购买前询问”通知，或者您的孩子在请求家庭群组组织者批准购买后看到“无法‘要求准许’”，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

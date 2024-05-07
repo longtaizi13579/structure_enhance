@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问金华这边办理台湾通行证的工作时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "台湾通行证及签注",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T6",
+            "T240",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想办理哪个？赴台其他签注、赴台学习签注 还是 应邀赴台签注 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是其他签注。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "赴台其他签注的办理时间是星期一至星期五（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "星期一至星期五（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是不是也可以在网上申请办理呀？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "9513"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。在浙江政务服务网、“浙里办”APP进行网上申报就可以了。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "9513"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那网上申请办理的话，可以申请邮寄吗还是要本人去拿？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "9538"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "网上申请办理的话，我们这边出结果了，会通过EMS发出的。省内2天就可以送达了。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。",
+            "EMS工作人员省内2日送达"
+        ],
+        "grounding_id": [
+            "9513",
+            "9539"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯呢，那大概办理需要多少钱呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "9574",
+            "9565"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "赴台其他一次签注15元一件；多次有效签注80元一件。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "1\t赴台其他"
+        ],
+        "grounding_id": [
+            "9573"
+        ]
+    }
+]

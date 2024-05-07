@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "哎，你好。我是浙江舟山的车主，我要咨询机动车所有人联系方式变更备案的办事信息。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "浙江省_舟山市",
+            "机动车所有人",
+            "机动车所有人联系方式变更备案",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "T9",
+            "T9",
+            "T146",
+            "1",
+            "99"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您想知道的是该业务是否网办、办理形式、通办范围还是是否支持预约办理呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "是否网办"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我要问是不是能在网上办理。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "是否网办"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好。办理时间是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理时间为冬令：上午8:30—12:00，下午14:00—17:00；夏令：上午8:30—12:00，下午14:30—17:30；周一至周五（节假日除外）。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "冬令：上午8:30—12:00，下午14:00—17:00；夏令：上午8:30—12:00，下午14:30—17:30；周一至周五（节假日除外）。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哎，那这个自然人主题分类是什么啊？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "自然人主题分类"
+        ],
+        "grounding_id": [
+            "93"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "该业务的自然人主题分类为交通出行。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "交通出行"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦。那牵头处室呢？是哪一个？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "实施或牵头处（科）室名称"
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "牵头处室为舟山市公安局交警支队。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "舟山市公安局交警支队"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "行吧。他们啥时能帮我办结呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "该项业务的承诺办结时限为即办。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

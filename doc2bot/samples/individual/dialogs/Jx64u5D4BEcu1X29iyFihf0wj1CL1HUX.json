@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我问一下，我的想申请境外机动车驾驶证我该去哪办理",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "1",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您现在在境内吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，我现在在台州市",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，这边为您查到的办理地址是台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口",
+            "境外机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "23",
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我多久才能收到？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "224"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "当场送达（邮寄送达的，以邮政公司时间为准）",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "当场送达（邮寄送达的，以邮政公司时间为准）",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "253",
+            "252"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我报考这个证的报名费是多少？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费标准",
+            "境外机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "313",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "230元/人次",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "230元/人次",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "314",
+            "313"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果在这个过程中我有不满意的地方我怎么投诉？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这边给您一个投诉地址，可以吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "地址是浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "36",
+            "33"
+        ]
+    }
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，重新安装macOS后，数据会被移除吗？",
+        "act": "verification",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "重新安装macOS",
+            "重新安装macOS并不会从Mac中移除数据。要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "重新安装macOS并不会从Mac中移除数据。",
+        "act": "ans/no",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "重新安装macOS并不会从Mac中移除数据。要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何重新安装？",
+        "act": "how",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "重新安装macOS并不会从Mac中移除数据。要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。",
+        "act": "ans/open",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "重新安装macOS并不会从Mac中移除数据。要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在安装过程中需要注意什么？",
+        "act": "what",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "在安装过程中，请遵循以下准则："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在安装过程中，请遵循以下准则：如果安装器要求解锁您的磁盘，请输入您在登录Mac时所使用的密码。如果安装器无法识别您的磁盘，或者指出它无法安装到您的电脑或宗卷上， 您可能需要先抹掉磁盘。如果安装器让您选择是安装在“MacintoshHD”上还是在“MacintoshHD-Data”上，请选取“MacintoshHD”。不要将Mac置于睡眠状态或合上上盖，以便安装完成。Mac可能会多次重新启动并显示进度条，并且屏幕可能每次持续几分钟处于空白状态。",
+        "act": "ans/open",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "如果安装器要求解锁您的磁盘，",
+            "如果安装器无法识别您的磁盘，或者指出它无法安装到您的电脑或宗卷上，",
+            "如果安装器让您选择是安装在“MacintoshHD”上还是在“MacintoshHD-Data”上，",
+            "请输入您在登录Mac时所使用的密码。",
+            "您可能需要先抹掉磁盘。",
+            "请选取“MacintoshHD”。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "21",
+            "39",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你好，我想问一下，如何在保留旧版macOS的情况下，再安装一个最新版的macOS？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本",
+            "如果您在内建启动磁盘的新宗卷上安装兼容的macOS，则Mac可以从任一宗卷启动。这样就能轻松使用较新的macOS，同时保留之前安装且软件可能需要使用的macOS。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您在内建启动磁盘的新宗卷上安装兼容的macOS，则Mac可以从任一宗卷启动。这样就能轻松使用较新的macOS，同时保留之前安装且软件可能需要使用的macOS。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "如果您在内建启动磁盘的新宗卷上安装兼容的macOS，则Mac可以从任一宗卷启动。这样就能轻松使用较新的macOS，同时保留之前安装且软件可能需要使用的macOS。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那怎么添加宗卷？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "添加APFS宗卷"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "添加APFS宗卷: 1.确保Mac使用的是macOSHighSierra或更高版本。 2.打开“磁盘工具”（位于“应用程序”文件夹的“实用工具”文件夹中）。 3.在边栏中，选择现有的APFS宗卷，如MacintoshHD。 4.从菜单栏中选取“编辑”>“添加APFS宗卷”，或者点按“磁盘工具”工具栏中的“添加宗卷”按钮(+)。仅当选择的宗卷采用APFS格式时，这些选项才可用。 5.为新宗卷键入任意名称，然后点按“添加”。 6.退出“磁盘工具”。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "添加APFS宗卷",
+            "确保Mac使用的是macOSHighSierra或更高版本。",
+            "打开“磁盘工具”（位于“应用程序”文件夹的“实用工具”文件夹中）。",
+            "在边栏中，选择现有的APFS宗卷，如MacintoshHD。",
+            "从菜单栏中选取“编辑”>“添加APFS宗卷”，或者点按“磁盘工具”工具栏中的“添加宗卷”按钮(+)。仅当选择的宗卷采用APFS格式时，这些选项才可用。",
+            "为新宗卷键入任意名称，然后点按“添加”。",
+            "退出“磁盘工具”。"
+        ],
+        "grounding_id": [
+            "8",
+            "10",
+            "14",
+            "15",
+            "16",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "为什么要在新宗卷上安装macOS？",
+        "act": "why",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在新宗卷上安装兼容的macOS"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您要安装的macOS与您的Mac兼容，您需要将这个macOS安装到新宗卷上。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "如果您要安装的macOS与您的Mac兼容，您可以将这个macOS安装到新宗卷上。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "要安装最新的Beta版macOS，应该怎么办？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装最新的Beta版（预发布版）macOS，请在AppleBeta版软件计划中注册您的Mac，然后按照计划网站上的安装说明进行操作。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要安装最新的Beta版（预发布版）macOS，请在AppleBeta版软件计划中注册您的Mac，然后按照计划网站上的安装说明进行操作。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装最新的Beta版（预发布版）macOS，请在AppleBeta版软件计划中注册您的Mac，然后按照计划网站上的安装说明进行操作。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "要安装最新版本的macOS，应该从哪里下载？",
+        "act": "what",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装最新版本的macOS，请从AppStore进行下载。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要安装最新版本的macOS，请从AppStore进行下载。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装最新版本的macOS，请从AppStore进行下载。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "要安装早于当前所装版本的版本，应该怎么办？",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装早于当前所装版本的版本，请使用macOSHighSierra或更高版本的可引导安装器。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "要安装早于当前所装版本的版本，请使用macOSHighSierra或更高版本的可引导安装器。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "要安装早于当前所装版本的版本，请使用macOSHighSierra或更高版本的可引导安装器。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

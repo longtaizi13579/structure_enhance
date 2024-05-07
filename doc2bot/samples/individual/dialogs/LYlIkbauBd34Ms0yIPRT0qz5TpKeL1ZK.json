@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道从浙江嘉兴到台湾是否需要办理通行证或签注？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是需要办理赴台其他签注还是往来台湾通行证呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "T240",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是赴台其他签注，线下办事点的工作时间是几点到几点啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "线下办事点",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "124",
+            "127"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "夏季时间为上午8:30-12:00，下午2:30-5:30",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那冬季的呢？有什么区别？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "冬季则为上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "只有在工作日才能去吗？周末不可以是吗？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，正常的办理时间就是夏季工作日上午8:30-12:00，下午2:30-5:30，冬季提早半个小时",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那请问办理这个是需要收费的吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "9554"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9555"
+        ]
+    }
+]

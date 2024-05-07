@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我的驾驶证到期该换证了，但我现在人在国外，该怎么办？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T11",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，你可以申请延期换领机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有没有办事处的联系方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话是：0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "0573—12123。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前有网上申请和现场窗口申请两种方式。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有自助办理的地方？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "几天能办好？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "根据相关规定，法定办结时限是：1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "几天能送到我手里？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据相关规定，送达时限是：自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理的话，能否网上支付？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "315"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    }
+]

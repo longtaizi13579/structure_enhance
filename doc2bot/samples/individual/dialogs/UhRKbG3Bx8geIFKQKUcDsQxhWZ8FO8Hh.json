@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，咨询一下公积金的事情，就是我要买房提供取公积金这个我咨询哪里？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "公积金",
+            "购买自住住房提取住房公积金"
+        ],
+        "grounding_id": [
+            "T208",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您是在哪个省市缴纳的住房公积金？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是在浙江省绍兴市呀",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您可以到浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口咨询公积金事宜",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，就是这个提取公积金可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个可以，是支持自助终端办理",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个办理形式都有什么您能说说吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有网上申请/现场窗口申请/现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，谢谢，还有问题，就是这个结果信息出来以后，能派送吗要多长时间送到？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "派送的话，自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，还有那这个办完要多长时间呀？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "3（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个收费是否支持网上支付？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "3653",
+            "3658"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "3659"
+        ]
+    }
+]

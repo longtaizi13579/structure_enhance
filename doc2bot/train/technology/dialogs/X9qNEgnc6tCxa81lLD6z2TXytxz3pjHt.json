@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我我问一下把一些iMac的一些机型用作显示屏，对机型有没有什么要求？",
+        "act": "what",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "在目标显示屏模式下将iMac用作显示屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，如果要把iMac作为显示屏，需要满足几个条件，首先用作显示屏的iMac必须装有macOSHighSierra或更低版本。而且您要连接的另一台Mac必须是2019年或更早推出的，并且装有macOSCatalina或更低版本。还有连接两台Mac电脑的线缆必须为雷雳或雷雳2线缆。",
+        "act": "ans/open",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "该iMac机型可以用作外置显示屏",
+            "用作显示屏的iMac必须装有macOSHighSierra或更低版本。",
+            "您要连接的另一台Mac必须是2019年或更早推出的，并且装有macOSCatalina或更低版本。",
+            "连接两台Mac电脑的线缆必须为雷雳或雷雳2线缆。"
+        ],
+        "grounding_id": [
+            "54",
+            "6",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，可是我连接的显示器显示为空白，这该怎么处理？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果显示器显示为空白或没有被检测到"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您先检查一下线缆或转换器",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "检查线缆或转换器"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咋检查？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "检查线缆或转换器"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您先要断开外置显示器的线缆与Mac的连接，然后重新连接。如果外置显示器的线缆无法连接Mac上的端口，您可以使用USB-C或雷雳转换器。如果您使用USB-C或雷雳转换器来连接显示器，这个转换器必须符合DisplayPortAltMode或雷雳/USB4标准。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "检查线缆或转换器",
+            "断开外置显示器的线缆与Mac的连接，然后重新连接。如果外置显示器的线缆无法连接Mac上的端口，您可以使用USB-C或雷雳转换器。如果您使用USB-C或雷雳转换器来连接显示器，这个转换器必须符合DisplayPortAltMode或雷雳/USB4标准。"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有显示了，可是显示屏画面好糊啊，怎么办",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果连接到Mac的外置显示器没有被检测到或画面模糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以试试调节分辨率，您要从苹果菜单中，选取“系统偏好设置”，然后点按“显示器”。在“显示器设置”中，从边栏选择外置显示器，然后在按住Option键的同时点按“缩放”以查看其他分辨率。最后选择一个分辨率，然后点按“完成”。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "具体步骤",
+            "从苹果菜单中，选取“系统偏好设置”，然后点按“显示器”。",
+            "在“显示器设置”中，从边栏选择外置显示器，然后在按住Option键的同时点按“缩放”以查看其他分辨率。",
+            "选择一个分辨率，然后点按“完成”。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "除了调分辨率其他的没办法了吗？",
+        "act": "verification",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "请检查显示器的分辨率和亮度。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对于显示器上的图像或文本模糊或呈像素化，除了检查分辨率还要检查亮度",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果显示器画面模糊",
+            "请检查显示器的分辨率和亮度。"
+        ],
+        "grounding_id": [
+            "23",
+            "39"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那亮度怎么调？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "调节亮度"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果要调节Apple显示器的亮度，请按下键盘上的增加亮度键或降低亮度键。您还可以在“系统偏好设置”>“显示器”中针对每台已连接的显示器使用亮度调节功能。有时，非Apple生产的显示器会具有内建于显示器的亮度和颜色调节功能。请查阅显示器的文稿，以查看它是不是包含内建控制项。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "调节亮度",
+            "要调节Apple显示器的亮度，请按下键盘上的增加亮度键或降低亮度键。",
+            "您还可以在“系统偏好设置”>“显示器”中针对每台已连接的显示器使用亮度调节功能。",
+            "有时，非Apple生产的显示器会具有内建于显示器的亮度和颜色调节功能。请查阅显示器的文稿，以查看它是不是包含内建控制项。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36",
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道关于AppleMusic中的无损音频",
+        "act": "what",
+        "document": "关于AppleMusic中的无损音频.json",
+        "grounding": [
+            "关于AppleMusic中的无损音频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道什么是无损音频压缩、如何在iPhone或iPad上聆听无损音频还是有关AppleMusic无损音频的须知事项",
+        "act": "multiple-choice",
+        "document": "关于AppleMusic中的无损音频.json",
+        "grounding": [
+            "什么是无损音频压缩？"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道什么是无损音频压缩",
+        "act": "what",
+        "document": "关于AppleMusic中的无损音频.json",
+        "grounding": [
+            "什么是无损音频压缩？"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "无损压缩是一种可保留所有原始数据的压缩方式。",
+        "act": "ans/open",
+        "document": "关于AppleMusic中的无损音频.json",
+        "grounding": [
+            "什么是无损音频压缩？",
+            "大多数音频压缩技术会丢失原始源文件中包含的一些数据。无损压缩是一种可保留所有原始数据的压缩方式。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，我了解了，还有一个问题如何在我的iPad上聆听杜比全景声",
+        "act": "how",
+        "document": "关于AppleMusic中支持杜比全景声的空间音频功能.json",
+        "grounding": [
+            "在iPhone或iPad上选取聆听杜比全景声的方式"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "当您是在iPhoneXS或更新机型（iPhoneSE除外）、12.9英寸iPadPro（第3代或更新机型）、11英寸iPadPro或iPadAir（第4代或更新机型）上的内建扬声器设备聆听时，这些设备会自动以杜比全景声播放受支持的歌曲",
+        "act": "ans/open",
+        "document": "关于AppleMusic中支持杜比全景声的空间音频功能.json",
+        "grounding": [
+            "iPhoneXS或更新机型（iPhoneSE除外）、12.9英寸iPadPro（第3代或更新机型）、11英寸iPadPro或iPadAir（第4代或更新机型）上的内建扬声器"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果不是这些设备的话，我该如何开启？",
+        "act": "how",
+        "document": "关于AppleMusic中支持杜比全景声的空间音频功能.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先将您的iPhone或iPad更新到最新版本的iOS或iPadOS。然后前往“设置”。轻点“音乐”。在“音频”下方，轻点“杜比全景声”。然后选取“自动”、“始终打开”或“关闭”。",
+        "act": "ans/open",
+        "document": "关于AppleMusic中支持杜比全景声的空间音频功能.json",
+        "grounding": [
+            "具体步骤",
+            "将您的iPhone或iPad更新到最新版本的iOS或iPadOS。",
+            "前往“设置”。",
+            "轻点“音乐”。",
+            "在“音频”下方，轻点“杜比全景声”。",
+            "选取“自动”、“始终打开”或“关闭”。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    }
+]

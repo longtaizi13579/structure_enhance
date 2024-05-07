@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，编辑iOS设备拍摄的HEIF媒体时，系统应该升级到什么版本？",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "在Apple设备上使用HEIF或HEVC媒体",
+            "请升级到iOS11或更高版本或者macOSHighSierra或更高版本，以查看、编辑或复制使用iOS设备拍摄的HEIF或HEVC媒体。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "升级到iOS11或更高版本或者macOSHighSierra或更高版本。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "请升级到iOS11或更高版本或者macOSHighSierra或更高版本，以查看、编辑或复制使用iOS设备拍摄的HEIF或HEVC媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的， 我想咨询一下在在Apple设备上使用HEIF或HEVC媒体的相关问题？",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "在Apple设备上使用HEIF或HEVC媒体"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体您想拍摄这种媒体、使用这种媒体、共享和转换这种媒体还是通过USB导入这种媒体？",
+        "act": "multiple-choice",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "拍摄这种媒体"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "使用iOS11或更高版本时，什么设备可以拍摄HEIF或HEVC格式的媒体？",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "在Apple设备上使用HEIF或HEVC媒体",
+            "使用iOS11或更高版本时，以下设备可以拍摄HEIF或HEVC格式的媒体。在使用iOS11或更高版本或者macOSHighSierra或更高版本的情况下，其他设备可以查看、编辑或复制这种媒体，但会受到一定的限制。"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "iPhone7或iPhone7Plus或更新机型、iPad（第6代）或更新机型、iPadAir（第3代）或更新机型、iPadmini（第5代）、iPadPro（10.5英寸）、iPadPro（11英寸）和12.9英寸iPadPro（第2代）或更新机型了如何识别您的iPhone机型或iPad机型。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "iPhone7或iPhone7Plus或更新机型",
+            "iPad（第6代）或更新机型",
+            "iPadAir（第3代）或更新机型",
+            "iPadmini（第5代）",
+            "iPadPro（10.5英寸）、iPadPro（11英寸）和12.9英寸iPadPro（第2代）或更新机型了如何识别您的iPhone机型或iPad机型。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在使用iOS11或更高版本的情况下，其他设备可以查看、编辑或复制这种媒体，会受到限制吗？",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "使用iOS11或更高版本时，以下设备可以拍摄HEIF或HEVC格式的媒体。在使用iOS11或更高版本或者macOSHighSierra或更高版本的情况下，其他设备可以查看、编辑或复制这种媒体，但会受到一定的限制。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会受到一定的限制。",
+        "act": "ans/yes",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "使用iOS11或更高版本时，以下设备可以拍摄HEIF或HEVC格式的媒体。在使用iOS11或更高版本或者macOSHighSierra或更高版本的情况下，其他设备可以查看、编辑或复制这种媒体，但会受到一定的限制。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我以HEIF和HEVC格式进行拍摄，还可以对这些设备进行设置吗？",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体",
+        "act": "ans/yes",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何设置呢？",
+        "act": "how",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "步骤1: 前往“设置”>“相机”。步骤2: 轻点“格式”。步骤3: 轻点“兼容性最好”。步骤4: 此后拍摄的所有照片和视频将使用JPEG或H.264格式。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "前往“设置”>“相机”。",
+            "轻点“格式”。",
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。",
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "步骤3里的“兼容性最好”，这项设置有什么限制吗？",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。",
+        "act": "ans/yes",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "要再次使用节省空间的HEIF和HEVC格式，应该怎么操作？",
+        "act": "how",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "iOS11和macOSHighSierra支持什么媒体格式？",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "iOS11和macOSHighSierra支持下面这两种新的行业标准媒体格式："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "适用于照片的HEIF（高效图像文件格式）和适用于视频的HEVC（高效视频编码），也称为H.265。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "适用于照片的HEIF（高效图像文件格式）",
+            "适用于视频的HEVC（高效视频编码），也称为H.265"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    }
+]

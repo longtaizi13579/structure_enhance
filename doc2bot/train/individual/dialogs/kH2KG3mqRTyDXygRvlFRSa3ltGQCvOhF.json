@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想问一下，浙江省台州市限制货车通行的咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，此项业务您可以去浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，那还有没有其他的咨询方式。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，这里有咨询电话还有咨询网址，请问您需要那种。",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话是0576-12123。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "0576-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那请问，我要缴费的话支持微信或支付宝嘛？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前是不支持网上支付哦。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "270"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那好，申请办理信息的方式都有哪些啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有网上申请/现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，那能不能麻烦告诉我一下投诉的方式都有哪些？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前投诉方式有投诉地址、投诉电话，还有投诉网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉电话就可以了。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话：0576-12345。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "0576-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想咨询一下，我的车辆需要补换车牌应该去哪里咨询？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车",
+            "补换领号牌"
+        ],
+        "grounding_id": [
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您所驾驶的车辆牌照是哪里的?",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "奥对，是浙江省台州市的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这里有具体的咨询电话与咨询地址请问您需要那种。",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您可以去浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

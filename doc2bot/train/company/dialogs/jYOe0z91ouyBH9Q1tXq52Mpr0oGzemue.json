@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是金华的，我想咨询一些关于管道竣工测量图备案的信息。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "基本信息",
+            "浙江省_金华市",
+            "管道竣工测量图备案"
+        ],
+        "grounding_id": [
+            "38",
+            "T9",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解基本信息还是结果信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "基本信息",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "38",
+            "109"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是结果信息吧，就是想问一下备案的结果啥时候会出来。",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "109",
+            "118"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，备案的结果自作出决定之日起0个工作日内送达的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那很快啊，当天就出结果。如果我明天去办的时候，有很多人的话，我可以去自助机那里搞吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "很抱歉，目前是不支持自助终端的。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那办理形式一般都有哪些呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有网上申请或者是现场窗口申请这两种办理方式，您想要了解哪种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "99",
+            "98"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能够进行网上申请的呀，那我到时候就直接在网上搞就得了。对了，一般搞这个要多久？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定的办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业经营_许可备案_管道竣工测量图备案.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "58",
+            "57"
+        ]
+    }
+]

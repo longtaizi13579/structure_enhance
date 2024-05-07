@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我的机动车驾照是浙江省丽水市的，我的车辆解除抵押手续应该去哪里办理？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市",
+            "机动车",
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，根据您的需要您可以去丽水市公安局交通警察支队车辆管理所进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那有没有联系电话？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您记一下，咨询电话是：0578-12123",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "0578-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "缴费的话，可以微信或支付宝支付吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "481"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以的哦，目前只支持线下缴费。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "487"
+        ]
+    }
+]

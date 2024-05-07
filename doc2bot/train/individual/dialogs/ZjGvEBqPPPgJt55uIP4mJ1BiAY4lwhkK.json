@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果驾驶证破损了要重新换一本的话去哪里申请呢？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "驾驶证损毁换证可以选择网上申请或现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那提交申请之后多久能办完呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "基本一个工作日就可以",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那意思是一个工作日就可以拿到证吗？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要等待一段时间，大约10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，这个是可以多次申请的吧？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "151",
+            "152"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，申请时没有数量限制的",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "153"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那需要满足哪些条件才可以受理呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您说的是受理条件吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，就是受理条件",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    }
+]

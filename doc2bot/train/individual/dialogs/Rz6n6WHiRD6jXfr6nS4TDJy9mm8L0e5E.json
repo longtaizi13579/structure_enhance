@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下浙江省舟山市办理机动车抵押备案需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "机动车",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "T17",
+            "319"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，办理机动车质押备案是没有费用的。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "320"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦没有费用，那有自助机器能办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想问是不是支持自助终端办理是吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，是否支持呢？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "抱歉呀，这个是不支持 在自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那办理需要多长时间？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这边查询的是法定办结时限1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，不支持自助办理的话，我还能怎么办理？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "网上申请或者现场窗口申请都可以的呀，看您喜欢或者方便选择哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我选择网上办理的话，多久能收到备案登记证啊？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "嗯，受理当日起10个工作日可以给您送达。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

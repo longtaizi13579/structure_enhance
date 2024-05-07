@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解下威尔逊病，我朋友得了这种病，这种病是遗传性疾病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "WILSON病",
+            "威尔逊病是一种罕见的遗传性疾病，肝无法正常地把过量的铜随胆汁排出，从而导致铜在肝内积聚并损伤肝。"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "威尔逊病是一种罕见的遗传性疾病。患者有什么症状吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "患有威尔逊病的人会有颤抖，说话和吞咽功能障碍，协调功能障碍，性格改变以及肝炎。",
+            "威尔逊病是一种罕见的遗传性疾病，肝无法正常地把过量的铜随胆汁排出，从而导致铜在肝内积聚并损伤肝。"
+        ],
+        "grounding_id": [
+            "7",
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "他说话有点不利索，咽东西费劲。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "患有威尔逊病的人会有颤抖，说话和吞咽功能障碍，协调功能障碍，性格改变以及肝炎。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "患有威尔逊病的人会有颤抖，说话和吞咽功能障碍，协调功能障碍，性格改变以及肝炎。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "患有威尔逊病的人会有颤抖，说话和吞咽功能障碍，协调功能障碍，性格改变以及肝炎。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么诊断是否得了这种病呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "诊断方式：",
+            "威尔逊病的诊断",
+            "WILSON病"
+        ],
+        "grounding_id": [
+            "24",
+            "23",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "他有肝炎的症状吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "诊断方式：",
+            "有时进行肝活检"
+        ],
+        "grounding_id": [
+            "24",
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那需要进行肝活检。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "有时进行肝活检"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那还需要做什么检查？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "血液和尿液检测。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "血液和尿液检测"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那血液检查主要检查什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "血液检查，测量血浆铜蓝蛋白（一种铜转运蛋白）的水平"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "血液检查，测量血浆铜蓝蛋白（一种铜转运蛋白）的水平。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "血液检查，测量血浆铜蓝蛋白（一种铜转运蛋白）的水平"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "知道了，那还需要做什么检查吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "医生根据肝炎、震颤、无其他明显原因的性格改变等症状疑诊威尔逊病。以下测试帮助医生确诊此病：",
+            "威尔逊病的诊断"
+        ],
+        "grounding_id": [
+            "31",
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "用裂隙灯检查眼睛的角膜色素环",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "用裂隙灯检查眼睛的角膜色素环"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

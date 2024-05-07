@@ -1,0 +1,300 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何计算圆半径？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "如何计算圆半径"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有四种方法：使用扇形的面积和内角大小来计算半径，使用直径计算半径，使用面积计算半径，使用周长计算半径，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "可选方法",
+            "使用面积计算半径"
+        ],
+        "grounding_id": [
+            "3",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解下使用面积计算半径的方法。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用面积计算半径"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用面积计算半径: 1.回想一下圆面积的计算公式。 2.求解半径。 3.将面积数值带入公式。 4.用面积除以圆周率π{\\displaystyle\\pi}。 5.计算平方根。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用面积计算半径",
+            "回想一下圆面积的计算公式。",
+            "求解半径。",
+            "将面积数值带入公式。",
+            "用面积除以圆周率π{\\displaystyle\\pi}。",
+            "计算平方根。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "26",
+            "33",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "圆面积的计算公式是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "回想一下圆面积的计算公式。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "圆的面积公式是A=πr2{\\displaystyleA=\\pir^{2}}，其中A{\\displaystyleA}代表圆形的面积，r{\\displaystyler}代表圆半径。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "圆的面积公式是A=πr2{\\displaystyleA=\\pir^{2}}，其中A{\\displaystyleA}代表圆形的面积，r{\\displaystyler}代表圆半径。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何讲面积数值代入公式？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "将面积数值带入公式。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果题中已知圆形的面积，那么就可以用这个公式来求出半径。将已知的圆面积带入公式，取代变量A{\\displaystyleA}。例如，如果一个圆的面积是21平方厘米，那么带入公式，得：r=21π{\\displaystyler={\\sqrt{\\frac{21}{\\pi}}}}。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "如果题中已知圆形的面积，那么就可以用这个公式来求出半径。将已知的圆面积带入公式，取代变量A{\\displaystyleA}。",
+            "例如，如果一个圆的面积是21平方厘米，那么带入公式，得：r=21π{\\displaystyler={\\sqrt{\\frac{21}{\\pi}}}}。"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问下，如何求两个数的最小公倍数？",
+        "act": "how",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "如何求两个数的最小公倍数"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有四种方法：列出数字的所有倍数，使用素因式分解法，使用网格法或梯形法，使用欧几里德算法，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "可选方法",
+            "列出数字的所有倍数"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想先了解下列出数字的所有倍数的方法。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "列出数字的所有倍数"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "列出数字的所有倍数: 1.评估你要计算的数字。 2.从小到大列出第一个数字的几个倍数。 3.从小到大写下第二个数字的几个倍数。 4.比较两个数字的倍数，找到其中最小的相同倍数。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "列出数字的所有倍数",
+            "评估你要计算的数字。",
+            "从小到大列出第一个数字的几个倍数。",
+            "从小到大写下第二个数字的几个倍数。",
+            "比较两个数字的倍数，找到其中最小的相同倍数。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "11",
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "评估你要计算的数字，适合所有的数字吗？",
+        "act": "verification",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "评估你要计算的数字。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个方法最适用于计算两个小于10的数字的公倍数，如果你面对的是比较大或比较多的数字，最好使用其它方法。",
+        "act": "ans/no",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "这个方法最适用于计算两个小于10的数字的公倍数，如果你面对的是比较大或比较多的数字，最好使用其它方法。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "从小到大列出第一个数字的几个倍数的具体方法是什么？",
+        "act": "what",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "从小到大列出第一个数字的几个倍数。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "用第一个数字乘以不同的整数就能得到它的倍数。也就是说，你可以直接查看乘法表，找到一个数的倍数。例如，第一个数字5的倍数有5、10、15、20、25、30、35和40。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "用第一个数字乘以不同的整数就能得到它的倍数。也就是说，你可以直接查看乘法表，找到一个数的倍数。",
+            "例如，第一个数字5的倍数有5、10、15、20、25、30、35和40。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我还想了解下使用素因式分解法的步骤？",
+        "act": "what",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "使用素因式分解法"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "使用素因式分解法: 1.评估数字。 2.将第一个数字进行因式分解。 3.将第二个数字也进行因式分解。 4.写下每个相同的素数因数，并将每个因数相乘，写成乘法等式。 5.将剩余的因数添加到乘法式子中。 6.计算最小公倍数。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "使用素因式分解法",
+            "评估数字。",
+            "将第一个数字进行因式分解。",
+            "将第二个数字也进行因式分解。",
+            "写下每个相同的素数因数，并将每个因数相乘，写成乘法等式。",
+            "将剩余的因数添加到乘法式子中。",
+            "计算最小公倍数。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "21",
+            "24",
+            "27",
+            "31",
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如何将第二个数字也进行因式分解，能举个例子吗？",
+        "act": "verification",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "将第二个数字也进行因式分解。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "例如，2×42=84{\\displaystyle\\mathbf{2}\\times42=84},7×6=42{\\displaystyle\\mathbf{7}\\times6=42},以及3×2=6{\\displaystyle\\mathbf{3}\\times\\mathbf{2}=6}。因此，84的素数因数有2、7、3和2。重新写出等式，得到84=2×7×3×2{\\displaystyle84=2\\times7\\times3\\times2}。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求两个数的最小公倍数.json",
+        "grounding": [
+            "例如，2×42=84{\\displaystyle\\mathbf{2}\\times42=84},7×6=42{\\displaystyle\\mathbf{7}\\times6=42},以及3×2=6{\\displaystyle\\mathbf{3}\\times\\mathbf{2}=6}。因此，84的素数因数有2、7、3和2。重新写出等式，得到84=2×7×3×2{\\displaystyle84=2\\times7\\times3\\times2}。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

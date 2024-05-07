@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问因为质量问题注销机动车的话支持自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "机动车因质量问题退车注销登记不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，所以支付的话也是只能现金支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "325"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，目前不支持网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "326"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以之前我听说是不收费的啊",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "320",
+            "321"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您问的是机动车因质量问题退车注销登记是否收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "321"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "321"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "确实不收费",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "322"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，办理的话多长时间能有结果呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大概一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，如果办理过程中有不满意的地方是不是可以投诉？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，请问您需要我为您提供投诉电话、投诉地址或投诉网址吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，我想知道投诉的地址",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉地址位于绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那办理的地点和投诉的地点是同一个吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的，办理地点在绍兴滨海新城沥海镇勤丰路8号（1至5号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号（1至5号窗口）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，相关的材料是需要纸质版还是电子版呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申报材料",
+            "材料形式"
+        ],
+        "grounding_id": [
+            "153",
+            "160"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "普通电子文件就可以",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "普通电子文件"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我留学回来想买一辆小客车，请问可以在什么地方申请呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "行驶驾驶",
+            "小客车指标",
+            "留学回国人员小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "T16",
+            "T153",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是需要在什么省份申请呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "留学回国人员小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是要在浙江省杭州市淳安县千岛湖镇申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那你是需要线上还是线下的？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "留学回国人员小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想要线下的，能给我一个具体地址吗？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "具体地址",
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "125",
+            "124"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可以前往杭州市淳安县千岛湖镇环湖北路377号淳安县行政服务中心2楼交通窗口J1-J2综合窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "杭州市淳安县千岛湖镇环湖北路377号淳安县行政服务中心2楼交通窗口J1-J2综合窗口"
+        ],
+        "grounding_id": [
+            "156"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那他们上班时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "他们工作时间是工作日（星期一至星期五）：上午8:30~11:30下午13:00~16:30。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "工作日（星期一至星期五）：上午8:30~11:30下午13:00~16:30"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那多久能办理下来？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "办理时限"
+        ],
+        "grounding_id": [
+            "468"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当场就可以给您办理下来。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "469"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果办理过程中工作人员态度不好，有投诉地址吗？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可以前往杭州市中河北路108号港航大楼14楼1417室进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_留学回国人员小客车其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

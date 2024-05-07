@@ -1,0 +1,291 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好想问一下医学方面关于心脏的问题",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "医学主题",
+            "心脏和血管疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T151"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个您具体想了解哪个方面比如是异常心律、心脏和血管疾病的诊断、心脏瓣膜病、心力衰竭",
+        "act": "question/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "异常心律"
+        ],
+        "grounding_id": [
+            "T152"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "异常心律",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "异常心律",
+            "异常心律概述"
+        ],
+        "grounding_id": [
+            "T152",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解异常心律的治疗还是异常心律的病因、",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "异常心律的病因"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "异常心律的病因",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "异常心律的病因"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解快速性心律失常还是缓慢性心律失常",
+        "act": "verification",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "缓慢性心律失常"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "缓慢性心律失常这个哪些情况会引起",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "缓慢性心律失常",
+            "缓慢性的心律不齐（心动过缓）则可能被疼痛、饥饿、疲劳、消化系统疾病（如腹泻、呕吐等）或者吞咽等因素过度刺激迷走神经所诱发。罕见情况下，迷走神经受到足够大的刺激后会导致心脏短暂停搏。在绝大多数情况下，上述因素所引发的心律不齐倾向于自行恢复。"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "缓慢性的心律不齐（心动过缓）则可能被疼痛、饥饿、疲劳、消化系统疾病（如腹泻、呕吐等）或者吞咽等因素过度刺激迷走神经所诱发。罕见情况下，迷走神经受到足够大的刺激后会导致心脏短暂停搏。在绝大多数情况下，上述因素所引发的心律不齐倾向于自行恢复。甲状腺不够活跃（甲状腺功能减退症）时，产生的甲状腺激素水平低，可能引起缓慢性心律失常",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_异常心律概述.json",
+        "grounding": [
+            "缓慢性的心律不齐（心动过缓）则可能被疼痛、饥饿、疲劳、消化系统疾病（如腹泻、呕吐等）或者吞咽等因素过度刺激迷走神经所诱发。罕见情况下，迷走神经受到足够大的刺激后会导致心脏短暂停搏。在绝大多数情况下，上述因素所引发的心律不齐倾向于自行恢复。",
+            "甲状腺不够活跃（甲状腺功能减退症）时，产生的甲状腺激素水平低，可能引起缓慢性心律失常。"
+        ],
+        "grounding_id": [
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有些问题想问一下也是关于心脏方面的",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏和血管疾病"
+        ],
+        "grounding_id": [
+            "T151"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您具体想了解哪方面呢比如是心室颤动、心脏传导阻滞概述、心房颤动和心房扑动 等等",
+        "act": "question/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏传导阻滞概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "概述心脏传导阻滞",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏传导阻滞概述",
+            "心脏传导阻滞"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "心脏传导阻滞这个是有分类的您清楚吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏传导阻滞可以分为"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "都分为什么",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏传导阻滞可以分为"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "房室传导阻滞还有束支传导阻滞",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "房室传导阻滞",
+            "束支传导阻滞"
+        ],
+        "grounding_id": [
+            "19",
+            "22"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "束支传导阻滞这个能给解释一下吗",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_束支传导阻滞.json",
+        "grounding": [
+            "束支传导阻滞"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "束支传导阻滞是指起搏电流通过左或右束支时被部分或完全阻滞。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_束支传导阻滞.json",
+        "grounding": [
+            "束支传导阻滞是指起搏电流通过左或右束支时被部分或完全阻滞。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的再确认一下心脏传导阻滞可以分为一种是束支传导阻滞还有一种是房室传导阻滞对吧",
+        "act": "verification",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "心脏传导阻滞可以分为",
+            "房室传导阻滞",
+            "束支传导阻滞"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "22"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "房室传导阻滞"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "system",
+        "utterance": "房室传导阻滞需要也给您解释一下吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "房室传导阻滞"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "user",
+        "utterance": "好的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "房室传导阻滞"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "system",
+        "utterance": "房室传导阻滞是指电流传导通过房室传导系统的过程中发生延迟。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_异常心律_心脏传导阻滞概述.json",
+        "grounding": [
+            "房室传导阻滞是指电流传导通过房室传导系统的过程中发生延迟。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

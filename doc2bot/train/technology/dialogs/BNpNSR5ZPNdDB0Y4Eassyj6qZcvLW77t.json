@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，能跟我讲讲关于AppleStudioDisplay的问题吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调AppleStudioDisplay的校准"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何测定您的StudioDisplay 、微调校准还是测定和微调校准的技巧？",
+        "act": "multiple-choice",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "测定您的StudioDisplay"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道测定显示器的步骤是什么？",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "测定显示器"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先将第三方光谱辐射仪对准显示器的中央。 请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。 然后打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。 在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。最后将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "具体步骤",
+            "将第三方光谱辐射仪对准显示器的中央。",
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。",
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。",
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于DCISDR的模式时，请使用数码影院(P3–DCI)预置。",
+            "将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。根据光谱辐射仪的容差或校准情况，读数与参考值可能有些不同。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "大致已经做好了，我现在想要更精准点，我该如何做",
+        "act": "how",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调校准"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您的工作流程已根据特定目标进行优化，则可以微调StudioDisplay的校准。这样您就可以调整显示器的白点值和亮度值，以更精确地匹配您所在组织内部的显示器校准目标。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调校准",
+            "如果您的工作流程已根据特定目标进行优化，则可以微调StudioDisplay的校准。这样您就可以调整显示器的白点值和亮度值，以更精确地匹配您所在组织内部的显示器校准目标。"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我要是换参考模式了，是先校准还是先测定显示器",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "如果您选取其他参考模式，",
+            "请先测定您的显示器，然后再次微调校准，以获得最佳结果。"
+        ],
+        "grounding_id": [
+            "48",
+            "78"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您选取其他参考模式，请先测定您的显示器，然后再次微调校准，以获得最佳结果。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "请先测定您的显示器，然后再次微调校准，以获得最佳结果。"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    }
+]

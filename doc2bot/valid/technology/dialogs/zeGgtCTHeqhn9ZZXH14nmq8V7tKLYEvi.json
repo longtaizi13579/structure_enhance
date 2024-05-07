@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道AppleWatch上的激活锁的信息",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面的信息呢",
+        "act": "question/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道在配对的iPhone上设置“查找我的iPhone”时AppleWatch的“查找”和激活锁会不会自动打开",
+        "act": "verification",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "会的",
+        "act": "ans/yes",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那启用激活锁之后，如果要将AppleWatch与新的iPhone配对并搭配使用应该怎么操作",
+        "act": "how",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作：",
+            "将AppleWatch与新的iPhone配对并搭配使用。"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作：",
+            "将AppleWatch与新的iPhone配对并搭配使用。"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一般激活锁是在什么情况下会用到呢",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果远程抹掉设备上的数据，激活锁还有用吗",
+        "act": "verification",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。",
+        "act": "ans/yes",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

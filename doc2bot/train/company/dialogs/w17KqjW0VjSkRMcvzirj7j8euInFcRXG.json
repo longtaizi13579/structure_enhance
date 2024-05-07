@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江杭州，想咨询职工公积金常用服务问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "职工公积金",
+            "浙江省_杭州市",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T81",
+            "T10",
+            "T85"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解单位住房公积金降低缴存比例和缓缴、住房公积金退缴还是个人住房公积金账户设立呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "单位住房公积金降低缴存比例和缓缴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想要单位住房公积金降比和缓缴的联系方式。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "单位住房公积金降低缴存比例和缓缴",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，咨询电话为0571-12345-2或者0571-12329-1。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "咨询电话",
+            "0571-12345-2；0571-12329-1"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我对办理完的结果有异议该怎么办？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "单位住房公积金降低缴存比例和缓缴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以通过监督投诉方式解决，请问您需要投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "请给我一个投诉电话吧，谢谢。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，投诉电话是0571-12345-2。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "投诉电话",
+            "0571-12345-2"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我还想知道能不能网上交钱呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "451"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "很抱歉，暂不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "452"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那有关结果的事情您可以跟我说说吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，您想知道审批结果类型、是否支持物流快递还是送达时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道送达时限。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，我们是自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "121",
+            "120"
+        ]
+    }
+]

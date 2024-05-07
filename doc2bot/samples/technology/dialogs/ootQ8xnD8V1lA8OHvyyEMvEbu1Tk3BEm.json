@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果服务提供商使用非正品电池部件，则电池更换件的原因可能是？",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池",
+            "此外，如果服务提供商使用非正品电池部件，则电池更换件可能是："
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "设计或制造粗劣的电池、二手电池、损坏的电池、不适用于您iPhone机型的电池、",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "设计或制造粗劣的电池",
+            "二手电池",
+            "损坏的电池",
+            "不适用于您iPhone机型的电池"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "正品iPhone电池去哪里换？",
+        "act": "where",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据您所在的地点，您可以前往AppleStore商店或Apple授权服务提供商处，或将您的iPhone发运到Apple维修中心，以更换iPhone电池（保修内或保外）。对于保外电池更换，独立维修提供商*也会让接受过培训的技术人员使用正品部件进行更换。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "根据您所在的地点，您可以前往AppleStore商店或Apple授权服务提供商处，或将您的iPhone发运到Apple维修中心，以更换iPhone电池（保修内或保外）。对于保外电池更换，独立维修提供商*也会让接受过培训的技术人员使用正品部件进行更换。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎样吸附和取下MagSafe外接电池？",
+        "act": "how",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "如何使用MagSafe外接电池",
+            "吸附和取下MagSafe外接电池"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "MagSafe外接电池通过磁力吸附到iPhone背面。要取下MagSafe外接电池，请从设备背面轻轻地将它拉开。",
+        "act": "ans/open",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "MagSafe外接电池通过磁力吸附到iPhone背面。要取下MagSafe外接电池，请从设备背面轻轻地将它拉开。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

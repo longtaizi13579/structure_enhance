@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如果AppleTV遥控器无法正常工作怎么办？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果AppleTV遥控器无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解：AppleRemote（铝金属或白色），还是Siri Remote 或 Apple TV Remote？",
+        "act": "multiple-choice",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "AppleRemote（铝金属或白色）"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下AppleRemote吧。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "AppleRemote（铝金属或白色）"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "操作步骤：1.取消AppleRemote与AppleTV的关联。在AppleRemote上，按住“MENU”（菜单）和向左按钮6秒钟。然后在AppleTV上，在遥控器图标的上方寻找“Unlink”（取消关联）。 2.将AppleRemote关联到AppleTV。在AppleRemote上，按住MENU（菜单）和向右按钮六秒钟。然后在AppleTV上，在遥控器图标的上方寻找“Link”（关联）。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "取消AppleRemote与AppleTV的关联。在AppleRemote上，按住“MENU”（菜单）和向左按钮6秒钟。然后在AppleTV上，在遥控器图标的上方寻找“Unlink”（取消关联）。",
+            "将AppleRemote关联到AppleTV。在AppleRemote上，按住MENU（菜单）和向右按钮六秒钟。然后在AppleTV上，在遥控器图标的上方寻找“Link”（关联）。"
+        ],
+        "grounding_id": [
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果是SiriRemote无法配对，是怎么回事？",
+        "act": "why",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "SiriRemote或AppleTVRemote",
+            "如果您无法配对您的SiriRemote（第2代）或AppleTVRemote（第2代），请确保您的AppleTV已经更新到AppletvOS14.5或更高版本。您可以使用iPhone、iPad或iPodtouch上的“AppleTV遥控器”来浏览AppleTV，以查看您使用的AppletvOS版本。"
+        ],
+        "grounding_id": [
+            "11",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您无法配对您的SiriRemote（第2代）或AppleTVRemote（第2代），请确保您的AppleTV已经更新到AppletvOS14.5或更高版本。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果您无法配对您的SiriRemote（第2代）或AppleTVRemote（第2代），请确保您的AppleTV已经更新到AppletvOS14.5或更高版本。您可以使用iPhone、iPad或iPodtouch上的“AppleTV遥控器”来浏览AppleTV，以查看您使用的AppletvOS版本。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如何查看AppletvOS版本？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果您无法配对您的SiriRemote（第2代）或AppleTVRemote（第2代），请确保您的AppleTV已经更新到AppletvOS14.5或更高版本。您可以使用iPhone、iPad或iPodtouch上的“AppleTV遥控器”来浏览AppleTV，以查看您使用的AppletvOS版本。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以使用iPhone、iPad或iPodtouch上的“AppleTV遥控器”来浏览AppleTV，以查看您使用的AppletvOS版本。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果您无法配对您的SiriRemote（第2代）或AppleTVRemote（第2代），请确保您的AppleTV已经更新到AppletvOS14.5或更高版本。您可以使用iPhone、iPad或iPodtouch上的“AppleTV遥控器”来浏览AppleTV，以查看您使用的AppletvOS版本。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果配对成功了还无法使用怎么办？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "SiriRemote或AppleTVRemote"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤: 1.同时按住“TV/控制中心”按钮和“调低音量”按钮。按住按钮约5秒钟，或者等待AppleTV状态指示灯关闭并再次亮起。 2.松开按钮，然后等待5到10秒钟。3.在遥控器重新启动后，您的TV屏幕上将显示一条“已连接”通知。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "具体步骤",
+            "同时按住“TV/控制中心”按钮和“调低音量”按钮。按住按钮约5秒钟，或者等待AppleTV状态指示灯关闭并再次亮起。",
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。",
+            "在遥控器重新启动后，您的TV屏幕上将显示一条“已连接”通知。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "操作第二步时，屏幕上会有什么提示？",
+        "act": "what",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您的TV屏幕上将显示一条“连接中断”通知。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果还是不能用怎么办？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果遥控器仍无法正常使用，请尝试以下步骤："
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果遥控器仍无法正常使用，请尝试以下步骤：: 1.将遥控器指向AppleTV。确保遥控器与AppleTV之间的距离约为3英寸。 2.按住“返回”或“MENU”（菜单）和“调高音量”5秒钟。 3.如果系统提示，请将遥控器放在AppleTV的顶部以完成配对。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果遥控器仍无法正常使用，请尝试以下步骤：",
+            "将遥控器指向AppleTV。确保遥控器与AppleTV之间的距离约为3英寸。",
+            "按住“返回”或“MENU”（菜单）和“调高音量”5秒钟。",
+            "如果系统提示，请将遥控器放在AppleTV的顶部以完成配对。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "一般情况下，遇到遥控器不能使用，需要先怎么做？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "先尝试完成以下步骤"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤: 1.如果您使用的是SiriRemote或AppleTVRemote，请使用闪电转USB连接线和USB壁式充电器为遥控器充电30分钟。如果您使用的是AppleRemote，请更换电池。 2.从壁式电源插座上拔下AppleTV的电源线。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "具体步骤",
+            "如果您使用的是SiriRemote或AppleTVRemote，请使用闪电转USB连接线和USB壁式充电器为遥控器充电30分钟。如果您使用的是AppleRemote，请更换电池。",
+            "从壁式电源插座上拔下AppleTV的电源线。至少等待六秒钟，然后重新插上电源线。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "拔下电源线后，需要等待多长时间？",
+        "act": "when",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "从壁式电源插座上拔下AppleTV的电源线。至少等待六秒钟，然后重新插上电源线。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "至少等待六秒钟，然后重新插上电源线。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "从壁式电源插座上拔下AppleTV的电源线。至少等待六秒钟，然后重新插上电源线。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我有个科技合作基地可以申请科技创新认定吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "科技创新认定"
+        ],
+        "grounding_id": [
+            "T41"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您的基地属于省级国际科技合作基地吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我们挂牌是浙江省的科技基地。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "只要您的基地符合标准，就可以申请认定。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那一般多久能申请下来？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "认定结果会在自作出决定之日起7个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "自作出决定之日起7个工作日内送达。",
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "121",
+            "120",
+            "111"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能从网上办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以直接在网上申请办理。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "办理形式",
+            "网上申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以从线下自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以的，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

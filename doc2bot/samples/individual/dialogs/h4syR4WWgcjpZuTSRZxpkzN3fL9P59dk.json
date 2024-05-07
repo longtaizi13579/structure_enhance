@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要装修浙江宁波市的房子，需要取我的住房公积金，该走什么流程呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以申请 建造、翻建、大修自住住房提取住房公积金。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "建造、翻建、大修自住住房提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请后多久可以通过？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是3个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "法定办结时限",
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有线下地址可以办理呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，请问您所在的城市是哪里呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我在浙江省宁波市。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理地址在宁波市海曙区解放南路166号三楼",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "宁波市海曙区解放南路166号三楼"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我可以在什么时间去办理？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理时间工作日：8:30—16:45，无午休。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_建造、翻建、大修自住住房提取住房公积金.json",
+        "grounding": [
+            "工作日：8:30—16:45，无午休",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "25",
+            "24"
+        ]
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下如何使用装有iOS12的iPhone上的提醒事项？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：添加提醒事项，完成提醒事项，选取提醒方式，整理您的提醒事项，共享提醒事项列表，还是其它？",
+        "act": "multiple-choice",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "完成提醒事项"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何标记完成提醒事项。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "完成提醒事项"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何查看已完成的提醒事项？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "添加提醒事项的具体操作步骤是什么？",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "添加提醒事项"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，打开“提醒事项”App。然后，轻点提醒事项列表中的。 接着，输入您的提醒事项。 要添加类似提醒时间或提醒地点这样的详细信息，请轻点信息按钮。 最后，轻点“完成”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "打开“提醒事项”App。",
+            "轻点提醒事项列表中的。",
+            "输入您的提醒事项。",
+            "要添加类似提醒时间或提醒地点这样的详细信息，请轻点信息按钮。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "“提醒事项”都有什么用处？",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还有个问题，如果iCloud提醒事项没有同步怎么办？",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您首先要进行的几项检查，然后尝试按照适用于您设备的步骤操作，不同的系统版本操作方法不太一样。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "尝试按照适用于您设备的步骤操作"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "都有哪些不同的设备系统？",
+        "act": "what",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "尝试按照适用于您设备的步骤操作"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作： iOS13和iPadOS或更高版本； watchOS； macOS； iCloud.com； MicrosoftWindows。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。",
+            "iOS13和iPadOS或更高版本",
+            "watchOS",
+            "macOS",
+            "iCloud.com",
+            "MicrosoftWindows"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "30",
+            "34",
+            "38"
+        ]
+    }
+]

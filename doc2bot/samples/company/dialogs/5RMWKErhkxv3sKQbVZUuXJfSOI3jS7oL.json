@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道浙江省的放射源进口备案办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "浙江省",
+            "放射源进口备案",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的办结时限，需要多久呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限在20个工作日之内。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理的具体地点在哪呢？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "地点在杭州市西湖区翠苑街道学院路117号副楼1楼4号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "浙江省生态环境厅受理窗口（杭州市西湖区翠苑街道学院路117号）副楼1楼4号窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我缴费的话可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "208"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前是不支持网上支付的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业经营_许可备案_放射源进口备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "209"
+        ]
+    }
+]

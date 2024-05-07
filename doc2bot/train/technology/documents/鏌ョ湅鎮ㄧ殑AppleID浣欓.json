@@ -1,0 +1,132 @@
+{
+    "document_id": 393,
+    "domain": "technology",
+    "name": "查看您的AppleID余额",
+    "graph": {
+        "1": {
+            "data": "查看您的AppleID余额",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "要查看您的余额，请使用AppStore。或在PC上，使用Windows版iTunes。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "在iPhone、iPad或iPodtouch上查看余额",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "4": {
+            "data": "打开AppStoreApp。",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "5": {
+            "data": "轻点屏幕顶部您的照片或登录按钮。系统可能会要求您使用AppleID登录。",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "6": {
+            "data": "如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "7": {
+            "data": "在Mac上查看余额",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "8": {
+            "data": "打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。",
+            "type": "sequence-step",
+            "pid": "7"
+        },
+        "9": {
+            "data": "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+            "type": "sequence-step",
+            "pid": "7"
+        },
+        "10": {
+            "data": "在WindowsPC上查看余额",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "11": {
+            "data": "打开Windows版iTunes。如果您还没有登录，请使用您的AppleID登录。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "在iTunes窗口的顶部，点按“商店”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "14": {
+            "data": "如果您的AppleID余额似乎不正确",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "如果您认为自己的AppleID余额不正确，",
+            "type": "condition",
+            "pid": "14"
+        },
+        "16": {
+            "data": "如果您认为余额仍不正确，",
+            "type": "condition",
+            "pid": "14"
+        },
+        "20": {
+            "data": "如果计划删除您的AppleID或更改您的国家或地区",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "21": {
+            "data": "您必须用完所有AppleID余额，然后才能删除您的AppleID或更改您的AppleID国家或地区。您还可能需要等待所有待处理的退款处理完毕。如果您的余额低于单个项目的价格，请联系Apple支持。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "33": {
+            "data": "如果您有无法使用的AppleID余额",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "34": {
+            "data": "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息：",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "38": {
+            "data": "您的AppleID。",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "39": {
+            "data": "退款金额。",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "40": {
+            "data": "您当前的送货地址。",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "41": {
+            "data": "请退出登录AppStore或iTunesStore。然后重新登录并再次查看余额。",
+            "type": "solution",
+            "pid": "15"
+        },
+        "42": {
+            "data": "请查看您的购买历史记录，看看您是不是购买了某个项目，或者是不是对某个订阅进行了续订。",
+            "type": "solution",
+            "pid": "16"
+        }
+    }
+}

@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市社保医保的相关问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询医疗保险、养老保险还是工伤保险的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询工伤保险的相关问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "统筹地区以外交通、食宿费申领、供养亲属抚恤金申领、工伤保险待遇变更申请、工伤医疗（康复）费用申报、老工伤人员托管登记，上述问题中哪一项是您想咨询的呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询一下统筹地区以外交通、食宿费申领的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您好，是42个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问一下关于统筹地区以外交通、食宿费申领的其他基本信息？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，您是想问行政相对人权利和义务、办事信息、中介服务、结果信息还是其他的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想问的是有关结果的信息？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "审批结果类型、审批结果名称、审批结果样本、是否支持物流快递、送达时限、送达方式这些问题您想了解哪一个呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解一下送达时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "统筹地区以外交通、食宿费申领问题的监督投诉方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们可以提供投诉电话、投诉地址和投诉网址。您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线0571-12345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

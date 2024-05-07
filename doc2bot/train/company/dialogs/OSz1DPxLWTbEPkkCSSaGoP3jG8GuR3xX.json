@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在杭州提交企业分支注销申请已经3天了，还没有结果。你们一般什么时候出？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "合伙企业分支机构注销",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道承诺时限还是法定时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的呗，这样就算久我也耐心等。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我先咨询要哪些材料，有咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有现场咨询和电话咨询，您要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有些材料我这里没有不知道怎么处理，所以现场吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "地址在，杭州市行政服务中心(H楼)一楼商事登记综合进件窗口6-13号窗。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "杭州市行政服务中心(H楼)（杭州市上城区解放东路18号市民中心H楼）一楼商事登记综合进件窗口6-13号窗口",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "30",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我后面有些材料我这里没有不知道怎么处理的话，可以打电话吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，具体您可以拔打全国统一咨询投诉热线0571-12345；0571-86439775进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345；0571-86439775",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    }
+]

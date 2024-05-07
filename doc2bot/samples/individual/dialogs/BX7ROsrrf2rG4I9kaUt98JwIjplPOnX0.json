@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在浙江省丽水市这边办理那个换领机动车证书的登记，想要了解一下这方面的信息，我可以怎样了解呢？？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询方式",
+            "换领机动车登记证书",
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "26",
+            "1",
+            "T12"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个有咨询地址的，你看可以吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那咨询的地址是在哪里呢？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址是在丽水市公安局交通警察支队车辆管理所",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            " 丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理的话是否有禁止性要求呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "无禁止性要求",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "禁止性要求",
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "143",
+            "144"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，我想咨询一下这个证书是什么开始实行的？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "320"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "实施日期是2012年9月12日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "实施日期",
+            "2012-09-12"
+        ],
+        "grounding_id": [
+            "320",
+            "321"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的好的，我帮我朋友问一下他办理换领机动车登记的证书咨询是在哪里的呀？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "他也是浙江丽水的吗?",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "不是，他是浙江金华的",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那他的咨询地址是在金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，谢谢，那他那边办理这个证书大概多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "法定办结时限是1个工作日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那我们丽水这边的大定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "丽水这边的办结时限也是一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

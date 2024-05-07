@@ -1,0 +1,266 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下ApplePay安全性与隐私政策概览",
+        "act": "what",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在添加信用卡、借记卡、储值卡或交通卡时，在商店里使用ApplePay时，还是在应用内或网站上使用ApplePay时使用呢",
+        "act": "multiple-choice",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您添加信用卡、借记卡、储值卡或交通卡时"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是想问将信用卡添加到ApplePay时输入的信息会不会加密发送到服务器呢",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您将信用卡、借记卡、储值卡或交通卡（如果适用）添加到ApplePay时，您在设备上输入的信息会经过加密并发送至Apple服务器。如果您使用摄像头来输入卡片信息，这些信息绝不会存储在设备上或照片图库中。",
+            "当您添加信用卡、借记卡、储值卡或交通卡时"
+        ],
+        "grounding_id": [
+            "13",
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您将信用卡、借记卡、储值卡或交通卡（如果适用）添加到ApplePay时，您在设备上输入的信息会经过加密并发送至Apple服务器。",
+        "act": "ans/yes",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您将信用卡、借记卡、储值卡或交通卡（如果适用）添加到ApplePay时，您在设备上输入的信息会经过加密并发送至Apple服务器。如果您使用摄像头来输入卡片信息，这些信息绝不会存储在设备上或照片图库中。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果是用摄像头输入信息的话会不会被保存在照片图库里",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您将信用卡、借记卡、储值卡或交通卡（如果适用）添加到ApplePay时，您在设备上输入的信息会经过加密并发送至Apple服务器。如果您使用摄像头来输入卡片信息，这些信息绝不会存储在设备上或照片图库中。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用摄像头来输入卡片信息，这些信息绝不会存储在设备上或照片图库中。",
+        "act": "ans/no",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您将信用卡、借记卡、储值卡或交通卡（如果适用）添加到ApplePay时，您在设备上输入的信息会经过加密并发送至Apple服务器。如果您使用摄像头来输入卡片信息，这些信息绝不会存储在设备上或照片图库中。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在接受免接触式付款方式的商店里使用ApplePay付款时用的是什么技术呢",
+        "act": "what",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个技术一般是怎么工作的呢",
+        "act": "how",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "想要激活默认卡片的话应该怎么操作",
+        "act": "how",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在接受免接触式付款方式的商店里使用ApplePay付款时，ApplePay会在您的设备和付款终端之间使用近场通信(NFC)技术。NFC是行业标准的免接触式技术，只适用于短距离通信。如果您的iPhone已开机并检测到NFC场，则会显示默认的卡片。要发送付款信息，您必须使用面容ID、触控ID或密码进行鉴定（在日本将Suica卡设置为快捷交通卡时例外）。在使用面容ID或AppleWatch时，必须在设备解锁后连按两次侧边按钮，才能激活默认卡片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，我还想知道iCloud会在通过互联网发送“钱包”数据时加密吗",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "另外，iCloud会在通过互联网发送“钱包”数据（如凭证或交易信息）时对数据进行加密，并且在Apple服务器上保存数据时也会以加密格式进行储存，从而确保这些数据的安全。您可以在自己的设备上前往“设置”>“[您的姓名]”>“iCloud”，然后关闭“钱包”，以停用iCloud支持。进一步了解iCloud如何储存和保护您的数据。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "iCloud会在通过互联网发送“钱包”数据（如凭证或交易信息）时对数据进行加密，并且在Apple服务器上保存数据时也会以加密格式进行储存，从而确保这些数据的安全。",
+        "act": "ans/yes",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "另外，iCloud会在通过互联网发送“钱包”数据（如凭证或交易信息）时对数据进行加密，并且在Apple服务器上保存数据时也会以加密格式进行储存，从而确保这些数据的安全。您可以在自己的设备上前往“设置”>“[您的姓名]”>“iCloud”，然后关闭“钱包”，以停用iCloud支持。进一步了解iCloud如何储存和保护您的数据。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果想停用iCloud支持的划怎么办",
+        "act": "how",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "另外，iCloud会在通过互联网发送“钱包”数据（如凭证或交易信息）时对数据进行加密，并且在Apple服务器上保存数据时也会以加密格式进行储存，从而确保这些数据的安全。您可以在自己的设备上前往“设置”>“[您的姓名]”>“iCloud”，然后关闭“钱包”，以停用iCloud支持。进一步了解iCloud如何储存和保护您的数据。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以在自己的设备上前往“设置”>“[您的姓名]”>“iCloud”，然后关闭“钱包”，以停用iCloud支持。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "另外，iCloud会在通过互联网发送“钱包”数据（如凭证或交易信息）时对数据进行加密，并且在Apple服务器上保存数据时也会以加密格式进行储存，从而确保这些数据的安全。您可以在自己的设备上前往“设置”>“[您的姓名]”>“iCloud”，然后关闭“钱包”，以停用iCloud支持。进一步了解iCloud如何储存和保护您的数据。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那在应用内或网站上使用ApplePay时怎么确保安全传输付款信息呢",
+        "act": "how",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "在应用内或网站上使用ApplePay时",
+            "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。"
+        ],
+        "grounding_id": [
+            "31",
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那Apple会将实际支付卡卡号发送给应用吗",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "Apple和您的设备都不会将您的实际支付卡卡号发送给应用。",
+        "act": "ans/no",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

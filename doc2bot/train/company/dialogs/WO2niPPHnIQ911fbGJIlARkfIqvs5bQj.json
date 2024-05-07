@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江省安全评价机构申请变更资质的话，对提交的材料有什么要求吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "浙江省",
+            "安全评价机构资质变更",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "136"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是想咨询哪方面的要求呢？有材料类型，形式，份数，规格等说方面的要求。",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "变更后的工商营业执照"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想知道材料提交是要用什么形式提交？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "材料形式"
+        ],
+        "grounding_id": [
+            "166"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "材料提交使用普通电子文件即可。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "普通电子文件"
+        ],
+        "grounding_id": [
+            "167"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个资质变更好像是只能在网上申请，对吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "办理形式",
+            "网上申请"
+        ],
+        "grounding_id": [
+            "98",
+            "99"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，目前我们的办理形式只有在网上申请这一种。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我在网上申请的话，办结时限一般是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您所说的办结时限，具体是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我说的是法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

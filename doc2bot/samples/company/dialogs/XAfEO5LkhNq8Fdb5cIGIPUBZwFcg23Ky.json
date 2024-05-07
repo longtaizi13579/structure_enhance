@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我人在浙江温州，我想了解一些内资投资旅行社业务许可的办理问题。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "浙江省_温州市",
+            "内资投资旅行社业务许可"
+        ],
+        "grounding_id": [
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解是否支持物流快递、送达时限还是送达方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你给我说一下送达时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "内资投资旅行社业务许可送达时限是自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那多久可以办结呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "内资投资旅行社业务许可"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你先给我说一下法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那承诺办结时限又是多久呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "承诺办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，那我知道了，你能告诉我内资投资旅行社业务许可的设定依据是由哪个机构颁布的吗？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "内资投资旅行社业务许可",
+            "设定依据",
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "1",
+            "415",
+            "421"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是由中华人民共和国国务院颁布。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "中华人民共和国国务院"
+        ],
+        "grounding_id": [
+            "422"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我上次去办理那个国内外经济组织投资建设公路项目许可，工作人员态度极其不好，我想投诉，要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "国内外经济组织投资建设公路项目许可",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们有投诉电话、投诉地址、投诉网址，您需要哪种投诉方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "你告诉我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您到浙江省杭州市上城区小营街道梅花碑4号604办公室就可以进行投诉了。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "浙江省杭州市上城区小营街道梅花碑4号604办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个地方离我太远了，你给我说说投诉电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "投诉电话是0571-87813819。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "0571-87813819"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

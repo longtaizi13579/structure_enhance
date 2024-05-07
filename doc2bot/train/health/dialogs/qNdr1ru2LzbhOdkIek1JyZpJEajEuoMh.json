@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，医生说我女儿患上了原发性脱髓鞘病，我想知道这个病的病因是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "其他原发性脱髓鞘病",
+            "多发性硬化是原发性脱髓鞘疾病最为常见的原因。"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "多发性硬化是原发性脱髓鞘疾病最为常见的原因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "多发性硬化是原发性脱髓鞘疾病最为常见的原因。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，是这样。我还想问问急性播散性脑脊髓炎难治吗？我有个亲戚得了这种病。",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "ADEM的治疗",
+            "ADEM的治疗方法主要有",
+            "急性播散性脑脊髓炎（ADEM）",
+            "其他原发性脱髓鞘病"
+        ],
+        "grounding_id": [
+            "40",
+            "41",
+            "13",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个病要根据患者的身体情况和病情而定。患者是儿童吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "急性播散性脑脊髓炎（ADEM）",
+            "ADEM的治疗"
+        ],
+        "grounding_id": [
+            "13",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "患者是儿童，今年7岁，医生说要用什么醇。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "ADEM的治疗",
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "40",
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是皮质类固醇吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对对，是这个药。还有其他治疗方法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "ADEM的治疗方法主要有",
+            "ADEM的治疗",
+            "其他原发性脱髓鞘病"
+        ],
+        "grounding_id": [
+            "41",
+            "40",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有。还可以进行免疫球蛋白或血浆置换进行治疗。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_多发性硬化（MS）及相关疾病_其他原发性脱髓鞘病.json",
+        "grounding": [
+            "免疫球蛋白或血浆置换"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    }
+]

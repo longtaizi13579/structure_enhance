@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江嘉兴，想咨询企业经营常用服务问题。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "企业经营",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T11",
+            "T120",
+            "T129"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询公共场所卫生行政许可、省重点建设项目招标文件备案还是二手车拍卖企业备案呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道公共场所卫生行政许可要去哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理地点在嘉兴市行政审批服务中心，也就是嘉兴市南湖区东栅街道凌公塘路1683号的四楼综合受理窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "办理地点",
+            "嘉兴市行政审批服务中心（嘉兴市南湖区东栅街道凌公塘路1683号）四楼综合受理窗口"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问我们可以自己办理的吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想问我们这边是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "很抱歉，我们这边暂不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那办理需要缴纳费用吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1760"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1761"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那办理后多久会出结果？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "58",
+            "57"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果我办理完对结果不满意该怎么办？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以通过监督投诉方式解决，请问您需要投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉地址",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "34",
+            "31"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "请给我一个投诉地址吧，谢谢。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的，投诉地址是文桥路486号嘉兴市卫生监督所四楼405室。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉地址",
+            "文桥路486号嘉兴市卫生监督所四楼405室"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    }
+]

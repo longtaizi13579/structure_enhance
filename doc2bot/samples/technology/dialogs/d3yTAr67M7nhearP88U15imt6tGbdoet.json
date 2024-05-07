@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何安装允许编辑或提供了扩展的MacApp？",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装允许编辑或提供了扩展的MacApp"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "通过macOS版“照片”找到第三方App，也可以MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App，您也可以选择AppStore上“使用扩展快速编辑照片”中所列的App，你想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "通过macOS版“照片”可以轻松找到第三方App：",
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。",
+            "您也可以选择AppStore上“使用扩展快速编辑照片”中所列的App。"
+        ],
+        "grounding_id": [
+            "36",
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "MacAppStore",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "AppStore也可以速编辑照片吗",
+        "act": "what",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "您也可以选择AppStore上“使用扩展快速编辑照片”中所列的App。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "选择AppStore上“使用扩展快速编辑照片”中所列的App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "您也可以选择AppStore上“使用扩展快速编辑照片”中所列的App。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "安装哪些app是提供扩展的iOSApp？",
+        "act": "what",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装提供扩展的iOSApp"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何使用第三方扩展程序来转换现有的“照片”项目？",
+        "act": "how",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "您可以使用第三方扩展程序来转换现有的“照片”项目，以便进行更新或继续处理："
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先在“照片”边栏的“项目”下方，选择您想要转换的项目。其次在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”，然后选取您想要使用的项目扩展程序。 最后使用“照片”中的项目扩展程序界面来编辑项目或订购冲印产品。完成后，请点按“照片”右上角的“完成”。",
+        "act": "ans/open",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "在“照片”边栏的“项目”下方，选择您想要转换的项目。",
+            "在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”，然后选取您想要使用的项目扩展程序。扩展程序将显示适用于项目的选项，然后将项目转换为它自有的格式。",
+            "使用“照片”中的项目扩展程序界面来编辑项目或订购冲印产品。完成后，请点按“照片”右上角的“完成”。转换后的项目将和原始项目一起出现在边栏中。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "扩展程序有哪些作用？",
+        "act": "what",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”，然后选取您想要使用的项目扩展程序。扩展程序将显示适用于项目的选项，然后将项目转换为它自有的格式。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "扩展程序将显示适用于项目的选项，然后将项目转换为它自有的格式。",
+        "act": "ans/open",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”，然后选取您想要使用的项目扩展程序。扩展程序将显示适用于项目的选项，然后将项目转换为它自有的格式。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "转换现有项目后可以做什么？",
+        "act": "what",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "在转换项目后，您可以使用“照片”中的扩展程序界面进一步编辑这些项目以及下达订单。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在转换项目后，您可以使用“照片”中的扩展程序界面进一步编辑这些项目以及下达订单。",
+        "act": "ans/open",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "在转换项目后，您可以使用“照片”中的扩展程序界面进一步编辑这些项目以及下达订单。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

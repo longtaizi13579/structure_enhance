@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我听说mac上可以上设置妙控键盘、妙控鼠标或妙控板，想了解一下这方面的事。",
+        "act": "what",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "在Mac上设置妙控键盘、妙控鼠标或妙控板"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想咨询什么？如果您的设备拥有独立包装盒，或者您需要重新设置设备都是可以设置的。",
+        "act": "question/open",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "如果设备拥有独立包装盒，或者您需要重新设置设备，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "之前有个同事不用设置就直接使用了那是怎么回事？",
+        "act": "why",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "如果您的无线输入设备是在新Mac的包装箱内随附的，您只需开启设备即可开始使用。否则，请按照以下步骤来设置设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那可能因为他的无线输入设备是在新Mac的包装箱内随附的，开启设备即可开始使用，否则是需要通过操作来设定的。",
+        "act": "ans/open",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "如果您的无线输入设备是在新Mac的包装箱内随附的，您只需开启设备即可开始使用。否则，请按照以下步骤来设置设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个 妙控键盘是需要无线蓝牙工作的呀？",
+        "act": "verification",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "妙控键盘、妙控鼠标和妙控板在开启并与Mac配对后，可通过蓝牙以无线方式工作。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的妙控键盘、妙控鼠标和妙控板在开启并与Mac配对后，可通过蓝牙以无线方式工作。",
+        "act": "ans/yes",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "妙控键盘、妙控鼠标和妙控板在开启并与Mac配对后，可通过蓝牙以无线方式工作。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那你教我一下怎么样操作设置吧？",
+        "act": "how",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "设置妙控键盘、妙控鼠标或妙控板"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先需要使用一线缆将您的无线设备连接到Mac，然后开启设备，接着: 设备使用USB连接为电池充电，并自动与Mac配对，要查看设备电量并确认设备已配对，请选取苹果菜单>“系统偏好设置”，然后点按“蓝牙”，最后: 拔下设备即可通过无线方式使用。",
+        "act": "ans/open",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "使用以下任一线缆将您的无线设备连接到Mac：",
+            "开启设备。您应该会在电源开关下看到绿色。",
+            "设备使用USB连接为电池充电，并自动与Mac配对。要查看设备电量并确认设备已配对，请选取苹果菜单>“系统偏好设置”，然后点按“蓝牙”。设备应该会出现在蓝牙设备列表中。",
+            "拔下设备即可通过无线方式使用。"
+        ],
+        "grounding_id": [
+            "9",
+            "12",
+            "13",
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "线缆的话需要用什么样的？",
+        "act": "what",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "使用以下任一线缆将您的无线设备连接到Mac："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "USB-C转闪电连接线就行。",
+        "act": "ans/open",
+        "document": "在Mac上设置妙控键盘、妙控鼠标或妙控板.json",
+        "grounding": [
+            "USB-C转闪电连接线"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

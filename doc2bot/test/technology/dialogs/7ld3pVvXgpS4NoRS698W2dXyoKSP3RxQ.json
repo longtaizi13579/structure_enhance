@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问apple选取Patch怎么设置？",
+        "act": "how",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "选取Patch的不同设置类型"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有两种。一种是返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。一种是将焦点放在任何音频效果插入插槽上，你想了解哪一种、",
+        "act": "multiple-choice",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。",
+            "同样，您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置："
+        ],
+        "grounding_id": [
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说说返回到轨道，请注意Patch插入插槽左侧的蓝色箭头吧",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。这表示Patch插入插槽获得了资源库焦点，因此资源库会显示Patch。将鼠标光标悬停在通道条上其他插入插槽的左侧。请注意灰色三角形。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。",
+            "这表示Patch插入插槽获得了资源库焦点，因此资源库会显示Patch。将鼠标光标悬停在通道条上其他插入插槽的左侧。请注意灰色三角形："
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那点击个三角会怎么样?",
+        "act": "how",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果点按这个三角形，它会变蓝，表明插入现在获得了资源库焦点："
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果点按这个三角形，它会变蓝，表明插入现在获得了资源库焦点：请注意，资源库现在会显示怀旧合成设置，而非完整Patch。您可以将不同设置载入乐器插槽，同时保留通道条的其他元素。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果点按这个三角形，它会变蓝，表明插入现在获得了资源库焦点：",
+            "请注意，资源库现在会显示怀旧合成设置，而非完整Patch。您可以将不同设置载入乐器插槽，同时保留通道条的其他元素。"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那可将焦点放在任何音频效果插入插槽上呢？",
+        "act": "what",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "同样，您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置：点按蓝色三角形将完全关闭资源库。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "同样，您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置：",
+            "点按蓝色三角形将完全关闭资源库。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那Patch或设置不能更改吧？",
+        "act": "verification",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果您对Patch或设置进行了更改，"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不是的。您对Patch或设置可以进行了更改， 您可以按如下方式进行存储：将焦点放在包含改动设置的插槽上，然后点按资源库右下方的“存储”按钮。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "您可以按如下方式进行存储：将焦点放在包含改动设置的插槽上，然后点按资源库右下方的“存储”按钮。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "载入现有Patch时如果乐曲已将总线1用于某些其他目的，怎么办？",
+        "act": "how",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果乐曲已将总线1用于某些其他目的，Logic会将下一个可用总线用作发送。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果乐曲已将总线1用于某些其他目的，Logic会将下一个可用总线用作发送。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果乐曲已将总线1用于某些其他目的，Logic会将下一个可用总线用作发送。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "LogicPro与较早版本的Logic相比有什么优势？",
+        "act": "what",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "除了较早版本的Logic中您所熟悉的通道条设置功能，Patch也会存储重现完整Patch时所需的所有辅助通道发送以及Patch的“智能控制”布局和分配。此外，某些Patch可能使用TrackStack来对乐器分层，并提供轨道以自动化Patch中使用的效果。LogicPro中附带的大多数内容为Patch格式。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "除了较早版本的Logic中您所熟悉的通道条设置功能，Patch也会存储重现完整Patch时所需的所有辅助通道发送以及Patch的“智能控制”布局和分配。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "除了较早版本的Logic中您所熟悉的通道条设置功能，Patch也会存储重现完整Patch时所需的所有辅助通道发送以及Patch的“智能控制”布局和分配。此外，某些Patch可能使用TrackStack来对乐器分层，并提供轨道以自动化Patch中使用的效果。LogicPro中附带的大多数内容为Patch格式。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "LogicPro的Patch通道还是有优势的。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "除了较早版本的Logic中您所熟悉的通道条设置功能，Patch也会存储重现完整Patch时所需的所有辅助通道发送以及Patch的“智能控制”布局和分配。此外，某些Patch可能使用TrackStack来对乐器分层，并提供轨道以自动化Patch中使用的效果。LogicPro中附带的大多数内容为Patch格式。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的。某些Patch可能使用TrackStack来对乐器分层，并提供轨道以自动化Patch中使用的效果。LogicPro中附带的大多数内容为Patch格式。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "除了较早版本的Logic中您所熟悉的通道条设置功能，Patch也会存储重现完整Patch时所需的所有辅助通道发送以及Patch的“智能控制”布局和分配。此外，某些Patch可能使用TrackStack来对乐器分层，并提供轨道以自动化Patch中使用的效果。LogicPro中附带的大多数内容为Patch格式。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

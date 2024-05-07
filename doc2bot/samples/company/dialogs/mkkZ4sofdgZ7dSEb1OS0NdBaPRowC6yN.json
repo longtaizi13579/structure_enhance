@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江丽水登记公司注销信息结果啥时候能知道啊？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "公司注销登记",
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "T14",
+            "1",
+            "122",
+            "113"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想问的是结果送达时限是多久吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达结果。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，这个能不能用那个什么终端办理啊？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前暂不支持终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦哦，那这个如果不去现场的话还有啥办理渠道不？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，您想问的是我们有哪些办理形式吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "啊对对对。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的办理形式有网上申请、现场窗口申请、邮寄申请三种形式的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，无法在Mac上发送或接收信息该怎么办？",
+        "act": "what",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "如果您无法在Mac上发送或接收信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问您无法在Mac上使用“信息”发送或接收信息或您在发送信息时看到警告，该怎么做是吗？",
+        "act": "verification",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "了解如果您无法在Mac上使用“信息”发送或接收信息或您在发送信息时看到警告，该怎么做。",
+            "如果您无法在Mac上发送或接收信息"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，您可以教我一下怎么检查为什么接受不到信息吗？",
+        "act": "how",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "如果您无法在Mac上发送或接收信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "重新启动Mac。选取苹果菜单>“重新启动”，然后点按“重新启动”，确保您的软件为最新版本，确保Mac已连接到互联网，检查Mac上设置的日期和时间是不是正确，确保您输入了联系人的正确电话号码或电子邮件地址，每尝试下面的一个步骤后，都请重新尝试一下。",
+        "act": "ans/open",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "重新启动Mac。选取苹果菜单>“重新启动”，然后点按“重新启动”。",
+            "确保您的软件为最新版本。了解如何更新Mac上的软件。",
+            "确保Mac已连接到互联网。要检查互联网连接，请尝试在Safari浏览器或另一个网页浏览器中载入页面。",
+            "检查Mac上设置的日期和时间是不是正确。",
+            "确保您输入了联系人的正确电话号码或电子邮件地址。",
+            "每尝试下面的一个步骤后，都请重新尝试发送信息。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "10",
+            "11",
+            "15",
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想询问一下联系人看到的是我的电子邮件地址而不是电话号码",
+        "act": "what",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "如果联系人看到的是您的电子邮件地址而不是电话号码"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "能说的再具体一点吗？",
+        "act": "verification",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "请确保您已在所有设备上使用同一个AppleID登录了iMessage信息。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我现在已经在所有设备上使用同一个AppleID登录了iMessage信息，如果我可以发送信息，我的联系人会看到的是我的电子邮件吗？",
+        "act": "verification",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "请确保您已在所有设备上使用同一个AppleID登录了iMessage信息。",
+            "如果您可以发送信息，但您的联系人看到的是您的电子邮件地址而不是电话号码，"
+        ],
+        "grounding_id": [
+            "36",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，如果您可以发送信息，但您的联系人看到的是您的电子邮件地址而不是电话号码，[22] 请确保您已在所有设备上使用同一个AppleID登录了iMessage信息。",
+        "act": "ans/open",
+        "document": "如果您无法在Mac上发送或接收信息.json",
+        "grounding": [
+            "如果您可以发送信息，但您的联系人看到的是您的电子邮件地址而不是电话号码，",
+            "请确保您已在所有设备上使用同一个AppleID登录了iMessage信息。"
+        ],
+        "grounding_id": [
+            "22",
+            "36"
+        ]
+    }
+]

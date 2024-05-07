@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江嘉兴的，最近计划去香港旅游，请问这个通行证多久能办好啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "港澳通行证及签注",
+            "往来港澳通行证",
+            "承诺办结时限",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T281",
+            "1",
+            "61",
+            "T11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您着不着急？这边是有承诺的办结时限和法定办结时限的",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我比较着急，最快多久办好啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "承诺最快7个工作日办好",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "万一我有啥申请材料不全，短期内没办法准备好，时间可以延长吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，办理的话可以在网上申请吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，网上、现场窗口贝办理都可以",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果我到现场窗口办理，有自助机器吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有的，不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那寄到我手上要多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是问证办好了多久可以送达是吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，办好之后多久能收到？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "2个工作日就可以",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

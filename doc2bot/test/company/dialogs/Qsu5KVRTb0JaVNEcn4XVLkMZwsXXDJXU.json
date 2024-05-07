@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想办理公积金补缴，哪里能办理呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在衢州市吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的办理地址在：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "126",
+            "125"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我什么时候能办好呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您是想知道法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们将在收到您的递交申请后20个工作日为您办理完成。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我能在旁边的机子上办理吗？排队的人太多了。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "抱歉。我们暂时不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "开通账户之后什么时候能收到通知书呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们将在自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

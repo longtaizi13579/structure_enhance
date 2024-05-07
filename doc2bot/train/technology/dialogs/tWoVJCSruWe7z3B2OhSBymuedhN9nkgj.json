@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下注销iMessage信息的情况",
+        "act": "what",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在iPhone上或在线注销iMessage信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解在iPhone上注销iMessage信息还是在线注销iMessage信息呢",
+        "act": "multiple-choice",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在iPhone上注销iMessage信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPhone上注销iMessage信息",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在iPhone上注销iMessage信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您的iPhone仍在您手上，您可以通过以下步骤注销iMessage信息：首先如果您将iPhone中的SIM卡移装到了非Apple手机中，请将它装回iPhone中。其次确保您已连接蜂窝数据网络。最后轻点“设置”>“信息”，然后关闭iMessage信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您的iPhone仍在您手上，您可以通过以下步骤注销iMessage信息：",
+            "如果您将iPhone中的SIM卡移装到了非Apple手机中，请将它装回iPhone中。",
+            "确保您已连接蜂窝数据网络。",
+            "轻点“设置”>“信息”，然后关闭iMessage信息。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是使用别的手机后收不到短信/彩信是不是需要注销iMessage信息",
+        "act": "verification",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您改为使用非Apple手机后收不到短信/彩信，您可能需要注销iMessage信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您改为使用非Apple手机后收不到短信/彩信，您可能需要注销iMessage信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在线注销iMessage信息是怎么个情况",
+        "act": "how",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在线注销iMessage信息"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您无法使用自己的iPhone，您可以在线注销iMessage信息。待您完成注销后，您的电话号码将从iMessage信息服务中移除。您应立即能够收到短信，但有些Apple设备可能需要几小时才能识别出他们向您发送信息时您并未使用iMessage信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您无法使用自己的iPhone，您可以在线注销iMessage信息。待您完成注销后，您的电话号码将从iMessage信息服务中移除。您应立即能够收到短信，但有些Apple设备可能需要几小时才能识别出他们向您发送信息时您并未使用iMessage信息。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息，如果给电话号码呢如何呢",
+        "act": "how",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

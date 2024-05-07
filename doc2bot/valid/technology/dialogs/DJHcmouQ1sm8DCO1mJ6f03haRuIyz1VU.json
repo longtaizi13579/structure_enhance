@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友送我一Apple雷雳3(USB-C)连接线，我想问一下关于这个相关信息。",
+        "act": "what",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "关于Apple雷雳3(USB-C)连接线"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解关于Apple雷雳3(USB-C)连接线的视频、数据传输、充电还是其他方面的呢？",
+        "act": "multiple-choice",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "关于Apple雷雳3(USB-C)连接线",
+            "视频",
+            "数据传输",
+            "充电"
+        ],
+        "grounding_id": [
+            "1",
+            "7",
+            "12",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解一下这个Apple雷雳3(USB-C)连接线可以连接什么设备的？",
+        "act": "what",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "关于Apple雷雳3(USB-C)连接线",
+            "Apple雷雳3(USB‑C)连接线（0.8米）用于将配备雷雳3(USB-C)端口的Mac连接至配备雷雳3(USB-C)或USB-C端口的设备。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Apple雷雳3(USB‑C)连接线（0.8米）用于将配备雷雳3(USB-C)端口的Mac连接至配备雷雳3(USB-C)或USB-C端口的设备。",
+        "act": "ans/open",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "Apple雷雳3(USB‑C)连接线（0.8米）用于将配备雷雳3(USB-C)端口的Mac连接至配备雷雳3(USB-C)或USB-C端口的设备。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那Apple雷雳3(USB-C)和AppleUSB-C相比的话，充电效果怎么样呢？",
+        "act": "how",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "关于Apple雷雳3(USB-C)连接线",
+            "充电"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "与AppleUSB-C充电线相比AppleUSB-C充电线更长（2米），也可用来充电，但数据传输速率最高为480Mbps(USB2.0)，而且不支持视频播放。Apple雷雳3(USB-C)连接线的每个连接器保护套上都有雷雳标志。这两种线缆都能与AppleUSB-C电源适配器搭配使用。",
+        "act": "ans/open",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "与AppleUSB-C充电线相比AppleUSB-C充电线更长（2米），也可用来充电，但数据传输速率最高为480Mbps(USB2.0)，而且不支持视频播放。Apple雷雳3(USB-C)连接线的每个连接器保护套上都有雷雳标志。这两种线缆都能与AppleUSB-C电源适配器搭配使用。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那数据传输的话怎么说的呢？",
+        "act": "how",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "数据传输"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用这根连接线可将Mac连接至采用雷雳3(USB-C)或USB-C端口的设备以传输数据。它支持最高40Gbps的雷雳3数据传输速率，以及最高10Gbps的USB3.1第2代数据传输速率。它还支持目标磁盘模式。请查看您设备的规格，以确定它支持的数据传输标准。",
+        "act": "ans/open",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "使用这根连接线可将Mac连接至采用雷雳3(USB-C)或USB-C端口的设备（如外置硬盘驱动器或基座）以传输数据。它支持最高40Gbps的雷雳3数据传输速率，以及最高10Gbps的USB3.1第2代数据传输速率。它还支持目标磁盘模式。请查看您设备的规格，以确定它支持的数据传输标准。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，那视频的话怎么样呢？",
+        "act": "how",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "视频"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用这根连接线可将Mac连接至采用雷雳3(USB-C)或USB-C端口的显示屏以播放视频。它支持DisplayPortHighBitRate3(HBR3)视频输出。",
+        "act": "ans/open",
+        "document": "关于Apple雷雳3(USB-C)连接线.json",
+        "grounding": [
+            "使用这根连接线可将Mac连接至采用雷雳3(USB-C)或USB-C端口的显示屏（例如LGUltraFine5K显示屏或LGUltraFine4K显示屏）以播放视频。它支持DisplayPortHighBitRate3(HBR3)视频输出。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

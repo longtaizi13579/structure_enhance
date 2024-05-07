@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好呀，就是问一下，那个贴机动车上的那个检验合格标志，办那个收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车",
+            "机动车申请补换领纸质检验合格标志",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T17",
+            "1",
+            "277"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您是问哪个省市？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦对，浙江嘉兴市呀",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您问的这个是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "啥，没听清楚，能否网上支付呀？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，好的，这有什么投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "给您提供一个投诉电话可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以，你说慢点，我找笔记一下电话",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，您记一下，投诉电话是0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦对了，还没问这个要去哪里办呀？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理地点在嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那这个有什么办理形式呀？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯呢，那能自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哦这样呀，那再问一下，要多长时间能办好呀？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "法定办结时限1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，我的AppleWatch与iPhone无法配对，这是为什么？",
+        "act": "why",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "如果您无法将AppleWatch与iPhone配对"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您需要要确保AppleWatch还没有配对。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "确保AppleWatch还没有配对"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我怎么确定我的AppleWatch还没有配对？",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，我的AppleWatch确实已经配对过了，那我该怎么办？",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "请尝试通过以下任一方法取消配对或抹掉AppleWatch。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你取消配对或抹掉AppleWatch。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "请尝试通过以下任一方法取消配对或抹掉AppleWatch。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "取消配对AppleWatch（如果您有与它配对的iPhone）"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先开iPhone上的WatchApp，轻点“我的手表”标签，轻点屏幕顶部的“所有手表”，找到要取消配对的手表并轻点旁边的“i”图标，然后轻点“取消配对AppleWatch”。最后再次轻点进行确认，然后等待手表取消配对，在AppleWatch完全取消配对后，您便可以重新配对。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "打开iPhone上的WatchApp，轻点“我的手表”标签，然后轻点屏幕顶部的“所有手表”。",
+            "找到要取消配对的手表并轻点旁边的“i”图标，然后轻点“取消配对AppleWatch”。",
+            "再次轻点进行确认，然后等待手表取消配对。",
+            "在AppleWatch完全取消配对后，您便可以重新配对。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还有一个问题，我想知道如何更新iPhone？",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过无线方式更新iPhone、iPad或iPodtouch，还可以自定自动更新，具体您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "通过无线方式更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道通过无线方式更新iPhone的具体步骤是什么？",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "通过无线方式更新iPhone、iPad或iPodtouch",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "步骤1: 使用iCloud或电脑备份您的设备。步骤2: 将设备插接到电源，然后通过无线局域网连接到互联网。步骤3: 前往“设置”>“通用”，然后轻点“软件更新”。步骤4: 如果看到两个可用的软件更新选项，请选取要安装的那个。步骤5: 轻点“现在安装”。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "使用iCloud或电脑备份您的设备。",
+            "将设备插接到电源，然后通过无线局域网连接到互联网。",
+            "前往“设置”>“通用”，然后轻点“软件更新”。",
+            "如果看到两个可用的软件更新选项，请选取要安装的那个。",
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "11",
+            "15",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我看到“下载并安装”，我该怎么操作？",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，Mac上的“辅助功能快捷键的作用是什么？",
+        "act": "what",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "使用Mac上的“辅助功能快捷键”面板",
+            "“辅助功能快捷键”面板提供了多种快捷键，方便用户快速打开或关闭常见辅助功能，例如缩放、旁白和粘滞键等。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“辅助功能快捷键”面板提供了多种快捷键，方便用户快速打开或关闭常见辅助功能。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "“辅助功能快捷键”面板提供了多种快捷键，方便用户快速打开或关闭常见辅助功能，例如缩放、旁白和粘滞键等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个面板上有“缩放”快键键吗？",
+        "act": "verification",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "“辅助功能快捷键”面板提供了多种快捷键，方便用户快速打开或关闭常见辅助功能，例如缩放、旁白和粘滞键等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "“辅助功能快捷键”面板提供了多种快捷键，方便用户快速打开或关闭常见辅助功能，例如缩放、旁白和粘滞键等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何打开“辅助功能快捷键”面板”？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "打开“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "同时按下以下按键：Option(⌥)、Command(⌘)和F5。在配备触控栏的笔记本电脑上，可能还需要按下Fn键。在配备触控ID的笔记本电脑上，连按三次触控ID。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "同时按下以下按键：Option(⌥)、Command(⌘)和F5。在配备触控栏的笔记本电脑上，可能还需要按下Fn（功能）键。",
+            "在配备触控ID的笔记本电脑上，连按三次触控ID。（如果在进行这项操作时按住Command键，则会打开或关闭旁白。）"
+        ],
+        "grounding_id": [
+            "4",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何关闭这个面板？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "要关闭这个面板，请点按“完成”或点按窗口以外的任意位置。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要关闭这个面板，请点按“完成”或点按窗口以外的任意位置。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "要关闭这个面板，请点按“完成”或点按窗口以外的任意位置。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以让Siri打开许多辅助功能吗？",
+        "act": "verification",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以，例如，让Siri“打开旁白”或“打开缩放”。",
+        "act": "ans/yes",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

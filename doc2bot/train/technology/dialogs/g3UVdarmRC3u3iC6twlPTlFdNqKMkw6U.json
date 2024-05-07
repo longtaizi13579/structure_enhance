@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "新买的AppleStudioDisplay需要校准吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调AppleStudioDisplay的校准"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，需要微调校准。",
+        "act": "ans/yes",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我需要怎么操作呢？",
+        "act": "how",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "具体步骤",
+            "微调AppleStudioDisplay的校准"
+        ],
+        "grounding_id": [
+            "26",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先，将第三方光谱辐射仪对准显示器的中央。然后，请确保室内环境保持昏暗或黑暗。接着，打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。再接着在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。最后，将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "将第三方光谱辐射仪对准显示器的中央。",
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。",
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。",
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于DCISDR的模式时，请使用数码影院(P3–DCI)预置。",
+            "将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。根据光谱辐射仪的容差或校准情况，读数与参考值可能有些不同。"
+        ],
+        "grounding_id": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "明白，那为什么要确保室内环境保持昏暗啊？",
+        "act": "why",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是为了防杂散光或反光影响测定结果。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还要测试一组图案吗？",
+        "act": "why",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您说的是在打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案这一步吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，我为什么要这么做呢？",
+        "act": "why",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "文件夹是空的啊？我拿什么对比？",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调AppleStudioDisplay的校准"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是说QuickTimeTestPatternMovies文件夹里没有图案是吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，我需要自己下载测试图案吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，可以下载测试图案。",
+        "act": "ans/yes",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那我该去哪里下载，如何下载呢？",
+        "act": "how",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先，前往AVFoundation开发者页面。然后，在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。最后，连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "前往AVFoundation开发者页面。",
+            "在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。",
+            "连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。"
+        ],
+        "grounding_id": [
+            "19",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果做完这些之后，测定值和参考值仍然相差很大，我该怎么办？",
+        "act": "how",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "如果测定值与参考值相差很大，请了解测定显示器的技巧。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果测定值与参考值相差很大，请了解测定显示器的技巧。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "如果测定值与参考值相差很大，请了解测定显示器的技巧。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

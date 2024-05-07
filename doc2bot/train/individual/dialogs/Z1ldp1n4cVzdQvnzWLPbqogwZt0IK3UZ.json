@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T5",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "赴台探亲签注的设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "常用服务",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "T269",
+            "9992"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "中国公民往来台湾地区管理办法",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "中国公民往来台湾地区管理办法"
+        ],
+        "grounding_id": [
+            "9993"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "什么时候开始实施的？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "10000"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1992年5月1日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "1992-05-01"
+        ],
+        "grounding_id": [
+            "10001"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问问费用的问题",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "10015"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "10020"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "10020"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "10021"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "三十个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个业务的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "星期一至星期五（法定节假日除外）上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00）",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "星期一至星期五（法定节假日除外）上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

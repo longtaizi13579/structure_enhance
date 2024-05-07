@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，请问办理到台湾的商务签注是收费的吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "2869"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "赴台商务签注是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "2870"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那可以使用微信或者支付宝支付吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "2873"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，我们支持网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "2874"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个办理的签注什么时候能到我手上呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "基本在自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

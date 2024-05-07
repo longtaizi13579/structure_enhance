@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我人在外国，想问一下在哪里可以使用ApplePay乘坐公共交通？",
+        "act": "where",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您在亚太地区 、欧洲还是北美洲呢？",
+        "act": "multiple-choice",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "亚太地区"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我经常在亚太地区出差，所以想多了解一下。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "亚太地区"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那么，您想了解澳大利亚、中国大陆、香港、日本、新加坡还是台湾？",
+        "act": "multiple-choice",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "新加坡"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想先了解一下新加坡。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "新加坡"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "陆路交通管理局，接受“钱包”App中的付款卡。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "陆路交通管理局(LTA)。接受“钱包”App中的付款卡。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "日本呢？",
+        "act": "how",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "日本"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "添加Suica卡*或PASMO卡*。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加Suica卡*或PASMO卡*。在接受这两种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有了这两种卡，任何地区就都可以乘车了吗？",
+        "act": "verification",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加Suica卡*或PASMO卡*。在接受这两种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在接受这两种卡的任何地区都可以乘车。",
+        "act": "ans/yes",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加Suica卡*或PASMO卡*。在接受这两种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我去欧洲出差的话，在哪里可以使用ApplePay乘坐公共交通？",
+        "act": "where",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通",
+            "欧洲"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是去白俄罗斯、芬兰、俄罗斯、瑞典还是英国呢？",
+        "act": "multiple-choice",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "芬兰"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我下周要去芬兰，想先提前咨询一下。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "芬兰"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "图尔库：Föli。接受“钱包”App中的付款卡*。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "图尔库：Föli。接受“钱包”App中的付款卡*。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "瑞典呢？",
+        "act": "where",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "瑞典"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "Skåne：Skånetrafiken城市巴士。接受“钱包”App中的付款卡*。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "Skåne：Skånetrafiken城市巴士。接受“钱包”App中的付款卡*。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

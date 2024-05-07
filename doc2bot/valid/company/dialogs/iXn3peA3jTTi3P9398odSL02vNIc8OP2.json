@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "对衢州市公积金服务不满意想投诉，投诉电话是多少？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "衢州市的投诉热线是0570-12345。方便说下具体对什么服务不满意吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "公积金账户问题，如果去当地机构投诉，具体地址在？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体地址在柯城区白云街道花园东大道169号，还有什么帮助您的吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果办理开通个人住房公积金账户业务还是在这个地址吗？",
+        "act": "ans/yesno",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，你到时在二楼C厅12号、14号、16号、18号窗口进行办理即可。",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，申请需要准备的材料，我可以先打个电话问一下吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，具体所需资料您可以拔打电话0570-12329进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "咨询电话",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "27",
+            "26"
+        ]
+    }
+]

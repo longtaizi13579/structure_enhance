@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何采用威慑剂防止老鼠进入你家？",
+        "act": "how",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "如何防止老鼠进入你家",
+            "采用威慑剂"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "1.让猫在屋子待一段时间。 2.使用老鼠威慑剂。 3.在屋外附近设置捕鼠器。 4.在屋外诱惑老鼠。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "让猫在屋子待一段时间。",
+            "使用老鼠威慑剂。",
+            "在屋外附近设置捕鼠器。",
+            "在屋外诱惑老鼠。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "让猫在屋子待一段时间有用吗？",
+        "act": "verification",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "让猫在屋子待一段时间。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "猫是老鼠的天敌，猫的存在对控制屋子的老鼠数量大有帮助。养在室内或室外的猫都能很好地威慑老鼠。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "猫是老鼠的天敌，猫的存在对控制屋子的老鼠数量大有帮助。养在室内或室外的猫都能很好地威慑老鼠。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在哪里设置捕鼠器？",
+        "act": "where",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "在屋外附近设置捕鼠器。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在老鼠进入屋子的通道，或是屋内的老鼠出没地点放置捕鼠器。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防止老鼠进入你家.json",
+        "grounding": [
+            "在老鼠进入屋子的通道，或是屋内的老鼠出没地点放置捕鼠器。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

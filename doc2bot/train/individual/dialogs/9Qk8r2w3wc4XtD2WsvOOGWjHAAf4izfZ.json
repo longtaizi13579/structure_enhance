@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下客货车实习期满考试的事这个多久能办好",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "大中型客货车实习期满考试",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江嘉兴市",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不支持",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这有什么咨询方式吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个有咨询电话还有咨询地址再有咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我来个咨询电话",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的电话是0573-12123",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "咨询电话",
+            "0573-12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还想问一下那这个军警车驾驶证换证申领可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您问的这个也是嘉兴市吗",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对浙江嘉兴",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的这个不支持自助办理",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个申领多久能办好呀",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限60（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "法定办结时限",
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    }
+]

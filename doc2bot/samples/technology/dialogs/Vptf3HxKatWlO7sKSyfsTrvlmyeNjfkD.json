@@ -1,0 +1,96 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下，我的iPad里的app现在不更新了，我还有其他的办法吗？",
+        "act": "verification",
+        "document": "如何在Apple设备上手动更新App.json",
+        "grounding": [
+            "手动更新App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在iPhone和iPad上，您从AppStore下载的App默认会自动更新。但如果出现问题，您也可以手动更新App。",
+        "act": "ans/open",
+        "document": "如何在Apple设备上手动更新App.json",
+        "grounding": [
+            "手动更新App",
+            "在iPhone和iPad上，您从AppStore下载的App默认会自动更新。但如果出现问题，您也可以手动更新App。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "OK，那用·iPhone拨打Wi-Fi电话呢？",
+        "act": "verification",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用iPhone拨打Wi-Fi电话"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在“设置”>“电话”>“Wi-Fi通话”中，打开Wi-Fi通话功能。您可能需要输入或确认用于紧急服务的地址即可",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用iPhone拨打Wi-Fi电话",
+            "在“设置”>“电话”>“Wi-Fi通话”中，打开Wi-Fi通话功能。您可能需要输入或确认用于紧急服务的地址*。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我的Apple上面为什么会有静电？",
+        "act": "verification",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "设备上为何会积聚静电？"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在设备处于某些环境和动作可加快电子设备上的静电积聚。例如湿度较低的干燥环境、 风很大的环境、 将设备放入和拿出口袋、 携带设备慢跑或锻炼[、由人造纤维（如尼龙）制成的衣物都可能聚集静电",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "设备上为何会积聚静电？",
+            "湿度较低的干燥环境",
+            "风很大的环境",
+            "将设备放入和拿出口袋",
+            "某些环境和动作可加快电子设备上的静电积聚。",
+            "携带设备慢跑或锻炼",
+            "由人造纤维（如尼龙）制成的衣物"
+        ],
+        "grounding_id": [
+            "7",
+            "9",
+            "10",
+            "11",
+            "8",
+            "12",
+            "13"
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下高原病方面的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "医学主题",
+            "高原病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1369"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解高原病的症状，治疗，诊断，还是预防？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "高原病的预防"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询下高原病的预防，吃硝苯地平有用吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "高原病的预防",
+            "某些药物",
+            "曾发作过高原性肺水肿的人应警惕复发的任何症状，并且如出现症状应迅速降低高度。有些医生还建议这些人口服硝苯地平或他达拉非药物作为预防措施。"
+        ],
+        "grounding_id": [
+            "56",
+            "61",
+            "66"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有用，有些医生会建议这些人口服硝苯地平或他达拉非药物作为预防措施。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "曾发作过高原性肺水肿的人应警惕复发的任何症状，并且如出现症状应迅速降低高度。有些医生还建议这些人口服硝苯地平或他达拉非药物作为预防措施。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "听说诊断的时候需要拍X光片，是吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "高原病的诊断方法主要有：",
+            "对于高原性肺水肿(HAPE)，拍胸部X光片和测量血氧水平（如可以）"
+        ],
+        "grounding_id": [
+            "51",
+            "53"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "对于高原性肺水肿，会拍胸部X光片和测量血氧水平。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "对于高原性肺水肿(HAPE)，拍胸部X光片和测量血氧水平（如可以）"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是因为缺氧而发生的高原病，医生会通过什么方式诊断？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "在高海拔地区由于缺氧而发生高原病。",
+            "医生主要根据症状来诊断高原病。"
+        ],
+        "grounding_id": [
+            "5",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "医生主要根据症状来诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_高原病_高原病.json",
+        "grounding": [
+            "医生主要根据症状来诊断高原病。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

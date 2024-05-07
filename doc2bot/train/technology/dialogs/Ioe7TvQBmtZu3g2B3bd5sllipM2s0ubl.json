@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何创建新的AppleID",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在什么时候创建呢",
+        "act": "question/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在设置设备时创建AppleID"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在设置设备时创建AppleID，具体步骤是怎么样的呢",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在设置设备时创建AppleID"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先轻点“忘记密码或没有AppleID？”，然后轻点“创建免费AppleID”，选择您的生日并输入您的姓名。轻点“下一步”，轻点“使用当前电邮地址”或“获取免费iCloud电邮地址”，最后出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "轻点“忘记密码或没有AppleID？”。",
+            "轻点“创建免费AppleID”。",
+            "选择您的生日并输入您的姓名。轻点“下一步”。",
+            "轻点“使用当前电邮地址”或“获取免费iCloud电邮地址”。",
+            "出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果不设置双重认证可以吗",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般来说不可以，如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作",
+        "act": "ans/no",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那想在Mac上创建AppleID的话应该怎么做呢",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在Mac上创建AppleID",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“系统偏好设置”，然后点按“登录，点按“创建AppleID”，然后按照屏幕上的步骤操作。，输入您的信用卡和账单信息，然后点按“继续”，最后查看您有没有收到来自Apple的验证电子邮件，验证您的电子邮件地址",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“登录”。",
+            "点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*",
+            "输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。",
+            "查看您有没有收到来自Apple的验证电子邮件，然后验证您的电子邮件地址。"
+        ],
+        "grounding_id": [
+            "52",
+            "53",
+            "54",
+            "55",
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "新AppleID是不是就是电子邮件的地址",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果没有购买任何项目还会收费吗",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您没有购买任何项目，我们不会收取任何费用。",
+        "act": "ans/no",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那就好，可以在其他设备上创建AppleID吗",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在其他设备上创建AppleID"
+        ],
+        "grounding_id": [
+            "76"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在其他设备上创建AppleID的话可以通过网页，您需要了解具体操作流程吗",
+        "act": "question/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在其他设备上创建AppleID",
+            "具体步骤",
+            "在网页上创建AppleID"
+        ],
+        "grounding_id": [
+            "76",
+            "82",
+            "81"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "82"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先访问appleid.apple.com，然后点按“创建AppleID”，按照屏幕上的步骤操作。输入您随时都能使用的电话号码后根据需要选中与订阅Apple更新相对应的方框。这样，您就可以及时了解Apple的最新新闻、软件、产品以及服务，点按“继续，按照屏幕上的步骤来验证您的电子邮件地址和电话号码就可以",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "访问appleid.apple.com，然后点按“创建AppleID”。",
+            "按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*",
+            "输入您随时都能使用的电话号码。",
+            "根据需要选中与订阅Apple更新相对应的方框。这样，您就可以及时了解Apple的最新新闻、软件、产品以及服务。",
+            "点按“继续”。",
+            "按照屏幕上的步骤来验证您的电子邮件地址和电话号码。"
+        ],
+        "grounding_id": [
+            "83",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91"
+        ]
+    }
+]

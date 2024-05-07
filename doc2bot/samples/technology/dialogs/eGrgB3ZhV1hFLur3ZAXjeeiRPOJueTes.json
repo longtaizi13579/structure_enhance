@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在Mac上安全地打开App的问题？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上安全地打开App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：查看Mac上的App安全性设置，打开经过开发者签名或经过公证的App，如果您看到警告信息并且无法安装App，还是其它？",
+        "act": "multiple-choice",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "查看Mac上的App安全性设置"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下查看Mac上的App安全性设置，在默认情况下，Mac的安全设置是什么状态？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "查看Mac上的App安全性设置",
+            "默认情况下，Mac的安全和隐私偏好设置会设置为允许安装来自AppStore和被认可开发者的App。为提高安全性，您可以选择仅允许安装来自AppStore的App。"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "默认情况下，Mac的安全和隐私偏好设置会设置为允许安装来自AppStore和被认可开发者的App。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "默认情况下，Mac的安全和隐私偏好设置会设置为允许安装来自AppStore和被认可开发者的App。为提高安全性，您可以选择仅允许安装来自AppStore的App。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我可以设置为仅允许安装来自AppStore的App吗？",
+        "act": "verification",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "默认情况下，Mac的安全和隐私偏好设置会设置为允许安装来自AppStore和被认可开发者的App。为提高安全性，您可以选择仅允许安装来自AppStore的App。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "为提高安全性，您可以选择仅允许安装来自AppStore的App。",
+        "act": "ans/yes",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "默认情况下，Mac的安全和隐私偏好设置会设置为允许安装来自AppStore和被认可开发者的App。为提高安全性，您可以选择仅允许安装来自AppStore的App。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在Mac上安全地打开App是一项什么技术？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "macOS中包含一项名为“门禁”的技术，旨在确保只有受信任的软件才能在Mac上运行。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这是macOS中名为“门禁”的技术，旨在确保只有受信任的软件才能在Mac上运行。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "macOS中包含一项名为“门禁”的技术，旨在确保只有受信任的软件才能在Mac上运行。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "安装软件时，Mac针对这个软件显示提醒说明什么？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "下面所示的警告信息只是一些示例，您可能会看到与之类似但未显示在本文中的信息。不管您选择安装任何软件，只要Mac针对这个软件显示了提醒，就一定要谨慎。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不管您选择安装任何软件，只要Mac针对这个软件显示了提醒，就一定要谨慎。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "下面所示的警告信息只是一些示例，您可能会看到与之类似但未显示在本文中的信息。不管您选择安装任何软件，只要Mac针对这个软件显示了提醒，就一定要谨慎。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有个问题，在哪些版本中使用iCloud钥匙串，会看到由于iCloud钥匙串服务器发生更改，必须创建新的安全码这种提示？",
+        "act": "what",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码",
+            "如果在iOS8.4或更早版本或者OSX10.10.4或更早版本中使用iCloud钥匙串，您可能会看到信息“由于iCloud钥匙串服务器发生更改，必须创建新的安全码。”"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果在iOS8.4或更早版本或者OSX10.10.4或更早版本中使用iCloud钥匙串，您可能会看到信息“由于iCloud钥匙串服务器发生更改，必须创建新的安全码。”",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果在iOS8.4或更早版本或者OSX10.10.4或更早版本中使用iCloud钥匙串，您可能会看到信息“由于iCloud钥匙串服务器发生更改，必须创建新的安全码。”"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

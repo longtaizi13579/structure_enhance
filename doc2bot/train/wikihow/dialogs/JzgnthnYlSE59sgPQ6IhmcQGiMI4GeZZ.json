@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的室友夜里总是打呼噜，声音还很大，我想问一下怎样可以避免打呼噜呢？",
+        "act": "how",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "如何避免打鼾"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个需要调整睡眠环境。",
+        "act": "ans/open",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "调整睡眠环境"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那可以怎样调整睡眠环境呢？",
+        "act": "how",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "调整睡眠环境"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "调整睡眠环境有：睡觉时用枕头将头垫高、用加湿器增大卧室里的空气湿度、如果鼾声实在太吵，你应该考虑和打鼾的人分房间睡觉。",
+        "act": "ans/open",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "调整睡眠环境",
+            "睡觉时用枕头将头垫高。",
+            "用加湿器增大卧室里的空气湿度。",
+            "如果鼾声实在太吵，你应该考虑和打鼾的人分房间睡觉。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我不太能理解为什么睡觉时要用枕头将头垫高呢？",
+        "act": "why",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "睡觉时用枕头将头垫高。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "枕着1到2个枕头睡觉，将头抬高10厘米。这样能让呼吸更加顺畅，让舌头和下巴的位置更靠前。有一种特殊设计的枕头能够保持脖子肌肉放松，能够有效缓解甚至彻底避免打鼾。",
+        "act": "ans/open",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "枕着1到2个枕头睡觉，将头抬高10厘米。这样能让呼吸更加顺畅，让舌头和下巴的位置更靠前。有一种特殊设计的枕头能够保持脖子肌肉放松，能够有效缓解甚至彻底避免打鼾。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，那这个用加湿器增大卧室里的空气湿度是为什么呢？",
+        "act": "why",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "用加湿器增大卧室里的空气湿度。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "空气干燥会刺激鼻子和喉咙，引起睡觉时呼吸道堵塞，继而导致打鼾。如果打鼾的人存在鼻腔组织肿胀问题，使用加湿器能让状况有所缓解。保持整夜卧室空气湿润能够避免打鼾，提高睡眠质量。",
+        "act": "ans/open",
+        "document": "健康_如何避免打鼾.json",
+        "grounding": [
+            "空气干燥会刺激鼻子和喉咙，引起睡觉时呼吸道堵塞，继而导致打鼾。如果打鼾的人存在鼻腔组织肿胀问题，使用加湿器能让状况有所缓解。保持整夜卧室空气湿润能够避免打鼾，提高睡眠质量。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这些方法挺实用的，我回去试试，还有我有个朋友神经受损，我想问一下这个可以怎样修复神经损伤呢？",
+        "act": "how",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "如何修复神经损伤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你朋友是轻微的神经损伤还是严重的神经损伤呢？",
+        "act": "verification",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "如何修复神经损伤",
+            "修复轻微神经损伤"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "他是轻微神经损伤",
+        "act": "ans/open",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "修复轻微神经损伤"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "修复轻微神经损伤的话这个首先要有耐心，一方面要服用非甾体抗炎药或扑热息痛，另一方面要接受物理治疗，接受针灸。",
+        "act": "ans/open",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "修复轻微神经损伤",
+            "要有耐心。",
+            "服用非甾体抗炎药或扑热息痛。",
+            "接受物理治疗。",
+            "接受针灸。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "13",
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那这个接受针灸治疗的话有什么作用吗？",
+        "act": "what",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "接受针灸。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有些病人发现针灸能镇静神经，让他们在神经修复期间继续正常活动。",
+        "act": "ans/open",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "有些病人发现针灸能镇静神经，让他们在神经修复期间继续正常活动。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "针灸的费用可以用保险的吗？这样还能省点治疗费用。",
+        "act": "verification",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "接受针灸。",
+            "针灸或生物反馈的费用通常都不在保险范围内。"
+        ],
+        "grounding_id": [
+            "18",
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "针灸的费用通常都不在保险范围内。",
+        "act": "ans/no",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "针灸或生物反馈的费用通常都不在保险范围内。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那行吧，我那顺便也问一下如果是严重神经损伤可以怎么修复呢？",
+        "act": "how",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "如何修复神经损伤",
+            "修复严重神经损伤"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "修复严重神经损伤就要就医治疗，还要考虑做手术重新连接或移植神经，然后就是.重新训练身体。",
+        "act": "ans/open",
+        "document": "健康_如何修复神经损伤.json",
+        "grounding": [
+            "修复严重神经损伤",
+            "就医治疗。",
+            "考虑做手术重新连接或移植神经。",
+            "重新训练身体。"
+        ],
+        "grounding_id": [
+            "36",
+            "37",
+            "41",
+            "44"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问这里可以申领，补领机动车登记证书吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，请问您的机动车证是什么地区的？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是浙江省嘉兴市的。需要交钱吗？",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T11",
+            "251"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，是需要交费的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "252"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我的驾照不是再交通事故责任强制保险有效期内的能申请吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "在安全技术检验合格和交通交通事故责任强制保险有效期内的。",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "143",
+            "142"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "在安全技术检验合格和交通交通事故责任强制保险有效期内的。"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我明天一大早过去办，早上有人了吧？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们的工作时间是星期一到星期五8：30——17：00，星期六上午8：30—12：00；下午2：00—5：00，这个时间段您过来都会有人接待您。您还有什么问题吗？",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "工作日：8：30——17：00，周六上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我要是注册国产的车怎么办理？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以网上申请或者现场窗口申请办理即可。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "没有能自助办理的地方吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们暂时不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，办理结果什么时候能给我送我家？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理结果在1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "申请和结果用一天就能出来？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "正常情况下办结需要两个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

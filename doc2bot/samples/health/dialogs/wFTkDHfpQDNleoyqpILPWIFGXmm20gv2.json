@@ -1,0 +1,199 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我目前处于孕期，但是量体温发烧了，这会导致流产吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧",
+            "自然流产"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您先别着急，您体温超过39.5°C了吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "没超过39.5°C那是不会有自然流产的风险的",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果在孕晚期还有发热，会导致早产吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在妊娠晚期，发热会增加以下问题的风险：",
+            "早产"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "早产"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "通常早产是指不满多少周？",
+        "act": "when",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "早产",
+            "早产是指妊娠不满37周之前的分娩。"
+        ],
+        "grounding_id": [
+            "16",
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "早产是指妊娠不满37周之前的分娩。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "早产是指妊娠不满37周之前的分娩。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那针对孕妇发热的情况，可以采用什么降温呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "医生会查找原因，孕妇也可以使用对乙酰氨基酚降低体温，可以在体温极高的女性中使用降温毯。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "孕早期如果提问高于39.5°除了流产，还会导致什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "还有可能增加婴儿大脑或脊髓缺陷的风险",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "脑和脊髓缺陷你了解过吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "user",
+        "utterance": "没有呢，这个缺陷一般在什么时候发生？",
+        "act": "when",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在大脑和脊髓的许多可能缺陷中，所谓的神经管缺陷会在妊娠最初几周内发生。其他缺陷，包括脑积水和小头畸形在妊娠后期出现。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "system",
+        "utterance": "在大脑和脊髓的许多可能缺陷中，所谓的神经管缺陷会在妊娠最初几周内发生。其他缺陷，包括脑积水和小头畸形在妊娠后期出现。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在大脑和脊髓的许多可能缺陷中，所谓的神经管缺陷会在妊娠最初几周内发生。其他缺陷，包括脑积水和小头畸形在妊娠后期出现。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

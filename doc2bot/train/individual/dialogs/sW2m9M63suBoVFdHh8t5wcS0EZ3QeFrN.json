@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省舟山市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T9",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车的有关问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是国产机动车注册登记、机动车灭失注销登记、机动车解除抵押登记还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "国产机动车注册登记有哪些投诉方式？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "监督投诉方式",
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "33",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0580-12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "机动车质押备案的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

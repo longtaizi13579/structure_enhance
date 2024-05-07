@@ -1,0 +1,322 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPhone的Pages文稿中使用渐变或图像填充文本的问题？",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：使用渐变填充文本，使用图像填充文本，还是为文本添加外框？",
+        "act": "multiple-choice",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "使用渐变填充文本"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "颜色渐变指的是什么？",
+        "act": "verification",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "使用渐变填充文本",
+            "颜色渐变在两种或更多种颜色之间产生渐变。在iPhone、iPad、iPodtouch或Mac上，您可以使用双色渐变填充文本。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "颜色渐变在两种或更多种颜色之间产生渐变。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "颜色渐变在两种或更多种颜色之间产生渐变。在iPhone、iPad、iPodtouch或Mac上，您可以使用双色渐变填充文本。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iPhone上可以使用双色渐变填充文本吗？",
+        "act": "verification",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "颜色渐变在两种或更多种颜色之间产生渐变。在iPhone、iPad、iPodtouch或Mac上，您可以使用双色渐变填充文本。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "颜色渐变在两种或更多种颜色之间产生渐变。在iPhone、iPad、iPodtouch或Mac上，您可以使用双色渐变填充文本。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "使用图像填充文本的具体步骤是什么？",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "使用图像填充文本",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "具体步骤：首先，选择要用图像填充的文本。要填充文本框中的所有文本，请选择文本框。然后，轻点或点按“格式”按钮。轻点或点按“文本颜色”。在iPhone或iPad上，轻点“图像”。最后，要选取图像，在iPhone或iPad上轻点“更改图像”，或在Mac上点按“选取”。然后，前往所需的图像。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "具体步骤",
+            "选择要用图像填充的文本。要填充文本框中的所有文本，请选择文本框。",
+            "轻点或点按“格式”按钮。",
+            "轻点或点按“文本颜色”。",
+            "在iPhone或iPad上，轻点“图像”。在Mac上，轻点“图像填充”。",
+            "要选取图像，在iPhone或iPad上轻点“更改图像”，或在Mac上点按“选取”。然后，前往所需的图像。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以添加颜色叠层吗？",
+        "act": "verification",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您还可以添加颜色叠层。在iPhone或iPad上，启用“颜色叠层”，然后进行调整。要在Mac上添加颜色叠层，请从“文本颜色”菜单中选取“高级图像填充”，然后点按色轮并进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您还可以添加颜色叠层。在iPhone或iPad上，启用“颜色叠层”，然后进行调整。要在Mac上添加颜色叠层，请从“文本颜色”菜单中选取“高级图像填充”，然后点按色轮并进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "具体怎么操作？",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您还可以添加颜色叠层。在iPhone或iPad上，启用“颜色叠层”，然后进行调整。要在Mac上添加颜色叠层，请从“文本颜色”菜单中选取“高级图像填充”，然后点按色轮并进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iPhone或iPad上，启用“颜色叠层”，然后进行调整。要在Mac上添加颜色叠层，请从“文本颜色”菜单中选取“高级图像填充”，然后点按色轮并进行调整。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您还可以添加颜色叠层。在iPhone或iPad上，启用“颜色叠层”，然后进行调整。要在Mac上添加颜色叠层，请从“文本颜色”菜单中选取“高级图像填充”，然后点按色轮并进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "使用双色渐变填充文本的具体操作步骤是什么？",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "使用双色渐变填充文本"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以使用双色渐变填充文本，并调整渐变的方向和角度。首先，选择要用渐变填充的文本。 然后，轻点或点按“格式”按钮。 接着，轻点或点按“文本颜色”。在iPhone或iPad上，轻点“渐变”。在Mac上，轻点“渐变填充”。最后，要更改渐变的颜色，请使用颜色选择器选择色样。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您可以使用双色渐变填充文本，并调整渐变的方向和角度。",
+            "选择要用渐变填充的文本。要填充文本框中的所有文本，请选择文本框。",
+            "轻点或点按“格式”按钮。",
+            "轻点或点按“文本颜色”。",
+            "在iPhone或iPad上，轻点“渐变”。在Mac上，轻点“渐变填充”。",
+            "要更改渐变的颜色，请使用颜色选择器选择色样。或使用色轮选择您想要的确切颜色。例如，选择紫色来开始渐变，选择蓝色来结束渐变。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "要填充文本框中的所有文本，怎么操作？",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "选择要用渐变填充的文本。要填充文本框中的所有文本，请选择文本框。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要填充文本框中的所有文本，请选择文本框。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "选择要用渐变填充的文本。要填充文本框中的所有文本，请选择文本框。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "除了使用颜色选择器选择色样，还能怎么选？",
+        "act": "why",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "要更改渐变的颜色，请使用颜色选择器选择色样。或使用色轮选择您想要的确切颜色。例如，选择紫色来开始渐变，选择蓝色来结束渐变。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您还可以使用色轮选择您想要的确切颜色。例如，选择紫色来开始渐变，选择蓝色来结束渐变。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "要更改渐变的颜色，请使用颜色选择器选择色样。或使用色轮选择您想要的确切颜色。例如，选择紫色来开始渐变，选择蓝色来结束渐变。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "为文本添加外框的具体操作步骤是什么？",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "为文本添加外框"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先，选择要添加外框的文本。 然后，轻点或点按“格式”按钮。接着，在iPhone或iPad上，轻点“更多”按钮。选择“外框”。 选择外框的线条类型、颜色和宽度。 最后，您可以移除文本的颜色以突出外框。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "选择要添加外框的文本。要为文本框中的所有文本添加外框，请选择文本框。",
+            "轻点或点按“格式”按钮。",
+            "在iPhone或iPad上，轻点“更多”按钮。在Mac上，点按“字体”下的高级选项按钮。",
+            "选择“外框”。",
+            "选择外框的线条类型、颜色和宽度。",
+            "您可以移除文本的颜色以突出外框："
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "36"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如何移除文本的颜色？",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "您可以移除文本的颜色以突出外框："
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "在iPhone或iPad上，轻点“格式化”按钮，轻点“文本”，然后轻点“文本颜色”。轻点“预置”，滑动到黑白选项，然后轻点“无填充”。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中使用渐变或图像填充文本.json",
+        "grounding": [
+            "在iPhone或iPad上，轻点“格式化”按钮，轻点“文本”，然后轻点“文本颜色”。轻点“预置”，滑动到黑白选项，然后轻点“无填充”。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

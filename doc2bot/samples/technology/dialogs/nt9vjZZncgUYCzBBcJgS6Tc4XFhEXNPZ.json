@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下使用MIME发送加密邮件的问题？",
+        "act": "what",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS的Exchange环境中使用S_MIME发送加密邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解:邮件加密,向位于您Exchange环境中的联系人发送加密邮件，还是向位于您Exchange环境之外的某人发送加密邮件?",
+        "act": "multiple-choice",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "邮件加密"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，给账户配置S/MIME时，应该如何设置邮件加密？",
+        "act": "how",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "邮件加密",
+            "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。",
+        "act": "ans/open",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iOS13.4版本中，应该怎么设置？",
+        "act": "how",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS13.4及更高版本中，当您回复或转发邮件时，邮件的加密状态将与传入邮件的状态相匹配，而不是系统默认设置。您还可以使用蓝色锁图标更改外发邮件的加密状态："
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iOS13.4及更高版本中，当您回复或转发邮件时，邮件的加密状态将与传入邮件的状态相匹配，而不是系统默认设置。您还可以使用蓝色锁图标更改外发邮件的加密状态。",
+        "act": "ans/open",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS13.4及更高版本中，当您回复或转发邮件时，邮件的加密状态将与传入邮件的状态相匹配，而不是系统默认设置。您还可以使用蓝色锁图标更改外发邮件的加密状态："
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有个问题，我想问一下如何在另一台Mac上使用自定DrumMachineDesigner套件？",
+        "act": "how",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在另一台Mac上使用自定DrumMachineDesigner套件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以将套件的设置存储为PATCH文件，然后存储套件的样本，最后在另一台 Mac 上重命名和移动文件夹。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "将套件的设置存储为PATCH文件"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "将套件的设置存储为PATCH文件的uti操作方法是什么？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "将套件的设置存储为PATCH文件"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "操作步骤：1.打开带有您想要存储的自定套件的LogicPro项目。 2.要打开“DrumMachineDesigner”窗口，请点按通道条的“乐器”插槽中的“DMD”。 3.在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。 4.如有必要，请点按“资源库”按钮。 5.点按“资源库”底部的“存储”，然后输入自定套件的名称。为确保您的自定套件显示在“资源库”中的“用户Patch”文件夹中，请将它存储到您的个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument。 6.点按“存储”对话框中的“存储”。 7.前往~/音乐/AudioMusicApps/Patches/Instrument/，然后将PATCH文件拷贝到另一台Mac。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "打开带有您想要存储的自定套件的LogicPro项目。",
+            "要打开“DrumMachineDesigner”窗口，请点按通道条的“乐器”插槽中的“DMD”。",
+            "在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。",
+            "如有必要，请点按“资源库”按钮。",
+            "点按“资源库”底部的“存储”，然后输入自定套件的名称。为确保您的自定套件显示在“资源库”中的“用户Patch”文件夹中，请将它存储到您的个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument。",
+            "点按“存储”对话框中的“存储”。",
+            "前往~/音乐/AudioMusicApps/Patches/Instrument/，然后将PATCH文件拷贝到另一台Mac。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "第3步中，如果只选择了一个套件鼓垫会出现什么情况？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在另一台Mac上重命名和移动文件夹的具体操作方法是什么？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在另一台Mac上重命名和移动文件夹"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤: 1.在另一台Mac上，找到“快速采样器”文件夹和PATCH文件。 2.将“快速采样器”文件夹的名称更改为您为自定套件PATCH文件指定的相同名称。例如，如果您的PATCH文件名为MyDrumKit.patch，则将“快速采样器”文件夹名称更改为“MyDrumKit”。 3.在“访达”中，将PATCH文件和已重命名的文件夹移到个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument/。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "具体步骤",
+            "在另一台Mac上，找到“快速采样器”文件夹和PATCH文件。",
+            "将“快速采样器”文件夹的名称更改为您为自定套件PATCH文件指定的相同名称。例如，如果您的PATCH文件名为MyDrumKit.patch，则将“快速采样器”文件夹名称更改为“MyDrumKit”。",
+            "在“访达”中，将PATCH文件和已重命名的文件夹移到个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument/。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "存储套件的样本，这一步的具体操作方法是什么？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "存储套件的样本"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤：1.使用新软件乐器轨道创建一个新的空项目。 2.选择轨道，然后从“资源库”中的“用户Patch”文件夹中选取您的自定套件。 3.选取“文件”>“存储”。 4.在“存储”对话框中，选择“文件夹”以将您的项目存储为文件夹，选择“采样器音频数据”，为您的项目输入名称并选取位置，然后点按“存储”。 5.在“访达”中，打开您刚才为项目创建的文件夹。找到名为“快速采样器”的子文件夹，其中包含您套件中使用的样本。 6.将“快速采样器”文件夹拷贝到另一台Mac。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "使用新软件乐器轨道创建一个新的空项目。",
+            "选择轨道，然后从“资源库”中的“用户Patch”文件夹中选取您的自定套件。",
+            "选取“文件”>“存储”。",
+            "在“存储”对话框中，选择“文件夹”以将您的项目存储为文件夹，选择“采样器音频数据”，为您的项目输入名称并选取位置，然后点按“存储”。",
+            "在“访达”中，打开您刚才为项目创建的文件夹。找到名为“快速采样器”的子文件夹，其中包含您套件中使用的样本。",
+            "将“快速采样器”文件夹拷贝到另一台Mac。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

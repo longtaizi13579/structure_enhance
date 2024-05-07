@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想问一下咱们台州市电动自行车注册登记这个申请是有数量限制吗",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省_台州市",
+            "电动自行车注册登记",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "T8",
+            "1",
+            "143"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "帮您查询了一下该登记的申请条件是有数量限制的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "143",
+            "144"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦那能申请几次",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "1辆非机动车只能申请1次。"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是1辆非机动车只能申请1次",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "1辆非机动车只能申请1次。"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办这个登记是否收费呀",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "350"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不收费",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "351"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦好的，那这个有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这有三种方式一投诉电话二投诉地址三投诉网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉地址是在哪个地方",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "地址是浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我家孩子头比较大，这是什么病啊？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你家孩子是孩子的身体较大，头也较大；还是身体不大，只是头大",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "不成比例型：对照孩子的整个身体，头部不成比例地大。",
+            "巨头畸形可归类为"
+        ],
+        "grounding_id": [
+            "18",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我家孩子是身体不大，头大",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "不成比例型：对照孩子的整个身体，头部不成比例地大。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这是巨头畸形中的不成比例型。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "不成比例型：对照孩子的整个身体，头部不成比例地大。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那该怎么治疗呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形",
+            "巨头畸形的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "巨头畸形的治疗取决于原因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "取决于原因"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我听说，有的巨头畸形不用治疗是吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形的治疗取决于病因。有时无需治疗。如果原因是脑积水等异常，则可能需要进行包括手术在内的治疗。",
+            "巨头畸形",
+            "巨头畸形的治疗"
+        ],
+        "grounding_id": [
+            "41",
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，巨头畸形的治疗取决于病因。有时无需治疗。请问你家孩子是什么原因引起的巨头畸形？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形的治疗取决于病因。有时无需治疗。如果原因是脑积水等异常，则可能需要进行包括手术在内的治疗。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是脑积水。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形的治疗取决于病因。有时无需治疗。如果原因是脑积水等异常，则可能需要进行包括手术在内的治疗。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果原因是脑积水等异常，则可能需要进行包括手术在内的治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形的治疗取决于病因。有时无需治疗。如果原因是脑积水等异常，则可能需要进行包括手术在内的治疗。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    }
+]

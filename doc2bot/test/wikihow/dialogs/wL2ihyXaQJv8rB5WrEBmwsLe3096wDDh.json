@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下计算机复制粘贴怎么操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如何复制粘贴",
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "1",
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是Mac电脑还是Windows电脑？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是Mac电脑。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先选择你想要复制的对象，点击菜单栏里的编辑按钮，点击复制，在文档或其它程序中，点击你想要插入文本或图片的位置，最后点击粘贴就可以。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "点击菜单栏里的编辑按钮。",
+            "点击复制。",
+            "在文档或其它程序中，点击你想要插入文本或图片的位置。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "19",
+            "23",
+            "24",
+            "27",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "粘贴键有没有快捷键可以代替呢？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以按下⌘+V快捷键，或右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "你也可以按下⌘+V快捷键，或右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的粘贴。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那Windows电脑如何操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如何复制粘贴",
+            "Windows电脑"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "第一步依旧是选择你想要复制的对象，然后右键点击鼠标或触控板，点击复制，在文档或其它地方，点击你想要插入文本或图片的位置，最后点击粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "右键点击鼠标或触控板。",
+            "点击复制。",
+            "在文档或其它地方，点击你想要插入文本或图片的位置。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "11",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "复制键不用鼠标有没有快捷键可以操作呢？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "点击复制。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你也可以同时按下ctrl+C。在许多应用程序中，你可以点击菜单栏里的编辑按钮，然后点击复制。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "你也可以同时按下ctrl+C。在许多应用程序中，你可以点击菜单栏里的编辑按钮，然后点击复制。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "谢谢，Windows或Mac电脑复制粘贴我已经会了， iPhone、iPad怎进行复制粘贴操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "这篇文章将教你如何在Windows或Mac电脑上从一个地方复制文本、图片和文件，并粘贴到另一个位置，同时也会介绍如何在iPhone、iPad或安卓移动设备上进行复制粘贴操作。",
+            "iPhone或iPad"
+        ],
+        "grounding_id": [
+            "2",
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "选择你想要复制的对象，长按，直到屏幕上出现一个菜单，轻触复制，轻触粘贴就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "图片：长按图片，直到屏幕上出现一个菜单。",
+            "轻触复制。",
+            "轻触粘贴。"
+        ],
+        "grounding_id": [
+            "33",
+            "35",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的谢谢，如何打开一个有密码的Excel文件？",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "如何打开有密码保护的Excel文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以用密码恢复程序来破解密码。如果Excel文件的一个工作表或整个工作簿都已被锁定而无法编辑，那么你可以对文件本身快速进行一些更改，或者彻底移除密码保护",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "用密码来保护Excel文件的方法有很多。如果文件需要密码才能打开，那么你就得用密码恢复程序来破解密码。如果Excel文件的一个工作表或整个工作簿都已被锁定而无法编辑，那么你可以对文件本身快速进行一些更改，或者彻底移除密码保护。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

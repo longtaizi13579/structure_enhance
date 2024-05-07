@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "寨卡病毒一般是怎么传播的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_寨卡病毒感染.json",
+        "grounding": [
+            "寨卡病毒感染",
+            "寨卡病毒的传播"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "虽然寨卡病毒通常由蚊子传播，但也可能通过性交传播病毒，您需要了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_寨卡病毒感染.json",
+        "grounding": [
+            "寨卡病毒感染者在许多情况下可通过性交传播病毒："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果是通过性交传播的话是有症状之后才传播吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_寨卡病毒感染.json",
+        "grounding": [
+            "有症状期间",
+            "寨卡病毒感染者在许多情况下可通过性交传播病毒："
+        ],
+        "grounding_id": [
+            "35",
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是的，症状开始出现之前或者结束后也会传播",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_寨卡病毒感染.json",
+        "grounding": [
+            "症状开始出现之前",
+            "症状结束后"
+        ],
+        "grounding_id": [
+            "34",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那蚊子是不是还会传播西尼罗病毒？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "避免蚊子叮咬是防止西尼罗病毒感染的关键。为防止被蚊子叮咬，人们应采取以下预防措施："
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，您需要了解防止被蚊子叮咬的措施吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "避免蚊子叮咬是防止西尼罗病毒感染的关键。为防止被蚊子叮咬，人们应采取以下预防措施："
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，我想知道穿长衣长裤有没有用？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "穿长袖上衣和长裤。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "穿长袖上衣和长裤是可以预防的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "穿长袖上衣和长裤。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，如果要诊断的话需要做什么检查吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "西尼罗病毒感染的诊断",
+            "西尼罗病毒感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要血液化验和脊椎穿刺",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_虫媒病毒、沙粒病毒、线状病毒_西尼罗病毒感染.json",
+        "grounding": [
+            "血液化验",
+            "脊椎穿刺"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,260 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么更改Mac上的桌面图片呢？",
+        "act": "how",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "更改Mac上的桌面图片（背景）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道从“系统偏好设置”中更改桌面图片还是 从“照片”中更改桌面图片呢？",
+        "act": "multiple-choice",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "从“系统偏好设置”中更改桌面图片"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你说说从“系统偏好设置”中更改桌面图片要怎么操作？",
+        "act": "how",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "从“系统偏好设置”中更改桌面图片"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“系统偏好设置”。 然后点按“桌面与屏幕保护程序”。 最后从“桌面”面板中，选择左侧的某个图片文件夹，然后点按右侧的某张图片以更改您的桌面图片就可以了。",
+        "act": "ans/open",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“桌面与屏幕保护程序”。",
+            "从“桌面”面板中，选择左侧的某个图片文件夹，然后点按右侧的某张图片以更改您的桌面图片。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那在向iMovie剪辑项目中添加歌曲和其他音频文件的时候要怎么做呢？",
+        "act": "how",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "向iMovie剪辑项目中添加歌曲和其他音频文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道在iPhoneiPad或iPodtouch上添加歌曲和其他音频文件还是在Mac上添加歌曲或其他音频文件呢？",
+        "act": "multiple-choice",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "在iPhoneiPad或iPodtouch上添加歌曲和其他音频文件"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道在iPhoneiPad或iPodtouch上添加其他音频文件的时候，怎么知道自己的音频文件长于一分钟呢？",
+        "act": "how",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "向iMovie剪辑项目中添加歌曲和其他音频文件",
+            "在iPhoneiPad或iPodtouch上添加歌曲和其他音频文件",
+            "添加其他音频文件"
+        ],
+        "grounding_id": [
+            "1",
+            "5",
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您的音频文件是否出现在播放头的放置位置呢？",
+        "act": "verification",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "那么这个文件在您项目中表现出的行为会与歌曲类似。短于一分钟的文件会出现在播放头的放置位置。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，它就是出现在播放头的放置位置。",
+        "act": "ans/yes",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "那么这个文件在您项目中表现出的行为会与歌曲类似。短于一分钟的文件会出现在播放头的放置位置。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那它就没有长于一分钟，如果您添加的音频文件长于一分钟，这个文件在您项目中表现出的行为会与歌曲类似。短于一分钟的文件会出现在播放头的放置位置。",
+        "act": "ans/no",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "如果您添加的音频文件长于一分钟，",
+            "那么这个文件在您项目中表现出的行为会与歌曲类似。短于一分钟的文件会出现在播放头的放置位置。"
+        ],
+        "grounding_id": [
+            "22",
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我明白了，那如果我想在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影，怎么处理电影效果模式才最好呢？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您具体是想知道检查电影效果模式片段是否已做过处理还是为片段启用和调整电影效果控制呢？",
+        "act": "multiple-choice",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "检查电影效果模式片段是否已做过处理"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道怎么检查电影效果模式片段是否已做过处理呢？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "检查电影效果模式片段是否已做过处理"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "电影效果模式片段必须先在iPhone上的“照片”App中做过处理，然后才能在Mac上进行访问。您可以这么处理，首先在iPhone上打开“照片”。 然后轻点“相簿”标签页，然后选择“电影效果”相簿。 之后轻点屏幕底部的“立即处理”。如果没有显示“立即处理”，则片段已处理过。 最后电影效果模式片段经过处理后，您便可以将它们传输到Mac上。 如果您使用“iCloud照片”，也可以等到视频上传至“iCloud照片”后，再从Mac访问这些视频。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "电影效果模式片段必须先在iPhone上的“照片”App中做过处理，然后才能在Mac上进行访问。",
+            "在iPhone上打开“照片”。",
+            "轻点“相簿”标签页，然后选择“电影效果”相簿。",
+            "轻点屏幕底部的“立即处理”。如果没有显示“立即处理”，则片段已处理过。",
+            "电影效果模式片段经过处理后，您便可以将它们传输到Mac上。",
+            "如果您使用“iCloud照片”，也可以等到视频上传至“iCloud照片”后，再从Mac访问这些视频。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这样哦，那为什么要在FinalCutPro中设置资源库和项目呢？",
+        "act": "why",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+            "在FinalCutPro中设置资源库和项目"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，可以在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "谢谢你我知道了，我还有一个问题想问你，就是iPhone或iPad上共享或导出iMovie剪辑项目呢？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "共享或导出iMovie剪辑项目",
+            "在iPhone或iPad上共享或导出iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "通过电子邮件或短信发送影片，导出影片以在其他设备上观看，或将影片共享到网上。如果您想在共享影片后对其进行编辑，请在iMovie剪辑中打开存储的相应项目，进行更改，然后改好后再次共享即可。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "通过电子邮件或短信发送影片，导出影片以在其他设备上观看，或将影片共享到网上。如果您想在共享影片后对其进行编辑，请在iMovie剪辑中打开存储的相应项目，进行更改，然后改好后再次共享即可。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

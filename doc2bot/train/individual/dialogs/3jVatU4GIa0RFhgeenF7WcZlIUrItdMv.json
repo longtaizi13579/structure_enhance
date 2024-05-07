@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下供养亲属抚恤金在哪里领取呢",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好您是哪个城市办理供养亲属抚恤金申领呢？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "奥对我是浙江省衢州市的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "就在衢州市行政服务中心一楼的B厅B01—B05窗口进行办理就可以了",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行我知道了，那我可以通过什么方式进行办理呢",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这种是可以网上办理的，您也可以去现场窗口申请的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有付费项目的话，可以网上支付嘛",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1632"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，这是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1633"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们单位是浙江金华市的，想给员工提供查询信息服务，申请这项查询服务要具备什么条件？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询",
+            "浙江省_金华市",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "1",
+            "T9",
+            "89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "需要满足统筹地参保单位。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "统筹地参保单位"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果办理过程不满意，投诉方式先给我一个",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你想要投诉电话、投诉地址还是投诉网址？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉电话是啥？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你记一下，0579-82822093",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "0579-82822093"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，有地址吗？我直接去你们办公的地点处理吧。",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们的地址在：金华市双龙南街801号金华市政府北门。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "金华市双龙南街801号金华市政府北门"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我向你们咨询会不会收费啊？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "160"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们不收取费用。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    }
+]

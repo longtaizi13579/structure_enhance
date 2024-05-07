@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我受了工伤后，在外地就医，产生的交通费、食宿费怎么报销？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工伤保险",
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "T189",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是哪个城市的？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是浙江省宁波市的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是否在发生事故后被认定为工伤，并报市社保经办机构同意后，到统筹地区以外就医的？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工伤保险",
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "T189",
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您可以申请统筹地区以外交通、食宿费申领。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我现在遇到点麻烦，你把投诉电话给我？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉电话是：0574-12345。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有投诉地址？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉地址也发给我？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉地址是：宁波市鄞州区宁穿路2101号。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "宁波市鄞州区宁穿路2101号"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有，我应该如何申请？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请方式有：网上申请，现场窗口申请，邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办事处的电话是什么，我想咨询点问题？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "咨询电话是：0574-83865155。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "0574-83865155"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办事处的正常工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工作日：上午09:00-12:00，下午13:30-17:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理时间是：工作日：上午09:00-12:00，下午13:30-17:00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工作日：上午09:00-12:00，下午13:30-17:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

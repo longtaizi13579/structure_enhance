@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我之前在丽水市办理注销登记公司的信息时遇到态度不好的人，我要怎么投诉？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "公司注销登记",
+            "浙江省_丽水市",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T14",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想要现场投诉还是电话投诉？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "现场吧。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以到丽水市莲都区花园路1号是市信访局进行投诉反映。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "丽水市莲都区花园路1号（市信访局）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我记一下。对了，投诉电话又是什么？也给我一个吧。要是我后面回来有什么问题还可以在打投诉电话的。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打投诉电话0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "0578-12345",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，我后面去办理的时候，除了前台，可以有那些自助机吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，支持吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

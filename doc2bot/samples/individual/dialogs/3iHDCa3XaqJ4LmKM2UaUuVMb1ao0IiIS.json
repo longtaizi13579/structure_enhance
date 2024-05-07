@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江宁波机动车更换车身或者车架变更登记的一些信息",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "机动车更换车身或者车架变更登记"
+        ],
+        "grounding_id": [
+            "T10",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面的信息呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道是否支持自助终端办理呢？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前不支持",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那国产机动车注册登记是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "261"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "300"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那反光号牌的收费标准呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "2\t3.汽车反光号牌",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "280",
+            "261",
+            "281"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是说汽车反光号牌的收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费项目名称",
+            "2\t3.汽车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "270",
+            "280",
+            "281"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费项目名称",
+            "2\t3.汽车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "270",
+            "280",
+            "281"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "100元/副",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "100元/副"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，如果是挂车反光号牌也是100元吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "1\t2.挂车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "271",
+            "272"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是的，挂车反光号牌是50元/副",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "273"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那机动车登记证书收费吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5\t5.机动车登记证书",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "307",
+            "261",
+            "308"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "收费的，10元/本",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    }
+]

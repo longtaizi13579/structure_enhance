@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我新买的AppleWatch怎么操作程序坞呢？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "在AppleWatch上使用“程序坞”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询程序坞是什么APP还是如何打开程序坞APP呢？",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "如何从AppleWatch上的“程序坞”中打开App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想知道如何打开程序坞app",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "如何从AppleWatch上的“程序坞”中打开App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先按下侧边按钮。然后向上或向下轻扫，或者旋转数码表冠。之后轻点某个App以将它打开。最后要关闭“程序坞”，请按下侧边按钮。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要关闭“程序坞”，请按下侧边按钮。",
+            "轻点某个App以将它打开。",
+            "向上或向下轻扫，或者旋转数码表冠。",
+            "按下侧边按钮。"
+        ],
+        "grounding_id": [
+            "7",
+            "6",
+            "5",
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么我想加入一个个人收藏，为什么APP里面没有呢？",
+        "act": "what",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "选取“最近使用”或“个人收藏”",
+            "“程序坞”可以显示您最近使用的App，或最多显示10个您收藏的App。选取“最近使用”时，您的App会按照打开顺序逐一显示。选取“个人收藏”时，您可以选取要显示的App，但最近使用的App仍会出现在“程序坞”的顶部。如果App还没有加入个人收藏，您可轻点“在‘程序坞’中保留”进行添加。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果App还没有加入个人收藏，您可轻点“在‘程序坞’中保留”进行添加。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "“程序坞”可以显示您最近使用的App，或最多显示10个您收藏的App。选取“最近使用”时，您的App会按照打开顺序逐一显示。选取“个人收藏”时，您可以选取要显示的App，但最近使用的App仍会出现在“程序坞”的顶部。如果App还没有加入个人收藏，您可轻点“在‘程序坞’中保留”进行添加。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么怎么一下子找到收藏的东西呢？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "在AppleWatch上使用“程序坞”",
+            "快速打开您收藏的App，或者从一个App切换到另一个App。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解如何快速打开收藏APP还是APP使用呢？",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "快速打开您收藏的App，或者从一个App切换到另一个App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解如何快速打开收藏APP",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "快速打开您收藏的App，或者从一个App切换到另一个App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "快速打开您收藏的App，或者从一个App切换到另一个App。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "快速打开您收藏的App，或者从一个App切换到另一个App。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

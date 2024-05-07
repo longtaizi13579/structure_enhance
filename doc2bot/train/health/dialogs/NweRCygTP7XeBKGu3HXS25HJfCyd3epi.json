@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近这段时间吃不下饭，但并不觉得厌食，这是病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "进食障碍"
+        ],
+        "grounding_id": [
+            "T2564"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "根据这两点还不能判断是什么病症，请问您强烈的呕吐，还是不自觉得反复反流？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "患者反复反流食物1个月或以上。",
+            "已排除可引起反流的胃肠道疾病（如胃食管反流[GERD]和Zenker憩室）和其他饮食障碍（如神经性厌食症）。"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "会有一点点不自觉的反流，这是什么病？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "患者反复反流食物1个月或以上。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "建议您最好去医院做个检查，通过你的描述，与反刍症有点相似。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "反刍症的诊断",
+            "反刍症"
+        ],
+        "grounding_id": [
+            "17",
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "反刍症是很严重的病吗？一般医生会怎么治疗？",
+        "act": "what",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "反刍症"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个您不要有心理负担，与医生配合治疗，会很快康复的。医生在诊断过程中，一般会先评估您的营养状况，以确认是否存在体重减轻和营养不良。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "如果医生怀疑或确诊反刍症，他们会评估患者的营养状况，以确认是否存在体重减轻和营养不良。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我是30多岁的成年人了，也会患上这种病症吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "反刍症可发生于婴幼儿、儿童、青少年或成人。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "反刍症常发生于婴幼儿、儿童、青少年或成人。我现在也不能确认您就是，最好还是去医院就诊。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "反刍症可发生于婴幼儿、儿童、青少年或成人。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我发现我减少吃饭的量，反流的现象就会减少，我这样做对吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "如果患者限制了他们的食物摄入量（避免其他人看到反流），他们可能会体重减轻或出现营养缺乏。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果减少食物摄入量，这会让您出现营养不良，对您的身体危害更大。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "如果患者限制了他们的食物摄入量（避免其他人看到反流），他们可能会体重减轻或出现营养缺乏。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "现在最为常见有效的治疗手段是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "行为矫正疗法可能有所帮助。",
+            "反刍症的治疗"
+        ],
+        "grounding_id": [
+            "11",
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前最为有效的是矫正疗法，希望能帮到您！",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_进食障碍_反刍症.json",
+        "grounding": [
+            "行为矫正疗法可能有所帮助。",
+            "行为矫正治疗"
+        ],
+        "grounding_id": [
+            "11",
+            "34"
+        ]
+    }
+]

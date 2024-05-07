@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好想咨询一下这个 行驶证驾驶证的事",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江嘉兴",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您具体想了解哪方面呢比如是驾驶证换证申领，增驾申领还是初学申领再或者是延期换领等等",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是部队的车驾驶证换证办这个支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个换证申领结果出来后多久能送达呀",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "送达时限自作出决定之日起1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的就是还想问一下在咱们嘉兴办这个驾驶人信息变化换驾驶证收费可以网上支付吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "254",
+            "259"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "260"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "不好意思刚没听清，这个换证是收费的能网上支付对吧",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "255"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对了这个收费项目叫什么呢",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "机动车驾驶证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那收费标准是多少",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "264"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个换证结果出来多久能送达呀",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "送达时限是自作出决定之日起1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    }
+]

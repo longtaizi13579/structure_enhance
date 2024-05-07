@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，想咨询下港澳通行证及签注的问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解往来港澳通行证，港澳商务签注，港澳逗留签注，港澳其他签注，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "往来港澳通行证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询下往来港澳通行证，一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "往来港澳通行证",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "承诺办结时限是：7（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "承诺办结时限",
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问下港澳其他签注，办事处那边的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址是：嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询地址",
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询电话是什么，也给我吧？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话是：0573-12367",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话",
+            "0573-12367"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉地址是：嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址",
+            "嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

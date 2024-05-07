@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解妊娠期疾病",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "妊娠合并症",
+            "妊娠期疾病概述"
+        ],
+        "grounding_id": [
+            "T566",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是哪方面呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "妊娠期疾病概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哪些病会疾病增加妊娠女性或者胎儿发生问题的风险呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "有时疾病与妊娠进展并不直接相关。有些疾病增加妊娠女性或者胎儿发生问题的风险。它们包括"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "引起高烧的疾病，感染，以及需要腹部手术治疗的疾病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "引起高烧的疾病",
+            "感染",
+            "需要腹部手术治疗的疾病"
+        ],
+        "grounding_id": [
+            "15",
+            "18",
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在孕期高烧的话对胎儿有什么影响啊？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧",
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "高于103°F（39.5°C）的体温会导致婴儿大脑或脊髓缺陷",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险：",
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "5",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那孕期是不是更容易发生尿路感染呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "尿路感染",
+            "有些疾病在妊娠期更容易发病，因为妊娠会导致母体发生很多改变。比如"
+        ],
+        "grounding_id": [
+            "32",
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_妊娠期疾病概述.json",
+        "grounding": [
+            "尿路感染"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

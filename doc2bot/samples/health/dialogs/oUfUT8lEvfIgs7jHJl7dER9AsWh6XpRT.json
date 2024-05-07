@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我有尿失禁，想了解下怎么诊断尿失禁？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "尿失禁"
+        ],
+        "grounding_id": [
+            "T1624"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "引起尿失禁的原因较多，你的膀胱功能不正常吗？还是尿道括约肌不正常吗？膀胱顺应性不正常吗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "尿失禁"
+        ],
+        "grounding_id": [
+            "T1624"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "医生说我有可能是间质性膀胱炎，我想知道咋诊断？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "间质性膀胱炎的诊断"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "间质性膀胱炎的诊断方法包括医师的评估，膀胱镜检查及可能的活检。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "医师的评估",
+            "膀胱镜检查及可能的活检"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那为什么要做活检？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "膀胱镜检查及可能的活检"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "医生还会做膀胱活检以排除癌症",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿失禁_间质性膀胱炎.json",
+        "grounding": [
+            "通过柔软的可视管道（膀胱镜检查）检查膀胱，医生还可以检查膀胱内膜。有时与此同时，医生还会做膀胱活检以排除癌症。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

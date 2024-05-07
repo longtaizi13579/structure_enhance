@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我发现AppleWatchSeries7上有一个血氧App，想问下什么是血氧？",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App",
+            "什么是血氧"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "大部分人的学养水平是多少？",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "睡眠的时候测得的数值比较低正常吗？",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。",
+        "act": "ans/yes",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“血氧”App测量的数据可以作为医学诊断标准吗？",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以。“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "随时都可以测吗？",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。",
+        "act": "ans/yes",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

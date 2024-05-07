@@ -1,0 +1,248 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下，机动车的一些收费项目的价格呀？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "T17",
+            "2304"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您是要咨询哪个省市的？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，浙江嘉兴市呀，",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您能提供一下具体的收费项目名称吗？好帮您快速查询。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "4\t摩托车反光号牌"
+        ],
+        "grounding_id": [
+            "2332"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，可以，我想问的是摩托车反光号牌，这个收费标准",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "4\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "2332",
+            "2333"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，帮您查询了，是70元/副",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "2334"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，我还想问一下，关于这个机动车备案有什么监督投诉方式呀？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车",
+            "机动车质押备案",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T17",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，帮您查询到有投诉电话、 投诉地址 、还有投诉网址，您需要哪个一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，我先记一下投诉电话吧，",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，您记一下，0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，麻烦你再把地址也说一下啦？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，投诉地址是嘉兴市中山东路1156号交警支队二楼政治处211室",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯，还有个事就是机动车质押备案这个是否支持网上支付呀？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "315"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "帮您查了这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "啊，您再说一遍，这个是否收费呀？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "嗯，那这个要多久能办下来呀？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

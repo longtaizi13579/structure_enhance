@@ -1,0 +1,304 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下iPhone里面的照片App有什么作用？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“照片”App会识别照片中的人物面孔并对它们进行分组。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "除了分组，还有其它功能吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想具体了解一些关于照片App的内容？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解：运作方式，在“人物”相簿中查找某人，将某人添加到“人物”相簿中，更改缩略图照片，还是其它？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "运作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解下它的运作方式是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "运作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。另外，在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我打开iCloud照片照片后，会同步更新吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。另外，在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。另外，在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想了解下，缩略图照片指的是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "更改缩略图照片",
+            "“照片”会自动为识别出的每个人分配一个面孔缩略图。如果您要将另一张照片用作某人的缩略图，您可以从这个人的照片集屏幕中进行更改。具体操作如下："
+        ],
+        "grounding_id": [
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“照片”会自动为识别出的每个人分配一个面孔缩略图。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”会自动为识别出的每个人分配一个面孔缩略图。如果您要将另一张照片用作某人的缩略图，您可以从这个人的照片集屏幕中进行更改。具体操作如下："
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我想把其它照片用作某人的缩略图，应该怎么操作？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”会自动为识别出的每个人分配一个面孔缩略图。如果您要将另一张照片用作某人的缩略图，您可以从这个人的照片集屏幕中进行更改。具体操作如下："
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您要将另一张照片用作某人的缩略图，您可以从这个人的照片集屏幕中进行更改。具体操作如下：首先，打开“人物”相簿，然后轻点这个人。然后，轻点“选择”，然后轻点“显示面孔”，以使每张照片都聚焦到这个人的面孔。接着，轻点您要使用的照片。最后，轻点“共享”按钮，然后轻点“设为主要照片”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”会自动为识别出的每个人分配一个面孔缩略图。如果您要将另一张照片用作某人的缩略图，您可以从这个人的照片集屏幕中进行更改。具体操作如下：",
+            "打开“人物”相簿，然后轻点这个人。",
+            "轻点“选择”，然后轻点“显示面孔”，以使每张照片都聚焦到这个人的面孔。",
+            "轻点您要使用的照片。",
+            "轻点“共享”按钮，然后轻点“设为主要照片”。"
+        ],
+        "grounding_id": [
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在“人物”相簿中查找某人指的是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在“人物”相簿中查找某人"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "“照片”App会将人物的图片整理到“人物”相簿中。您会看到设备识别出的每个人的面孔缩略图。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会将人物的图片整理到“人物”相簿中。您会看到设备识别出的每个人的面孔缩略图。要在“人物”相簿中查找某人，请进行以下操作："
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果要查找某人，怎么操作？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会将人物的图片整理到“人物”相簿中。您会看到设备识别出的每个人的面孔缩略图。要在“人物”相簿中查找某人，请进行以下操作："
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "要在“人物”相簿中查找某人，请进行以下操作：首先，打开“照片”App。然后，轻点“相簿”标签页。最后，轻点“人物”相簿。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会将人物的图片整理到“人物”相簿中。您会看到设备识别出的每个人的面孔缩略图。要在“人物”相簿中查找某人，请进行以下操作：",
+            "打开“照片”App。",
+            "轻点“相簿”标签页。",
+            "轻点“人物”相簿。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还有其它查找方式吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "当您在“照片”App中为某人命名后，您还可以在“搜索”标签页下找到他们。只需轻点“搜索”，然后键入这个人的名字。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "当您在“照片”App中为某人命名后，您还可以在“搜索”标签页下找到他们。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "当您在“照片”App中为某人命名后，您还可以在“搜索”标签页下找到他们。只需轻点“搜索”，然后键入这个人的名字。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "具体怎么操作？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "当您在“照片”App中为某人命名后，您还可以在“搜索”标签页下找到他们。只需轻点“搜索”，然后键入这个人的名字。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "只需轻点“搜索”，然后键入这个人的名字。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "当您在“照片”App中为某人命名后，您还可以在“搜索”标签页下找到他们。只需轻点“搜索”，然后键入这个人的名字。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

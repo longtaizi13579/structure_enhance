@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省衢州市的，想咨询下失业保险的问题？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "社保医保",
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T5",
+            "T168",
+            "T203"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解失业保险关系接续申请，失业保险关系转移申请，还是失业补助金申领？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询失业保险关系接续申请。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您想继续了解咨询方式，办理时间，申请条件，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道咨询方式。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址是：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询电话是什么，也给我吧？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话是：0570-3086270",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3086270"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    }
+]

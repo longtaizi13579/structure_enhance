@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省丽水市办理机动车所有人姓名（单位名称）、身份证明号码变更备案的信息",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "机动车所有人姓名（单位名称）、身份证明号码变更备案"
+        ],
+        "grounding_id": [
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您要了解是否收费，收费依据，是否支持网上支付吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "279"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想知道能不能网上支付？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "279"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那收费的标准是什么呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "274",
+            "283"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车行驶证是十元一本的",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "284"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，是申请之后就可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，您还需要满足相应的条件才会受理",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那受理条件是什么呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果改变机动车了发动机型号，但是是但经国务院机动车产品主管部门许可选装的发动机的话可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "（一）改变机动车的品牌、型号和发动机型号的，但经国务院机动车产品主管部门许可选装的发动机除外；"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "（一）改变机动车的品牌、型号和发动机型号的，但经国务院机动车产品主管部门许可选装的发动机除外；"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那可以去自助机器那儿办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问您说的是自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好吧，当天能办完吗？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一个工作日内应该是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

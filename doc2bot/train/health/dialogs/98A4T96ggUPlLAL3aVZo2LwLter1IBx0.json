@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下WILSON病",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "WILSON病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "威尔逊病是一种罕见的遗传性疾病，肝无法正常地把过量的铜随胆汁排出，从而导致铜在肝内积聚并损伤肝。请问您想了解威尔逊病的症状，诊断，治疗哪方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "威尔逊病的症状"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道患者的虹膜会出现什么症状",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "威尔逊病的症状",
+            "虹膜（眼睛的有色部分）周围可能出现黄金或绿金环（角膜色素环）。铜积聚时，会出现这些环。这些环是一些威尔逊病患者的首发症状。"
+        ],
+        "grounding_id": [
+            "16",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "虹膜（眼睛的有色部分）周围可能出现黄金或绿金环（角膜色素环）。铜积聚时，会出现这些环。这些环是一些威尔逊病患者的首发症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "虹膜（眼睛的有色部分）周围可能出现黄金或绿金环（角膜色素环）。铜积聚时，会出现这些环。这些环是一些威尔逊病患者的首发症状。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果不治疗的话会致死吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "威尔逊病患者必须采用低铜饮食。患者只能摄入含有低量铜的食物，要避免食用牛肝、腰果、蔬菜汁、贝类、蘑菇以及可可粉。威尔逊病患者不得服用任何含铜的维生素或矿物质补充剂。"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "若不终生治疗，威尔逊病多在30岁时就可致命。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "若不终生治疗，威尔逊病多在30岁时就可致命。除非疾病在确诊时已经是晚期，否则经过治疗后，患者通常可以健康生活。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这么严重的啊，治疗的话一般可以活到多久",
+        "act": "when",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "若不终生治疗，威尔逊病多在30岁时就可致命。除非疾病在确诊时已经是晚期，否则经过治疗后，患者通常可以健康生活。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "除非疾病在确诊时已经是晚期，否则经过治疗后，患者通常可以健康生活",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "若不终生治疗，威尔逊病多在30岁时就可致命。除非疾病在确诊时已经是晚期，否则经过治疗后，患者通常可以健康生活。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，治疗的方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "威尔逊病的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要改变饮食，药物和锌补充剂，可能需要肝移植",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "改变饮食",
+            "可能需要肝移植",
+            "药物和锌补充剂"
+        ],
+        "grounding_id": [
+            "43",
+            "45",
+            "44"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "铜会在患者的大脑积聚吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "铜会在肝、大脑、眼球以及其他器官积聚。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般铜会在肝、大脑、眼球以及其他器官积聚",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "铜会在肝、大脑、眼球以及其他器官积聚。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "诊断的话需要检查哪些部位",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "检查血液和眼睛能诊断出此病。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "检查血液和眼睛能诊断出此病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "检查血液和眼睛能诊断出此病。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

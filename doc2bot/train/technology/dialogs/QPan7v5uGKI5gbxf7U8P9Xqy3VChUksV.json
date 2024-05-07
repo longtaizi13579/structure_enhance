@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果不确定自己密码的安全性，是不是应该去重设密码？",
+        "act": "verification",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "如果您不确定自己密码的安全性是否较高，",
+            "安全性和AppleID"
+        ],
+        "grounding_id": [
+            "7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "请尽快访问AppleID帐户页面以重设密码。"
+        ],
+        "grounding_id": [
+            "67"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "AppleID是干嘛的？",
+        "act": "what",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "安全性和AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您的AppleID是您用于访问Apple服务的帐户，这些服务包括AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等。它包含您用于登录的电子邮件地址和密码，以及您会在Apple各项服务中使用的联系详情、付款详情和安全设置详情。Apple非常重视个人信息的隐私并采用行业标准的做法来保护AppleID。",
+        "act": "ans/open",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "您的AppleID是您用于访问Apple服务的帐户，这些服务包括AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等。它包含您用于登录的电子邮件地址和密码，以及您会在Apple各项服务中使用的联系详情、付款详情和安全设置详情。Apple非常重视个人信息的隐私并采用行业标准的做法来保护AppleID。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何在iPhone上停用在Mac上通过ApplePay支付的功能？",
+        "act": "how",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览",
+            "在应用内或网站上使用ApplePay时",
+            "当您使用iPhone或AppleWatch上的ApplePay来确认从Mac上的Safari浏览器中发起的购买行为时，您的Mac和用于授权的设备会通过Apple服务器的加密通道进行通信。Apple不会以能够识别您个人身份的形式保留任何此类信息。您可以在iPhone的“设置”中停用在Mac上通过ApplePay支付的功能。请前往“钱包与ApplePay”，并停用“允许在Mac上支付”。"
+        ],
+        "grounding_id": [
+            "1",
+            "31",
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在iPhone的“设置”中停用在Mac上通过ApplePay支付的功能。请前往“钱包与ApplePay”，并停用“允许在Mac上支付”。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "当您使用iPhone或AppleWatch上的ApplePay来确认从Mac上的Safari浏览器中发起的购买行为时，您的Mac和用于授权的设备会通过Apple服务器的加密通道进行通信。Apple不会以能够识别您个人身份的形式保留任何此类信息。您可以在iPhone的“设置”中停用在Mac上通过ApplePay支付的功能。请前往“钱包与ApplePay”，并停用“允许在Mac上支付”。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

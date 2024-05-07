@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下湖州市的职工的社保医保收费可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "职工社保医保",
+            "收费标准",
+            "是否支持网上支付",
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T141",
+            "208",
+            "213",
+            "T13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "是否支持网上支付",
+            "不支持"
+        ],
+        "grounding_id": [
+            "213",
+            "214"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我对湖州市的机关事业养老保险不太熟悉，能告诉我一下吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "机关事业养老保险职业年金转入"
+        ],
+        "grounding_id": [
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您想知道常用服务，还是收费标准呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "常用服务",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T146",
+            "208"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道养老保险职业年金转入办理它要不要收费呀？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "是否收费",
+            "机关事业养老保险职业年金转入"
+        ],
+        "grounding_id": [
+            "209",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想再详细咨询一下我的医保，请问要怎么联系呢？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "职工社保医保",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T141",
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以电话咨询的， 0572-2032005。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果问题解决不到位，我要去哪投诉呢？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址：湖州市凤凰路579号市社会保险事业管理中心502室。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "投诉地址",
+            "湖州市凤凰路579号市社会保险事业管理中心502室"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

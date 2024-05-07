@@ -1,0 +1,364 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省丽水市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T12",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询形式证驾驶证有关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是转入换领机动车驾驶证、达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是其他业务有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "转入换领机动车驾驶证有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "丽水市公安局交通警察支队车辆管理所",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "机动车驾驶证增驾申领这个业务有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办事信息",
+            "基本信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "97",
+            "40",
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我还想问问有关收费的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "收费项目叫什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1 补考（包括法律法规规章规定需重新进行的考试费）、2 机动车驾驶证、3 汽车驾驶员考试费（含一次补考）、4 摩托车驾驶员考试费（含一次补考）这些都是要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "1\t补考（包括法律法规规章规定需重新进行的考试费）"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "补考（包括法律法规规章规定需重新进行的考试费）多少钱？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准",
+            "1\t补考（包括法律法规规章规定需重新进行的考试费）"
+        ],
+        "grounding_id": [
+            "270",
+            "269"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "80元/类，次",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "80元/类，次"
+        ],
+        "grounding_id": [
+            "271"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "汽车驾驶员考试费（含一次补考）怎么收费？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t汽车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "287",
+            "288"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "360元/人次",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "360元/人次"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "驾驶人信息变化换领机动车驾驶证这个业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "转入换领机动车驾驶证这个业务是不是可以多次申请？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "扣满十二分的驾驶人还可以申请吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "受理条件",
+            "（一）申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形；\n"
+        ],
+        "grounding_id": [
+            "1",
+            "134",
+            "135"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "（一）申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形；\n"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    }
+]

@@ -1,0 +1,167 @@
+{
+    "document_id": 266,
+    "domain": "technology",
+    "name": "可与“时间机器”搭配使用的备份磁盘",
+    "graph": {
+        "1": {
+            "data": "可与“时间机器”搭配使用的备份磁盘",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "“时间机器”可以备份到与Mac连接或在网络上可供使用的某些外置储存设备。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "您需要以下类型的储存设备之一：",
+            "type": "disjunction",
+            "pid": "1"
+        },
+        "4": {
+            "data": "连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "8": {
+            "data": "支持通过SMB进行“时间机器”备份的联网储存(NAS)设备",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "12": {
+            "data": "共享为“时间机器”备份目标位置的Mac",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "16": {
+            "data": "连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "20": {
+            "data": "AirPort时间返回舱",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "24": {
+            "data": "连接到Mac的外置驱动器",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "25": {
+            "data": "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "26": {
+            "data": "支持通过SMB进行“时间机器”备份的联网储存(NAS)设备",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "27": {
+            "data": "许多第三方NAS设备都支持通过SMB进行“时间机器”备份。有关详细信息，请查看适用于您NAS设备的文稿。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "28": {
+            "data": "共享为“时间机器”备份目标位置的Mac",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "29": {
+            "data": "要将网络上的另一台Mac用作“时间机器”的备份目标位置，请在另一台Mac上完成以下步骤：",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "30": {
+            "data": "选取苹果菜单>“系统偏好设置”，然后点按“共享”。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "31": {
+            "data": "从左侧的服务列表中，选择“文件共享”。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "32": {
+            "data": "从右侧的“共享文件夹”列表中，点按“添加”按钮(+)，然后选取要用于“时间机器”备份的文件夹。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "33": {
+            "data": "按住Control键点按已添加的文件夹，然后从显示的快捷菜单中选取“高级选项”。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "34": {
+            "data": "从“高级选项”对话框中，选择“共享为时间机器备份目的位置”。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "35": {
+            "data": "在其他Mac电脑上设置“时间机器”时，您现在应该能够选择这个共享文件夹作为备份磁盘。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "36": {
+            "data": "连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "37": {
+            "data": "“时间机器”可以备份到AirPortExtreme基站（802.11ac机型）或AirPort时间返回舱所连接的外置USB驱动器。",
+            "type": "sequence",
+            "pid": "36"
+        },
+        "38": {
+            "data": "将相应驱动器直接连接到Mac，然后使用“磁盘工具”将这个驱动器抹掉。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "42": {
+            "data": "将这个驱动器连接到AirPort基站上的USB端口，然后将它开启。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "43": {
+            "data": "打开AirPort实用工具，然后选择您的基站并点按“编辑”以查看它的设置。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "44": {
+            "data": "点按设置窗口中的“磁盘”标签。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "45": {
+            "data": "从分区列表中选择您的备份磁盘，然后选择“启用文件共享”：",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "46": {
+            "data": "如果网络上有多个用户将使用“时间机器”备份到这个磁盘，则您可以使用“保护共享磁盘”弹出式菜单来确保他们只能查看自己的备份，而无法查看您的备份。从这个菜单中选取“使用帐户”，然后点按“添加”按钮(+)以添加用户。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "47": {
+            "data": "点按“更新”以重新启动基站并应用设置。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "48": {
+            "data": "AirPort时间返回舱",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "49": {
+            "data": "“时间机器”可以备份到位于网络上的AirPort时间返回舱的内建硬盘。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "56": {
+            "data": "使用“时间机器”备份您的Mac",
+            "type": "solution",
+            "pid": "3"
+        }
+    }
+}

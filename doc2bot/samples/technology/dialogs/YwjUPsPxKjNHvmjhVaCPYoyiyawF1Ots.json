@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道在iPhone、iPad和iPodtouch上怎么删除电子邮件",
+        "act": "how",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "在iPhone、iPad和iPodtouch上删除电子邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要删除一封还是多封",
+        "act": "question/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除多封电子邮件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想删除多封电子邮件",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除多封电子邮件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“邮件”，前往您的“收件箱”，然后轻点右上角的“编辑”，逐一选择要删除的电子邮件，或者轻点“全选”，轻点“废纸篓”或“归档”。如果只能看到“归档”，请按住“归档”以查看其他选项，如“删除所选邮件”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "打开“邮件”，前往您的“收件箱”。",
+            "轻点右上角的“编辑”，然后逐一选择要删除的电子邮件，或者轻点“全选”。",
+            "轻点“废纸篓”或“归档”。如果只能看到“归档”，请按住“归档”以查看其他选项，如“删除所选邮件”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那要是删除单封电子邮件的话应该怎么操作",
+        "act": "how",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除单封电子邮件",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开“邮件”，前往您的“收件箱”，然后轻点右上角的“编辑”，然后选择要删除的电子邮件，最后轻点“废纸篓”或“归档”",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "打开“邮件”，前往您的“收件箱”。",
+            "轻点右上角的“编辑”，然后选择要删除的电子邮件。",
+            "轻点“废纸篓”或“归档”。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，可以我看到有人快速向左轻扫某封电子邮件也能删除是吗",
+        "act": "verification",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "您也可以快速向左轻扫某封电子邮件以将它删除。或者，按住“收件箱”中的电子邮件，然后轻点弹出的菜单中的“废纸篓”按钮。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，或者，按住“收件箱”中的电子邮件，然后轻点弹出的菜单中的“废纸篓”按钮。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "根据您的电子邮件帐户类型，您在尝试删除电子邮件时可能会看到“归档”，而不是“废纸篓”。您可以编辑邮箱行为设置，以做出更改。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我看到“归档”，而不是“废纸篓”的话是什么情况",
+        "act": "what",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "根据您的电子邮件帐户类型，您在尝试删除电子邮件时可能会看到“归档”，而不是“废纸篓”。您可以编辑邮箱行为设置，以做出更改。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据您的电子邮件帐户类型，您在尝试删除电子邮件时可能会看到“归档”，而不是“废纸篓”。您可以编辑邮箱行为设置，以做出更改。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "根据您的电子邮件帐户类型，您在尝试删除电子邮件时可能会看到“归档”，而不是“废纸篓”。您可以编辑邮箱行为设置，以做出更改。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，如果想在iPhone上隐藏照片的话怎么办",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上隐藏照片",
+            "借助“照片”，您可以控制哪些照片和视频可见，哪些隐藏。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "借助“照片”，您可以控制哪些照片和视频可见，哪些隐藏。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "借助“照片”，您可以控制哪些照片和视频可见，哪些隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

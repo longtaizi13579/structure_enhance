@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何使用“通过Apple登录”功能",
+        "act": "how",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如何使用“通过Apple登录”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户，或者在其他平台上创建“通过Apple登录”帐户",
+        "act": "multiple-choice",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那在iPhone上怎么登录呢",
+        "act": "how",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户",
+            "您需要使用“系统偏好设置”>“AppleID”中的AppleID（适用于Mac）或者“设置”>“[您的姓名]”中的AppleID（适用于iPhone、iPad或iPodtouch）进行登录。您还需要打开双重认证。"
+        ],
+        "grounding_id": [
+            "7",
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要使用“系统偏好设置”>“AppleID”中的AppleID（适用于Mac）或者“设置”>“[您的姓名]”中的AppleID（适用于iPhone、iPad或iPodtouch）进行登录。您还需要打开双重认证。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "您需要使用“系统偏好设置”>“AppleID”中的AppleID（适用于Mac）或者“设置”>“[您的姓名]”中的AppleID（适用于iPhone、iPad或iPodtouch）进行登录。您还需要打开双重认证。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体的创建账户步骤是什么",
+        "act": "what",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先在参加计划的App中或网站上，轻点“通过Apple登录”按钮，如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在参加计划的App中或网站上，轻点“通过Apple登录”按钮*。",
+            "如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。进一步了解“隐藏邮件地址”。",
+            "轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "想要隐藏邮件地址的话怎么操作呢",
+        "act": "how",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。进一步了解“隐藏邮件地址”。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。进一步了解“隐藏邮件地址”。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我没有面容ID的话怎么办",
+        "act": "how",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，如果想在按照创建“通过Apple登录”帐户可以吗",
+        "act": "verification",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在其他平台上创建“通过Apple登录”帐户",
+            "当使用网页以及安卓或Windows等其他平台时，您也可以在参加计划的App中或网站上使用“通过Apple登录”功能。"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以，当使用网页以及安卓或Windows等其他平台时，您也可以在参加计划的App中或网站上使用“通过Apple登录”功能。",
+        "act": "ans/yes",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "当使用网页以及安卓或Windows等其他平台时，您也可以在参加计划的App中或网站上使用“通过Apple登录”功能。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "具体的步骤是什么样呢",
+        "act": "what",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "当使用网页以及安卓或Windows等其他平台时，您也可以在参加计划的App中或网站上使用“通过Apple登录”功能。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先在参加计划的App中或网站上轻点“通过Apple登录”按钮，然后看到由Apple托管的安全网页后，输入您的AppleID和密码。第一次登录时，系统会提示您输入通过受信任的Apple设备或电话号码收到的验证码。请查看您设备上的验证码，然后输入这一验证码。如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。点“继续”以完成登录过程。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在参加计划的App中或网站上轻点“通过Apple登录”按钮。",
+            "看到由Apple托管的安全网页后，输入您的AppleID和密码。",
+            "第一次登录时，系统会提示您输入通过受信任的Apple设备或电话号码收到的验证码。请查看您设备上的验证码，然后输入这一验证码。在网页上，如果第一次登录时选择了信任正在使用的浏览器，则会在此后的30天内跳过这个步骤。",
+            "如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。",
+            "轻点“继续”以完成登录过程。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "25",
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在网页上，如果第一次登录时选择了信任正在使用的浏览器是不是就不用验证码",
+        "act": "verification",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "第一次登录时，系统会提示您输入通过受信任的Apple设备或电话号码收到的验证码。请查看您设备上的验证码，然后输入这一验证码。在网页上，如果第一次登录时选择了信任正在使用的浏览器，则会在此后的30天内跳过这个步骤。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是，在此后的30天内会跳过这个步骤",
+        "act": "ans/yes",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "第一次登录时，系统会提示您输入通过受信任的Apple设备或电话号码收到的验证码。请查看您设备上的验证码，然后输入这一验证码。在网页上，如果第一次登录时选择了信任正在使用的浏览器，则会在此后的30天内跳过这个步骤。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

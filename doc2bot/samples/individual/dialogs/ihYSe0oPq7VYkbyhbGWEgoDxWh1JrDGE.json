@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好 我市浙江省衢州市的有一些驾驶证问题想处理一下，问一下车管所的投诉地址",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "行驶证驾驶证",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "T89",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在衢州市公安局交通警察支队车辆管理所进行监督投诉",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我现在身体条件有点问题需要更换驾驶证在哪里办理啊",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "身体条件变化降低准驾车型换领机动车驾驶证",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这种你可以在网上申请，如果条件允许的话也可以在现场窗口办理",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那我可以在自助机办理吗",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，这种是不支持的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "真是太感谢您了，再麻烦您，这个办结日期是多长时间啊",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "没事没事，这种一般是一天的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好嘞，那我办完几天可以到我手里啊",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般是确定好之后，最多10个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，那缴费的话 我可以在网上缴费吗",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "375"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这是不可以的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "376"
+        ]
+    }
+]

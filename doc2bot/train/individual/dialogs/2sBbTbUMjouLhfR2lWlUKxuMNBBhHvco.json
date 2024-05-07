@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好我想咨询一下浙江省丽水市办理自愿降低准驾车型换领机动车驾驶证这项业务有关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市",
+            "行驶驾驶",
+            "行驶证驾驶证",
+            "自愿降低准驾车型换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12",
+            "T16",
+            "T89",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询办件类型、办理地点、办理时间还是其他方面的问题呢？ ",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想明确办理地点在哪里？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，办理地点为丽水市公安局交通警察支队车辆管理所（丽水市莲都区万象街道吕埠坑）一号大厅一楼1-10号受理窗口。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所（丽水市莲都区万象街道吕埠坑）一号大厅一楼1-10号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想咨询一下这个业务收费标准相关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "286"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付以及收费项目名称您想了解哪个方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "293"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "收费项目名称都有哪些？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "293"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收费项目名称为机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "294"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那具体的收费标准是什么呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "295"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您好，收费标准为10元/本。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那是否支持网上支付呢？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "支持的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    }
+]

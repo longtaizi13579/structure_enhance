@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下关于我的照片流",
+        "act": "what",
+        "document": "我的照片流.json",
+        "grounding": [
+            "我的照片流"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想询问我的照片流的使用还是条件？",
+        "act": "multiple-choice",
+        "document": "我的照片流.json",
+        "grounding": [
+            "我的照片流"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "所需条件，我想问一下我的是装有 iOS 5.10版本的 iPhone可以使用吗？",
+        "act": "verification",
+        "document": "我的照片流.json",
+        "grounding": [
+            "所需条件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以使用，因为所需条件装有iOS5.1或更高版本的iPhone、iPad或iPodtouch",
+        "act": "ans/no",
+        "document": "我的照片流.json",
+        "grounding": [
+            "所需条件",
+            "装有iOS5.1或更高版本的iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我在另一台仅打开“我的照片流”的设备上使用同一AppleID还会传到了“iCloud照片”的设备上吗？",
+        "act": "verification",
+        "document": "我的照片流.json",
+        "grounding": [
+            "如果您在另一台仅打开“我的照片流”的设备上使用同一AppleID，则您在那台设备上拍摄的照片只会上传到“我的照片流”。这些照片不会出现在仅启用了“iCloud照片”的任何设备上。",
+            "我的照片流"
+        ],
+        "grounding_id": [
+            "25",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您在另一台仅打开“我的照片流”的设备上使用同一AppleID，则您在那台设备上拍摄的照片只会上传到“我的照片流”。这些照片不会出现在仅启用了“iCloud照片”的任何设备上。",
+        "act": "ans/open",
+        "document": "我的照片流.json",
+        "grounding": [
+            "如果您在另一台仅打开“我的照片流”的设备上使用同一AppleID，则您在那台设备上拍摄的照片只会上传到“我的照片流”。这些照片不会出现在仅启用了“iCloud照片”的任何设备上。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我有iPhone、iPad或和Podtouch能问一下需要如何进行点击才可以查看“我的照片流”中的照片吗？",
+        "act": "how",
+        "document": "我的照片流.json",
+        "grounding": [
+            "查看“我的照片流”中的照片",
+            "iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "30",
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果你是iOS8或更高版本请：轻点“照片”>“相簿”>“我的照片流”。",
+        "act": "ans/open",
+        "document": "我的照片流.json",
+        "grounding": [
+            "iOS8或更高版本：轻点“照片”>“相簿”>“我的照片流”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我最后还想问一下如果我想删除照片怎么办？",
+        "act": "how",
+        "document": "我的照片流.json",
+        "grounding": [
+            "从“我的照片流”中删除照片"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你是想问从“我的照片流”中删除照片吗？",
+        "act": "verification",
+        "document": "我的照片流.json",
+        "grounding": [
+            "从“我的照片流”中删除照片"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的给我讲一下具体需要如何操作吧",
+        "act": "how",
+        "document": "我的照片流.json",
+        "grounding": [
+            "从“我的照片流”中删除照片"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，首先从iOS设备或Mac上的“我的照片流”中选择一张或多张照片，然后轻点或点按“删除”。要是 在PC上，从“我的照片流”中选择您要移除的照片。右键点按，然后选择“删除”。如果 在一台设备上从“我的照片流”中删除照片时，相应照片也会从“照片”和iCloud中移除。从“我的照片流”导入其他设备的照片不会删除。",
+        "act": "ans/open",
+        "document": "我的照片流.json",
+        "grounding": [
+            "从iOS设备或Mac上的“我的照片流”中选择一张或多张照片，然后轻点或点按“删除”。",
+            "在PC上，从“我的照片流”中选择您要移除的照片。右键点按，然后选择“删除”。",
+            "在一台设备上从“我的照片流”中删除照片时，相应照片也会从“照片”和iCloud中移除。从“我的照片流”导入其他设备的照片不会删除。"
+        ],
+        "grounding_id": [
+            "49",
+            "50",
+            "51"
+        ]
+    }
+]

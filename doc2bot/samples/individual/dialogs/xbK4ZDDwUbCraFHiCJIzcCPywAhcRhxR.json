@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我今年刚从浙江省衢州市退休，这个保险怎么办理啊？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想问新增退休人员养老保险待遇申领、参保人员达到法定退休年龄领取基本养老保险待遇资格确认、基本养老保险视同缴费年限核定、个人账户一次性待遇申领哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "新增退休人员养老保险待遇申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是新增退休人员养老保险待遇申领，这个去哪里办啊？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "新增退休人员养老保险待遇申领",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "新增退休人员养老保险待遇申领可以衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，窗口是人工的吧，我老了用不了机器。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是人工窗口，我们暂时不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我就放心了，这个结果多长时间能下来啊？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "大约30个工作日以内就可以。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

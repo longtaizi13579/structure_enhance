@@ -1,0 +1,264 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于我从Mac上同步音乐时看到错误-5000、-69、13010或13014的相关问题？",
+        "act": "what",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，如果您无法将Mac上iTunes或“访达”中的音乐同步到iPhone、iPad或iPodtouch，不妨试着这样做：更新软件、整合音乐资料库中的媒体文件、检查第三方安全软件是否存在问题、如果您仍然看到错误。具体您想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "整合音乐资料库中的媒体文件"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道整合音乐资料库中的媒体文件的原因是什么？",
+        "act": "what",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "整合音乐资料库中的媒体文件"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "因为音乐资料库中的媒体文件可能储存在多个位置。整合您的文件以确保内容集中储存在一个位置，然后再次尝试同步。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "音乐资料库中的媒体文件可能储存在多个位置。请整合您的文件以确保内容集中储存在一个位置，然后再次尝试同步。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "整合文件的好处是什么？",
+        "act": "what",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "整合文件可以修正权限并简化同步流程。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "整合文件可以修正权限并简化同步流程。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "整合文件可以修正权限并简化同步流程。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的歌曲是从CD上拷贝的，和这有关系吗？",
+        "act": "verification",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "您遇到的问题可能与您从CD拷贝的歌曲有关，或者与并非从iTunesStore购买的歌曲有关。在这种情况下，请删除这些歌曲，然后从初始来源再次导入它们。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "您遇到的问题可能与您从CD拷贝的歌曲有关，或者与并非从iTunesStore购买的歌曲有关。在这种情况下，请删除这些歌曲，然后从初始来源再次导入它们。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那遇到这种情况，我应该怎么办？",
+        "act": "how",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "您遇到的问题可能与您从CD拷贝的歌曲有关，或者与并非从iTunesStore购买的歌曲有关。在这种情况下，请删除这些歌曲，然后从初始来源再次导入它们。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在这种情况下，请删除这些歌曲，然后从初始来源再次导入它们。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "您遇到的问题可能与您从CD拷贝的歌曲有关，或者与并非从iTunesStore购买的歌曲有关。在这种情况下，请删除这些歌曲，然后从初始来源再次导入它们。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我仍然看到错误，是怎么回事啊？",
+        "act": "why",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "如果您仍然看到错误"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在某些情况下，您尝试同步的特定歌曲可能有问题。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "查看错误信息中是否指出导致问题的具体歌曲。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我应该怎么办？",
+        "act": "how",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "查看错误信息中是否指出导致问题的具体歌曲。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您需要要找出这样的歌曲。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "在某些情况下，您尝试同步的特定歌曲可能有问题。要找出这样的歌曲，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何找，具体步骤是什么？",
+        "act": "what",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "在某些情况下，您尝试同步的特定歌曲可能有问题。要找出这样的歌曲，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先查看错误信息中是否指出导致问题的具体歌曲；然后一次仅同步几首歌曲，然后添加更多歌曲，直到问题再次发生。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "查看错误信息中是否指出导致问题的具体歌曲。",
+            "一次仅同步几首歌曲，然后添加更多歌曲，直到问题再次发生。"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "更新软件是什么意思？",
+        "act": "what",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "更新软件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "确保您的Mac已更新至最新版macOS，并且您的iPhone、iPad或iPodtouch已更新至最新版iOS或iPadOS。如果您使用的是macOSMojave或更早版本，请确保您装有最新版iTunes。然后，再次尝试同步。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "确保您的Mac已更新至最新版macOS，并且您的iPhone、iPad或iPodtouch已更新至最新版iOS或iPadOS。如果您使用的是macOSMojave或更早版本，请确保您装有最新版iTunes。然后，再次尝试同步。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "为什么要检查第三方安全软件是否存在问题？",
+        "act": "why",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "检查第三方安全软件是否存在问题"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "因为某些第三方软件（包括安全软件）可能会干扰您的电脑与设备之间的同步过程。请更改您的安全软件设置，然后再次尝试同步。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "某些第三方软件（包括安全软件）可能会干扰您的电脑与设备之间的同步过程。请更改您的安全软件设置，然后再次尝试同步。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

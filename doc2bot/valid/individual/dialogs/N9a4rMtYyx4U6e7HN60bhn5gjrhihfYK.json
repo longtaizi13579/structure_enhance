@@ -1,0 +1,302 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的常用服务 、行驶证驾驶证 、机动车，您想咨询哪一方面的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办理驾驶人申请恢复驾驶资格这个业务可以在网上支付么？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格",
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "239",
+            "244"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "245"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那什么东西要收费呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "246"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车驾驶证是要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "247"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "249"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "科目一考试的收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "2\t科目一",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "256",
+            "257"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "80元/人次",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "80元/人次"
+        ],
+        "grounding_id": [
+            "258"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "申请驾驶人申请恢复驾驶资格这项业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果在机动车驾驶证注销后二年内没有完成考试的话可以办吗",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "逾期未完成考试，终止恢复驾驶资格。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            " （三）申请人应当在机动车驾驶证注销后二年内（即未超过有效期三年）完成考试，逾期未完成考试的，终止恢复驾驶资格。"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "有什么情况是不能办理的呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "最终结果的送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

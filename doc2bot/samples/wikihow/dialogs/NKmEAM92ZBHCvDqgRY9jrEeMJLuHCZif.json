@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何修复汽车的皮革座椅？",
+        "act": "how",
+        "document": "汽车与其他交通工具_如何修复汽车的皮革座椅.json",
+        "grounding": [
+            "汽车与其他交通工具",
+            "如何修复汽车的皮革座椅"
+        ],
+        "grounding_id": [
+            "T400",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有三种方法：使用修复工具套装修复撕裂，打补丁，用液体皮革做表面修整，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "汽车与其他交通工具_如何修复汽车的皮革座椅.json",
+        "grounding": [
+            "可选方法",
+            "打补丁"
+        ],
+        "grounding_id": [
+            "3",
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下打补丁的操作步骤。",
+        "act": "ans/open",
+        "document": "汽车与其他交通工具_如何修复汽车的皮革座椅.json",
+        "grounding": [
+            "打补丁"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "打补丁: 1.选一块和座椅相匹配的补块。 2.剪切补块，让它适合破损区域。 3.在破洞或裂口后垫上蜡纸。 4.用皮革粘合剂粘上补块。 5.让粘合剂彻底晾干。",
+        "act": "ans/open",
+        "document": "汽车与其他交通工具_如何修复汽车的皮革座椅.json",
+        "grounding": [
+            "打补丁",
+            "选一块和座椅相匹配的补块。",
+            "剪切补块，让它适合破损区域。",
+            "在破洞或裂口后垫上蜡纸。",
+            "用皮革粘合剂粘上补块。",
+            "让粘合剂彻底晾干。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "28",
+            "30",
+            "32",
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问下，如何去除汽车上的喷漆？",
+        "act": "how",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "兴趣与手艺",
+            "如何去除汽车上的喷漆"
+        ],
+        "grounding_id": [
+            "T78",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有三种方法：使用丙酮卸甲油，使用洗车泥，使用巴西棕榈蜡，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "可选方法",
+            "使用洗车泥"
+        ],
+        "grounding_id": [
+            "3",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解下使用洗车泥的操作步骤。",
+        "act": "ans/open",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "使用洗车泥"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用洗车泥: 1.清洗并擦干汽车。 2.购买洗车泥。 3.搓揉去污泥。 4.涂抹去污泥润滑剂。 5.用去污泥擦拭喷漆痕迹。 6.擦掉残留物。 7.给车漆打蜡。",
+        "act": "ans/open",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "使用洗车泥",
+            "清洗并擦干汽车。",
+            "购买洗车泥。",
+            "搓揉去污泥。",
+            "涂抹去污泥润滑剂。",
+            "用去污泥擦拭喷漆痕迹。",
+            "擦掉残留物。",
+            "给车漆打蜡。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "17",
+            "20",
+            "22",
+            "25",
+            "28",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "购买哪种洗车泥比较好？",
+        "act": "what",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "购买洗车泥。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "市面上有几种洗车泥出售，包括Detailer’sPride牌的产品。你也可以选择美光（Meguiar）的顺滑表面去污泥套装（SmoothSurfaceClayKit），里面有清洁喷雾、车蜡和超细纤维布。清洁喷雾可以为去污泥起到润滑剂的作用。",
+        "act": "ans/open",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "洗车泥是一种聚合物研磨剂，它可以去除位于车漆表面的任何物体，而又不会划坏或损伤漆面。市面上有几种洗车泥出售，包括Detailer’sPride牌的产品。你也可以选择美光（Meguiar）的顺滑表面去污泥套装（SmoothSurfaceClayKit），里面有清洁喷雾、车蜡和超细纤维布。清洁喷雾可以为去污泥起到润滑剂的作用。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想了解，使用丙酮卸甲油的操作步骤是什么？",
+        "act": "what",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "使用丙酮卸甲油"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "使用丙酮卸甲油: 1.找一瓶丙酮，或者含有丙酮的卸甲油。 2.把丙酮或卸甲油倒到一块布上。 3.用布轻轻擦拭喷漆痕迹。 4.去除喷漆后洗车。",
+        "act": "ans/open",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "使用丙酮卸甲油",
+            "找一瓶丙酮，或者含有丙酮的卸甲油。",
+            "把丙酮或卸甲油倒到一块布上。",
+            "用布轻轻擦拭喷漆痕迹。",
+            "去除喷漆后洗车。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "去除喷漆后一定要洗车吗？",
+        "act": "verification",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "去除喷漆后洗车。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，擦掉喷漆后，一定要彻底清洗汽车。",
+        "act": "ans/yes",
+        "document": "兴趣与手艺_如何去除汽车上的喷漆.json",
+        "grounding": [
+            "擦掉喷漆后，一定要彻底清洗汽车。为了清除所有喷漆痕迹以及丙酮或卸甲油，对喷漆区域要特别注意。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

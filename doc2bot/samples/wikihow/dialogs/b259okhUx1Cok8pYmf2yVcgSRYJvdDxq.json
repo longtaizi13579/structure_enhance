@@ -1,0 +1,336 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在eBay上购物，但我不相用Paypal付款我能用什么其他的办法支付呢？",
+        "act": "what",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如何不用Paypal在eBay上购物"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以尝试用礼品卡或优惠券进行支付。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "用礼品卡或优惠券进行支付"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那具体该怎么操作呢？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "用礼品卡或优惠券进行支付"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "点击“礼品卡、礼品券或优惠券兑换”按钮，输入代码，继续并登录账户，完成购物。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "点击“礼品卡、礼品券或优惠券兑换”按钮。",
+            "输入代码。",
+            "继续并登录账户。",
+            "完成购物。"
+        ],
+        "grounding_id": [
+            "19",
+            "21",
+            "23",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我可以用信用卡支付吗？",
+        "act": "verification",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "点击“礼品卡、礼品券或优惠券兑换”按钮。",
+            "不要选择用借记卡/信用卡或Paypal支付，而是点击用礼品卡、礼品券或优惠券兑换的选项。然后页面会跳转到让你输入代码的页面。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不要选择用借记卡/信用卡或Paypal支付，而是点击用礼品卡、礼品券或优惠券兑换的选项。",
+        "act": "ans/no",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "不要选择用借记卡/信用卡或Paypal支付，而是点击用礼品卡、礼品券或优惠券兑换的选项。然后页面会跳转到让你输入代码的页面。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我如果不登陆可以作为访客下单吗？",
+        "act": "verification",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果没有账户，你也可以选择作为访客下单。你可以在以访客身份下单时输入收货地址。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果没有账户，你也可以选择作为访客下单。你可以在以访客身份下单时输入收货地址。",
+        "act": "ans/yes",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果没有账户，你也可以选择作为访客下单。你可以在以访客身份下单时输入收货地址。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那么之后我怎么样清除浏览器上的历史信息呢？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "清除你的浏览器历史信息。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有时，即使你选择不使用Paypal支付，eBay网站还是会跳转到PayPal支付页面。如果遇到这种情况，可以清除浏览器的历史信息和Cookie试试。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你之前在eBay上用Paypal支付过，那么它有时就会被当成默认的支付方式。而在有些时候，作为访客进行支付然后输入卡片信息操作会更加简单。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我就想用信用卡和借记卡支付的话应该怎么操作？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "用信用卡或借记卡进行支付"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": " 点击“立即购买”，必要时注册一个账户，择借记卡/信用卡支付，输入你的信息。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "点击“立即购买”。",
+            "必要时注册一个账户。",
+            "选择借记卡/信用卡支付。",
+            "输入你的信息。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "9",
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "不想注册账户的话可以继续购买吗？",
+        "act": "verification",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "必要时注册一个账户。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，如果你不想注册账户，也可以点击“作为访客访问”。",
+        "act": "ans/yes",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你没有在eBay上注册过，那就可以点击“立即注册”，快速创建一个账户。你得输入基本信息，比如姓名、地址和电话号码。如果你不想注册账户，也可以点击“作为访客访问”。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那输入信息的时候地址填错了怎么办？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "输入你的信息。",
+            "如果你的账单邮寄地址和收货地址不同，一定要备注说明，防止购买的商品发错地址。"
+        ],
+        "grounding_id": [
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果你的账单邮寄地址和收货地址不同，一定要备注说明，防止购买的商品发错地址。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你的账单邮寄地址和收货地址不同，一定要备注说明，防止购买的商品发错地址。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我如果没有Paypal账户或者不想用自己的Paypal账户，在eBay上购物可能会比较麻烦吗？",
+        "act": "verification",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你没有Paypal账户或者不想用自己的Paypal账户，在eBay上购物可能会比较麻烦。好在Paypal上还有其他支付方式可供选择。你可以用信用卡、借记卡或者礼品卡进行支付。选好商品之后，确认订单就可以结账了。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是比较麻烦，不过你用用信用卡、借记卡或者礼品卡进行支付也是比较简单的。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你没有Paypal账户或者不想用自己的Paypal账户，在eBay上购物可能会比较麻烦。好在Paypal上还有其他支付方式可供选择。你可以用信用卡、借记卡或者礼品卡进行支付。选好商品之后，确认订单就可以结账了。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的最后一个问题，我想问一下怎么查礼品卡的余额呢？",
+        "act": "how",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "如何查询礼品卡余额"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "你可以选择在线查询余额或者到店里查询，您看想咨询哪一种？",
+        "act": "multiple-choice",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "在线查询余额"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "想咨询在线查询，步骤是什么？",
+        "act": "what",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "在线查询余额"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "在礼品卡背面找到网站，在网站中输入所需的信息，果卡的背面没有网站，可以打电话或去实体店。",
+        "act": "ans/open",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "在礼品卡背面找到网站。",
+            "在网站中输入所需的信息。",
+            "如果卡的背面没有网站，可以打电话或去实体店。"
+        ],
+        "grounding_id": [
+            "5",
+            "8",
+            "14"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "背面会有字告诉具体怎么查询吗？",
+        "act": "verification",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "在礼品卡背面找到网站。",
+            "将礼品卡翻到有黑条的一边，阅读背面的小字。它通常会告诉你如何查询余额，有时会提供一个网站，你可以访问这个网站来查询余额。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "将礼品卡翻到有黑条的一边，有的会告诉你怎么查询，有的只会出现一个网站。",
+        "act": "ans/open",
+        "document": "金融与商业_如何查询礼品卡余额.json",
+        "grounding": [
+            "将礼品卡翻到有黑条的一边，阅读背面的小字。它通常会告诉你如何查询余额，有时会提供一个网站，你可以访问这个网站来查询余额。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

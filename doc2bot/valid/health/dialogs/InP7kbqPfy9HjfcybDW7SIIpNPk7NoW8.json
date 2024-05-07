@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体您是想问耳鼻喉疾病、免疫性疾病还是其他方面的疾病呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "免疫性疾病"
+        ],
+        "grounding_id": [
+            "T1991"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下胰腺移植手术的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "免疫性疾病",
+            "移植",
+            "胰腺移植",
+            "胰腺移植手术"
+        ],
+        "grounding_id": [
+            "T1991",
+            "T1998",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，请您再具体一些。",
+        "act": "question/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "该手术可能涉及"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "做这个手术是不是只移植胰腺？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "该手术可能涉及",
+            "只移植胰腺（仅胰腺移植）"
+        ],
+        "grounding_id": [
+            "35",
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有可能。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "只移植胰腺（仅胰腺移植）"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "移植有没有什么特殊方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "胰腺移植"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有时候仅移植某些来自胰腺的细胞（称为胰岛细胞移植）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "有时候仅移植某些来自胰腺的细胞（称为胰岛细胞移植）。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那胰脏的提供者的年龄一般都是什么岁数？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "供者",
+            "供者通常是具有以下所有特征的人："
+        ],
+        "grounding_id": [
+            "24",
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "他们年龄在10至55岁之间。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们年龄在10至55岁之间。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "做这个手术，对血糖有什么要求吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "胰腺移植",
+            "因为胰岛素注射是治疗糖尿病安全且相对有效的方法，胰腺移植仅适用于特定的糖尿病人。因此，这种手术通常仅在以下情况下在糖尿病患者中进行："
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "患者不能将其血糖水平维持在可接受范围内，尤其是他们在血糖水平变得很低时没有感觉。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "患者不能将其血糖水平维持在可接受范围内，尤其是他们在血糖水平变得很低时没有感觉。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    }
+]

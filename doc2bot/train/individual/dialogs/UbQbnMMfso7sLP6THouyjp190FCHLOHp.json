@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我已经达到了规定的年龄想要换领驾驶证的话，相关信息去哪里获取呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想选择咨询电话、咨询地址、咨询网址哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询地址吧",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址在衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理的地方也是在这里吗？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，在一楼1-14号窗口进行办理",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有没有常山县的办理地点呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，常山县行政服务中心交通管理分中心（衢州市常山县紫港街道外港村（原化工厂）综合受理7-12号窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "常山县行政服务中心交通管理分中心（衢州市常山县紫港街道外港村（原化工厂）综合受理7-12号窗口"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "太好了，这个地方几点上班呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您问的是相关业务的办理时间吧？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对的，几点可以去办？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "工作日，星期一至星期五（节假日除外），上午8：30-12：00；下午13：00-16：00",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "工作日，星期一至星期五（节假日除外），上午8：30-12：00；下午13：00-16：00"
+        ],
+        "grounding_id": [
+            "148"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那能不能提前联系一下，有没有联系方式？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "149"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以拨打联系电话0570-5667929",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "联系电话",
+            "0570-5667929"
+        ],
+        "grounding_id": [
+            "149",
+            "150"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我最迟什么时候能到达驾驶证呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "最迟10个工作日就可以收到",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "意思就是10天只能就能办好？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理时间有法定办结时限的，您需要了解吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还是另外的时间吗？这又得多长时间啊？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "办结一个工作日就可以",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

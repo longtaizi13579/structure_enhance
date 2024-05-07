@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么在Mac上打开口述影像",
+        "act": "how",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "在Mac上打开口述影像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是为某个视频打开口述影像吗",
+        "act": "verification",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "为某个视频打开口述影像"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，操作步骤应该怎么做",
+        "act": "how",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先将指针移至视频上以显示播放控件，然后点按字幕气泡图标，最后选取一个口述影像轨道或其他音频选项。",
+        "act": "ans/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "将指针移至视频上以显示播放控件。",
+            "点按字幕气泡图标。",
+            "选取一个口述影像轨道或其他音频选项。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果正在观看的视频包含有口述影像(AD)的内容的话怎么打开口述影像呢",
+        "act": "how",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "为某个视频打开口述影像",
+            "如果您正在观看的视频包含有口述影像(AD)的内容，您可以采用与打开字幕或更改音频语言相同的方式打开口述影像。此操作适用于某些App（例如：AppleTVApp、iTunes、QuickTimePlayer、DVD播放程序）以及在Safari浏览器中播放的HTML5视频。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以采用与打开字幕或更改音频语言相同的方式打开口述影像。",
+        "act": "ans/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "如果您正在观看的视频包含有口述影像(AD)的内容，您可以采用与打开字幕或更改音频语言相同的方式打开口述影像。此操作适用于某些App（例如：AppleTVApp、iTunes、QuickTimePlayer、DVD播放程序）以及在Safari浏览器中播放的HTML5视频。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以用这个操作的APP有哪些",
+        "act": "what",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "如果您正在观看的视频包含有口述影像(AD)的内容，您可以采用与打开字幕或更改音频语言相同的方式打开口述影像。此操作适用于某些App（例如：AppleTVApp、iTunes、QuickTimePlayer、DVD播放程序）以及在Safari浏览器中播放的HTML5视频。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "AppleTVApp、iTunes、QuickTimePlayer、DVD播放程序",
+        "act": "ans/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "如果您正在观看的视频包含有口述影像(AD)的内容，您可以采用与打开字幕或更改音频语言相同的方式打开口述影像。此操作适用于某些App（例如：AppleTVApp、iTunes、QuickTimePlayer、DVD播放程序）以及在Safari浏览器中播放的HTML5视频。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那打开口述影像是是不是就会描述该视频中的场景呢",
+        "act": "verification",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "当您为某个视频打开口述影像时，将为您描述该视频中的场景。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "当您为某个视频打开口述影像时，将为您描述该视频中的场景。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

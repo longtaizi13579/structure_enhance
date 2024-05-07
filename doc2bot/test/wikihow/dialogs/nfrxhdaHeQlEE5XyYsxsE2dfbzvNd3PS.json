@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一些教育与交流的知识",
+        "act": "what",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "教育与交流"
+        ],
+        "grounding_id": [
+            "T253"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解如何计算各种图形的面积还是如何求五边形的面积？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "如何计算各种图形的面积"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何计算各种图形的面积",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "如何计算各种图形的面积"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想了解怎么测量正方形、长方形和平行四边形吗？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "正方形、长方形和平行四边形"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "正方形、长方形和平行四边形"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.测量宽和高。 2.将边长相乘。 3.得出答案。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "测量宽和高。",
+            "将边长相乘。",
+            "得出答案。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "得数要以什么为单位？",
+        "act": "what",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "得出答案。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "以平方为单位",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "相乘之后得出的答案就是该图形的面积，写做“平方单位”。因此长方形的面积应该是674平方厘米。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道怎么求扇形面积",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "扇形"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1.先测量。 2.将半径平方。 3.乘以π。 4.将角度除以360。 5.将结果乘以之前得到的数字。 6.得出结果。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "先测量。",
+            "将半径平方。",
+            "乘以π。",
+            "将角度除以360。",
+            "将结果乘以之前得到的数字。",
+            "得出结果。"
+        ],
+        "grounding_id": [
+            "38",
+            "41",
+            "43",
+            "45",
+            "47",
+            "49"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要怎么测量？",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "先测量。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要知道初始圆形的半径，也就是“扇子”的一边，以及圆心角的角度。假设半径为14cm，圆心角为60度。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "扇形是圆形的一部分，看起来有点像扇子。需要知道初始圆形的半径，也就是“扇子”的一边，以及圆心角的角度。假设半径为14cm，圆心角为60度。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "测量出半径后怎么计算？",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "将半径平方。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "用半径乘以半径。计算后得出196（14x14）。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "用半径乘以半径。计算后得出196（14x14）。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "然后要怎么做？",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "将结果乘以之前得到的数字。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "将除以360后得到的结果，乘以之前乘以π得出的结果。计算后得出102.214。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "将除以360后得到的结果，乘以之前乘以π得出的结果。计算后得出102.214。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "怎么测圆形面积？",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "圆形"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "1.找出半径。 2.将半径平方。 3.乘以π。 4.得出结果。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "找出半径。",
+            "将半径平方。",
+            "乘以π。",
+            "得出结果。"
+        ],
+        "grounding_id": [
+            "28",
+            "31",
+            "33",
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "π怎么计算？",
+        "act": "how",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "乘以π。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "π是一个很常用的数字，在很多计算中都会用到。如果有计算器，可以用π这个功能得出非常精确的结果；如果没有，可以四舍五入（忽略一些数字），乘以3.14159就行了。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算各种图形的面积.json",
+        "grounding": [
+            "π是一个很常用的数字，在很多计算中都会用到。如果有计算器，可以用π这个功能得出非常精确的结果；如果没有，可以四舍五入（忽略一些数字），乘以3.14159就行了。计算得出201.06176。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    }
+]

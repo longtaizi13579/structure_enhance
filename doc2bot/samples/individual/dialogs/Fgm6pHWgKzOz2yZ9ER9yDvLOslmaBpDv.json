@@ -1,0 +1,56 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我人在浙江舟山，我想给我的车换个颜色。如果要登记的话，大概需要登记多久？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "1",
+            "T9"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想了解法定办结时限、承诺办结时限还是办理时间呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解法定办结时限。",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

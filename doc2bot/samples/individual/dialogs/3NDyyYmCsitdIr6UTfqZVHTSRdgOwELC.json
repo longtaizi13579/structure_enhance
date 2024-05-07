@@ -1,0 +1,358 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下办理温州市的机动车灭失注销登记申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "机动车",
+            "机动车灭失注销登记",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "T3",
+            "T17",
+            "1",
+            "131"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这里1辆机动车只能申请1次的。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "1辆机动车只能申请1次。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我想办理机动车灭失注销登记，有什么受理条件吗？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "134"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "必须是已注册的机动车灭失的才可以申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "已注册的机动车灭失的。"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个注销登记结果出来多久能送达",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "送达时限自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个注销登记办理都有什么流程",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "254"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理流程: 首先受理 然后审核审批 再办结 最后i送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理流程",
+            "受理",
+            "审核审批",
+            "办结",
+            "送达"
+        ],
+        "grounding_id": [
+            "254",
+            "255",
+            "260",
+            "265",
+            "272"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个受理有时限吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "受理",
+            "办理时限",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "255",
+            "256",
+            "254"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "帮您查询了受理这步办理时限是即办",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "受理",
+            "办理时限",
+            "即办"
+        ],
+        "grounding_id": [
+            "255",
+            "256",
+            "257"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那审核审批办理时限呢",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "260",
+            "261"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个也是即办的",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那办结也是即办吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办结",
+            "即办"
+        ],
+        "grounding_id": [
+            "265",
+            "267"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个注销登记一般什么时间可以办理",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理时间工作日，夏季：上午8：30-12:00，下午2:30-6:00；冬季：上午8:30-12:00，下午2:00-5:30",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理时间",
+            "工作日，夏季：上午8：30-12:00，下午2:30-6:00；冬季：上午8:30-12:00，下午2:00-5:30"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "还想问一下这有什么咨询方式吗",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "帮您查询了有三种方式一咨询电话二咨询地址三咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "咨询电话是多少",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的电话是0577-12123",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "0577-12123",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那个咨询地址你也告诉我吧",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "好的地址是温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询地址",
+            "温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那办这个支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    }
+]

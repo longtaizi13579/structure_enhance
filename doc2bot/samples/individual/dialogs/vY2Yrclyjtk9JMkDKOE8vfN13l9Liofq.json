@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，我的驾驶证到期该换证了，但我现在人在国外，怎么办？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T4",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请延期换领机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，那如果申请办理的话，能不能网上支付？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "非常抱歉，目前站不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有一个问题，我改名字了，驾驶证怎么办？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以申请驾驶人信息变化换领机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理需要多长时间？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据相关规定，法定办结时限是1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能不能给我个办事处那边的联系方式？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询电话是：0571-12123；0571-96345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "0571-12123；0571-96345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那边正常办理时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "正常办理时间是：周一-周日，上午9:00-12：00；下午13:30-17:00（法定节假日除外）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "周一-周日，上午9:00-12：00；下午13:30-17:00（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个有没有申请次数的限制？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "153"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "没有数量限制。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "这个iPodshuffle商的灯怎么理解呢？",
+        "act": "how",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "查看iPodshuffle上的状态指示灯和电池电量",
+            "将iPodshuffle开机后，您可以查看它的状态指示灯，以了解电池的大概电量和其他信息。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解iPodshuffle上的状态指示灯和电池电量还是指示灯的用处呢？",
+        "act": "multiple-choice",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "查看iPodshuffle上的状态指示灯和电池电量"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解iPodshuffle上的状态指示灯和电池电量问题",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "查看iPodshuffle上的状态指示灯和电池电量"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "将iPodshuffle开机后，您可以查看它的状态指示灯，以了解电池的大概电量和其他信息。",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "将iPodshuffle开机后，您可以查看它的状态指示灯，以了解电池的大概电量和其他信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个iPod有红色橙色绿色是代表什么意思呢？",
+        "act": "what",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "查看状态指示灯",
+            "断开iPod连接后的状态指示灯："
+        ],
+        "grounding_id": [
+            "6",
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "断开iPod连接后的状态指示灯：绿色：电量为50%-100%橙色长亮：电量为25%-49%红色：电量低于25%",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "红色：电量低于25%",
+            "橙色长亮：电量为25%-49%",
+            "绿色：电量为50%-100%",
+            "断开iPod连接后的状态指示灯："
+        ],
+        "grounding_id": [
+            "14",
+            "13",
+            "12",
+            "11"
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要问一下在浙江省杭州市这边办理往来港澳通行证要收费的吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "往来港澳通行证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "1",
+            "1556"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，要收费的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "1557"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那办理通行证大概收费多少钱呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1564"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "收费是60元/证的",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "1565"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，谢谢，那我办理的话可以在网上来交付费用吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1560"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，可以网上支付的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1561"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，那如果办理过程中我有不满意的地方可以直接打电话投诉吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，投诉电话是0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

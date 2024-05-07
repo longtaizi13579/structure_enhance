@@ -1,0 +1,94 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解关于Mac上的系统完整性保护。",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "系统完整性保护包含对哪些部分的保护？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护包含对以下系统部分的保护："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "系统、usr、bin、sbin、var、OSX预装的应用。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "/系统",
+            "/usr",
+            "/bin",
+            "/sbin",
+            "/var",
+            "OSX预装的应用"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以再具体讲解一下OSXElCapitan的系统完整性保护吗？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护",
+            "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。",
+            "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。"
+        ],
+        "grounding_id": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

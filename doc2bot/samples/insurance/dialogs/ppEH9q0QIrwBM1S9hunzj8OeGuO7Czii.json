@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "泰康健康人生C款两全保险中合同部分包括批注吗？",
+        "act": "verification",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "泰康健康人生C款两全保险 ",
+            "您与我们订立的合同",
+            "合同构成"
+        ],
+        "grounding_id": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "包括的",
+        "act": "ans/yes",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "本合同是您与我们约定保险权利义务关系的协议，包括本保险条款、保险单或者 其他保险凭证、投保单、与本合同有关的投保文件、合法有效（见 9.1）的声明、 批注、批单及其他您与我们共同认可的书面或电子协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那投保的年龄是怎么计算的？",
+        "act": "how",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "以周岁（见 9.4）计算",
+        "act": "ans/open",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "投保年龄指您投保时被保险人的年龄，以周岁（见 9.4）计算。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个投保年龄就是我投保时的年龄吧？",
+        "act": "verification",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "投保年龄指您投保时被保险人的年龄，以周岁（见 9.4）计算。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是被保险人的年龄",
+        "act": "ans/no",
+        "document": "泰康健康人生C款两全保险 .json",
+        "grounding": [
+            "投保年龄指您投保时被保险人的年龄，以周岁（见 9.4）计算。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

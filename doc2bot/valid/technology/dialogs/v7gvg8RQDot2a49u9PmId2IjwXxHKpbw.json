@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一下怎么样操作才能识别是不是我自己的AirPods型号呢？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以在AirPods上查看，或者在设置中查看都可以，您想怎么识别？",
+        "act": "multiple-choice",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "在“设置”中查看"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "设置中怎么看呀？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "在“设置”中查看",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先 前往“设置”>“蓝牙”，然后在列表中找到您的AirPods（例如，“John的AirPods”），最后轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "前往“设置”>“蓝牙”*。",
+            "在列表中找到您的AirPods（例如，“John的AirPods”）。",
+            "轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "只要识别到了就是不是就能知道我这是那一代的AirPods？",
+        "act": "verification",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "了解如何根据型号来识别您拥有的是哪一代AirPods。还可以了解如何识别您拥有的是哪款AirPods充电盒。",
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的不但可以根据型号来识别您拥有的是哪一代AirPods。还可以了解如何识别您拥有的是哪款AirPods充电盒。",
+        "act": "ans/yes",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "了解如何根据型号来识别您拥有的是哪一代AirPods。还可以了解如何识别您拥有的是哪款AirPods充电盒。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "第三代AirPods是哪一年推出的？",
+        "act": "when",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "AirPods（第3代）",
+            "型号：A2565、A2564推出年份：2021年"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "第三代型号：A2565、A2564推出年份是2021年。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "型号：A2565、A2564推出年份：2021年",
+            "AirPods（第3代）"
+        ],
+        "grounding_id": [
+            "16",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果设置上找不到型号，AirPods机身怎么看型号？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "如果无法使用“设置”来获取型号，您可以在AirPods机身上找到它。型号位于每只AirPod机身底部或AirPodsMax左侧耳垫下方列印的文字的第一行。",
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "12",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "型号位于每只AirPod机身底部或AirPodsMax左侧耳垫下方列印的文字的第一行。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "如果无法使用“设置”来获取型号，您可以在AirPods机身上找到它。型号位于每只AirPod机身底部或AirPodsMax左侧耳垫下方列印的文字的第一行。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

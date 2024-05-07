@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下这个驾驶证如果丢了再补一个的话这个一般多久能办好呀",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江金华市",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个法定办结时限1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个补领驾驶证都有什么办理流程",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "250"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "250",
+            "251",
+            "253",
+            "260",
+            "267",
+            "274"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个补驾驶证收费吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "292"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个收费您知道收费项目名称吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不清楚",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "名称是机动车驾驶证",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "300",
+            "299"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那收多少钱呀",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "10元一本",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "302"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的最后跟您再核实一下这个遗失补领驾驶证办结时限是1工作日对吧",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "还有这个是收费的每本10元对吧",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否收费",
+            "是"
+        ],
+        "grounding_id": [
+            "293",
+            "294"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "294"
+        ]
+    }
+]

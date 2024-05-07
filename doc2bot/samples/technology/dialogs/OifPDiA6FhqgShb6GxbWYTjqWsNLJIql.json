@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下我在与家人位置共享后，我的手机如果丢了，可以定位在哪里吗？",
+        "act": "verification",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家人共享您的位置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在启用位置共享后，如果您的设备丢失或被盗，您可以让家庭成员使用“查找”App来协助您定位它。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "启用位置共享后，如果您的设备丢失或被盗，您可以让家庭成员使用“查找”App来协助您定位它。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那“家人共享”都可以在什么上共享位置",
+        "act": "what",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "通过“家人共享”，您可以在“查找”App或“信息”App中与家庭成员共享您的位置。您甚至可以在“查找我的iPhone”中协助家庭成员定位丢失的设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通过“家人共享”，您可以在“查找”App或“信息”App中与家庭成员共享您的位置。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家人共享您的位置",
+            "通过“家人共享”，您可以在“查找”App或“信息”App中与家庭成员共享您的位置。您甚至可以在“查找我的iPhone”中协助家庭成员定位丢失的设备。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我手机丢失后，家庭成员都能做什么？",
+        "act": "what",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "家庭成员可以协助您查找丢失的设备"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您的家人可以看到设备所在位置以及处于在线还是离线状态。也可以在丢失的设备上播放声音，以协助您找到设备。将您的设备置于丢失模式，前提是设备上设置了锁屏密码。并且可以远程抹掉设备",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "如果您与“家人共享”群组共享了您的位置，并且在丢失的设备上打开了“查找”，您的家人可以协助您定位丢失的设备。家庭成员可以：",
+            "看到设备所在位置以及处于在线还是离线状态。",
+            "在丢失的设备上播放声音，以协助您找到设备。",
+            "将您的设备置于丢失模式，前提是设备上设置了锁屏密码。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我该获取关于家庭成员位置的通知？",
+        "act": "how",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "获取关于家庭成员位置的通知"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以设置基于位置的重复性通知。这样您就可以知道某人是不是已到达或离开某地，或者是不是在某个具体的时间范围内不在某个特定地点。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "获取关于家庭成员位置的通知",
+            "您可以设置基于位置的重复性通知。这样您就可以知道某人是不是已到达或离开某地，或者是不是在某个具体的时间范围内不在某个特定地点。"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那与家人共享都可以共享什么？",
+        "act": "what",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "通过“家人共享”，您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能*。进一步了解iCloud+。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能",
+        "act": "ans/open",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "通过“家人共享”，您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能*。进一步了解iCloud+。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

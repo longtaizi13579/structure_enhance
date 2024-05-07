@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江杭州的职工医保社保转移手续办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "职工社保医保",
+            "职工社保医保",
+            "浙江省_杭州市",
+            "转移接续手续办理",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T141",
+            "T141",
+            "T10",
+            "1",
+            "195"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前是不对本项业务收费的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "195"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那能不能直接在网上付钱呀？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "200"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "本项业务是不收费的，所以也没有开通网上支付的功能。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "201"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那这个办结时限一般是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您希望了解法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解承诺办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "承诺办结时限20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个能不能用你们那个大厅的终端机办理呀？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以使用终端机自助办理的，如果人比较多的话，更建议使用终端机自助办理哦。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那除了终端机办理的话，还有什么其他的办理渠道吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您也可以选择网上申请和现场窗口申请两种方式办理的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工社保医保_职工社保医保_转移接续手续办理.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    }
+]

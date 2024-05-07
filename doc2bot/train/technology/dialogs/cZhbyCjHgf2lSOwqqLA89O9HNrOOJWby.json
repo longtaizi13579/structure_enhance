@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下如何为MagSafe外接电池充电",
+        "act": "how",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "为MagSafe外接电池充电"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电。然后将闪电转USB连接线的一端插入MagSafe外接电池的闪电接口。将连接线的另一端插入20W或更高功率的USB电源适配器，然后将适配器插入电源插座。 ",
+        "act": "ans/open",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电。",
+            "将闪电转USB连接线的一端插入MagSafe外接电池的闪电接口。",
+            "将连接线的另一端插入20W或更高功率的USB电源适配器，然后将适配器插入电源插座。MagSafe外接电池上的状态指示灯将亮起约8秒钟。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那更换AppleRemote中的电池呢，怎么做",
+        "act": "how",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如何更换AppleRemote中的电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您使用的是AppleRemote（白色）还是AppleRemote（铝金属）",
+        "act": "multiple-choice",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（白色）"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "白色",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（白色）"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用的是AppleRemote（白色）需要找到位于AppleRemote底部的电池仓。 然后用回形针或类似物件按下电池仓上的圆形释放按钮，将电池托架滑出。再取出旧电池。使正极端向上朝向您自己，装入新的CR2032电池，最后将电池托架推回AppleRemote中，直至发出咔嗒声。",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（白色）"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那铝金属的呢？该怎么做",
+        "act": "how",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（铝金属）"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您使用的是AppleRemote（铝金属）首先找到位于AppleRemote背面的电池组件，然后用硬币逆时针旋转电池仓盖，直到仓盖打开。.取出旧电池。使正极端向上朝向您自己，装入新的CR2032或BR20323V纽扣锂电池就可以了",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（铝金属）",
+            "找到位于AppleRemote背面的电池组件。",
+            "用硬币逆时针旋转电池仓盖，直到仓盖打开。",
+            "取出旧电池。",
+            "使正极端向上朝向您自己，装入新的CR2032或BR20323V纽扣锂电池（在大多数电子产品商店和杂货店中有售）。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    }
+]

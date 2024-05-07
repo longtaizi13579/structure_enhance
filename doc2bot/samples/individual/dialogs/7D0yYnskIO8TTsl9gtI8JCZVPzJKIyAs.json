@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我是浙江省舟山市的，我想解除下机动车的质押，备案的话，上班时间是什么时候呢",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "浙江省_舟山市",
+            "机动车",
+            "机动车解除质押备案",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T9",
+            "T9",
+            "T17",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "冬季的话上午8:30到12:00，下午14:00到17:00，夏季上午8:30到12:00，下午14:30到17:30；周一到周五都是正常上班的",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "冬令：上午8:30—12:00，下午14:00—17:00；夏令：上午8:30—12:00，下午14:30—17:30；周一至周五（节假日除外）。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那有没有咨询电话呢，我咨询一下。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，稍等，电话是0580－12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我怕电话不通，可以再告诉我一下地址嘛？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，在浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我可以在自助机办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这是不可以的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我可以在网上申请吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，网上申请，现场窗口申请都是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我办完多久可以送到呢",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般10个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

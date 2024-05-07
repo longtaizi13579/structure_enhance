@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一些关于iPad的套餐的问题",
+        "act": "what",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "在iPad上设置套餐"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您可以通过全球合作运营商设置套餐。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "在iPad上设置套餐",
+            "您可以通过全球合作运营商设置套餐。"
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我怎么把iPad连接到蜂窝数据上",
+        "act": "how",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以在iPad上设置套餐、扫描二维码，或使用运营商在iPad上的App。了解如何将iPad连接到蜂窝数据。您还可以识别您的iPad机型。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在iPad上设置套餐、扫描二维码，或使用运营商在iPad上的App。了解如何将iPad连接到蜂窝数据。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以在iPad上设置套餐、扫描二维码，或使用运营商在iPad上的App。了解如何将iPad连接到蜂窝数据。您还可以识别您的iPad机型。",
+            "使用eSIM、嵌入式AppleSIM卡或AppleSIM卡"
+        ],
+        "grounding_id": [
+            "10",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我能给我的iPad办理eSIM吗？",
+        "act": "verification",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "*中国大陆的iPad不支持eSIM。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您的iPad在大陆内购买的吗？",
+        "act": "question/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "*中国大陆的iPad不支持eSIM。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "*中国大陆的iPad不支持eSIM。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "很抱歉中国大陆的iPad不支持eSIM",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "*中国大陆的iPad不支持eSIM。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我可不可以不注册蜂窝移动数据套餐",
+        "act": "verification",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以，您注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。",
+        "act": "ans/no",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我的蜂窝数据连不上啊，可以直接开WiFi吗？",
+        "act": "verification",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "请前往“设置”>“蜂窝数据”，并确保蜂窝数据处于打开状态。"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以的，如果您无法连接到蜂窝数据，请前往“设置”>“蜂窝数据”，并确保蜂窝数据处于打开状态。",
+        "act": "ans/no",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "请前往“设置”>“蜂窝数据”，并确保蜂窝数据处于打开状态。"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    }
+]

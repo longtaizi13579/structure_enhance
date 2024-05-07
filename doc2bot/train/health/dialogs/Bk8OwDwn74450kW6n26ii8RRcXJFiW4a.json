@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解下什么样的老年人会有自我忽视呢？我怀疑我伯伯是。",
+        "act": "what",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "老年人的自我忽视",
+            "自我忽略多发于老年人"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "他患有几种慢性疾病吗？存在药物滥用？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "患有几种慢性疾病",
+            "存在药物滥用"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "他总是乱吃药。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "存在药物滥用"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "存在药物滥用的老人多发自我忽略。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "存在药物滥用",
+            "自我忽略多发于老年人"
+        ],
+        "grounding_id": [
+            "12",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那自我忽略还有哪些特点？",
+        "act": "what",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "自我忽略多发于老年人"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "患有严重的抑郁症的老年人也容易发生。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "患有严重的抑郁症"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，还有其他因素吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "自我忽略多发于老年人"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一些老年人并没有具体的医疗问题。这些人忽略自我的原因不得而知。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "但是，一些老年人并没有具体的医疗问题。这些人忽略自我的原因不得而知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我看见一些独具老人有一些自我忽略的症状，他们也是高危人群吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "自我忽略多发于老年人",
+            "独自生活和自我隔绝"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "独自生活和自我隔绝也是自我忽略多发因素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_老年人的健康问题_影响老年人的社会问题_老年人的自我忽视.json",
+        "grounding": [
+            "独自生活和自我隔绝"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

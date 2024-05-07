@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市社保医保有关的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那您是想要了解生育保险还是养老保险相关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "生育保险"
+        ],
+        "grounding_id": [
+            "T175"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询申请计划生育手术并发症鉴定这个业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个鉴定业务的受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "申请人提交的申办材料齐全、规范、有效。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有什么禁止的要求吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "因施术者违反计划生育技术服务规范等实施计划生育手术造成受术者人身损害的，不属于并发症，按相关法律、法规的规定处理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这项业务有哪些监督投诉的方式呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "三种，投诉电话 、投诉地址、投诉网址请问您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那麻烦告诉我一下投诉电话吧。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "0570-3084040，0570-12345",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "0570-3084040，0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个业务的承诺办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "十个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

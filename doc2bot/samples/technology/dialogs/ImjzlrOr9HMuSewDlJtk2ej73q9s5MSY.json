@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要了解一下关于AppleID余额充值的相关信息。",
+        "act": "what",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请问您想详细了解如何为AppleID余额充值、自动为AppleID余额充，AppleID余额充值的付款方式还是其他相关方面呢？",
+        "act": "multiple-choice",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "在iPhone、iPad或iPodtouch上为AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下这个AppleID余额充值的具体步骤怎么操作呢？",
+        "act": "how",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是在iPhone、iPad或iPodtouch上为AppleID余额充值还是在Mac或PC上为AppleID余额充值呢？",
+        "act": "multiple-choice",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "在iPhone、iPad或iPodtouch上为AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我先了解一下在iPhone、iPad或iPodtouch上为AppleID余额充值",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上为AppleID余额充值"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上为AppleID余额充值: 首先打开AppStoreApp。然后轻点屏幕顶部您的照片或登录按钮。轻点“为AppleID充值”。 要立即充值，请轻点您想要充值的金额。或者，要在日后自动为余额充值，请轻点“SetUpAutoReload”。什么是自动重新充值？最后按照屏幕上的说明完成购买。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上为AppleID余额充值",
+            "打开AppStoreApp。",
+            "轻点屏幕顶部您的照片或登录按钮。",
+            "轻点“为AppleID充值”。",
+            "要立即充值，请轻点您想要充值的金额。或者，要在日后自动为余额充值，请轻点“SetUpAutoReload”（设置自动重新充值）。什么是自动重新充值？",
+            "按照屏幕上的说明完成购买。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那AppleID余额充值可以有哪些付款的方式，AppleID余额可以干什么用呢？",
+        "act": "what",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "使用信用卡或借记卡等付款方式为AppleID余额充值。然后使用您的AppleID余额购买App、游戏、音乐、iCloud储存空间等。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用信用卡或借记卡等付款方式为AppleID余额充值。然后使用您的AppleID余额购买App、游戏、音乐、iCloud储存空间等。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "使用信用卡或借记卡等付款方式为AppleID余额充值。然后使用您的AppleID余额购买App、游戏、音乐、iCloud储存空间等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，还有之前的自动为AppleID余额充值被我不小心打开了，我想问一下可以怎么关闭呢？",
+        "act": "how",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "自动为AppleID余额充值",
+            "如果您想要关闭自动重新充值，"
+        ],
+        "grounding_id": [
+            "1",
+            "28",
+            "30"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您想要关闭自动重新充值，请返回“AddFunds”充值页面，然后轻点或点按“TurnOffAutoReload”关闭自动重新充值。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "请返回“AddFunds”（充值）页面，然后轻点或点按“TurnOffAutoReload”（关闭自动重新充值）。",
+            "如果您想要关闭自动重新充值，"
+        ],
+        "grounding_id": [
+            "46",
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，那我还想了解一下在Mac或PC上为AppleID余额充值可以怎么操作呢？",
+        "act": "how",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "在Mac或PC上为AppleID余额充值"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在Mac或PC上为AppleID余额充值: 首先在Mac上，打开AppStore。在PC上，打开Windows版iTunes。如果您还没有登录，请使用您的AppleID登录。 然后在“帐户信息”页面上，点按“给帐户充值”。 再点按要充值的金额。或者，要在日后自动为余额充值，请点按“SetUpAutoReload”。什么是自动重新充值？ 最后点按“下一步”，然后确认您的选择。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "在Mac或PC上为AppleID余额充值",
+            "在“帐户信息”页面上，点按“给帐户充值”。",
+            "点按要充值的金额。或者，要在日后自动为余额充值，请点按“SetUpAutoReload”（设置自动重新充值）。什么是自动重新充值？",
+            "点按“下一步”，然后确认您的选择。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。"
+        ],
+        "grounding_id": [
+            "16",
+            "22",
+            "23",
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "明白了，那要是想自动为AppleID余额充的话可以怎么弄呢？",
+        "act": "how",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "自动为AppleID余额充值",
+            "如果您想要自动为AppleID余额充值，"
+        ],
+        "grounding_id": [
+            "1",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您想要自动为AppleID余额充值，请设置自动重新充值。您可以每周、每两周或每月为余额充值一次。或者，您可以在余额较低时自动为余额充值。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "自动为AppleID余额充值",
+            "请设置自动重新充值。您可以每周、每两周或每月为余额充值一次。或者，您可以在余额较低时自动为余额充值。",
+            "如果您想要自动为AppleID余额充值，"
+        ],
+        "grounding_id": [
+            "28",
+            "45",
+            "29"
+        ]
+    }
+]

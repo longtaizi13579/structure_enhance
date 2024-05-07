@@ -1,0 +1,158 @@
+{
+    "document_id": 219,
+    "domain": "technology",
+    "name": "使用iCloud日历订阅",
+    "graph": {
+        "1": {
+            "data": "使用iCloud日历订阅",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "日历订阅是随时查看节假日、赛程、社交媒体等内容的绝佳途径。而利用iCloud，您可以在自己的所有设备上查看您的所有日历订阅。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "开始使用",
+            "type": "conjunction",
+            "pid": "1"
+        },
+        "4": {
+            "data": "将您的iPhone、iPad和iPodtouch更新至最新版本的iOS，并将您的Mac更新至最新版本的macOS。",
+            "type": "condition",
+            "pid": "3"
+        },
+        "5": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "4"
+        },
+        "6": {
+            "data": "最新版本的iOS",
+            "type": "see-more",
+            "pid": "5",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "8": {
+            "data": "确保在您的所有设备上使用同一AppleID登录iCloud。",
+            "type": "condition",
+            "pid": "3"
+        },
+        "9": {
+            "data": "要在您的所有设备上显示某个日历订阅，请先在您的Mac上订阅日历。如果您在iOS设备上订阅了日历，则iCloud不会将它更新到您的其他设备。",
+            "type": "condition",
+            "pid": "3"
+        },
+        "10": {
+            "data": "在Mac上设置一个新的iCloud日历订阅",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "11": {
+            "data": "在“日历”中，选取“文件”>“新建日历订阅”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "输入日历的网址，然后点按“订阅”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "14": {
+            "data": "从“位置”菜单中选取“iCloud”，然后点按“好”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "15": {
+            "data": "将现有日历订阅添加到iCloud",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "16": {
+            "data": "如果Mac上有一个要在您的iPhone、iPad或iPodtouch上查看的日历订阅，您可以将它添加到iCloud。",
+            "type": "sequence",
+            "pid": "15"
+        },
+        "17": {
+            "data": "打开“日历”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "18": {
+            "data": "点按窗口左上角的“日历”按钮，以查看您的日历列表。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "19": {
+            "data": "从列表中选择订阅的日历。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "20": {
+            "data": "在菜单栏中，选取“编辑”>“显示简介”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "21": {
+            "data": "从“位置”菜单中选取“iCloud”，然后点按“好”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "22": {
+            "data": "看不到您的日历订阅？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "23": {
+            "data": "检查您的iOS设备和Mac是否使用同一AppleID登录到iCloud。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "24": {
+            "data": "如果您访问iCloud.com或使用MicrosoftOutlook，",
+            "type": "condition",
+            "pid": "22"
+        },
+        "28": {
+            "data": "如果您从iCloud.com恢复日历，",
+            "type": "condition",
+            "pid": "22"
+        },
+        "32": {
+            "data": "取消日历订阅",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "33": {
+            "data": "在macOS上，打开“日历”。右键点按您要取消订阅的日历*，然后选择“取消订阅”。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "34": {
+            "data": "在iOS上，打开“日历”。轻点“日历”>>“删除日历”。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "35": {
+            "data": "*您无法取消订阅“USHolidays”（美国节假日）日历。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "36": {
+            "data": "您将看不到通过iCloud更新的已订阅日历。",
+            "type": "solution",
+            "pid": "24"
+        },
+        "37": {
+            "data": "您将需要再次订阅您的日历。",
+            "type": "solution",
+            "pid": "28"
+        }
+    }
+}

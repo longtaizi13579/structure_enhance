@@ -1,0 +1,80 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "公司最近让我们去办理个人住房公积金账户启封，这个业务需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "238"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问一下您是在浙江宁波本地办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我的个人住房公积金交的是宁波市这边的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "宁波市这边是不需要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "239"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般我们平时什么时候能去办？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "工作日8:30-16:45都是可以办理的，无午休",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "工作日8:30—16:45，无午休"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

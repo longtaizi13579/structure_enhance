@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问机动车驾驶证的增驾几点去办理呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "法定工作日：冬令时：上午9:00-下午16:30，中午不休；夏令时：上午9:00-下午16：30；中午不休",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定工作日：冬令时：上午9:00-下午16:30，中午不休；夏令时：上午9:00-下午16：30;中午不休；周六上午8:30-11:30下午13:30-15:30（法定假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那周末是不上班的吗？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "周六上午8:30-11:30下午13:30-15:30（法定假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定工作日：冬令时：上午9:00-下午16:30，中午不休；夏令时：上午9:00-下午16：30;中午不休；周六上午8:30-11:30下午13:30-15:30（法定假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那有没有办事点的联系电话呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址",
+            "联系电话"
+        ],
+        "grounding_id": [
+            "124",
+            "125",
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0572-8815431",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0572-8815431"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "谢谢，中午也可以去办理的吧？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定工作日（法定假日除外）：周一至周五上午8:30-12:00，中午休息，下午14:00-17:30（夏令时）；上午8:30-12:00，中午休息，下午13:30-17:00（冬令时）；"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，那办理的地点是在哪里呢？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "德清县政务服务中心车管所分中心一楼大厅2-4号窗口（德清县乾元镇金鹅山村）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定工作日（法定节假日除外）：周一至周五上午8:30-12:00，中午休息，下午13:30-16：30；周六（开展部分业务）上午8:30-12:00，中午休息，下午13:00-15：30；"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "知道了，需要提前申请吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要的，您可以网上申请或现场窗口申请",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那什么时候能送到我手上呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个决定的时间需要等多久啊？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您说的是法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "法定办结时限为60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

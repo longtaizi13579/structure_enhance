@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，使用Mac键盘快捷键，可以实现哪些操作？",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键",
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "实现通常需要鼠标、触控板或其他输入设备才能完成的操作。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，Command-Z是什么意思？",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以撤销和重做多个命令吗？",
+        "act": "verification",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在某些应用中，您可以撤销和重做多个命令。",
+        "act": "ans/yes",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "要使用键盘快捷键，应该如何操作？",
+        "act": "how",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不太懂，可以举例说明一下吗？",
+        "act": "verification",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。",
+        "act": "ans/yes",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "Mac菜单和键盘通常用什么来表示某些按键？",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Mac菜单和键盘通常使用符号来表示某些按键。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "其中包括哪些修饰键？",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "Command（或Cmd）⌘、 Shift⇧[8] Option（或Alt）⌥、 Control（或Ctrl）⌃、CapsLock⇪、Fn。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command（或Cmd）⌘",
+            "Shift⇧",
+            "Option（或Alt）⌥",
+            "Control（或Ctrl）⌃",
+            "CapsLock⇪",
+            "Fn"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    }
+]

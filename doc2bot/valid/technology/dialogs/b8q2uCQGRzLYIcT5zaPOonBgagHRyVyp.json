@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下关于AppStore上的隐私信息和可用于控制数据的选项",
+        "act": "what",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "关于AppStore上的隐私信息和可用于控制数据的选项"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解与您关联的数据，用于追踪您的数据，还是有关数据使用和隐私处理方法的更多详情",
+        "act": "multiple-choice",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道用于追踪您的数据是指什么",
+        "act": "what",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据",
+            "用于追踪您的数据是指，相应App中的这些数据与从其他公司的App、网站或离线属性文件中收集的数据相关联，并用于广告投放或与数据代理商共享。"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "用于追踪您的数据是指，相应App中的这些数据与从其他公司的App、网站或离线属性文件中收集的数据相关联，并用于广告投放或与数据代理商共享。",
+        "act": "ans/open",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据是指，相应App中的这些数据与从其他公司的App、网站或离线属性文件中收集的数据相关联，并用于广告投放或与数据代理商共享。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以举几个追踪的例子吗",
+        "act": "what",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "部分追踪示例如下："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "比如：某款App根据从其他公司的App和网站收集的用户数据显示定向广告。 某款App与数据代理商共享设备位置数据或电子邮件列表。以及某款App与第三方广告网络共享电子邮件、广告ID或其他ID列表，这个第三方广告网络使用这些信息在其他开发者的App中再次将您列为投放目标。",
+        "act": "ans/open",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "某款App根据从其他公司的App和网站收集的用户数据显示定向广告。",
+            "某款App与数据代理商共享设备位置数据或电子邮件列表。",
+            "某款App与第三方广告网络共享电子邮件、广告ID或其他ID列表，这个第三方广告网络使用这些信息在其他开发者的App中再次将您列为投放目标。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那关于隐私信息会收集位置吗？",
+        "act": "verification",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "请了解“App隐私”部分如何定义一款App可能会收集的不同数据类型（包括位置、联系信息、健康信息等），以及开发者或其第三方合作伙伴对这些数据的一些使用方式，例如用于广告投放或分析。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可能会收集的不同数据类型包括位置、联系信息、健康信息等",
+        "act": "ans/yes",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "请了解“App隐私”部分如何定义一款App可能会收集的不同数据类型（包括位置、联系信息、健康信息等），以及开发者或其第三方合作伙伴对这些数据的一些使用方式，例如用于广告投放或分析。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我还想问一下怎么和家庭成员共享购买项目",
+        "act": "how",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "如何与家庭成员共享购买项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您是想使用什么设备打开",
+        "act": "question/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "使用Mac打开购买项目共享"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想使用Mac打开购买项目共享，步骤是什么呢",
+        "act": "what",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "使用Mac打开购买项目共享"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先如果您还没有设置“家人共享”，请先完成设置，然后在Mac上，选取苹果菜单>“系统偏好设置”，点按“家人共享”，点按边栏中的“购买项目共享”，点按“设置购买项目共享”，然后按照屏幕上的说明操作，要查看扣费将使用的付款方式，请查看“共享的付款方式”信息。",
+        "act": "ans/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "如果您还没有设置“家人共享”，请先完成设置。",
+            "在Mac上，选取苹果菜单>“系统偏好设置”。",
+            "点按“家人共享”。",
+            "点按边栏中的“购买项目共享”。",
+            "点按“设置购买项目共享”，然后按照屏幕上的说明操作。",
+            "要查看扣费将使用的付款方式，请查看“共享的付款方式”信息。"
+        ],
+        "grounding_id": [
+            "20",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那是所有购买的项目都能共享吗",
+        "act": "verification",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "某些项目无法共享。了解哪些类型的内容无法共享。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不，某些项目无法共享，您需了解哪些类型的内容无法共享",
+        "act": "ans/no",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "某些项目无法共享。了解哪些类型的内容无法共享。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

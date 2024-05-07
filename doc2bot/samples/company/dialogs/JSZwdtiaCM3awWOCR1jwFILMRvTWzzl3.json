@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在湖州市办一个《化妆品生产许可证》，线下窗口几点上班啊？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业经营_许可备案_《化妆品生产许可证》核发（新开办）.json",
+        "grounding": [
+            "《化妆品生产许可证》核发（新开办）",
+            "浙江省_湖州市",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "T13",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "线下办理时间在日作日9：00-17:00（中午不休）。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业经营_许可备案_《化妆品生产许可证》核发（新开办）.json",
+        "grounding": [
+            "工作日9：00-17:00（中午不休）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我对湖州不太熟，能给我个具体的地址吗？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_企业经营_许可备案_《化妆品生产许可证》核发（新开办）.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T13",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理地点在湖州市金盖山路66号，或是湖州市吴兴区仁皇山街道1号楼三楼涉企证照通办。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业经营_许可备案_《化妆品生产许可证》核发（新开办）.json",
+        "grounding": [
+            "湖州市市民服务中心(湖州市金盖山路66号)（湖州市吴兴区仁皇山街道）1号楼三楼涉企证照通办"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的知道了，那还有办安全评价机构资质的注销办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定的办结时限吧，多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

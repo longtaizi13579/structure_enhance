@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我家小猫好像病了，最近不怎么吃东西，我想问下如何让生病的小猫吃东西？",
+        "act": "how",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "如何让生病的小猫吃东西",
+            "宠物与动物"
+        ],
+        "grounding_id": [
+            "1",
+            "T49"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "照顾生病的小猫，喂生病的小猫吃东西，您想先了解哪个？",
+        "act": "multiple-choice",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "可选方法",
+            "照顾生病的小猫"
+        ],
+        "grounding_id": [
+            "3",
+            "35"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下如何照顾生病的小猫吧。",
+        "act": "how",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "照顾生病的小猫"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "照顾生病的小猫: 1.给猫咪服用美洛昔康。 2.给猫咪保暖。 3.准备舒适的窝。 4.必要时寻求兽医帮助。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "照顾生病的小猫",
+            "给猫咪服用美洛昔康（Meloxicam，也称Metacam）。",
+            "给猫咪保暖。",
+            "准备舒适的窝。",
+            "必要时寻求兽医帮助。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "42",
+            "44",
+            "46"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "为什么要 给猫咪保暖？",
+        "act": "why",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "给猫咪保暖。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "发冷的小猫会觉得浑身无力，更慢痊愈，也更难让它进食。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "发冷的小猫会觉得浑身无力，更慢痊愈，也更难让它进食。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "试了所有方法，但小猫依旧不肯进食怎么办？",
+        "act": "how",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "试了所有方法，但小猫依旧不肯进食？它的身体可能有其它问题，请带它去看兽医。"
+        ],
+        "grounding_id": [
+            "76"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "试了所有方法，但小猫依旧不肯进食？它的身体可能有其它问题，请带它去看兽医。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "试了所有方法，但小猫依旧不肯进食？它的身体可能有其它问题，请带它去看兽医。"
+        ],
+        "grounding_id": [
+            "76"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我怀疑我家的小猫可能是抑郁了，怎么照顾抑郁的小猫呢？",
+        "act": "how",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "照顾抑郁的小猫"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "照顾抑郁的小猫: 1.留意抑郁症状。 2.多花点时间陪小猫。 3.找一些东西娱乐它。 4.想一想猫咪是否因为病了才会抑郁。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "照顾抑郁的小猫",
+            "留意抑郁症状。",
+            "多花点时间陪小猫。",
+            "找一些东西娱乐它。",
+            "想一想猫咪是否因为病了才会抑郁。"
+        ],
+        "grounding_id": [
+            "48",
+            "49",
+            "51",
+            "53",
+            "56"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "多花点时间陪小猫有什么作用？",
+        "act": "what",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "多花点时间陪小猫。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "小猫抑郁多半是因为没有得到足够的关注。想要对抗抑郁症，让小猫再次进食，不妨多陪它玩耍，表达你对它的关爱。抱着它一起工作或看电影，早上和中午也要陪它玩，称赞它，给它零食和关爱。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何让生病的小猫吃东西.json",
+        "grounding": [
+            "小猫抑郁多半是因为没有得到足够的关注。想要对抗抑郁症，让小猫再次进食，不妨多陪它玩耍，表达你对它的关爱。抱着它一起工作或看电影，早上和中午也要陪它玩，称赞它，给它零食和关爱。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有个问题，我家养了一只仓鼠，但我不知道它的性别，想问下如何判断仓鼠的性别？",
+        "act": "how",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "如何判断仓鼠的性别"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您家的仓鼠是成年仓鼠，还是幼年仓鼠？",
+        "act": "multiple-choice",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "找出成年仓鼠的性别差异"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是成年的。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "找出成年仓鼠的性别差异"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您需要找出成年仓鼠的性别差异。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "找出成年仓鼠的性别差异"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "具体方法是什么？",
+        "act": "what",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "找出成年仓鼠的性别差异"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "找出成年仓鼠的性别差异: 1.评估仓鼠个头的大小。 2.看看仓鼠的尾巴下面。 3.检查仓鼠腹部有没有乳头，再查看尾巴下面的地方有没有睾丸。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断仓鼠的性别.json",
+        "grounding": [
+            "找出成年仓鼠的性别差异",
+            "评估仓鼠个头的大小。",
+            "看看仓鼠的尾巴下面。",
+            "检查仓鼠腹部有没有乳头，再查看尾巴下面的地方有没有睾丸。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "20",
+            "22"
+        ]
+    }
+]

@@ -1,0 +1,304 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省绍兴市的，想咨询一下签注的问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T7",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您想咨询护照加注、赴台探亲签注，还是港澳探亲签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下护照加注的收费标准。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "1578"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解：是否收费、 收费依据、是否支持网上支付中的哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1578"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下是否支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1583"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前不支持。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1584"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "几天能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "承诺办结时限：7（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想再问一下，港澳探亲签注一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限：30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果在办理过程中遇到问题，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话、 投诉地址、投诉网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "给我个投诉地点就行。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉地址：绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "37",
+            "36"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉电话：0575-88608106。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "0575-88608106",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有咨询电话、咨询地址、咨询网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我个咨询电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "咨询电话：0575-88582104。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "0575-88582104",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "法定办结时限：30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "30（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    }
+]

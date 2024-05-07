@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我人在浙江，想给企业办注销清算备案，应该到哪办？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想问浙江哪个城市的咨询点呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "杭州市吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T10",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "杭州市公司解散备案咨询地址在杭州市行政服务中心(H楼)（杭州市上城区解放东路18号市民中心H楼）一楼商事登记综合进件窗口6-13号窗口.",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "杭州市行政服务中心(H楼)（杭州市上城区解放东路18号市民中心H楼）一楼商事登记综合进件窗口6-13号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "其他城市还有备案办事点吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在湖州市的镇区也有线下办事点，您具体想了解哪个位置的呢？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "天子湖的，具体位置在哪里？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "天子湖办事点在湖州市安吉县天子湖镇五福路1号。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "天子湖镇便民服务中心（湖州市安吉县天子湖镇五福路1号）一楼办证大厅市监窗口"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦哦，湖州一般啥时候能去办？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "工作日的9：00-17:00都可以，没有午休。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "工作日9：00-17:00（中午不休）"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我记得你们不是有分什么春夏秋冬的吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问我们冬令和夏令的办理时间是否一致吗？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的。对了，我想问的是杭州市，不是湖州哈。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "办理时间",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "24",
+            "T10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "杭州市是有区分的，冬令时：9:00-12:00，13:30-17:00；夏令时：9:00-12:00，14:00-17:00可办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "工作日，冬令时：9:00-12:00，13:30-17:00；夏令时：9:00-12:00，14:00-17:00（法定节假日按国家假期安排调整办理时间）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "明白了。对了，一般杭州办理结果啥时候能出？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "结果送达时限是自您作出决定之日起3个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_合伙企业分支机构注销.json",
+        "grounding": [
+            "结果信息",
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "113",
+            "123"
+        ]
+    }
+]

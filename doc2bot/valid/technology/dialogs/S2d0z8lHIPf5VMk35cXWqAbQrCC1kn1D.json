@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想知道iPhone或AppleWatch怎么使用Suica或PASMO卡？",
+        "act": "how",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本的iPhone或AppleWatch上使用Suica或PASMO卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想知道哪个地区的呢？",
+        "act": "question/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本的iPhone或AppleWatch上使用Suica或PASMO卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "日本的，在哪打开？",
+        "act": "how",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本的iPhone或AppleWatch上使用Suica或PASMO卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在日本，您可以在“钱包”App中使用Suica和PASMO卡乘坐公共交通工具，并在iPhone或AppleWatch上使用ApplePay在商店购物。",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本，您可以在“钱包”App中使用Suica和PASMO卡乘坐公共交通工具，并在iPhone或AppleWatch上使用ApplePay在商店购物。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我该怎么在AppleWatch上使用“程序坞”？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "在AppleWatch上使用“程序坞”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "轻点某个App以将它打开就可以，要关闭“程序坞”，请按下侧边按钮。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "轻点某个App以将它打开。",
+            "要关闭“程序坞”，请按下侧边按钮。"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    }
+]

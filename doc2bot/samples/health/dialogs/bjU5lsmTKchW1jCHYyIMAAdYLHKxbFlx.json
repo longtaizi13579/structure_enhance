@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下叶酸缺乏症",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸缺乏症",
+            "维生素"
+        ],
+        "grounding_id": [
+            "1",
+            "T2273"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "叶酸缺乏症比较常见。体内只能储存少量的叶酸，所以当饮食中缺乏叶酸时，几个月内就可能出现叶酸缺乏。您想了解的是叶酸缺乏症的症状，诊断还是预防和治疗",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸缺乏症的病因"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道甲氨蝶呤会不会对叶酸的代谢有影响？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "甲氨蝶呤（用于治疗癌症和类风湿关节炎）"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问是用于治疗癌症和类风湿关节炎的甲氨蝶呤吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "甲氨蝶呤（用于治疗癌症和类风湿关节炎）"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "甲氨蝶呤（用于治疗癌症和类风湿关节炎）"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "会妨碍叶酸的代谢",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "另一些药物会妨碍叶酸的代谢。它们包括",
+            "甲氨蝶呤（用于治疗癌症和类风湿关节炎）"
+        ],
+        "grounding_id": [
+            "41",
+            "43"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是重度叶酸缺乏症的话有什么别的症状吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "除了一般的贫血症状（如苍白、烦躁、气短和头晕）之外，重度叶酸缺乏症还可能导致舌头发红疼痛、腹泻、味觉减退、体重下降和抑郁。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "重度叶酸缺乏症还可能导致舌头发红疼痛、腹泻、味觉减退、体重下降和抑郁。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "除了一般的贫血症状（如苍白、烦躁、气短和头晕）之外，重度叶酸缺乏症还可能导致舌头发红疼痛、腹泻、味觉减退、体重下降和抑郁。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "准备怀孕的人服用叶酸补充剂的作用是什么",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "孕妇和准备怀孕的妇女应服用叶酸补充剂，以减少婴儿出生缺陷（主要是神经管缺陷）。对于曾经生过神经管缺陷婴儿的妇女，医生经常给予更高剂量的叶酸。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "孕妇和准备怀孕的妇女应服用叶酸补充剂，以减少婴儿出生缺陷（主要是神经管缺陷）。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "孕妇和准备怀孕的妇女应服用叶酸补充剂，以减少婴儿出生缺陷（主要是神经管缺陷）。对于曾经生过神经管缺陷婴儿的妇女，医生经常给予更高剂量的叶酸。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那这个叶酸缺乏症一段通过什么诊断呢",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸缺乏症的诊断",
+            "叶酸缺乏症的诊断方法有："
+        ],
+        "grounding_id": [
+            "56",
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "血液检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "血液检查"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

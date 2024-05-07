@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要帮我的家人问一下在浙江省衢州市这边办理养老金缴费核定的在什么地方办理的？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "浙江省_衢州市",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "T5",
+            "20"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您说的是办理基本养老保险视同缴费年限核定的办理地址吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯嗯，没错",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理这个的地址在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，谢谢，那办理这个养老金核定的办理结束需要多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想问的是承诺办结时限还是法定办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "承诺办结时限是多久的？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个的承诺办结时限是3个工作日的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那如果我们这边办理的很不满意的话要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这边有投诉地址和投诉电话，您需要哪一个呢 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个投诉地址是在什么地方呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉地址是在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有就是申请办理这个养老金在数量上有限制的吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "数量限制",
+            "申请条件",
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "130",
+            "129",
+            "131"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请条件中是没有数量限制的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，谢谢，还有就是刚刚那个投诉地址和办理地址都一个地方的，这样投诉不太好，你还是给我投诉的电话吧",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉电话是0570-3086326",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "0570-3086326",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "32"
+        ]
+    }
+]

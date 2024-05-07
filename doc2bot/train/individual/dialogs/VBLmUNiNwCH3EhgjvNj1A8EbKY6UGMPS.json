@@ -1,0 +1,280 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，咨询一下就是办这个残疾人机动轮椅车注册登记这方面都有什么咨询方式",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江省湖州市",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个有三个咨询方式一咨询电话二咨询地址三咨询网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "告诉我一下咨询电话吧",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的电话是0572-12123",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "0572-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦那地址我也记一下吧",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您记一下是湖州市吴兴区青铜路298号政法楼4楼404室",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号政法楼4楼404室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "就是办这个登记得多久能办好",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个法定办结时限1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个登记的办理流程都有什么",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "417"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程是1.申请 2.车辆查验 3.受理审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "车辆查验",
+            "受理审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "417",
+            "418",
+            "420",
+            "427",
+            "434",
+            "441"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个受理审核这步审批标注是什么",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "受理审核",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "427",
+            "430"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "审批标注是受理申请人提交的材料，并进行审核",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "受理申请人提交的材料，并进行审核"
+        ],
+        "grounding_id": [
+            "431"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那还想问一下这个制证这步办理好了都有什么",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "制证",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "434",
+            "439"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个有残疾人机动轮椅车号牌和行驶证",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车号牌和行驶证"
+        ],
+        "grounding_id": [
+            "440"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我需要满足什么受理条件才能办理呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您需要满足列入省经信委产品公告的残疾人机动轮椅车才可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "列入省经信委产品公告的残疾人机动轮椅车。\n温馨提示：需交验残疾人机动轮椅车。"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那能登记几个呀",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1名下肢残疾人只能登记1辆残疾人机动轮椅车"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "1名下肢残疾人只能登记1辆残疾人机动轮椅车",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1名下肢残疾人只能登记1辆残疾人机动轮椅车"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    }
+]

@@ -1,0 +1,298 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我咨询一下，就是行驶驾驶换大客车驾驶证，这个有结果后，要是快递多久能送到呀？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "行驶驾驶",
+            "机动车驾驶证增驾申领",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T16",
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您希望了解浙江省哪个市？",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "啊，丽水市",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，帮您查询了，送达时限是自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我这个叫增驾申领对吧，能自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "对于增驾申领是不支持自助办理",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦这样啊，那我去现场办理的话，详细地址您给查一下",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，具体地址是丽水市公安局交通警察支队车辆管理所（丽水市莲都区万象街道吕埠坑）",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所（丽水市莲都区万象街道吕埠坑）"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，这个车管所有什么联系电话吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，您记一下，0578-12123",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0578-12123"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，对了，增驾申领这个都有什么办理形式呀？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，这个有网上申请或者就是现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯，那一般多久能办好呀？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "帮您查询了，办结时限是60（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "呃，还有那个收费项目叫什么呀，",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的，帮您查询增驾申领，该项目收费名称是汽车驾驶员考试费（含一次补考）",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t汽车驾驶员考试费（含一次补考）"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，那要收多少钱呀？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "每人次360元",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "360元/人次"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "啊，那我一个朋友，他想增驾摩托车，这个申领收费名称叫什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的，该项目的收费名称是摩托车驾驶员考试费（含一次补考）",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "4\t摩托车驾驶员考试费（含一次补考）"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "哦，那摩托车这个收费标准是多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "这个是每人次230元",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "230元/人次"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    }
+]

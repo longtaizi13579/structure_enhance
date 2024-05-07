@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问港澳商务签注是否支持自助终端办理",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那除了商务签注还有别的类型吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，还有往来港澳通行证、港澳团队旅游签注和港澳其他签注",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理其他签注的地点在哪里啊？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "1",
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，有这个地点的联系电话吗？如果找不到的话可以打电话问一下",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，您可以拨打0573-12367",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0573-12367"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，那我早上八点去可以办吗？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "线下办事点的工作时间为工作日的夏季时间：上午8:30-12:00，下午2:30-5:30；或者冬季：上午8:30-12:00，下午2:00-5:00，您最好在如上的时间前往办理",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，我再确认一下电话是0573-12367吧？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0573-12367"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那我周一上午九点去就来得及",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-11:30，下午2:00-5:30；冬季：上午8:30-11:30，下午1:30-5:00"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那办理这个签注收不收费呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "2985"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是需要收费的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "2986"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "具体是怎么收的呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "3020"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一次有效签注15元",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "15元/件"
+        ],
+        "grounding_id": [
+            "3021"
+        ]
+    }
+]

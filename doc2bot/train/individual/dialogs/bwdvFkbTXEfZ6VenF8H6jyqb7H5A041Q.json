@@ -1,0 +1,338 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省温州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "浙江省_温州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T3",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "机动车发动机号码、车辆识别代号变更备案这个业务的办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "机动车发动机号码、车辆识别代号变更备案",
+            "基本信息",
+            "办事信息",
+            "办理形式",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "99",
+            "102",
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个业务的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "400"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2. 查验 3.受理 4.审核 5.制证 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "申请",
+            " 查验",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "401",
+            "403",
+            "412",
+            "419",
+            "426",
+            "433"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "受理结果会怎么通知给我？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "受理",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "412",
+            "417"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。"
+        ],
+        "grounding_id": [
+            "418"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "审核结果会怎么通知我？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "审核",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "419",
+            "424"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "申请材料齐全、符合法定形式的，予以办理。申请材料不齐全或者不符合法定形式的，当场告知申请人需要补正的全部内容。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "申请材料齐全、符合法定形式的，予以办理。申请材料不齐全或者不符合法定形式的，当场告知申请人需要补正的全部内容。"
+        ],
+        "grounding_id": [
+            "425"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "最后的证件我怎么能拿到？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "433"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "434"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个业务的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "温州市公安局交管局车辆管理所综合大楼二楼3-6号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "温州市公安局交管局车辆管理所综合大楼二楼3-6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那如果我想投诉，我有哪些投诉方式呢？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "温州市公安局（温州市鹿城区滨江街道惠民路十二间桥）信访接待窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "温州市公安局（温州市鹿城区滨江街道惠民路十二间桥）信访接待窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "投诉电话也告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "0577-88300122",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "0577-88300122"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "这个业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

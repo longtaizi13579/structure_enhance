@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解下鼻部骨折，能说说吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻部骨折",
+            "鼻部骨折"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想了解鼻部骨折的症状？诊断方法？还是治疗方法？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻骨折断（骨折）的典型表现是出血、疼痛、肿胀。",
+            "鼻骨损伤的诊断通过医生的观察及触诊鼻梁。",
+            "医生时常需要将骨碎片复位。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "请说说治疗，可以吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "医生时常需要将骨碎片复位。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "治疗鼻部骨折，医生会将骨碎片复位进行治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "医生时常需要将骨碎片复位。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那鼻骨折的诊断常用什么方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻骨折的诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "临床上会通过医生检查，以便发现鼻中隔血肿，脑脊液漏及其他面部损伤，得到及时治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "需要就诊以便医生发现鼻中隔血肿，脑脊液漏及其他面部损伤，得到及时治疗。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江嘉兴的港澳通行证去哪里办理？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要办理往来港澳通行证、港澳商务签注、港澳其他签注还是港澳团队旅游签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "往来港澳通行证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "往来港澳通行证，去哪里办呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "往来港澳通行证",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以到嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼进行办理",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是任何一个窗口都可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，您需要到5、6、7受理窗口办理相关业务",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，办理这个通行证应该是没有次数限制的吧？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，没有数量限制",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，如果想同时申请通行证和签注的话可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，内地居民可同时申请往来港澳通行证和签注。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "(二)内地居民可同时申请往来港澳通行证和签注。"
+        ],
+        "grounding_id": [
+            "1383"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那申请的话有没有什么禁止性的要求呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有法定不准出境情形的；不符合申请条件的；在申请过程中弄虚作假的不予批准签发往来港澳通行证和签注",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "申请人有下列情形之一的，不予批准签发往来港澳通行证和签注：",
+            "(一)有法定不准出境情形的；",
+            "(二)不符合申请条件的；",
+            "(三)在申请过程中弄虚作假的。"
+        ],
+        "grounding_id": [
+            "142",
+            "1384",
+            "1385",
+            "1386"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "了解，那半个月以内能不能办完呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的法定办结时限是30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好吧，那这个是怎么收费的呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1365"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "60元/证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_往来港澳通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "1366"
+        ]
+    }
+]

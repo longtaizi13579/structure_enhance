@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询备份和恢复PC上的iTunes资料库？",
+        "act": "what",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "备份和恢复PC上的iTunes资料库"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你具体是想问需要了解的事项还是整合您的 iTunes 资料库还是什么呢？",
+        "act": "multiple-choice",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "需要了解的事项"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "需要了解的事项，我想问iTunes资料库是什么？",
+        "act": "what",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "iTunes资料库是一个由添加到Windows版iTunes的所有音乐和其他媒体组成的数据库，这个数据库分为两个iTunes资料库文件和一个iTunesMedia文件夹。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "iTunes资料库是一个由添加到Windows版iTunes的所有音乐和其他媒体组成的数据库，这个数据库分为两个iTunes资料库文件和一个iTunesMedia文件夹。",
+        "act": "ans/open",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "iTunes资料库是一个由添加到Windows版iTunes的所有音乐和其他媒体组成的数据库，这个数据库分为两个iTunes资料库文件和一个iTunesMedia文件夹。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有什么其他需要了解的事项吗？",
+        "act": "what",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "需要了解的事项"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "还有在备份媒体之前和如果您使用的是Mac你想询问哪一个？",
+        "act": "multiple-choice",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在备份媒体之前：",
+            "如果您使用的是Mac"
+        ],
+        "grounding_id": [
+            "5",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在备份媒体之前都需要注意什么呢？",
+        "act": "what",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在备份媒体之前："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要整合您的iTunes资料库。并且重新下载之前购买的任何内容，例如音乐、影片和电视节目等。将购买项目下载到电脑是备份您所购媒体的唯一方式。",
+        "act": "ans/open",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "整合您的iTunes资料库。",
+            "重新下载之前购买的任何内容，例如音乐、影片和电视节目等。将购买项目下载到电脑是备份您所购媒体的唯一方式。"
+        ],
+        "grounding_id": [
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我最后还想问一下可与“时间机器”搭配使用的备份磁盘的的事",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "可与“时间机器”搭配使用的备份磁盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "能说的再具体一点吗？",
+        "act": "verification",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "可与“时间机器”搭配使用的备份磁盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问一下我需要什么类型的设备才可以使用“时间机器”备份我的Mac？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "您需要以下类型的储存设备之一：",
+            "使用“时间机器”备份您的Mac"
+        ],
+        "grounding_id": [
+            "3",
+            "56"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "1连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器20支持通过SMB进行“时间机器”备份的联网储存(NAS)设备3共享为“时间机器”备份目标位置的Mac4连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器5AirPort时间返回舱",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器",
+            "支持通过SMB进行“时间机器”备份的联网储存(NAS)设备",
+            "共享为“时间机器”备份目标位置的Mac",
+            "连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器",
+            "AirPort时间返回舱"
+        ],
+        "grounding_id": [
+            "4",
+            "8",
+            "12",
+            "16",
+            "20"
+        ]
+    }
+]

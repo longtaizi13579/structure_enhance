@@ -1,0 +1,326 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省台州市出入境常用服务有关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "出入境",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T239",
+            "T269"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您是想问护照加注有关问题吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，我想问一下护照加注服务有哪些监督投诉方式？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，我可以提供给您投诉电话、投诉地址、投诉网址。请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我一下投诉电话吧。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，投诉电话两部分别为0576-12345、0576-88212219。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0576-12345、0576-88212219"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还行咨询下其他跟护照加注有关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想问监督投诉方式、基本信息、线下办事点还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "基本信息有哪些呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想咨询行政相对人权利和义务、办事信息、中介服务、结果信息还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解办事信息相关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想询问关于办理形式的问题吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对，具体有哪些办理方式呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "两种，网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "它的法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "护照加注这项业务有哪些咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "麻烦告诉我咨询地址。",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "地址在台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境咨询台。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境咨询台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "再告诉我一下咨询电话吧。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "咨询电话为0576-88212297。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0576-88212297"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "护照加注的办理时间范围呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "冬季和夏季不同，夏季是工作日上午8：30—12：00，下午2:00—5:00；冬季为工作日上午8：30—12：00，下午1:30—4:30",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "工作日夏季：上午8：30—12：00，下午2:00—5:00；冬季：上午8：30—12：00，下午1:30—4:30"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

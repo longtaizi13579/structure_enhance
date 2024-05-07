@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我没有办法打开windows版本iCloud的下载内容，这个是什么原因导致的呢？",
+        "act": "why",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "解决Windows版iCloud或iTunes与第三方安全软件之间的问题",
+            "如果您无法打开Windows版iCloud或iTunes、下载内容、同步设备或使用“家庭共享”，则可能是安全软件所致。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您无法打开，可能是安全软件所致。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "如果您无法打开Windows版iCloud或iTunes、下载内容、同步设备或使用“家庭共享”，则可能是安全软件所致。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个是怎么导致的呢？能解决不？",
+        "act": "how",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "解决Windows版iCloud或iTunes与第三方安全软件之间的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想知道您的软件是否是因安全软件而导致打不开吗？",
+        "act": "verification",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "如何判断是否可能是安全软件所导致的问题"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，我想知道这个下载内容是不是因为安全软件导致打不开的。",
+        "act": "ans/yes",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "如何判断是否可能是安全软件所导致的问题"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "由Apple之外的公司创建的安全软件可能会阻止Windows版iCloud或iTunes连接到Apple服务器或设备。如果出现这种情况，您可能会看到数字错误信息。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "由Apple之外的公司创建的安全软件可能会阻止Windows版iCloud或iTunes连接到Apple服务器或设备。有时，在同步、更新、备份或恢复设备时，您可能会看到数字错误信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

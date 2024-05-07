@@ -1,0 +1,312 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省台州市的，过段时间要去台湾，想要咨询一下签注的问题？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T8",
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想问赴台商务签注、赴台学习签注 、应邀赴台签注还是赴台其他签注 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下如果办理赴台商务签注过程中出现问题，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有投诉电话 、投诉地址、 投诉网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我个投诉地址就行。",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉地址：台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境236室。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境236室"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理形式有：网上申请、现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "98",
+            "99"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，办理应邀应邀赴台签注时，如果不符合申请条件时会批准吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            " （二）不符合申请条件的； "
+        ],
+        "grounding_id": [
+            "1",
+            "401"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不会，不符合申请条件的申请人是不予批准签发往来台湾通行证和签注的。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "申请人有下列情形之一的，不予批准签发往来台湾通行证和签注：\n",
+            " （二）不符合申请条件的； "
+        ],
+        "grounding_id": [
+            "1",
+            "135",
+            "401"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以给我个办事处地点吗？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理地点：台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼C11-C14窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理地点",
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼C11-C14窗口"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请赴台商务签注时，支持自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "目前不支持。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "给我个办事处的咨询方式吧？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有咨询电话、咨询地址、咨询网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我个电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "咨询电话：0576-88212297。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "0576-88212297"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我还想咨询下收费的问题？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "2962",
+            "2969"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您是想了解赴台商务的收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "1\t赴台商务"
+        ],
+        "grounding_id": [
+            "2970"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "1\t赴台商务",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "2970",
+            "2971"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "收费标准是：国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台商务一次有效签注15元/件；多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "收费标准",
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台商务一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "2971",
+            "2972"
+        ]
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江赴台探亲签注的相关信息",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是办件类型，法定办结时限，承诺办结时限还是别的什么？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限是多长时间？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大约30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那线下办事点在哪里呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们有很多个办事点，您想了解的是什么地方的呢？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "白云街道附近有吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）三楼E厅2-10号"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）三楼E厅2-10号",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）三楼E厅2-10号"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那在龙游县有没有可以办理的地方呢？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "龙游县行政服务中心（衢州市龙游县龙洲街道鹏程路18号）三楼E01-E06窗口"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在龙游县行政服务中心（衢州市龙游县龙洲街道鹏程路18号）三楼E01-E06窗口可以办理",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "龙游县行政服务中心（衢州市龙游县龙洲街道鹏程路18号）三楼E01-E06窗口"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那办理完多长时间能拿到呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

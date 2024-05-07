@@ -1,0 +1,280 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下这个临时入境机动车号牌行驶证核发这个收费吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "521"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您希望了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江嘉兴",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的这个是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "521"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "526"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "527"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的还想问一下嘉兴市办理这个驾驶证的事",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T11",
+            "T89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的您是想问换领驾驶证还是增驾申领，还是初学申领等等您具体想了解哪方面",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是信息变化换领驾驶证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的关于这个您具体想了解哪方面信息是基本信息还是办事信息",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "就是想问这都有什么办理形式",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个可以网上申请或现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有个事就是嘉兴市这个大中型客货车实习期满考试什么时间可以办理",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "大中型客货车实习期满考试",
+            "办理时间",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "T11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理时间工作日：8：30——17:00",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "办理时间",
+            "工作日：8：30——17:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那关于这个有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个有投诉电话还有投诉地址再或者是投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉电话是多少我记一下",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "电话是0573-82084832、12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "投诉电话",
+            "0573-82084832、12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "麻烦了就是刚才问的信息变化换领驾驶证这个申请条件都有什么",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "135",
+            "138"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "满足申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形的条件都可以申请。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    }
+]

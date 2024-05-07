@@ -1,0 +1,330 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T10",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车的有关问题",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车更换车身或者车架变更登记、机动车灭失注销登记还是其他业务的有关问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "机动车更换车身或者车架变更登记这个业务有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "99",
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理这个业务有什么时间限制吗？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "受理条件",
+            "机动车所有人应当在变更后十日内向车辆管理所申请变更登记。\n温馨提示：需交验机动车。"
+        ],
+        "grounding_id": [
+            "137",
+            "138"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "机动车所有人应当在变更后十日内向车辆管理所申请变更登记。 温馨提示：需交验机动车。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车所有人应当在变更后十日内向车辆管理所申请变更登记。\n温馨提示：需交验机动车。"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不符合环保规定的车可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "（七）不符合环保规定的。"
+        ],
+        "grounding_id": [
+            "437"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "禁止性要求",
+            "（七）不符合环保规定的。"
+        ],
+        "grounding_id": [
+            "139",
+            "437"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我想投诉，有哪些方式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个业务是根据什么规定设定的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "399"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "机动车登记规定（公安部124号令）",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车登记规定（公安部124号令）"
+        ],
+        "grounding_id": [
+            "400"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那我还想咨询一些有关费用的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "333"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "339"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "什么东西是需要收费的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "340"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "1 机动车临时号牌、2 汽车反光号牌、3 机动车登记证书、4 机动车行驶证、5 摩托车反光号牌、6 挂车反光号牌都是需要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "6\t挂车反光号牌"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "挂车反光号牌多少钱？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "6\t挂车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "386",
+            "387"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "五十元一副",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "388"
+        ]
+    }
+]

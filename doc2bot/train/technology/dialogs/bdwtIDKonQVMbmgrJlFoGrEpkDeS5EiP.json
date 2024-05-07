@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道为什么Phone、iPad和iPodtouch要设置激活锁呢？",
+        "act": "why",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "激活锁可以帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且可以提高您找回设备的几率。即使您远程抹掉设备，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "激活锁可以帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且可以提高您找回设备的几率。即使您远程抹掉设备，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "原来是这样啊，那iPhone、iPad和iPodtouch的激活锁是怎么工作的呢？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解激活锁的工作方式还是在从他人手中购买设备之前检查是不是存在激活锁呢？",
+        "act": "multiple-choice",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道激活锁的工作方式。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是这样的，在您设置“查找”后，激活锁会自动打开*。打开后，Apple会将您的AppleID安全地储存在激活服务器上，并将它与您的设备相关联。任何人都必须输入您的AppleID密码或设备密码才能关闭“查找”、抹掉您的设备或重新激活并使用您的设备。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "在您设置“查找”后，激活锁会自动打开*。打开后，Apple会将您的AppleID安全地储存在激活服务器上，并将它与您的设备相关联。任何人都必须输入您的AppleID密码或设备密码才能关闭“查找”、抹掉您的设备或重新激活并使用您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我明白了，只要是设置是设置了查找，iPhone、iPad和iPodtouch的激活锁功能也被打开了是这样吧？",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，“查找”包含激活锁功能，如果您的iPhone、iPad或iPodtouch丢失或失窃，这项功能可以防止他人使用这台设备。当您在设备上打开“查找”时，激活锁会自动打开。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "“查找”包含激活锁功能，如果您的iPhone、iPad或iPodtouch丢失或失窃，这项功能可以防止他人使用这台设备。当您在设备上打开“查找”时，激活锁会自动打开。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

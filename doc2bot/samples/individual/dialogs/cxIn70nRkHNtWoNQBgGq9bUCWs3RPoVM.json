@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省丽水市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T12",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证有关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是临时入境机动车号牌、行驶证核发、达到规定年龄换领机动车驾驶证还是其他业务的有关问题呢？ ",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "临时入境机动车号牌、行驶证核发这个业务是参考什么文件的？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "529"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "临时入境机动车和驾驶人管理规定",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车和驾驶人管理规定"
+        ],
+        "grounding_id": [
+            "530"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么机关颁布的这个文件？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "535"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "公安部",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "公安部"
+        ],
+        "grounding_id": [
+            "536"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "临时入境机动车号牌、行驶证核发这个业务申请次数有限制吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "139"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有的。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "什么情况下不能办理？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "机动车有道路交通违法行为和交通事故未处理完毕的不予核发。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "机动车有道路交通违法行为和交通事故未处理完毕的不予核发。"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

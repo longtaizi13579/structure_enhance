@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，那个想问一下机动车的事，就是办这个机动车注销登记这块有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "监督投诉方式",
+            "机动车",
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "33",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，浙江舟山市",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的帮您查询了有三种方式一投诉电话二投诉地址三投诉网址，您需要哪个一个",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "您跟我说一下投诉地址是哪里",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的您记一下，浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那还有这个注销登记是怎么个办理流程呀",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "341"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个办理流程分五步一申请二受理三审核四制证五达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "341"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那想问一下，最后多久能办好呀",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理时限"
+        ],
+        "grounding_id": [
+            "367"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理时限是1个工作日（邮寄送达的，以邮政公司时间为准）",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1个工作日（邮寄送达的，以邮政公司时间为准）"
+        ],
+        "grounding_id": [
+            "368"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那办这个注销登记的事都有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这有三种方式一咨询电话二咨询地址三咨询网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，咨询地址告诉我一下",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的地址是浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

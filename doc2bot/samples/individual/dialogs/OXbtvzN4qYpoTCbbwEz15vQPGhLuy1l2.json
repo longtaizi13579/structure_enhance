@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江嘉兴，想咨询行驶证驾驶证的问题。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T11",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询大中型客货车实习期满考试、达到规定年龄换领机动车驾驶证还是临时入境机动车号牌、行驶证核发呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "大中型客货车实习期满考试"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想大中型客货车实习期满考是否收费。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "大中型客货车实习期满考试",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "239"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前我们是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_大中型客货车实习期满考试.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "240"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么核发行驶证多久能办完呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "按照规定会在3个工作日内完成。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "法定办结时限",
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么你们核发的依据是按照什么来处理呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们依据临时入境机动车和驾驶人管理规定。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "设定依据",
+            "临时入境机动车和驾驶人管理规定"
+        ],
+        "grounding_id": [
+            "509",
+            "510"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "只能去现场办理吗？还有其他渠道？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们有网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "已经超过办理时间我可以进行电话投诉吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，我们的投诉电话为：0573-12345。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我准备了投诉资料，需要递交给你们领导，投诉地址是哪里？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "31",
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们投诉地址为：嘉兴市中山东路1156号交警支队二楼政治处211室。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

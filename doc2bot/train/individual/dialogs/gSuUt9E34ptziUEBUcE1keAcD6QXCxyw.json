@@ -1,0 +1,342 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省舟山市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T9",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下有关机动车的问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车因质量问题退车注销登记、免检机动车申请纸质检验合格标志还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解一下机动车因质量问题退车注销登记的收费标准。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "383"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "388"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "网上支付可以吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "388"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "389"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这项业务收费吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "384"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "385"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这项业务是遵照什么规定设定的呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "371"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "机动车登记规定（公安部124号令）: 依据文号 = 公安部第124号令, 颁布机关 = 公安部, 实施日期 = 2012-09-12, 条款内容 = 第二十七条",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车登记规定（公安部124号令）",
+            "依据文号",
+            "公安部第124号令",
+            "颁布机关",
+            "公安部",
+            "实施日期",
+            "2012-09-12",
+            "条款内容"
+        ],
+        "grounding_id": [
+            "372",
+            "375",
+            "376",
+            "377",
+            "378",
+            "379",
+            "380",
+            "381"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请办理这项业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的，1辆机动车只能申请1次。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1辆机动车只能申请1次。"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那具体什么情况才可以办理这项业务呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "（一）已注册登记的机动车因质量问题退车的；（二）机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（一）已注册登记的机动车因质量问题退车的；\n",
+            "（二）机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕。"
+        ],
+        "grounding_id": [
+            "140",
+            "394"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那什么情况下不可以办理这项业务呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "（一）机动车所有人提交的证明、凭证无效的；（二）机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；（三）机动车属于被盗抢的；（四）机动车与该车档案记载内容不一致的；（五）机动车在抵押登记、质押备案期间的。有以上情况不可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（二）机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；",
+            "（三）机动车属于被盗抢的；",
+            "（四）机动车与该车档案记载内容不一致的；",
+            "（五）机动车在抵押登记、质押备案期间的。"
+        ],
+        "grounding_id": [
+            "395",
+            "396",
+            "397",
+            "398"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这个业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那如果我还想咨询其他问题，有几种咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "咨询电话告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "0580-12123",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

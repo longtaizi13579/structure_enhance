@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我给我的车更换了个车身，想要了解一下在浙江金华这去办理那个更换车身的变更登记的信息可以怎样咨询呢？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "浙江省_金华市",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T6",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边有咨询电话和咨询地址，你需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说咨询电话是多少吧，我记一下",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询电话有0579-88900000、0579-82080925、0579-82286839",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "0579-88900000、0579-82080925、0579-82286839"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "电话咨询问不清的话，我可以到什么地方去咨询吗？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址在金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，我顺便帮我朋友问一下，他在浙江舟山那边办理车质押备案的话可以网上交付费用吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "浙江省_舟山市",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "T9",
+            "323"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以的，还不支持网上交费的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行吧，那办理这个车质押备案要花费多少钱呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "318",
+            "319"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理这个机动车质押备案的话是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "320"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我还以为要收费的，那如果办理得非常不满意的话怎么去投诉啊？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这边有投诉地址和投诉电话，你需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉的地址在什么地方呢？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉地址在浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个地方有点远啊，那可以打什么电话投诉呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉电话是0580-12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

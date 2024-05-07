@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于手部疾病的相关问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "医学主题",
+            "手部疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1732"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询鹅颈畸形、腱鞘囊肿、手部脓肿、桡管综合征，还是其他？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "鹅颈畸形"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我爷爷的手指属于鹅颈畸形，医生建议他通过手指夹板固定，我想问一下用这种方法矫正的时候，还能够使用手吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "鹅颈畸形",
+            "轻微的畸形可以通过应用手指夹板（环形夹板）固定，这样在矫正畸形的同时能够使用手。"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "轻微的畸形可以通过应用手指夹板固定，这样在矫正畸形的同时能够使用手。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "轻微的畸形可以通过应用手指夹板（环形夹板）固定，这样在矫正畸形的同时能够使用手。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "鹅颈畸形到底是指什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "鹅颈畸形是指手指基底部的内弯（屈曲）、中间关节的伸直（伸展）以及远端关节的内弯（屈曲）畸形。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "鹅颈畸形是指手指基底部的内弯、中间关节的伸直以及远端关节的内弯畸形。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "鹅颈畸形是指手指基底部的内弯（屈曲）、中间关节的伸直（伸展）以及远端关节的内弯（屈曲）畸形。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，还有什么其他更具体的解释吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "（还可以参阅手部疾病概述。)"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "具体的您还可以参阅手部疾病概述。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "（还可以参阅手部疾病概述。)"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你跟我说一下，手部疾病都包括什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "手部疾病包括腱鞘囊肿、畸形、神经血管相关疾病、骨关节炎、扳机指、Kienböck疾病及感染等。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "手部疾病包括腱鞘囊肿、畸形、神经血管相关疾病、骨关节炎、扳机指、Kienböck疾病及感染等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "手部疾病包括腱鞘囊肿、畸形、神经血管相关疾病、骨关节炎、扳机指、Kienböck疾病及感染等。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "鹅颈畸形的治疗方式都有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "鹅颈畸形的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "治疗方式：基础疾病的治疗、手指夹板、有时需要进行手术。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_鹅颈畸形.json",
+        "grounding": [
+            "治疗方式：",
+            "基础疾病的治疗",
+            "手指夹板",
+            "有时需要进行手术"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    }
+]

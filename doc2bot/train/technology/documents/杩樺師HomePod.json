@@ -1,0 +1,137 @@
+{
+    "document_id": 133,
+    "domain": "technology",
+    "name": "还原HomePod",
+    "graph": {
+        "1": {
+            "data": "还原HomePod",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "如果HomePod没有响应，请先尝试通过“家庭”App重新启动HomePod。如果HomePod仍然没有响应，请将它还原。您应当仅在下列情况下还原HomePod：",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "7": {
+            "data": "您想将HomePod还原为出厂设置。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "8": {
+            "data": "您需要将HomePod送修。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "9": {
+            "data": "您想要出售或赠送HomePod。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "10": {
+            "data": "如果您已将两个HomePod扬声器设置为立体声组合，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "14": {
+            "data": "使用“家庭”App还原HomePod",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "确保您已在iPhone、iPad、iPodtouch或Mac上使用设置HomePod时所用的AppleID登录“家庭”App。要将HomePod还原为出厂设置并将它从“家庭”App中移除，请按照以下步骤操作。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "14"
+        },
+        "17": {
+            "data": "在iPhone、iPad、iPodtouch或Mac上打开“家庭”App。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "18": {
+            "data": "在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "19": {
+            "data": "选择“移除”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "20": {
+            "data": "按压HomePod顶部以将它还原",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "21": {
+            "data": "如果您无法从“家庭”App中移除HomePod，可以按压HomePod顶部以将它还原为出厂设置。具体操作如下：",
+            "type": "sequence",
+            "pid": "20"
+        },
+        "22": {
+            "data": "从电源处拔下HomePod的插头，或拔下HomePodmini的电源适配器。等待10秒钟，然后为HomePod重新插接电源。",
+            "type": "sequence-step",
+            "pid": "21"
+        },
+        "23": {
+            "data": "等待10秒，然后用手指按住HomePod顶部。",
+            "type": "sequence-step",
+            "pid": "21"
+        },
+        "24": {
+            "data": "白色旋转光会变为红色。保持手指的按压姿势不变。",
+            "type": "sequence-step",
+            "pid": "21"
+        },
+        "25": {
+            "data": "Siri会说HomePod即将还原。在听到三次哔哔声后，您便可抬起手指。",
+            "type": "sequence-step",
+            "pid": "21"
+        },
+        "26": {
+            "data": "如果还原后您仍会在“家庭”App中看到“HomePod”，",
+            "type": "condition",
+            "pid": "20"
+        },
+        "30": {
+            "data": "使用Mac或PC恢复HomePodmini",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "31": {
+            "data": "使用随附的USB-C线缆将HomePodmini插入电脑。",
+            "type": "sequence-step",
+            "pid": "30"
+        },
+        "32": {
+            "data": "等待几秒钟。如果您使用的是Mac，请打开一个“访达”窗口。如果您使用的是PC，请打开最新版本的iTunes。",
+            "type": "sequence-step",
+            "pid": "30"
+        },
+        "36": {
+            "data": "当您的HomePod出现在电脑上时，选择您的HomePod。",
+            "type": "sequence-step",
+            "pid": "30"
+        },
+        "40": {
+            "data": "点按“恢复HomePod”。您的电脑将准备恢复HomePodmini上的软件。当您不再看到顶部指示灯呈橙色闪烁时，HomePodmini就完成了恢复。",
+            "type": "sequence-step",
+            "pid": "30"
+        },
+        "47": {
+            "data": "则需要先取消立体声组合编组，然后才能还原HomePod。",
+            "type": "solution",
+            "pid": "10"
+        },
+        "48": {
+            "data": "则需要手动将它从“家庭”App中移除。",
+            "type": "solution",
+            "pid": "26"
+        }
+    }
+}

@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市考试教育的有关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "考试教育"
+        ],
+        "grounding_id": [
+            "T4",
+            "T228"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问中考优待还是其他服务有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "中考优待"
+        ],
+        "grounding_id": [
+            "T229"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询中考优待有关的内容。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "中考优待"
+        ],
+        "grounding_id": [
+            "T229"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是对港澳居民子女考生参加中考优待的确认、对归侨、归侨子女、华侨子女考生参加中考优待的确认还是其他业务有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对港澳居民子女考生参加中考优待的确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对港澳居民子女考生参加中考优待的确认这个业务申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对港澳居民子女考生参加中考优待的确认",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么情况下可以申请这个业务？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "港澳居民子女考生参加中考。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "港澳居民子女考生参加中考"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个确认多久能完成？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "二十个工作日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果我还想咨询其他问题，有几种咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "杭州市拱墅区屏风街8号203室",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "杭州市拱墅区屏风街8号203室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0571-87061382,0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "0571-87061382,0571-12345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "90个工作日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "90（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

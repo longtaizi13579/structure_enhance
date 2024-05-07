@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江杭州想咨询小客车指标相关问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T4",
+            "T153"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询个人被盗抢小客车其他指标配置、单位被盗抢小客车其他指标配置还是单位增量指标配置呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "个人被盗抢小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询个人被盗抢小客车其他指标配置线下办事点的开门时间。",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "个人被盗抢小客车其他指标配置",
+            "线下办事点",
+            "具体地址",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "124",
+            "125",
+            "148"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们线下办理点每个区都有，办理时间为：工作日（星期一至星期五）上午8:30-11:30下午夏令13:30-17:00冬令13：00-16：30。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间",
+            "工作日（星期一至星期五）上午8:30-11:30下午夏令13:30-17:00冬令13：00-16：30"
+        ],
+        "grounding_id": [
+            "148",
+            "149"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你们支持大厅机子办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人区域指标配置.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们暂时不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人区域指标配置.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么这个收费是怎么收费的呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "385",
+            "386"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想咨询继承类小客车其他指标配置、单位被盗抢小客车其他指标配置还是个人区域指标配置呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "继承类小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想咨询继承类小客车其他指标配置收费标准。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "继承类小客车其他指标配置",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "385"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前针对此项目，我们不收取任何费用。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "是否收费",
+            "不收费"
+        ],
+        "grounding_id": [
+            "386",
+            "387"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "不是，我记得之前不是可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "390"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们办理这个业务是不收费的，所以也不存在支持网上支付的呀。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "391"
+        ]
+    }
+]

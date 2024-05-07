@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我是驻外外交人员但是回到杭州了，目前有辆小客车，想了解一下需要办理什么手续？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "小客车指标",
+            "外交人员回国返杭自带小客车指标配置"
+        ],
+        "grounding_id": [
+            "T4",
+            "T153",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解的是外交人员回国返杭自带小客车指标配置中的哪个方面呢？法定办结时限还是办理形式？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定办结时限。大概需要多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大概需要10个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "了解了，谢谢，可以网上申请办理吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。网上申请和现场窗口申请都可以。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_外交人员回国返杭自带小客车指标配置.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

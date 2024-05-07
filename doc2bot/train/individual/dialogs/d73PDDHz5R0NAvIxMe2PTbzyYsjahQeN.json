@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我刚改了名字，怎么变更驾驶证上的信息？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶证驾驶证",
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "T11",
+            "T89",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向相关单位提出驾驶人信息变化换领机动车驾驶证的申请。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址是：嘉兴市中山东路1156号交警支队二楼政治处211室。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址",
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理的时候可以通过网上付款吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "315"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    }
+]

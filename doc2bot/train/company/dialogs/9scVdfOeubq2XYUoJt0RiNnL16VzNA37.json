@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是宁波的，我想知道，变更那个外商投资企业的法人大概要多久呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "外商投资企业登记（变更）",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有承诺办结时限和法定办结时限，您想知道哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定办结时限呗。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，法定办结时限是20个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "差不多3个星期这么久啊，那办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "办理地点",
+            "外商投资企业登记（变更）"
+        ],
+        "grounding_id": [
+            "22",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您所在地的办理的地址是：宁波市行政服务中心二楼商事登记区E2026-E2038。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "办理地点",
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼商事登记区E2026-E2038"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还好这个地方离我这不远，我明天就去办理。如果我在办理的过程中遇到了问题，我应该可以投诉的吧？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，而且我们有现场投诉和电话投诉两种方式，您想要知道哪种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "现场吧，如果我在办理的过程中遇到问题，我就直接投诉了。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，现场的投诉地址是宁波市行政服务中心二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉地址",
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，投诉电话有的话也给我一下。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好，投诉电话是0574－12345－0。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "0574－12345－0",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    }
+]

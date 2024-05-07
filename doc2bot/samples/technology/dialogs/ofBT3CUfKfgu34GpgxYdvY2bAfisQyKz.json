@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下使用Wi-Fi通话功能拨打电话的时候进行添加设备需要怎么做？",
+        "act": "how",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用Wi-Fi通话功能拨打电话",
+            "添加设备"
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先我想问一下您的设备有安装最新版本的软件吗？",
+        "act": "verification",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "请确保要添加的设备装有最新版本的软件。然后，按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的安装了。",
+        "act": "ans/yes",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "请确保要添加的设备装有最新版本的软件。然后，按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先在iPhone上，前往“设置”>“电话”>“Wi-Fi通话”。然后打开“为其他设备添加Wi-Fi通话”。之后 返回到上一个屏幕，然后轻点“在其他设备上通话”。但是如果“允许‘在其他设备上通话’”还没有开启，请将它打开。最后打开要使用Wi-Fi通话的所有设备。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "在iPhone上，前往“设置”>“电话”>“Wi-Fi通话”。",
+            "打开“为其他设备添加Wi-Fi通话”。",
+            "返回到上一个屏幕，然后轻点“在其他设备上通话”。",
+            "如果“允许‘在其他设备上通话’”还没有开启，请将它打开。“允许在下列设备上通话”下面会显示符合条件的设备列表。",
+            "打开要使用Wi-Fi通话的所有设备。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "第四步将他打开之后会显示什么？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果“允许‘在其他设备上通话’”还没有开启，请将它打开。“允许在下列设备上通话”下面会显示符合条件的设备列表。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“允许在下列设备上通话”下面会显示符合条件的设备列表。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果“允许‘在其他设备上通话’”还没有开启，请将它打开。“允许在下列设备上通话”下面会显示符合条件的设备列表。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问一下使用Wi-Fi通话功能拨打电话有什么用呢？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用Wi-Fi通话功能拨打电话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "借助Wi-Fi通话功能，您可以在有Wi-Fi连接但蜂窝网络信号很差或无信号的区域拨打或接听电话。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "借助Wi-Fi通话功能，您可以在有Wi-Fi连接但蜂窝网络信号很差或无信号的区域拨打或接听电话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那使用iPhone拨打Wi-Fi电话需要怎么做呢？",
+        "act": "how",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用iPhone拨打Wi-Fi电话"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在“设置”>“电话”>“Wi-Fi通话”中，打开Wi-Fi通话功能。您可能需要输入或确认用于紧急服务的地址*。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "在“设置”>“电话”>“Wi-Fi通话”中，打开Wi-Fi通话功能。您可能需要输入或确认用于紧急服务的地址*。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "最后我还想问一下那如果我再什么情况下可以移除设备呢？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "移除设备"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您不想在某台设备上使用Wi-Fi通话功能，可以移除这台设备：",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果您不想在某台设备上使用Wi-Fi通话功能，可以移除这台设备："
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "具体需要如何移除呢？",
+        "act": "how",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果您不想在某台设备上使用Wi-Fi通话功能，可以移除这台设备："
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先在iPhone上，前往“设置”>“电话”>“在其他设备上通话”。然后在设备列表中，为要移除的设备关闭Wi-Fi通话功能。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "在iPhone上，前往“设置”>“电话”>“在其他设备上通话”。",
+            "在设备列表中，为要移除的设备关闭Wi-Fi通话功能。"
+        ],
+        "grounding_id": [
+            "50",
+            "51"
+        ]
+    }
+]

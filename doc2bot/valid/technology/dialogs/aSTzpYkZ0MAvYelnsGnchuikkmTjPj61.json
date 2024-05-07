@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我iPad设备出问题了怎么办，没办法正常工作？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您指的是什么设备呢？",
+        "act": "question/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "iPad上的麦克风，用不了了，怎么办？",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果Siri无法检测到您的声音，您可以打开“语音备忘录”App，轻点“录制”按钮，对着iPad的顶部说话，然后停止录音，播放所录制的备忘录时，您应该能够清晰地听到自己的声音，如果您无法清晰地听到自己的声音，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果Siri无法检测到您的声音",
+            "打开“语音备忘录”App。",
+            "轻点“录制”按钮，对着iPad的顶部说话，然后停止录音。",
+            "当播放所录制的备忘录时，您应该能够清晰地听到自己的声音。",
+            "如果您无法清晰地听到自己的声音，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，要是脏了怎么清理呢？",
+        "act": "why",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以清除iPad上的屏幕保护膜、保护膜或保护壳，在清除iPad开口处的所有碎屑。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清除iPad上的屏幕保护膜、保护膜或保护壳。",
+            "清除iPad开口处的所有碎屑。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我在录音的时候没办法正常录是不是就不能测试了？",
+        "act": "verification",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果您无法在视频中录制声音"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您还可以打开“相机”App， 录制视频时，对着iPad的顶部说话，轻点“相机选取器”以切换到其他相机。然后在录制另一个视频时，对着iPad的顶部说话，当播放所录制的视频时，您应该能够清晰地听到自己的声音，如果您无法清晰地听到自己的声音，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "打开“相机”App。",
+            "录制视频时，对着iPad的顶部说话。",
+            "轻点“相机选取器”以切换到其他相机。然后在录制另一个视频时，对着iPad的顶部说话。",
+            "当播放所录制的视频时，您应该能够清晰地听到自己的声音。",
+            "如果您无法清晰地听到自己的声音，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我用只用qq没法用麦克风怎么办呢？",
+        "act": "what",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果麦克风在特定App中无法正常工作"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以前往“设置”>“隐私”>“麦克风”，在确保App已启动，如果此App有权访问您的麦克风，或者此App没有列出，请联系App开发者。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "请前往“设置”>“隐私”>“麦克风”。",
+            "请确保App已启动。",
+            "如果此App有权访问您的麦克风，或者此App没有列出，请联系App开发者。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    }
+]

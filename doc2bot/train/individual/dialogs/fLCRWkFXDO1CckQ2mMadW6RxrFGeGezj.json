@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下，我想申请港澳其他签注，可以办吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "受理条件",
+            "港澳其他签注",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "139",
+            "1",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请问你现在在哪个省？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "1",
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我现在在浙江省嘉兴市",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您若是因治病、奔丧、探望危重病人、诉讼、应试、处理产业、学术交流等特殊事由申请赴香港或者澳门；持逗留签注在香港（澳门）期间申请前往澳门（香港）的；定居国外的中国公民来内地后前往澳门（香港）的，是可以申请港澳其他签注。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "受理条件",
+            "因治病、奔丧、探望危重病人、诉讼、应试、处理产业、学术交流等特殊事由申请赴香港或者澳门；持逗留签注在香港（澳门）期间申请前往澳门（香港）的；定居国外的中国公民来内地后前往澳门（香港）的，可以申请港澳其他签注。",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "139",
+            "140",
+            "T281"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "随时都能办吗？我很着急",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理时间",
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您好，这边为您查到的办理时间工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00，在这几个时间里都给办理",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理时间",
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我问一下这个是怎么收费的？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准",
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "2993",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "60元/证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "2994"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个业务我可以自己自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "很抱歉，不可以",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我这个签注多久能办下来啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是说承诺办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "承诺办结时限为7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

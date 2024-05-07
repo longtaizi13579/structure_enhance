@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下关于AppleUSB电源适配器",
+        "act": "what",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "关于AppleUSB电源适配器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是5WUSB电源适配器，10WUSB电源适配器，还是12WUSB电源适配器",
+        "act": "multiple-choice",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "12WUSB电源适配器"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道12.9英寸iPadPro（第2代）里面是不是会赠送12W电源适配器",
+        "act": "verification",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "12WUSB电源适配器",
+            "以下设备的包装盒内随附一个12W电源适配器：",
+            "12.9英寸iPadPro（第2代）"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，包装盒内随附一个12W电源适配器",
+        "act": "ans/yes",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "以下设备的包装盒内随附一个12W电源适配器：",
+            "12.9英寸iPadPro（第2代）"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我还想问一下iPhone专用MagSafe皮革卡包的信息",
+        "act": "what",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "关于iPhone专用MagSafe皮革卡包"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢",
+        "act": "question/open",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "关于iPhone专用MagSafe皮革卡包"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道打开“分离时通知”的话多长时间会收到位置",
+        "act": "when",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "如果您打开了“分离时通知”，则在卡包与设备分离大约一分钟后，您会收到包含卡包大致位置的通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在卡包与设备分离大约一分钟后，您会收到包含卡包大致位置的通知。",
+        "act": "ans/open",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "如果您打开了“分离时通知”，则在卡包与设备分离大约一分钟后，您会收到包含卡包大致位置的通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那可以用iPhone13的硅胶保护壳吗",
+        "act": "verification",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "它适用于iPhone12或iPhone13皮革或硅胶保护壳，或者iPhone13透明保护壳。您可以将这款卡包与iPhone12透明保护壳搭配使用，但不支持“查找”功能。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "关于iPhone专用MagSafe皮革卡包.json",
+        "grounding": [
+            "它适用于iPhone12或iPhone13皮革或硅胶保护壳，或者iPhone13透明保护壳。您可以将这款卡包与iPhone12透明保护壳搭配使用，但不支持“查找”功能。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

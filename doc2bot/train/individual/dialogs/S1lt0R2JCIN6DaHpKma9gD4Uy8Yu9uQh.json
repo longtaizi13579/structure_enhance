@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下驾驶证的事",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江舟山市",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您具体想问哪个方面呢，比如是延期换领机动车驾驶证，达到规定年龄换领机动车驾驶证，机动车驾驶证初学申领等等",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是延期换领驾照这个收费吗",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "303"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "304"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了我本来还想问能网上支付吗",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这块有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有三种方式一投诉电话二投诉地址三投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉电话是多少我记一下",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "电话是0580－12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话",
+            "0580－12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "就是还想问一下这个拖拉机驾驶证转出省外换证这个投诉地址在哪",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证转出省外换证",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您问的是浙江舟山市吗",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉地址舟山市新城海天大道681号市信访局",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址",
+            "舟山市新城海天大道681号市信访局"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在杭州，我想问一下去台湾有关通行证及签注的问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T4",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询赴台乘务签注、往来台湾通行证还是赴台个人旅游签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下赴台乘务签注有什么管理要求吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "中国公民往来台湾地区管理办法"
+        ],
+        "grounding_id": [
+            "1",
+            "467"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "中国公民往来台湾地区有条款规定：大陆居民前往台湾定居、探亲、访友、旅游、接受和处理财产、处理婚丧事宜或者参加经济、科技、文化、教育、体育、学术等活动，须向户口所在地的市、县公安局提出申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "第六条大陆居民前往台湾定居、探亲、访友、旅游、接受和处理财产、处理婚丧事宜或者参加经济、科技、文化、教育、体育、学术等活动，须向户口所在地的市、县公安局提出申请。"
+        ],
+        "grounding_id": [
+            "477"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理签注的费用我网上支付可以吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "494"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是可以在网上进行支付的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "495"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我要怎么办理呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想网上申请办理还是在现场窗口进行办理？这两种都是可以的。\n",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我办理了多久可以拿到通行证？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我顺便再问一下、我是执行海峡两岸航运任务的是可以办理的吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "执行海峡两岸航运任务的，可以申请赴台乘务签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "执行海峡两岸航运任务的，是可以申请赴台乘务签注的。 ",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "执行海峡两岸航运任务的，可以申请赴台乘务签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "签注都是收费的是吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "490"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "491"
+        ]
+    }
+]

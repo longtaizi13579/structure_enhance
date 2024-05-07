@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解下再生障碍性贫血这种病是怎么回事？",
+        "act": "how",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "再生障碍性贫血"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是有什么症状吗？做过哪些检查吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "再生障碍性贫血"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我就是容易感觉到累，还莫名其妙的出血，做了血液检查，医生说还需要检查骨髓，好吓人的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "血液检查",
+            "骨髓检查",
+            "再生障碍性贫血的诊断"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那是骨髓检查，就是将你的骨髓样本放在显微镜下检验，来帮助确诊的。骨髓活检时会稍微有点疼，不用过于担心。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "如果显微镜下检查骨髓样本（骨髓活检）发现骨髓细胞急剧下降，则可诊断再生障碍性贫血。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那这个病是怎么回事啊？",
+        "act": "what",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "“再生障碍性贫血”一词是指各类血细胞的生成均受到抑制时发生的贫血。如果只是红细胞生成受到抑制，则称为纯红细胞再生障碍性贫血。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "再生障碍性贫血就是各类血细胞的生成均受到抑制时发生的贫血。比如红细胞生成受到抑制形成的贫血等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "“再生障碍性贫血”一词是指各类血细胞的生成均受到抑制时发生的贫血。如果只是红细胞生成受到抑制，则称为纯红细胞再生障碍性贫血。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，是这么回事啊。我才知道。我就是最近几月有这些症状的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "再生障碍性贫血的症状",
+            "再生障碍性贫血的症状通常在数周至数月内缓慢发展。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，再生障碍性贫血的症状通常在数周至数月内缓慢发展。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "再生障碍性贫血的症状通常在数周至数月内缓慢发展。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我也没干什么，怎么会得这个病？",
+        "act": "how",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "其他病因包括"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "导致这种病的原因很多。你有肝炎吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "其他病因包括",
+            "肝炎"
+        ],
+        "grounding_id": [
+            "15",
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有，我是乙肝。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "肝炎"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "肝炎是再生障碍性贫血的病因之一。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "肝炎"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，我明白了。我就是最近容易累，还莫名其妙出血，这些是这个病弄的吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "再生障碍性贫血的症状",
+            "贫血导致疲劳、虚弱和苍白。白细胞减少导致容易感染。血小板减少导致容易淤青和出血。"
+        ],
+        "grounding_id": [
+            "24",
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个病会有疲劳、出血的症状，还会有贫血导致的虚弱和苍白。白细胞减少导致容易感染。血小板减少导致容易淤青和出血等症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "贫血导致疲劳、虚弱和苍白。白细胞减少导致容易感染。血小板减少导致容易淤青和出血。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，那我知道了。我的工作会接触一些有毒的东西，是不是这会引起这个病啊？",
+        "act": "verification",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "其他病因包括"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "毒素（如苯）会引起这个病。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_血液紊乱_贫血_再生障碍性贫血.json",
+        "grounding": [
+            "其他病因包括",
+            "毒素（如苯）"
+        ],
+        "grounding_id": [
+            "15",
+            "18"
+        ]
+    }
+]

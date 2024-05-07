@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我在浙江省衢州市，我想领一下交通或者是食宿费，怎么领取？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您可以先到政策法规处或邮件申报，并选择结果送达方式。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "申请",
+            "申请人到政策法规处或邮件申报，并选择结果送达方式。"
+        ],
+        "grounding_id": [
+            "272",
+            "273"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请？怎么个流程？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "271"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您申请后工作人员会进行受理并核实，审查通过就会给您送通知书，审核不通过的话就会给您发送一份驳回通知书。根据审核标准做出最终结果，然后再根据您选择的方式在3个工作日内给您送达。您还有什么问题吗？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "受理",
+            "办理结果",
+            "审查/核准",
+            "办理结果",
+            "决定",
+            "送达",
+            "3个工作日"
+        ],
+        "grounding_id": [
+            "274",
+            "277",
+            "279",
+            "282",
+            "284",
+            "289",
+            "292"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我怎么申请工伤的钱？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您拨打0570-3079086进行咨询，您看可以吗？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先等等，不能自主办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，目前不支持自助终端的办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "只能去柜台办理？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以选择网上申请，现场窗口申请或者邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我交了申请几天就给我解决了？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们大概在42个工作日就能给出结果，您耐心等待。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

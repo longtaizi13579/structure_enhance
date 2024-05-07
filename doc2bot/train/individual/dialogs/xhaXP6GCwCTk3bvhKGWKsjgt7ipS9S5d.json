@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省_金华市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T6",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车有关的内容。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是电动自行车注册登记、机动车灭失注销登记、机动车解除抵押登记还是其他业务的有关问题？",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理电动自行车注册登记，想投诉有哪些方式？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0579-12345",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "0579-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "机动车更换车身或者车架变更登记要去哪里办理？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "金华市二手车交易市场（金华市金东区赤松镇横三路与纵六路交叉口西北100米）一楼大厅1-9号",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "金华市二手车交易市场（金华市金东区赤松镇横三路与纵六路交叉口西北100米）一楼大厅1-9号"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问问费用有关的问题。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "614"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "619"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "619"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "620"
+        ]
+    }
+]

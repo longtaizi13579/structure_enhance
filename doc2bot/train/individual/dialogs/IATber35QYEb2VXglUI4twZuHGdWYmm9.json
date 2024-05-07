@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省绍兴市的，我是一名残疾人，刚买了辆机动车，该怎么登记？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "机动车",
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "T7",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向相关单位申请残疾人机动轮椅车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "317"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.车辆查验 3.受理审核 4.制证 5.送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "车辆查验",
+            "受理审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "317",
+            "318",
+            "320",
+            "327",
+            "334",
+            "341"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址是：绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉地址",
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉电话是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉电话是：0575--81500020",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉电话",
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "咨询电话是：0575--88150009",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话",
+            "0575--88150009"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

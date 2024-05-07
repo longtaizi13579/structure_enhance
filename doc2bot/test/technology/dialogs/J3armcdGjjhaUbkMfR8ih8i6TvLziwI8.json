@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想给我的电脑换壁纸，步骤是什么？",
+        "act": "verification",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "更改Mac上的桌面图片（背景）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是用的是什么系统？",
+        "act": "question/open",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "更改Mac上的桌面图片（背景）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "Mac的",
+        "act": "ans/open",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "更改Mac上的桌面图片（背景）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的我知道了，在Mac端更换电脑壁纸的话，需要您选取苹果菜单>“系统偏好设置”。然后点按“桌面与屏幕保护程序”。 再从“桌面”面板中，选择左侧的某个图片文件夹，然后点按右侧的某张图片以更改您的桌面图片就可以了",
+        "act": "ans/open",
+        "document": "更改Mac上的桌面图片（背景）.json",
+        "grounding": [
+            "具体步骤",
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“桌面与屏幕保护程序”。",
+            "从“桌面”面板中，选择左侧的某个图片文件夹，然后点按右侧的某张图片以更改您的桌面图片。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我试试吧，我想用iPad学iMovie，它都有什么特点？",
+        "act": "verification",
+        "document": "向iMovie剪辑项目中添加声音轨道和声音效果.json",
+        "grounding": [
+            "在iPhone或iPad上向iMovie剪辑项目中添加声音轨道"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "iOS版和iPadOS版iMovie剪辑具有一系列由著名作曲者和艺人创建的声音轨道和声音效果，可供您在项目中随意使用。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加声音轨道和声音效果.json",
+        "grounding": [
+            "iOS版和iPadOS版iMovie剪辑具有一系列由著名作曲者和艺人创建的声音轨道和声音效果，可供您在项目中随意使用。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我用iMovie添加声音轨道的话，这个声音轨道也可以剪辑吗？",
+        "act": "verification",
+        "document": "向iMovie剪辑项目中添加声音轨道和声音效果.json",
+        "grounding": [
+            "添加声音轨道后，您可以像处理任何其他类型的片段一样更改它的长度。您还可以在一个项目中使用多个声音轨道。例如，如果要更改整个影片中声音轨道所渲染的氛围，可以修剪时间线中的第一个声音轨道，然后在第一个声音轨道之后放置另一个声音轨道。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，添加声音轨道后，您可以像处理任何其他类型的片段一样更改它的长度。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加声音轨道和声音效果.json",
+        "grounding": [
+            "添加声音轨道后，您可以像处理任何其他类型的片段一样更改它的长度。您还可以在一个项目中使用多个声音轨道。例如，如果要更改整个影片中声音轨道所渲染的氛围，可以修剪时间线中的第一个声音轨道，然后在第一个声音轨道之后放置另一个声音轨道。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

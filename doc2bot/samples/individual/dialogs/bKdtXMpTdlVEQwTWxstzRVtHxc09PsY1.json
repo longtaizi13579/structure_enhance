@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江杭州，想咨询一些小客车指标问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T4",
+            "T153"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询个人新能源类小客车其他指标配置、单位被盗抢小客车其他指标配置还是个人出租客运小客车其他指标配置呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "个人新能源类小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询个人新能源类小客车其他指标配置办理地址在哪里呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "个人新能源类小客车其他指标配置",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们办公地点为：杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "23",
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么这个配置什么时候能办完呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "个人新能源类小客车其他指标配置",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "按照规定会在7个工作日内完成。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "法定办结时限",
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "但是我已经超过这个时间了，你们还没有办理完，我需要投诉。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想查询投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我需要知道投诉地址。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们投诉地址为：杭州市中河北路108号港航大楼14楼1417室。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那么我先咨询投诉电话，需要确认投诉的材料。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们投诉电话为：0571-87008625。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "咨询电话",
+            "0571-87008625"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "相关的材料咨询在哪里查询呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是要查询咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我要查询咨询地址。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们咨询地址为：杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "30",
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我现在处于离婚状态，调解离婚类配置案件在哪里办理呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "法院判决、调解离婚类其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "我们线下办理在：杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_法院判决、调解离婚类其他指标配置.json",
+        "grounding": [
+            "办理地点",
+            "杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江温州办理机动车解除抵押登记的情况",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是是否网办，办理形式，通办范围还是是否支持预约办理",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办理的形式有哪些？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有网上申请，现场窗口申请和邮寄申请",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还嫌知道更多信息的话可以怎么咨询呢？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址和咨询网址三种，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道咨询的地址在哪里",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理的话需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "310"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，办理的话要到哪儿去的？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "前往温州市公安局交管局车辆管理所综合大楼二楼8-12号窗口进行办理",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "温州市公安局交管局车辆管理所综合大楼二楼8-12号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那需不需要用那种自助机器呢？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问您说的是自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

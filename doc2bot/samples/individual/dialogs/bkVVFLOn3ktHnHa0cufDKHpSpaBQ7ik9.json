@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我小轿车车架换了需要更新一下我的那个证件，请问去咨询哪项服务啊？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车",
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "需要去办理机动车因质量问题更换整车变更登记的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那衢州这边办理这个需要多少天呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "机动车因质量问题更换整车变更登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一个工作日就行了，不会太久的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "听说有自助机可以帮忙办理，这个是真的吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我这边了解到的是不可以在自助终端上面办理的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "看来要去一趟了，能不能告诉一下地址在哪？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口，您记一下。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "最后问一下，办理的费用可以微信，支付宝支付吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "630"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，现金也可以。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "631"
+        ]
+    }
+]

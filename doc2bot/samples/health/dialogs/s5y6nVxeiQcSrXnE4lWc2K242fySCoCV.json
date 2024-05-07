@@ -1,0 +1,54 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下消化系统疾病的症状。",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_消化系统疾病的症状和诊断_反流和反刍.json",
+        "grounding": [
+            "消化系统疾病的症状和诊断"
+        ],
+        "grounding_id": [
+            "T1847"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "消化系统疾病？是反流和反刍 、 成人腹泻还是消化不良？具体是什么病症？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_消化道功能障碍_消化系统疾病的症状和诊断_反流和反刍.json",
+        "grounding": [
+            "反流和反刍"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想让您详细介绍一下反流和反刍具体是什么意思？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_消化系统疾病的症状和诊断_反流和反刍.json",
+        "grounding": [
+            "反流和反刍"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "反流是指在没有恶心或腹肌强力收缩的情况下，食物自食管或胃吐出，反刍是无明显物理原因的反流。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_消化系统疾病的症状和诊断_反流和反刍.json",
+        "grounding": [
+            "反流是指在没有恶心或腹肌强力收缩的情况下，食物自食管或胃吐出。反刍是无明显物理原因的反流。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

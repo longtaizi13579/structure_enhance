@@ -1,0 +1,284 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省台州市婚姻生育有关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "浙江省_台州市",
+            "婚姻生育"
+        ],
+        "grounding_id": [
+            "T8",
+            "T301"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，是婚姻方面的问题吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "婚姻"
+        ],
+        "grounding_id": [
+            "T302"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "婚姻"
+        ],
+        "grounding_id": [
+            "T302"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那具体是涉外国人、涉港澳台居民、华侨结婚登记、涉外国人、涉港澳台居民、华侨补领婚姻登记证还是涉外国人、涉港澳台居民、华侨离婚登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨结婚登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解涉外国人、涉港澳台居民、华侨结婚登记业务收费有关的问题",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨结婚登记",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "293"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果需要支付费用，可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理这个业务收费吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "294"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "295"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "涉外国人、涉港澳台居民、华侨结婚登记这个业务的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨结婚登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "193"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.初审 3.受理 4.审查 5.登记（发证）",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "登记（发证）",
+            "审查",
+            "受理",
+            "初审",
+            "申请"
+        ],
+        "grounding_id": [
+            "220",
+            "212",
+            "204",
+            "196",
+            "194"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个业务办理需要多久？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "204",
+            "206"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "当场即办",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "207"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "结婚证是当场就可以发吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "登记（发证）",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "220",
+            "226"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "当场颁发结婚证。"
+        ],
+        "grounding_id": [
+            "227"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "有什么年龄的限制吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "受理条件",
+            "（三）当事人男年满22周岁，女年满20周岁。"
+        ],
+        "grounding_id": [
+            "132",
+            "303"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "当事人男年满22周岁，女年满20周岁。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "（三）当事人男年满22周岁，女年满20周岁。"
+        ],
+        "grounding_id": [
+            "303"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "需要提供什么吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "受理条件",
+            "（七）当事人提交3张2寸双方近期半身免冠合影照片。"
+        ],
+        "grounding_id": [
+            "132",
+            "307"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "当事人提交3张2寸双方近期半身免冠合影照片。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨结婚登记.json",
+        "grounding": [
+            "（七）当事人提交3张2寸双方近期半身免冠合影照片。"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    }
+]

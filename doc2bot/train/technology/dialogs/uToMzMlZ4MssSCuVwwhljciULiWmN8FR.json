@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的苹果手机里的“设置”App图标上显示了一个数字1的红色标记，这是怎么回事？",
+        "act": "why",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果“设置”App图标上显示带有数字的红色标记，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以打开“设置”App，然后轻点信息以进一步了解相应信息。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "打开“设置”App。",
+            "轻点信息以进一步了解相应信息。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，我更新系统后，看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息，想咨询一些相关问题？",
+        "act": "what",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体想咨询哪一种呢？",
+        "act": "multiple-choice",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解一下检测到超宽带问题。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "检测到超宽带问题"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您使用的iPhone支持超宽带吗？",
+        "act": "verification",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果支持超宽带的iPhone机型上出现这条信息，则表示在更新iPhone的超宽带功能时出现问题。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "支持。",
+        "act": "ans/yes",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果支持超宽带的iPhone机型上出现这条信息，则表示在更新iPhone的超宽带功能时出现问题。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果支持超宽带的iPhone机型上出现这条信息，则表示在更新iPhone的超宽带功能时出现问题。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果支持超宽带的iPhone机型上出现这条信息，则表示在更新iPhone的超宽带功能时出现问题。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "一般会在哪里看到这些问题信息？",
+        "act": "where",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "您可能会在主屏幕上或在“设置”>“通用”>“关于本机”中的“部件和服务历史记录”下方看到这些信息。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可能会在主屏幕上或在“设置”>“通用”>“关于本机”中的“部件和服务历史记录”下方看到这些信息。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "您可能会在主屏幕上或在“设置”>“通用”>“关于本机”中的“部件和服务历史记录”下方看到这些信息。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

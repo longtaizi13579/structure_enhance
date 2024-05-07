@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省的公司注销登记的办理是哪个时间段上班呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "公司注销登记",
+            "浙江省_丽水市",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "T14",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是在丽水市是吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，办理时间段是几点到几点？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T14",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "丽水市全年工作日的上午8:30-12:00，下午14:00-17:00时间内均可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "全年工作日上午8:30-12:00，下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "公司注销登记决定后大概多久能收到文件呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "公司注销登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_公司注销登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

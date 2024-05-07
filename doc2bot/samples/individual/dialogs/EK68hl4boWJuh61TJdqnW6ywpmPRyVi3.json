@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下，我是浙江省嘉兴市的我车身换了颜色了，更换行驶证需要多少钱呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "机动车更换车身或者车架变更登记",
+            "收费标准",
+            "1\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "1",
+            "339",
+            "348",
+            "349"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不贵的，10元一本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "350"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我可以在网上缴费吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "339",
+            "345"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "346"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我办理还需要缴费吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "339"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，过程中会有收费情况的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "341"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个办结最多是多久啊",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定的是1天，最好是1天办理完成",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我想转移登记的话是在哪里办理啊",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在嘉兴市公安局交警支队车辆管理所车城分所就可以办理",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以具体一点嘛？我不是很清楚",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，在嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼1楼2—6号窗口进行办理就可以了",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个结办也是一天吧",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "对的对的，也是1天",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

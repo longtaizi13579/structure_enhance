@@ -1,0 +1,308 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省宁波市的，想咨询下汽车登记的问题？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T10",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解机动车在车辆管理所管辖区域内转移登记，机动车灭失注销登记，国产机动车注册登记，机动车更换车身或者车架变更登记，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下机动车在车辆管理所管辖区域内转移登记，一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问下国产机动车注册登记，这个办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理地点是：宁波市公安局交通警察局车辆管理所二分所（宁波市海曙区古林镇鄞县大道古林段1号）一楼业务受理大厅1-24号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "办理地点",
+            "宁波市公安局交通警察局车辆管理所二分所（宁波市海曙区古林镇鄞县大道古林段1号）一楼业务受理大厅1-24号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉电话是：0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话",
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "鄞州区福明街道附近，有没有办理点？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "线下办事点",
+            "宁波和美（社会代办）机动车登记服务站（宁波市鄞州区福明街道江南路39号）一楼业务受理大厅9-15号窗口（限小型汽车，省外购车除外）"
+        ],
+        "grounding_id": [
+            "126",
+            "149"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，地址是：宁波和美机动车登记服务站（宁波市鄞州区福明街道江南路39号）一楼业务受理大厅9-15号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "宁波和美（社会代办）机动车登记服务站（宁波市鄞州区福明街道江南路39号）一楼业务受理大厅9-15号窗口（限小型汽车，省外购车除外）"
+        ],
+        "grounding_id": [
+            "149"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这边办事处的正常办理时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "150"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理时间是：工作日上午8:30—11:30，下午13:30—17:00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "办理时间",
+            "工作日上午8:30—11:30，下午13:30—17:00。"
+        ],
+        "grounding_id": [
+            "150",
+            "151"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问下机动车更换车身或者车架变更登记，这边办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "咨询电话是：0574-81983333",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "咨询电话",
+            "0574-81983333"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "416"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "417"
+        ]
+    }
+]

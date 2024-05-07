@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省金华市的，我想了解一些职工社保医保的问题。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "浙江省_金华市",
+            "职工社保医保"
+        ],
+        "grounding_id": [
+            "T9",
+            "T141"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解参保单位参保信息查询 、机关事业单位和个人应缴养老保险费核定还是转移接续手续办理呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解参保单位参保信息查询要去哪里查询？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您到金华市行政服务中心三楼社保综合服务窗口就可以查询了。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼社保综合服务窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道要去查询参保单位参保信息需要什么材料要去哪里问？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以到金华市行政服务中心三楼医保综合服务大厅咨询一下。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼医保综合服务大厅"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "参保单位参保信息查询只能去服务中心办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解参保单位参保信息查询是否网办 、办理形式 、通办范围、是否支持预约办理中的哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道除了窗口申请办理还有哪种办理方式。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还可以在网上进行申请。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "79"
+        ]
+    }
+]

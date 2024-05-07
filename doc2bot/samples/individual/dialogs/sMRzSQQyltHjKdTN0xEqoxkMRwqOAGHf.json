@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我对浙江杭州的个人出租客运小客车其他指标配置有意见，快给我个投诉链接。我要投诉！！链接是啥？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "个人出租客运小客车其他指标配置",
+            "投诉网址"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，可以到https://zxts.zjzwfw.gov.cn/wsdt/ 进行投诉的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "https://zxts.zjzwfw.gov.cn/wsdt/"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "链接写东西太多了，投诉电话是啥？打电话方便点。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线为0571-12345。可以打一下这个电话。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "电话打不通咋办？我看看附近有没有可以投诉的地址？面对面好说话。",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "杭州市的投诉地址是中河北路108号港航大楼14楼1417室。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好嘞，多谢。我问一下哈，那个个人出租客运小客车其他指标配置的对象只针对个人申请吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "个人出租客运小客车其他指标配置",
+            "适用对象说明",
+            "个人申请"
+        ],
+        "grounding_id": [
+            "1",
+            "79",
+            "80"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，只针对个人申请。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "个人申请"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那我必须到现场办理并说明相关原因吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "必须现场办理原因说明"
+        ],
+        "grounding_id": [
+            "67"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "无需到现场办理的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人出租客运小客车其他指标配置.json",
+        "grounding": [
+            "无需到现场办理"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    }
+]

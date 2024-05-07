@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "旅行者腹泻可能出现发热的症状吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "旅行者腹泻",
+            "旅行者腹泻的症状",
+            "发热"
+        ],
+        "grounding_id": [
+            "1",
+            "20",
+            "28"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可能的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "发热"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "但这个判断的时候需要做检查吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "旅行者腹泻的诊断",
+            "很少需要诊断性检查，但有时需要在粪便样本中检测细菌、病毒或寄生虫。"
+        ],
+        "grounding_id": [
+            "30",
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "很少需要诊断性检查，但有时需要在粪便样本中检测细菌、病毒或寄生虫。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "很少需要诊断性检查，但有时需要在粪便样本中检测细菌、病毒或寄生虫。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，如果出现相关的症状应该怎么治疗呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "旅行者腹泻的治疗"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "补液，停止腹泻的药物（止泻药），有时服用抗生素或抗寄生虫药物，请问您需要了解更多信息吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "补液",
+            "停止腹泻的药物（止泻药）",
+            "有时服用抗生素或抗寄生虫药物"
+        ],
+        "grounding_id": [
+            "42",
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "止泻药可以吃哪一种呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "当出现症状时，治疗应包括饮用大量液体和使用停止腹泻的药物（如洛哌丁胺）。这种药物禁用于发热，血便以及小于2岁的儿童中。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "停止腹泻的药物，如洛哌丁胺",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "当出现症状时，治疗应包括饮用大量液体和使用停止腹泻的药物（如洛哌丁胺）。这种药物禁用于发热，血便以及小于2岁的儿童中。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "服用的时候有没有限制条件？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "当出现症状时，治疗应包括饮用大量液体和使用停止腹泻的药物（如洛哌丁胺）。这种药物禁用于发热，血便以及小于2岁的儿童中。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这种药物禁用于发热，血便以及小于2岁的儿童中。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "当出现症状时，治疗应包括饮用大量液体和使用停止腹泻的药物（如洛哌丁胺）。这种药物禁用于发热，血便以及小于2岁的儿童中。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，有关旅行者腹泻的更多信息可以从什么地方获取？",
+        "act": "where",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "有关旅行者腹泻的更多信息"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "关于食品和用水安全可以从美国疾病控制和预防中心（CDC）获取",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "美国疾病控制和预防中心（CDC）：食品和用水安全"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那会不会出现肠鸣音增强的现象呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "肠鸣音增强"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可能伴随恶心、呕吐一起出现",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "肠鸣音增强",
+            "恶心",
+            "呕吐"
+        ],
+        "grounding_id": [
+            "25",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那引起腹泻的原因一般是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "引起这种疾病的物质多来自水或食物，尤其是水供不卫生的发展中国家。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "引起这种疾病的物质多来自水或食物，尤其是水供不卫生的发展中国家。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_胃肠炎_旅行者腹泻.json",
+        "grounding": [
+            "引起这种疾病的物质多来自水或食物，尤其是水供不卫生的发展中国家。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

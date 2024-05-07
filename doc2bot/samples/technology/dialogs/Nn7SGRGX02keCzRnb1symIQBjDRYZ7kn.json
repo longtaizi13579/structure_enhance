@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我妈妈的手机丢了，我可以手机通过共享位置的方式来找她的手机吗？",
+        "act": "verification",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家人共享您的位置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，您可以在“查找我的iPhone”中协助家庭成员定位丢失的设备。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "通过“家人共享”，您可以在“查找”App或“信息”App中与家庭成员共享您的位置。您甚至可以在“查找我的iPhone”中协助家庭成员定位丢失的设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我知道了，我还有一些与家人共享位置的问题不太清楚，你能给我解答一下吗？",
+        "act": "verification",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家人共享您的位置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解与家庭成员共享您的位置还是选取从哪台设备共享您的位置呢？",
+        "act": "multiple-choice",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家庭成员共享您的位置"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道与家庭成员共享位置要怎么做？",
+        "act": "how",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "与家庭成员共享您的位置"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先在iPhone、iPad或Mac上，打开“查找”App。 然后轻点或点按“联系人”标签。 再轻点或点按相应家庭成员的姓名，然后再次轻点这个姓名以查看菜单。 最后轻点或点按“共享我的位置”就可以了。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "在iPhone、iPad或Mac上，打开“查找”App。",
+            "轻点或点按“联系人”标签。",
+            "轻点或点按相应家庭成员的姓名，然后再次轻点这个姓名以查看菜单。",
+            "轻点或点按“共享我的位置”。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的我明白了，那如果我的手机丢了，我要怎么样才可以定位到我丢失的手机呢?",
+        "act": "how",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "家庭成员可以协助您查找丢失的设备"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您与“家人共享”群组共享了您的位置，并且在丢失的设备上打开了“查找”，这时您的家人就可以协助您定位丢失的设备。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "如果您与“家人共享”群组共享了您的位置，并且在丢失的设备上打开了“查找”，您的家人可以协助您定位丢失的设备。家庭成员可以："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我是打开了的，那家庭成员可以远程操控我的手机吗？",
+        "act": "verification",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "家庭成员可以协助您查找丢失的设备"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般是可以的，家庭成员可以看到设备所在位置以及处于在线还是离线状态。可以在丢失的设备上播放声音，以协助您找到设备。可以将您的设备置于丢失模式，前提是设备上设置了锁屏密码，远程抹掉设备。",
+        "act": "ans/open",
+        "document": "与家人共享您的位置.json",
+        "grounding": [
+            "看到设备所在位置以及处于在线还是离线状态。",
+            "在丢失的设备上播放声音，以协助您找到设备。",
+            "将您的设备置于丢失模式，前提是设备上设置了锁屏密码。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35"
+        ]
+    }
+]

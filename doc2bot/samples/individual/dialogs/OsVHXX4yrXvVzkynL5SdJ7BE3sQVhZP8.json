@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省台州市机动车申请补换领纸质检验合格标志的信息",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_台州市",
+            "机动车申请补换领纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "T8",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道这个规定的设定依据是哪个机关颁布的？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "设定依据",
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "1",
+            "317",
+            "323"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "公安部",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "公安部"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果有别的信息想知道的话怎么办？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址，咨询网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0576－12123",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "0576－12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果有不满意的话可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以拨打0576－12345进行投诉",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "0576－12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

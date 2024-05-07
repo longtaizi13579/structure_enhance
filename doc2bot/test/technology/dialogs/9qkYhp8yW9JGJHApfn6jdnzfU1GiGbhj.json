@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何重新安装macOS？",
+        "act": "how",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "如何重新安装macOS"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "使用macOS恢复功能重新安装Mac操作系统。",
+        "act": "ans/open",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "使用macOS恢复功能重新安装Mac操作系统。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还有个问题，在Mac上安装MicrosoftWindows后，还可以使用macOS启动Mac吗？",
+        "act": "verification",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "以macOS或Windows重新启动Mac",
+            "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。",
+        "act": "ans/yes",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下关于关于 macOS 服务器 5.7.1 及更高版本的问题？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解：macOS服务器5.12及更高版本中包含的服务，macOS服务器5.7.1至5.11.1中包含的服务，从macOS服务器迁移到macOSBigSur及更高版本的服务，还是从macOS服务器迁移至macOSHighSierra及更高版本的服务",
+        "act": "multiple-choice",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含的服务"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解下macOS服务器5.7.1至5.11.1中包含的服务有哪些？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含的服务"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：描述文件管理器；OpenDirectory；Xsan。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory",
+            "Xsan"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省舟山市的，我把汽车颜色改了，该怎么登记？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "机动车",
+            "机动车改变车身颜色变更登记"
+        ],
+        "grounding_id": [
+            "T9",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向相关单位申请机动车改变车身颜色变更登记。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址是：浙江省舟山市新城海天大道399号。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "送达时限：自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还有个问题，我刚买没多久的一辆汽车，因为质量问题退车了，怎么注销登记？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以向相关单位申请机动车因质量问题退车注销登记。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理地点在哪里？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理地点是：舟山市公安局交通警察支队车辆管理所2－5号窗口（舟山市定海区新城街道海天大道399号）。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点",
+            "舟山市公安局交通警察支队车辆管理所2－5号窗口（舟山市定海区新城街道海天大道399号）"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下关于Mac上的系统完整性保护?",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想问什么呢？",
+        "act": "question/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下关于Mac上的系统完整性保护都对哪些系统部分进行保护？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护包含对以下系统部分的保护："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "/系统/usr /bin /sbin /var 和OSX预装的应用",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "/系统",
+            "/usr",
+            "/bin",
+            "/sbin",
+            "/var",
+            "OSX预装的应用"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下在实施系统完整性保护之前，root用户受不受权限限制？",
+        "act": "verification",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "在实施系统完整性保护之前，root用户不受任何权限限制，因此可以访问Mac上的任意系统文件夹或应用。如果您在安装软件时输入了管理员用户名和密码，这个软件就能获得root级访问权限。这样使软件能够修改或覆盖任意系统文件或应用。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在实施系统完整性保护之前，root用户不受任何权限限制。",
+        "act": "ans/no",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "在实施系统完整性保护之前，root用户不受任何权限限制，因此可以访问Mac上的任意系统文件夹或应用。如果您在安装软件时输入了管理员用户名和密码，这个软件就能获得root级访问权限。这样使软件能够修改或覆盖任意系统文件或应用。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你能再给我讲一下系统完整性保护是什么吗？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我最后还想问一下第三方应用和安装器可以针对什么完成写入操作?",
+        "act": "verification",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "第三方应用和安装器可以针对以下路径和应用继续完成写入操作："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "/应用程序/资源库和/usr/local",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "/应用程序",
+            "/资源库",
+            "/usr/local"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

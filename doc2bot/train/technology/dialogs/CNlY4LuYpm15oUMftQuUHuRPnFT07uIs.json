@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于iPhone13Pro上的AppleProRes的相关问题？",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "关于iPhone13Pro上的AppleProRes"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：打开ProRes，管理ProRes文件，在“照片”及其他App中使用ProRes格式，编辑ProRes文件，还是共享ProRes视频？",
+        "act": "multiple-choice",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "编辑ProRes文件"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哪些Apple设备支持ProRes播放和编辑？",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "编辑ProRes文件",
+            "以下Apple设备支持ProRes播放和编辑："
+        ],
+        "grounding_id": [
+            "30",
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "以下Apple设备支持ProRes播放和编辑：装有MacOSX10.6及更高版本的Mac；12.9英寸iPadPro（第3代）及更新机型；11英寸iPadPro（第1代）及更新机型；iPadAir（第5代）；iPadmini（第6代）；iPhone13mini、iPhone13、iPhone13Pro、iPhone13ProMax。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "以下Apple设备支持ProRes播放和编辑：",
+            "装有MacOSX10.6及更高版本的Mac",
+            "12.9英寸iPadPro（第3代）及更新机型",
+            "11英寸iPadPro（第1代）及更新机型",
+            "iPadAir（第5代）",
+            "iPadmini（第6代）",
+            "iPhone13mini、iPhone13、iPhone13Pro、iPhone13ProMax"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在哪些App中可以编辑ProRes文件？",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "您可以在iOS版“照片”App或iMovie剪辑、Mac版iMovie剪辑或FinalCutPro，或是支持ProRes的第三方编辑App中编辑AppleProRes文件。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在iOS版“照片”App或iMovie剪辑、Mac版iMovie剪辑或FinalCutPro，或是支持ProRes的第三方编辑App中编辑AppleProRes文件。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "您可以在iOS版“照片”App或iMovie剪辑、Mac版iMovie剪辑或FinalCutPro，或是支持ProRes的第三方编辑App中编辑AppleProRes文件。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想了解下管理ProRes文件的问题，ProRes文件大吗，会不会很快把储存空间用完？",
+        "act": "verification",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "管理ProRes文件",
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。",
+        "act": "ans/yes",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我可以使用iCloud照片来储存照片吗？",
+        "act": "verification",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "iCloud对文件大小有限制吗？",
+        "act": "verification",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "iCloud对文件大小也有限制。",
+        "act": "ans/yes",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "就大小而言，ProRes文件是HEVC文件的最多30倍。如果您将这些文件储存在您的设备上，可能会比预期更快用尽储存空间。如果您使用“iCloud照片”储存照片，则可能需要升级iCloud储存空间方案，为这些较大的文件提供更多空间。iCloud对文件大小也有限制。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

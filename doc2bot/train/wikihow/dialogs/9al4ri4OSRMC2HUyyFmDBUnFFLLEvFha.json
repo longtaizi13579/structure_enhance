@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一些计算机的使用问题，你能给我说说吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何彻底禁用谷歌Chrome更新还是如何删除谷歌搜索记录呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何彻底禁用谷歌Chrome更新",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Chrome浏览器中禁用自动更新可以阻止浏览器在未授权的情况下下载和安装更新。如果想在Windows电脑上禁用Chrome更新，那就得用注册表编辑器来阻止进行更新。而在Mac电脑上，要用到终端应用程序。如果是移动设备端，则可以禁用Chrome应用程序的自动更新功能。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "在Chrome浏览器中禁用自动更新可以阻止浏览器在未授权的情况下下载和安装更新。如果想在Windows电脑上禁用Chrome更新，那就得用注册表编辑器来阻止进行更新。而在Mac电脑上，要用到终端应用程序。如果是移动设备端，则可以禁用Chrome应用程序的自动更新功能。",
+            "如何彻底禁用谷歌Chrome更新"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这样啊，那你给我说说在Mac电脑上要怎么操作？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先在实用程序文件夹中打开终端程序。然后输入命令，禁用谷歌产品的自动更新。如果打开了Chrome浏览器，请重新启动它。 最后手动查看更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "在实用程序文件夹中打开终端程序。",
+            "输入命令，禁用谷歌产品的自动更新。",
+            "如果打开了Chrome浏览器，请重新启动它。",
+            "手动查看更新。"
+        ],
+        "grounding_id": [
+            "5",
+            "8",
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我知道了，那手动检查更新怎么做？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "手动查看更新。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以打开浏览器菜单，选择“帮助”→“关于GoogleChrome”，来手动检查更新。也可以再次打开终端程序，使用相同的命令，用检查更新的间隔时间（秒计时）来代替0，切换回自动更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "定期更新Chrome浏览器能够保证电脑的安全。你可以打开浏览器菜单，选择“帮助”→“关于GoogleChrome”，来手动检查更新。",
+            "你也可以再次打开终端程序，使用相同的命令，用检查更新的间隔时间（秒计时）来代替0，切换回自动更新。例如，如果想要每24小时检查一次更新，请设置为checkInterval86400。"
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了。我还想了解一些网络故障的问题，你给我说说。",
+        "act": "verification",
+        "document": "计算机与电子产品_如何跟踪路由.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解如何跟踪路由还是如何修复互联网连接呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何跟踪路由.json",
+        "grounding": [
+            "如何跟踪路由"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道怎么确定导致出现连接问题的网络故障？",
+        "act": "how",
+        "document": "计算机与电子产品_如何跟踪路由.json",
+        "grounding": [
+            "如何跟踪路由"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“traceroute”命令允许你跟踪IP包在你电脑和它的目的地之间的停止位置，这样可以帮你确定导致出现连接问题的网络故障。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何跟踪路由.json",
+        "grounding": [
+            "本文教你如何在电脑或智能手机上运行“traceroute”命令。“traceroute”命令允许你跟踪IP包在你电脑和它的目的地之间的停止位置，这样可以帮你确定导致出现连接问题的网络故障。",
+            "如何跟踪路由"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    }
+]

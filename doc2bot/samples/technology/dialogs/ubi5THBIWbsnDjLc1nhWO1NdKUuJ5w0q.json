@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下通过Alexa播放Apple播客的信息",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "通过Alexa播放Apple播客"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面的信息呢",
+        "act": "question/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "通过Alexa播放Apple播客",
+            "使用Alexa设置Apple播客"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如果在使用Alexa、AmazonEcho设备方面出现问题应该向哪里寻求协助呢",
+        "act": "where",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "请向Amazon寻求协助。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请向Amazon寻求协助",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "请向Amazon寻求协助。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那使用Alexa设置Apple播客的具体步骤是什么",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "使用Alexa设置Apple播客",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "4",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开AmazonAlexaApp，然后轻点屏幕底部的“More”（更多）标签，轻点“Settings”（设置），向下滚动，然后轻点“Music&Podcasts”（音乐与播客），轻点“LinkNewService”（关联新服务），然后轻点“ApplePodcasts”（Apple播客）按钮，轻点“EnabletoUse”（启用以使用），然后轻点“Settings”（设置），轻点“LinkAccount”（关联帐户），然后进行认证。",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "打开AmazonAlexaApp，然后轻点屏幕底部的“More”（更多）标签。",
+            "轻点“Settings”（设置）。",
+            "向下滚动，然后轻点“Music&Podcasts”（音乐与播客）。",
+            "轻点“LinkNewService”（关联新服务），然后轻点“ApplePodcasts”（Apple播客）按钮。",
+            "轻点“EnabletoUse”（启用以使用），然后轻点“Settings”（设置）。",
+            "轻点“LinkAccount”（关联帐户），然后使用面容ID、触控ID或密码进行认证。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "认证的方式有哪些呢",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "轻点“LinkAccount”（关联帐户），然后使用面容ID、触控ID或密码进行认证。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以使用面容ID、触控ID或密码进行认证",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "轻点“LinkAccount”（关联帐户），然后使用面容ID、触控ID或密码进行认证。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果在Alexa中停用Apple播客之后还会与AmazonAlexaApp有什么关联吗",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "在Alexa中停用Apple播客",
+            "停用Apple播客技能还将取消Apple播客帐户与AmazonAlexaApp的关联。"
+        ],
+        "grounding_id": [
+            "27",
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有了，停用Apple播客技能还将取消Apple播客帐户与AmazonAlexaApp的关联",
+        "act": "ans/no",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "停用Apple播客技能还将取消Apple播客帐户与AmazonAlexaApp的关联。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，可以告诉我一下停用Apple播客的步骤吗",
+        "act": "what",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "在Alexa中停用Apple播客",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先打开AmazonAlexaApp，然后轻点屏幕底部的“More”（更多）标签，轻点“Settings”（设置）。轻点“Music&Podcasts”（音乐与播客）。 轻点“ApplePodcasts”（Apple播客）。最后轻点“DisableSkill”（停用技能）。",
+        "act": "ans/open",
+        "document": "通过Alexa播放Apple播客.json",
+        "grounding": [
+            "打开AmazonAlexaApp，然后轻点屏幕底部的“More”（更多）标签。",
+            "轻点“Settings”（设置）。",
+            "轻点“Music&Podcasts”（音乐与播客）。",
+            "轻点“ApplePodcasts”（Apple播客）。",
+            "轻点“DisableSkill”（停用技能）。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    }
+]

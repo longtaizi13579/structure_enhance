@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省金华市出入境的相关问题。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "浙江省_金华市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T6",
+            "T6",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问港澳通行证及签注还是台湾通行证及签注的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "台湾通行证及签注相关赴台团队旅游签注业务的监督投诉方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "赴台团队旅游签注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T240",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "三种，投诉电话 、投诉地址、投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请给我投诉地址。",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，您可以去浙江省金华市婺城区双龙南街801号金华市信访局投诉。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话也告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0571-87286318；0579-12345都可以进行电话投诉。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "0571-87286318；0579-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个业务的办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

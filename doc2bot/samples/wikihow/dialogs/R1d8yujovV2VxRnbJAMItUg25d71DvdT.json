@@ -1,0 +1,512 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "这几天我的PS3总是卡顿，重置一下会不会能好一点？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道如何重置PS3？还是想了解怎样让PS3速度变快？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "如何重置PS3"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何重置PS3？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "如何重置PS3"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果你的游戏或视频卡顿无响应，进行快速重置操作应该能修复这个问题。如果你更换了视频线后遇到问题，可以尝试重置视频输出设置来解决问题。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "可能有很多种不同的原因都需要你重置你的PS3设备。如果你的游戏或视频卡顿无响应，进行快速重置操作应该能修复这个问题。如果你更换了视频线后遇到问题，可以尝试重置视频输出设置来解决问题。如果你遇到频繁地锁定或是主界面（XMB又名图形化用户交互界面）有问题，你可能需要尝试使用安全模式中的硬盘驱动器工具来进行修复。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那该怎么重置PS3呢？不知道该怎么操作。",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "重置卡顿的PS3"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.长按PS3的电源按钮。 2.按住电源按钮约30秒钟。 3.等待几秒后，再次按下电源键来开机。 4.允许系统来检测错误。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "长按PS3的电源按钮。",
+            "按住电源按钮约30秒钟。",
+            "等待几秒后，再次按下电源键来开机。",
+            "允许系统来检测错误。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "9",
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，按住电源按钮30多秒了，会有提示吗？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "按住电源按钮约30秒钟。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你会听到三声短促的哔声，然后你的PS3会自动关闭。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "你会听到三声短促的哔声，然后你的PS3会自动关闭。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有其他方法进行重置吗？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "开启安全模式。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "开启安全模式"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "怎么开启安全模式，能说下操作步骤吗？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "开启安全模式"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "1.了解你为什么需要使用安全模式。 2.备份你已保存的游戏文件。 3.关闭你的PS3。 4.长按电源按钮，你会听到第一声哔声。 5.继续按住电源按钮，直到你听到第二声哔声，然后是第三声哔声。 6.再次按住电源按钮。 7.继续按住电源按钮，直到你听到一个快速的哔哔声。 8.连接手柄控制器，并打开它。 9.使用安全模式来重置你的PS3。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "了解你为什么需要使用安全模式。",
+            "备份你已保存的游戏文件。",
+            "关闭你的PS3。",
+            "长按电源按钮，你会听到第一声哔声。",
+            "继续按住电源按钮，直到你听到第二声哔声，然后是第三声哔声。",
+            "再次按住电源按钮。",
+            "继续按住电源按钮，直到你听到一个快速的哔哔声。",
+            "连接手柄控制器，并打开它。",
+            "使用安全模式来重置你的PS3。"
+        ],
+        "grounding_id": [
+            "28",
+            "30",
+            "37",
+            "39",
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "你第三步说要关闭PS3，是要关机操作的是吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "关闭你的PS3。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "想要进入安全模式，你需要先关闭你的PS3设备。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "想要进入安全模式，你需要先关闭你的PS3设备。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "怎么才能关闭PS3呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "关闭你的PS3。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "长按电源按钮，你会听到第一声哔声。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "长按电源按钮，你会听到第一声哔声。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "然后呢？第五步操作完之后会有怎样的提示呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "继续按住电源按钮，直到你听到第二声哔声，然后是第三声哔声。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "接着系统会关闭电源，电源灯也会变成红色。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "接着系统会关闭电源，电源灯也会变成红色。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "明白了，使用安全模式来重置PS3会有什么流程呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "使用安全模式来重置你的PS3。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您是想知道第九步的操作详情吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "使用安全模式来重置你的PS3。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "是的，安全模式重置后PS3会怎样？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "使用安全模式来重置你的PS3。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "你可以从多个选项中挑选一种方法，来帮助你修复PS3正遇到的问题。恢复文件系统-这会尝试修复硬盘上受损的文件。重建数据库-这会尝试修复硬盘上的数据库信息。恢复PS3系统-这会将PS3重置恢复为默认出厂设置，硬盘上存储的所有数据也会被删除。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "你可以从多个选项中挑选一种方法，来帮助你修复PS3正遇到的问题。按顺序尝试以下选项，来看看是否能修复问题。如果一种方法不行，就尝试使用下一个。",
+            "恢复文件系统-这会尝试修复硬盘上受损的文件。",
+            "重建数据库-这会尝试修复硬盘上的数据库信息。它会删除各种消息和通知，也会删除你创建的文件夹。不过不会删除文件。",
+            "恢复PS3系统-这会将PS3重置恢复为默认出厂设置，硬盘上存储的所有数据也会被删除。请确保您在进行此项修复操作前，已备份了所有你想要保存的文件和数据。"
+        ],
+        "grounding_id": [
+            "49",
+            "50",
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "重置时，会影响到里面的视频内容吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "如何重置PS3"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "会，需要重置视频输出设置。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "重置视频输出设置"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "这样啊，那我得怎么操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "重置视频输出设置"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "1.确保PS3处于关闭状态。 2.断开墙上的电源插座和PS3、电视的连接。 3.确保PS3设备已通过HDMI数据线连接到电视上。 4.将PS3和电视连入到电源插座。 5.将电视输入设置调整为正确的HDMI输入源。 6.长按PS3电源按钮，直到你听到第二声哔声。 7.使用PS3控制器来完成HDMI图像设置。 8.前往“设置”→“显示设置”。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3处于关闭状态。",
+            "断开墙上的电源插座和PS3、电视的连接。",
+            "确保PS3设备已通过HDMI数据线连接到电视上。",
+            "将PS3和电视连入到电源插座。",
+            "将电视输入设置调整为正确的HDMI输入源。",
+            "长按PS3电源按钮，直到你听到第二声哔声。",
+            "使用PS3控制器来完成HDMI图像设置。",
+            "前往“设置”→“显示设置”。"
+        ],
+        "grounding_id": [
+            "14",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "23",
+            "25"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "太复杂了，能先给我解释一下第一步吗？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3处于关闭状态。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "您是想知道如何确保PS3处于关闭状态？还是想知道怎样关闭PS3？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3处于关闭状态。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "我想知道如何确保PS3是关闭的状态。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3处于关闭状态。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "前面的电源灯应该是红色的。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "前面的电源灯应该是红色的。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "电源灯已经是红色的了，然后怎么做呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3处于关闭状态。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": "断开墙上的电源插座和PS3、电视的连接。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "断开墙上的电源插座和PS3、电视的连接。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 32,
+        "role": "user",
+        "utterance": "好的，这步也没问题了，再然后呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3设备已通过HDMI数据线连接到电视上。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 33,
+        "role": "system",
+        "utterance": "确保PS3设备已通过HDMI数据线连接到电视上。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "确保PS3设备已通过HDMI数据线连接到电视上。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 34,
+        "role": "user",
+        "utterance": "明白了，这个时候电视机需要怎么设置呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "将电视输入设置调整为正确的HDMI输入源。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 35,
+        "role": "system",
+        "utterance": "将电视输入设置调整为正确的HDMI输入源。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "将电视输入设置调整为正确的HDMI输入源。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问本市机动车解除抵押登记多久能办下来？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "行驶驾驶",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "T16",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你问的是丽水市的机动车解除抵押登记事项吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问你是要了解法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你要了解的丽水市机动车解除抵押登记的办结需要一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "请问如果要办理机动车共同所有人姓名变更后，新的机动车行驶证办理费用是多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "1\t机动车行驶证",
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "579",
+            "1",
+            "580"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "每本10元。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "581"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请问我去哪里咨询办理呢？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可在丽水市公安局交通警察支队车辆管理所进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            " 丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

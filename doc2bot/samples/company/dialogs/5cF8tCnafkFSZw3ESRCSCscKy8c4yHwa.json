@@ -1,0 +1,270 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想问一下这个员工公积金的事就是这个年度验审都有什么办理形式",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "职工公积金",
+            "住房公积金年度验审"
+        ],
+        "grounding_id": [
+            "T81",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯浙江绍兴市",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的这个可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个验审结果出来后多久能送达呀",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，对了这验审支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个目前不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那一般多久能办好呀",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个法定办结时限20（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，还想问一下这个验审可以到哪去办呀有具体地址吗",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "具体地址",
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "125",
+            "124"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的帮您查询了一下具体地址绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦好的，在问一下他们办公时间呀",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "时间您记一下，工作日，夏季：上午8:30-12:00，下午2:00-5:30；冬季：上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "工作日，夏季：上午8:30-12:00，下午2:00-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯，麻烦您再给查一下关于这个验审办理都有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个有三种方式一咨询电话二咨询地址三咨询网址，您需要哪一个呀",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个咨询地址是哪里",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "地址是浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "有什么禁止性要求吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "禁止性要求",
+            "住房公积金年度验审"
+        ],
+        "grounding_id": [
+            "134",
+            "1"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "无禁止性要求",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    }
+]

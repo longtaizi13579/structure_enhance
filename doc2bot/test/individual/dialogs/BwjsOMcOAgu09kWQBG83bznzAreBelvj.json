@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我应邀赴台签注，办理一下台湾通行证，在哪里咨询办理呢",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，在您当地的市行政服务中心就可以了",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "啊行我知道了，我是这个浙江省舟山市的，具体的地址在哪里呢？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "浙江省_舟山市",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T9",
+            "T9",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在定海区临城翁山路555号市行政服务中心二楼的公安出入境窗口办理就可以了",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那会收费嘛？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "987"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您好，这是会收费的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "988"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的那我就在二楼办理就行了吗？有具体的窗口吗",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，在2到6号窗口办理就行了",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境2-6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行，这个几天可以办理出来呢",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您好，一般办理完两个工作日就送到了",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办好的话，会在多少天内啊",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般30个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

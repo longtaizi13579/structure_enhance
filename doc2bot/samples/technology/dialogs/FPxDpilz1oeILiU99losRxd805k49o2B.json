@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我要怎么和我朋友共享我的AppleWatch表盘呢？",
+        "act": "how",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "共享AppleWatch表盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解如何从AppleWatch共享表盘、从iPhone共享表盘、在网上共享表盘、使用朋友共享给您的表盘、在网上获取共享表盘中的哪一个呢？",
+        "act": "multiple-choice",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "如何从AppleWatch共享表盘"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解如何从AppleWatch共享表盘。",
+        "act": "ans/open",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "如何从AppleWatch共享表盘"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您要让您的AppleWatch上显示您想要共享的表盘，然后按住显示屏，然后轻点“共享”>“添加联系人”，接着选择联系人，轻点表盘名称选择您要分享的数据，在选择完成。如果您想添加备注供收件人查看，需要轻点新建信息。如果不需要，直接选择默认信息，完成后点击完成，再点发送就可以啦。",
+        "act": "ans/open",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "确保您AppleWatch上显示的是您想要共享的表盘。",
+            "按住显示屏，然后轻点“共享”按钮。",
+            "轻点“添加联系人”，然后在收件人列表中进行选择。您也可以使用屏幕顶部的按钮，通过语音搜索联系人、浏览所有联系人或输入电话号码。",
+            "轻点表盘名称，然后针对各个复杂功能，指定您希望在添加这个复杂功能时包含还是不包含数据。您还可以在共享表盘时选择排除某个复杂功能。默认设置为共享所有复杂功能及数据（如果有数据）。完成后，轻点“完成”。",
+            "如果您想添加备注供收件人查看，请轻点“新建信息”。您可以选择默认信息，也可以使用屏幕顶部的按钮通过听写功能、随手写功能或表情符号来添加信息。完成后，轻点“完成”。",
+            "轻点“发送”。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这么麻烦，那从iPhone上怎么共享呢？",
+        "act": "how",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "从iPhone共享表盘"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先您要打开iPhone上的WatchApp。在“我的手表”标签或“表盘图库”标签中选择一个表盘。轻点“共享”按钮，然后选取所需的共享方式即可。",
+        "act": "ans/open",
+        "document": "共享AppleWatch表盘.json",
+        "grounding": [
+            "打开iPhone上的WatchApp。在“我的手表”标签或“表盘图库”标签中选择一个表盘。轻点“共享”按钮，然后选取所需的共享方式。您可以使用“信息”、“邮件”、“隔空投送”或第三方App来发送表盘。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iPhone的这么简单，我直接iPhone共享吧！对了，我还想问一下，如果我想用家庭共享从电脑把图片共享到手机上，是要连接同一个网络吗？",
+        "act": "verification",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”将媒体从电脑共享到其他设备",
+            "将所有设备连接到同一Wi-Fi或以太网网络。"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，您需要将所有设备连接到同一Wi-Fi或以太网网络。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "将所有设备连接到同一Wi-Fi或以太网网络。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦哦，还有一个，我有一个HEVC的视频，为啥一直不能看呢？",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "在Apple设备上使用HEIF或HEVC媒体"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要在您的设备上完全查看、编辑或复制HEIF和HEVC媒体，请升级到最新版本的iOS11或更高版本或者macOSHighSierra或更高版本。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "要在您的设备上完全查看、编辑或复制HEIF和HEVC媒体，请升级到最新版本的iOS11或更高版本或者macOSHighSierra或更高版本。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

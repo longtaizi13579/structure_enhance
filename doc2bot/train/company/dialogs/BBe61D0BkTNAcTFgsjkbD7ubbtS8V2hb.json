@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "嘉兴企业变更合伙人，申请结果一般多久送达？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "合伙企业变更",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T11",
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内即可送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦哦，我记得你们那个大厅有个机子不用排队，能直接办吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想咨询自助终端是否支持办理吗？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对，就是那个自助终端机器。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "很抱歉，目前不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一般申请完有什么规定的时限吗？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想问的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限为20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

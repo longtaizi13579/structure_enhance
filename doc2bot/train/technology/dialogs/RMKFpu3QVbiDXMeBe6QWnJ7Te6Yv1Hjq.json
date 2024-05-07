@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPad上使用5G的问题？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "在iPad上使用5G"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：所需条件，状态栏中的 5G 图标，还是5G 选项？",
+        "act": "multiple-choice",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "所需条件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下在iPad上使用5G需要什么条件吧。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "所需条件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "所需条件：12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）；支持5G的运营商；已激活的5G蜂窝套餐。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "所需条件",
+            "12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）",
+            "支持5G的运营商",
+            "已激活的5G蜂窝套餐"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这些机型可以在美国使用高频5G网络吗？",
+        "act": "verification",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "*只有通过在美国购买的iPadPro才能在美国使用高频5G网络。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的。只有通过在美国购买的iPadPro才能在美国使用高频5G网络。",
+        "act": "ans/no",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "*只有通过在美国购买的iPadPro才能在美国使用高频5G网络。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在哪里查找5G选项？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "了解5G选项"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请前往“设置”>“蜂窝网络”>“蜂窝数据选项”以查找这些选项。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "请前往“设置”>“蜂窝网络”>“蜂窝数据选项”以查找这些选项。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "选取iPad使用5G网络的方式有哪些？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "选取iPad使用5G网络的方式"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自动5G：启用智能数据模式。当5G速度不能提供明显更好的体验时，iPad会自动切换到LTE，以延长电池续航能力。启用5G：当5G网络可用时，始终使用5G网络。这可能会缩短电池续航能力。LTE：只使用LTE网络，即使在5G可用时也是如此。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "自动5G：启用智能数据模式。当5G速度不能提供明显更好的体验时，iPad会自动切换到LTE，以延长电池续航能力。",
+            "启用5G：当5G网络可用时，始终使用5G网络。这可能会缩短电池续航能力。",
+            "LTE：只使用LTE网络，即使在5G可用时也是如此。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "自己可以对5G的使用进行设置吗？",
+        "act": "verification",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "iPad会针对电池续航能力和数据用量（基于您的数据套餐）对5G默认设置进行优化。您可以对这些选项进行自定，以确定何时使用5G以及某些App可以使用的数据量。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的。iPad会针对电池续航能力和数据用量对5G默认设置进行优化。您可以对这些选项进行自定，以确定何时使用5G以及某些App可以使用的数据量。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "iPad会针对电池续航能力和数据用量（基于您的数据套餐）对5G默认设置进行优化。您可以对这些选项进行自定，以确定何时使用5G以及某些App可以使用的数据量。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

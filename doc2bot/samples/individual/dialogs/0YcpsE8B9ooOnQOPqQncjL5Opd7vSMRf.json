@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，摩托车号牌补办要多少钱啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌",
+            "2\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "307",
+            "308"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在浙江台州当地办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的，大概多少钱？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "补办摩托车号牌收费标准为70元一副。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，汽车换号牌和摩托车一样钱吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "4\t汽车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "325",
+            "326"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不一样的价钱，您也需要补办汽车拍照吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不用，我就是想顺便咨询一下汽车牌照补办费用。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "收费项目名称",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "297",
+            "326"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "汽车的反光牌照补办费用是100元/副。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "收费标准",
+            "100元/副"
+        ],
+        "grounding_id": [
+            "326",
+            "327"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我知道了，那我怎么知道我是否符合补换领号牌的条件呢？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是否符合机动车号牌灭失、丢失或者损毁呢？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车号牌灭失、丢失或者损毁。"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我是符合的，我的机动车号牌损毁了。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车号牌灭失、丢失或者损毁。"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您符合补换领号牌的条件，可以申请机动车补换领号牌。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "146"
+        ]
+    }
+]

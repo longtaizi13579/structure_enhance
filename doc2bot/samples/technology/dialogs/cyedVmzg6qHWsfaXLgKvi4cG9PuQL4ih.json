@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果iPod无法开机或似乎死机的话怎么办",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果iPod无法开机或似乎死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以试试为设备充电，您还需要了解别的信息吗",
+        "act": "question/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "为设备充电"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我充了30分钟后还是没有看到充电屏幕的话怎么办",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那可以检查线缆连接是不是牢固。尝试其他充电线、电源适配器和电源。如果设备还是无法开机，则可能需要维修。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。",
+            "尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。",
+            "如果设备还是无法开机，则可能需要维修。请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是端口中可能有灰尘吗",
+        "act": "verification",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有可能，需要清除所有端口中的所有碎屑。",
+        "act": "ans/yes",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那维修的话找谁",
+        "act": "what",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果设备还是无法开机，则可能需要维修。请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果设备还是无法开机，则可能需要维修。请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果还是没有响应的话怎么办",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod没有响应，请按照以下说明来强制重新启动。查明您的iPod是哪款机型。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您的iPod没有响应，请强制重新启动，请问您的iPod是哪款机型",
+        "act": "question/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod没有响应，请按照以下说明来强制重新启动。查明您的iPod是哪款机型。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是第7代，应该怎么强制重新启动",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "强制重新启动iPod",
+            "iPodnano（第7代）"
+        ],
+        "grounding_id": [
+            "4",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "同时按住睡眠/唤醒按钮和主屏幕按钮，直到屏幕关闭，然后等待设备重新启动，如果还不行的话请接入电源，然后再试一次。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "同时按住睡眠/唤醒按钮和主屏幕按钮，直到屏幕关闭。",
+            "等待设备重新启动。",
+            "仍然需要协助？请接入电源，然后再试一次。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那要是iPodclassic的话怎么重启",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "强制重新启动iPod",
+            "iPodclassic"
+        ],
+        "grounding_id": [
+            "4",
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先将锁定开关用力移至关闭位置，确保开关旁不再显示橙色，然后同时按住MENU（菜单）按钮和中央按钮（或选择按钮）8秒钟，或者直到您看到Apple标志。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "将锁定开关用力移至关闭位置，确保开关旁不再显示橙色。",
+            "同时按住MENU（菜单）按钮和中央按钮（或选择按钮）8秒钟，或者直到您看到Apple标志。"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    }
+]

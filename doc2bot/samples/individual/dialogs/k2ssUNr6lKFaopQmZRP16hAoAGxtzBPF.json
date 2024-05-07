@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江省台州市驾驶人申请恢复驾驶资格的信息",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市",
+            "行驶证驾驶证",
+            "驾驶人申请恢复驾驶资格"
+        ],
+        "grounding_id": [
+            "T8",
+            "T89",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道要求提供的材料是根据什么规定的？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "要求提供材料的依据"
+        ],
+        "grounding_id": [
+            "193"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "《机动车驾驶证业务工作规范》第三十条车辆管理所办理恢复驾驶资格业务的流程和具体事项为：（一）受理岗按照下列程序审核申请材料：2．审核申请人提交的《机动车驾驶证申请表》、身份证明和《身体条件证明》",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "《机动车驾驶证业务工作规范》第三十条车辆管理所办理恢复驾驶资格业务的流程和具体事项为：（一）受理岗按照下列程序审核申请材料：2．审核申请人提交的《机动车驾驶证申请表》、身份证明和《身体条件证明》"
+        ],
+        "grounding_id": [
+            "194"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，如果有不懂的可以咨询哪里？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以通过咨询电话，咨询地址，咨询网址进行询问",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那具体的咨询地址是在哪？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，收费的话是怎么收呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "239",
+            "248"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "机动车驾驶证按照10元/本来收费",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "249"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是全国统一都收费的吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "240"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "241"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那如果是境外机动车驾驶证换证申领的话要多久办完？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是指法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "法定办结时限是多久",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

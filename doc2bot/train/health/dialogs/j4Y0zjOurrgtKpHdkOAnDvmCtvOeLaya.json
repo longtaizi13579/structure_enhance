@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我现在处于怀孕期，因为身体不适，买了一些药物。请问我能使用磺胺类药品吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "磺胺类",
+            "在妊娠和哺乳期间使用磺胺类药物"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果使用该药品对您的身体更好，请在医生的指导下使用。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "只有在治疗的益处大于风险时，才应在妊娠期使用磺胺类药物。但是当预产期接近时不应使用这些药物，因为它们可能在新生儿中引起黄疸，而黄疸可能严重到足以在新生儿中引起脑部损伤（核黄疸）。（也请参见妊娠期用药。）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我生完孩子以后可以使用磺胺类药品吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "磺胺类",
+            "在妊娠和哺乳期间使用磺胺类药物"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般不建议孕期和哺乳期使用该药品。如要服用，最好给孩子断奶。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "在哺乳期间不应使用磺胺类药物。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "磺胺类药物目前市场有哪些在卖？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "磺胺类",
+            "磺胺类包括如下药物："
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "市场上在售买的有：磺胺米隆、磺胺、硫氮磺胺吡啶等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_磺胺类.json",
+        "grounding": [
+            "磺胺米隆",
+            "磺胺",
+            "硫氮磺胺吡啶"
+        ],
+        "grounding_id": [
+            "11",
+            "19",
+            "20"
+        ]
+    }
+]

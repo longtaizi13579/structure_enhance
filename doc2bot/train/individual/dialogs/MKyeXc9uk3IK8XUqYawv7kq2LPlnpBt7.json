@@ -1,0 +1,400 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省丽水市的，我刚买了两进口摩托车，想问下怎么登记？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "机动车",
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "T12",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向相关单位申请进口机动车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我还想问下收费问题？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "375",
+            "383"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解摩托车反光号牌，农用车反光号牌，机动车临时号牌，机动车行驶证，还是其它项目的收费问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "2\t摩托车反光号牌"
+        ],
+        "grounding_id": [
+            "393"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道摩托车反光号牌是多少钱。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "2\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "393",
+            "394"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "收费标准是：70元/副",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "70元/副"
+        ],
+        "grounding_id": [
+            "394",
+            "395"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那农用车反光号牌是多少钱？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "1\t农用车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "384",
+            "385"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收费标准是：40元/副",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "40元/副"
+        ],
+        "grounding_id": [
+            "385",
+            "386"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有个问题，我们单位有辆车，需要修改登记证书上的单位名称，怎办变更？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车所有人姓名（单位名称）、身份证明号码变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以向相关单位申请机动车所有人姓名（单位名称）、身份证明号码变更备案。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车所有人姓名（单位名称）、身份证明号码变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "242"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.制证 4.送达",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "242",
+            "243",
+            "245",
+            "252",
+            "257"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请包括什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "243"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请人提交资料。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "申请人提交资料"
+        ],
+        "grounding_id": [
+            "244"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "制证包括什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "制证"
+        ],
+        "grounding_id": [
+            "252"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "签注登记证书，行驶证。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "签注登记证书，行驶证"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "送达是当场送，还是要过几天？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "受理岗",
+            "当场送达证件"
+        ],
+        "grounding_id": [
+            "247",
+            "261"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "当场送达证件。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "当场送达证件"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我还想问下收费问题？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "274",
+            "281"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "您是想了解机动车行驶证的收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "1\t机动车行驶证"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "1\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "282",
+            "283"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "收费标准是：10元/本",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费标准",
+            "10元/本"
+        ],
+        "grounding_id": [
+            "283",
+            "284"
+        ]
+    }
+]

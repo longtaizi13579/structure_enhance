@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想咨询一下 最近我看到将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用具体是什么意思呢?",
+        "act": "what",
+        "document": "将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用.json",
+        "grounding": [
+            "将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "借助“快捷模式”，您只需轻点一下即可使用“钱包”App中的卡片、凭证和钥匙。",
+        "act": "ans/open",
+        "document": "将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用.json",
+        "grounding": [
+            "借助“快捷模式”，您只需轻点一下即可使用“钱包”App中的卡片、凭证和钥匙。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我的钥匙可以将属于同一类型的多个钥匙设置为“快捷模式”吗?",
+        "act": "verification",
+        "document": "将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用.json",
+        "grounding": [
+            "对于某些卡片、凭证和钥匙，不能将属于同一类型或来自同一发行机构的多个卡片、凭证和钥匙设置为“快捷模式”。例如，只能将同一学校的一张学生证设置为“快捷模式”。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以,对于某些卡片、凭证和钥匙，不能将属于同一类型或来自同一发行机构的多个卡片、凭证和钥匙设置为“快捷模式”。例如，只能将同一学校的一张学生证设置为“快捷模式”。",
+        "act": "ans/open",
+        "document": "将“快捷模式”与Apple钱包中的卡片、凭证和钥匙配合使用.json",
+        "grounding": [
+            "对于某些卡片、凭证和钥匙，不能将属于同一类型或来自同一发行机构的多个卡片、凭证和钥匙设置为“快捷模式”。例如，只能将同一学校的一张学生证设置为“快捷模式”。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下 从Apple钱包中移除已过期凭证",
+        "act": "what",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "从Apple钱包中移除凭证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您具体是想问已过期的凭证吗?",
+        "act": "verification",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。一些已过期的凭证可能会自动隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的我想问一下我可以从iPhone“钱包”App中移除度假区票卡凭证吗?",
+        "act": "verification",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。一些已过期的凭证可能会自动隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。一些已过期的凭证可能会自动隐藏。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。一些已过期的凭证可能会自动隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那已过期的凭证具体需要怎么处理呢?",
+        "act": "how",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "已过期的凭证"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "某些具有使用限制的凭证或一次性凭证（例如，登机牌或活动门票）在过期后会自动隐藏。这类凭证将转移到一个单独的列表中，您可以查看、取消隐藏或删除凭证：",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "某些具有使用限制的凭证或一次性凭证（例如，登机牌或活动门票）在过期后会自动隐藏。这类凭证将转移到一个单独的列表中，您可以在这个列表中查看、取消隐藏或删除凭证："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那具体是如何取消隐藏和删除某个凭证呢?",
+        "act": "how",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "某些具有使用限制的凭证或一次性凭证（例如，登机牌或活动门票）在过期后会自动隐藏。这类凭证将转移到一个单独的列表中，您可以在这个列表中查看、取消隐藏或删除凭证："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果取消隐藏某个凭证，则这个凭证会回到“钱包”App的主视图中。如果删除某个凭证，则这个凭证会被永久移除。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "如果取消隐藏某个凭证，则这个凭证会回到“钱包”App的主视图中。",
+            "如果删除某个凭证，则这个凭证会被永久移除。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我最后还想问一下我可以直接在“钱包”App中移除家庭钥匙凭证吗?",
+        "act": "verification",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您必须使用“家庭”App来移除家庭钥匙凭证。您无法直接在“钱包”App中移除家庭钥匙凭证。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您必须使用“家庭”App来移除家庭钥匙凭证。您无法直接在“钱包”App中移除家庭钥匙凭证。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您必须使用“家庭”App来移除家庭钥匙凭证。您无法直接在“钱包”App中移除家庭钥匙凭证。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

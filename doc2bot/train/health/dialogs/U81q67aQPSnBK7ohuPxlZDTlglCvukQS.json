@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下医学方面的关于疱疹的",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "医学主题",
+            "疱疹病毒感染"
+        ],
+        "grounding_id": [
+            "T3",
+            "T386"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个您具体想了解哪个方面呢比如是疱疹后神经痛、生殖器疱疹、带状疱疹等等",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "疱疹后神经痛"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "疱疹后神经痛",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "疱疹后神经痛"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解带状疱疹后遗神经痛的症状还是带状疱疹后遗神经痛的诊断或是带状疱疹后遗神经痛的治疗",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "带状疱疹后遗神经痛的治疗"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "带状疱疹后遗神经痛的治疗这个常见的有什么方法",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "带状疱疹后遗神经痛的治疗"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "常见的治疗方法有镇痛药或止痛乳膏还有有时需要使用其它药物",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_疱疹病毒感染_疱疹后神经痛.json",
+        "grounding": [
+            "常见的治疗方法有：",
+            "镇痛药或止痛乳膏",
+            "有时需要使用其它药物"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26"
+        ]
+    }
+]

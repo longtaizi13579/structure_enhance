@@ -1,0 +1,340 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省宁波市赴台探亲签注的信息",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "T10",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解法定办结时限还是承诺办结时限 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限是多久",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大概30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理的话是通过什么形式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以网上申请或现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那申请之后要满足什么样的条件才会受理？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "132",
+            "135"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "经台湾主管部门批准取得在台探亲资格的大陆居民，可以申请赴台探亲签注",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台探亲资格的大陆居民，可以申请赴台探亲签注"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果在申请过程中有弄虚作假的人情况是不是就不可以签发？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "（三）在申请过程中弄虚作假的。 ",
+            "申请人有下列情形之一的，不予批准签发往来台湾通行证和签注："
+        ],
+        "grounding_id": [
+            "10114",
+            "138"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "申请人有下列情形之一的，不予批准签发往来台湾通行证和签注：",
+            "（三）在申请过程中弄虚作假的。 "
+        ],
+        "grounding_id": [
+            "138",
+            "10114"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "10046"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "10047"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那就好，具体的流程是什么样的呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "9987"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "办理结果",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "9987",
+            "9988",
+            "9990",
+            "9997",
+            "9999",
+            "10008",
+            "10014"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "审核审批的话需要多长时间呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "9999",
+            "10000"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一般需要三个工作日",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "3个工作日"
+        ],
+        "grounding_id": [
+            "10001"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那审批的具体标准是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "10004"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "审查提交材料是否齐全、是否符合法定形式，核查相关管理信息库，核实有无法定不准出境等情形，审查有报警事件的转调查。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "审查提交材料是否齐全、是否符合法定形式，核查相关管理信息库，核实有无法定不准出境等情形，审查有报警事件的转调查。"
+        ],
+        "grounding_id": [
+            "10005"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果是省内的话多长时间可以送到？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "10014"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "EMS工作人员省内2日送达",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "EMS工作人员省内2日送达"
+        ],
+        "grounding_id": [
+            "10015"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "还挺快的，那收费的标准是按照什么规定的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "10050",
+            "10048"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "依据国家发展和改革委员会、财政部发改价格〔2017〕1186号",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台探亲一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "10051"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "一次有效签注多少钱呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "收费标准",
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台探亲一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "10050",
+            "10051"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "赴台探亲一次有效签注15元/件；多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台探亲一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "10051"
+        ]
+    }
+]

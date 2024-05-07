@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省绍兴市期满换领机动车驾驶证的线下办事点在哪里啊？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "期满换领机动车驾驶证",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "1",
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以到绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）进行办理",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是只有这一个地方能办吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是的，您还可以到绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）办理",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果有没有在滨海的办理地点呢？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，绍兴市公安局交通管理局车辆管理所滨海分所（绍兴滨海新城百红线城东路东侧200米）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所滨海分所（绍兴滨海新城百红线城东路东侧200米）"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，办这个是收费的吧？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "329"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "330"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那一本多少钱呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    }
+]

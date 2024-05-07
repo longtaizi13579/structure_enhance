@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省衢州市公积金的有关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T5",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "公积金提取、常用服务、跨省通办服务，您想咨询哪项服务？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "跨省通办服务"
+        ],
+        "grounding_id": [
+            "T209"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询跨省通办服务的相关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "跨省通办服务"
+        ],
+        "grounding_id": [
+            "T209"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，是购买自住住房提取住房公积金还是住房公积金提前还贷业务呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "购买自住住房提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理购买自住住房提取住房公积金多久这个业务能把结果送达？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "购买自住住房提取住房公积金",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法律规定多久要办理完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "三个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么时间能办理这个业务？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "工作日,冬令时（10-4月）：上午8:30—12:00，下午13:30—16:30;夏令时（5-9月）：上午8:30—12:00，下午14:00—17:00；2021年7月5日至2021年9月17日：上午8：30-12：00，下午14：00-17：30.",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "工作日,冬令时（10-4月）：上午8:30—12:00，下午13:30—16:30;夏令时（5-9月）：上午8:30—12:00，下午14:00—17:00；2021年7月5日至2021年9月17日：上午8：30-12：00，下午14：00-17：30."
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

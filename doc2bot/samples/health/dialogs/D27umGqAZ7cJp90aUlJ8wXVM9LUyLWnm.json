@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，医生说怀疑我家孩子得了急性细菌性脑膜炎，该怎么办啊？\t ",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "急性细菌性脑膜炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "孩子都有什么症状？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "急性细菌性脑膜炎的症状"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "高音调尖锐哭叫，声音特别大。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "婴儿少见的高音调尖锐哭叫"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "婴儿少见的高音调尖锐哭叫是急性细菌性脑膜炎的症状之一。还有什么症状？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "婴儿少见的高音调尖锐哭叫"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "体温高，39度。开始我还以为是发烧。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "体温过高或过低"
+        ],
+        "grounding_id": [
+            "107"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果孩子还有体温过高或过低，是急性细菌性脑膜炎的可能性较大。去医院就诊了吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "体温过高或过低"
+        ],
+        "grounding_id": [
+            "107"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "就诊了。真不知道孩子怎么会得这种病。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "急性细菌性脑膜炎的原因"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "与免疫系统的强健程度有关，比如先天性免疫缺陷疾病（当儿童出生时患有削弱免疫系统的疾病）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "免疫系统的强健程度",
+            "先天性免疫缺陷疾病（当儿童出生时患有削弱免疫系统的疾病）"
+        ],
+        "grounding_id": [
+            "78",
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有其他因素？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "哪种细菌可能引起脑膜炎取决于免疫系统是否正常或受损。能够削弱免疫系统的因素会增加细菌性脑膜炎的发生风险。这些因素包括"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "镰状细胞贫血也是一个因素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "镰状细胞贫血"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我听说用于治疗自身免疫病和癌症或防止移植器官排斥也会影响免疫系统的强健程度，是吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "免疫系统的强健程度",
+            "接受皮质类固醇或其他抑制免疫系统药物(免疫抑制剂)的治疗，用于治疗自身免疫病和癌症或防止移植器官排斥"
+        ],
+        "grounding_id": [
+            "78",
+            "81"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，化疗也是一个因素。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脑膜炎_急性细菌性脑膜炎.json",
+        "grounding": [
+            "化疗"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    }
+]

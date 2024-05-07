@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江金华市人，我要办理机动车变更车身登记，想问办事地址在哪？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在金华市二手车交易市场一楼大厅1-9号办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "金华市二手车交易市场（金华市金东区赤松镇横三路与纵六路交叉口西北100米）一楼大厅1-9号"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有点远，除了线下办理地点，还有别的方式可以办吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "102"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，还可以选择网上申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有自助机器可以办的？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您意思是否支持自助终端办理是吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对呀。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，不支持的，而且自助终端也都是在现场窗口那里的。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "不支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "92",
+            "91"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "多长时间能办完？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "1",
+            "113"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是机动车登记证书和行驶证什么时候能拿到？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "多久能拿到登记证书？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "登记证书和行驶证您可以自取或者快递给您，时间是办理完毕之后10个工作日内您可以收到。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

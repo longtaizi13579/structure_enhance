@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省湖州市的，想咨询下失业保险方面的问题？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T13",
+            "T203"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解失业保险关系接续申请，失业保险关系转移申请，失业补助金申领？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解失业保险关系接续申请。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解咨询方式，办理时间，办理地点，监督投诉方式，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解咨询方式。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址是：湖州市市民服务中心5号楼8楼802办公室（金盖山路66号）、湖州市市民服务中心4号楼1楼3号政务服务大厅（人力社保）窗口咨询台（金盖山路66号）。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址",
+            "湖州市市民服务中心5号楼8楼802办公室（金盖山路66号）、湖州市市民服务中心4号楼1楼3号政务服务大厅（人力社保）窗口咨询台（金盖山路66号）"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询电话是什么，也给我吧？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话是：0572-2021490、0572-2051161",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话",
+            "0572-2021490、0572-2051161"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我记下了，那我现在想申请失业保险关系接续，有什么条件呢？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "248",
+            "249"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "只要参保职工跨统筹地区就业的，失业人员符合失业保险金申领条件并要求回户籍地领取失业保险待遇的就可以申请。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "（一）参保职工跨统筹地区就业的。\n",
+            "（二）失业人员符合失业保险金申领条件并要求回户籍地领取失业保险待遇的。"
+        ],
+        "grounding_id": [
+            "250",
+            "450"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个设定依据，是哪个部门机关负责颁布的？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "设定依据",
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "372",
+            "434"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "颁布机关是：浙江省人力资源和社会保障厅浙江省财政厅。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "颁布机关",
+            "浙江省人力资源和社会保障厅浙江省财政厅"
+        ],
+        "grounding_id": [
+            "434",
+            "435"
+        ]
+    }
+]

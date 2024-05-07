@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "iPhone、iPad或iPodtouch上的“提醒事项”怎么弄？",
+        "act": "how",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想了解创建提醒事项具体步骤？还是标记完成提醒事项？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "创建提醒事项"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "创建提醒事项具体步骤。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "创建提醒事项",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "45",
+            "46"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“提醒事项”App。 其次轻点“+新建提醒事项”，然后键入您的提醒事项。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "打开“提醒事项”App。",
+            "轻点“+新建提醒事项”，然后键入您的提醒事项。"
+        ],
+        "grounding_id": [
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "要删除某个提醒事项怎么做？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果您的iCloud通讯录、日历或提醒事项没有同步，要了解什么？",
+        "act": "what",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "了解如果您的iCloud通讯录、日历或提醒事项没有出现在使用了iCloud的所有设备上，该怎么做。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "了解如果您的iCloud通讯录、日历或提醒事项没有出现在使用了iCloud的所有设备上，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

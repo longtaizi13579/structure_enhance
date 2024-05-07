@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省金华市工伤认定申请的办理流程是怎么样的",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "浙江省_金华市",
+            "工伤认定申请",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "342"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "办理流程: 1.收件 2.受理 3.审查 4.审核（审批） 5.办结 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理流程",
+            "收件",
+            "受理",
+            "审查",
+            "审核（审批）",
+            "办结",
+            "送达"
+        ],
+        "grounding_id": [
+            "342",
+            "343",
+            "352",
+            "361",
+            "370",
+            "379",
+            "388"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "收件后的审核标准是什么？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "收件",
+            "审核标准"
+        ],
+        "grounding_id": [
+            "343",
+            "348"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "申请材料存在可以当场更正的错误的，应当允许有权更正人当场予以更正，由更正人在更正处签名或者盖章、注明更正日期；经确认申请材料齐全，符合法定形式的，应当决定予以受理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "申请材料存在可以当场更正的错误的，应当允许有权更正人当场予以更正，由更正人在更正处签名或者盖章、注明更正日期；经确认申请材料齐全，符合法定形式的，应当决定予以受理。"
+        ],
+        "grounding_id": [
+            "349"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那审查需要多长时间呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审查",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "361",
+            "362"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "24个工作日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "24个工作日"
+        ],
+        "grounding_id": [
+            "363"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，办理可以网上申请吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有别的问题咨询应该怎么办？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址，咨询网址",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那咨询电话是多少",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "0579-82366135",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "0579-82366135"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我无法在iPhone上正常使用“个人热点”，应该怎么办？",
+        "act": "how",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "先按照以下步骤操作，记住每完成一步后，都请重新尝试连接。步骤1: 在“设置”>“个人热点”中查看是不是已打开“个人热点”。步骤2: 重新启动提供“个人热点”的iPhone或iPad，以及需要连接到“个人热点”的其他设备。骤3: 确保您装有最新版本的iOS或iPadOS。步骤4: 在提供“个人热点”的iPhone或iPad上，前往“设置”>“通用”>“传输或还原[设备]”>“还原”，然后轻点“还原网络设置”。",
+        "act": "ans/open",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "先按照以下步骤操作"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果找不到“个人热点”怎么办？",
+        "act": "how",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "在“设置”>“个人热点”中查看是不是已打开“个人热点”。如果您找不到或无法打开“个人热点”，请检查您的无线运营商有没有启用“个人热点”，以及您的无线套餐是不是支持“个人热点”。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您找不到或无法打开“个人热点”，请检查您的无线运营商有没有启用“个人热点”，以及您的无线套餐是不是支持“个人热点”。",
+        "act": "ans/open",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "在“设置”>“个人热点”中查看是不是已打开“个人热点”。如果您找不到或无法打开“个人热点”，请检查您的无线运营商有没有启用“个人热点”，以及您的无线套餐是不是支持“个人热点”。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“个人热点”的作用是什么？",
+        "act": "what",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "通过“个人热点”，您可以与另一台设备共享您的iPhone或iPad（无线局域网+蜂窝网络）的蜂窝数据连接。如果您需要就“个人热点”获取协助，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "通过“个人热点”，您可以与另一台设备共享您的iPhone或iPad（无线局域网+蜂窝网络）的蜂窝数据连接。",
+        "act": "ans/open",
+        "document": "如果无法在iPhone或iPad（无线局域网+蜂窝网络）上正常使用“个人热点”.json",
+        "grounding": [
+            "通过“个人热点”，您可以与另一台设备共享您的iPhone或iPad（无线局域网+蜂窝网络）的蜂窝数据连接。如果您需要就“个人热点”获取协助，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想咨询一下，在 iOS上如何使用无线局域网标准提升客户端漫游性能？",
+        "act": "how",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解802.11k，802.11r，还是802.11v？",
+        "act": "multiple-choice",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解802.11r。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "iOS10及更高版本是否支持Cisco无线网络上的自适应802.11r？",
+        "act": "verification",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。",
+        "act": "ans/yes",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "自适应802.11r是否需要在已配置的Cisco无线网络上启用802.11r？",
+        "act": "verification",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。",
+        "act": "ans/no",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

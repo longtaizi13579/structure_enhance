@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，浙江省舟山市公共场所卫生行政许可。去哪能办理？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "公共场所卫生行政许可（新发证）",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T3",
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以到舟山市行政服务中心一楼A区7号进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "舟山市行政服务中心（舟山市定海区千岛街道翁山路555号）一楼A区7号"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，我这还有一些材料不知道该怎么准备，有没有什么能让我咨询的方法？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，我们有咨询电话，咨询地址和咨询网址，您需要我给您提供哪一种方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你先给我一个咨询电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，咨询电话是0580-2034302。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0580-2034302"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "谢谢！行政许可办理的办结时限一般是几天？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想咨询的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想问的是法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

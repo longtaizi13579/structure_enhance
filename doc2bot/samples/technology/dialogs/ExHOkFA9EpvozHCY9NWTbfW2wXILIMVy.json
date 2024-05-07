@@ -1,0 +1,80 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我刚买了个iPad，想问下如何设置蜂窝移动数据服务？",
+        "act": "how",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有5种方法：使用从运营商处获得的SIM卡，使用eSIM、嵌入式AppleSIM卡或AppleSIM卡，更改套餐，停用套餐，将一台iPad上的套餐转移到另一台iPad上，您是想了解哪种？",
+        "act": "multiple-choice",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以通过以下方法为iPad设置多个套餐：在iPad上注册多个运营商，添加多个eSIM套餐，并在nano-SIM卡托架中插入SIM卡。要在有效的套餐间切换，请前往“设置”>“蜂窝数据”，并在“蜂窝套餐”下轻点您想要用的套餐。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先问下，如何更改套餐？",
+        "act": "how",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以通过以下方法为iPad设置多个套餐：在iPad上注册多个运营商，添加多个eSIM套餐，并在nano-SIM卡托架中插入SIM卡。要在有效的套餐间切换，请前往“设置”>“蜂窝数据”，并在“蜂窝套餐”下轻点您想要用的套餐。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要更改套餐或查看套餐状态，请前往“设置”>“蜂窝数据”。如果您通过运营商设置蜂窝数据套餐，您可能需要直接联系他们来更改您的套餐。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "停用套餐"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问下，如果是从运营商处获得的SIM卡，应该怎么做？",
+        "act": "how",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "使用从运营商处获得的SIM卡"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您在本地运营商处设置蜂窝数据套餐，则SIM卡会被激活。只需弹出SIM卡托架，并插入运营商提供的SIM卡即可。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "如果您在本地运营商处设置蜂窝数据套餐，则SIM卡会被激活。只需弹出SIM卡托架，并插入运营商提供的SIM卡即可。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

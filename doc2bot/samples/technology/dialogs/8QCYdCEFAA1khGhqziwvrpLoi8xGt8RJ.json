@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好， 我想问一下，为什么我在Mac上无法发送或接收电子邮件了？",
+        "act": "why",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果您在Mac上无法发送或接收电子邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好， 如果您的Mac已连接到互联网，但突然不能发送或接收电子邮件了，您需要从这几方面去看一下：查看状态信息、使用网页邮件测试或者移除您的电子邮件帐户，然后重新添加。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "查看状态信息"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我刚查看了一下我的状态信息为“网络离线”，这应该怎么办？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "查看状态信息",
+            "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。"
+        ],
+        "grounding_id": [
+            "4",
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果其他解决方法都不起作用，那我该怎么办？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果其他解决方案均不起作用，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果其他解决方案均不起作用，您需要移除您的电子邮件帐户，然后重新添加。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果其他解决方案均不起作用，请按照以下步骤操作：",
+            "移除您的电子邮件帐户，然后重新添加"
+        ],
+        "grounding_id": [
+            "29",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果其他解决方案均不起作用，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先 在“邮件”中移除您的电子邮件帐户；然后在“邮件”中重新添加电子邮件帐户；最后 尝试发送和接收电子邮件。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "在“邮件”中移除您的电子邮件帐户。",
+            "在“邮件”中重新添加电子邮件帐户。",
+            "尝试发送和接收电子邮件。"
+        ],
+        "grounding_id": [
+            "30",
+            "34",
+            "38"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一些，看到“无法创建AppleID”或“无法设置iCloud”信息的相关问题？",
+        "act": "what",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”或“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您具体是想了解看到“无法创建AppleID”信息还是看到“无法设置iCloud”信息？",
+        "act": "multiple-choice",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问收到“无法创建AppleID”信息，这说明了什么？",
+        "act": "what",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果看到“无法创建AppleID”信息，则表示您已超出一年内可在一台设备上设置iCloud的新AppleID的数量上限。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”信息，",
+            "则表示您已超出一年内可在一台设备上设置iCloud的新AppleID的数量上限。"
+        ],
+        "grounding_id": [
+            "4",
+            "28"
+        ]
+    }
+]

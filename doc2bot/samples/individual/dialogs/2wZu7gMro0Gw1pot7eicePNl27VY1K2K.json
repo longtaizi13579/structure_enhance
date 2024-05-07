@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下浙江省嘉兴市机动车登记证书的相关问题。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问申领、补领机动车登记证书、机动车灭失注销登记还是机动车解除抵押登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下有关机动车的一些问题要怎么投诉。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想咨询投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想问一下投诉地址。",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉地址是嘉兴市中山东路1156号交警支队二楼政治处211室。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你们什么时间上班？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "工作日：上午8：30—12：00；下午2：00—5：00。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "工作日：上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我申领登记证书多久能拿到？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自您申领、补领之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那办理业务多久能好？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一个工作日就可以办结。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我问一下能网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是支持网上支付的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "257"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那咨询电话是多少呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "咨询电话是0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

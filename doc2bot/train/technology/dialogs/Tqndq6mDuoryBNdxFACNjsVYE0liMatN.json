@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下更换MacPro（2019年）中的电源",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "更换MacPro（2019年）中的电源"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想问检查必备工具还是拆卸机壳或上盖还是什么呢？",
+        "act": "multiple-choice",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "检查必备工具",
+            "拆卸机壳或上盖"
+        ],
+        "grounding_id": [
+            "3",
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下检查必备工具",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "检查必备工具"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，需要TorxT8螺丝刀和1号十字型螺丝刀",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "TorxT8螺丝刀",
+            "1号十字型螺丝刀"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下关于拆我家的电源的问题",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸电源"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是想问拆卸电源吗？",
+        "act": "verification",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸电源"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸电源"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的首先1: 在1号和3号夹板上，拧松全部六颗1号十字型螺丝，然后将两个夹板都卸下。然后 卸下电源接地托架上的一颗T8螺丝。最后 握紧电源的两侧，然后将电源拉出。如有必要，请卸下电源上方的MPX模块，以便更容易接触到电源。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "在1号和3号夹板上，拧松全部六颗1号十字型螺丝，然后将两个夹板都卸下。这些螺丝是紧固螺丝，会依附在夹板上。",
+            "卸下电源接地托架上的一颗T8螺丝。",
+            "握紧电源的两侧，然后将电源拉出。如有必要，请卸下电源上方的MPX模块，以便更容易接触到电源。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "为什么要拧松全部六颗1号十字型螺丝，然后将两个夹板都卸下 呢？",
+        "act": "why",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "在1号和3号夹板上，拧松全部六颗1号十字型螺丝，然后将两个夹板都卸下。这些螺丝是紧固螺丝，会依附在夹板上。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "因为这些螺丝是紧固螺丝，会依附在夹板上。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "在1号和3号夹板上，拧松全部六颗1号十字型螺丝，然后将两个夹板都卸下。这些螺丝是紧固螺丝，会依附在夹板上。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问一下拆卸机壳或上盖",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸机壳或上盖"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是想问Mac Pro（机架式机型，2019 年）还是 Mac Pro（2019 年）？",
+        "act": "multiple-choice",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（2019年）"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "MacPro（2019年）跟我说一下具体的操作步骤吧",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（2019年）"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的首先将MacPro关机，等待约5到10分钟，让电脑冷却。然后拔下MacPro上除电源线以外的所有线缆。再拔下MacPro上除电源线以外的所有线缆。之后 向上翻起顶部闩锁，然后向左扭动以解锁机壳。最后径直提起机壳，从MacPro上取下它。小心地将机壳放到一边。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "将MacPro关机。",
+            "等待约5到10分钟，让电脑冷却。",
+            "拔下MacPro上除电源线以外的所有线缆。",
+            "触摸MacPro外部的金属机壳，以释放所有静电，然后拔下电源线。在MacPro内部触碰部件或安装组件之前，请务必先释放静电。为了避免产生静电，请勿在房间内走动，直到完成电源的安装并将机壳滑回到电脑上。",
+            "向上翻起顶部闩锁，然后向左扭动以解锁机壳。",
+            "径直提起机壳，从MacPro上取下它。小心地将机壳放到一边。"
+        ],
+        "grounding_id": [
+            "13",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我最后还想问一下为MagSafe外接电池充电的操作",
+        "act": "what",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "为MagSafe外接电池充电"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那你具体是想问首次使用MagSafe外接电池之前的操作吗？",
+        "act": "verification",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的，请给我详细讲一下操作步骤",
+        "act": "what",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电，首先将闪电转USB连接线的一端插入MagSafe外接电池的闪电接口。然后将连接线的另一端插入20W或更高功率的USB电源适配器，然后将适配器插入电源插座。MagSafe外接电池上的状态指示灯将亮起约8秒钟。",
+        "act": "ans/open",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "首次使用MagSafe外接电池之前，请用闪电转USB连接线以及20W或更高功率的电源适配器为外接电池充满电。",
+            "将闪电转USB连接线的一端插入MagSafe外接电池的闪电接口。",
+            "将连接线的另一端插入20W或更高功率的USB电源适配器，然后将适配器插入电源插座。MagSafe外接电池上的状态指示灯将亮起约8秒钟。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]

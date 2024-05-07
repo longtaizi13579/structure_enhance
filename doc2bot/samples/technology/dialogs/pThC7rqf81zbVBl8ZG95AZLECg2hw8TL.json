@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，时间机器可以备份到什么上面？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "可与“时间机器”搭配使用的备份磁盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“时间机器”可以备份到与Mac连接或在网络上可供使用的某些外置储存设备。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到与Mac连接或在网络上可供使用的某些外置储存设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我可以使用时间机器来备份Mac吗？",
+        "act": "verification",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "使用“时间机器”备份您的Mac"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是有以下类型的储存设备之一：连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器；支持通过SMB进行“时间机器”备份的联网储存(NAS)设备；共享为“时间机器”备份目标位置的Mac；连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器；AirPort时间返回舱。",
+        "act": "verification",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "您需要以下类型的储存设备之一：",
+            "连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器",
+            "支持通过SMB进行“时间机器”备份的联网储存(NAS)设备",
+            "共享为“时间机器”备份目标位置的Mac",
+            "连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器",
+            "AirPort时间返回舱"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "8",
+            "12",
+            "16",
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我有连接到Mac的外置USB驱动器。",
+        "act": "ans/yes",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您可以的。",
+        "act": "ans/yes",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "使用“时间机器”备份您的Mac"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "时间机器可以备份到哪些端口链接的外置驱动器？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "连接到Mac的外置驱动器",
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果磁盘没有使用正确格式，会出现什么情况？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有个问题，可以通过什么方式收听Shazam已识别的歌曲？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "将Shazam与AppleMusic、Snapchat等搭配使用",
+            "通过AppleMusic或其他音乐服务收听Shazam已识别的歌曲。您还可以将Shazam与Snapchat搭配使用。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "通过AppleMusic或其他音乐服务收听Shazam已识别的歌曲。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "通过AppleMusic或其他音乐服务收听Shazam已识别的歌曲。您还可以将Shazam与Snapchat搭配使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "Shazam还可以与什么搭配使用？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "通过AppleMusic或其他音乐服务收听Shazam已识别的歌曲。您还可以将Shazam与Snapchat搭配使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您还可以将Shazam与Snapchat搭配使用。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "通过AppleMusic或其他音乐服务收听Shazam已识别的歌曲。您还可以将Shazam与Snapchat搭配使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下，如何收听Shazam已识别的歌曲？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以通过AppleMusic，Spotif，Deeze，YouTubeMusic来收听，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Spotify"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "要在Spotify中收听整首歌曲，应该怎么操作？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Spotify",
+            "将Shazam连接到您的Spotify帐户后，您可以通过以下方式收听Shazam已识别的歌曲：",
+            "要在Spotify中收听整首歌曲，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。"
+        ],
+        "grounding_id": [
+            "21",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "要在Spotify中收听整首歌曲，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "要在Spotify中收听整首歌曲，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

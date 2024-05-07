@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，在iPhone上整理和查找照片的时候，过滤显示内容的作用是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上整理和查找照片",
+            "图库",
+            "在iOS14及更高版本中，您可以过滤显示的内容，以便更轻松地浏览“图库”。例如，您可以选择仅显示照片或仅显示视频。要过滤显示的内容，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "1",
+            "17",
+            "23"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在iOS14及更高版本中，过滤显示的内容，以便更轻松地浏览“图库”。例如，您可以选择仅显示照片或仅显示视频。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "在iOS14及更高版本中，您可以过滤显示的内容，以便更轻松地浏览“图库”。例如，您可以选择仅显示照片或仅显示视频。要过滤显示的内容，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何过滤显示的内容？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "在iOS14及更高版本中，您可以过滤显示的内容，以便更轻松地浏览“图库”。例如，您可以选择仅显示照片或仅显示视频。要过滤显示的内容，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先轻点“图库”标签，然后轻点右上角的“更多”按钮；然后轻点“筛选”，然后选取一个选项；最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "轻点“图库”标签，然后轻点右上角的“更多”按钮。",
+            "轻点“筛选”，然后选取一个选项。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还可以撤销过滤吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "要撤销过滤，请轻点屏幕顶部附近的“筛选”按钮并选取一个选项，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "要撤销过滤，请轻点屏幕顶部附近的“筛选”按钮并选取一个选项，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何操作呢？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "要撤销过滤，请轻点屏幕顶部附近的“筛选”按钮并选取一个选项，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要撤销过滤，请轻点屏幕顶部附近的“筛选”按钮并选取一个选项，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上整理和查找照片.json",
+        "grounding": [
+            "要撤销过滤，请轻点屏幕顶部附近的“筛选”按钮并选取一个选项，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一些在使用iCloud云备份恢复iPhone后信息丢失的相关问题？",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解可以检查的方面、关于App、音乐、影片和电视节目、关于iCloud云盘 ，还是其他？",
+        "act": "multiple-choice",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "您可以检查的方面"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问一下，我是从从iPhone备份恢复iPad，这里面的全部数据都可以恢复吗？",
+        "act": "verification",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "您可以检查的方面",
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您从iPhone备份恢复iPad，则部分数据将无法恢复。",
+        "act": "ans/no",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "关于App、音乐、影片和电视节目，iCloud云备份都包含些什么信息？",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于App、音乐、影片和电视节目",
+            "iCloud云备份包含您在AppleMusicApp、AppleTVApp、AppleBooksApp、Apple播客App和AppStore中的购买历史记录的相关信息。从iCloud云备份恢复后，您购买的媒体会自动从Apple服务重新下载。能否重新下载因国家或地区而异。如果以前购买的项目已退款或是商店中已不再提供，则可能无法下载。以前购买的某些影片可能无法从AppleTV重新下载。"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "iCloud云备份包含您在AppleMusicApp、AppleTVApp、AppleBooksApp、Apple播客App和AppStore中的购买历史记录的相关信息。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "iCloud云备份包含您在AppleMusicApp、AppleTVApp、AppleBooksApp、Apple播客App和AppStore中的购买历史记录的相关信息。从iCloud云备份恢复后，您购买的媒体会自动从Apple服务重新下载。能否重新下载因国家或地区而异。如果以前购买的项目已退款或是商店中已不再提供，则可能无法下载。以前购买的某些影片可能无法从AppleTV重新下载。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我要恢复通过另一个AppleID购买的内容，应该注意些什么？",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "要恢复通过另一个AppleID购买的内容，请使用购买时所用的AppleID登录。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要注意请使用购买时所用的AppleID登录。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "要恢复通过另一个AppleID购买的内容，请使用购买时所用的AppleID登录。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

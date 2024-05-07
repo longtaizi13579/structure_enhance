@@ -1,0 +1,242 @@
+{
+    "document_id": 476,
+    "domain": "technology",
+    "name": "如何重置Mac的SMC",
+    "graph": {
+        "1": {
+            "data": "如何重置Mac的SMC",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "系统管理控制器(SMC)可控制Mac的电源管理方式。通过重置SMC，可以解决某些与电源、电池、风扇和其他功能相关的问题。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "在配备T2芯片的电脑上重置SMC",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "5": {
+            "data": "如果您的Mac配备的是AppleT2安全芯片，请根据您的Mac机型按照以下步骤操作。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "9": {
+            "data": "配备T2芯片的笔记本电脑",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "10": {
+            "data": "重置SMC之前，请尝试以下步骤：",
+            "type": "sequence",
+            "pid": "9"
+        },
+        "11": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "按住电源按钮10秒钟，然后松开这个按钮。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "等待几秒钟，然后按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "14": {
+            "data": "如果问题仍然存在，请按照以下步骤重置SMC：",
+            "type": "sequence",
+            "pid": "9"
+        },
+        "15": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "14"
+        },
+        "17": {
+            "data": "在内建键盘上，按住以下所有按键。Mac可能会开机。",
+            "type": "sequence-step",
+            "pid": "14"
+        },
+        "18": {
+            "data": "键盘左侧的Control",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "19": {
+            "data": "键盘左侧的Option(Alt)",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "20": {
+            "data": "键盘右侧的Shift",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "21": {
+            "data": "按住全部三个按键7秒钟，然后在不松开按键的情况下按住电源按钮。如果Mac处于开机状态，它将在您按住这些按键时关机。",
+            "type": "sequence-step",
+            "pid": "14"
+        },
+        "22": {
+            "data": "继续按住全部四个按键7秒钟，然后松开这些按键。",
+            "type": "sequence-step",
+            "pid": "14"
+        },
+        "23": {
+            "data": "等待几秒钟，然后按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "14"
+        },
+        "28": {
+            "data": "配备T2芯片的台式电脑",
+            "type": "sequence",
+            "pid": "5"
+        },
+        "30": {
+            "data": "将Mac关机，然后拔下电源线。",
+            "type": "sequence-step",
+            "pid": "28"
+        },
+        "31": {
+            "data": "等待15秒钟，然后重新接回电源线。",
+            "type": "sequence-step",
+            "pid": "28"
+        },
+        "32": {
+            "data": "等待5秒钟，然后按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "28"
+        },
+        "37": {
+            "data": "在其他电脑上重置SMC",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "38": {
+            "data": "如果您的Mac没有配备AppleT2安全芯片，请按照以下步骤操作。",
+            "type": "ordinary",
+            "pid": "37"
+        },
+        "42": {
+            "data": "装有不可拆卸电池的笔记本电脑",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "43": {
+            "data": "这类电脑包括2009年中至2017年推出的MacBookPro机型、2017年或之前推出的MacBookAir机型，以及所有MacBook机型，但MacBook（13英寸，2009年中）除外。",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "47": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "42"
+        },
+        "48": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "47"
+        },
+        "50": {
+            "data": "在内建键盘上，按住以下所有按键：",
+            "type": "sequence-step",
+            "pid": "47"
+        },
+        "51": {
+            "data": "键盘左侧的Shift",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "52": {
+            "data": "键盘左侧的Control",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "53": {
+            "data": "键盘左侧的Option(Alt)",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "54": {
+            "data": "在按住全部三个按键的情况下，按住电源按钮。",
+            "type": "sequence-step",
+            "pid": "47"
+        },
+        "55": {
+            "data": "按住全部四个按键10秒钟。",
+            "type": "sequence-step",
+            "pid": "47"
+        },
+        "56": {
+            "data": "松开所有按键，然后按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "47"
+        },
+        "61": {
+            "data": "装有可拆卸电池的笔记本电脑",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "62": {
+            "data": "这类电脑包括2009年初或之前推出的所有MacBookPro和MacBook机型，以及MacBook（13英寸，2009年中）。",
+            "type": "ordinary",
+            "pid": "61"
+        },
+        "66": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "61"
+        },
+        "67": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "66"
+        },
+        "68": {
+            "data": "拆下电池。（如果您需要拆卸电池方面的协助，请联系AppleStore商店或Apple授权服务提供商。）",
+            "type": "sequence-step",
+            "pid": "66"
+        },
+        "72": {
+            "data": "按住电源按钮5秒钟。",
+            "type": "sequence-step",
+            "pid": "66"
+        },
+        "73": {
+            "data": "重新安装电池。",
+            "type": "sequence-step",
+            "pid": "66"
+        },
+        "74": {
+            "data": "按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "66"
+        },
+        "79": {
+            "data": "台式电脑",
+            "type": "sequence",
+            "pid": "38"
+        },
+        "81": {
+            "data": "将Mac关机，然后拔下电源线。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "82": {
+            "data": "等待15秒钟，然后重新接回电源线。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "83": {
+            "data": "等待5秒钟，然后按下电源按钮以将Mac开机。",
+            "type": "sequence-step",
+            "pid": "79"
+        }
+    }
+}

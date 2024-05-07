@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江嘉兴港澳逗留签注的信息",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "港澳逗留签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道哪方面的信息呢？",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "港澳逗留签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道申请的话是不是没有数量限制？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "申请条件",
+            "数量限制",
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "136",
+            "137",
+            "138"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那受理的条件是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "经香港有关部门批准赴香港随任、就学、就业、居留、培训以及作为受养人赴香港依亲的；经澳门有关部门批准赴澳门随任、就学、就业人员，经澳门有关部门批准赴澳门居留的就业人员亲属，可以申请港澳逗留签注。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "经香港有关部门批准赴香港随任、就学、就业、居留、培训以及作为受养人赴香港依亲的；经澳门有关部门批准赴澳门随任、就学、就业人员，经澳门有关部门批准赴澳门居留的就业人员亲属，可以申请港澳逗留签注。"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那交钱可以网上交吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "498"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "499"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，一般多长时间会送到呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "承诺的办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "7个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下更新iPhone、iPad或iPodtouch的信息",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面内容",
+        "act": "question/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的设备当前的版本是最新的，但还有一个可用的升级的什么情况",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您将配件与iPhone配对时，您可能需要升级iOS",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那通过无线更新iPhone的话具体步骤是什么",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "通过无线方式更新iPhone、iPad或iPodtouch",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先使用iCloud或电脑备份您的设备，然后将设备插接到电源，通过无线局域网连接到互联网，前往“设置”>“通用”，然后轻点“软件更新”。如果看到两个可用的软件更新选项，请选取要安装的那个。 最后轻点“现在安装”。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "使用iCloud或电脑备份您的设备。",
+            "将设备插接到电源，然后通过无线局域网连接到互联网。",
+            "前往“设置”>“通用”，然后轻点“软件更新”。",
+            "如果看到两个可用的软件更新选项，请选取要安装的那个。",
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "11",
+            "15",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果看到的是“下载并安装”是不是要先下载",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，请轻点它以下载更新，输入密码，然后轻点“现在安装”。",
+        "act": "ans/yes",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想知道怎么在Mac、iPad或iPodtouch上拨打和接听电话",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在Mac、iPad或iPodtouch上拨打和接听电话",
+            "借助iPhone蜂窝移动网络通话，可以从Mac、iPad或iPodtouch拨打和接听电话，只要这些设备与iPhone连接到同一网络。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "借助iPhone蜂窝移动网络通话，可以从Mac、iPad或iPodtouch拨打和接听电话",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "借助iPhone蜂窝移动网络通话，可以从Mac、iPad或iPodtouch拨打和接听电话，只要这些设备与iPhone连接到同一网络。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那有什么前提条件吗",
+        "act": "what",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "借助iPhone蜂窝移动网络通话，可以从Mac、iPad或iPodtouch拨打和接听电话，只要这些设备与iPhone连接到同一网络。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "只要这些设备与iPhone连接到同一网络",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "借助iPhone蜂窝移动网络通话，可以从Mac、iPad或iPodtouch拨打和接听电话，只要这些设备与iPhone连接到同一网络。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，是需要所有设备都开启Wi-Fi吗",
+        "act": "verification",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均已开启Wi-Fi。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均已开启Wi-Fi。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下更新与AppleID相关联的出生日期的信息",
+        "act": "what",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "更新与AppleID相关联的出生日期"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您是在网页上还是在iPhone、iPad或iPodtouch上编辑呢",
+        "act": "multiple-choice",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "在网页上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "在网页上，需要提供邮箱吗",
+        "act": "verification",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "在网页上",
+            "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。"
+        ],
+        "grounding_id": [
+            "5",
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。",
+        "act": "ans/yes",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

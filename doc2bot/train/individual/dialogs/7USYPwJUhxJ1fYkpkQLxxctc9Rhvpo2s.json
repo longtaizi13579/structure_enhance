@@ -1,0 +1,248 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想浙江省湖州市办理车辆质押，需要走什么流程呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车",
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T17",
+            "T13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问你是什么车呢？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的是一辆小车。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在线上申请走个机动车质押备案流程。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那机动车质押备案申请在什么情况下不可以办理呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "1",
+            "148"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有下列情形之一的，不予办理质押备案： 1.机动车所有人提交的证明、凭证无效的；2.机动车达到国家规定的强制报废标准的；3.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；4.机动车属于被盗抢的。只要您没有以上的情况，是可以申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "有下列情形之一的，不予办理质押备案：\n",
+            "1.机动车所有人提交的证明、凭证无效的；",
+            "2.机动车达到国家规定的强制报废标准的；",
+            "3.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；",
+            "4.机动车属于被盗抢的。"
+        ],
+        "grounding_id": [
+            "154",
+            "365",
+            "366",
+            "367",
+            "368"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我没有这些情况，我申请后，大概什么时候出结果呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您办理成功后自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我家有个老人需要用轮椅，我想给他买个轮椅车，就是可以在街上开的那种车，我这边需要办理什么手续呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您需要去您父亲的当地申请残疾人机动轮椅车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我不知道具体地址在哪里？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以去长兴县浙北二手车交易市场车管所机动车登记服务站（湖州市长兴县太湖街道图影大道788号二楼车管所办事大厅1-4号窗口）",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "长兴县浙北二手车交易市场车管所机动车登记服务站（湖州市长兴县太湖街道图影大道788号二楼车管所办事大厅1-4号窗口）"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "你们的联系电话是多少？我先打电话咨询下。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "电话是：0572-6633195。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "0572-6633195"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，请问上午的办理时间是几点呢？我好安排好时间。",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理时间是：法定工作日（法定节假日除外），周一至周五上午8:30-12:00。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理后多久可以出结果呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

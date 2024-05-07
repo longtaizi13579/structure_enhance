@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问补换领号牌办理当天可以拿到吗？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "一般情况下是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如果申请纸质的检验合格标志也是当天就能拿到吗？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T17",
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您说的是机动车申请补换领纸质检验合格标志的送达时限吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，需要多长时间呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，那么申请的话是怎么申请呢？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以通过网上申请或现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那可以到现场的自助机器申请吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您说的是自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，可以吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前是不可以的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那也不能网上支付了？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "303"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，目前也不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "304"
+        ]
+    }
+]

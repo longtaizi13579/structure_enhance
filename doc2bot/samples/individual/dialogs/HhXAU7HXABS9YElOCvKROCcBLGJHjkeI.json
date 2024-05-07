@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "这个工伤托管的结果怎么还没有通知啊？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "老工伤人员托管登记为自作出决定之日起3个工作日内，希望您不要着急。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好吧，我当时是在网上申请的，是不是和现场申请的有时间差？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "网上申请和现场窗口申请两种方式没有区别的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那是不是因为人工办理的慢一些，机器办的就快啊？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "此项业务暂时不支持自助终端办理，都是人工操作的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那怎么这么长时间都没有下来，我着急啊，能不能打电话问问啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以拨打全国统一咨询投诉热线0571-12345进行询问。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有浙江省杭州市专门的电话啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个电话是全国统一的，您拨打0571-12345这个号码就可以的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "行叭，那他们这上班时间是不是很短啊，也太慢了",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理时间在工作日的夏季上午9:00-12:00下午14:00-17:00和冬季上午9:00-12:00下午冬令时13:30-17:00，双休日也安排有值班的，您不用担心。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "工作日，夏季：上午9:00-12:00下午14:00-17:00；冬季：上午9:00-12:00下午冬令时13:30-17:00。（双休日安排值班）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

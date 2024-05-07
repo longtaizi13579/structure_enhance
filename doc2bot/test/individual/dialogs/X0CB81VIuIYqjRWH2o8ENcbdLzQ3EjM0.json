@@ -1,0 +1,404 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，咨询一下这个行驶证驾驶证的事",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯浙江嘉兴市",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的关于这个行驶证驾驶证您具体想了解些什么呢",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是这样之前疫情被隔离啦但是我驾驶证到期了",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是想了解驾驶证延期审验对吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "啊是的，我是想问这有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个有投诉电话还有投诉地址再有就是投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "您告诉我一下投诉电话吧",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的该电话是0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那办这个延期审验支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "266"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这还收费吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那挺好，还有个事咱们嘉兴市这个临时入境机动车号牌、行驶证核发办这个有什么咨询方式",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "临时入境机动车号牌、行驶证核发",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T11",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个有三个方式一咨询电话二咨询地址三咨询网址您需要哪个",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "咨询电话吧，我记一下",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的您记好电话是0573—12123",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "0573—12123。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那办这临时入境的事收费吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "521"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "这个收费",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "528"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "收费项目叫啥嗯",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "528"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "就是临时入境机动车号牌和行驶证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "1\t临时入境机动车号牌和行驶证"
+        ],
+        "grounding_id": [
+            "529"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那得收多少钱呀",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "530"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "1这个是10元/本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "531"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "对了办这个临时入境核发这个是依据什么",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "509"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "依据临时入境机动车和驾驶人管理规定",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车和驾驶人管理规定"
+        ],
+        "grounding_id": [
+            "510"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "好的那办这个临时入境的事有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "这个有三个方式一投诉电话二投诉地址三投诉网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "给我来个投诉电话",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "您记一下是0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    }
+]

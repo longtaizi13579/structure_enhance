@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我在浙江省衢州市，想咨询一下关于税务服务类的业务如何收费呢？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "税务服务"
+        ],
+        "grounding_id": [
+            "T6",
+            "T73"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想了解我们的收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，我想知道咱们这个业务收不收费？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们这项业务不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想顺便问一下纳税信用补评可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "纳税信用补评",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "267"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们这项业务不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我要是去缴费的话，在哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以到台州市人民政府行政服务中心二楼办税服务厅D1-D18号窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼办税服务厅D1-D18号窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想再咨询一下我的资料齐不齐，有什么咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们有咨询电话、咨询地址和咨询网址三种方式，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "请先给我一个咨询电话可以吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的咨询电话是0576-88207842，0576-88528803。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "0576-88207842，0576-88528803"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我要是去现场的话，咱们的咨询地址是哪里呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的咨询地址是台州市椒江区开发大道692号2楼税务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "台州市椒江区开发大道692号台州市行政服务中心2楼税务窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "再问一下，如果我要办理国家鼓励项目免税确认业务，可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "391"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们此项业务不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "392"
+        ]
+    }
+]

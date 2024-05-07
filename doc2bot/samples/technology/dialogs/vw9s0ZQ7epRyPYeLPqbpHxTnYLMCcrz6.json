@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何在iPhone上设置个人热点呢",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如何在iPhone或iPad上设置个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，然后轻点“允许其他人加入”旁边的滑块。还有更多需要了解的问题吗",
+        "act": "question/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。",
+            "轻点“允许其他人加入”旁边的滑块。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我就是按照这个点的，但是没有看到“个人热点”选项怎么办",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果在手机上连接Wi-Fi的话也是到设置去查找吗？",
+        "act": "verification",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "找到想加入的Wi-Fi之后怎么做",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

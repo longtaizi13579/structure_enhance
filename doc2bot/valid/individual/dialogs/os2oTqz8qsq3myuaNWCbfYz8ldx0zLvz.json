@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问申请少数民族参加中考优待的话是不是没有禁止要求呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "对少数民族考生参加中考优待的确认",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "1",
+            "141"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，没有禁止性要求",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那申请完之后多久能有结果？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "17个工作日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "17（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是最迟17个工作日吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "承诺办结时限",
+            "17（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "17（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

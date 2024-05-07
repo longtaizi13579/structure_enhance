@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我是浙江省绍兴市的，我想咨询一下，我时间到了更换机动车驾驶证多少钱",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "期满换领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "1",
+            "337"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这样的话，10元就可以更换了",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "知道了，那我可以网上支付嘛",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "333"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "334"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那这种我缴费之后几天能拿到驾驶证呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般你办理完交完费，10个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我全部办理完最迟要多久啊",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我可以在自助机办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这是不可以的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

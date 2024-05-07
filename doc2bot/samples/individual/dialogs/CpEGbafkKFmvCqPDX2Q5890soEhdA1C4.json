@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省宁波市的，买了两国产汽车，去哪里办理登记？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车",
+            "国产机动车注册登记",
+            "浙江省_宁波市",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T17",
+            "1",
+            "T10",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您购买的国产汽车是否符合国家标准及工信部产品公告？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个当然符合。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您可以到宁波市公安局交通警察局车辆管理所二分所（宁波市海曙区古林镇鄞县大道古林段1号）一楼业务受理大厅1-24号窗口，申请国产机动车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "宁波市公安局交通警察局车辆管理所二分所（宁波市海曙区古林镇鄞县大道古林段1号）一楼业务受理大厅1-24号窗口"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "几天能办好？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限为2（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

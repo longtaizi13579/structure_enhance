@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下适用于Mac上雷雳4、雷雳3或USB-C端口的转换器的相关问题？",
+        "act": "what",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：雷雳3或雷雳4，USB-C，USB-A，以太网，雷雳或雷雳2，还是其它？",
+        "act": "multiple-choice",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "USB-A"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，如果将USB-A连接线与设备搭配使用，应该选择什么转换器？",
+        "act": "what",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "USB-A",
+            "如果您将USB-A连接线与设备搭配使用，请选择AppleUSB-C至USB转换器、AppleUSB-C数字影音多端口转换器或AppleUSB-CVGA多端口转换器等USB-C至USB-A转换器，将设备连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您将USB-A连接线与设备搭配使用，请选择AppleUSB-C至USB转换器、AppleUSB-C数字影音多端口转换器或AppleUSB-CVGA多端口转换器等USB-C至USB-A转换器，将设备连接到您的Mac。",
+        "act": "ans/open",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "如果您将USB-A连接线与设备搭配使用，请选择AppleUSB-C至USB转换器、AppleUSB-C数字影音多端口转换器或AppleUSB-CVGA多端口转换器等USB-C至USB-A转换器，将设备连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果在不使用这些转换器的情况下，通过雷雳3为iPhone充电，可以使用哪种连接线？",
+        "act": "what",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "要在不使用这些转换器的情况下通过雷雳3或USB-C端口为iPhone、iPad或iPodtouch充电，您可以改用AppleUSB-C转闪电连接线。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要在不使用这些转换器的情况下通过雷雳3或USB-C端口为iPhone、iPad或iPodtouch充电，您可以改用AppleUSB-C转闪电连接线。",
+        "act": "ans/open",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "要在不使用这些转换器的情况下通过雷雳3或USB-C端口为iPhone、iPad或iPodtouch充电，您可以改用AppleUSB-C转闪电连接线。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果将以太网线缆与设备搭配使用，应该选择什么转换器？",
+        "act": "what",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "以太网",
+            "如果您将以太网线缆与设备搭配使用，请选择USB-C至以太网转换器，例如BelkinUSB-C至千兆以太网转换器。"
+        ],
+        "grounding_id": [
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您将以太网线缆与设备搭配使用，请选择USB-C至以太网转换器，例如BelkinUSB-C至千兆以太网转换器。",
+        "act": "ans/open",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "如果您将以太网线缆与设备搭配使用，请选择USB-C至以太网转换器，例如BelkinUSB-C至千兆以太网转换器。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果将Apple雷雳3连接线与显示器或搭配使用，可以直接链接到Mac吗？",
+        "act": "verification",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "雷雳3或雷雳4",
+            "如果您将Apple雷雳3连接线等雷雳3或雷雳4线缆与显示器或其他设备搭配使用，则无需转换器即可连接到Mac。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您将Apple雷雳3连接线等雷雳3或雷雳4线缆与显示器或其他设备搭配使用，则无需转换器即可连接到Mac。",
+        "act": "ans/yes",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "如果您将Apple雷雳3连接线等雷雳3或雷雳4线缆与显示器或其他设备搭配使用，则无需转换器即可连接到Mac。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哪些显示器使用雷雳3？",
+        "act": "what",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "AppleStudioDisplay、AppleProDisplayXDR和LGUltraFine5K显示器使用雷雳3。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "AppleStudioDisplay、AppleProDisplayXDR和LGUltraFine5K显示器使用雷雳3。",
+        "act": "ans/open",
+        "document": "适用于Mac上雷雳4、雷雳3或USB-C端口的转换器.json",
+        "grounding": [
+            "AppleStudioDisplay、AppleProDisplayXDR和LGUltraFine5K显示器使用雷雳3。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

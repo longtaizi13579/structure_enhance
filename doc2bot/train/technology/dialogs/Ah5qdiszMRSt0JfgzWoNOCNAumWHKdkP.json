@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在一台设备上关闭“iCloud照片”前，需要对照片和视频进行处理吗？",
+        "act": "verification",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "关闭“iCloud照片”前，您不妨对照片和视频制作副本。"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "最好关闭“iCloud照片”前，对照片和视频制作副本。",
+        "act": "ans/yes",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "关闭“iCloud照片”前，您不妨对照片和视频制作副本。"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果打开“iCloud照片”后一些照片和视频缺失了，该怎么办？",
+        "act": "how",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "如果打开“iCloud照片”后一些照片和视频缺失了，该怎么办？"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有两种方式，“最近删除”相簿中查找，还可以通过“隔空投送”，你想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "在“照片”App的“最近删除”相簿中查找缺失的照片和视频，并确保使用正确的AppleID登录了iCloud。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "第一种，“最近删除”相簿中查找",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "在“照片”App的“最近删除”相簿中查找缺失的照片和视频，并确保使用正确的AppleID登录了iCloud。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在“照片”App的“最近删除”相簿中查找缺失的照片和视频，并确保使用正确的AppleID登录了iCloud。",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "在“照片”App的“最近删除”相簿中查找缺失的照片和视频，并确保使用正确的AppleID登录了iCloud。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那“隔空投送”呢？",
+        "act": "what",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "您也可以使用“隔空投送”将照片从电脑拷贝到iPhone、iPad或iPodtouch："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您也可以使用“隔空投送”将照片从电脑拷贝到iPhone、iPad或iPodtouch：: 首先确保您在电脑和iOS设备上已使用同一AppleID登录。 其次解锁您的iOS设备，然后打开“隔空投送”。 再次在Mac上打开一个新的“访达”窗口，并选取边栏中的“隔空投送”。 最后将照片拖移到“访达”窗口中的iOS设备图标上。",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "您也可以使用“隔空投送”将照片从电脑拷贝到iPhone、iPad或iPodtouch：",
+            "确保您在电脑和iOS设备上已使用同一AppleID登录。",
+            "解锁您的iOS设备，然后打开“隔空投送”。",
+            "在Mac上打开一个新的“访达”窗口，并选取边栏中的“隔空投送”。",
+            "将照片拖移到“访达”窗口中的iOS设备图标上。"
+        ],
+        "grounding_id": [
+            "11",
+            "16",
+            "17",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "打开“隔空投送”前要做什么？",
+        "act": "what",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "解锁您的iOS设备，然后打开“隔空投送”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "解锁您的iOS设备，然后打开“隔空投送”。",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "解锁您的iOS设备，然后打开“隔空投送”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在Mac上“隔空投送”在哪？",
+        "act": "what",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "在Mac上打开一个新的“访达”窗口，并选取边栏中的“隔空投送”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": ".在Mac上打开一个新的“访达”窗口，并选取边栏中的“隔空投送”。",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "在Mac上打开一个新的“访达”窗口，并选取边栏中的“隔空投送”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "照片拖移到哪？",
+        "act": "what",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "将照片拖移到“访达”窗口中的iOS设备图标上。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "将照片拖移到“访达”窗口中的iOS设备图标上。",
+        "act": "ans/open",
+        "document": "就“iCloud照片”获取协助.json",
+        "grounding": [
+            "将照片拖移到“访达”窗口中的iOS设备图标上。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，我知道了，那可以通过设置可以更大限度延长电池续航能力吗？",
+        "act": "verification",
+        "document": "就Mac笔记本电脑电池获取协助.json",
+        "grounding": [
+            "可以更大限度延长电池续航能力，"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的。通过设置 可以更大限度延长电池续航能力。",
+        "act": "ans/yes",
+        "document": "就Mac笔记本电脑电池获取协助.json",
+        "grounding": [
+            "可以更大限度延长电池续航能力，"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "怎么设置呢？",
+        "act": "how",
+        "document": "就Mac笔记本电脑电池获取协助.json",
+        "grounding": [
+            "请使用以下设置："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "打开“使用电池电源时使显示屏略暗一些”。关闭“电池供电时启用电能小憩”。打开“自动切换图形卡模式”。打开“低电量模式”。",
+        "act": "ans/open",
+        "document": "就Mac笔记本电脑电池获取协助.json",
+        "grounding": [
+            "打开“使用电池电源时使显示屏略暗一些”。这项设置可让您在断开电脑电源时，将Mac的显示屏亮度调节为75%。",
+            "关闭“电池供电时启用电能小憩”。这项设置可防止Mac在睡眠期间检查邮件或其他iCloud更新，从而延长待机时间。",
+            "打开“自动切换图形卡模式”。这项设置让配备了多个图形处理器的MacBookPro机型能够自动切换不同的图形处理器，从而最大限度延长电池续航能力。",
+            "打开“低电量模式”。这项设置可以降低能耗，从而延长电池续航能力。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    }
+]

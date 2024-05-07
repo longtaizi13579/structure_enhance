@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "护照"
+        ],
+        "grounding_id": [
+            "T297"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询护照方面的问题",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "护照"
+        ],
+        "grounding_id": [
+            "T297"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问是普通护照吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对，我想咨询一下普通护照的办理流程。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "1286"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "1287",
+            "1289",
+            "1298",
+            "1307",
+            "1313"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "审核审批要多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1298",
+            "1299"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "3个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "3个工作日"
+        ],
+        "grounding_id": [
+            "1300"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "制证签发又要多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "制证签发",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1307",
+            "1309"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "2个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "1310"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我要在哪办理呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

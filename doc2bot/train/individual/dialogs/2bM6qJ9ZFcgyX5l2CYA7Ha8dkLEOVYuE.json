@@ -1,0 +1,276 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江省绍兴市残疾人机动轮椅车注册登记的信息",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "机动车",
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "T7",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解办理地点，办理时间，咨询方式还是监督投诉方式",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道投诉方式有哪些？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址和投诉网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那办理机动车解除抵押登记的话什么时间过去比较好？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理时间",
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "上午8:30—12:00，下午13:30—17:00（夏）；上午8:30—12:00，下午13:30—16:30（冬）周一至周六（节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "上午8:30—12:00，下午13:30—17:00（夏）；上午8:30—12:00，下午13:30—16:30（冬）周一至周六（节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那申请机动车申请补换领纸质检验合格标志有没有数量限制？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "148",
+            "149"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": " 无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "150"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果不在安全技术检验合格和交通交通事故责任强制保险有效期内可以办吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "153"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以办理的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "在安全技术检验合格和交通交通事故责任强制保险有效期内的。"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那免检机动车申请纸质检验合格标志多长时间能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "法定办结时限",
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "59",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "大约两个个工作日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是两个工作日就能拿到吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的，送达的话还有送达时限，您需要了解吗",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "需要，送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一般自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "333"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "目前不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "334"
+        ]
+    }
+]

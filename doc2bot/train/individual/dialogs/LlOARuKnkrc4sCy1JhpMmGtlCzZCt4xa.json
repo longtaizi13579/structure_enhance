@@ -1,0 +1,372 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省绍兴市公积金的有关问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "公积金提取、常用服务、跨省通办服务，您想咨询哪项服务的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "公积金提取"
+        ],
+        "grounding_id": [
+            "T214"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询公积金提取的相关问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "公积金提取"
+        ],
+        "grounding_id": [
+            "T214"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问是出境定居提取住房公积金这项业务吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对，我想咨询出境定居提取住房公积金是否收费？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "277"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办理业务过程中遇到问题，有哪些监督投诉方式？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种，投诉电话 、投诉地址、投诉网址请问您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "告诉我一下投诉电话吧。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0575-85089016",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "0575-85089016"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "结果的送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果想办理那个业务可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果我还有不明白的地方，还有哪些咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "告诉我咨询地址吧。",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "我还想问问关于这个业务申请条件的问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您是想问是否有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "对，有吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "没有的。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": " 职工出境定居。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "职工出境定居的。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "有什么禁止性要求吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "职工出境定居的。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    }
+]

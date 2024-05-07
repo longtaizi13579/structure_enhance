@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我应邀赴台湾交流，需要申请“应邀”签注，请问可以网上支付办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "台湾通行证及签注",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "T240",
+            "386"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问先生是在哪个省市办理呢？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江台州。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "浙江台州的应邀赴台签注是可以网上支付的。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "387"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那请问收费标准是怎样的？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "390"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "应邀赴台一次有效签注15元一件；多次有效签注80元一件。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：应邀赴台一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "391"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那需要多少天可以办好呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那请问我是去参加学术交流的，我太太可以和我一起申请吗？她需要去商谈两岸事务。",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的。经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，多选告知。最后问一下可否在自助机上面办理该签注？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不好意思，暂不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    }
+]

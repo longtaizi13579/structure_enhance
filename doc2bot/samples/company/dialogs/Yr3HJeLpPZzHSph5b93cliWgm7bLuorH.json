@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，请问浙江湖州营业单位注销在哪能登记？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "营业单位及非法人分支机构注销登记",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "1",
+            "125"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以具体描述一下您在湖州的哪个片区吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我人在湖州市长兴县泗安镇。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "泗安镇便民服务中心（浙江省湖州市长兴县泗安镇绿洲大道325号）一楼17号窗口"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "泗安镇办理地点在：泗安镇便民服务中心一楼17号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "泗安镇便民服务中心（浙江省湖州市长兴县泗安镇绿洲大道325号）一楼17号窗口"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般啥时候能去办理啊？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "上午8：30到11：30，下午1：30到4：00都可以去办理的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "上午8:30到11:30下午1:30到4:00"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我不办理，只想先咨询一下流程什么的，可以去哪里咨询？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以到：湖州市行政服务中心三楼涉企证照通办窗口咨询。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "湖州市行政服务中心（浙江省湖州市金盖山路66号1号楼）三楼涉企证照通办窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这也太远了，有啥其他咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，我们还有网站咨询和电话咨询两种方式，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "电话咨询吧。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的咨询电话为：0572-2058484。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "0572-2058484"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "一直打不通啊，你知道办理流程是啥吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "226"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程如下：1、申请；2、受理；3、审查/核准；4、决定；5、送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业注销_常用服务_营业单位及非法人分支机构注销登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查/核准",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "226",
+            "227",
+            "229",
+            "236",
+            "243",
+            "250"
+        ]
+    }
+]

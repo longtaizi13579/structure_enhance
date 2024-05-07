@@ -1,0 +1,270 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省台州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "浙江省_台州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T8",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车有关的问题",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车因故不在我国境内使用注销登记、机动车灭失注销登记还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车因故不在我国境内使用注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "机动车因故不在我国境内使用注销登记这个业务要去哪办理？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "办理地点",
+            "机动车因故不在我国境内使用注销登记"
+        ],
+        "grounding_id": [
+            "22",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以去台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果我还想咨询其他问题，有几种咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "结果多久会给反馈呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "40",
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "结果会自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个业务要在哪办理？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那如果我还有其他问题，可以怎么咨询？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一共三种方式，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "咨询电话告诉我一下吧",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "0576－12123",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "0576－12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

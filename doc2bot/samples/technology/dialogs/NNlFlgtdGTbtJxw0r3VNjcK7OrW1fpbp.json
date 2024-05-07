@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近需要使用AppleID，想要问一下可以怎么创建新的AppleID呢？",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，iPhone、iPad或iPodtouch上创建AppleID、Mac上创建AppleID还有其他的，您想了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID",
+            "在iPhone、iPad或iPodtouch上创建AppleID"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我先了解一下在iPhone、iPad或iPodtouch上创建AppleID吧",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上创建AppleID"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上创建AppleID包括在设置设备时创建AppleID和使用设备上的AppStore创建AppleID，您想详细了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID",
+            "在iPhone、iPad或iPodtouch上创建AppleID",
+            "在设置设备时创建AppleID"
+        ],
+        "grounding_id": [
+            "1",
+            "23",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那个在设置设备时创建AppleID要怎么做呢？",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在设置设备时创建AppleID"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在设置设备时创建AppleID: 首先轻点“忘记密码或没有AppleID？”，轻点“创建免费AppleID”。然后选择您的生日并输入您的姓名。轻点“下一步”，再轻点“使用当前电邮地址”或“获取免费iCloud电邮地址”。 出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在设置设备时创建AppleID",
+            "轻点“忘记密码或没有AppleID？”。",
+            "轻点“创建免费AppleID”。",
+            "选择您的生日并输入您的姓名。轻点“下一步”。",
+            "轻点“使用当前电邮地址”或“获取免费iCloud电邮地址”。",
+            "出现提示时，请按照屏幕上的步骤来验证您的电子邮件地址并设置双重认证。如果您选择跳过这一步，系统稍后会在“设置”中提示您完成这一操作。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那如果使用同一AppleID可以享受所有Apple服务吗？",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。",
+        "act": "ans/yes",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那要是在Mac上创建AppleID具体的操作步骤是什么呢？",
+        "act": "what",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID",
+            "在Mac上创建AppleID",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤:首先选取苹果菜单>“系统偏好设置”。然后 点按“登录”。 点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。查看您有没有收到来自Apple的验证电子邮件，然后验证您的电子邮件地址。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "具体步骤",
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“登录”。",
+            "点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*",
+            "输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。",
+            "查看您有没有收到来自Apple的验证电子邮件，然后验证您的电子邮件地址。"
+        ],
+        "grounding_id": [
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白，那创建好之后要怎么登录呢？",
+        "act": "how",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "使用您的AppleID登录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您想了解是在iPhone、iPad或iPodtouch上登录还是在App和其他设备上登录呢？",
+        "act": "multiple-choice",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "使用您的AppleID登录",
+            "在iPhone、iPad或iPodtouch上登录"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "先了解一下在iPhone、iPad或iPodtouch上可以怎么登录呢？",
+        "act": "how",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上登录"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤: 首先打开“设置”App， 轻点“登录[您的设备]”，然后输入您的AppleID和密码。如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "具体步骤",
+            "打开“设置”App。",
+            "轻点“登录[您的设备]”。",
+            "输入您的AppleID和密码。",
+            "如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "了解了，那要是在在App和其他设备上登录，可以使用什么呢？",
+        "act": "what",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "使用您的AppleID登录",
+            "在App和其他设备上登录"
+        ],
+        "grounding_id": [
+            "1",
+            "48"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以在您的其他设备上登录以使用AppleMusic和AppleTVApp等内容，比如您可以在安卓设备上登录AppleMusic，或在智能电视机或流媒体设备上登录AppleTVApp。",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "在您的其他设备上登录以使用AppleMusic和AppleTVApp等内容",
+            "您可以在安卓设备上登录AppleMusic，或在智能电视机或流媒体设备上登录AppleTVApp。"
+        ],
+        "grounding_id": [
+            "51",
+            "52"
+        ]
+    }
+]

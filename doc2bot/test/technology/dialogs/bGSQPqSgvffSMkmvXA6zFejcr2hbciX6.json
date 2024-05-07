@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "AppleTV频道或AppleTV+订阅中涵盖的电视节目和影片会出现在购买项目列表里吗？",
+        "act": "verification",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "重新下载已购买的电视节目和影片",
+            "如何从AppleTV+或AppleTV频道下载影片和电视节目",
+            "您的AppleTV频道或AppleTV+订阅中涵盖的电视节目和影片不会出现在您的购买项目列表中。"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不会",
+        "act": "ans/no",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "您的AppleTV频道或AppleTV+订阅中涵盖的电视节目和影片不会出现在您的购买项目列表中。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何重新下载已购买的电视节目和影片？",
+        "act": "how",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "重新下载已购买的电视节目和影片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您使用的是什么设备？",
+        "act": "question/open",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "如何在Mac上重新下载电视节目和影片"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "Mac",
+        "act": "ans/open",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "如何在Mac上重新下载电视节目和影片"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.打开AppleTVApp。 2.点按“资料库”标签页。 3.在边栏中，点按“影片”或“电视节目”。 4.将指针悬停在某部影片或某个电视节目上，接着点按“下载”按钮。如果您使用“家人共享”，则可以在“已购项目”旁边选取家庭成员的姓名以查看他们的购买项目。",
+        "act": "ans/open",
+        "document": "重新下载已购买的电视节目和影片.json",
+        "grounding": [
+            "打开AppleTVApp。",
+            "点按“资料库”标签页。",
+            "在边栏中，点按“影片”或“电视节目”。",
+            "将指针悬停在某部影片或某个电视节目上，接着点按“下载”按钮。如果您使用“家人共享”，则可以在“已购项目”旁边选取家庭成员的姓名以查看他们的购买项目。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

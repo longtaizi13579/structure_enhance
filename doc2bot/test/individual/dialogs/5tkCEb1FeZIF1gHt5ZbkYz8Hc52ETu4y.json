@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下这个社保工伤保险有什么投诉方式",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "社保医保",
+            "工伤保险",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T168",
+            "T189",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "呃，浙江杭州市的，就是有一个什么工伤托管登记的事您给查查怎么投诉",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的帮您查询了这个三种投诉方式，一投诉电话，二投诉地址，三投诉网址，您需要哪一个",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，投诉地址你说一下",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，地址是杭州市人力社保综合服务大厅（中河中路248号）服务台",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（中河中路248号）服务台"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，这样你把电话那投诉电话也说一下吧",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，全国统一咨询投诉热线0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "呃，那这个托管登记收费支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "244",
+            "249"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个目前不支持的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "250"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个托管登记办理流程给查查",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "179"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，办理流程分五个部分一收件二受理三审核四办结五执行，您有具体想了解哪个吗",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "收件",
+            "受理",
+            "审核",
+            "办结",
+            "执行"
+        ],
+        "grounding_id": [
+            "180",
+            "189",
+            "198",
+            "207",
+            "216"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，那我想问一下这个受理审核要多久",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "受理",
+            "审核"
+        ],
+        "grounding_id": [
+            "189",
+            "198"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，帮您查询了，办理时限都是即办",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "即办",
+            "即办"
+        ],
+        "grounding_id": [
+            "191",
+            "200"
+        ]
+    }
+]

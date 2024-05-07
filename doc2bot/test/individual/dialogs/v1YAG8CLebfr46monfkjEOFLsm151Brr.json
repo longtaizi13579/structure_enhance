@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T10",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询台湾通行证及签注有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您是想咨询赴台其他签注、赴台学习签注 、应邀赴台签注还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "赴台其他签注结果多久会给反馈？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "结果会在自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个签注有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种，网上申请、现场窗口申请、邮寄申请均可。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的那有哪些投诉方式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "宁波市鄞州区北明程路788号9061室",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "宁波市鄞州区北明程路788号9061室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

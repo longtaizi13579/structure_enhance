@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解食管梗阻下，能介绍吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "食管梗阻概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想了解食管梗阻病因？诊断方式？还是什么？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "大多数病例的病因如下",
+            "食管梗阻概述"
+        ],
+        "grounding_id": [
+            "8",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "了解下病因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "大多数病例的病因如下"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "病因有食管损伤进展、食物和异物等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "食管损伤进展",
+            "食物和异物"
+        ],
+        "grounding_id": [
+            "9",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有其他原因吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "大多数病例的病因如下"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "肿瘤生长",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "肿瘤生长"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "食管梗阻的诊断方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "食管梗阻的诊断"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "上消化道内镜检查， 活检，钡餐X光检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "诊断方式：",
+            "上消化道内镜检查",
+            "钡餐X光检查"
+        ],
+        "grounding_id": [
+            "44",
+            "45",
+            "47"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "食管梗阻原因是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "食管梗阻概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "某物挤压（压迫）食管外侧时也可能导致狭窄。如引起压迫的原因很多，形成异常血管（食管受压性吞咽困难）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "某物挤压（压迫）食管外侧时也可能导致狭窄。引起压迫的原因很多，例如",
+            "形成异常血管（食管受压性吞咽困难）"
+        ],
+        "grounding_id": [
+            "23",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有其他引起鄢颇原因吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "某物挤压（压迫）食管外侧时也可能导致狭窄。引起压迫的原因很多，例如"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有。甲状腺异常",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "甲状腺异常"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那怎么诊断呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "食管梗阻的诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "上消化道内镜检查、 活检、钡餐X光检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "上消化道内镜检查",
+            "活检",
+            "钡餐X光检查"
+        ],
+        "grounding_id": [
+            "45",
+            "46",
+            "47"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "钡餐X光检查怎么检查？",
+        "act": "how",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "医生也可能会做钡餐X光检查。在这项检查中，患者需在X光检查开始前喝下钡液。钡可使食管显影，从而更容易观察到异常。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "医生也可能会做钡餐X光检查。在这项检查中，患者需在X光检查开始前喝下钡液。钡可使食管显影，从而更容易观察到异常。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "医生也可能会做钡餐X光检查。在这项检查中，患者需在X光检查开始前喝下钡液。钡可使食管显影，从而更容易观察到异常。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那消化道X光检查多用于什么情况？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "X线检查是消化道疾病的常用检查方法之一。进行标准X光检查（X光平片）之前不需做任何特殊准备(X光平片)。这类X平片多用查看消化道梗阻或麻痹、或腹腔内气体的异常积聚。普通X线检査也能用于辨认肝、肾、脾肿大。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "X线检查是消化道疾病的常用检查方法之一。进行标准X光检查（X光平片）之前不需做任何特殊准备(X光平片)。这类X平片多用查看消化道梗阻或麻痹、或腹腔内气体的异常积聚。普通X线检査也能用于辨认肝、肾、脾肿大。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_食管梗阻概述.json",
+        "grounding": [
+            "X线检查是消化道疾病的常用检查方法之一。进行标准X光检查（X光平片）之前不需做任何特殊准备(X光平片)。这类X平片多用查看消化道梗阻或麻痹、或腹腔内气体的异常积聚。普通X线检査也能用于辨认肝、肾、脾肿大。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    }
+]

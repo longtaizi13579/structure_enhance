@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解转入换领机动车驾驶证的相关事宜应该怎么办？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话、咨询地址和咨询网址",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那给我一下咨询地址吧",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那电话呢，打电话方便一些",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0576-12123",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "0576-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那应该到哪里去办理呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，一天就能办好吗？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "基本一个工作日就可以的",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，可以网上付钱吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "259"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "260"
+        ]
+    }
+]

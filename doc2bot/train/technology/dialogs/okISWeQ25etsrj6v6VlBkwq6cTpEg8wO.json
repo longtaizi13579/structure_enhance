@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想使用 iMessage 信息，但一直显示激活错误，怎么办呀？",
+        "act": "how",
+        "document": "如果您无法打开或登录iMessage信息或FaceTime通话.json",
+        "grounding": [
+            "如果您无法打开或登录iMessage信息或FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的iMessage信息是否显示以下内容？正在等待激活。未成功激活。激活出错。无法登录。请检查您的网络连接。无法联系iMessage信息服务器。请再试一次。",
+        "act": "ans/yesno",
+        "document": "如果您无法打开或登录iMessage信息或FaceTime通话.json",
+        "grounding": [
+            "正在等待激活",
+            "未成功激活",
+            "激活出错",
+            "无法登录。请检查您的网络连接",
+            "无法联系iMessage信息服务器。请再试一次。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，就是这么显示的，我该怎么办呢？",
+        "act": "how",
+        "document": "如果您无法打开或登录iMessage信息或FaceTime通话.json",
+        "grounding": [
+            "如果您无法打开或登录iMessage信息或FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要做以下步骤，以便检测您的设备。检查设备设置: 1.确保您已连接到蜂窝数据或Wi-Fi网络。如果您使用的是iPhone，则需要通过短信激活与iMessage信息和FaceTime通话配合使用的电话号码。这条短信可能会收费，具体取决于您的运营商。 2.前往“设置”>“通用”>“日期与时间”，并确保您的时区设置正确。",
+        "act": "ans/open",
+        "document": "如果您无法打开或登录iMessage信息或FaceTime通话.json",
+        "grounding": [
+            "检查设备设置",
+            "确保您已连接到蜂窝数据或Wi-Fi网络。如果您使用的是iPhone，则需要通过短信激活与iMessage信息和FaceTime通话配合使用的电话号码。这条短信可能会收费，具体取决于您的运营商。",
+            "前往“设置”>“通用”>“日期与时间”，并确保您的时区设置正确。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好像我的iPhone不太好用了，我要换个安卓的手机，但收不到短信，这是什么原因呢？",
+        "act": "what",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您改为使用非Apple手机后收不到短信/彩信，您可能需要注销iMessage信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您改为使用非Apple手机后收不到短信/彩信，您可能需要注销iMessage信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您改为使用非Apple手机后收不到短信/彩信，您可能需要注销iMessage信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

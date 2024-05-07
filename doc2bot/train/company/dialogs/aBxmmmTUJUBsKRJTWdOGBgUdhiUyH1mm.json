@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想把浙江省杭州市的一个企业注销掉，请问办理这个业务的收费标准是什么呀？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "企业注销",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T10",
+            "T16",
+            "251"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解此业务是否收费还是想了解收费依据或是是否支持网上支付呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道是否支持网上支付？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理此项业务不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "257"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我还有些别的关于企业注销的问题想咨询，咱们都有什么咨询方式啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "企业注销",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T16",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们有咨询电话、咨询地址和咨询网址，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我一个咨询电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "此业务的全国统一咨询投诉热线0571-12345；0571-86439775。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345；0571-86439775"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有些问题可能电话说不清楚，能再给我一个现场的咨询办公地址吗？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以到杭州市上城区解放东路18号市民中心H楼一楼商事登记综合进件窗口6-13号窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "杭州市行政服务中心(H楼)（杭州市上城区解放东路18号市民中心H楼）一楼商事登记综合进件窗口6-13号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

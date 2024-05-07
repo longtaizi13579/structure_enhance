@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问些关于APN的问题",
+        "act": "what",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "在iPhone和iPad上查看和编辑接入点名称(APN)"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何查看和编辑APN设置 还是还原APN设置",
+        "act": "multiple-choice",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何查看和编辑APN",
+        "act": "how",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您的运营商允许，您可以在“设置”>MobileData（移动数据）>MobileDataOptions（移动数据选项）>MobileDataNetwork（移动数据网络）中查看",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "“设置”>MobileData（移动数据）>MobileDataOptions（移动数据选项）>MobileDataNetwork（移动数据网络）",
+            "如果您的运营商允许，您可以在以下位置之一查看您的APN设置："
+        ],
+        "grounding_id": [
+            "18",
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "诶？可是没有我的iPad啊",
+        "act": "why",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "如果这两个选项在您的设备中都不存在，请联系您的运营商。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果这两个选项在您的设备中都不存在，请联系您的运营商。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "如果这两个选项在您的设备中都不存在，请联系您的运营商。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我要是在更新IOS前更改了APN，那设置会改变吗？",
+        "act": "verification",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

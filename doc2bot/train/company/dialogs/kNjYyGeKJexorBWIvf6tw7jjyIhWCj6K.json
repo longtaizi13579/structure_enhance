@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道一下，在浙江绍兴市办理跨区域涉税事项报验，在我做出决定后，什么时候结果能送到？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "跨区域涉税事项报验",
+            "浙江省_绍兴市",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T5",
+            "118"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "送达时限自作出决定之日起0个工作日内可以送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "昨天我办理业务非常不愉快，我现在想投诉你们，有什么可以直接投诉的方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我目前的投诉方式有电话投诉，线下投诉地址，还有投诉网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就给我投诉电话吧，我打个电话过去，电话多少？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，我们的投诉电话是0575-85228655。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "0575-85228655"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果说我还有一些事情要咨询的话，我应该怎么联系呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们目前有电话咨询，线下咨询地址还有网址咨询，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "也给我一个咨询电话吧，电话是多少？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，我们的咨询电话是0575-12366。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "0575-12366"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是一名孕妇，我想咨询一下妊娠期并发症的相关问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "医学主题",
+            "妊娠期并发症"
+        ],
+        "grounding_id": [
+            "T3",
+            "T610"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解羊水相关问题，异位妊娠 ，胎盘早剥，还是流产？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水相关问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询下羊水相关问题。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水相关问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解羊水过多，羊水过少，还是羊水问题的症状？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水过多"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问下羊水过多，会导致胎儿死亡吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水过多",
+            "羊水过多会导致几个问题：",
+            "胎儿可能会死亡。"
+        ],
+        "grounding_id": [
+            "12",
+            "32",
+            "51"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "胎儿可能会死亡。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "胎儿可能会死亡。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "羊水过多对孕妇有什么影响？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水过多",
+            "羊膜囊内过多的羊水（羊水过多）会扩张子宫并增加对孕妇膈肌的压力。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "羊水过多会扩张子宫并增加对孕妇膈肌的压力。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊膜囊内过多的羊水（羊水过多）会扩张子宫并增加对孕妇膈肌的压力。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "医生为什么要让我验血？",
+        "act": "why",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "血液测试可以用来检查是否存在可能影响羊水的疾病（如感染或糖尿病）。超声检查和其他检查（可能是羊膜穿刺术）可以用来检查胎儿的出生缺陷和基因异常。"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "血液测试可以用来检查是否存在可能影响羊水的疾病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "血液测试可以用来检查是否存在可能影响羊水的疾病（如感染或糖尿病）。超声检查和其他检查（可能是羊膜穿刺术）可以用来检查胎儿的出生缺陷和基因异常。"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "为什么要用超声检查？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "超声检查",
+            "有时这一异常是在B超检查时顺便发现的。如果检测到问题，医生可以使用超声检查来确定羊水量。"
+        ],
+        "grounding_id": [
+            "92",
+            "95"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有时这一异常是在B超检查时顺便发现的。如果检测到问题，医生可以使用超声检查来确定羊水量。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "有时这一异常是在B超检查时顺便发现的。如果检测到问题，医生可以使用超声检查来确定羊水量。"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果羊水过少，会影响胎儿的发育吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "羊水的量过少（羊水过少）也会导致问题，例如：",
+            "胎儿生长可能不及预期。"
+        ],
+        "grounding_id": [
+            "79",
+            "84"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "会的，胎儿生长可能不及预期。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "胎儿生长可能不及预期。"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "胎膜早破会导致羊水过少吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "造成羊水过少的原因可能有：",
+            "包围胎儿的胎膜过早破裂（称为胎膜早破）或临近预产期时破裂。"
+        ],
+        "grounding_id": [
+            "58",
+            "73"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "会的，包围胎儿的胎膜过早破裂或临近预产期时破裂。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_羊水相关问题.json",
+        "grounding": [
+            "包围胎儿的胎膜过早破裂（称为胎膜早破）或临近预产期时破裂。"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    }
+]

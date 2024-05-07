@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "\t你好，我现在是在浙江温州市，我想去台湾探亲，需要办理签注，有自助机器可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_温州市",
+            "浙江省_温州市",
+            "赴台探亲签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T3",
+            "T3",
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，这边是不支持自助终端办理的，您需要选择其他办理方式。",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那还能怎么办理？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理形式",
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "100",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在网上申请或者到现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那我怎么知道自己是否能办赴台探亲签注，有什么条件呢？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是否取得经台湾主管部门批准的探亲资格呢？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台探亲资格的大陆居民，可以申请赴台探亲签注。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "已经取得批准了。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台探亲资格的大陆居民，可以申请赴台探亲签注。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您只要是取得经台湾主管部门批准的在台探亲资格，就可以申请赴台探亲签注。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "132"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，多长时间能办理下来呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限",
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "59",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定的办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

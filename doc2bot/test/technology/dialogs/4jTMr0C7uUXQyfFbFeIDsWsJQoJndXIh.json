@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下在Mac、iPad或iPodtouch上拨打和接听电话",
+        "act": "what",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在Mac、iPad或iPodtouch上拨打和接听电话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你主要是想问设置iPhone蜂窝移动网络通话还是拨打和接通？",
+        "act": "multiple-choice",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "设置iPhone蜂窝移动网络通话"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "设置iPhone蜂窝移动网络通话的问题，我想问一下需要所有设备均已开启Wi-Fi。iPhone蜂窝移动网络通话才可以有效工作嘛？",
+        "act": "verification",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "设置iPhone蜂窝移动网络通话",
+            "所有设备均已开启Wi-Fi。"
+        ],
+        "grounding_id": [
+            "3",
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的需要所有设备均已开启Wi-Fi。",
+        "act": "ans/yes",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均已开启Wi-Fi。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有什么其他的要求吗？",
+        "act": "what",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "iPhone蜂窝移动网络通话兼容满足“‘连续互通’系统要求”的任何Mac、iPhone、iPad或iPodtouch。当设备位于彼此附近并且进行了如下设置时，此功能便可有效工作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "还需要所有设备均通过Wi-Fi或以太网连接到同一网络。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均通过Wi-Fi或以太网连接到同一网络。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果在iPad或iPodtouch应该怎么操作呢？",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在iPad或iPodtouch上，前往“设置”>“FaceTime通话”，然后打开“来自iPhone的通话”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iPad或iPodtouch上，前往“设置”>“FaceTime通话”，然后打开“来自iPhone的通话”。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在iPad或iPodtouch上，前往“设置”>“FaceTime通话”，然后打开“来自iPhone的通话”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果运营商支持在其他设备上进行Wi-Fi通话咋办？",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "如果运营商支持在其他设备上进行Wi-Fi通话，您可以设置这些设备；这样，即使iPhone未开机或不在附近时，您也能拨打和接听电话。了解Wi-Fi通话。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以设置这些设备；这样，即使iPhone未开机或不在附近时，您也能拨打和接听电话。了解Wi-Fi通话。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "如果运营商支持在其他设备上进行Wi-Fi通话，您可以设置这些设备；这样，即使iPhone未开机或不在附近时，您也能拨打和接听电话。了解Wi-Fi通话。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "所有设备还需要做什么吗?",
+        "act": "what",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "iPhone蜂窝移动网络通话兼容满足“‘连续互通’系统要求”的任何Mac、iPhone、iPad或iPodtouch。当设备位于彼此附近并且进行了如下设置时，此功能便可有效工作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "所有设备均使用同一AppleID登录FaceTime通话。所有设备均使用同一AppleID登录iCloud。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均使用同一AppleID登录iCloud。",
+            "所有设备均使用同一AppleID登录FaceTime通话。"
+        ],
+        "grounding_id": [
+            "8",
+            "12"
+        ]
+    }
+]

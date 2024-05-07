@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好就是这个机动车所有人姓名变更登记的问题是问您这里吗",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "呃浙江丽水市的，就是这个机动车被法院扣押了还能办理变更登记吗",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "申请条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "138",
+            "143"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的帮您查询了，这个机动车被人民法院扣押是禁止办理变更登记的",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "（五）机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；"
+        ],
+        "grounding_id": [
+            "606"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我还是要问一下这个要到哪去办理",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的地点在丽水市公安局交通警察支队车辆管理所南城分所（丽水市莲都区南明山街道绿谷大道309号5号楼3楼）5-9号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所南城分所（丽水市莲都区南明山街道绿谷大道309号5号楼3楼）5-9号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯就是还有个问题咱们绍兴对于机动车注销登记支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那这个注销登记收费可以网上支付吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "320",
+            "325"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "326"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，那收费吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "321"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "322"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那这个注销登记一般多久能办好呀",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，就是这方面有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "查了一下这个有三种方式一投诉电话二投诉地址三投诉网址，您需要哪一个呀",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉电话吧，你慢点说我记一下",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，请您记录0575--81500020",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如果在浙江嘉兴办理那个卫生许可证很不满意的话可以怎么投诉？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "浙江省_嘉兴市",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T11",
+            "31"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边有投诉电话和投诉地址，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你说一下投诉电话是多少吧，我记一下",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉电话是0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，谢谢，那办理这个许可证大概要多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个的法定办结时限是20个工作日的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行吧，那我可以自己在那边的自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您的意思是可不可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以的哦，还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    }
+]

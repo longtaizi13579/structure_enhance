@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想询问一下关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题？",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想检查丢失数据备份还是从iPhone备份恢复iPad？",
+        "act": "multiple-choice",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。",
+            "您还可以检查电脑上存不存在可能包含丢失数据的备份。"
+        ],
+        "grounding_id": [
+            "8",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想询问一下从iPhone备份恢复iPad？",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下在恢复过程中，App老是要求我输入密码我该不该输入？",
+        "act": "verification",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "恢复过程中，如果某个App要求您输入您的AppleID密码，请务必输入这个密码。某些App和服务（例如AppStore）需要您提供密码才能恢复购买的内容。如果您使用多个AppleID购买了内容，请根据提示输入每个AppleID的密码。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "恢复过程中，如果某个App要求您输入您的AppleID密码，请务必输入这个密码。某些App和服务（例如AppStore）需要您提供密码才能恢复购买的内容。如果您使用多个AppleID购买了内容，请根据提示输入每个AppleID的密码。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "恢复过程中，如果某个App要求您输入您的AppleID密码，请务必输入这个密码。某些App和服务（例如AppStore）需要您提供密码才能恢复购买的内容。如果您使用多个AppleID购买了内容，请根据提示输入每个AppleID的密码。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我最后还想问一下登录iCloud进行恢复和iCloud云备份进行恢复一样的吗？",
+        "act": "verification",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保您从iCloud云备份正确恢复了您的iOS设备。登录iCloud进行恢复不同于从iCloud云备份进行恢复。了解如何从iCloud云备份恢复。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "登录iCloud进行恢复不同于从iCloud云备份进行恢复。",
+        "act": "ans/no",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保您从iCloud云备份正确恢复了您的iOS设备。登录iCloud进行恢复不同于从iCloud云备份进行恢复。了解如何从iCloud云备份恢复。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

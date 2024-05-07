@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我姐姐手、脚颤抖，该怎么办？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "手、脚、或两者颤抖（震颤）"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你姐姐怀孕了吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "怀孕期间的症状简介"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，怀孕了。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "怀孕期间的症状简介"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当怀孕期间出现手、脚、或两者颤抖（震颤）应立即报告医生。她还有其它症状吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "怀孕期间的症状简介",
+            "一些症状需要立即报告给医生。它们包括：",
+            "手、脚、或两者颤抖（震颤）"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有，胎动减少了。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "胎动减少"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "胎动减少也应立即报告医生",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "胎动减少",
+            "一些症状需要立即报告给医生。它们包括："
+        ],
+        "grounding_id": [
+            "31",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我姐姐还头痛。也需要报告医生吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "一些症状需要立即报告给医生。它们包括：",
+            "持续性或异常头痛"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，持续性或异常头痛也包括在内。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "持续性或异常头痛"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有什么需要注意的？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "一些症状需要立即报告给医生。它们包括："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当孕妇出现眩晕也应注意。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "眩晕"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我姐姐如果还有什么症状需要立即报告医生？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "一些症状需要立即报告给医生。它们包括："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当孕妇出现任何发病或感染时也需要报告。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_怀孕期间的症状_怀孕期间的症状简介.json",
+        "grounding": [
+            "任何发病或感染"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

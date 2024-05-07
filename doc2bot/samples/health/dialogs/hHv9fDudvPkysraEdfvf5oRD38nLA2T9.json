@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是脑、脊髓及神经障碍、损伤及中毒、精神健康障碍还是其他疾病的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "脑、脊髓及神经障碍"
+        ],
+        "grounding_id": [
+            "T1371"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下单神经病这种病。",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "脑、脊髓及神经障碍",
+            "周围神经和相关疾病",
+            "单神经病"
+        ],
+        "grounding_id": [
+            "T1371",
+            "T1418",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您是想问这种病的病因、症状、诊断还是治疗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "单神经病的病因"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "骨折后，石膏夹板没整好会不会引起这个病？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "单神经病的病因",
+            "不合适的石膏夹板或拐杖的压迫及使用不当"
+        ],
+        "grounding_id": [
+            "15",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "会的，不合适的石膏夹板或拐杖的压迫及使用不当都会引起这个病。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "不合适的石膏夹板或拐杖的压迫及使用不当"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有什么情况可能引起这个病？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "损伤是单神经病最常见的原因。损伤通常是由于神经受压迫引起的，例如："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "位于身体浅表区域、临近骨骼凸起部位的神经长时间受压，如肘部、肩部、腕部或膝部的神经（如长时间深睡眠，特别是醉酒时）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "位于身体浅表区域、临近骨骼凸起部位的神经长时间受压，如肘部、肩部、腕部或膝部的神经（如长时间深睡眠，特别是醉酒时）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "医生让做的肌电图和神经传导检查是干嘛用的？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "肌电图和神经传导检查通常用于："
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大夫可能是想排除其他可能的病因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "排除其他可能的病因"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "做了这两项检查能不能确定，具体什么位置的神经损伤了？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "肌电图和神经传导检查通常用于：",
+            "确定神经损伤的位置"
+        ],
+        "grounding_id": [
+            "91",
+            "96"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "确定神经损伤的位置"
+        ],
+        "grounding_id": [
+            "96"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "做这两项检查还能确定什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "肌电图和神经传导检查通常用于："
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "确定疾病的严重程度",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "确定疾病的严重程度"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "大夫可以直接判断是否是单神经病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "诊断方法有："
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "医师的评估是诊断方法之一。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "医师的评估"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那还要做肌电图和神经传导检查吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "诊断方法有："
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有时也要行肌电图和神经传导检查",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_单神经病.json",
+        "grounding": [
+            "有时行肌电图和神经传导检查"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    }
+]

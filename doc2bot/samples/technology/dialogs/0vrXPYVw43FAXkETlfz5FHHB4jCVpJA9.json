@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果Mac因为出现问题而重新启动要怎么办？",
+        "act": "how",
+        "document": "如果Mac因为出现问题而重新启动.json",
+        "grounding": [
+            "如果Mac因为出现问题而重新启动",
+            "检查您的硬件",
+            "先检查外围设备",
+            "如果您的Mac没有连接任何设备，请跳至下一部分。"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以按一下步骤操作：1.将Mac关机。 2.断开所有外围设备（例如，硬盘驱动器或打印机）的连接。如果您使用的是Mac台式电脑，请确保只连接显示屏、键盘和鼠标或触控板。 3.开启Mac。 4.使用Mac，看看到了以往会发生意外重新启动的时候是不是会重新启动。 5.如果发生意外重新启动，请按照用于检查内部RAM和第三方硬件的步骤进行操作。 6.如果没有发生意外重新启动，请关闭Mac并逐个连接外围设备，直到发生意外重新启动为止。",
+        "act": "ans/open",
+        "document": "如果Mac因为出现问题而重新启动.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开所有外围设备（例如，硬盘驱动器或打印机）的连接。如果您使用的是Mac台式电脑，请确保只连接显示屏、键盘和鼠标或触控板。",
+            "开启Mac。",
+            "使用Mac，看看到了以往会发生意外重新启动的时候是不是会重新启动。",
+            "如果发生意外重新启动，请按照用于检查内部RAM和第三方硬件的步骤进行操作。",
+            "如果没有发生意外重新启动，请关闭Mac并逐个连接外围设备，直到发生意外重新启动为止。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样检查RAM和第三方硬件？",
+        "act": "how",
+        "document": "如果Mac因为出现问题而重新启动.json",
+        "grounding": [
+            "如果Mac因为出现问题而重新启动",
+            "检查您的硬件",
+            "检查RAM和第三方硬件"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "某些机型的Mac电脑配备可拆卸式内存(RAM)。如果您最近安装了内存或硬盘（或SSD），请确保它兼容且安装正确。如有可能，请将它取出并使用原始内存或磁盘进行测试。",
+        "act": "ans/open",
+        "document": "如果Mac因为出现问题而重新启动.json",
+        "grounding": [
+            "某些机型的Mac电脑配备可拆卸式内存(RAM)。如果您最近安装了内存或硬盘（或SSD），请确保它兼容且安装正确。如有可能，请将它取出并使用原始内存或磁盘进行测试。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "更新Compressor要注意什么？",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "解决Compressor中的问题",
+            "5.确保Compressor为最新版本"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "更新Compressor之前，请完成所有正在处理的转码项目。然后，备份所有自定的Compressor设置和要更新的Compressor版本。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "更新Compressor之前，请完成所有正在处理的转码项目。然后，备份所有自定的Compressor设置和要更新的Compressor版本。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "重新启动Mac有用吗？",
+        "act": "verification",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "解决Compressor中的问题",
+            "1.重新启动Mac"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "解决Compressor中的问题要注意什么？",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "解决Compressor中的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请按照以下建议列出的顺序操作，直至您查明或解决问题。操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "请按照以下建议列出的顺序操作，直至您查明或解决问题。操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

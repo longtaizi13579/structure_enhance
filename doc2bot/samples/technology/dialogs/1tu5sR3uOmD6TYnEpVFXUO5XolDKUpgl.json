@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "Mac的激活锁是什么？",
+        "act": "what",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "或者停用激活锁"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "激活锁是macOSCatalina10.15或更高版本的一项功能。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "激活锁是macOSCatalina10.15或更高版本的一项功能。macOS恢复功能使用完毕后，请按照以下步骤操作，以停用激活锁。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "Mac启动时出现错误的话，如何使用Option-Command-R启动？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "使用Option-Command-R启动"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "将Mac关机，然后开机并立即按住Option-Command-R，以从最新版本的macOS恢复功能启动。在这种情况下，请勿使用Shift-Option-Command-R，否则您的Mac将从较低版本的macOS恢复功能启动。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "将Mac关机，然后开机并立即按住Option-Command-R，以从最新版本的macOS恢复功能启动。在这种情况下，请勿使用Shift-Option-Command-R，否则您的Mac将从较低版本的macOS恢复功能启动。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何使用其他设备停用激活锁？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "或者停用激活锁",
+            "如果您因Mac无法顺利完成启动而无法完成上述步骤，请使用您的其他设备停用激活锁："
+        ],
+        "grounding_id": [
+            "1",
+            "10",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以按照以下步骤操作： 1.将Mac关机。 2.在另一台设备上，前往iCloud.com并使用您的AppleID登录。 3.点按“查找iPhone”。 4.从设备列表中选取您的Mac。如果您没有看到设备列表，请从页面顶部的设备菜单中选取您的Mac。 5.等待几秒钟，直到“查找”完成对Mac已知最后位置的更新。 6.点按“从‘帐户’中删除”。如果您没有看到这个选项，请返回页面顶部的设备菜单，然后点按您的Mac名称旁边的“移除”按钮。 7.出现提示时，点按“移除”以确认这一操作。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "将Mac关机。",
+            "在另一台设备上，前往iCloud.com并使用您的AppleID登录。",
+            "点按“查找iPhone”。",
+            "等待几秒钟，直到“查找”完成对Mac已知最后位置的更新。",
+            "从设备列表中选取您的Mac。如果您没有看到设备列表，请从页面顶部的设备菜单中选取您的Mac。",
+            "点按“从‘帐户’中删除”。如果您没有看到这个选项，请返回页面顶部的设备菜单，然后点按您的Mac名称旁边的“移除”按钮。",
+            "出现提示时，点按“移除”以确认这一操作。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "28",
+            "27",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何停用激活锁？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "或者停用激活锁",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "10",
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以按照以下步骤操作：1.选取苹果菜单“系统偏好设置”。 2.点按“AppleID”。 3.点按边栏中的“iCloud”。 4.取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。在macOS恢复功能中完成所需的操作后，您可以重新打开这项设置。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“AppleID”。",
+            "点按边栏中的“iCloud”。",
+            "取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。在macOS恢复功能中完成所需的操作后，您可以重新打开这项设置。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    }
+]

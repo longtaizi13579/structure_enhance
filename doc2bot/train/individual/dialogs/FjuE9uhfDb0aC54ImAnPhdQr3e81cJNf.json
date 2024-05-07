@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市社保医保的有关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，医疗保险 、养老保险、工伤保险，您想咨询哪方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "医疗保险"
+        ],
+        "grounding_id": [
+            "T169"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下办理医疗保险转移接续手续需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理",
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "195",
+            "196"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "197"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "200"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "201"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果我还想咨询一下其他有关这项业务的问题，您这边可以提供哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请告诉我咨询地址？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以去杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口进行咨询",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

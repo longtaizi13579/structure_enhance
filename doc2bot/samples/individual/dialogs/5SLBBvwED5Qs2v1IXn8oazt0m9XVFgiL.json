@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省台州市的，想咨询下机动车方面的问题？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_台州市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T8",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解免检机动车申请纸质检验合格标志， 机动车灭失注销登记 ，机动车解除抵押登记，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下免检机动车申请纸质检验合格标志。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解咨询方式，法定办结时限，办理地点，办理时间，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解咨询电话。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话是：0576－12123。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询电话",
+            "0576－12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理方式有哪些？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理形式有：网上申请，现场窗口申请，邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    }
+]

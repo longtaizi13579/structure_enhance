@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我需要注销一下我的车的使用可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是哪个城市的机车？我帮您看一下。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车因故不在我国境内使用注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江嘉兴。我需要注销一下。可以在网上付钱是吧？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "368"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "抱歉，暂时不支持在网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "369"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "注销用不用花钱？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "364"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咱们这个业务是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "365"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，有没有自助办理的地方？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "现在这个业务是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我可以在上午10点过去吗？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，您可以在上午8:30-12:00进行办理。还有什么可以帮助您吗？",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "工作日：上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，我还想再问一下这个车变一下颜色的话是不是在办理注销这个地方就能办理？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您的意思是机动车改变车身颜色吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，这个在哪里弄？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以在嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

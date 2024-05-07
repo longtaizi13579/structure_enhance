@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下动脉瘤和主动脉夹层的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "医学主题",
+            "动脉瘤和主动脉夹层"
+        ],
+        "grounding_id": [
+            "T3",
+            "T252"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询胸主动脉瘤、主动脉夹层还是其他？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "胸主动脉瘤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下胸主动脉瘤是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "胸主动脉瘤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "胸主动脉瘤是指主动脉胸段血管壁内出现膨隆。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "胸主动脉瘤是指主动脉胸段血管壁内出现膨隆（膨胀）。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "胸主动脉瘤会引起什么样的症状？",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "胸主动脉瘤可不引起症状，也可引起疼痛、咳嗽或喘息。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "胸主动脉瘤可不引起症状，也可引起疼痛、咳嗽或喘息。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_动脉瘤和主动脉夹层_胸主动脉瘤.json",
+        "grounding": [
+            "胸主动脉瘤可不引起症状，也可引起疼痛、咳嗽或喘息。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

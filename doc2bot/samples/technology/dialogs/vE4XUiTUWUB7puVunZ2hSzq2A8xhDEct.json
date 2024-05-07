@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "看到设备当前的版本是最新的，还用更新iPhone、iPad或iPodtouch？",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch",
+            "通过无线方式更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。",
+        "act": "ans/yes",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果耳机不能搭配iPhone、iPad或iPodtouch正常使用怎么办？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是无法听到任何声音，或只有一侧的耳机能正常使用吗？",
+        "act": "verification",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先通过iOS设备上的音量按钮调节音量，或者使用iPhone或iPad“控制中心”中的音量滑块调节。然后要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "通过iOS设备上的音量按钮调节音量，或者使用iPhone或iPad“控制中心”中的音量滑块调节。",
+            "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎样在网页上编辑AppleID相关联的出生日期？",
+        "act": "how",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "更新与AppleID相关联的出生日期",
+            "编辑您的出生日期",
+            "在网页上",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先登录appleid.apple.com。 然后选择“个人信息”，然后选取“出生日期”。 最后更新您的出生日期，然后点按“存储”。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "登录appleid.apple.com。",
+            "选择“个人信息”，然后选取“出生日期”。",
+            "更新您的出生日期，然后点按“存储”。如果您要更改儿童的出生日期，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "7",
+            "11",
+            "12"
+        ]
+    }
+]

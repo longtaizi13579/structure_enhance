@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何在iPhone上随机播放音乐呢",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何在iPhone上随机播放音乐"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解让Siri随机播放音乐，如何随机播放专辑或播放列表，如何随机播放资料库中的所有歌曲或专辑，还是如何关闭随机播放",
+        "act": "multiple-choice",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何关闭随机播放"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道是不是当“随机播放”按钮不亮的时候就关闭了",
+        "act": "verification",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "当“随机播放”按钮未高亮显示时，即表示关闭了随机播放。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "当“随机播放”按钮未高亮显示时，即表示关闭了随机播放。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么样让Siri随机播放音乐呢",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "让Siri随机播放音乐"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以说 “嘿Siri，随机播放这张专辑。” “嘿Siri，随机播放我的自驾游歌单。 “嘿Siri，随机播放我的所有歌曲。” “嘿Siri，关闭随机播放。”[",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "“嘿Siri，随机播放这张专辑。”",
+            "“嘿Siri，随机播放我的自驾游歌单。”",
+            "“嘿Siri，随机播放我的所有歌曲。”",
+            "“嘿Siri，关闭随机播放。”"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那关闭随机播放的具体步骤是什么",
+        "act": "what",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何关闭随机播放",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先轻点屏幕底部正在播放的歌曲，然后轻点右下角的“待播清单”按钮，最后轻点“随机播放”按钮以关闭随机播放",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "轻点屏幕底部正在播放的歌曲。",
+            "轻点右下角的“待播清单”按钮。",
+            "轻点“随机播放”按钮以关闭随机播放。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果没有看到“随机播放”按钮的话怎么办",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如果没有看到“随机播放”按钮"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以试试将iPhone更新到最新版本的iOS。或者如果您正在自动播放音乐，则“随机播放”按钮会消失。进一步了解“自动播放”。",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "将iPhone更新到最新版本的iOS。",
+            "您无法随机播放“自动播放”队列中的音乐。如果您正在自动播放音乐，则“随机播放”按钮会消失。进一步了解“自动播放”。"
+        ],
+        "grounding_id": [
+            "39",
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那专辑或播放列表的话又是怎么随机播放呢",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何随机播放专辑或播放列表"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "打开“音乐”App，打开专辑或播放列表，在专辑或播放列表顶部，轻点“随机播放”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "打开“音乐”App。",
+            "打开专辑或播放列表。",
+            "在专辑或播放列表顶部，轻点“随机播放”按钮。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17"
+        ]
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我新买的手机出了点问题，先问一下这个手机不能更新了，是怎么回事呢？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您买的是苹果手机还是安卓手机呢？",
+        "act": "multiple-choice",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是iPhone的",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以移除再重新下载更新",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "移除再重新下载更新"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那具体应该怎么移除再重新下载更新呢？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "移除再重新下载更新"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您仍然无法安装最新版本的iOS或iPadOS，请尝试重新下载更新：首先前往“设置”>“通用”>“[设备名称]储存空间”然后在App列表中找到更新。轻点更新，然后轻点“删除更新”，前往“设置”>“通用”>“软件更新”，然后下载最新的更新。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您仍然无法安装最新版本的iOS或iPadOS，请尝试重新下载更新：",
+            "前往“设置”>“通用”>“[设备名称]储存空间”。",
+            "在App列表中找到更新。",
+            "轻点更新，然后轻点“删除更新”。",
+            "前往“设置”>“通用”>“软件更新”，然后下载最新的更新。"
+        ],
+        "grounding_id": [
+            "51",
+            "52",
+            "53",
+            "54",
+            "55"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，还有我这个耳机不能搭配iPhone手机正常使用，能用的办法都用了，还是不行该怎么办呢？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的耳机仍无法正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "仍然需要帮助？",
+            "如果您的耳机仍无法正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行吧，这个在iPhone看到“无服务”或“正在搜索”是怎么回事呀？",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您在iPhone或iPad上看到“无服务”或“正在搜索”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您使用的是AT&T的3G网络吗?",
+        "act": "verification",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您使用的是AT&T的3G网络"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您使用的是AT&T的3G网络"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作：将您的iPhone或iPad更新到最新版本的iOS或iPadO， 前往“设置”>“蜂窝网络”",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作：",
+            "将您的iPhone或iPad更新到最新版本的iOS或iPadOS。",
+            "前往“设置”>“蜂窝网络”。然后："
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在设置里找到蜂窝网络之后要怎样做呢？",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "前往“设置”>“蜂窝网络”。然后："
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "对于iPhone，请轻点“蜂窝数据选项”，然后打开“启用LTE”。对于iPad，请打开LTE。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "对于iPhone，请轻点“蜂窝数据选项”，然后打开“启用LTE”。",
+            "对于iPad，请打开LTE。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "明白了，还有就是检查有没有运营商设置更新是怎么操作的呢？",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "检查有没有运营商设置更新"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要手动检查有没有运营商设置更新并安装相应的更新，请按照以下步骤操作：首先确保您的设备已接入无线局域网或蜂窝网络，然后轻点“设置”>“通用”>“关于本机”。如果有可用的更新，您将看到一个用于更新运营商设置的选项，要查看设备上运营商设置的版本，请轻点“设置”>“通用”>“关于本机”，然后查看“运营商”旁边的内容。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "要手动检查有没有运营商设置更新并安装相应的更新，请按照以下步骤操作：",
+            "确保您的设备已接入无线局域网或蜂窝网络。",
+            "轻点“设置”>“通用”>“关于本机”。如果有可用的更新，您将看到一个用于更新运营商设置的选项。",
+            "要查看设备上运营商设置的版本，请轻点“设置”>“通用”>“关于本机”，然后查看“运营商”旁边的内容。"
+        ],
+        "grounding_id": [
+            "25",
+            "30",
+            "31",
+            "32"
+        ]
+    }
+]

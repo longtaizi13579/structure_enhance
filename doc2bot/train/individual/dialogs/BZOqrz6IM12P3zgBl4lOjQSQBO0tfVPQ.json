@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，最近要去香港出差，想咨询下签注的问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解港澳商务签注，港澳逗留签注，港澳其他签注，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问港澳商务签注。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解办理地点、办理时间、申请条件，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道办理地点。",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理地点是：嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理地点",
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问下关于收费的问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "493",
+            "500"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解短期（不超过一年）多次有效签注，还是一次有效签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注"
+        ],
+        "grounding_id": [
+            "510"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解短期（不超过一年）多次有效签注，办理这个多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "510",
+            "511"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "收费标准是：80元/件",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "收费标准",
+            "80元/件"
+        ],
+        "grounding_id": [
+            "511",
+            "512"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "承诺办结时限是：7（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "承诺办结时限",
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的耳朵最近发炎了，感觉很不舒服，想咨询下相关疾病问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "医学主题",
+            "外耳疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T2103"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解耳道皮炎，恶性外耳道炎，耳堵塞，还是 耳道感染？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "耳道皮炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "医生说我得的是耳道皮炎，我想问下这个跟染发剂有关系吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "耳道皮炎",
+            "耳道皮炎的病因",
+            "耳道接触性皮炎是对含镍耳环和众多美容产品（例如发胶、化妆水和染发剂）等触发物的过敏反应。"
+        ],
+        "grounding_id": [
+            "1",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有关系的，耳道接触性皮炎是对含镍耳环和众多美容产品，例如发胶、化妆水和染发剂等触发物的过敏反应。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "耳道接触性皮炎是对含镍耳环和众多美容产品（例如发胶、化妆水和染发剂）等触发物的过敏反应。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有什么药膏可以抹一下？",
+        "act": "verification",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "耳道皮炎的治疗方法主要有",
+            "局部使用（严重的情况下口服）皮质类固醇"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以局部使用皮质类固醇涂抹治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_外耳疾病_耳道皮炎.json",
+        "grounding": [
+            "局部使用（严重的情况下口服）皮质类固醇"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

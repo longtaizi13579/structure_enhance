@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江宁波的交通食宿费怎么申请啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询统筹地区以外交通、食宿费申领的法定办结时限、承诺办结时限、 线下办事点、申请条件、申报材料还是办理流程呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，就是这个，申请完多长时间能办下来啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "此项服务的法定办结时限为42个工作日之内",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，我能不能到银行那个24小时自助机那儿去取啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，此项业务不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个申请的话是只能网上？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以选择网上申请、现场窗口申请或邮寄申请三种形式",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那宁波专门办这个的地方在哪啊？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T10",
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想问办理地点、办理时间、咨询方式、监督投诉方式、基本信息、线下办事点哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道具体的咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "更多信息可以去宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）1楼A区（人社医保综合办理区）A1002-1010号窗口咨询",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）1楼A区（人社医保综合办理区）A1002-1010号窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那有电话啥的吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的，咨询电话为0574-83865155",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "0574-83865155"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

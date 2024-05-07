@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下有关与华侨离婚的相关注意点。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "婚姻",
+            "涉外国人、涉港澳台居民、华侨离婚登记"
+        ],
+        "grounding_id": [
+            "T302",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是浙江的吗？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的呢，浙江台州的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问是了解哪一方面呢？办事信息 还是受理机构呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是想问办理形式支持哪些",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "只有现场窗口申请呢",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢。那如果办理了这个业务之后，什么时候能收到结果啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内会送达的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "噢噢噢，了解了，那我能去哪里办理啊？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "地址是在台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）一楼125婚姻登记室。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）一楼125婚姻登记室"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "ok，我想提前打电话去问一下，能不能给个联系方式？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询电话是0576-88202352。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "0576-88202352"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "忘了问了，能不能再网上支付相关费用啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1914"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "暂不支持呢。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1915"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "额，那我只能去现场付款吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1910"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不收取相关费用的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1911"
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，我父亲受工伤后死亡，他这个工伤保险该怎么终止？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤保险待遇变更申请.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T4",
+            "T189"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请工伤保险待遇变更申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤保险待遇变更申请.json",
+        "grounding": [
+            "工伤保险待遇变更申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤保险待遇变更申请.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "529"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤保险待遇变更申请.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "530"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那家属怎么领取抚恤金？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以申请供养亲属抚恤金申领。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎么申请？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前的申请方式有：网上申请/现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办好后几天能收到结果？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据相关规定，送达时限是：自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

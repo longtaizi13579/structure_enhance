@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T5",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工伤保险、失业保险、医疗保险您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "供养亲属抚恤金申领这项业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "工伤保险",
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T189",
+            "38",
+            "89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "42个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "需要多久才能办好？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "14个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "14（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "98",
+            "95"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "工作日冬季：上午8:30-12:00，下午1:30-4:30；夏季：上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "工作日冬季：上午8:30-12:00，下午1:30-4:30；夏季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

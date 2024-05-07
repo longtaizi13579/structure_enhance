@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么识别AirPods呢？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体想知道根据型号识别您的AirPods呢还是查找型号呢？",
+        "act": "multiple-choice",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "根据型号识别您的AirPods"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么根据型号识别AirPods？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "根据型号识别您的AirPods"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您具体是想了解AirPodsMax的型号还是AirPods（第3代）呢？",
+        "act": "multiple-choice",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "AirPodsMax"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你说说AirPodsMax的型号是什么？",
+        "act": "what",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "根据型号识别您的AirPods",
+            "AirPodsMax"
+        ],
+        "grounding_id": [
+            "13",
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "AirPodsMax型号：A2096，推出年份：2020年。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "型号：A2096推出年份：2020年"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我知道了，那在iPhone或iPad上怎么使用“旁白识别”呢？",
+        "act": "how",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "在iPhone或iPad上使用“旁白识别”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解打开“旁白识别、选取反馈样式还是使用“旁白识别”需要满足的条件呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "打开“旁白识别”"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道怎么打开“旁白识别”呢?",
+        "act": "how",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "打开“旁白识别”"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先前往“设置”>“辅助功能”>“旁白”。确认“旁白”已打开。然后轻点“旁白识别”。最后选择任意可用选项以打开相应功能就可以了。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "前往“设置”>“辅助功能”>“旁白”。确认“旁白”已打开。",
+            "轻点“旁白识别”。",
+            "然后，选择任意可用选项以打开相应功能。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，那在选取“旁白”播报无标签图标或图像的方式的时候，要选取什么样的“反馈样式”呢？",
+        "act": "what",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "选取反馈样式",
+            "要选取“旁白”播报无标签图标或图像的方式，请选择“反馈样式”："
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以选取播放声音的“反馈样式”，播放声音的时候“旁白”会先播放一个短促的声音，然后描述它识别出的内容。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "播放声音：“旁白”会先播放一个短促的声音，然后描述它识别出的内容。例如，当您从“照片图库”中选择一张宠物照片时，“旁白”可能会播放一个声音，然后说“一只黑狗躺在木地板上的蓝白色毯子上”之类的话。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这样哦，我还想问你一个问题，就是AppleUSB-C数字影音多端口转换器的HDMI端口可以和什么搭配使用呢？",
+        "act": "what",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "关于AppleUSB-C数字影音多端口转换器",
+            "HDMI"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以将这款转换器的HDMI端口与使用HDMI线缆连接的显示屏、电视机或投影仪搭配使用。它与HDCP兼容，并支持以下规格，具体取决于转换器的型号。",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "您可以将这款转换器的HDMI端口与使用HDMI线缆连接的显示屏、电视机或投影仪搭配使用。它与HDCP兼容，并支持以下规格，具体取决于转换器的型号。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问一张临时车牌多少钱？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T17",
+            "317"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是汽车反光号牌还是机动车临时号牌？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "6\t6.机动车临时号牌"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是机动车的",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "6\t6.机动车临时号牌"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "5元/张",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果是汽车的反光号牌呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "2\t3.汽车反光号牌"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您问的是汽车反光号牌的收费标准还是是否允许减免？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是收费的标准",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "100元/副",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "100元/副"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那一本驾驶证多少钱？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "驾驶证十元一本",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "300"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "挂车的反光号牌呢？也是100吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "1\t2.挂车反光号牌"
+        ],
+        "grounding_id": [
+            "272",
+            "271"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "挂车反光号牌50元/副",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "273"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "摩托车的反光号牌是不是会便宜一些？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "3\t4.摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "289",
+            "290"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不是，摩托车反光号牌70元/副",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好吧，那如果早浙江宁波注册登记机动车能不能到自助机器上办理呢？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "国产机动车注册登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "抱歉，目前不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好吧，那登记的结果我什么时候能收到？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

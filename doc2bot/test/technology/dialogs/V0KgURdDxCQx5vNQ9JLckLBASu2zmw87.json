@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于AppStore上的隐私信息和可用于控制数据的选项是什么意思？",
+        "act": "what",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "关于AppStore上的隐私信息和可用于控制数据的选项"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：关于隐私信息部分，与您关联的数据，用于追踪您的数据，还是其它？",
+        "act": "multiple-choice",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "用于追踪您的数据指的是什么？",
+        "act": "what",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "用于追踪您的数据是指，相应App中的这些数据与从其他公司的App、网站或离线属性文件中收集的数据相关联，并用于广告投放或与数据代理商共享。",
+        "act": "ans/open",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "用于追踪您的数据是指，相应App中的这些数据与从其他公司的App、网站或离线属性文件中收集的数据相关联，并用于广告投放或与数据代理商共享。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能举例说明一下吗？",
+        "act": "verification",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "部分追踪示例如下："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "部分追踪示例如下： 某款App根据从其他公司的App和网站收集的用户数据显示定向广告。某款App与数据代理商共享设备位置数据或电子邮件列表。 某款App与第三方广告网络共享电子邮件、广告ID或其他ID列表，这个第三方广告网络使用这些信息在其他开发者的App中再次将您列为投放目标。",
+        "act": "ans/open",
+        "document": "关于AppStore上的隐私信息和可用于控制数据的选项.json",
+        "grounding": [
+            "部分追踪示例如下：",
+            "某款App根据从其他公司的App和网站收集的用户数据显示定向广告。",
+            "某款App与数据代理商共享设备位置数据或电子邮件列表。",
+            "某款App与第三方广告网络共享电子邮件、广告ID或其他ID列表，这个第三方广告网络使用这些信息在其他开发者的App中再次将您列为投放目标。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想咨询一下，关于授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权的问题？",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解：有关对电脑授权的须知事项，如何对Mac授权或取消对Mac的授权，还是如何对PC授权或取消对PC的授权？",
+        "act": "multiple-choice",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "有关对电脑授权的须知事项"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解下有关对电脑授权的须知事项，一次最多可以授权几台电脑来播放iTunesStore购买项目？",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "有关对电脑授权的须知事项",
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果多次对一台电脑授权，会影响授权数量吗？",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我已经授权了五台电脑，现在想重新对新电脑进行授权，应该怎么办？",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "则必须取消对其中一台电脑的授权。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您有五台已授权电脑，并想要对新电脑进行授权，[18] 则必须取消对其中一台电脑的授权。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "则必须取消对其中一台电脑的授权。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何对Mac授权或取消对Mac的授权？",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如何对Mac授权或取消对Mac的授权"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤: 首先，打开“音乐”App或AppleTVApp。在菜单栏中，选取“帐户”，并确保您已使用AppleID登录。 然后，选取“帐户”>“授权”，然后选取“对这台电脑授权”或“取消对这台电脑的授权”。 接着，使用您的AppleID和密码登录。最后，点按“授权”或“取消授权”。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "具体步骤",
+            "打开“音乐”App或AppleTVApp。在菜单栏中，选取“帐户”，并确保您已使用AppleID登录。",
+            "选取“帐户”>“授权”，然后选取“对这台电脑授权”或“取消对这台电脑的授权”。",
+            "使用您的AppleID和密码登录。忘记了AppleID？",
+            "点按“授权”或“取消授权”。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24",
+            "25",
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我有两台电脑不用了，怎么授权到新电脑上？",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如果需要对您无法使用的电脑取消授权"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。您每年只能取消一次对所有电脑的授权。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "取消对所有电脑的授权有次数限制吗？",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。您每年只能取消一次对所有电脑的授权。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "有的。您每年只能取消一次对所有电脑的授权。",
+        "act": "ans/yes",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。您每年只能取消一次对所有电脑的授权。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

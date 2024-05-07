@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我行驶证快到期了，补换的话请问多久可以拿到？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您已经申请了吗？一般补换完成后会在1个工作日内送达给您。",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还没有，可以支持自己在自助终端办理吗？",
+        "act": "ans/yesno",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是支持的，您行驶证还有多久到期呢？建议尽快申请办理呦。",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有点时间，申请办理的话有哪些形式，哪种快一点？",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您本人现在在台州吗？不在的话可以通过网上或邮寄申请，在的话可以在现场通过窗口或自助进行申请。",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在台州，补换的一个大致流程是？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "申请后向公安交管部门提交申请材料，后面有相关工作人员会进行受理审批，通过后系统会录入变更信息。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "申请人向公安交管部门提交申请材料",
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "211",
+            "212",
+            "223"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "向公安机关提交的材料包括哪些？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您所需要准备的具体材料可拨打电话0576-12123进行咨询呦。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "0576-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

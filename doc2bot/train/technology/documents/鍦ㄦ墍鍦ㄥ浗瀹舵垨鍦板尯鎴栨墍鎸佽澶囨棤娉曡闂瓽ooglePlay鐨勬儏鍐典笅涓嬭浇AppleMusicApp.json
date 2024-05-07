@@ -1,0 +1,97 @@
+{
+    "document_id": 85,
+    "domain": "technology",
+    "name": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp",
+    "graph": {
+        "1": {
+            "data": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "如果您无法访问GooglePlay，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "3": {
+            "data": "下载安卓版AppleMusicApp",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "如果您所在的国家或地区可以使用AppleMusic，但无法使用GooglePlay，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "8": {
+            "data": "如果您在中国大陆，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "12": {
+            "data": "如果您所在的国家或地区可以使用GooglePlay，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "16": {
+            "data": "AppleMusic的提供情况可能因国家或地区而异。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "17": {
+            "data": "安装AppleMusicApp",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "19": {
+            "data": "从手机的主屏幕顶部向下轻扫以打开通知抽屉。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "20": {
+            "data": "轻点“applemusic.apk”。如果您看到“禁止安装”，请轻点“设置”，然后选中“未知来源”旁边的方框。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "21": {
+            "data": "在确认屏幕上，选中“仅允许本次安装”旁边的方框。当您下次更新AppleMusicApp时，也需要完成这一过程。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "22": {
+            "data": "要继续安装，请轻点“确定”。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "23": {
+            "data": "轻点“安装”。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "24": {
+            "data": "等待安装完成，然后打开AppleMusicApp。",
+            "type": "sequence-step",
+            "pid": "17"
+        },
+        "26": {
+            "data": "请了解如何在安卓设备上下载AppleMusic。您可能需要调整安全设置才能完成安装。",
+            "type": "solution",
+            "pid": "2"
+        },
+        "27": {
+            "data": "请前往Apple网站下载AppleMusicApp。",
+            "type": "solution",
+            "pid": "4"
+        },
+        "28": {
+            "data": "也可以前往百度下载AppleMusicApp。",
+            "type": "solution",
+            "pid": "8"
+        },
+        "29": {
+            "data": "请前往GooglePlay下载AppleMusicApp。",
+            "type": "solution",
+            "pid": "12"
+        }
+    }
+}

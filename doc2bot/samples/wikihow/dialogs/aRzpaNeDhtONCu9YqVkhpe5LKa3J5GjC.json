@@ -1,0 +1,410 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近需要使用Inkscape绘制一些图，但刚接触这个软件不太熟悉，想问下如何使用Inkscape临摹图像？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "如何使用Inkscape临摹图像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有手动临摹和自动临摹两种方式，您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "可选方法",
+            "手动临摹"
+        ],
+        "grounding_id": [
+            "3",
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "说一下手动临摹的方法吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "手动临摹"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "手动临摹: 1.导入图像。 2.打开“图层”对话框。 3.添加新图层。 4.选择一个临摹工具。 5.使用绘图平板电脑或鼠标，临摹图像中的每条线。 6.打开“编辑节点”工具。 7.在没有底层的情况下查看临摹。 8.删除底层并保存图像。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "手动临摹",
+            "导入图像。",
+            "打开“图层”对话框。",
+            "添加新图层。",
+            "选择一个临摹工具。",
+            "使用绘图平板电脑或鼠标，临摹图像中的每条线。",
+            "打开“编辑节点”工具。",
+            "在没有底层的情况下查看临摹。",
+            "删除底层并保存图像。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "32",
+            "34",
+            "36",
+            "40",
+            "44",
+            "47",
+            "49"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么打开“图层”对话框？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "打开“图层”对话框。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "点击菜单栏上的“图层”，然后选择“图层”。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "严格来说，虽然临摹新图层是可选的，但它可以让你设置图像（或临摹图层）的不透明度，从而帮助你了解自己在做什么。点击菜单栏上的“图层”，然后选择“图层”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "从哪里打开“编辑节点”工具？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "打开“编辑节点”工具。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在工具菜单上，点击顶部的第二个箭头按钮，以启用编辑模式。在这个模式下，你可以单击和拖动节点进行微调。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "在工具菜单上，点击顶部的第二个箭头按钮（“编辑”箭头），以启用编辑模式。在这个模式下，你可以单击和拖动节点进行微调。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有个问题，我们公司的电脑经常死机，想问下如何重启电脑？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "如何重启电脑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解Windows 10、8和8.1系统，Windows 7和Vista系统，还是苹果电脑？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "可选方法",
+            "苹果电脑"
+        ],
+        "grounding_id": [
+            "3",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "先说下苹果电脑的重启方法吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "苹果电脑"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "苹果电脑: 1.同时按下Control+Command+Eject组合键。 2.执行强制重启。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "苹果电脑",
+            "同时按下Control+Command+Eject组合键。",
+            "执行强制重启。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "33"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "同时按下Control+Command+Eject组合键后，没有保存的文档怎么办？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "同时按下Control+Command+Eject组合键。",
+            "这个命令会关闭所有已打开的程序，并重启你的Mac电脑。如果还有工作没有保存下来，系统会提示你在重启电脑前保存数据。如果电脑运行缓慢，那么可能要等几分钟时间，电脑才会重新启动。"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个命令会关闭所有已打开的程序，并重启你的Mac电脑。如果还有工作没有保存下来，系统会提示你在重启电脑前保存数据。如果电脑运行缓慢，那么可能要等几分钟时间，电脑才会重新启动。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "这个命令会关闭所有已打开的程序，并重启你的Mac电脑。如果还有工作没有保存下来，系统会提示你在重启电脑前保存数据。如果电脑运行缓慢，那么可能要等几分钟时间，电脑才会重新启动。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "执行强制重启的操作方法是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "执行强制重启。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "长按键盘右上角，或台式机屏幕的背面的电源按钮，直到电脑关闭。再次按下电源按钮，启动计算机。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "长按键盘右上角（或台式机屏幕的背面）的电源按钮，直到电脑关闭。再次按下电源按钮，启动计算机。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "Windows10、8和8.1系统的重启方法是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "Windows10、8和8.1系统"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "Windows10、8和8.1系统: 1.在键盘上同时按下Ctrl+Atl+Del组合键。 2.点击电源图标。 3.点击重新启动按钮。 4.进行硬件重启操作。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "Windows10、8和8.1系统",
+            "在键盘上同时按下Ctrl+Atl+Del组合键。",
+            "点击电源图标。",
+            "点击重新启动按钮。",
+            "进行硬件重启操作。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "在键盘上同时按下Ctrl+Atl+Del组合键后，屏幕会出现什么界面？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "在键盘上同时按下Ctrl+Atl+Del组合键。",
+            "接着，电脑屏幕上就会出现一个新界面，上面列出了几个选项，分别是：锁定、切换用户、注销和任务管理器。如果你的计算机运行缓慢，可能得稍等片刻才能看到这个界面。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "电脑屏幕上就会出现一个新界面，上面列出了几个选项，分别是：锁定、切换用户、注销和任务管理器。如果你的计算机运行缓慢，可能得稍等片刻才能看到这个界面。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "接着，电脑屏幕上就会出现一个新界面，上面列出了几个选项，分别是：锁定、切换用户、注销和任务管理器。如果你的计算机运行缓慢，可能得稍等片刻才能看到这个界面。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果电脑重启的话，会自动保存文档吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "在关机或重启前，要记得保存或备份你的数据。大部分情况下，电脑是不会自动保存你的数据的。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "大部分情况下，电脑是不会自动保存你的数据的。所以，在关机或重启前，要记得保存或备份你的数据。",
+        "act": "ans/no",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "在关机或重启前，要记得保存或备份你的数据。大部分情况下，电脑是不会自动保存你的数据的。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "你教我的重启方法是安全的吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "这篇文章将教你如何安全地重启Windows电脑和苹果电脑。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "是的，我教你的是安全地重启Windows电脑和苹果电脑。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "这篇文章将教你如何安全地重启Windows电脑和苹果电脑。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "Windows7和Vista系统应该如何重启？",
+        "act": "how",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "Windows7和Vista系统"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "Windows7和Vista系统: 1.在键盘上同时按下Ctrl+Atl+Del组合键，打开锁定界面。 2.点击电源图标。 3.点击重新启动按钮。 4.进行硬件重启操作。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "Windows7和Vista系统",
+            "在键盘上同时按下Ctrl+Atl+Del组合键，打开锁定界面。",
+            "点击电源图标。",
+            "点击重新启动按钮。",
+            "进行硬件重启操作。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "20",
+            "22",
+            "24"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "电源图标在哪里？",
+        "act": "where",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "点击电源图标。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "它位于屏幕的右下角，是一个红色的按钮。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重启电脑.json",
+        "grounding": [
+            "它位于屏幕的右下角，是一个红色的按钮。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

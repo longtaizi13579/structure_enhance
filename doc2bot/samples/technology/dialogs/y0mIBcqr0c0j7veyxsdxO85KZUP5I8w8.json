@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "使用AppleWatch上的“摔倒检测”的话，会有什么效果吗？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "使用AppleWatch上的“摔倒检测”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道的是有动作还是没动作呢？",
+        "act": "question/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您没有做出任何动作，会发生什么情况"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "没有做出任何动作，会发生什么情况？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您没有做出任何动作，会发生什么情况"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果AppleWatch检测到您在大约一分钟内没有做出任何动作，它会开始30秒的倒计时，同时轻触您的手腕并发出提醒声。提醒声的音量会逐渐提高，以便您或附近的其他人可以听到。如果您不想拨打紧急服务电话，请轻点“取消”。倒计时结束后，AppleWatch会自动联系紧急服务。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您在大约一分钟内没有做出任何动作，它会开始30秒的倒计时，同时轻触您的手腕并发出提醒声。提醒声的音量会逐渐提高，以便您或附近的其他人可以听到。如果您不想拨打紧急服务电话，请轻点“取消”。倒计时结束后，AppleWatch会自动联系紧急服务。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我摔了它是怎么工作的呀？",
+        "act": "how",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我在移动的时候会提醒吗？",
+        "act": "verification",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您在移动，它会等待您对提醒做出响应，而不会自动拨打紧急服务电话。如果手表检测到您在大约一分钟内没有做出任何动作，它会自动拨打紧急服务电话。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果AppleWatch检测到您在移动，它会等待您对提醒做出响应，而不会自动拨打紧急服务电话。如果手表检测到您在大约一分钟内没有做出任何动作，它会自动拨打紧急服务电话。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您在移动，它会等待您对提醒做出响应，而不会自动拨打紧急服务电话。如果手表检测到您在大约一分钟内没有做出任何动作，它会自动拨打紧急服务电话。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在打完电话我没有意识了，没办法说话了，他是怎么做的呀？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在电话接通后，AppleWatch会播放一段音频信息，告知紧急服务部门AppleWatch检测到您摔得很严重，然后它会共享您当前位置的纬度和经度坐标。如果您之前打开了“医疗急救卡”下的“紧急呼叫期间共享”设置，则您的医疗急救卡还会自动共享给紧急服务机构。在第一次播放这段信息时，系统会以最大音量播放，但随后音量会降低，以便您或附近的人可以与接电话的人通话。这段信息会一直循环播放，直到您轻点“停止播放录音信息”或通话结束。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在电话接通后，AppleWatch会播放一段音频信息，告知紧急服务部门AppleWatch检测到您摔得很严重，然后它会共享您当前位置的纬度和经度坐标。如果您之前打开了“医疗急救卡”下的“紧急呼叫期间共享”设置，则您的医疗急救卡还会自动共享给紧急服务机构。在第一次播放这段信息时，系统会以最大音量播放，但随后音量会降低，以便您或附近的人可以与接电话的人通话。这段信息会一直循环播放，直到您轻点“停止播放录音信息”或通话结束。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在电话接通后，AppleWatch会播放一段音频信息，告知紧急服务部门AppleWatch检测到您摔得很严重，然后它会共享您当前位置的纬度和经度坐标。如果您之前打开了“医疗急救卡”下的“紧急呼叫期间共享”设置，则您的医疗急救卡还会自动共享给紧急服务机构。在第一次播放这段信息时，系统会以最大音量播放，但随后音量会降低，以便您或附近的人可以与接电话的人通话。这段信息会一直循环播放，直到您轻点“停止播放录音信息”或通话结束。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

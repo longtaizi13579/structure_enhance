@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我年龄超过60周岁了，需要更换机动车驾照，要在浙江衢州市办理，想问一下费用能在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "行驶证驾驶证",
+            "是否支持网上支付",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T89",
+            "377",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，达到规定年龄换领机动车驾驶证收取费用是不支持网上支付的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "378"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "不支持？那是不收费了吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "373"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "只是不支持网上支付，费用还是要收取的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "374"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，收费标准都有啥？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "379"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想问收费项目名称吗？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "380"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问新的驾驶证咋收费？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "收费标准",
+            "收费标准",
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1",
+            "372",
+            "381",
+            "380"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收费标准是每本10元。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "382"
+        ]
+    }
+]

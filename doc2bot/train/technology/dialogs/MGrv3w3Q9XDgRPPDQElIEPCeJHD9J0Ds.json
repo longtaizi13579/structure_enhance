@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些Mac辅助功能快捷键的相关问题？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "Mac辅助功能快捷键"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询使用键盘和Siri控制辅助功能选项、将键盘当作鼠标使用 、用键盘浏览菜单还是使用鼠标键移动鼠标指针？",
+        "act": "multiple-choice",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "将键盘当作鼠标使用"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下将键盘当作鼠标使用时，“移至下一个控制项”的快捷键是什么？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "Mac辅助功能快捷键",
+            "移至下一个控制项",
+            "快捷键",
+            "Tab"
+        ],
+        "grounding_id": [
+            "1",
+            "90",
+            "105",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "移至下一个控制项的快捷键是：Tab。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "移至下一个控制项",
+            "快捷键",
+            "Tab"
+        ],
+        "grounding_id": [
+            "90",
+            "105",
+            "120"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "用键盘浏览菜单时，若要使用这些快捷键，应该怎么将焦点移至菜单栏？",
+        "act": "how",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "用键盘浏览菜单",
+            "若要使用这些快捷键，请先按下Control-F2或Fn-Control-F2，将焦点移至菜单栏。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "若要使用这些快捷键，请先按下Control-F2或Fn-Control-F2，将焦点移至菜单栏。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "若要使用这些快捷键，请先按下Control-F2或Fn-Control-F2，将焦点移至菜单栏。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "使用鼠标键移动鼠标指针时，下移的快捷键是什么？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "使用鼠标键移动鼠标指针",
+            "操作",
+            "下移",
+            "快捷键"
+        ],
+        "grounding_id": [
+            "21",
+            "26",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "K或数字小键盘上的2。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "K或数字小键盘上的2"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在使用键盘和Siri控制辅助功能选项中，如何指示Siri“打开旁白”？",
+        "act": "how",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "使用键盘和Siri控制辅助功能选项",
+            "使用以下键盘快捷键来控制辅助功能选项，或者直接指示Siri完成操作。例如，指示Siri“打开旁白”。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先显示“辅助功能快捷键”面板，然后打开或关闭旁白。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "显示“辅助功能快捷键”面板",
+            "打开或关闭旁白"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "打开或关闭旁白的快捷键是什么？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "打开或关闭旁白",
+            "快捷键"
+        ],
+        "grounding_id": [
+            "62",
+            "72"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Command-F5 或 Fn-Command-F5 或在受支持的机型上，按住 Command 键连按三次触控 ID。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "Command-F5 或 Fn-Command-F5 或在受支持的机型上，按住 Command 键连按三次触控 ID（电源按钮）"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "将键盘当作鼠标使用的步骤是什么？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "将键盘当作鼠标使用"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以将键盘当作鼠标使用，以浏览屏幕上的项目并与它们互动，首先选取苹果菜单>“系统偏好设置”，然后点按“键盘”；然后点按“快捷键”；最后从“偏好设置”窗口的底部，选中“使用键盘导航在控制间移动焦点”复选框。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "您可以将键盘当作鼠标使用，以浏览屏幕上的项目并与它们互动。",
+            "选取苹果菜单>“系统偏好设置”，然后点按“键盘”。",
+            "点按“快捷键”。",
+            "从“偏好设置”窗口的底部，选中“使用键盘导航在控制间移动焦点”复选框。（在macOSMojave或更低版本中，这项设置以“所有控制”按钮的形式出现。）"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    }
+]

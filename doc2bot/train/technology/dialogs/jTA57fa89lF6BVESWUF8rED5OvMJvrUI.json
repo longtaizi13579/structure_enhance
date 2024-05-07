@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于在iPad无线局域网和蜂窝网络机型上设置蜂窝移动数据服务的事情。",
+        "act": "what",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你是想咨询使用从运营商处获得的SIM卡，还是使用eSIM、嵌入式AppleSIM卡或AppleSIM卡，或者更改套餐、停用套餐、将一台iPad上的套餐转移到另一台iPad上的哪一个？",
+        "act": "multiple-choice",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "使用从运营商处获得的SIM卡"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询的是使用从运营商处获得的SIM卡，如果蜂窝数据没有处于打开状态，我能连接到蜂窝数据吗？",
+        "act": "verification",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "使用从运营商处获得的SIM卡",
+            "请前往“设置”>“蜂窝数据”，并确保蜂窝数据处于打开状态。"
+        ],
+        "grounding_id": [
+            "3",
+            "72"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不能，这样您无法连接到蜂窝数据。",
+        "act": "ans/no",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "如果您无法连接到蜂窝数据，"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在什么情况下我可以注册蜂窝移动数据套餐，能够在没有Wi-Fi热点时保持网络连接？",
+        "act": "what",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您拥有iPad无线局域网+蜂窝网络机型，您可以注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "您可以注册蜂窝移动数据套餐。这样您便能够在没有Wi-Fi热点时保持网络连接。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我在本地运营商处设置蜂窝数据套餐，SIM卡被激活后要做什么？",
+        "act": "what",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "使用从运营商处获得的SIM卡",
+            "如果您在本地运营商处设置蜂窝数据套餐，则SIM卡会被激活。只需弹出SIM卡托架，并插入运营商提供的SIM卡即可。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您在本地运营商处设置蜂窝数据套餐，则SIM卡会被激活。只需弹出SIM卡托架，并插入运营商提供的SIM卡即可。",
+        "act": "ans/open",
+        "document": "在iPad无线局域网+蜂窝网络机型上设置蜂窝移动数据服务.json",
+        "grounding": [
+            "如果您在本地运营商处设置蜂窝数据套餐，则SIM卡会被激活。只需弹出SIM卡托架，并插入运营商提供的SIM卡即可。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

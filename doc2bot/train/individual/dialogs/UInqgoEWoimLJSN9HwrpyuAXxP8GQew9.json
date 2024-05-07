@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下浙江金华的医疗保险",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "浙江省_金华市",
+            "浙江省_金华市",
+            "医疗保险"
+        ],
+        "grounding_id": [
+            "T6",
+            "T6",
+            "T169"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是想了解基本医疗保险参保人员历年账户家庭共济备案吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "基本医疗保险参保人员历年账户家庭共济备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我对这个备案很是无语，我想投诉！给我个投诉方式吧。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前有3种渠道，投诉电话 ，投诉地址 和投诉网址，您看你要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "先告诉我电话吧。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0579-82822093，您记一下。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "0579-82822093"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "地址呢？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在金华市双龙南街801号金华市政府北门。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "金华市双龙南街801号金华市政府北门"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "了解了，我要投诉的就是它竟然不支持网上支付！！！！是不是网上不能支付？都什么年代了。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "186"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "暂时是不支持网上支付的呢。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "187"
+        ]
+    }
+]

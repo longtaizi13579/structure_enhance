@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下在iPhone和Mac上，可以从哪里删除照片？",
+        "act": "what",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "从“我的照片流”中删除照片",
+            "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "从“我的照片流”中删除某张照片后会发生什么？",
+        "act": "what",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "删除照片时会发生什么",
+            "如果您从“我的照片流”中删除某张照片，"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您从“我的照片流”中删除某张照片，则在您将每台设备连接到无线局域网或以太网之后，这张照片将从所有受支持设备的“我的照片流”视图中被删除。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "则在您将每台设备连接到无线局域网或以太网之后，这张照片将从所有受支持设备的“我的照片流”视图中被删除。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我没有看到“我的照片流”，这是怎么回事？",
+        "act": "why",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "如果您没有看到“我的照片流”",
+            "确保您的设备满足“我的照片流”的最低系统要求，并确保为每台设备打开了“我的照片流”："
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "确保您的设备满足“我的照片流”的最低系统要求，并确保为每台设备打开了“我的照片流”。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "确保您的设备满足“我的照片流”的最低系统要求，并确保为每台设备打开了“我的照片流”："
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为什么我删除了某张照片，但还是会在iPhone上看到？",
+        "act": "why",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "您可能仍会在iPhone、iPad或iPodtouch上看到这张照片。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "删除某张照片之后，如果这张照片的存储时间超过30天且“我的照片流”中的照片数量不到1000张，[9] 您可能仍会在iPhone、iPad或iPodtouch上看到这张照片。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "您可能仍会在iPhone、iPad或iPodtouch上看到这张照片。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

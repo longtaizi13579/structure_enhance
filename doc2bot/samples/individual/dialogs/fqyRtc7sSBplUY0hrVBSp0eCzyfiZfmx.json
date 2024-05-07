@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我位于浙江省绍兴市，计划去台湾省旅游，想要咨询出入境的相关信息。",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T7",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想咨询台湾通行证及签注、还是常用服务的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询台湾通行证及签注的基本信息。",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "T240",
+            "40"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是对台湾通行证及签注的办理流程、收费标准还是办理形式存在疑问呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T240",
+            "100"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道具体的办理形式是什么。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理形式主要有网上申请、现场窗口申请、邮寄申请和现场自助机申请一共四种。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "没时间去现场咨询，还有其他的咨询方式吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以选择电话咨询的形式，咨询电话是0575-88582104。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "咨询电话",
+            "0575-88582104"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请问相关程序可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "9883"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "系统支持网上支付。",
+        "act": "ans/yesno",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "9884"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "签注办理是收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "9879"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是收费的，赴台团队旅游一次签注15元/件；多次签注80元/件。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9880"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "相关资料办理之后办理形式是什么呢？可以申请快递邮寄吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理形式主要有网上申请、现场窗口申请和邮寄申请三种，可以根据自身情况申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "101",
+            "100"
+        ]
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "干细胞移植对什么样的人有作用呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植",
+            "移植"
+        ],
+        "grounding_id": [
+            "1",
+            "T1998"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "约30％至40％淋巴瘤患者和20％至50％白血病患者在治疗（包括干细胞移植）后无癌症。这种手术延长骨髓瘤患者的生命。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "约30％至40％淋巴瘤患者和20％至50％白血病患者在治疗（包括干细胞移植）后无癌症。这种手术延长骨髓瘤患者的生命。它对乳腺癌不太有效。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那对乳腺癌也有用吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植",
+            "约30％至40％淋巴瘤患者和20％至50％白血病患者在治疗（包括干细胞移植）后无癌症。这种手术延长骨髓瘤患者的生命。它对乳腺癌不太有效。"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "它对乳腺癌不太有效。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "约30％至40％淋巴瘤患者和20％至50％白血病患者在治疗（包括干细胞移植）后无癌症。这种手术延长骨髓瘤患者的生命。它对乳腺癌不太有效。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，应该从哪儿获得干细胞呢？",
+        "act": "where",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞是可以延伸出其它更特化细胞的非特化细胞。干细胞可以从以下途径获得"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解干细胞的获取途径吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞是可以延伸出其它更特化细胞的非特化细胞。干细胞可以从以下途径获得"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞是可以延伸出其它更特化细胞的非特化细胞。干细胞可以从以下途径获得"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以通过出生后的婴儿脐带血（由母亲捐赠）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "出生后的婴儿脐带血（由母亲捐赠）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那怎么样决定复不复发呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "原发病是否复发取决于"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想知道原发病是否复发的取决条件吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "原发病复发",
+            "原发病是否复发取决于"
+        ],
+        "grounding_id": [
+            "58",
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "原发病是否复发取决于",
+            "原发病复发"
+        ],
+        "grounding_id": [
+            "60",
+            "58"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "使用了什么类型的移植决定是否复发",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "使用了什么类型的移植",
+            "何种原发病",
+            "有多严重"
+        ],
+        "grounding_id": [
+            "63",
+            "61",
+            "62"
+        ]
+    }
+]

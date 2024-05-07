@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省台州市的驾驶人，我要申请恢复驾驶资格，我是不是一定要到现场办理啊？为啥啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "驾驶人申请恢复驾驶资格",
+            "必须现场办理原因说明"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "1",
+            "67"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，驾驶人申请恢复驾驶资格必须要现场考试的呢。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "必须现场考试"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好吧。顺便帮我朋友问一下，他要办境外机动车驾驶证的换证申领，是不是有什么特别程序啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领",
+            "特别程序"
+        ],
+        "grounding_id": [
+            "1",
+            "69"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您咨询的这项业务的办理地点是哪里呢？还是浙江省台州市吗？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对对对",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，要办理境外机动车驾驶证换证申领无相关特别程序。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "无相关特别程序"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那是不是实行告知承诺啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "是否实行告知承诺"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这项业务是不实行告知承诺的。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "否"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不承诺，好吧。那这个业务，它的行使层级是什么呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "行使层级"
+        ],
+        "grounding_id": [
+            "75"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "行使层级是市级。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "市级"
+        ],
+        "grounding_id": [
+            "76"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哎，我还想问问，这个换证申领多久能办结啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "境外机动车驾驶证换证申领的法定办结时限为60个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

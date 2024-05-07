@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下关于机动车解除抵押登记的事",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您要咨询哪个省市的？",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江丽水",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那请问您是否有下列情形之一呢，一对机动车所有人提交的证明、凭证无效的，二机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的。",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "1.对机动车所有人提交的证明、凭证无效的；",
+            "2.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的。"
+        ],
+        "grounding_id": [
+            "494",
+            "495"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，对于解除抵押登记您有什么具体想问的吗？",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，我是想具体问一下受理条件？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "机动车所有人将机动车作为抵押物抵押的。 抵押权消灭的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车所有人将机动车作为抵押物抵押的。\n抵押权消灭的。"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我办理这个登记大概需要几天才能办好呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1个工作日就可以了。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我能在自助机上面办吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "暂不支持呢。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

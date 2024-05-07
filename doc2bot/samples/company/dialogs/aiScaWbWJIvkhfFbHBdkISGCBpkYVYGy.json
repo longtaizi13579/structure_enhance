@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在宁波市设立分公司去哪里咨询登记？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "分公司设立登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是想问咨询地址，还是办理地址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问的是咨询地址。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址在：宁波市行政服务中心二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那有咨询电话吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，您记一下，咨询电话是0574-87185566。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "0574-87185566"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你们这个办理时间有什么要求吗？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您在工作日上午的9：00～12：00，下午的13：30～17：00来办理登记就可以。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "工作日，上午9:00～12：00，下午13：30～17:00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我以为是我记错时间了呢，我正常工作时间办理的，为啥老没人搭理我？我要投诉她们。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "很抱歉给您带来困扰，您想通过什么方式投诉呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有没有什么投诉办事处？给我个地址，我直接当面投诉吧。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，您可以到宁波市行政服务中心二楼商事登记区进行投诉监督。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

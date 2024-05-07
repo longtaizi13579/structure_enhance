@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我收到了“无法创建AppleID”和“无法设置iCloud”信息的警告，这说明了什么？",
+        "act": "what",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”或“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想先了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”或“无法设置iCloud”信息",
+            "如果看到“无法创建AppleID”信息"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解看到“无法创建AppleID”信息。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”信息"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果看到“无法创建AppleID”信息，则表示您已超出一年内可在一台设备上设置iCloud的新AppleID的数量上限。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”信息，",
+            "则表示您已超出一年内可在一台设备上设置iCloud的新AppleID的数量上限。"
+        ],
+        "grounding_id": [
+            "4",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "看到“无法设置iCloud”信息呢？",
+        "act": "what",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果看到“无法设置iCloud”信息，则表示您已超出一年内可在一台设备上设置iCloud的AppleID的数量上限。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法设置iCloud”信息，",
+            "则表示您已超出一年内可在一台设备上设置iCloud的AppleID的数量上限。"
+        ],
+        "grounding_id": [
+            "6",
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "AppleID都可以用于访问什么账户？",
+        "act": "what",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "您的AppleID是您用于访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。您可以使用这个AppleID和密码登录所有Apple服务。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以用于访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "您的AppleID是您用于访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。您可以使用这个AppleID和密码登录所有Apple服务。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我可以用这个AppleID和密码登录所有的Apple服务吗？",
+        "act": "verification",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "您的AppleID是您用于访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。您可以使用这个AppleID和密码登录所有Apple服务。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "您的AppleID是您用于访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。您可以使用这个AppleID和密码登录所有Apple服务。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问一下，如何注销iMessage信息？",
+        "act": "how",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在iPhone上或在线注销iMessage信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想在在iPhone上注销iMessage信息还是在线注销iMessage信息？",
+        "act": "multiple-choice",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在线注销iMessage信息"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道什么情况下，可以在线注销iMessage信息？",
+        "act": "what",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "在线注销iMessage信息",
+            "如果您无法使用自己的iPhone，您可以在线注销iMessage信息。待您完成注销后，您的电话号码将从iMessage信息服务中移除。您应立即能够收到短信，但有些Apple设备可能需要几小时才能识别出他们向您发送信息时您并未使用iMessage信息。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您无法使用自己的iPhone，您可以在线注销iMessage信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果您无法使用自己的iPhone，您可以在线注销iMessage信息。待您完成注销后，您的电话号码将从iMessage信息服务中移除。您应立即能够收到短信，但有些Apple设备可能需要几小时才能识别出他们向您发送信息时您并未使用iMessage信息。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，好的。注销完后才能后，如果某人向我的AppleID发送iMessage信息，那么我的其他Apple设备还会收到该iMessage信息吗？",
+        "act": "verification",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "会。",
+        "act": "ans/yes",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果某人向我的电话号码发送短信呢？",
+        "act": "what",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。",
+        "act": "ans/open",
+        "document": "在iPhone上或在线注销iMessage信息.json",
+        "grounding": [
+            "如果某人向您的AppleID发送iMessage信息，那么您的其他Apple设备会收到该iMessage信息。如果某人向您的电话号码发送短信，那么只有您的手机会以短信/彩信的形式收到该信息。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

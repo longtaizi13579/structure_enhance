@@ -1,0 +1,324 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好咨询一下社保工伤保险这块",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "社保医保",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T168",
+            "T189"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江杭州",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那对于工伤保险请问您具体想了解些什么呢",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是有一个老工伤人员托管登记办这个支持网上支付",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "249"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "250"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办这个收费吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "245"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "246"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那这个登记支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那个这个登记都有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个托管登记结果出来多久能送达呀",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "结果信息",
+            "送达时限",
+            "老工伤人员托管登记"
+        ],
+        "grounding_id": [
+            "111",
+            "120",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个是自作出决定之日起3个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个登记现场办理去哪呀地址给查一下",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的这个具体地址有两个一个在新业路还有一个是在中和中路，哪个离您近呢",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "新业路吧",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）窗口32--36"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的您记一下新业路的地址是杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）窗口32--36",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）窗口32--36"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "嗯另一个地址我也记一下吧，",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（杭州市上城区小营街道中河中路248号）5-12号窗口"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "另一个地址是杭州市人力社保综合服务大厅（杭州市上城区小营街道中河中路248号）5-12号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（杭州市上城区小营街道中河中路248号）5-12号窗口"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "谢谢你，我都记下了。那我现在想要申请老工伤人员托管登记。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您是否符合杭州市企业职工工伤保险制度实施前发生工伤、现已办理退休手续，且经市人力资源和社会保障行政部门确认，您所在的单位已经向市社会保险经办机构缴纳一次性工伤保险代管费呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "（一）杭州市企业职工工伤保险制度实施前发生工伤、现已办理退休手续的人员，经市人力资源和社会保障行政部门确认，由所在单位向市社会保险经办机构缴纳一次性工伤保险代管费后，可按老工伤管理的有关规定享受工伤保险待遇。\n按社保隶属关系向社保经办机构申请。"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "我是符合的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "（一）杭州市企业职工工伤保险制度实施前发生工伤、现已办理退休手续的人员，经市人力资源和社会保障行政部门确认，由所在单位向市社会保险经办机构缴纳一次性工伤保险代管费后，可按老工伤管理的有关规定享受工伤保险待遇。\n按社保隶属关系向社保经办机构申请。"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您可以申请老工伤人员托管登记。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "135"
+        ]
+    }
+]

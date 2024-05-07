@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想问一下行驶证驾驶证的事就是换证以前是客车本现在降了这个都有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "办理形式",
+            "自愿降低准驾车型换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "T89",
+            "100",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，浙江丽水市",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的帮您查询了一下关于自愿降低准驾车型换领机动车驾驶证可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个自愿换证办这个有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个有三种方式一咨询电话二咨询地址三咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，咨询地址是哪里呀",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的地址您记一下 丽水市公安局交通警察支队车辆管理所",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            " 丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "麻烦您，就是我朋友他是金华的他想把拖拉机驾驶证转出去到别的省办这个有什么投诉方式吗",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "浙江省_金华市",
+            "拖拉机、联合收割机操作人员驾驶证转出省外换证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的给您查询了一下，有三种方式一投诉电话二投诉网址三投诉地址您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以投诉的地址是在哪呀？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个在金华市农业农村局（双龙南街828号3楼）办公室",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "金华市农业农村局（双龙南街828号3楼）办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，还想问您个事就是恢复驾驶资格申请这能自助办理吗",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问还是问金华市吗还是别的哪个省市？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "啊不好意思，这个是浙江台州市，我也是帮别人问的",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的帮您查询了这个目前暂不支持自助办理",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

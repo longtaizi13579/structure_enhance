@@ -1,0 +1,294 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如何创建一个新的iMovie剪辑项目？",
+        "act": "how",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "创建一个新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何在iPhone或iPad上创建新的iMovie剪辑项目，还是如何在Mac上创建新的iMovie剪辑项目？",
+        "act": "multiple-choice",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "如何在iPhone或iPad上创建新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何在iPhone上创建新的iMovie剪辑项目。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "如何在iPhone或iPad上创建新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以直接将通过iPhone上的相机拍摄的视频或照片添加到iMovie剪辑项目中。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "直接录制到iMovie剪辑",
+            "直接将通过iPhone或iPad上的相机拍摄的视频或照片添加到iMovie剪辑项目中："
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "直接将通过iPhone或iPad上的相机拍摄的视频或照片添加到iMovie剪辑项目中："
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体操作步骤； 1.在iMovie剪辑中打开项目后，滚动时间线，使播放头（白色垂直线）出现在您想添加视频或照片的位置。 2.在iPhone上，轻点加号按钮，然后轻点“相机”按钮。在iPad上，轻点“相机”按钮。 3.使用相机控制项来设置选项，例如闪光灯和分辨率，然后轻点“录制”按钮。 4.如果是录制视频片段，请在完成后轻点“停止”按钮。如果您要拍摄照片，请跳至下一步。 5.要将视频片段或照片放置在项目的时间线中，请轻点“使用视频”或“使用照片”。您也可以轻点“重拍”以重新拍摄视频片段或照片。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "在iMovie剪辑中打开项目后，滚动时间线，使播放头（白色垂直线）出现在您想添加视频或照片的位置。",
+            "在iPhone上，轻点加号按钮，然后轻点“相机”按钮。在iPad上，轻点“相机”按钮。",
+            "使用相机控制项来设置选项，例如闪光灯和分辨率，然后轻点“录制”按钮。",
+            "如果是录制视频片段，请在完成后轻点“停止”按钮。如果您要拍摄照片，请跳至下一步。",
+            "要将视频片段或照片放置在项目的时间线中，请轻点“使用视频”或“使用照片”。您也可以轻点“重拍”以重新拍摄视频片段或照片。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何在Mac上创建新的iMovie剪辑项目？",
+        "act": "how",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "如何在Mac上创建新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "具体步骤： 1.在“项目”浏览器中，点按“新建”。如果您正在编辑影片，请点按工具栏中的“项目”按钮，然后再次点按“项目”以打开“项目”浏览器。 2.点按“影片”。您的新项目将打开，其中显示浏览器、检视器和时间线。您也可以点按“预告片”，以使用内建模板来用您自己的视频和照片创建预告片。 3.创建项目后，您可以添加来自“资源库”列表的事件中的片段，或者添加来自“照片”App图库中的视频片段和照片。您还可以从其他来源导入视频片段、照片和其他媒体。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "具体步骤",
+            "在“项目”浏览器中，点按“新建”。如果您正在编辑影片，请点按工具栏中的“项目”按钮，然后再次点按“项目”以打开“项目”浏览器。",
+            "点按“影片”。您的新项目将打开，其中显示浏览器、检视器和时间线。您也可以点按“预告片”，以使用内建模板来用您自己的视频和照片创建预告片。",
+            "创建项目后，您可以添加来自“资源库”列表的事件中的片段，或者添加来自“照片”App图库中的视频片段和照片。您还可以从其他来源导入视频片段、照片和其他媒体："
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还可以从哪些设备倒入？",
+        "act": "what",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "创建项目后，您可以添加来自“资源库”列表的事件中的片段，或者添加来自“照片”App图库中的视频片段和照片。您还可以从其他来源导入视频片段、照片和其他媒体："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "从iPhone或iPad导入；从录制到闪存驱动器或其他基于文件的存储系统的摄像机导入； 从Mac导入媒体；使用Mac将视频直接录制到iMovie剪辑中。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "从iPhone或iPad导入",
+            "从录制到闪存驱动器或其他基于文件的存储系统的摄像机导入",
+            "从Mac导入媒体",
+            "使用Mac将视频直接录制到iMovie剪辑中"
+        ],
+        "grounding_id": [
+            "33",
+            "37",
+            "41",
+            "45"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有个问题，如何向iMovie剪辑项目中添加歌曲和其他音频文件？",
+        "act": "how",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "向iMovie剪辑项目中添加歌曲和其他音频文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想了解在iPhoneiPad或iPodtouch上添加歌曲和其他音频文，还是在Mac上添加歌曲或其他音频文件？",
+        "act": "multiple-choice",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "在iPhoneiPad或iPodtouch上添加歌曲和其他音频文件"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想问一下从iPhone音乐资料库中添加歌曲的方法。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "在iPhoneiPad或iPodtouch上添加歌曲和其他音频文件",
+            "从音乐资料库中添加歌曲"
+        ],
+        "grounding_id": [
+            "5",
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤: 1.在iMovie剪辑时间线中打开您的项目，然后轻点“添加媒体”按钮。 2.轻点“音频”，轻点“我的音乐”，然后轻点一个类别来浏览歌曲。 3.轻点一首歌曲进行预览。 4.要向项目中添加歌曲，请轻点歌曲旁边的“添加音频”按钮。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "在iMovie剪辑时间线中打开您的项目，然后轻点“添加媒体”按钮。",
+            "轻点“音频”，轻点“我的音乐”，然后轻点一个类别来浏览歌曲。",
+            "轻点一首歌曲进行预览。如果某首歌曲显示为灰色，请在“音乐”App中找到这首歌曲，然后轻点这首歌曲的“下载”按钮，以将歌曲下载到您的设备上。如果您找不到想要使用的某首特定歌曲，请进一步了解为何无法访问这首歌曲。",
+            "要向项目中添加歌曲，请轻点歌曲旁边的“添加音频”按钮。iMovie剪辑会自动将歌曲放置在项目开头，并自动调整歌曲以适合项目的长度。",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "15",
+            "42"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果某首歌曲显示为灰色怎么办？",
+        "act": "how",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "轻点一首歌曲进行预览。如果某首歌曲显示为灰色，请在“音乐”App中找到这首歌曲，然后轻点这首歌曲的“下载”按钮，以将歌曲下载到您的设备上。如果您找不到想要使用的某首特定歌曲，请进一步了解为何无法访问这首歌曲。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果某首歌曲显示为灰色，请在“音乐”App中找到这首歌曲，然后轻点这首歌曲的“下载”按钮，以将歌曲下载到您的设备上。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "轻点一首歌曲进行预览。如果某首歌曲显示为灰色，请在“音乐”App中找到这首歌曲，然后轻点这首歌曲的“下载”按钮，以将歌曲下载到您的设备上。如果您找不到想要使用的某首特定歌曲，请进一步了解为何无法访问这首歌曲。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "添加后的歌曲会放在什么位置？",
+        "act": "what",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "要向项目中添加歌曲，请轻点歌曲旁边的“添加音频”按钮。iMovie剪辑会自动将歌曲放置在项目开头，并自动调整歌曲以适合项目的长度。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "iMovie剪辑会自动将歌曲放置在项目开头，并自动调整歌曲以适合项目的长度。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "要向项目中添加歌曲，请轻点歌曲旁边的“添加音频”按钮。iMovie剪辑会自动将歌曲放置在项目开头，并自动调整歌曲以适合项目的长度。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "iMovie剪辑可以访问iPhone上哪些音频文件？",
+        "act": "what",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "iMovie剪辑可以访问您设备上的“音乐”App音乐资料库中的歌曲，还可以访问储存在您设备上、iCloud云盘中或其他位置的任意音频文件"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "iMovie剪辑可以访问您设备上的“音乐”App音乐资料库中的歌曲，还可以访问储存在您设备上、iCloud云盘中或其他位置的任意音频文件。",
+        "act": "ans/open",
+        "document": "向iMovie剪辑项目中添加歌曲和其他音频文件.json",
+        "grounding": [
+            "iMovie剪辑可以访问您设备上的“音乐”App音乐资料库中的歌曲，还可以访问储存在您设备上、iCloud云盘中或其他位置的任意音频文件"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

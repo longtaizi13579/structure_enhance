@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江衢州申请海关缴款书核查要交钱不？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "海关缴款书核查申请",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "262"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个没时间去现场办，能上网办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想问我们有哪些办理形式吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对，有啥办理形式。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在网上申请，也可以到现场窗口申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我申请结果大概啥时候能知道？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "109",
+            "118"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们会在您作出申请决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦哦，你这个没超过行政审核时限吧？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您问的是行政审核时限是指法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限是7个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

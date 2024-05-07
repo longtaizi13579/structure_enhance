@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下解决Windows版iCloud或iTunes与第三方安全软件之间的问题",
+        "act": "what",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "解决Windows版iCloud或iTunes与第三方安全软件之间的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你具体是想问测试连接性还是测试安全软件还是如何判断是否可能是安全软件所导致的问题还是什么呢？",
+        "act": "multiple-choice",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "测试连接性"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下测试连接性的具体操作步骤",
+        "act": "what",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "测试连接性"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先检查主机文件以确保该文件未阻止iTunes与Apple服务器通信。然后如果您在使用“隔空播放”、家庭共享、iTunes或遥控器时遇到问题，请在家里测试电脑或设备之间的连接。这些电脑或设备应连接到同一网络和子网才能正常工作。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "检查主机文件以确保该文件未阻止iTunes与Apple服务器通信。",
+            "如果您在使用“隔空播放”、家庭共享、iTunes或遥控器时遇到问题，请在家里测试电脑或设备之间的连接。这些电脑或设备应连接到同一网络和子网才能正常工作。"
+        ],
+        "grounding_id": [
+            "40",
+            "44"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是我最近总是看到数字错误信息是为什么？",
+        "act": "why",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "由Apple之外的公司创建的安全软件可能会阻止Windows版iCloud或iTunes连接到Apple服务器或设备。有时，在同步、更新、备份或恢复设备时，您可能会看到数字错误信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "由Apple之外的公司创建的安全软件可能会阻止Windows版iCloud或iTunes连接到Apple服务器或设备。有时，在同步、更新、备份或恢复设备时，您可能会看到数字错误信息。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "由Apple之外的公司创建的安全软件可能会阻止Windows版iCloud或iTunes连接到Apple服务器或设备。有时，在同步、更新、备份或恢复设备时，您可能会看到数字错误信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问一下首先要进行的几项检查方面都需求什么？",
+        "act": "what",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "首先要进行的几项检查"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你是想问在更改安全软件的设置之前，还是如何操作呢？",
+        "act": "multiple-choice",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "在更改安全软件的设置之前："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想问在更改安全软件的设置之前，需要我做什么准备呢？",
+        "act": "what",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "在更改安全软件的设置之前："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要确保电脑上的日期、时间和时区设置正确。登录管理员用户帐户，而非来宾帐户。更新至最新版本的Windows版iCloud或更新至最新版本的iTunes。确保您的Mac上或您的PC上安装的是最新版软件。确保您已设置WindowsHello。了解如何对其进行设置。确保您只安装有一种安全软件。如果您安装了多种安全软件，可能会遇到性能问题。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "确保电脑上的日期、时间和时区设置正确。了解如何在Mac上或在PC上更新这些设置。",
+            "登录管理员用户帐户，而非来宾帐户。了解如何在PC上操作。",
+            "更新至最新版本的Windows版iCloud或更新至最新版本的iTunes。",
+            "确保您的Mac上或您的PC上安装的是最新版软件。",
+            "确保您已设置WindowsHello。了解如何对其进行设置。",
+            "确保您只安装有一种安全软件。如果您安装了多种安全软件，可能会遇到性能问题。"
+        ],
+        "grounding_id": [
+            "18",
+            "22",
+            "26",
+            "30",
+            "34",
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "安全软件会导致iTunes出现什么样问题呢？",
+        "act": "what",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "如果安全软件导致iTunes出现问题"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可能会看到iTunes错误4、6、1630–1641、3000–3999或9000–9999*。",
+        "act": "ans/open",
+        "document": "解决Windows版iCloud或iTunes与第三方安全软件之间的问题.json",
+        "grounding": [
+            "看到iTunes错误4、6、1630–1641、3000–3999或9000–9999*。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

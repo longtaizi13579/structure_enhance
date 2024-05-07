@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江台州市的公共场所卫生行政许可办理的话作出决定后需要多久才能收到结果呀？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达结果。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那有什么方法能申请办事呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们目前有线上电话办事和线下办事点，您想知道哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那告诉我线下的办事点吧，具体地址在哪？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "线下具体地址在台州市开发大道692号广达嘉苑3号楼二楼B11B12窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "具体地址",
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）一楼A30窗口已搬至二楼B11B12窗口"
+        ],
+        "grounding_id": [
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这服务太差了，我要投诉，投诉电话多少？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，我们的投诉电话是0576-12345。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0576-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这电话也没人接啊？怎么回事？算了你直接给我个地址，我直接去店里投诉。",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，投诉地址在台州市椒江区开发大道692号二楼B11B12窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "台州市椒江区开发大道692号二楼B11B12窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下浙江杭州市对少数民族参加中考得考生有优待政策办理时间是几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "对少数民族考生参加中考优待的确认",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "夏季这个季节是上午9:00-12:30，下午14:30-17:30，您合理安排时间过去就可以。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "夏季：上午9:00-12:30，下午14:30-17:30；冬季：上午9:00-12:30，下午14:00-17:30（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请这个优待政策需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "对少数民族考生参加中考优待的确认",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "261"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的明白，可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "对少数民族考生参加中考优待的确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自助办理？您的意思是问支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对的，就是这意思。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，这个不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "不支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "92",
+            "91"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那除了线下办理还能有别的方式办吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "对少数民族考生参加中考优待的确认",
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "1",
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您除了可以到现场窗口办理还可以在网上申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对少数民族考生参加中考优待的确认.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

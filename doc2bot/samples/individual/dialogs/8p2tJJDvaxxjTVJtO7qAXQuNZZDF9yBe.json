@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下在浙江嘉兴办理机动车业务的情况。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解哪个方面呢？机动车在车辆管理所管辖区域内转移登记还是机动车跨车辆管理所管辖区域转移登记？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "机动车在车辆管理所管辖区域内转移登记呢。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那具体是哪一个服务呢？收费标准还是办理地点呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1116"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我就想了解一下能不能网上支付相关费用的。能吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1122"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以网上支付的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那多少钱啊？如果我办理机动车临时号牌话？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5\t机动车临时号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1161",
+            "1162"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收费标准是5块钱一张。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "1163"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我机动车登记是不是也要5块钱？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "2\t机动车登记证书",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1134",
+            "1135"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "机动车登记证书是10块钱一张呢。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "1136"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那机动车行驶证呢？多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "4\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1152",
+            "1153"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "机动车行驶证是10元/本。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "1154"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有那个，车上的反光号牌是怎么收费的?",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "3\t挂车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1143",
+            "1144"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是50元/副。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "1145"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "换新的汽车反光号牌呢?",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "6\t汽车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1170",
+            "1171"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是100元/副。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "100元/副"
+        ],
+        "grounding_id": [
+            "1172"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "最后一问哈，更换摩托车反光号牌怎么收费？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1125",
+            "1126"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "70元/副。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "1127"
+        ]
+    }
+]

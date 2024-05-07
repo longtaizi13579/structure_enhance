@@ -1,0 +1,304 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省绍兴市出入境的有关问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "台湾通行证及签注 、常用服务您想咨询哪方面的问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理赴台学习签注需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "9878"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "需要。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9880"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "9883"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "支持的。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "9884"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "赴台团队旅游签注这个业务的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C05、C06、C07、C08。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C05、C06、C07、C08"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "赴台团队旅游签注收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1486"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "收费。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "1487"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理这种签注的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果遇到问题，监督投诉方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "投诉地址告诉我一下吧。",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理此业务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "参加国家旅游局指定的有经营赴台游业务资质的旅行社组织的赴台湾团队旅游的，可申请赴台团队旅游签注。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "参加国家旅游局指定的有经营赴台游业务资质的旅行社组织的赴台湾团队旅游的，可申请赴台团队旅游签注。"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那什么情况下不通过呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "（一）有法定不准出境情形的； （二）不符合申请条件的；（三）在申请过程中弄虚作假的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "（一）有法定不准出境情形的； ",
+            "（二）不符合申请条件的；",
+            " （三）在申请过程中弄虚作假的。"
+        ],
+        "grounding_id": [
+            "1512",
+            "1513",
+            "1514"
+        ]
+    }
+]

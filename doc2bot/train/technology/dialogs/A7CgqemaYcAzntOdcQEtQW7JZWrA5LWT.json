@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下我新买的iPad主屏上没有案由如何拍摄截屏呢？",
+        "act": "how",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏",
+            "如何在没有主屏幕按钮的iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先同时按下顶部按钮和任一音量按钮*。然后快速松开这两个按钮。最后拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "同时按下顶部按钮和任一音量按钮*。",
+            "快速松开这两个按钮。",
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPad上拍摄截屏具体是做什么呢？",
+        "act": "what",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "主要是快速存储屏幕上的内容。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "快速存储屏幕上的内容。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我感觉我还是不太懂，想进一步了解，能跟我说一下吗？",
+        "act": "verification",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要在支持ApplePencil的iPad机型上拍摄截屏，您可以从iPad屏幕任意一侧的底部边角轻扫ApplePencil。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "要在支持ApplePencil的iPad机型上拍摄截屏，您可以从iPad屏幕任意一侧的底部边角轻扫ApplePencil。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

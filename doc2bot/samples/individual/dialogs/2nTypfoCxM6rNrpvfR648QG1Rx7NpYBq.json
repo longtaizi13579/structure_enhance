@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "机动车在浙江省嘉兴市报废之后需要登记吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是说机动车灭失注销登记还是机动车因质量问题退车注销登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "就是机动车灭失注销登记，是不是网上登记一下就行？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "抱歉，此项登记暂不支持自助终端办理，需要您申请之后现场办理。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还得先申请啊？怎么申请？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以选择网上申请或现场窗口申请两种方式。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那申请完之后相关资料应该什么时候提交啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "要交的资料有哪些啊？可以去哪儿问问？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "详细信息您可以到嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口咨询。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

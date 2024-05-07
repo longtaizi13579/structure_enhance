@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想了解一下关于iCloud.com的相关操作",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体想了解哪一方面？ iCloud.com上Pages文稿中的功能差异、iCloud.com上Keynote讲演中的功能差异还是iCloud.com上Numbers表格中的功能差异？",
+        "act": "multiple-choice",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "iCloud.com上Pages文稿中的功能差异"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想了解一下iCloud.com上Pages文稿中的功能差异，如果某个pages文稿打开了跟踪修改，那对于iCloud.com和Mac、iPhone或iPad版Pages文稿在功能操作方面，有什么不同？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "如果您在某个Pages文稿中打开了跟踪修改，那么可以使用iCloud.com上的Pages文稿打开这个文稿，但是无法对它进行编辑。如果您是这个文稿的所有者，可以使用Mac、iPhone或iPad版Pages文稿打开它来关闭“跟踪修改”。进一步了解修改跟踪功能。",
+            "iCloud.com上Pages文稿中的功能差异"
+        ],
+        "grounding_id": [
+            "12",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您在某个Pages文稿中打开了跟踪修改，那么可以使用iCloud.com上的Pages文稿打开这个文稿，但是无法对它进行编辑。如果您是这个文稿的所有者，可以使用Mac、iPhone或iPad版Pages文稿打开它来关闭“跟踪修改”。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "如果您在某个Pages文稿中打开了跟踪修改，那么可以使用iCloud.com上的Pages文稿打开这个文稿，但是无法对它进行编辑。如果您是这个文稿的所有者，可以使用Mac、iPhone或iPad版Pages文稿打开它来关闭“跟踪修改”。进一步了解修改跟踪功能。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "iCloud.com上pages文稿可以添加最大多大的图像？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。然后，您可以在iCloud.com上查看文稿中的图像。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。然后，您可以在iCloud.com上查看文稿中的图像。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果想要添加更大的图像，怎么办呢？",
+        "act": "how",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。然后，您可以在iCloud.com上查看文稿中的图像。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。然后，您可以在iCloud.com上查看文稿中的图像。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那对于iCloud.com中工作方式不同的功能，可以用什么查看呢？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "Mac、iPhone、iPad和iCloud.com上都提供iWork。了解在iCloud.com中工作方式有所不同的功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Mac、iPhone、iPad和iCloud.com上都提供iWork。了解在iCloud.com中工作方式有所不同的功能。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "Mac、iPhone、iPad和iCloud.com上都提供iWork。了解在iCloud.com中工作方式有所不同的功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "什么类型的文稿可以查看，但不能编辑呢？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以查看包含竖排文本的文稿，但无法进行编辑。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以查看包含竖排文本的文稿，但无法进行编辑。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以查看包含竖排文本的文稿，但无法进行编辑。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "numbers表格里面最多可以更改多少个单元格？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您最多可以同时更改100,000个单元格。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您最多可以同时更改100,000个单元格。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您最多可以同时更改100,000个单元格。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "之前有个什么一码一户信息变更要去办理的，浙江湖州办理咋问？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想问具体地址还是联系电话呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "具体地址",
+            "联系电话"
+        ],
+        "grounding_id": [
+            "125",
+            "129"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先给我个电话吧，我咨询一下。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您可以拨打0572-2158195联系办事处。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "0572-2158195"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般我啥时候能去办这个信息变更啊？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在每周一至周五的9:00-17:00来办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "星期一至星期五，9:00-17:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦哦，去哪能办？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以到湖州市民服务中心1号楼2楼C区税务窗口办理哈。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "湖州市民服务中心（湖州市吴兴区金盖山路66号）1号楼2楼C区税务窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    }
+]

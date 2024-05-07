@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好想咨询一下涉外婚姻的问题",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "婚姻"
+        ],
+        "grounding_id": [
+            "T302"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您是要了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "呃，浙江衢州市，",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您对涉外婚姻是咨询外国人，港澳台居民，还是华侨的是结婚还是离婚",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨离婚登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，是外国人离婚登记的事情那有什么办理形式呀？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨离婚登记",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的帮您查询了可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个涉外离婚登记支持自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，那这个离婚登记结果出来可以派送吗多久就能收到呀？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "帮您查了一下这个自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，就是办这个收费吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1692"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个不收费的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1693"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "啊，还有个问题，我听说办这个离婚登记有个冷静期，这个一般多久呀",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "冷静期",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1593",
+            "1595"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的帮您查询了一下这个冷静期办理时限是30天",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "30天"
+        ],
+        "grounding_id": [
+            "1596"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦这样的呀，那离婚登记是否支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1696"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个不支持",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1697"
+        ]
+    }
+]

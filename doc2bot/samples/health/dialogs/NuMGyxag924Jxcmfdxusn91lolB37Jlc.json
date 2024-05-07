@@ -1,0 +1,58 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下牙周炎的相关情况",
+        "act": "what",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_牙周疾病_牙周炎.json",
+        "grounding": [
+            "牙周疾病",
+            "牙周炎"
+        ],
+        "grounding_id": [
+            "T1966",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "牙周炎是一种严重的牙龈炎，其中牙龈的炎症延伸到牙齿的支撑结构。您想了解牙周炎的病因，症状，诊断或者治疗哪方面的信息呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_牙周疾病_牙周炎.json",
+        "grounding": [
+            "牙周炎的诊断"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道诊断的时候需要做x光检查吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_牙周疾病_牙周炎.json",
+        "grounding": [
+            "牙周炎的诊断",
+            "有时行X光检查"
+        ],
+        "grounding_id": [
+            "36",
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有时会需要X光检查",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_牙周疾病_牙周炎.json",
+        "grounding": [
+            "有时行X光检查"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

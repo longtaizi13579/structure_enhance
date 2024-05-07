@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问如何更换AppleRemote中的电池",
+        "act": "how",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如何更换AppleRemote中的电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您使用的是，AppleRemote（白色）、AppleTVRemote还是AppleRemote（铝金属）",
+        "act": "multiple-choice",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如何更换AppleRemote中的电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "白色的",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（白色）"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先找到位于AppleRemote底部的电池仓。然后用回形针或类似物件按下电池仓上的圆形释放按钮，将电池托架滑出。 取出旧电池使正极端向上朝向您自己，装入新的CR2032电池 。最后将电池托架推回AppleRemote中，直至发出咔嗒声才算完成。",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（白色）",
+            "找到位于AppleRemote底部的电池仓。",
+            "用回形针或类似物件按下电池仓上的圆形释放按钮，将电池托架滑出。",
+            "取出旧电池。",
+            "使正极端向上朝向您自己，装入新的CR2032电池（在大多数电子产品商店和杂货店中有售）。",
+            "将电池托架推回AppleRemote中，直至发出咔嗒声。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那AppleTVRemote的怎么搞？",
+        "act": "how",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是SiriRemote或AppleTVRemote*"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "SiriRemote或AppleTVRemote配有可充电电池，而不提供可更换电池。利用随附的闪电转USB连接线，将您的SiriRemote或AppleTVRemote插入电脑或USB电源适配器充电。",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是SiriRemote或AppleTVRemote*",
+            "SiriRemote或AppleTVRemote配有可充电电池，而不提供可更换电池。利用随附的闪电转USB连接线，将您的SiriRemote或AppleTVRemote插入电脑或USB电源适配器充电。"
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那铝金属和白色的方法是不是一样？",
+        "act": "verification",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如何更换AppleRemote中的电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "ppleRemote（铝金属）的方法是，首先找到位于AppleRemote背面的电池组件，用硬币逆时针旋转电池仓盖，直到仓盖打开。取出旧电池使正极端向上朝向您自己，装入新的CR2032或BR20323V纽扣锂电池即可。",
+        "act": "ans/open",
+        "document": "如何更换AppleRemote中的电池.json",
+        "grounding": [
+            "如果您使用的是AppleRemote（铝金属）",
+            "找到位于AppleRemote背面的电池组件。",
+            "用硬币逆时针旋转电池仓盖，直到仓盖打开。",
+            "取出旧电池。",
+            "使正极端向上朝向您自己，装入新的CR2032或BR20323V纽扣锂电池（在大多数电子产品商店和杂货店中有售）。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    }
+]

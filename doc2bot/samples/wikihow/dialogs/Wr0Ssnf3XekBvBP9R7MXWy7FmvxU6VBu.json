@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "最近看优步的优惠券听说可大了，我这个地方小，怎么知道优步有没有在我这开通呢？",
+        "act": "how",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "如何查看优步打车在你所在的城市有没有开通"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你可以选择在优步官网查看以及下载优步App两种方式进行查验，您想了解哪种呢？",
+        "act": "multiple-choice",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "在优步官网查看"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我懒得下载app，你教教我怎么在优步官网查看吧？",
+        "act": "how",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "在优步官网查看"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先您在网络浏览器里打开Ubercities，其次在搜索栏输入地址、城市名称或者邮编，最后点击你要找的城市。",
+        "act": "ans/open",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "在网络浏览器里打开Ubercities",
+            "在搜索栏输入地址、城市名称或者邮编。",
+            "点击你要找的城市。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "点完我要选的城市之后呢？怎么看？",
+        "act": "how",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "点击你要找的城市。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "之后会出现一条信息，信息里会说明优步打车在那个城市有没有开通。",
+        "act": "ans/open",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "之后会出现一条信息，信息里会说明优步打车在那个城市有没有开通。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "实在搞不懂，算了还是用app吧，app咋看？",
+        "act": "how",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "下载优步App"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先您要在AppStore或者PlayStore下载优步App，然后注册、填写账号信息，然后点击“下一步”、输入收到的验证码，然后点击“下一步”、输入付款信息，完成注册，最后点乘车选项，就可以看到优步提供了哪几种打车服务啦。",
+        "act": "ans/open",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "在AppStore或者PlayStore下载优步App。",
+            "点击“注册”。",
+            "填写账号信息，然后点击“下一步”。",
+            "输入收到的验证码，然后点击“下一步”。",
+            "输入付款信息，完成注册。",
+            "优步提供了几种打车服务，你可以点击乘车选项来查看。"
+        ],
+        "grounding_id": [
+            "14",
+            "16",
+            "17",
+            "19",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "乘车选项在哪里呀，我怎么找不到？",
+        "act": "what",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "优步提供了几种打车服务，你可以点击乘车选项来查看。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你可以在App最底部的一栏中找到它们，目前有uberX，uberXL，尊享，Access或出租车几种形式。",
+        "act": "ans/open",
+        "document": "旅行_如何查看优步打车在你所在的城市有没有开通.json",
+        "grounding": [
+            "你可以在App最底部的一栏中找到它们（uberX，uberXL，尊享，Access或出租车）。如果大头针上显示着预估上车时间，这代表着这项服务是可用的。如果服务不可用，大头针上会显示“无可用车辆”。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

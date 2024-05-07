@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们企业现在要进行招标拍卖，想要办理下拍卖的文物审核，请问在哪办理？",
+        "act": "where",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "招标拍卖",
+            "拍卖企业拍卖的文物审核",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T109",
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个可以去教场路44号浙江省文物局就是杭州市拱墅区武林街道504办理。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "教场路44号浙江省文物局（杭州市拱墅区武林街道）504"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那都在什么时间可以进行办理啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在工作日进行办理，夏季是上午8:30-12:00下午2:30-6:00，冬季是上午8:30—12:00下午2:00—5:30。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "工作日，夏季：上午8:30-12:00，下午2:30-6:00；冬季：上午8:30—12:00，下午2:00—5:30。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那有没有投诉的地址，也告诉我下吧。",
+        "act": "where",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉可以去教场路26号浙江省文物局，就在杭州市拱墅区武林街道。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "教场路26号浙江省文物局（杭州市拱墅区武林街道）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "他们承诺的办好时间是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

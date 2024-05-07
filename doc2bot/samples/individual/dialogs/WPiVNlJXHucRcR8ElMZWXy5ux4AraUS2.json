@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的车之前抵押，现在要解除抵押，我现在人在浙江丽水市，可以在自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "浙江省_丽水市",
+            "机动车",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T12",
+            "T17",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，机动车解除抵押登记这项业务不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，那多长时间能办理完解除抵押。",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "法定办结时限是几天？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限是1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我办完之后，解除登记证书多长时间能拿到?",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以当场拿走，也可以快递给您，如果快递的话是受理之日起10个工作日内送达给到您。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那有咨询电话吗？具体事项我想再电话咨询一下。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，咨询电话您记一下，0578-12123",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "0578-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好记下来了，我担心会在办理过程中有不满意地方，有投诉地址吗？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您有任何不满意您可以到这里去投诉，丽水市公安局交通警察支队警务督察大队，就是莲都区丽青路85号。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "丽水市公安局交通警察支队警务督察大队（莲都区丽青路85号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有投诉电话吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话也有的您记一下0578-1234。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "谢谢，我还有个别的问题，我朋友在宁波市买了个国产车，想办理注册登记，有自助机器能办吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "浙江省_宁波市",
+            "机动车",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T10",
+            "T17",
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "抱歉，国产机动车注册登记是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

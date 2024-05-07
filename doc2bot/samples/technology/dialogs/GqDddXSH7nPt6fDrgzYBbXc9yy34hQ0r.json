@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想更改iCloud的设置，但不知道在哪儿改，能帮帮我吗？",
+        "act": "where",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "更改iCloud设置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您使用的是iPhone、iPad还是iPodtouch呢？",
+        "act": "multiple-choice",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我用的是iPhone，在哪儿改呢？",
+        "act": "where",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以前往“设置”>“[您的姓名]”。 然后轻点“iCloud”。 最后轻点以选取要使用iCloud的App。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上",
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“iCloud”。",
+            "轻点以选取要使用iCloud的App。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我要在我的MAC电脑上更改，怎么做呢？",
+        "act": "how",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您使用的是macOSMojave版本吗？",
+        "act": "question/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更低版本，则无需点按“AppleID”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，是这个版本，怎么操作呢？",
+        "act": "how",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以照以下步骤进行操作：1.选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更低版本，则无需点按“AppleID”。 2.点按“iCloud”。 3.选择或取消选择各个App。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "具体步骤",
+            "选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更低版本，则无需点按“AppleID”。",
+            "点按“iCloud”。",
+            "选择或取消选择各个App。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果我想换个名字登陆icloud，我的信息还会被备份吗？",
+        "act": "verification",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "关闭iCloud"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不会的，如果您退出登录iCloud（或删除iCloud），iCloud便不会再备份您iPhone、iPad或iPodtouch上的信息。",
+        "act": "ans/no",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "关闭iCloud",
+            "如果您退出登录iCloud（或删除iCloud），iCloud便不会再备份您iPhone、iPad或iPodtouch上的信息。"
+        ],
+        "grounding_id": [
+            "37",
+            "38"
+        ]
+    }
+]

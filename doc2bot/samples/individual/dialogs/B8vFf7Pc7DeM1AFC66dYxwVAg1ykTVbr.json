@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，想咨询下驾驶证换证方面的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T4",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解延期换领机动车驾驶证，达到规定年龄换领机动车驾驶证，驾驶证损毁换证，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解延期换领机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解咨询方式，法定办结时限，办理地点，到现场次数，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道咨询方式。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我咨询地址就行。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址是：杭州市西湖区三墩镇古墩路699号一号大厅导办台。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址",
+            "杭州市西湖区三墩镇古墩路699号一号大厅导办台"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办事处的正常工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "周一-周日，上午9:00-12：00；下午13:30-17:00（法定节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "办理时间",
+            "周一-周日，上午9:00-12：00；下午13:30-17:00（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    }
+]

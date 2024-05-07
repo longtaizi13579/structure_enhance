@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道保险合同签订后一般多久生效？",
+        "act": "when",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想知道哪一个保险的生效期呢？",
+        "act": "question/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "人保寿险花开富贵年金保险。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "合同成立后、保险公司收取首期保险费并签发保险单为本合同的生效条件，合同生效日期在保险单上载明。保单生效对应日、保单年度、保险费约定交纳日均以该日期计算。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您提出保险申请，我们同意承保，本合同成立。本合同成立、我们收取首期保险费并签发保险单为本合同的生效条件，合同生效日期在保险单上载明。保单生效对应日（见 7.1）、保单年度（见 7.2）、保险费约定交纳日（见 7.3）均以该日期计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那保单年度是怎么计算的?",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "保单年度"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自本合同生效日或年生效对应日起至下一个年生效对应日零时止为一个保单年度。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "自本合同生效日或年生效对应日起至下一个年生效对应日零时止为一个保单年度。"
+        ],
+        "grounding_id": [
+            "74"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么时候都可以享有保险公司的保障吗？",
+        "act": "when",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您获得的保障"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您只要是在本合同有效期内，保险公司就会承担保险责任。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "在本合同有效期内，我们承担如下保险责任："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理人保寿险花开富贵年金保险有什么好处吗？",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您获得的保障"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您只要满足条件就可以获得年金。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "年金"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要满足什么条件？",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "被保险人生存至第五个保单年生效对应日时保险公司按基本保险金额给付首次年金，首次年金给付后，被保险人每生存满 1 个保单年度，保险公司按基本保险金额给付年金。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "被保险人生存至第五个保单年生效对应日时我们按基本保险金额给付首次年金，首次年金给付后，被保险人每生存满 1 个保单年度，我们按基本保险金额给付年金。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投保人不在了，保险公司还会给年金吗？",
+        "act": "how",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投保人与被保险人是同一人吗？",
+        "act": "question/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "不是。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这种情况被保险人只要生存至第五个保单年生效对应日时保险公司就会按基本保险金额给付首次年金，首次年金给付后，被保险人每生存满 1 个保单年度，保险公司按基本保险金额给付年金。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "被保险人生存至第五个保单年生效对应日时我们按基本保险金额给付首次年金，首次年金给付后，被保险人每生存满 1 个保单年度，我们按基本保险金额给付年金。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

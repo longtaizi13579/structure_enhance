@@ -1,0 +1,380 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "学校买了一个住宿洗衣机，我想了解下怎么使用？",
+        "act": "what",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "如何在住宿时洗衣服"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解洗衣模式还是烘干模式呢？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "烘干"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解烘干模式，我的衣服是棉绒的，不小心弄脏里面收纳盒了怎么办？",
+        "act": "what",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "烘干",
+            "如果烘干机带有棉绒收集盒，将其清理干净，垃圾扔到可回收垃圾桶。"
+        ],
+        "grounding_id": [
+            "33",
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果烘干机带有棉绒收集盒，将其清理干净，垃圾扔到可回收垃圾桶。再把清理干净的盒子装回原位。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "如果烘干机带有棉绒收集盒，将其清理干净，垃圾扔到可回收垃圾桶。",
+            "再把清理干净的盒子装回原位。"
+        ],
+        "grounding_id": [
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我不放金纺柔顺剂可以用柔顺纸代替吗？",
+        "act": "verification",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "启动前放一张干洗柔顺纸（可选）。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，这能给衣物增添芳香，并且除静电。",
+        "act": "ans/yes",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "这能给衣物增添芳香，并且除静电。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我要怎么操作烘干机运转一定要投币吗？",
+        "act": "what",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "把衣物放入烘干机，按指示操作（投币或刷卡）。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投币或者刷卡都可以，选择合适的档位。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "把衣物放入烘干机，按指示操作（投币或刷卡）。",
+            "选择合适的档位（低／中／高）。"
+        ],
+        "grounding_id": [
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "烘干机会不会把我容易皱得衣服越洗越皱呢？",
+        "act": "verification",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "烘干后立即将易皱衣物挂起来。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果马上挂到衣架上或者折起来就不会把裤子折叠起来比较好拿。要是你烘干后马上把裤子按裤缝线折叠整齐，就可以省去熨烫步骤",
+        "act": "ans/no",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "烘干后立即将易皱衣物挂起来。",
+            "马上挂到衣架上或者折起来。把裤子折叠起来比较好拿。要是你烘干后马上把裤子按裤缝线折叠整齐，就可以省去熨烫步骤（有些面料不可熨烫）。"
+        ],
+        "grounding_id": [
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "使用完烘干机我需要在检查些什么吗？",
+        "act": "what",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "再次检查烘干机。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "再次检查烘干机。不要遗漏袜子、零钱等小物件。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "再次检查烘干机。",
+            "不要遗漏袜子、零钱等小物件。"
+        ],
+        "grounding_id": [
+            "49",
+            "50"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我使用洗衣机还是要先清空一下衣服口袋这样比较好。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "清空衣服口袋。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，要是口袋里的钢笔或唇膏忘记拿出来，一整桶衣服都要遭殃了。还有，别把手机落在里面。开宿舍前记得带钥匙。",
+        "act": "ans/yes",
+        "document": "教育与交流_如何在住宿时洗衣服.json",
+        "grounding": [
+            "清空衣服口袋。",
+            "要是口袋里的钢笔或唇膏忘记拿出来，一整桶衣服都要遭殃了。还有，别把手机落在里面。",
+            "离开宿舍前记得带钥匙。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，谢谢。对了，我记得电脑好像可以按住ALT直接输入特殊符号的，我的电脑是mac系统，你知道该如何直接输入特殊符号吗？",
+        "act": "verification",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "如何使用ALT键输入特殊符号",
+            "Mac系统"
+        ],
+        "grounding_id": [
+            "1",
+            "73"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "用Mac系统用可以输入以下符号: 1.输入货币符号。2.输入数学运算符。3.输入特殊的标点符号和编辑符号。4.使用符号浏览器找到更多符号。您想了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Mac系统",
+            "输入货币符号。",
+            "输入数学运算符。",
+            "输入特殊的标点符号和编辑符号。",
+            "使用符号浏览器找到更多符号。"
+        ],
+        "grounding_id": [
+            "73",
+            "74",
+            "82",
+            "95",
+            "110"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想了解输入运算符是怎么输入呢，具体按哪个键呀？",
+        "act": "what",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入数学运算符。"
+        ],
+        "grounding_id": [
+            "82"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以使用Opt按键或Shift+Opt按键来修改键盘按键功能。然后用不Opt不同的字符组合就能输入数学运算符啦。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入数学运算符。",
+            "Opt按键或Shift+Opt按键来修改键盘按键功能。使用下面的快捷键输入不同的数学运算符。"
+        ],
+        "grounding_id": [
+            "82",
+            "83"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那输入特殊的标点符号和编辑符号是用哪个键转换呢？",
+        "act": "what",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入特殊的标点符号和编辑符号。"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "Opt和Shift+Opt会改变、修改键盘打出的字符和符号。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Opt和Shift+Opt会改变、修改键盘打出的字符和符号。其中有些符号是特殊的标点符号和编辑符号。使用下述键盘组合键输入以下符号。"
+        ],
+        "grounding_id": [
+            "96"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "原来如此。你再给我说一下windows都能输入哪些吧，我也有点忘记了。",
+        "act": "how",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Windows系统"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "Windows系统可以: 1.输入货币符号。2.输入数学运算符号。3.输入特殊的标点符号和编辑符号。4.输入五线谱。5.输入其它各种各样的符号。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Windows系统",
+            "输入货币符号。",
+            "输入数学运算符号。",
+            "输入特殊的标点符号和编辑符号。",
+            "输入五线谱。",
+            "输入其它各种各样的符号。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "14",
+            "32",
+            "47",
+            "56"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "明白了，我想输入个反问号，但是我怎么都输不进去，这个反问号到底是怎么操作的呢？",
+        "act": "how",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "¡|| 反叹号 ||173"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您按住ALT键，再输入数字键盘的168，就能打出反问号啦。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "¡|| 反叹号 ||173"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我试试，对了，我记得以前还可以直接输出那个笑脸的，你能也告诉我一下代码吗？",
+        "act": "verification",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "☺||笑脸||1",
+            "☻|| 黑色笑脸 ||2"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "普通笑脸是按住ALT+数字键盘的1；黑色笑脸是按住ALT+数字键盘的2。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "☺||笑脸||1",
+            "☻|| 黑色笑脸 ||2"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我现在的AppleWatch没办法跟iPhone配对了，我该怎么办",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "如果您无法将AppleWatch与iPhone配对"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的AppleWatch有没有和iPhone配对",
+        "act": "verification",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "确保AppleWatch还没有配对"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还没有",
+        "act": "ans/no",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "确保AppleWatch还没有配对"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那么您需要抹掉AppleWatch",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "抹掉AppleWatch（如果您没有与它配对的iPhone）"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那该怎么做",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "抹掉AppleWatch（如果您没有与它配对的iPhone）"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开手表上的“设置”App，然后轻点“通用”>“还原”。轻点“抹掉所有内容和设置”，然后再次轻点进行确认。然后等待手表取消配对。在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "具体步骤",
+            "打开手表上的“设置”App，然后轻点“通用”>“还原”。",
+            "轻点“抹掉所有内容和设置”，然后再次轻点进行确认。",
+            "等待手表取消配对。",
+            "在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那要是配对过呢？",
+        "act": "verification",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "取消配对AppleWatch（如果您有与它配对的iPhone）"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果是配对过的话需要打开iPhone上的WatchApp，轻点“我的手表”标签，然后轻点屏幕顶部的“所有手表”。找到要取消配对的手表并轻点旁边的“i”图标，然后轻点“取消配对AppleWatch”。再次轻点进行确认，然后等待手表取消配对。 然后在AppleWatch完全取消配对后，您便可以重新配对。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "取消配对AppleWatch（如果您有与它配对的iPhone）",
+            "打开iPhone上的WatchApp，轻点“我的手表”标签，然后轻点屏幕顶部的“所有手表”。",
+            "找到要取消配对的手表并轻点旁边的“i”图标，然后轻点“取消配对AppleWatch”。",
+            "再次轻点进行确认，然后等待手表取消配对。",
+            "在AppleWatch完全取消配对后，您便可以重新配对。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那对于忘了AppleWatch密码的人来说，该如何还原 Apple Watch ",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "还原AppleWatch（如果您不知道它的密码）"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先将AppleWatch放在充电器上。然后按住侧边按钮，直到看到“关机”。再按住数码表冠，然后轻点“还原”。最后在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "具体步骤",
+            "将AppleWatch放在充电器上。",
+            "按住侧边按钮，直到看到“关机”。",
+            "按住数码表冠，然后轻点“还原”。",
+            "在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36",
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如何知道AppleWatch配过对没有？",
+        "act": "how",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "确保AppleWatch还没有配对"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。",
+        "act": "ans/open",
+        "document": "如果您无法将AppleWatch与iPhone配对.json",
+        "grounding": [
+            "确保AppleWatch还没有配对",
+            "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    }
+]

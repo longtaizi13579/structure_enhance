@@ -1,0 +1,189 @@
+{
+    "document_id": 636,
+    "domain": "technology",
+    "name": "如果您无法将AppleWatch与iPhone配对",
+    "graph": {
+        "1": {
+            "data": "如果您无法将AppleWatch与iPhone配对",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "确保AppleWatch还没有配对",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "当您设置AppleWatch时，iPhone会要求您将手表靠近iPhone摄像头。如果iPhone提示无法连接到AppleWatch，或者手表显示表盘，则说明AppleWatch可能已经与某台iPhone配对。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "请尝试通过以下任一方法取消配对或抹掉AppleWatch。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "6": {
+            "data": "取消配对AppleWatch（如果您有与它配对的iPhone）",
+            "type": "sequence",
+            "pid": "5"
+        },
+        "7": {
+            "data": "打开iPhone上的WatchApp，轻点“我的手表”标签，然后轻点屏幕顶部的“所有手表”。",
+            "type": "sequence-step",
+            "pid": "6"
+        },
+        "8": {
+            "data": "找到要取消配对的手表并轻点旁边的“i”图标，然后轻点“取消配对AppleWatch”。",
+            "type": "sequence-step",
+            "pid": "6"
+        },
+        "9": {
+            "data": "再次轻点进行确认，然后等待手表取消配对。",
+            "type": "sequence-step",
+            "pid": "6"
+        },
+        "10": {
+            "data": "在AppleWatch完全取消配对后，您便可以重新配对。",
+            "type": "sequence-step",
+            "pid": "6"
+        },
+        "14": {
+            "data": "抹掉AppleWatch（如果您没有与它配对的iPhone）",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "15": {
+            "data": "如果由于没有与AppleWatch配对的iPhone而无法取消配对，",
+            "type": "condition",
+            "pid": "14"
+        },
+        "16": {
+            "data": "在您抹掉AppleWatch而不是取消配对的情况下，手表仍然受激活锁保护。您必须先输入用于设置AppleWatch的AppleID和密码，然后才能重新配对AppleWatch。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "17": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "16"
+        },
+        "18": {
+            "data": "激活锁",
+            "type": "see-more",
+            "pid": "17",
+            "target": "关于AppleWatch上的激活锁.json"
+        },
+        "20": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "14"
+        },
+        "21": {
+            "data": "打开手表上的“设置”App，然后轻点“通用”>“还原”。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "22": {
+            "data": "轻点“抹掉所有内容和设置”，然后再次轻点进行确认。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "23": {
+            "data": "等待手表取消配对。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "24": {
+            "data": "在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "28": {
+            "data": "还原AppleWatch（如果您不知道它的密码）",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "29": {
+            "data": "如果由于忘记了密码而无法取消配对或抹掉AppleWatch，",
+            "type": "condition",
+            "pid": "28"
+        },
+        "30": {
+            "data": "在您还原AppleWatch而不是取消配对的情况下，手表仍然受激活锁保护。您必须先输入用于设置AppleWatch的AppleID和密码，然后才能重新配对AppleWatch。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "31": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "30"
+        },
+        "32": {
+            "data": "激活锁",
+            "type": "see-more",
+            "pid": "31",
+            "target": "关于AppleWatch上的激活锁.json"
+        },
+        "34": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "35": {
+            "data": "将AppleWatch放在充电器上。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "36": {
+            "data": "按住侧边按钮，直到看到“关机”。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "37": {
+            "data": "按住数码表冠，然后轻点“还原”。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "38": {
+            "data": "在AppleWatch完全取消配对后，您便可以重新配对。请记住，您需要使用用于设置手表的AppleID和密码。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "42": {
+            "data": "如果配对过程停滞",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "43": {
+            "data": "如果AppleWatch配对过程似乎已停滞，例如配对动画在屏幕上持续显示了几分钟，还原手表可能会有所帮助：",
+            "type": "sequence",
+            "pid": "42"
+        },
+        "44": {
+            "data": "在AppleWatch处于配对模式时，按住数码表冠。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "48": {
+            "data": "轻点手表上显示的“还原”。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "49": {
+            "data": "在手表还原后，您便可以重新配对。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "50": {
+            "data": "您可以抹掉手表。",
+            "type": "solution",
+            "pid": "15"
+        },
+        "51": {
+            "data": "您可以还原手表。",
+            "type": "solution",
+            "pid": "29"
+        }
+    }
+}

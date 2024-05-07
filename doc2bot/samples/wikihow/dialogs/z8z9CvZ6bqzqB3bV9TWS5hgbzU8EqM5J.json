@@ -1,0 +1,336 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我过段时间要去演讲，朋友说用Prez效果比较好，我想问下如何使用Prezi？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "如何使用Prezi"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "创建账户，设计演示文稿，制作演示文稿，创建路径，使用 Prezi 进行演示，您想了解哪个步骤？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "可选方法",
+            "创建账户"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先讲一下创建账户的方法吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "创建账户"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "创建账户: 1.访问官网。 2.下载iPad程序。 3.进入Prezi的编辑器。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "创建账户",
+            "访问官网。",
+            "下载iPad程序。",
+            "进入Prezi的编辑器。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "10",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "设计演示文稿的步骤是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "设计演示文稿"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "设计演示文稿: 1.勾绘出概念轮廓。 2.用主要内容点设置基础。 3.想想\"路径＂的问题。 4.保接路径稳定。 5.从大局开始。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "设计演示文稿",
+            "勾绘出概念轮廓。",
+            "用主要内容点设置基础。",
+            "想想\"路径＂的问题。",
+            "保接路径稳定。",
+            "从大局开始。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "19",
+            "21",
+            "23",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何勾绘出概念轮廓？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "勾绘出概念轮廓。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "画出Prezi的总体设计图。换个放大的、全局的思路想想看，最后会是什么样子？一些最成功的Prezi文档都有个清楚的结构框架以供参考。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "画出Prezi的总体设计图。换个放大的、全局的思路想想看，最后会是什么样子？一些最成功的Prezi文档都有个清楚的结构框架以供参考。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "路径是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "想想\"路径＂的问题。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "路径就是各帧之间的过渡。这种过渡不是线性的，而是以任意顺序进行的。＂镜头＂可以跟随路径，在各帧之间运行。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "路径就是各帧之间的过渡。这种过渡不是线性的，而是以任意顺序进行的。＂镜头＂可以跟随路径，在各帧之间运行。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "Prezi和powerpoint幻灯片一样吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "当你想到演讲的时候，可能首先出现在你脑海中的是powerpoint幻灯片。这种幻灯片每个人都做过，可能会有点儿乏味。想要换个口味？可以试试Prezi哦。Prezi是种网上演示程序，通过非线性的方式展示一段内容，和通常的幻灯片不同。下面的教程教你如何快速学会Prezi的使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Prezi是种网上演示程序，通过非线性的方式展示一段内容，和通常的幻灯片不同。",
+        "act": "ans/no",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "当你想到演讲的时候，可能首先出现在你脑海中的是powerpoint幻灯片。这种幻灯片每个人都做过，可能会有点儿乏味。想要换个口味？可以试试Prezi哦。Prezi是种网上演示程序，通过非线性的方式展示一段内容，和通常的幻灯片不同。下面的教程教你如何快速学会Prezi的使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在浏览整个演示文稿的时候，如何缩放画面大小？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "要记得，在浏览整个演示文稿的时候，你可以用滑轮来缩放画面大小。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要记得，在浏览整个演示文稿的时候，你可以用滑轮来缩放画面大小。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "要记得，在浏览整个演示文稿的时候，你可以用滑轮来缩放画面大小。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "使用Prezi进行演示的步骤是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "使用Prezi进行演示"
+        ],
+        "grounding_id": [
+            "77"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "使用Prezi进行演示: 1.练习演示。 2.过一遍路径。 3.掌握好时间。 4.让观众发问。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "使用Prezi进行演示",
+            "练习演示。",
+            "过一遍路径。",
+            "掌握好时间。",
+            "让观众发问。"
+        ],
+        "grounding_id": [
+            "77",
+            "78",
+            "81",
+            "83",
+            "85"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "掌握好时间的目的是什么？",
+        "act": "why",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "掌握好时间。"
+        ],
+        "grounding_id": [
+            "83"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不要在演示中匆忙地浏览各个帧，而是要给观众一点时间，来消化信息内容，并在转换画面后稳定下来。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "不要在演示中匆忙地浏览各个帧，而是要给观众一点时间，来消化信息内容，并在转换画面后稳定下来。"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "制作演示文稿的步骤是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "制作演示文稿"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "制作演示文稿: 1.选择主题。 2.放置物件。 3.操作各个对象。 4.要确保图片的像素很高。 5.在对象旁边要留空隙。 6.用微小的文字早就宏大的效果。 7.用帧来创建焦点。 8.使用帧来高亮显示一段文字。 9.风格要统一。 10.视野放大来看Prezi。 11.保持结构标准化。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "制作演示文稿",
+            "选择主题。",
+            "放置物件。",
+            "操作各个对象。",
+            "要确保图片的像素很高。",
+            "在对象旁边要留空隙。",
+            "用微小的文字早就宏大的效果。",
+            "用帧来创建焦点。",
+            "使用帧来高亮显示一段文字。",
+            "风格要统一。",
+            "视野放大来看Prezi。",
+            "保持结构标准化。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "37",
+            "40",
+            "48",
+            "50",
+            "52",
+            "54",
+            "57",
+            "59",
+            "63",
+            "66"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "用微小的文字造就宏大的效果是什么意思？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "用微小的文字早就宏大的效果。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "想要用一段文字或图片让观众口瞪目呆，就先做得特别特别小，在之前的放映中看都看不见，直到镜头放大了才会凸显出来。如果足够小，观众是看不到它慢慢接近的。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "想要用一段文字或图片让观众口瞪目呆，就先做得特别特别小，在之前的放映中看都看不见，直到镜头放大了才会凸显出来。如果足够小，观众是看不到它慢慢接近的。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    }
+]

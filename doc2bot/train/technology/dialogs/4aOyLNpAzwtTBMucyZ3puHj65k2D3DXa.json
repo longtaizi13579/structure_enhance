@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道带着口罩可以解锁iPhone吗",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您佩戴AppleWatch了吗",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，戴着",
+        "act": "ans/yes",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。",
+        "act": "ans/open",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果AppleWatch戴在手腕上并已解锁，而且iPhone就在附近时还需要人脸识别吗",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "当AppleWatch佩戴在您的手腕上并已解锁，并且您的iPhone就在附近时，“使用AppleWatch解锁”功能才会发挥作用。这项功能不会使用面容ID来识别和认证您的身份。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这项功能不会使用面容ID来识别和认证您的身份，但要“使用AppleWatch解锁”功能才会发挥作用",
+        "act": "ans/no",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "当AppleWatch佩戴在您的手腕上并已解锁，并且您的iPhone就在附近时，“使用AppleWatch解锁”功能才会发挥作用。这项功能不会使用面容ID来识别和认证您的身份。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那这个AppleWatch解锁功能可以使用ApplePay吗？",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "“使用AppleWatch解锁”功能只能用于解锁您的iPhone。它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。",
+        "act": "ans/no",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "“使用AppleWatch解锁”功能只能用于解锁您的iPhone。它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那戴着墨镜的时候怎么使用这些功能呢",
+        "act": "how",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "“使用AppleWatch解锁”功能只能用于解锁您的iPhone。它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。",
+        "act": "ans/open",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "“使用AppleWatch解锁”功能只能用于解锁您的iPhone。它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "当AppleWatch成功解锁iPhone时怎么锁定呢",
+        "act": "how",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "如果您本意并不是要解锁iPhone",
+            "当AppleWatch成功解锁您的iPhone时，手表会提供触感反馈并显示一条提醒。如果您本意并不是要解锁iPhone，"
+        ],
+        "grounding_id": [
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您本意并不是要解锁iPhone，请轻点AppleWatch屏幕上的“锁定iPhone”按钮。",
+        "act": "ans/open",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "请轻点AppleWatch屏幕上的“锁定iPhone”按钮。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    }
+]

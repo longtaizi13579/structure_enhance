@@ -1,0 +1,328 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T10",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "\t好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "赴台乘务签注要在哪里办理？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "赴台乘务签注",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "T240",
+            "1",
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼公安服务区D2001-D2007",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼公安服务区D2001-D2007"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "工作日上午：9：00—12：00；下午：13：30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "工作日上午：9：00—12：00；下午：13：30—17:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果我还想咨询其他问题，有几种咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询地址在哪里？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "宁波市鄞州区宁穿路1901号D2001号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "宁波市鄞州区宁穿路1901号D2001号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询电话也告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "0574-87758210",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "0574-87758210"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请这项签证有次数限制吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "什么情况可以申请这种签注？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "执行海峡两岸航运任务的，可以申请赴台乘务签注。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "执行海峡两岸航运任务的，可以申请赴台乘务签注。"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我还想问问有关收费的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "393"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "收费项目名称是什么啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "393"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "赴台乘务",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "1\t赴台乘务"
+        ],
+        "grounding_id": [
+            "394"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那具体的收费标准是怎么定的？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "395"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "396"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

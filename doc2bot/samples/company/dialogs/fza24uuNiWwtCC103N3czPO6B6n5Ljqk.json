@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，浙江这边办理省级创新的领军企业的培育的地点在哪里呢？",
+        "act": "where",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "省级创新型领军企业培育",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "办理地点在浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)507室",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)507室"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，谢谢，那办理地点的工作人员的上班时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理时间是夏季在星期一至星期五上午8:30-12:00，下午14:30-18:00；其他季节在星期一至星期五上午8:30-12:00，下午14:00-17:30法定节假日除外哦",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "夏季：星期一至星期五上午8:30-12:00，下午14:30-18:00；其他季节：星期一至星期五上午8:30-12:00，下午14:00-17:30（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，那我办理这个是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "381",
+            "382"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理这个的话是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "383"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还以为要收费呢，那后续如果收费的话，可以网上付费吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以的，还不支持网上交费的",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "387"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行，那办理这个大概要多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个的承诺办结时限要多久呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "承诺办结时限是48个工作日的",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "48（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那我要怎样来申请这个呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你可以网上申请的",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，谢谢，那申请大概要多久可以好呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您的意思是申请结果信息的送达时限吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "嗯嗯，是的",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个是申请办理后0个工作日内送达的",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

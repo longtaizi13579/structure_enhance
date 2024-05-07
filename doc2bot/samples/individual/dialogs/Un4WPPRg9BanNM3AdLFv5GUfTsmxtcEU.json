@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省绍兴人，我的机动车符合机动车国家安全技术标准的，想办理公安机关交通管理部门应当发给检验合格标志，可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "机动车",
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "T7",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以办理的，需要我告诉你都有什么办理形式吗?",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们有网上办理和现场窗口办理两种方式",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的我知道了，我上次办理的时候那个人不告诉我办理方式，我想投诉。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们这有电话投诉和线下投诉两种方式，您需要哪种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "线下投诉吧告诉我投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "把投诉电话也告诉我一下吧，我突然偷点懒得动弹",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的投诉电话是0575--81500020",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

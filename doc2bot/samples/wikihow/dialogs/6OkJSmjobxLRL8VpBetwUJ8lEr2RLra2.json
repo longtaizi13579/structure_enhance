@@ -1,0 +1,382 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解储存土豆的禁忌",
+        "act": "what",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "如何储存土豆",
+            "储存土豆的禁忌"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "1.储存前不要清洗土豆。 2.土豆不能放进冰箱储存。 3.切开的土豆不要露天储存。 4.土豆不能和水果放在一起。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "储存前不要清洗土豆。",
+            "土豆不能放进冰箱储存。",
+            "切开的土豆不要露天储存。",
+            "土豆不能和水果放在一起。"
+        ],
+        "grounding_id": [
+            "28",
+            "31",
+            "34",
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "为什么土豆不能放进冰箱储存？",
+        "act": "why",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "土豆不能放进冰箱储存。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "冰箱里温度太低，不适合土豆的存储。低温会导致土豆内的淀粉转化成糖，让土豆变甜，而这种甜并不可口。储存在冰箱里的土豆还会变色。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "之前说过，冰箱里温度太低，不适合土豆的存储。低温会导致土豆内的淀粉转化成糖，让土豆变甜，而这种甜并不可口。储存在冰箱里的土豆还会变色。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "为什么土豆不能和水果放在一起？",
+        "act": "why",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "土豆不能和水果放在一起。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "苹果、梨、香蕉等大多数水果会释放一种叫作乙烯的化学气体。这种气体有催熟的作用。你可能已经发现混在一起的水果熟得更快。乙烯会导致土豆过早发芽，所以水果要放在别的地方。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "苹果、梨、香蕉等大多数水果会释放一种叫作乙烯的化学气体。这种气体有催熟的作用。你可能已经发现混在一起的水果熟得更快。乙烯会导致土豆过早发芽，所以水果要放在别的地方。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何储存土豆比较好？",
+        "act": "how",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "如何储存土豆",
+            "储存土豆"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "1.挑拣土豆。 2.将健康的土豆存放在干燥无光的地方。 3.土豆要放在凉爽的地方。 4.定期检查土豆，看是否有变质的现象。 5.“复原”土豆以便长期储存。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "挑拣土豆。",
+            "将健康的土豆存放在干燥无光的地方。",
+            "土豆要放在凉爽的地方。",
+            "定期检查土豆，看是否有变质的现象。",
+            "“复原”土豆以便长期储存。"
+        ],
+        "grounding_id": [
+            "5",
+            "10",
+            "14",
+            "17",
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "健康的土豆适合存放在哪里？",
+        "act": "where",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "将健康的土豆存放在干燥无光的地方。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "干燥无光的地方，适合的地点包括地下室、地窖，以及橱柜的角落。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "受损土豆和完好的土豆分开后，将后者放在接触不到阳光和湿气的地方。这两个元素是土豆变绿或腐烂的原因。适合的地点包括地下室、地窖，以及橱柜的角落。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "怎样“复原”土豆？",
+        "act": "how",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "“复原”土豆以便长期储存。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在阴凉的地方铺上一叠报纸，把土豆放在上面。让室温升高到10℃至15℃之间，比正常储存温度高一点就行了。接着就让土豆静静地放在报纸上。两周后，土豆皮会变厚变干。把土豆上大块的泥土刷掉，然后按照上面的方法存储即可（你得把室温略微调低一点）。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何储存土豆.json",
+        "grounding": [
+            "在阴凉的地方铺上一叠报纸，把土豆放在上面。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何制作蘑菇汤？",
+        "act": "how",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "如何烹调蘑菇",
+            "制作蘑菇汤"
+        ],
+        "grounding_id": [
+            "1",
+            "64"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1.准备材料。 2.在一个大汤锅里融化2汤匙黄油。 3.加入洋葱。 4.加入蘑菇丁。 5.混合面粉和鸡肉汤。 6.用盐和胡椒调味。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "准备材料。",
+            "在一个大汤锅里融化2汤匙黄油。",
+            "加入洋葱。",
+            "加入蘑菇丁。",
+            "混合面粉和鸡肉汤。",
+            "用盐和胡椒调味。"
+        ],
+        "grounding_id": [
+            "65",
+            "73",
+            "78",
+            "83",
+            "89",
+            "94"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "黄油要融化到什么程度？",
+        "act": "what",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "在一个大汤锅里融化2汤匙黄油。"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "当黄油停止冒泡时，温度足够，可以加入其他食材了。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "当黄油停止冒泡时，温度足够，可以加入其他食材了。"
+        ],
+        "grounding_id": [
+            "77"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "洋葱要炒成什么状态？",
+        "act": "what",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "加入洋葱。"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "煎到洋葱变透明，色泽金黄即可。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "煎到洋葱变透明，色泽金黄。"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如何制作蘑菇酱？",
+        "act": "how",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "制作蘑菇酱"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "1.准备材料。 2.融化2汤匙黄油。 3.加入225克蘑菇片和一个切碎的洋葱。 4.离火。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "准备材料。",
+            "融化2汤匙黄油。",
+            "加入225克蘑菇片和一个切碎的洋葱。",
+            "离火。"
+        ],
+        "grounding_id": [
+            "38",
+            "45",
+            "50",
+            "59"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "离火还要加什么吗？",
+        "act": "what",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "离火。"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "按喜好拌入1汤匙黄油和新鲜香草。百里香和龙蒿能为蘑菇提味。香葱和罗勒也是不错的选择。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "按喜好拌入1汤匙黄油和新鲜香草。",
+            "百里香和龙蒿能为蘑菇提味。香葱和罗勒也是不错的选择。"
+        ],
+        "grounding_id": [
+            "60",
+            "61"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "如何利用蘑菇干？",
+        "act": "how",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "利用蘑菇干"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": " 1.购买蘑菇干。 2.泡发。 3.泡发蘑菇的水不要扔掉。",
+        "act": "question/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "购买蘑菇干。",
+            "泡发。",
+            "泡发蘑菇的水不要扔掉。"
+        ],
+        "grounding_id": [
+            "101",
+            "106",
+            "114"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "在哪可以购买蘑菇干？",
+        "act": "where",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "购买蘑菇干。"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "大部分食品店和超市都有出售。以前很贵，现在有所降价。蘑菇干的优势在于，只需少量，就能增添丰富的口味。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何烹调蘑菇.json",
+        "grounding": [
+            "大部分食品店和超市都有出售。以前很贵，现在有所降价。蘑菇干的优势在于，只需少量，就能增添丰富的口味。"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    }
+]

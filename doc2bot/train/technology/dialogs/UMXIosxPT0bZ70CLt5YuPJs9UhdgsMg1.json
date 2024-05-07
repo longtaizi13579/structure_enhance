@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我需要在在Mac上安装Rosetta，具体应该怎么做？",
+        "act": "how",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "如果您需要在Mac上安装Rosetta",
+            "如何安装Rosetta"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首次打开需要Rosetta的App时，系统会要求您安装Rosetta。点按“安装”，然后输入您的用户名和密码以允许继续安装。然后如果您点按“以后”，则下次打开需要Rosetta的App时，系统会再次要求您安装Rosetta。如果Rosetta已经安装，则系统不会再次要求您安装。",
+        "act": "ans/open",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "首次打开需要Rosetta的App时，系统会要求您安装Rosetta。点按“安装”，然后输入您的用户名和密码以允许继续安装。",
+            "如果您点按“以后”，则下次打开需要Rosetta的App时，系统会再次要求您安装Rosetta。",
+            "如果Rosetta已经安装，则系统不会再次要求您安装。"
+        ],
+        "grounding_id": [
+            "8",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "Rosetta2适用于所有的Mac电脑吗？",
+        "act": "verification",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "Rosetta2仅适用于搭载Apple芯片的Mac电脑。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是，Rosetta2仅适用于搭载Apple芯片的Mac电脑。",
+        "act": "ans/no",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "Rosetta2仅适用于搭载Apple芯片的Mac电脑。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，Safari浏览器扩展的作用是什么？",
+        "act": "what",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "Safari浏览器扩展可以增强并定制您的Mac浏览体验。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "Safari浏览器扩展可以增强并定制您的Mac浏览体验。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "Safari浏览器扩展可以增强并定制您的Mac浏览体验。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，我想再咨询一些关于在Mac上安装Safari浏览器扩展的相关问题？",
+        "act": "what",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何在Mac上安装Safari浏览器扩展"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想了解如何安装扩展、如何关闭或卸载扩展，还是其他？",
+        "act": "multiple-choice",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何安装扩展"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道在安装扩展之前需要注意些什么？",
+        "act": "what",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何安装扩展",
+            "首先，安装macOS的最新更新，以确保Safari浏览器为最新状态。您需要Safari浏览器12或更高版本才能从AppStore获取Safari浏览器扩展。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先，安装macOS的最新更新，以确保Safari浏览器为最新状态。您需要Safari浏览器12或更高版本才能从AppStore获取Safari浏览器扩展。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "首先，安装macOS的最新更新，以确保Safari浏览器为最新状态。您需要Safari浏览器12或更高版本才能从AppStore获取Safari浏览器扩展。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何安装扩展？",
+        "act": "how",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何安装扩展"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先返回Safari浏览器，打开您安装的扩展，选取“Safari浏览器”>“偏好设置”；然后点按“扩展”；最后选中扩展名称旁边的复选框。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "接下来，返回Safari浏览器，打开您安装的扩展：",
+            "选取“Safari浏览器”>“偏好设置”。",
+            "点按“扩展”。",
+            "选中扩展名称旁边的复选框。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何查找并安装扩展？",
+        "act": "how",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "查找并安装扩展："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开Safari浏览器，然后从菜单栏中选取“Safari浏览器”>“Safari浏览器扩展”，如上图所示，AppStore将打开并显示“Safari浏览器扩展”页面。要下载并安装扩展，请点按“获取”或点按价格。系统可能会要求您使用AppleID登录；然后点按“安装”；最后扩展安装完成后，点按“打开”，然后按照扩展提供的屏幕上的说明进行操作。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "打开Safari浏览器，然后从菜单栏中选取“Safari浏览器”>“Safari浏览器扩展”。",
+            "如上图所示，AppStore将打开并显示“Safari浏览器扩展”页面。要下载并安装扩展，请点按“获取”或点按价格。系统可能会要求您使用AppleID登录。",
+            "点按“安装”。",
+            "扩展安装完成后，点按“打开”，然后按照扩展提供的屏幕上的说明进行操作。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    }
+]

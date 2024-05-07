@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下在Mac上安装Safari浏览器扩展的问题，就是Safari浏览器扩展可以增强并定制我的Mac浏览体验吗？",
+        "act": "verification",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何在Mac上安装Safari浏览器扩展",
+            "Safari浏览器扩展可以增强并定制您的Mac浏览体验。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，Safari浏览器扩展可以增强并定制您的Mac浏览体验。",
+        "act": "ans/yes",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "Safari浏览器扩展可以增强并定制您的Mac浏览体验。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那该如何关闭或卸载扩展呢？",
+        "act": "how",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如何关闭或卸载扩展"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你需要选取“Safari浏览器”>“偏好设置”，然后点按“扩展”。然后你是想关闭拓展，还是卸载拓展呢？",
+        "act": "multiple-choice",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "选取“Safari浏览器”>“偏好设置”，然后点按“扩展”。",
+            "如需关闭某个扩展，请取消选中其复选框。",
+            "如需卸载某个扩展，请选择该扩展，然后点按“卸载”按钮。如果您不确定某个扩展的功能，或者您不想再使用这个扩展，则应该卸载这个扩展。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想卸载某个扩展怎么操作。",
+        "act": "how",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如需卸载某个扩展，请选择该扩展，然后点按“卸载”按钮。如果您不确定某个扩展的功能，或者您不想再使用这个扩展，则应该卸载这个扩展。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如需卸载某个扩展，请选择该扩展，然后点按“卸载”按钮。如果您不确定某个扩展的功能，或者您不想再使用这个扩展，则应该卸载这个扩展。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "如需卸载某个扩展，请选择该扩展，然后点按“卸载”按钮。如果您不确定某个扩展的功能，或者您不想再使用这个扩展，则应该卸载这个扩展。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我听说扩展是实现个性化浏览体验的绝佳方式，这是为什么啊？",
+        "act": "what",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "Safari浏览器扩展可以增加Safari浏览器的功能，以便您可以按照自己的方式浏览网络。这些扩展可以显示有关网页的实用信息、展示新闻头条、帮助您使用收藏的服务、更改网页的外观，等等。因此，这些扩展是实现个性化浏览体验的绝佳方式。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Safari浏览器扩展可以增加Safari浏览器的功能，以便您可以按照自己的方式浏览网络。这些扩展可以显示有关网页的实用信息、展示新闻头条、帮助您使用收藏的服务、更改网页的外观，等等。因此，这些扩展是实现个性化浏览体验的绝佳方式。",
+        "act": "ans/open",
+        "document": "如何在Mac上安装Safari浏览器扩展.json",
+        "grounding": [
+            "Safari浏览器扩展可以增加Safari浏览器的功能，以便您可以按照自己的方式浏览网络。这些扩展可以显示有关网页的实用信息、展示新闻头条、帮助您使用收藏的服务、更改网页的外观，等等。因此，这些扩展是实现个性化浏览体验的绝佳方式。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

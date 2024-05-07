@@ -1,0 +1,202 @@
+{
+    "document_id": 472,
+    "domain": "technology",
+    "name": "如果无法在Mac上正常使用iMovie剪辑",
+    "graph": {
+        "1": {
+            "data": "如果无法在Mac上正常使用iMovie剪辑",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "开始之前，务必备份您的iMovie剪辑资源库、媒体以及iMovie剪辑App。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "按顺序尝试以下故障诊断步骤",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "6": {
+            "data": "重新启动Mac",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "7": {
+            "data": "从苹果菜单中选取“重新启动”。",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "8": {
+            "data": "重置NVRAM",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "9": {
+            "data": "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM：",
+            "type": "sequence",
+            "pid": "8"
+        },
+        "10": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "11": {
+            "data": "断开除键盘和鼠标之外所有外置设备的连接。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "12": {
+            "data": "重置NVRAM。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "16": {
+            "data": "打开iMovie剪辑，并尝试重现问题。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "18": {
+            "data": "如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。",
+            "type": "ordinary",
+            "pid": "16"
+        },
+        "19": {
+            "data": "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。",
+            "type": "ordinary",
+            "pid": "16"
+        },
+        "20": {
+            "data": "更新macOS和iMovie剪辑",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "21": {
+            "data": "选取苹果菜单>“AppStore”，然后点按“更新”。如果有可用的iMovie剪辑更新，请点按“更新”以下载并安装更新。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "22": {
+            "data": "检查摄像机/相机和媒体格式的兼容性",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "23": {
+            "data": "请确保您使用的是支持iMovie剪辑的摄像机/相机和媒体格式。如果您在列表中没有找到您的摄像机/相机，或者您需要进一步的协助，请联系设备制造商以寻求支持。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "27": {
+            "data": "如果您将第三方视频接口与您的Mac搭配使用，请咨询制造商，以获取适用于您设备的固件更新或其他软件更新。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "28": {
+            "data": "使用新的资源库和项目进行测试",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "29": {
+            "data": "您可以创建一个新的资源库并对项目进行测试，以检查问题是与资源库、项目还是iMovie剪辑App有关。首先，请创建一个新的资源库：",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "30": {
+            "data": "退出iMovie剪辑。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "31": {
+            "data": "在按住Option键的同时，点按程序坞中的iMovie剪辑应用，或连按“应用程序”文件夹中的iMovie剪辑应用。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "32": {
+            "data": "在“打开资源库”窗口中，点按“新建”以创建一个新的资源库。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "33": {
+            "data": "将这个测试资源库命名为“TestiMovieLibrary”，然后将它存储到个人文件夹中的“影片”文件夹。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "34": {
+            "data": "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件：",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "35": {
+            "data": "在iMovie剪辑中，点按“项目”以返回到“项目”视图。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "36": {
+            "data": "选取“文件”>“新建预告片”，点按“动作”预告片模板，然后点按“创建”。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "37": {
+            "data": "选取“文件”>“共享”>“文件”，点按“下一步”，将文件命名为“FinishLine”，然后将这个视频文件存储到桌面。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "38": {
+            "data": "接下来，将这个QuickTime视频文件导入新资源库的一个新项目中：",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "39": {
+            "data": "点按“项目”以返回到“项目”视图。在窗口中，点按“好”。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "40": {
+            "data": "选取“文件”>“新建影片”。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "41": {
+            "data": "选取“文件”>“导入媒体”，然后点按“导入”窗口边栏中的“桌面”。在列表中选择“FinishLine.mov”文件，然后点按“导入所选项”按钮。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "42": {
+            "data": "在浏览器中选择这个片段，然后按下E键以将这个片段添加到时间线。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "43": {
+            "data": "尝试重现您遇到的问题。例如，如果在添加转场时iMovie剪辑退出，请尝试向时间线中添加转场。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "44": {
+            "data": "如果新资源库和项目可以正常使用，则说明您已查明问题的原因在于原始资源库或项目。请尝试通过“时间机器”备份或其他备份来恢复原始资源库的先前版本。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "48": {
+            "data": "还原iMovie剪辑的设置",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "49": {
+            "data": "还原iMovie剪辑的默认设置。资源库不会受到影响。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "53": {
+            "data": "重新安装iMovie剪辑",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "54": {
+            "data": "删除iMovie剪辑，然后重新下载并重新安装它。资源库不会受到影响。",
+            "type": "ordinary",
+            "pid": "53"
+        }
+    }
+}

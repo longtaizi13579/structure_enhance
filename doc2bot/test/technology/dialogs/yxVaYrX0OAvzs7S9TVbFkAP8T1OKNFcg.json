@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，在转移PC上的iTunes媒体资料库之前，需要做什么？",
+        "act": "what",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "备份和恢复PC上的iTunes资料库",
+            "在转移或恢复PC上的iTunes媒体资料库之前，请对它进行整合，并创建备份。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在转移或恢复PC上的iTunes媒体资料库之前，请对它进行整合，并创建备份。",
+        "act": "ans/open",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在转移或恢复PC上的iTunes媒体资料库之前，请对它进行整合，并创建备份。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果我使用的是Mac，还需要单独进行备份吗？",
+        "act": "verification",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "如果您使用的是Mac"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不需要。在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。",
+        "act": "ans/no",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。设置新Mac时，您还可以从备份恢复Mac。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "备份Mac时，媒体资料库会包含在里面吗？",
+        "act": "verification",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。设置新Mac时，您还可以从备份恢复Mac。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。",
+        "act": "ans/yes",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。设置新Mac时，您还可以从备份恢复Mac。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "设置新Mac时，还可以从备份中恢复Mac吗？",
+        "act": "verification",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。设置新Mac时，您还可以从备份恢复Mac。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "在macOSCatalina或更高版本中，您现可在“音乐”App、AppleTVApp、Apple播客App以及AppleBooksApp中使用之前的iTunes媒体资料库。当您备份Mac时，您的媒体资料库将自动包含在这个备份中。设置新Mac时，您还可以从备份恢复Mac。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如何备份PC上的iTunes资料库？",
+        "act": "how",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "备份和恢复PC上的iTunes资料库"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解：整合您的iTunes资料库，查找iTunesMedia文件夹，还是备份您的资料库和媒体文件？",
+        "act": "multiple-choice",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "整合您的iTunes资料库"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "先说下整合iTunes资料库的方法吧。",
+        "act": "ans/open",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "整合您的iTunes资料库"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤: 首先，打开iTunes。 然后，从电脑屏幕顶部或iTunes窗口顶部的菜单栏中，选取“文件”>“资料库”>“整理资料库”。接着，选择“统一文件”。 最后，点按“好”。",
+        "act": "ans/open",
+        "document": "备份和恢复PC上的iTunes资料库.json",
+        "grounding": [
+            "具体步骤",
+            "打开iTunes。",
+            "从电脑屏幕顶部或iTunes窗口顶部的菜单栏中，选取“文件”>“资料库”>“整理资料库”。",
+            "选择“统一文件”。",
+            "点按“好”。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，这个换驾驶证要多少钱？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "身体条件变化降低准驾车型换领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "305"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要问哪个省市的？",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，浙江舟山市",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9",
+            "T9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，收费标准是10元/本",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "306"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，不好意思，我这刚有点吵，我再跟您核实一下，换机动车驾驶证这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的收费",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，再问一个事，关于这个行驶证驾驶证，这有什么咨询方式吗?",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T89",
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个有咨询电话、咨询地址，还有咨询网址，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询电话，你说我记一下",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，请您记录，电话是0580－12123",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "0580－12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，好的，那个地址您也说一下吧在哪？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，地址是浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

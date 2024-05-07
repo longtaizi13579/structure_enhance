@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下如何将手机网络共享给笔记本电脑呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "如何将手机网络共享给笔记本电脑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "借助现代手机技术，用户只要有数据流量就能随时无线连接到互联网。你可以使用WiFi、蓝牙或USB将手机网络共享给笔记本电脑。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "借助现代手机技术，用户只要有数据流量就能随时无线连接到互联网。你可以使用WiFi、蓝牙或USB将手机网络共享给笔记本电脑。每种方式各有优点，大部分新款手机和笔记本电脑都支持这几种方式。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "知道了还想问一下谷歌搜索记录怎么删除？",
+        "act": "how",
+        "document": "计算机与电子产品_如何删除谷歌搜索记录.json",
+        "grounding": [
+            "如何删除谷歌搜索记录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以在谷歌搜索页面的自动完成列表删除单条搜索记录。如果需要删除很多或全部搜索记录，可以使用谷歌“我的活动记录”页面。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何删除谷歌搜索记录.json",
+        "grounding": [
+            "你可以在谷歌搜索页面的自动完成列表删除单条搜索记录。如果需要删除很多或全部搜索记录，可以使用谷歌“我的活动记录”页面。清除谷歌搜索记录只能删除你在谷歌搜索框输入的内容。如果需要删除网页浏览记录，参看《删除网页历史记录》一文。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那Windows或Mac电脑都可以使用复制粘贴吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "这篇文章将教你如何在Windows或Mac电脑上从一个地方复制文本、图片和文件，并粘贴到另一个位置，同时也会介绍如何在iPhone、iPad或安卓移动设备上进行复制粘贴操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，下面这篇文章将教你如何在Windows或Mac电脑上从一个地方复制文本、图片和文件，并粘贴到另一个位置。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "这篇文章将教你如何在Windows或Mac电脑上从一个地方复制文本、图片和文件，并粘贴到另一个位置，同时也会介绍如何在iPhone、iPad或安卓移动设备上进行复制粘贴操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那你详细跟我说一下步骤是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如何复制粘贴"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那你是想知道Windows电脑还是mac电脑呢？还是两个都要知道？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Windows电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "都想知道，先说Windows电脑。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Windows电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先选择你想要复制的对象，然后 右键点击鼠标或触控板，接着点击复制，最后点击粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "右键点击鼠标或触控板。",
+            "点击复制。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我使用触控板应该的话具体该怎么样操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "右键点击鼠标或触控板。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可能需要右键点击触控板，或是用两个手指点击它，也可能是用一跟手指轻触触控板的右侧，具体要根据计算机的设置来选择具体操作。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如果你使用触控板，要根据计算机的设置来选择具体操作。你可能需要右键点击触控板，或是用两个手指点击它，也可能是用一跟手指轻触触控板的右侧。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那Mac电脑呢咋操作？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如何复制粘贴",
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "1",
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "还是一样选择你想要复制的对象，点击菜单栏里的编辑按钮，点击复制，点击菜单栏里的编辑按钮，最后点击粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "点击菜单栏里的编辑按钮。",
+            "点击复制。",
+            "点击菜单栏里的编辑按钮。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "19",
+            "23",
+            "24",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "选择文件复制的话具体该咋操作？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "文件：在电脑上选中你想要复制和粘贴的文件。如果想同时选中多个文件，请按住⌘键，选择一组文件。"
+        ],
+        "grounding_id": [
+            "19",
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "在电脑上选中你想要复制和粘贴的文件。如果想同时选中多个文件，请按住⌘键，选择一组文件。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "文件：在电脑上选中你想要复制和粘贴的文件。如果想同时选中多个文件，请按住⌘键，选择一组文件。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "不用鼠标的话有没有快捷键可以复制？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "点击复制。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "也可以同时按下⌘+C快捷键，或是右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的复制。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "你也可以同时按下⌘+C快捷键，或是右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的复制。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那粘贴键的快捷键是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "点击粘贴。",
+            "你也可以按下⌘+V快捷键，或右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的粘贴。"
+        ],
+        "grounding_id": [
+            "29",
+            "31"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "你也可以按下⌘+V快捷键，或右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "你也可以按下⌘+V快捷键，或右键点击鼠标或触控板。如果没有右键点击功能，那就在Mac电脑上按下control键，同时点击鼠标，然后点击弹出菜单中的粘贴。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下浙江省杭州市的应邀赴台签注的线下客服电话号码。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "浙江省_杭州市",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "T4",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您咨询的电话是0571-88209209；0571-87071973；0571-87074431。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "咨询电话",
+            "0571-88209209；0571-87071973；0571-87074431"
+        ],
+        "grounding_id": [
+            "1",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以帮我查下在哪里可以办理呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您居住在哪个城市呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我住在浙江省杭州市。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，我这边帮你查到的地址在，浙江省杭州市上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼值班长专柜。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼值班长专柜"
+        ],
+        "grounding_id": [
+            "T4",
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个应邀赴台签注一般多久可以办理好呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "30个工作日就可以为您办理好。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我可以自己在自助终端进行办理吗?",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "应邀赴台签注现在暂时不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你说的那个地址离我有点远，还有其他的办理形式吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前有两种办理形式，一种是网上申请，还有种是现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

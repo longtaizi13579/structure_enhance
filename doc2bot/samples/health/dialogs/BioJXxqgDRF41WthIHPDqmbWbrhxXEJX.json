@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一些有关生物武器的内容。",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "生物武器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体您是想知道判断事件类型、响应还是更多有关生物武器的信息的内容呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "判断事件类型"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "什么情况能确定爆发疾病的流行是人为制造的呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "判断事件类型",
+            "对医生而言，把疾病的自然爆发流行与生物武器的使用区分开可能很难。可以确定一种疾病的爆发流行是人为制造而不是自然发生的证据包括以下几种："
+        ],
+        "grounding_id": [
+            "16",
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "疾病病例通常不会出现在该地理区域",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "疾病病例通常不会出现在该地理区域"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "突然爆发特别严重的疾病，可不可能是生物武器？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "损伤及中毒",
+            "大规模杀伤性武器",
+            "生物武器",
+            "不同寻常的严重疾病"
+        ],
+        "grounding_id": [
+            "T1174",
+            "T1304",
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可能的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "不同寻常的严重疾病"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有什么情况可能是生物武器袭击？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "生物武器",
+            "判断事件类型"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "正常情况下感染动物的疾病出现在人类身上",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "正常情况下感染动物的疾病出现在人类身上"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "生物武器",
+            "判断事件类型",
+            "对医生而言，把疾病的自然爆发流行与生物武器的使用区分开可能很难。可以确定一种疾病的爆发流行是人为制造而不是自然发生的证据包括以下几种："
+        ],
+        "grounding_id": [
+            "1",
+            "16",
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "疾病病例通常不会分布在该人群阶层",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_大规模杀伤性武器_生物武器.json",
+        "grounding": [
+            "疾病病例通常不会分布在该人群阶层"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

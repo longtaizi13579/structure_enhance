@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下我最近味觉不灵敏所以食欲下降，而且还脱发我查了一下说是缺锌，是这样吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "营养障碍",
+            "患者食欲下降、脱发，变得迟钝和味觉丧失。"
+        ],
+        "grounding_id": [
+            "T2263",
+            "6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是有一种病症叫锌缺乏症，但原因有很多种。",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏症"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那还有什么原因？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏症",
+            "锌缺乏有很多原因，包括饮食、各种疾患、酗酒和利尿剂。"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你说的食欲下降、变得迟钝和味觉丧失只是饮食方面，还有各种疾患、酗酒和利尿剂。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏有很多原因，包括饮食、各种疾患、酗酒和利尿剂。",
+            "患者食欲下降、脱发，变得迟钝和味觉丧失。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问如何改善这个病症呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏症"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是要了解该病的治疗方法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏有很多原因，包括饮食、各种疾患、酗酒和利尿剂。",
+            "口服锌补充剂能治疗锌缺乏。"
+        ],
+        "grounding_id": [
+            "5",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对呀。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏症"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "口服锌补充剂能治疗锌缺乏。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "口服锌补充剂能治疗锌缺乏。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "口服锌补充剂要服用多久？一个月吗？",
+        "act": "when",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "锌缺乏症的治疗",
+            "锌缺乏症",
+            "锌补充剂"
+        ],
+        "grounding_id": [
+            "29",
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "时长要根据你的情况，口服锌补充剂直到症状消失，锌补充剂能有效治疗肠病性肢端皮炎。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_锌缺乏症.json",
+        "grounding": [
+            "口服锌补充剂直到症状消失。锌补充剂能有效治疗肠病性肢端皮炎。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

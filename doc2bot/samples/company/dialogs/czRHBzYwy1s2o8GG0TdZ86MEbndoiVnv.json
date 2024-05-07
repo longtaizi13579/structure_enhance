@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江金华给管道封存备案收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "浙江省_金华市",
+            "管道停止运行、封存、报废备案",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T9",
+            "1",
+            "234"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "235"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有没有电话，我详细问问。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "咨询电话",
+            "0579-82469500"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以拨打0579-82469500咨询。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "0579-82469500"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个电话怎么一直打不通啊？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您需要试试其他的咨询方式吗？",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，那你给我个其他的咨询方式吧。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以到金华市婺城区双龙南街801号市府主楼632能源处咨询一下。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "金华市婺城区双龙南街801号市府主楼632能源处"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你们这个法定办结的时长是多久？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你这个备案有什么特殊的条件吗？我朋友之前就没申请下来。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "申请条件",
+            "管道停止运行、封存、报废备案"
+        ],
+        "grounding_id": [
+            "129",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问数量限制还是受理条件呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "数量限制",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "130",
+            "132"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "受理条件，我想问有没有什么受理条件。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是没有受理条件的。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "无"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个办理后多久能拿到结果？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达结果。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    }
+]

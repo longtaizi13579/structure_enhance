@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问怎么在iPhone、iPad或iPodtouch上自定盲文命令呢？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令",
+            "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS或iPadOS。如果您要在iPhone、iPad或iPodtouch上自定盲文命令，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您前往“设置”>“辅助功能”>“旁白”>“盲文”>“[连接的盲文显示器名称]”>“更多信息”>“盲文命令”就可以自定盲文命令了。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "前往“设置”>“辅助功能”>“旁白”>“盲文”>“[连接的盲文显示器名称]”>“更多信息”>“盲文命令”。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我知道了，那怎么更新iPhone、iPad或iPodtouch呢？",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "明白了，那在iPad上用旁白的常见盲文命令的时候想浏览其他应用该怎么做呢？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您具体是想知道移到左侧分屏浏览应用（仅限iPad）还是移到右侧分屏浏览应用（仅限iPad）呢？",
+        "act": "multiple-choice",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "移到左侧分屏浏览应用（仅限iPad）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你说说移到左侧分屏浏览应用该怎么做？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "移到左侧分屏浏览应用（仅限iPad）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您注意显示器按键，然后按3点+5点+空格键就可以了。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "显示器按键",
+            "3点+5点+空格键"
+        ],
+        "grounding_id": [
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的我知道了，我还想问你，就是将盲文显示器与iPhone、iPad或iPodtouch上的旁白配合使用的时候，盲文显示器会支持我的下的命令吗？",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令",
+            "当您将盲文显示器与iPhone、iPad或iPodtouch上的旁白配合使用时，盲文显示器可能支持以下命令以帮助进行导航。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您将盲文显示器与iPhone、iPad或iPodtouch上的旁白配合使用时，盲文显示器可能支持您下的某些命令以帮助进行导航。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "当您将盲文显示器与iPhone、iPad或iPodtouch上的旁白配合使用时，盲文显示器可能支持以下命令以帮助进行导航。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

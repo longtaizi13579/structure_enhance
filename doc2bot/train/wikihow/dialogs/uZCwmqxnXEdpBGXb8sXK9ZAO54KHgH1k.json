@@ -1,0 +1,456 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下如何计算梯形的周长？",
+        "act": "how",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "教育与交流",
+            "如何计算梯形的周长"
+        ],
+        "grounding_id": [
+            "T253",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，可选方法有：已知两条侧边长和上、下底边长、已知梯形的高、两条侧边长和上底边边长、已知梯形的高、上底边长和底部内夹角角度，你想先了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "可选方法",
+            "已知梯形的高、两条侧边长和上底边边长"
+        ],
+        "grounding_id": [
+            "3",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解已知梯形的高、两条侧边长和上底边边长。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知梯形的高、两条侧边长和上底边边长"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "已知梯形的高、两条侧边长和上底边边长: 1.将梯形分割成一个矩形和两个直角三角形。 2.画出梯形的高。 3.标出底边中央部分的长度，也就是分割得到的矩形的底边。 4.写出勾股定理的公式，来计算第一个直角三角形的边长。 5.将第一个三角形里已知的信息、数据带入公式里。 6.计算等式里已知数值的平方。 7.开方运算，得到b{\\displaystyleb}的值。 8.求出第二个直角三角形中未知长度的边长。 9.将梯形的所有边长相加。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知梯形的高、两条侧边长和上底边边长",
+            "将梯形分割成一个矩形和两个直角三角形。",
+            "画出梯形的高。",
+            "标出底边中央部分的长度，也就是分割得到的矩形的底边。",
+            "写出勾股定理的公式，来计算第一个直角三角形的边长。",
+            "将第一个三角形里已知的信息、数据带入公式里。",
+            "计算等式里已知数值的平方。",
+            "开方运算，得到b{\\displaystyleb}的值。",
+            "求出第二个直角三角形中未知长度的边长。",
+            "将梯形的所有边长相加。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "16",
+            "19",
+            "22",
+            "24",
+            "27",
+            "30",
+            "36",
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "将梯形分割成一个矩形和两个直角三角形的具体方法是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "将梯形分割成一个矩形和两个直角三角形。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体方法是从梯形上底边的两个顶点向下底边作垂线，画出梯形的高。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "具体方法是从梯形上底边的两个顶点向下底边作垂线，画出梯形的高。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "勾股定理的公式是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "写出勾股定理的公式，来计算第一个直角三角形的边长。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "勾股定理的公式是a2+b2=c2{\\displaystylea^{2}+b^{2}=c^{2}}。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "勾股定理的公式是a2+b2=c2{\\displaystylea^{2}+b^{2}=c^{2}}，其中c{\\displaystylec}是直角三角形的斜边长（也就是正对着直角的一条边），a{\\displaystylea}是直角三角形的高，b{\\displaystyleb}是直角三角形的底边长。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "已知两条侧边长和上、下底边长，如何求梯形的周长？",
+        "act": "how",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知两条侧边长和上、下底边长"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "已知两条侧边长和上、下底边长: 1.写出梯形的周长公式。 2.将每条边的边长带入公式。 3.将各边长相加，就能得到梯形的周长。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知两条侧边长和上、下底边长",
+            "写出梯形的周长公式。",
+            "将每条边的边长带入公式。",
+            "将各边长相加，就能得到梯形的周长。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果你不知道梯形的其中一条边的边长，那么你将无法使用这个公式来求周长吗？",
+        "act": "ans/yesno",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "将每条边的边长带入公式。",
+            "如果你不知道梯形的其中一条边的边长，那么你将无法使用这个公式来求周长。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "如果你不知道梯形的其中一条边的边长，那么你将无法使用这个公式来求周长。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想咨询一下如何在句子中使用Therefore？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "如何在句子中使用Therefore"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可选方法有：找出“Therefore”的常见用法、“Therefore”与正确的标点符号和大写字母配合使用、避免常见的错误，你想先了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "可选方法",
+            "找出“Therefore”的常见用法"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想先了解找出“Therefore”的常见用法。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "找出“Therefore”的常见用法"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "找出“Therefore”的常见用法: 1.用“therefore”来表示因果关系。 2.用“therefore”代替同类意义的转换词和短语。 3.加入“therefore”来提高句子的流畅性。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "找出“Therefore”的常见用法",
+            "用“therefore”来表示因果关系。",
+            "用“therefore”代替同类意义的转换词和短语。",
+            "加入“therefore”来提高句子的流畅性。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "所有的过渡词和短语都能用“therefore”代替吗？",
+        "act": "ans/yesno",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”代替同类意义的转换词和短语。",
+            "“Therefore”可以用来代替其他一些单词和短语，但重要的是要先弄清楚含义。并不是所有的过渡词和短语都能用“therefore”代替。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不是。",
+        "act": "ans/no",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“Therefore”可以用来代替其他一些单词和短语，但重要的是要先弄清楚含义。并不是所有的过渡词和短语都能用“therefore”代替。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如何避免常见的错误？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "避免常见的错误"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "避免常见的错误: 1.使用“therefore”分隔独立的从句。 2.谨慎使用“therefore”。 3.尽量在书面语而不是在口头语中使用“therefore”。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "避免常见的错误",
+            "使用“therefore”分隔独立的从句。",
+            "谨慎使用“therefore”。",
+            "尽量在书面语而不是在口头语中使用“therefore”。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "32",
+            "36"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "为什么要谨慎使用“therefore”？",
+        "act": "why",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "谨慎使用“therefore”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "因为在写作中，“therefore”这个词不应该出现得太频繁。少用一点效果会更好，所以要注意不要用得过多。你可以用其他过渡词来让句子更多样化，比如“so”、“then”、“accordingly”、“consequently”、“thus”或“since”。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "在写作中，“therefore”这个词不应该出现得太频繁。少用一点效果会更好，所以要注意不要用得过多。你可以用其他过渡词来让句子更多样化，比如“so”、“then”、“accordingly”、“consequently”、“thus”或“since”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "我还想咨询一下，如何开始一场辩论？",
+        "act": "how",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "如何开始一场辩论"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "可选方法有：吸引观众的注意力、开始辩论、展开辩论，您想先听哪一个？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "可选方法",
+            "开始辩论"
+        ],
+        "grounding_id": [
+            "3",
+            "21"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我想先了解一下开始辩论。",
+        "act": "ans/open",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "开始辩论"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "开始辩论: 1.明确定义。 2.概述你的立场。 3.定义一个政策。",
+        "act": "ans/open",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "开始辩论",
+            "明确定义。",
+            "概述你的立场。",
+            "定义一个政策。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "为什么要定义一个政策？",
+        "act": "why",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "定义一个政策。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "你们团队的论点应该要包含一个关于如何解决正在论证问题的提议。要做到这一点，辩论团队就需要定义他们希望实施的政策。第一位发言者不需要详细解释，只需要概述该政策的核心内容。",
+        "act": "ans/open",
+        "document": "教育与交流_如何开始一场辩论.json",
+        "grounding": [
+            "你们团队的论点应该要包含一个关于如何解决正在论证问题的提议。要做到这一点，辩论团队就需要定义他们希望实施的政策。第一位发言者不需要详细解释，只需要概述该政策的核心内容。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "如何使用ALT键输入特殊符号？",
+        "act": "how",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "如何使用ALT键输入特殊符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "Windows系统: 1.输入货币符号。 2.输入数学运算符号。 3.输入特殊的标点符号和编辑符号。 4.输入五线谱。 5.输入其它各种各样的符号。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Windows系统",
+            "输入货币符号。",
+            "输入数学运算符号。",
+            "输入特殊的标点符号和编辑符号。",
+            "输入五线谱。",
+            "输入其它各种各样的符号。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "14",
+            "32",
+            "47",
+            "56"
+        ]
+    }
+]

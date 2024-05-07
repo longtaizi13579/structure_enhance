@@ -1,0 +1,291 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在补牙的时候医生让我做一个唾液腺的活检，怀疑我是唾液腺癌，想咨询一下相关情况，这是什么病？",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "唾液腺癌",
+            "组织活检"
+        ],
+        "grounding_id": [
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询唾液腺癌症状还是检查方法？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "唾液腺癌",
+            "唾液腺癌的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想了解检测方式。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "唾液腺癌的诊断"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "绝大部分做一个组织活检或者影像检查分期就可以，如果医生对任何他们怀疑为癌性的唾液腺进行组织活检，那就是大概率的唾液腺癌，建议再追加一个核磁共振看的更清楚。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "组织活检",
+            "影像检查分期",
+            "医生对任何他们怀疑为癌性的唾液腺进行组织活检（取少量组织标本在显微镜下观察）。如果组织活检显示为癌症，医生随后会进行成像检查，例如计算机断层扫描(CT)和磁共振成像(MRI)，以查看癌症的入侵范围。由于一些唾液腺癌会大面积扩散，因此，医生还可能对肺、肝、骨骼和脑部进行成像检查。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "system",
+        "utterance": "一般会采用磁共振成像（MRI）的方法检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "磁共振成像(MRI)"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "user",
+        "utterance": "这个会对身体有影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "磁共振利用强磁场和极高频率电波以产生高度精细图像。MRI并不使用X光，通常非常安全。（另请参见成像检查概述。）"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "system",
+        "utterance": "不会的，MRI并不使用X光，通常非常安全，不会对身体造成影响。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_唾液腺癌.json",
+        "grounding": [
+            "磁共振利用强磁场和极高频率电波以产生高度精细图像。MRI并不使用X光，通常非常安全。（另请参见成像检查概述。）"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "user",
+        "utterance": "医学上血栓一般怎么治疗？",
+        "act": "how",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "system",
+        "utterance": "一般会先对您的血管进行血管造影术检查，再处理血管病变。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "血管造影术",
+            "常见影像学检查",
+            "血管造影术的应用"
+        ],
+        "grounding_id": [
+            "1",
+            "T2213",
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "user",
+        "utterance": "需要放支架吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "根据造影检查的情况，对您病变血管进行清除阻塞，之后为了保持动脉畅通而放置支架。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "清除阻塞。",
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "user",
+        "utterance": "不放支架可以吗？",
+        "act": "how",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "您的阻塞情况不严重的话，可以药物干预治疗，扩张狭窄的动脉。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "可扩张狭窄的动脉。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "user",
+        "utterance": "会影响供血吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "可阻断肿瘤或动静脉畸形的供血。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "system",
+        "utterance": "可能会影响您动静脉的供血。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "可阻断肿瘤或动静脉畸形的供血。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "user",
+        "utterance": "放置支架比打针治疗好在哪里？",
+        "act": "how",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "system",
+        "utterance": "为了保持您的动脉畅通而放置通金属网制成的管子（支架），可修复您的血管撕裂和薄弱区。这是药物治疗做不到的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。",
+            "可修复血管撕裂和薄弱区。"
+        ],
+        "grounding_id": [
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "user",
+        "utterance": "还没有确定血栓的情况下怎么就能处理血管病变？",
+        "act": "how",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "有时，血管造影期间可同时处理血管病变："
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "system",
+        "utterance": "您可以通过注射药物，起到扩张狭窄的动脉，缓解血栓的形成。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "可扩张狭窄的动脉。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "user",
+        "utterance": "支架是什么材质的？",
+        "act": "what",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "system",
+        "utterance": "您好，支架是为了保持动脉畅通而放置通金属网制成的管子（支架）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_常见影像学检查_血管造影术.json",
+        "grounding": [
+            "为了保持动脉畅通而放置通金属网制成的管子（支架）。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    }
+]

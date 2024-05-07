@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T4",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "驾驶证损毁换证在哪可以办理？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "驾驶证损毁换证",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T89",
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "杭州市交警支队车辆管理所（杭州市西湖区三墩镇古墩路699号）一号大厅窗口通办",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "杭州市交警支队车辆管理所（杭州市西湖区三墩镇古墩路699号）一号大厅窗口通办"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "驾驶人信息变化换领机动车驾驶证这个业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我想投诉，有哪些方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

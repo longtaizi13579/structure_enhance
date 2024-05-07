@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于那个LogicPro或Mac版“库乐队”乐曲创建铃声的，怎么将项目导出为铃声呢？",
+        "act": "how",
+        "document": "基于LogicPro或Mac版“库乐队”乐曲创建铃声.json",
+        "grounding": [
+            "基于LogicPro或Mac版“库乐队”乐曲创建铃声",
+            "将项目导出为铃声"
+        ],
+        "grounding_id": [
+            "1",
+            "19"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "将项目导出为铃声: 首先在iPhone、iPad或iPodtouch上打开“库乐队”。然后在“我的乐曲”浏览器中，轻点“浏览”，轻点“选择”，然后轻点您从Mac共享的项目。轻点，然后轻点“电话铃声”。为铃声输入一个名称，然后轻点“导出”。如果铃声长于30秒，请轻点“继续”，让“库乐队”自动缩短铃声。或者，轻点“取消”以返回到乐曲，这样您就能缩短这一乐曲，轻点“导出”。最后当铃声完成导出后，您便可以指定铃声。",
+        "act": "ans/open",
+        "document": "基于LogicPro或Mac版“库乐队”乐曲创建铃声.json",
+        "grounding": [
+            "将项目导出为铃声",
+            "在iPhone、iPad或iPodtouch上打开“库乐队”。",
+            "在“我的乐曲”浏览器中，轻点“浏览”，轻点“选择”，然后轻点您从Mac共享的项目。",
+            "轻点，然后轻点“电话铃声”。",
+            "为铃声输入一个名称，然后轻点“导出”。如果铃声长于30秒，请轻点“继续”，让“库乐队”自动缩短铃声。或者，轻点“取消”以返回到乐曲，这样您就能缩短这一乐曲。",
+            "轻点“导出”。",
+            "当铃声完成导出后，您便可以指定铃声。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，还有我想咨询一下关于LogicPro：使用和存储Patch的相关信息。",
+        "act": "what",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "LogicPro：使用和存储Patch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这里有关于LogicPro：使用和存储Patch的一般信息、载入现有Patch、选取Patch的不同设置类型、存储Patch，您想了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "LogicPro：使用和存储Patch",
+            "载入现有Patch"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我先了解一下这个载入现有Patch有什么用吧？",
+        "act": "what",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "载入现有Patch"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果乐曲已将总线1用于某些其他目的，Logic会将下一个可用总线用作发送。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "如果乐曲已将总线1用于某些其他目的，Logic会将下一个可用总线用作发送。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不是很懂，具体说一下怎么载入现有Patch吧",
+        "act": "what",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "载入现有Patch"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "载入现有Patch非常简单：在轨道区域中选取您要将Patch载入到的目标轨道，通过点按控制条中的“资源库”按钮打开资源库，然后前往您要载入的Patch。在资源库中的Patch名称上点按一次即可载入相应的Patch。您将注意到，资源库将会根据您在处理音频、软件乐器（包括鼓手轨道）、辅助还是输出而显示不同的Patch。如果您在处理外部MIDI轨道，则资源库中将显示您可能已在“音频MIDI设置”中配置的所有节点。许多情况下，具备混响、延迟或其他效果的辅助通道也会添加到混音器中，并且以辅助通道为目标的发送会在通道条上显示。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "载入现有Patch非常简单：在轨道区域中选取您要将Patch载入到的目标轨道，通过点按控制条中的“资源库”按钮打开资源库，然后前往您要载入的Patch。在资源库中的Patch名称上点按一次即可载入相应的Patch。您将注意到，资源库将会根据您在处理音频、软件乐器（包括鼓手轨道）、辅助还是输出而显示不同的Patch。如果您在处理外部MIDI轨道，则资源库中将显示您可能已在“音频MIDI设置”中配置的所有节点。许多情况下，具备混响、延迟或其他效果的辅助通道也会添加到混音器中，并且以辅助通道为目标的发送会在通道条上显示。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那还有一个什么选取Patch的不同设置类型，这个怎么弄的呢？",
+        "act": "how",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "选取Patch的不同设置类型"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "选取Patch的不同设置类型：返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。这表示Patch插入插槽获得了资源库焦点，因此资源库会显示Patch。将鼠标光标悬停在通道条上其他插入插槽的左侧。请注意灰色三角形：如果点按这个三角形，它会变蓝，表明插入现在获得了资源库焦点：请注意，资源库现在会显示怀旧合成设置，而非完整Patch。您可以将不同设置载入乐器插槽，同时保留通道条的其他元素。同样，您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置：点按蓝色三角形将完全关闭资源库。",
+        "act": "ans/open",
+        "document": "LogicPro：使用和存储Patch.json",
+        "grounding": [
+            "选取Patch的不同设置类型",
+            "返回到轨道，请注意Patch插入插槽左侧的蓝色箭头。",
+            "这表示Patch插入插槽获得了资源库焦点，因此资源库会显示Patch。将鼠标光标悬停在通道条上其他插入插槽的左侧。请注意灰色三角形：",
+            "如果点按这个三角形，它会变蓝，表明插入现在获得了资源库焦点：",
+            "请注意，资源库现在会显示怀旧合成设置，而非完整Patch。您可以将不同设置载入乐器插槽，同时保留通道条的其他元素。",
+            "同样，您可以将焦点放在任何音频效果插入插槽上，Patch资源库便会显示当前载入相应插槽中的任何插件的预置：",
+            "点按蓝色三角形将完全关闭资源库。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    }
+]

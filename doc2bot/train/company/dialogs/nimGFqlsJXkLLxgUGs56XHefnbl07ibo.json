@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，麻烦问一下，在浙江衢州这边办理住房公积金补缴，办理得很不满意应该怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "住房公积金汇、补缴",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边有投诉地址和电话投诉，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "投诉的地址在什么地方呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉地址在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个地方离我有点远哎，还是电话投诉吧，投诉电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是0570-12345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，我顺便帮我朋友问一下办理那个个人住房公积金账户设立的话，申请结果要多久可以出来的？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "个人住房公积金账户设立",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你朋友也是浙江衢州这边的吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的是的",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个是自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

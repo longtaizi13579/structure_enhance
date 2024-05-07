@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前在浙江省丽水市办理的机动车变更登录，为什么到现在都没有消息呢？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "1",
+            "T12"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您的机动车是因为什么原因导致需要变更呢？",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是因为发动机的质量问题。",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以去当地的监督投诉处反馈您的问题。",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉地址在哪里呢？",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "地址在丽水市公安局交通警察支队警务督察大队（莲都区丽青路85号）。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "丽水市公安局交通警察支队警务督察大队（莲都区丽青路85号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有点远哦，有没有这边交通警察大队的电话呢？我想先打电话问下。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，电话是0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉电话",
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": " 如果我办理好了这个机动车因质量问题更换整车变更登记，一般会等多久可以会通知结果呢",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您这边的手续办理完成后，1个工作日就可以知道结果了。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我可以在自助端自行办理吗？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前还不支持自助终端办理哦。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我这个车发动机质量有问题，暂时无法开了，我还有个进口车，如果要使用，需要办理什么手续呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您需要办理个进口机动车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个多久可以办理好呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限是2个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "法定办结时限",
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "通过后，我怎么拿到这个证呢？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您在现场，可以当场送达，如果您不方便也可以邮寄送达的，到达时间以邮政公司时间为准。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "当场送达（邮寄送达的，以邮政公司时间为准）"
+        ],
+        "grounding_id": [
+            "349"
+        ]
+    }
+]

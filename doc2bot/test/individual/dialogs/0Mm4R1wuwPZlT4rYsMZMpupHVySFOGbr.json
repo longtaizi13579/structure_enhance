@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问在浙江省杭州市申请继承类小可以有没有数量限制呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "继承类小客车其他指标配置",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "159",
+            "160"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "没有数量限制",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果继承人是未成年人的话应该怎么办理？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "162"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "涉及未成年人的由法定代理人出具相关权益保证书。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "（三）如车辆为多方共同所有还需全部所有人出具明确车辆由其中一人申请指标的声明书或协议书，涉及未成年人的由法定代理人出具相关权益保证书。"
+        ],
+        "grounding_id": [
+            "399"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，申请的话是没有别的限制吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "164"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "无禁止性要求",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "165"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那就好，具体办理应该到哪儿呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理地点在杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市解放东路18号市民中心H楼一楼小客车调控窗口24-27号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，那办理的工作人员几点上班呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "工作日（星期一至星期五）夏季在上午9:00-12:00下午14:00-17:00冬季在13:30-17:00",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "所以中午去的话就没有人是吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是的，有午间值班",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，去了之后是自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们目前不支持自助终端办理，您可以到相应人工窗口",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，最后想问一下我大概什么时候能收到？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

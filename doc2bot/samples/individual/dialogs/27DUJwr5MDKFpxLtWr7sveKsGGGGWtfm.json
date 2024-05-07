@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "因工伤花费的钱要去哪里报效？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是哪里的呢？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江绍兴。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您这是工伤，可以到绍兴市政务服务办公室（凤林西路178号亿兆大厦一楼D区医保社保窗口）办理工伤医疗（康复）费用申报。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦一楼D区医保社保窗口）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "工伤医疗费用申报要办理多久？ ",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道办结和送达时限是吗？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是十个工作日，送达时限是自作出决定之日起五个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "自作出决定之日起5个工作日内送达。",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "121",
+            "120"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我如果不是在统筹地参加工伤保险的，可以进行申报吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "（一）在统筹地参加工伤保险的人员；\n",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "1",
+            "135",
+            "T189"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以因为我们的受理条件是:在统筹地参加工伤保险的人员。才可以",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "受理条件",
+            "（一）在统筹地参加工伤保险的人员；\n",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "134",
+            "135",
+            "T189"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "工伤医疗费用申报人太多，太麻烦了怎么办？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这种情况您可以早点集齐申报需要的材料，避免材料不足反复办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那可以在自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "工伤医疗费用申报不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

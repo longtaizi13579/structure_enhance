@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在知道产后血栓的一些信息",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "产后血栓"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解产后血栓的症状，诊断还是治疗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "产后血栓的症状"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下产后4～10天内出现的发热症状是不是就是血栓引起的？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "产后血栓的症状",
+            "产后4～10天内出现的发热可能由血栓引起。"
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有可能",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "产后4～10天内出现的发热可能由血栓引起。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那浅表血栓是怎么诊断的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "医生通常可以根据身体检查来诊断浅表血栓。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "医生通常可以根据身体检查来诊断浅表血栓",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "医生通常可以根据身体检查来诊断浅表血栓。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那什么是血栓性浅静脉炎呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "血栓也可能在腿部皮肤下的静脉中形成。这种疾病被称为浅静脉血栓形成（血栓性浅静脉炎）。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在腿部皮肤下的静脉中形成。这种疾病被称为浅静脉血栓形成（血栓性浅静脉炎）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "血栓也可能在腿部皮肤下的静脉中形成。这种疾病被称为浅静脉血栓形成（血栓性浅静脉炎）。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个一般是怎么形成的？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "浅静脉血栓形成"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "浅静脉血栓形成是指浅静脉发炎并形成血栓，通常在手臂或腿部。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩后_产后血栓.json",
+        "grounding": [
+            "浅静脉血栓形成是指浅静脉发炎并形成血栓，通常在手臂或腿部。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "关于深静脉血栓形成的危险因素、诊断和治疗的综合信息可以去什么地方查找资料呢？",
+        "act": "where",
+        "document": "家庭版_医学主题_心脏和血管疾病_静脉系统疾病_深静脉血栓形成(DVT).json",
+        "grounding": [
+            "VascularCures：深静脉血栓形成：关于深静脉血栓形成的危险因素、诊断和治疗的综合信息",
+            "更多信息"
+        ],
+        "grounding_id": [
+            "161",
+            "158"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您要的是中文还是英文的资料呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_心脏和血管疾病_静脉系统疾病_深静脉血栓形成(DVT).json",
+        "grounding": [
+            "以下是可能对你有帮助的英文资料。请注意，本手册对该资料中的内容不承担责任。"
+        ],
+        "grounding_id": [
+            "160"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "英文的",
+        "act": "what",
+        "document": "家庭版_医学主题_心脏和血管疾病_静脉系统疾病_深静脉血栓形成(DVT).json",
+        "grounding": [
+            "以下是可能对你有帮助的英文资料。请注意，本手册对该资料中的内容不承担责任。"
+        ],
+        "grounding_id": [
+            "160"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以到VascularCures查找",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_心脏和血管疾病_静脉系统疾病_深静脉血栓形成(DVT).json",
+        "grounding": [
+            "VascularCures：深静脉血栓形成：关于深静脉血栓形成的危险因素、诊断和治疗的综合信息"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    }
+]

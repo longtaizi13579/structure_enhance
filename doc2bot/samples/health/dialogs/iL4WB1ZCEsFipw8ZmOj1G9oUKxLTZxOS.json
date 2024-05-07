@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，小孩感冒吃了药却不见好转，在网上查了一下说有可能是会厌炎，什么是会厌炎啊？ ",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解会厌炎的症状吗？ ",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎的症状"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎的症状"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "小孩如果得了会厌炎，其症状有：会突然出现严重咽喉疼痛、吞咽困难、吞咽疼痛、发烧、流涎、发音含糊等症状。严重者在症状开始几小时内就会出现呼吸不畅的现象。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "在会厌炎儿童中，症状会突然出现，而且在症状开始几小时内就可能出现致命的喉头狭窄。症状包括",
+            "严重咽喉疼痛",
+            "吞咽困难",
+            "吞咽疼痛",
+            "发烧",
+            "流涎",
+            "发音含糊"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果出现呼吸不畅的情况，要怎么办啊？ ",
+        "act": "how",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎",
+            "会厌炎的预防与治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解会厌炎的预防与治疗方法吗？ ",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎的预防与治疗"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对。是不是需要从口腔插入管子来帮助呼吸通畅啊？",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎的预防与治疗"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，呼吸管是主要的治疗方式。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "会厌炎的预防与治疗主要方法有：",
+            "呼吸管"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那除了插呼吸管还需要吃药吗？",
+        "act": "how",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "呼吸管",
+            "抗生素"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要，治疗期间还要服用抗生素。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔和咽喉疾病_会厌炎.json",
+        "grounding": [
+            "抗生素"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

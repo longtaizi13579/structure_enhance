@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下浙江金华市机动车更换整车做变更登记的咨询方式是什么？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "浙江省_金华市",
+            "机动车",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T6",
+            "T17",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是因为什么原因要更换整车做变更登记呢？",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "噢是因为质量的问题。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，有咨询电话和咨询地址您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "都需要，先说电话我记一下。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话有三个，您都可以尝试拨打0579-88900000、0579-82080925、0579-82286839。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "咨询电话",
+            "0579-88900000、0579-82080925、0579-82286839"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的谢谢，咨询地址呢？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "地址去金华市交警支队车管所咨询就可以的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，我朋友之前办更换车身的变更登记，特别不满意，有没有投诉方式？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "机动车更换车身或者车架变更登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址可以吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以到金华市婺城区双龙南街801号金华市信访局进行投诉。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下，危险品运输车要在异地申请检验合格标准通知书得咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "危化品运输车申请异地核发检验合格标志通知书",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "去金华市交警支队车管所办理就行。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，正常办理这个业务需要多长时间能办完？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "危化品运输车申请异地核发检验合格标志通知书",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结时限就是1天。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "1（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    }
+]

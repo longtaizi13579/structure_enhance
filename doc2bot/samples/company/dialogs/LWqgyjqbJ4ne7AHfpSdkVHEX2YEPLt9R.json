@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江温州的外企常驻机构注销登记办结需要多久？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "外国企业常驻代表机构注销登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T12",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个我办理完之后结果多久能送达？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自做出决定之日起3个工作日内送达结果。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还打算把杭州公司注销清算的负责人名单也备个案，但是我不知道要交哪些材料，这个咋查？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "公司解散清算组成员以及负责人名单备案",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以选择网上咨询或电话咨询两种方式查询，你想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "电话咨询吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线为：0571-12345；0571-86439775。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345；0571-86439775"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个法律规定的办结时间是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般是20个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "没时间去窗口办，有其他办法能办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以选择网上申请或者邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业注销_常用服务_公司解散清算组成员以及负责人名单备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    }
+]

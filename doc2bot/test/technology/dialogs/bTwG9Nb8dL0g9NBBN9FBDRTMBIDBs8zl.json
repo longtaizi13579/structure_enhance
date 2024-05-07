@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想更改iPhone上的付款方式，应该在哪里能操作更改？",
+        "act": "what",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "更改、添加或移除付款方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以在iPhone或iPad上的“设置”或Mac上的AppStore中编辑您的付款信息。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "您可以在iPhone或iPad上的“设置”或Mac上的AppStore中编辑您的付款信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想更改我自己和家人用于AppStore、iCloud、AppleMusic等的付款信息，系统会自动更新吗？",
+        "act": "verification",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "更改、添加或移除AppleID付款方式",
+            "管理您及家人用于AppStore、iCloud、AppleMusic等的付款信息。当您更改付款信息时，系统会自动在使用您AppleID的所有App和服务中更新这一信息。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，当您更改付款信息时，系统会自动在使用您AppleID的所有App和服务中更新这一信息。",
+        "act": "ans/yes",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "管理您及家人用于AppStore、iCloud、AppleMusic等的付款信息。当您更改付款信息时，系统会自动在使用您AppleID的所有App和服务中更新这一信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那你教我一下如何在Mac上更改付款方式具体该怎么操作？",
+        "act": "how",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "如何在Mac上更改付款方式"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先在Mac上打开AppStore，然后 点按边栏底部您的姓名或登录按钮，接着点按“查看信息”，最后在“付款信息”旁边，点按“管理付款方式”。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "在Mac上打开AppStore。",
+            "点按边栏底部您的姓名或登录按钮。",
+            "点按“查看信息”。",
+            "在“付款信息”旁边，点按“管理付款方式”。（如果您使用的是旧版macOS，请点按“付款类型”旁边的“编辑”。）系统可能会要求您使用AppleID登录。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "之后呢，再怎么样操作？",
+        "act": "how",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "在这里，您可以进行以下操作："
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "更新付款方式—点按付款方式旁边的“编辑”。您可能需要输入印在信用卡或借记卡上的安全码，添加付款方式—点按“添加付款方式”，更改付款方式的顺序-将指针悬停在付款方式上，然后使用“调整顺序”图标*。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "添加付款方式—点按“添加付款方式”。",
+            "移除付款方式—点按付款方式旁边的“编辑”，然后点按“移除”。如果您有未付余款，或者有iCloud储存空间方案等订阅，又或者使用了购买项目共享功能，您将无法移除所有付款方式。了解如何移除所有付款方式。",
+            "更改付款方式的顺序-将指针悬停在付款方式上，然后使用“调整顺序”图标*。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我再问一下我更改AppleWatch上的表盘时间，时只能设置提前吗？",
+        "act": "verification",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "更改AppleWatch上的表盘",
+            "您只能将表盘上显示的时间设置为提前。闹钟、通知、世界时钟以及任何其他时间仍将与实际时间相符。"
+        ],
+        "grounding_id": [
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，您只能将表盘上显示的时间设置为提前。闹钟、通知、世界时钟以及任何其他时间仍将与实际时间相符。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "您只能将表盘上显示的时间设置为提前。闹钟、通知、世界时钟以及任何其他时间仍将与实际时间相符。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我想在AppleWatch上自定表盘，你能教我一下具体步骤吗？",
+        "act": "how",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "更改AppleWatch上的表盘",
+            "如何在AppleWatch上自定表盘"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先按下数码表冠以前往表盘，然后按住显示屏，接着向左或向右轻扫以选取某个表盘，然后轻点“编辑”，然后向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "按下数码表冠以前往表盘。",
+            "按住显示屏。",
+            "向左或向右轻扫以选取某个表盘，然后轻点“编辑”。",
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "您可以举例说一下吗？",
+        "act": "what",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "例如，您可以更改秒针的颜色或表盘上的标记。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，您继续说接下来呢？",
+        "act": "what",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何在AppleWatch上自定表盘"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "向左轻扫至最左边，以编辑复杂功能，您可以使用复杂功能来查看天气、您的健身记录或其他已安装App中的信息等内容。轻点某个复杂功能以将其选中，然后转动数码表冠对其进行更改，完成后，按下数码表冠以存储您的更改，最后轻点表盘以将它设置为当前表盘。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "向左轻扫至最左边，以编辑复杂功能，您可以使用复杂功能来查看天气、您的健身记录或其他已安装App中的信息等内容。轻点某个复杂功能以将其选中，然后转动数码表冠对其进行更改。",
+            "完成后，按下数码表冠以存储您的更改。",
+            "轻点表盘以将它设置为当前表盘。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    }
+]

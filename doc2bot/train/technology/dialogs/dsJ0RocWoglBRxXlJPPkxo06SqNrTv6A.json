@@ -1,0 +1,286 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些在AppleWatch上使用“正念”App的相关问题？",
+        "act": "what",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "在AppleWatch上使用“正念”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询如何开始“沉思”练习、如何开始“呼吸”练习、如何调整或关闭正念提醒还是如何查看和跟踪正念分钟数？",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何开始“呼吸”练习"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何开始“呼吸”练习？",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何开始“呼吸”练习"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤：首先在在AppleWatch上，轻点“正念”App。然后轻点图标，然后轻点“持续时间”；最后轻点“呼吸”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "具体步骤",
+            "在AppleWatch上，轻点“正念”App。",
+            "轻点图标，然后轻点“持续时间”，以调整时段的长度。",
+            "轻点“呼吸”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "轻点“持续时间”的目的是什么？",
+        "act": "why",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点图标，然后轻点“持续时间”，以调整时段的长度。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以调整时段的长度。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点图标，然后轻点“持续时间”，以调整时段的长度。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "AppleWatch上的“正念”App的作用是什么？",
+        "act": "what",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "借助AppleWatch上的“正念”App，您可以通过一连串的深呼吸来专注于呼吸，或花点时间来思考某个想法或行动。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "借助AppleWatch上的“正念”App，您可以通过一连串的深呼吸来专注于呼吸，或花点时间来思考某个想法或行动。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "借助AppleWatch上的“正念”App，您可以通过一连串的深呼吸来专注于呼吸，或花点时间来思考某个想法或行动。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何调整或关闭正念提醒？",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何调整或关闭正念提醒"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤：步骤1: 在AppleWatch上，轻点“设置”。步骤2: 轻点“正念”。步骤3: 选择“一天开始时”或“一天结束时”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "具体步骤",
+            "在AppleWatch上，轻点“设置”。",
+            "轻点“正念”。",
+            "选择“一天开始时”或“一天结束时”。您还可以轻点“添加提醒”来安排自定提醒。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "步骤3还可以有其他什么方法吗？",
+        "act": "what",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "选择“一天开始时”或“一天结束时”。您还可以轻点“添加提醒”来安排自定提醒。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您还可以轻点“添加提醒”来安排自定提醒。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "选择“一天开始时”或“一天结束时”。您还可以轻点“添加提醒”来安排自定提醒。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何开始“沉思”练习？",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何开始“沉思”练习"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤：首先在AppleWatch上，轻点“正念”App；然后轻点图标，然后轻点“持续时间”，以调整时段的长度；最后轻点“沉思”，然后轻点“开始”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "具体步骤",
+            "在AppleWatch上，轻点“正念”App。",
+            "轻点图标，然后轻点“持续时间”，以调整时段的长度。",
+            "轻点“沉思”，然后轻点“开始”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何查看和跟踪正念分钟数？",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何查看和跟踪正念分钟数"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤：首先在iPhone上，打开“健康”App；然后轻点“浏览”，然后轻点“正念”；最后轻点您的正念分钟数，以查看当天的分钟数图表。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone上，打开“健康”App。",
+            "轻点“浏览”，然后轻点“正念”。",
+            "轻点您的正念分钟数，以查看当天的分钟数图表。您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我可以查看一个月的正念分钟数吗？",
+        "act": "verification",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点您的正念分钟数，以查看当天的分钟数图表。您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点您的正念分钟数，以查看当天的分钟数图表。您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "具体如何操作？",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点您的正念分钟数，以查看当天的分钟数图表。您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "轻点您的正念分钟数，以查看当天的分钟数图表。您可以轻点图表顶部的标签，以查看一周、一个月、过去六个月或一年的正念分钟数。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想咨询一下，就是办这个免检机动车申请纸质检验合格标志，这块有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江台州市",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个有三种方式一投诉电话二投诉地址三投诉网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉电话告诉我一下",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的电话是0576－12345",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "0576－12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "啊，地址也告诉我吧",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的您记一下浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办这个合格标志结果出来多久能送达呀",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "122",
+            "113"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个是自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

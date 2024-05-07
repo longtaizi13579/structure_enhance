@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我记得浙江绍兴拍卖企业设立比法定办结时限快，法定办结时限是多久啊？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "拍卖企业及分支机构（设立）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦哦，这个一定要去窗口申请吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不用的，您如果不能及时到现场的话，可以选择网上申请或邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那你们那个大厅的终端机器能办吗？",
+        "act": "ans/yesno",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "抱歉，目前是不支持的。",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦哦，那如果要付费的话，能在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "247"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前设立拍卖企业是无需收费的，所以网上也不支持支付功能。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你们有什么监督投诉方式吗？我想留存备用。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "给您我们的监督投诉电话可以吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，您可以拨打这两个电话：0575-88604957、0575-88608106。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "0575-88604957、0575－88608106"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这电话我之前打过，一直没打通，有啥别的方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您也可以到凤林西路178号亿兆大厦绍兴市政务服务办公室进行投诉监督。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_招标拍卖_招标拍卖_拍卖企业及分支机构（设立）.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

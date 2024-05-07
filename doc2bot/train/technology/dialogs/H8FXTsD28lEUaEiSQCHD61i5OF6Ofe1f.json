@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询什么情况下会在LogicPro中看到音频和MIDI的同步提醒，还很常见？",
+        "act": "what",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我的Mac启动时出现错误-1008F怎么办？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那你可以使用Option-Command-R启动，或者停用激活锁，你想了解那种？",
+        "act": "multiple-choice",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "或者停用激活锁"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "停用激活锁该怎么操作？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "或者停用激活锁"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体的操作步骤是 1.选取苹果菜单>“系统偏好设置”。 2.点按“AppleID”。 3.点按边栏中的“iCloud”。 4.取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "具体步骤",
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“AppleID”。",
+            "点按边栏中的“iCloud”。",
+            "取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。在macOS恢复功能中完成所需的操作后，您可以重新打开这项设置。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在macOS恢复功能中完成我所需要的操作后，可以重新打开这项设置吗？",
+        "act": "verification",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。在macOS恢复功能中完成所需的操作后，您可以重新打开这项设置。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的可以，在macOS恢复功能中完成您所需的操作后，您可以重新打开这项设置。",
+        "act": "ans/yes",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "取消选中右侧的“查找我的Mac”复选框，然后在出现提示时输入您的AppleID密码。在macOS恢复功能中完成所需的操作后，您可以重新打开这项设置。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我能从较低版本的macOS恢复功能启动，而不出现-1008F的错误吗？",
+        "act": "verification",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "您现在应该能够从较低版本的macOS恢复功能启动，而不会出现-1008F错误。在macOS恢复功能中完成所需的操作后，您可以在AppleID偏好设置中重新打开“查找我的Mac”。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，您现在应该能够从较低版本的macOS恢复功能启动，而不会出现-1008F错误。在macOS恢复功能中完成所需的操作后，您可以在AppleID偏好设置中重新打开“查找我的Mac”。",
+        "act": "ans/yes",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "您现在应该能够从较低版本的macOS恢复功能启动，而不会出现-1008F错误。在macOS恢复功能中完成所需的操作后，您可以在AppleID偏好设置中重新打开“查找我的Mac”。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我的Mac无法顺利完成启动，可以用我其他设备停用激活锁吗？",
+        "act": "verification",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您因Mac无法顺利完成启动而无法完成上述步骤，请使用您的其他设备停用激活锁："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的可以，如果您的Mac无法顺利完成启动，请使用您的其他设备停用激活锁。",
+        "act": "ans/yes",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您因Mac无法顺利完成启动而无法完成上述步骤，请使用您的其他设备停用激活锁："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那用其他设备停用激活锁该怎么操作？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您因Mac无法顺利完成启动而无法完成上述步骤，请使用您的其他设备停用激活锁："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你需要 1.将Mac关机。 2.在另一台设备上，前往iCloud.com并使用您的AppleID登录。 3.点按“查找iPhone”。 4.从设备列表中选取您的Mac。如果您没有看到设备列表，请从页面顶部的设备菜单中选取您的Mac。 5.等待几秒钟，直到“查找”完成对Mac已知最后位置的更新。 6.点按“从‘帐户’中删除”。如果您没有看到这个选项，请返回页面顶部的设备菜单，然后点按您的Mac名称旁边的“移除”按钮。 7.出现提示时，点按“移除”以确认这一操作。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "将Mac关机。",
+            "在另一台设备上，前往iCloud.com并使用您的AppleID登录。",
+            "点按“查找iPhone”。",
+            "从设备列表中选取您的Mac。如果您没有看到设备列表，请从页面顶部的设备菜单中选取您的Mac。",
+            "等待几秒钟，直到“查找”完成对Mac已知最后位置的更新。",
+            "点按“从‘帐户’中删除”。如果您没有看到这个选项，请返回页面顶部的设备菜单，然后点按您的Mac名称旁边的“移除”按钮。",
+            "出现提示时，点按“移除”以确认这一操作。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "还想问下我从Mac上同步音乐时看到错误-5000、-69、13010或13014怎么办？",
+        "act": "how",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那你可以更新软件，或者整合音乐资料库中的媒体文件，还可以检查第三方安全软件是否存在问题，还是这些情况你都尝试后仍然看到错误？",
+        "act": "multiple-choice",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "如果您仍然看到错误"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是这些都尝试后仍然还能看到错误，我觉得我同步的特定歌曲可能有问题。",
+        "act": "how",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "如果您仍然看到错误",
+            "在某些情况下，您尝试同步的特定歌曲可能有问题。要找出这样的歌曲，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "在某些情况下，您尝试同步的特定歌曲可能有问题。要找出这样的歌曲，请按照以下步骤操作：首先查看错误信息中是否指出导致问题的具体歌曲。然后一次仅同步几首歌曲，然后添加更多歌曲，直到问题再次发生。",
+        "act": "ans/open",
+        "document": "如果您从Mac上同步音乐时看到错误-5000、-69、13010或13014.json",
+        "grounding": [
+            "在某些情况下，您尝试同步的特定歌曲可能有问题。要找出这样的歌曲，请按照以下步骤操作：",
+            "查看错误信息中是否指出导致问题的具体歌曲。",
+            "一次仅同步几首歌曲，然后添加更多歌曲，直到问题再次发生。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22"
+        ]
+    }
+]

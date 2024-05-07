@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好咨询一下社保工伤保险",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "社保医保",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T168",
+            "T189"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问是在哪个省市缴纳的社保",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江湖州市",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的您是想了解哪方面呢比如是供养亲属抚恤金申领，工伤医疗（康复）费用申报，工程建设项目办理工伤保险参保登记等等",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "工程建设项目办理工伤保险参保登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "工程建设项目办理工伤保险参保登记都有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "工程建设项目办理工伤保险参保登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有三种方式一投诉电话二投诉地址三投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是多少",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "电话是0572-2215090、0572-12345",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_工伤保险_工程建设项目办理工伤保险参保登记.json",
+        "grounding": [
+            "投诉电话",
+            "0572-2215090、0572-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有问题想问一下也是衢州市工伤保险的事",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T5",
+            "T189"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还想了解哪方面，除了刚提到的三种还有统筹地区以外交通、食宿费申领，工伤保险待遇变更申请，老工伤人员托管登记，劳动能力初次鉴定申请",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "统筹地区以外交通、食宿费申领这个支持自助终端办理吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个申领结果出来后多久能送达呀",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "109",
+            "118"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "送达时限自作出决定之日起3个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "118",
+            "119"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个申领有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询方式",
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个有咨询电话还有咨询地址再有咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "咨询电话是多少",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "电话是0570-3079086",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3079086"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    }
+]

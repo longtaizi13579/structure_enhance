@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下网页版AppleMusic音乐回忆功能",
+        "act": "what",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "网页版AppleMusic音乐回忆功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面的信息",
+        "act": "question/open",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "网页版AppleMusic音乐回忆功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道AppleMusic音乐回忆功能可以看到年度最常聆听歌曲吗",
+        "act": "verification",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "通过AppleMusic音乐回忆功能，您可以重温当年的经典音乐，深入了解自己最常播放的艺人和专辑，还能获得年度最常聆听歌曲的播放列表。订阅AppleMusic后，您每年都可以获得一个音乐回忆歌单。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以，还能获得年度最常聆听歌曲的播放列表。",
+        "act": "ans/yes",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "通过AppleMusic音乐回忆功能，您可以重温当年的经典音乐，深入了解自己最常播放的艺人和专辑，还能获得年度最常聆听歌曲的播放列表。订阅AppleMusic后，您每年都可以获得一个音乐回忆歌单。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那凡是AppleID登录到AppleMusic的的设备播放的音乐都在计算之中吗",
+        "act": "verification",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "AppleMusic音乐回忆功能使用您的AppleMusic听歌历史记录来计算您在过去一年中最常收听的热门歌曲、专辑和艺人。AppleMusic音乐回忆功能还使用多种其他因素来确定您今年播放过的音乐，例如：",
+            "在使用您的AppleID登录到AppleMusic的任何设备上播放过的音乐"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，包括在使用您的AppleID登录到AppleMusic的任何设备上播放过的音乐",
+        "act": "ans/yes",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "在使用您的AppleID登录到AppleMusic的任何设备上播放过的音乐"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果有的设备关闭了“使用听歌历史记录”的话还包括吗",
+        "act": "verification",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那就不包括",
+        "act": "ans/no",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "不包括在“设置”中关闭了“使用听歌历史记录”的设备上播放过的音乐"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果看不到音乐回忆歌单的话是什么问题",
+        "act": "what",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "看不到音乐回忆歌单？您可能需要播放更多音乐才行。播放足够多的音乐后，请返回查看您的“音乐回忆歌单”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您可能需要播放更多音乐才行。播放足够多的音乐后，请返回查看您的“音乐回忆歌单”。",
+        "act": "ans/open",
+        "document": "网页版AppleMusic音乐回忆功能.json",
+        "grounding": [
+            "看不到音乐回忆歌单？您可能需要播放更多音乐才行。播放足够多的音乐后，请返回查看您的“音乐回忆歌单”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

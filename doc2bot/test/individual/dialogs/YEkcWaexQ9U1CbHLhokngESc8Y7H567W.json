@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江金华，我想咨询 台湾通行证及签注的问题。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T6",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询赴台团队旅游签注、赴台学习签注还是应邀赴台签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解赴台团队旅游签注基本信息提交之后通过了，什么时候能送到我手上呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个签注能在大厅自助机子办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们暂时不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "1",
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "除了去营业厅办理还有什么办理方式吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们可以网上申请或者现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理签注需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1437"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理签注是需要收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "1438"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能在网上支付吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1441"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，我们支持网上支付。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1442"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "据我了解一个签注只要20元，为什么我支付的是15元呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "收费标准",
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1436",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是想咨询1 赴台团队旅游还是多次签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "1\t赴台团队旅游",
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台团队旅游一次签注15元/件；多次签注80元/件。"
+        ],
+        "grounding_id": [
+            "1444",
+            "1446"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想咨询1赴台团队旅游签注。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "1\t赴台团队旅游"
+        ],
+        "grounding_id": [
+            "1",
+            "1444"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台团队旅游一次签注15元/件；多次签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台团队旅游一次签注15元/件；多次签注80元/件。"
+        ],
+        "grounding_id": [
+            "1446"
+        ]
+    }
+]

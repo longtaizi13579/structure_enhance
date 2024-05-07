@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我孩子都已经满月，但是我的母乳很少很少，能配一些催乳的药物吗？",
+        "act": "why",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我不建议您在哺乳期吃药，您检查过是否是乳腺炎吗？极有可能是涨奶不通顺。",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我都检查过的，说是细菌感染，我也不想吃药可是不下奶怎么办？",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "按照您的情况看来，需要服用替加环素，可能对胎儿的牙齿和骨骼发育产生有害影响。需要慎重。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "妊娠期间服用替加环素，类似四环素类一样，可能对胎儿的牙齿和骨骼发育产生有害影响，但有时治疗的益处可能超过风险。（也请参见妊娠期用药。）",
+            "替加环素",
+            "在妊娠和哺乳期间使用替加环素"
+        ],
+        "grounding_id": [
+            "15",
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个药这么厉害，主要是起什么作用呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素",
+            "感染"
+        ],
+        "grounding_id": [
+            "1",
+            "T274"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您好，替加环素通过阻止细菌产生其生长和繁殖所需要的蛋白质起作用。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素",
+            "替加环素通过阻止细菌产生其生长和繁殖所需要的蛋白质起作用。"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有什么药能代替的吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素",
+            "感染"
+        ],
+        "grounding_id": [
+            "1",
+            "T274"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您好，替加环素是唯一一种甘氨酰环素类的抗生素，与四环素类相关。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素",
+            "替加环素是唯一一种甘氨酰环素类的抗生素，与四环素类相关。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我生完孩子后，哺乳期服用会对小宝宝有影响吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素",
+            "感染",
+            "在妊娠和哺乳期间使用替加环素"
+        ],
+        "grounding_id": [
+            "1",
+            "T274",
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前来说哺乳期间使用替加环素是否安全目前还不清楚。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "在妊娠和哺乳期间使用替加环素",
+            "哺乳期间使用替加环素是否安全目前还不清楚。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "14",
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想问一下这个社保的事",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江绍兴市",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的关于社保您想问哪方面呢是医疗保险，生育保险，养老保险还是工伤保险还是失业保险",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是想问工伤保险那个抚恤金申领收费这块可以网上支付吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "工伤保险",
+            "供养亲属抚恤金申领",
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "T189",
+            "1",
+            "1630",
+            "1635"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "是否支持网上支付",
+            "不支持"
+        ],
+        "grounding_id": [
+            "1635",
+            "1636"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的这个有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个有三种方式一投诉电话二投诉地址三投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "电话吧我记一下",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的电话是0575-88608106",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "投诉电话",
+            "0575-88608106"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有事情想问一下这个工伤医疗费用申报这个有结果了多久能送到",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的还是浙江绍兴吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个送达时限自作出决定之日起5个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起5个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "明白了，就是刚才问的那个抚恤金申领能自助办理吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "92",
+            "91"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那这个抚恤金申请都需要满足什么条件才可受理啊",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "1",
+            "131"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您需要满足是在统筹地参加工伤保险的人员，在发生事故被认定为工亡，并有供养亲属的才可以受理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    }
+]

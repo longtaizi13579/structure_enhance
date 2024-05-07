@@ -1,0 +1,352 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江金华换领机动车证书的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "办理时间",
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "T6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "星期一至星期五、星期六上午（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00（5月1日至9月30日）；9:00—12:00、13:00—17:00（10月1日至次年4月30日）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "星期一至星期五、星期六上午（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00（5月1日至9月30日）；9:00—12:00、13:00—17:00（10月1日至次年4月30日）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "需要的材料应该去哪里咨询呢?",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有咨询电话、咨询地址和咨询网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道咨询电话是多少",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打0579-88900000、0579-82082501、0579-82461652",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0579-88900000、0579-82082501、0579-82461652"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，是向公安部门提交相关材料吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "申请人向公安交管部门提交申请材料。",
+            "申请"
+        ],
+        "grounding_id": [
+            "284",
+            "283"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您说的是申请时的材料吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "申请人向公安交管部门提交申请材料",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "申请人向公安交管部门提交申请材料。"
+        ],
+        "grounding_id": [
+            "284"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，提交完就对等着结果就好吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "受理"
+        ],
+        "grounding_id": [
+            "285"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您需要满足我们的审批标准我们才会予以受理",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "295"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那审批标准是什么呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "受理申请人提交的材料，检查材料是否齐全。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "受理之后还有什么别的流程吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "还需要审核、制证和送达，您需要了解相关的信息吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "292",
+            "299",
+            "306"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想知道送达的方式",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "306"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，那可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "目前还不可以",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好吧，所以只能到现场窗口去申请是吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您也可以网上申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "好的，那可以用微信支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "329"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "330"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那是全国统一收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "325"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "326"
+        ]
+    }
+]

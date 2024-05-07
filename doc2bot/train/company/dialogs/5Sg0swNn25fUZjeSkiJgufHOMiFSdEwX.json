@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江现在给教科用品免税审核一般是要多久才能办结？",
+        "act": "when",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "浙江省",
+            "省级科技类民办非企业单位进口科教用品免税资格审核",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想要知道法定办结时限还是我们的承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "啊？不太懂，你要不先告诉我承诺办结时限吧？",
+        "act": "when",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的承诺办结时限是8个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "8（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还挺快，那那个法定办结时限又是多久呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦哦，这个能不能直接在网上办？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，目前我们支持网上申请。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的。对了，你知道台州的纳税信用补评办结时限是多久吗？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想知道的办结时限是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我知道法定办结时限是多久。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限为15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦哦！那补评需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "目前是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "264"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那太好了，我还想知道办理这个纳税补评的流程是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "159"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理流程为: 1.申请 2.受理 3.审查/核准 4.决定 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审查/核准",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "160",
+            "162",
+            "171",
+            "180",
+            "189"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那如果决定环节审核不通过会怎么样？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "决定",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "180",
+            "187"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "审核不通过的话，会退回至上一环节岗位。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "局长审核岗人员对审核人员或复审人员转来的审核结果（准予或不予）进行审核，审核通过的，传递至申报受理环节；审核不通过的，退回至上一环节岗位。"
+        ],
+        "grounding_id": [
+            "188"
+        ]
+    }
+]

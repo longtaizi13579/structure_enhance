@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，就是关于公积金的的问题是咨询您这里吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "公积金"
+        ],
+        "grounding_id": [
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，请问您是在浙江省哪个市缴纳的公积金？",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，在绍兴市，就是如果出国定居提取这个公积金收费吗？",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "出境定居提取住房公积金",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "277"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "不好意思，我刚没听清，就是这个支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，你在帮我查一下，有什么办理形式呀？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，查询了一下，您可以选择网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，那这个设定依据是根据咱们浙江省的公积金条例吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "设定依据",
+            "浙江省住房公积金条例"
+        ],
+        "grounding_id": [
+            "255",
+            "267"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，依据浙江省住房公积金条例",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "255"
+        ]
+    }
+]

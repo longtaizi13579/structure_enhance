@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么使用iPhone、iPad和iPodtouch上的“通知”",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "使用iPhone、iPad和iPodtouch上的“通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是从锁定屏幕打开还是从“通知中心”打开",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "从锁定屏幕打开的话可以打开发出这个通知的App吗？",
+        "act": "verification",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开",
+            "轻点某个通知，以打开发出这个通知的App。"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "轻点某个通知，以打开发出这个通知的App",
+        "act": "ans/yes",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "轻点某个通知，以打开发出这个通知的App。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想清楚通知的话怎么做",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我听说还有快速操作是什么",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那是不是可以设定每天接受通知摘要的时间",
+        "act": "verification",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "设定通知摘要的接收时间",
+            "在iOS15和iPadOS15或更高版本中，您可以设定每天接受通知摘要的时间，以便在您方便时查看。摘要将根据您使用App的情况进行个性化设置并按优先级排序，最相关的通知显示在最顶部。"
+        ],
+        "grounding_id": [
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在iOS15和iPadOS15或更高版本中，您可以设定每天接受通知摘要的时间，以便在您方便时查看。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在iOS15和iPadOS15或更高版本中，您可以设定每天接受通知摘要的时间，以便在您方便时查看。摘要将根据您使用App的情况进行个性化设置并按优先级排序，最相关的通知显示在最顶部。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "排序的标准是什么呢",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在iOS15和iPadOS15或更高版本中，您可以设定每天接受通知摘要的时间，以便在您方便时查看。摘要将根据您使用App的情况进行个性化设置并按优先级排序，最相关的通知显示在最顶部。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "摘要将根据您使用App的情况进行个性化设置并按优先级排序，最相关的通知显示在最顶部。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在iOS15和iPadOS15或更高版本中，您可以设定每天接受通知摘要的时间，以便在您方便时查看。摘要将根据您使用App的情况进行个性化设置并按优先级排序，最相关的通知显示在最顶部。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "要从锁定屏幕或“通知中心”管理收到的通知怎么操作呢",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要从锁定屏幕或“通知中心”管理您收到的通知，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "向左轻扫某条提醒或一组提醒，或者轻点“选项”，然后从以下选项中进行选择：1小时不再提醒，今天不再提醒，查看设置，关闭",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "向左轻扫某条提醒或一组提醒。",
+            "轻点“选项”，然后从以下选项中进行选择：",
+            "1小时不再提醒",
+            "今天不再提醒",
+            "查看设置",
+            "关闭"
+        ],
+        "grounding_id": [
+            "20",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下在中国大陆购买iCloud储存空间的事。",
+        "act": "what",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "在中国大陆获取购买iCloud储存空间的发票"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您具体想咨询什么呢？",
+        "act": "question/open",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "在中国大陆获取购买iCloud储存空间的发票"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，我退款了，还需要再操作些什么，发票才会给我呢？",
+        "act": "what",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "如果您需要退款发票",
+            "则无需进行任何其他操作。我们处理完退款后，系统会自动生成红字发票并发送到您的原始电子邮件地址。"
+        ],
+        "grounding_id": [
+            "9",
+            "19"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "无需进行任何其他操作。我们处理完退款后，系统会自动生成红字发票并发送到您的原始电子邮件地址。",
+        "act": "ans/no",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "则无需进行任何其他操作。我们处理完退款后，系统会自动生成红字发票并发送到您的原始电子邮件地址。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我发票上的金额对不上怎么回事？",
+        "act": "what",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "如果您的发票金额有误或所购项目不符合条件"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您的部分购买款项是通过礼品卡或商店余额支付的，则发票上显示的金额可能与总购买金额不同。",
+        "act": "ans/open",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "则发票上显示的金额可能与总购买金额不同。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我朋友之前也买过但是他那个开不出来发票是怎么回事呢？",
+        "act": "what",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "在中国大陆获取购买iCloud储存空间的发票",
+            "如何获取发票"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只有2018年2月28日之后购买的储存空间才符合开具发票的条件。如果您的iCloud储存空间是在2018年2月28日之前购买的，则不符合开具发票的条件，而且收据不含发票链接。",
+        "act": "ans/open",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "只有2018年2月28日之后购买的储存空间才符合开具发票的条件。如果您的iCloud储存空间是在2018年2月28日之前购买的，则不符合开具发票的条件，而且收据不含发票链接。如果您购买的储存空间符合条件，但您找不到发票链接，请联系支持部门以寻求协助。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

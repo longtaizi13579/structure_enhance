@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解怎么在iPhone、iPad或iPodtouch上使用提示音和铃声",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用提示音和铃声"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要设置针对某个联系人的电话铃声或短信铃声，从iTunesStore购买铃声，还是重新下载使用您的AppleID购买的铃声",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "重新下载使用您的AppleID购买的铃声"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道重新下载使用AppleID购买的铃声的操作步骤",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "重新下载使用您的AppleID购买的铃声",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先前往“设置”>“声音与触感”，然后在“铃声和振动模式”下，轻点任何铃声，最后轻点“下载所有已购买的铃声”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "前往“设置”>“声音与触感”。",
+            "在“铃声和振动模式”下，轻点任何铃声。",
+            "轻点“下载所有已购买的铃声”。如果您已经下载了所有已购买的铃声，或者尚未购买任何铃声，则可能看不到此选项。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果没有看到“下载所有已购买的铃声”选项是什么问题",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "轻点“下载所有已购买的铃声”。如果您已经下载了所有已购买的铃声，或者尚未购买任何铃声，则可能看不到此选项。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可能是您已经下载了所有已购买的铃声，或者尚未购买任何铃声",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "轻点“下载所有已购买的铃声”。如果您已经下载了所有已购买的铃声，或者尚未购买任何铃声，则可能看不到此选项。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那从iTunesStore购买铃声应该怎么操作呢",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "从iTunesStore购买铃声"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开iTunesStoreApp，轻点“更多”，轻点“铃声”，然后找到您要购买的铃声，然后轻点价格，选择一个选项以自动设置铃声。或者轻点“完成”以便稍后决定。您可能需要输入自己的AppleID密码才能完成购买。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "打开iTunesStoreApp。",
+            "轻点“更多”。",
+            "轻点“铃声”。",
+            "找到您要购买的铃声，然后轻点价格。",
+            "选择一个选项以自动设置铃声。或者轻点“完成”以便稍后决定。",
+            "您可能需要输入自己的AppleID密码才能完成购买。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那有没有自带的铃声社诸位收到短信是的通知呢",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "了解如何更改您在iPhone、iPad或iPodtouch上接到电话、收到短信、电子邮件或其他通知时听到的声音。您可以从各种内置声音中进行选择，也可以从iTunesStore购买铃声。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有，您可以从各种内置声音中进行选择",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "了解如何更改您在iPhone、iPad或iPodtouch上接到电话、收到短信、电子邮件或其他通知时听到的声音。您可以从各种内置声音中进行选择，也可以从iTunesStore购买铃声。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，我还想问一下更改铃声的步骤",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "如何更改铃声",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先前往“设置”>“声音与触感”，然后在“铃声和振动模式”下，轻点要更改的声音，最后轻点某个铃声或提示音可以听到效果并将它设置为新声音。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "前往“设置”>“声音与触感”。",
+            "在“铃声和振动模式”下，轻点要更改的声音。",
+            "轻点某个铃声或提示音可以听到效果并将它设置为新声音。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果想设置针对某个联系人的电话铃声的话应该怎么做",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "设置针对某个联系人的电话铃声或短信铃声"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开“通讯录”App，然后轻点某个人的姓名，在此人的联系人名片的右上角，轻点“编辑”，最后轻点“电话铃声”或“短信铃声”，然后选取新声音。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用提示音和铃声.json",
+        "grounding": [
+            "打开“通讯录”App，然后轻点某个人的姓名。",
+            "在此人的联系人名片的右上角，轻点“编辑”。",
+            "轻点“电话铃声”或“短信铃声”，然后选取新声音。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12"
+        ]
+    }
+]

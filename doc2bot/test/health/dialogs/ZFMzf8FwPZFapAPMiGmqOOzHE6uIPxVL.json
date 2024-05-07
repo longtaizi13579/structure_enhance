@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下是不是有一种针对流感的鼻喷疫苗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "医学主题",
+            "流感疫苗"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，是需要咨询流感疫苗的接种嘛？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的接种"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的，我想问下最近2天内服用抗病毒药物治疗流感还可以接种吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的接种",
+            "最近2天内服用抗病毒药物治疗流感的人"
+        ],
+        "grounding_id": [
+            "17",
+            "44"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "最近2天内服用抗病毒药物治疗流感的人，是不适合接种的。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的接种",
+            "最近2天内服用抗病毒药物治疗流感的人"
+        ],
+        "grounding_id": [
+            "17",
+            "44"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我家里的人可以接种吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的接种",
+            "密切接触或护理免疫系统严重受损患者的人（除非接种疫苗后7天内避免接触）"
+        ],
+        "grounding_id": [
+            "17",
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您家人是否和您有密切接触？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "密切接触或护理免疫系统严重受损患者的人（除非接种疫苗后7天内避免接触）"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，我们是同吃同住，属于密切接触。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "密切接触或护理免疫系统严重受损患者的人（除非接种疫苗后7天内避免接触）"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "流感是有传染性的，如果您的家里人与您密切接触过，或者照顾过您，就不建议今天来接种。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "密切接触或护理免疫系统严重受损患者的人（除非接种疫苗后7天内避免接触）"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，朋友想给他儿子接种，可以吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的接种",
+            "所有年龄在6个月及以上的人"
+        ],
+        "grounding_id": [
+            "17",
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您朋友家小孩子多大了？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗建议用于"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "朋友家孩子2岁了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "所有年龄在6个月及以上的人"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "2岁的孩子是可以接种的，流感疫苗6个月及以上的孩子都可以接种。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "所有年龄在6个月及以上的人"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想问一下就是接种这个鼻喷疫苗会有什么副作用啊？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "流感疫苗的副作用",
+            "活病毒鼻喷疫苗有时会引起流涕、咽喉疼痛和轻度喘鸣。"
+        ],
+        "grounding_id": [
+            "57",
+            "62"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "活病毒鼻喷疫苗有时会引起流涕、咽喉疼痛和轻度喘鸣。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_免疫接种_流感疫苗.json",
+        "grounding": [
+            "活病毒鼻喷疫苗有时会引起流涕、咽喉疼痛和轻度喘鸣。"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

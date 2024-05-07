@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省衢州市养老保险的相关信息",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "养老保险"
+        ],
+        "grounding_id": [
+            "T5",
+            "T179"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道的是基本养老保险视同缴费年限核定还是基本养老保险待遇资格确认的信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道基本养老保险视同缴费年限核定的咨询方式有哪些？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有咨询电话、咨询地址和咨询网址，请问您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询地址吧",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址位于衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的那如果办理的话多长时间能有结果呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三个工作日之内就有结果通知到您",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果有法律问题的障碍的话，最迟多久能有结果呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "最迟15个工作日应该就可以有结果的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，那是需要到自助机器上办吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不需要，因为我们目前还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那就好，最终的结果多久能送达呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

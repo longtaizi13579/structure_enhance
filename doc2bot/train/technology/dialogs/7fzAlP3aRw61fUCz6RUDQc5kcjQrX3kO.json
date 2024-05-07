@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在iPhone、iPad、iPodtouch和Mac上怎样删除照片？",
+        "act": "how",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "从“我的照片流”中删除照片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果“我的照片流”没有打开怎么办？",
+        "act": "how",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "如果“我的照片流”没有打开，请改为从“照片”App中删除照片。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果“我的照片流”没有打开，请改为从“照片”App中删除照片。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "如果“我的照片流”没有打开，请改为从“照片”App中删除照片。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "当从“我的照片流”中移除照片时，哪些照片不会被删除？",
+        "act": "what",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "从“我的照片流”中删除照片",
+            "删除照片时会发生什么",
+            "当您从“我的照片流”中移除照片时，以下照片不会被删除："
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您拷贝到iOS设备上“资料库”标签或“最近项目”相簿中的照片、您导入到“照片”App的照片、拷贝到PC上不属于“我的照片流”一部分的某个文件夹中的照片。",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "您拷贝到iOS设备上“资料库”标签或“最近项目”相簿中的照片",
+            "您导入到“照片”App的照片",
+            "您拷贝到PC上不属于“我的照片流”一部分的某个文件夹中的照片"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    }
+]

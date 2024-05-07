@@ -1,0 +1,260 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我买了辆二手车，被坑了，在哪投诉二手车拍卖行？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，二手车拍卖企业的投诉您可以到各市（县、区）商务部门",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "31",
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是浙江的，浙江的在哪里？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以到浙江省杭州市下城区延安路468号浙江省商务厅机关纪委1507室进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "投诉地址",
+            "各市（县、区）商务部门、浙江省杭州市下城区延安路468号浙江省商务厅机关纪委1507室"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有投诉电话吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话：0571-87050892",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "投诉电话",
+            "0571-87050892"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想办理二手车拍卖企业备案，你们的工作时间是几点？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "二手车拍卖企业备案",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您好，我们的办理时间是：工作日上午8:30-12:00，下午14:30-17:30。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "工作日上午8:30-12:00，下午14:30-17:30"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理备案要交钱吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "二手车拍卖企业备案",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "268"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您好，目前办理二手车拍卖企业备案是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "二手车拍卖企业备案的申请条件是什么呐 ？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "二手车拍卖企业备案",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "129",
+            "132"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "受理条件是1.依法登记取得工商营业执照，申请备案登记；2.依法变更相关工商登记信息，应申请备案变更。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "1.依法登记取得工商营业执照，申请备案登记；\n",
+            "申请条件",
+            "受理条件",
+            "2.依法变更相关工商登记信息，应申请备案变更。"
+        ],
+        "grounding_id": [
+            "133",
+            "129",
+            "132",
+            "279"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那在哪里办理备案？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "办理地点",
+            "二手车拍卖企业备案"
+        ],
+        "grounding_id": [
+            "20",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "二手车拍卖企业备案的办理地点在：杭州市拱墅区延安路486号。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "杭州市拱墅区延安路486号"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我离那边还比较远，能代办吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "二手车拍卖企业备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以的，需要本人，还要采集一些本人的影像信息。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那能从网上办吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "95",
+            "98"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以，您可以在网上申请办理。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业经营_常用服务_二手车拍卖企业备案.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问办理去台湾的签注需要用到自助终端吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T240",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您要办理的是应邀赴台签注、赴台学习签注、赴台商务签注、赴台其他签注或赴台定居签注哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是应邀赴台签注",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前此项业务是不支持自助终端办理的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那是只能去现场申请？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "也可以网上申请的",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，支付费用的话是必须用现金吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "991"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "也可以使用网上支付的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "992"
+        ]
+    }
+]

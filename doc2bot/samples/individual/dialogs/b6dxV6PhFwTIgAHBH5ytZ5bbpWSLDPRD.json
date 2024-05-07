@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省台州市行驶驾驶有关的问题",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车还是行驶证驾驶证的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想办理机动车相关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想办理补换领号牌、机动车申请补换领纸质检验合格标志还是其他业务呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理补换领号牌这项业务是否支持网上支付？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "补换领号牌",
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "290",
+            "295"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "支持的。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "免检机动车申请纸质检验合格标志这项业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问下这个业务的办理时间？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "夏季为工作日上午8:30-12:00，下午2:30-5:30；冬季为工作日上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季:上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "想办理这个业务支持网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "330"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "331"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理地址在？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以去台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果还有其他问题，请问还有哪些咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "告诉我咨询地址吧。",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，地址为浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

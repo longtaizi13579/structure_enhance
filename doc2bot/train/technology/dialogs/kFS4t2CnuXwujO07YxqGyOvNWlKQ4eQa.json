@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下如何重新安装macOS",
+        "act": "how",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "如何重新安装macOS"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解通过macOS恢复功能启动，重新安装macOS，还是其他macOS安装选项",
+        "act": "multiple-choice",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "重新安装macOS"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道解锁磁盘可以不用登录密码吗",
+        "act": "verification",
+        "document": "如何重新安装macOS.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以，如果安装器要求解锁您的磁盘，请输入您在登录Mac时所使用的密码",
+        "act": "ans/no",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "请输入您在登录Mac时所使用的密码。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那可以使用macOS恢复功能重新安装Mac操作系统吗？",
+        "act": "verification",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "使用macOS恢复功能重新安装Mac操作系统。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "使用macOS恢复功能重新安装Mac操作系统。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还了解一下macOS服务器5.7.1及更高版本的信息",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢",
+        "act": "question/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道macOS服务器还会生产新版本吗",
+        "act": "verification",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "自2022年4月21日起，Apple已不再生产macOS服务器。现有的macOS服务器客户可以继续下载这个App，并将它与macOSMonterey配合使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自2022年4月21日起，Apple已不再生产macOS服务器。",
+        "act": "ans/no",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "自2022年4月21日起，Apple已不再生产macOS服务器。现有的macOS服务器客户可以继续下载这个App，并将它与macOSMonterey配合使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那现在这个APP还能继续下载吗",
+        "act": "verification",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "自2022年4月21日起，Apple已不再生产macOS服务器。现有的macOS服务器客户可以继续下载这个App，并将它与macOSMonterey配合使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "现有的macOS服务器客户可以继续下载这个App，并将它与macOSMonterey配合使用。",
+        "act": "ans/yes",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "自2022年4月21日起，Apple已不再生产macOS服务器。现有的macOS服务器客户可以继续下载这个App，并将它与macOSMonterey配合使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

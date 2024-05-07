@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我刚给孩子买了份中华怡萌少儿重大疾病保险，想咨询下合同方面的问题？",
+        "act": "what",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "中华怡萌少儿重大疾病保险  ",
+            "您与我们订立的合同"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：合同构成，合同成立及生效，投保年龄，还是合同的签收？",
+        "act": "multiple-choice",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下，什么条件下才能认定合同成立？",
+        "act": "what",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您向我们提出保险申请，我们同意承保，本合同成立。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同的生效日期按哪天算？",
+        "act": "when",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投保年龄指的是什么？",
+        "act": "what",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投保年龄指本合同生效时被保险人的年龄，投保年龄以周岁计算。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "投保年龄指本合同生效时被保险人的年龄，投保年龄以周岁（见 9.2）计算。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "system",
+        "utterance": "您了解周岁是以什么记载为准吗？",
+        "act": "verification",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "周岁",
+            "以户籍证明或其他法定的身份证件中记载的出生日期为标准计算年龄（不足 1年不计）。"
+        ],
+        "grounding_id": [
+            "184",
+            "185"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "user",
+        "utterance": "不理解，你说一下吧。",
+        "act": "ans/no",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "周岁",
+            "以户籍证明或其他法定的身份证件中记载的出生日期为标准计算年龄（不足 1年不计）。"
+        ],
+        "grounding_id": [
+            "184",
+            "185"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "以户籍证明或其他法定的身份证件中记载的出生日期为标准计算年龄。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "以户籍证明或其他法定的身份证件中记载的出生日期为标准计算年龄（不足 1年不计）。"
+        ],
+        "grounding_id": [
+            "185"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "user",
+        "utterance": "在合同期内，你们承担哪些保险责任？",
+        "act": "what",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "保险责任"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "在本合同保险期间内，我们承担重大疾病保险金。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "在本合同保险期间内，我们承担以下保险责任：",
+            "重大疾病保险金"
+        ],
+        "grounding_id": [
+            "17",
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "user",
+        "utterance": "什么条件下，会赔付重大疾病保险金？",
+        "act": "what",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "重大疾病保险金"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "system",
+        "utterance": "若被保险人首次发病并经医院确诊患本合同所列的一种或多种重大疾病，我们按照本合同约定的基本保险金额给付重大疾病保险金，本合同终止。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "若被保险人首次发病（见9.4）并经医院（见9.5）确诊患本合同所列的一种或多种重大疾病，我们按照本合同约定的基本保险金额给付重大疾病保险金，本合同终止。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您了解意外伤害指的是什么吗？",
+        "act": "verification",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "意外伤害"
+        ],
+        "grounding_id": [
+            "186"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "不了解，你说一下吧。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "意外伤害"
+        ],
+        "grounding_id": [
+            "186"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "意外伤害指遭受外来的、突发的、非本意的、非由疾病引起的使身体受到伤害的客观事17件。",
+        "act": "ans/open",
+        "document": "中华怡萌少儿重大疾病保险  .json",
+        "grounding": [
+            "意外伤害",
+            "指遭受外来的、突发的、非本意的、非由疾病引起的使身体受到伤害的客观事17件。"
+        ],
+        "grounding_id": [
+            "186",
+            "187"
+        ]
+    }
+]

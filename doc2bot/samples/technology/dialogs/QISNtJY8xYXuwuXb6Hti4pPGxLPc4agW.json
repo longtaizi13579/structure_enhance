@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问了解关于RadeonProW6600XMPX模块与MacPro搭配的问题",
+        "act": "what",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "将RadeonProW6600XMPX模块与MacPro搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，还是使用RadeonProW6600X连接显示器还是进一步了解",
+        "act": "multiple-choice",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "使用RadeonProW6600X连接显示器"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解使用Mac可以连接多少个显示器？",
+        "act": "what",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "使用RadeonProW6600X连接显示器"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以使用Mac上的雷雳端口和MPX模块上的HDMI端口连接最多5台显示器。",
+        "act": "ans/open",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "使用RadeonProW6600X连接显示器",
+            "您可以使用Mac上的雷雳端口和MPX模块上的HDMI端口连接最多5台显示器。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那要是使用了“启动转换”需要注意些什么？",
+        "act": "what",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，您可能需要在Windows中使用不同的AMD驱动程序。",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如何安装AMD图形卡及相应驱动程序",
+        "act": "how",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "安装AMD图形卡及相应驱动程序"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "安装AMD卡（如果还没有安装）。然后将显示屏接入AMD卡。在Windows中启动Mac。Windows应该会自动提示您安装AMD卡的驱动程序。如果没有自动提示您安装，请从AMD网站的“驱动与支持”页面下载并安装相应的驱动程序。 最后在Windows中重新启动Mac就可以了。",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "安装AMD图形卡及相应驱动程序",
+            "安装AMD卡（如果还没有安装）。",
+            "将显示屏接入AMD卡。",
+            "在Windows中启动Mac。",
+            "Windows应该会自动提示您安装AMD卡的驱动程序。如果没有自动提示您安装，请从AMD网站的“驱动与支持”页面下载并安装相应的驱动程序。",
+            "在Windows中重新启动Mac。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "31"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我安装了AMD提供的成品图形卡，在使用启动转换会发生什么？",
+        "act": "what",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "如果在MacPro（2019年）中安装了AMD提供的成品图形卡，则在使用“启动转换”运行MicrosoftWindows时可能会遇到以下症状："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可能会遇到与您安装的AMD图形卡相连的任何显示屏上无视频或者您Mac上的雷雳3端口相连的任何显示屏上无视频",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "如果在MacPro（2019年）中安装了AMD提供的成品图形卡，则在使用“启动转换”运行MicrosoftWindows时可能会遇到以下症状：",
+            "与您安装的AMD图形卡相连的任何显示屏上无视频",
+            "与您Mac上的雷雳3端口相连的任何显示屏上无视频"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5"
+        ]
+    }
+]

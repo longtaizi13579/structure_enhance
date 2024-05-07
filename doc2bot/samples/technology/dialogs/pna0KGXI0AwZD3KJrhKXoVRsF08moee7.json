@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPad上使用5G的问题？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "在iPad上使用5G"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解所需条件，状态栏中的 5G 图标，5G 选项，还是在状态栏中没有看到 5G？",
+        "act": "multiple-choice",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "如果在状态栏中没有看到5G"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果在状态栏中没有看到5G怎么办？",
+        "act": "how",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "如果在状态栏中没有看到5G"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果在状态栏中没有看到5G: 1.确保您正身在5G信号覆盖地区。2.前往“设置”>“蜂窝网络”>“蜂窝数据选项”。 3.打开“飞行模式”，再将它关闭。 4.如果您仍然无法使用5G服务，请联系运营商。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "如果在状态栏中没有看到5G",
+            "确保您正身在5G信号覆盖地区。如果您无法确定，请联系您的运营商。",
+            "前往“设置”>“蜂窝网络”>“蜂窝数据选项”。如果您没有看到这个屏幕，请确保您的运营商支持5G。",
+            "打开“飞行模式”，再将它关闭。",
+            "如果您仍然无法使用5G服务，请联系运营商。"
+        ],
+        "grounding_id": [
+            "37",
+            "38",
+            "39",
+            "43",
+            "47"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么确定自己是否在5G覆盖地区？",
+        "act": "how",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "确保您正身在5G信号覆盖地区。如果您无法确定，请联系您的运营商。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您无法确定，请联系您的运营商。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "确保您正身在5G信号覆盖地区。如果您无法确定，请联系您的运营商。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我没看到前往“设置”>“蜂窝网络”>“蜂窝数据选项”这个屏幕，是怎么回事？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "前往“设置”>“蜂窝网络”>“蜂窝数据选项”。如果您没有看到这个屏幕，请确保您的运营商支持5G。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您没有看到这个屏幕，请确保您的运营商支持5G。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "前往“设置”>“蜂窝网络”>“蜂窝数据选项”。如果您没有看到这个屏幕，请确保您的运营商支持5G。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在iPad上使用5G需要什么条件？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "所需条件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "所需条件：12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）；支持5G的运营商；已激活的5G蜂窝套餐。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "所需条件",
+            "12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）",
+            "支持5G的运营商",
+            "已激活的5G蜂窝套餐"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在哪里查看5G选项？",
+        "act": "what",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "了解5G选项",
+            "请前往“设置”>“蜂窝网络”>“蜂窝数据选项”以查找这些选项。"
+        ],
+        "grounding_id": [
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请前往“设置”>“蜂窝网络”>“蜂窝数据选项”以查找这些选项。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "请前往“设置”>“蜂窝网络”>“蜂窝数据选项”以查找这些选项。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "iPad使用5G网络的方式都有哪些？",
+        "act": "how",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "选取iPad使用5G网络的方式"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自动5G：启用智能数据模式。当5G速度不能提供明显更好的体验时，iPad会自动切换到LTE，以延长电池续航能力。启用5G：当5G网络可用时，始终使用5G网络。这可能会缩短电池续航能力。LTE：只使用LTE网络，即使在5G可用时也是如此。",
+        "act": "ans/open",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "自动5G：启用智能数据模式。当5G速度不能提供明显更好的体验时，iPad会自动切换到LTE，以延长电池续航能力。",
+            "启用5G：当5G网络可用时，始终使用5G网络。这可能会缩短电池续航能力。",
+            "LTE：只使用LTE网络，即使在5G可用时也是如此。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24"
+        ]
+    }
+]

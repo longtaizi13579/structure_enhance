@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下更改AppleWatch上的表盘的问题？",
+        "act": "what",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "更改AppleWatch上的表盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：如何在 Apple Watch 上切换表盘，如何在 Apple Watch 上自定表盘，如何将某个表盘添加到您的可用表盘中，如何删除 Apple Watch 上的表盘，还是如何在 Apple Watch 上隐藏“播放中”？",
+        "act": "multiple-choice",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何在AppleWatch上切换表盘"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解如何在AppleWatch上切换表盘。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何在AppleWatch上切换表盘"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先，按下数码表冠以前往表盘。然后，在表盘上，从一侧边缘向左或向右轻扫至另一侧边缘，以查看已添加到手表表盘中的各个表盘。最后，看到想要使用的表盘时停下。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "按下数码表冠以前往表盘。",
+            "在表盘上，从一侧边缘向左或向右轻扫至另一侧边缘，以查看已添加到手表表盘中的各个表盘。",
+            "看到想要使用的表盘时停下。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何在AppleWatch上隐藏“播放中”？",
+        "act": "how",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何在AppleWatch上隐藏“播放中”"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在播放音乐时，“播放中”会自动打开。以下是更改这个设置的方法：首先，打开手表上的“设置”App。 然后，轻点“通用”>“唤醒屏幕”。最后，关闭“自动启动音频App”。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "在播放音乐时，“播放中”会自动打开。以下是更改这个设置的方法：",
+            "打开手表上的“设置”App。",
+            "轻点“通用”>“唤醒屏幕”。",
+            "关闭“自动启动音频App”。"
+        ],
+        "grounding_id": [
+            "42",
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何在AppleWatch上自定表盘？",
+        "act": "how",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何在AppleWatch上自定表盘"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，按下数码表冠以前往表盘。然后，按住显示屏。 接着，向左或向右轻扫以选取某个表盘，然后轻点“编辑”。向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。向左轻扫至最左边，以编辑复杂功能，您可以使用复杂功能来查看天气、您的健身记录或其他已安装App中的信息等内容。完成后，按下数码表冠以存储您的更改。最后，轻点表盘以将它设置为当前表盘。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "按下数码表冠以前往表盘。",
+            "按住显示屏。",
+            "向左或向右轻扫以选取某个表盘，然后轻点“编辑”。",
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。",
+            "向左轻扫至最左边，以编辑复杂功能，您可以使用复杂功能来查看天气、您的健身记录或其他已安装App中的信息等内容。轻点某个复杂功能以将其选中，然后转动数码表冠对其进行更改。",
+            "完成后，按下数码表冠以存储您的更改。",
+            "轻点表盘以将它设置为当前表盘。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以更改秒针的颜色吗？",
+        "act": "verification",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以更改秒针的颜色或表盘上的标记。",
+        "act": "ans/yes",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "向左或向右轻扫以选择某个功能，然后转动数码表冠对其进行更改。例如，您可以更改秒针的颜色或表盘上的标记。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何将某个表盘添加到您的可用表盘中？",
+        "act": "how",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "如何将某个表盘添加到您的可用表盘中"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先，按下数码表冠以前往表盘。 然后，按住显示屏，向右轻扫至最右侧，然后轻点添加按钮。接着，转动数码表冠以浏览所有表盘。 在找到喜欢的表盘后，点按“添加”。 最后，连按两次数码表冠以前往新添加的表盘。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "按下数码表冠以前往表盘。",
+            "按住显示屏，向右轻扫至最右侧，然后轻点添加按钮。",
+            "转动数码表冠以浏览所有表盘。",
+            "在找到喜欢的表盘后，点按“添加”。如果这个表盘没有可用来进行自定的选项，它会立即成为您的当前表盘。否则，您可以轻扫以浏览可用的功能（如颜色和复杂功能），并对其进行调整。",
+            "连按两次数码表冠以前往新添加的表盘。"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果这个表盘没有可用来进行自定的选项怎么办？",
+        "act": "how",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "在找到喜欢的表盘后，点按“添加”。如果这个表盘没有可用来进行自定的选项，它会立即成为您的当前表盘。否则，您可以轻扫以浏览可用的功能（如颜色和复杂功能），并对其进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果这个表盘没有可用来进行自定的选项，它会立即成为您的当前表盘。否则，您可以轻扫以浏览可用的功能（如颜色和复杂功能），并对其进行调整。",
+        "act": "ans/open",
+        "document": "更改AppleWatch上的表盘.json",
+        "grounding": [
+            "在找到喜欢的表盘后，点按“添加”。如果这个表盘没有可用来进行自定的选项，它会立即成为您的当前表盘。否则，您可以轻扫以浏览可用的功能（如颜色和复杂功能），并对其进行调整。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

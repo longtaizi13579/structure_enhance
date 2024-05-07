@@ -1,0 +1,284 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于在AppleWatch上使用“程序坞”的相关问题？",
+        "act": "what",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "在AppleWatch上使用“程序坞”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询如何从AppleWatch上的“程序坞”中打开App 、选取“最近使用”或“个人收藏”、添加您收藏的App，还是如何从AppleWatch上的“程序坞”中移除App？",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "添加您收藏的App"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我在“程序坞”上收藏了多个App，想问一下我可以选取要显示或移除的App吗？",
+        "act": "verification",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "添加您收藏的App",
+            "如果您要在“程序坞”中排列收藏的App，可以选取要显示或移除的App："
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "如果您要在“程序坞”中排列收藏的App，可以选取要显示或移除的App："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体怎么操作呢？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "如果您要在“程序坞”中排列收藏的App，可以选取要显示或移除的App："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开iPhone上的WatchApp，轻点“我的手表”标签页，然后轻点“程序坞”，确保“个人收藏”已被选中；然后轻点“编辑”；最后 要存储更改，请轻点“完成”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "打开iPhone上的WatchApp。",
+            "轻点“我的手表”标签页，然后轻点“程序坞”。",
+            "确保“个人收藏”已被选中。",
+            "轻点“编辑”。",
+            "要存储更改，请轻点“完成”。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "20",
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我都可以进行哪些编辑呢？",
+        "act": "what",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "轻点“编辑”。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以移除某个App、添加某个App，还可以重新排列App。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要移除某个App，请轻点“移除”按钮，然后轻点“移除”。",
+            "要添加某个App，请轻点“添加”按钮。您最多可以添加10个App。",
+            "要重新排列App，请按住App旁边的“重新排序”按钮，然后向上或向下拖移。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "要移除某个App，我应该怎么操作？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要移除某个App，请轻点“移除”按钮，然后轻点“移除”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要移除某个App，请轻点“移除”按钮，然后轻点“移除”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要移除某个App，请轻点“移除”按钮，然后轻点“移除”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何添加某个App？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要添加某个App，请轻点“添加”按钮。您最多可以添加10个App。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要添加某个App，请轻点“添加”按钮。您最多可以添加10个App。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要添加某个App，请轻点“添加”按钮。您最多可以添加10个App。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我要重新排列App，那我应该如何操作？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要重新排列App，请按住App旁边的“重新排序”按钮，然后向上或向下拖移。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要重新排列App，请按住App旁边的“重新排序”按钮，然后向上或向下拖移。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要重新排列App，请按住App旁边的“重新排序”按钮，然后向上或向下拖移。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下，如何从AppleWatch上的“程序坞”中打开App？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "如何从AppleWatch上的“程序坞”中打开App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先按下侧边按钮，然后向上或向下轻扫，或者旋转数码表冠。最后轻点某个App以将它打开。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "按下侧边按钮。",
+            "向上或向下轻扫，或者旋转数码表冠。",
+            "轻点某个App以将它打开。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "用完后，我该如何关闭“程序坞”呢？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要关闭“程序坞”，请按下侧边按钮。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "要关闭“程序坞”，请按下侧边按钮。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "要关闭“程序坞”，请按下侧边按钮。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如何打开“最近使用”或“个人收藏”？",
+        "act": "how",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "选取“最近使用”或“个人收藏”"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先 打开iPhone上的WatchApp；然后轻点“我的手表”标签页，然后轻点“程序坞”；最后 轻点“最近使用”或“个人收藏”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“程序坞”.json",
+        "grounding": [
+            "打开iPhone上的WatchApp。",
+            "轻点“我的手表”标签页，然后轻点“程序坞”。",
+            "轻点“最近使用”或“个人收藏”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    }
+]

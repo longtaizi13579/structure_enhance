@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省嘉兴市，我想要咨询关于机动车的相关事宜。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询行驶驾驶、进口机动车注册登记还是机动车解除抵押登记的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "行驶驾驶",
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "T16",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道进口机动车注册登记的咨询地址是什么。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的咨询地址是嘉兴市南湖区南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询地址",
+            "嘉兴市南湖区南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—16号窗口"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "除了直接去现场咨询，可以打电话吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，我们的咨询电话是0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询电话",
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想询问一下申领、补领机动车登记证书的相关信息。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您是想知道申领、补领机动车登记证书办理的流程、具体地址还是办理时间呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书",
+            "具体地址",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "127",
+            "129"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道具体办理时间。",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的办理时间是工作日的上午8：30—12：00；下午2：00—5：00。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "办理时间",
+            "工作日：上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "129",
+            "130"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我想要改变车身颜色，需要去哪里进行变更登记呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的咨询地址是嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼1—8号窗口",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "30",
+            "29"
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下“通过Apple登录”功能创建帐户的问题",
+        "act": "what",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如何使用“通过Apple登录”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您是想问在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户 、在其他平台上创建“通过Apple登录”帐户还是将现有第三方帐户升级为支持“通过Apple登录”功能的帐户？",
+        "act": "multiple-choice",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问如何在iPad上创建帐户",
+        "act": "how",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上使用“通过Apple登录”功能创建帐户"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先您要在参加计划的App中或网站上，轻点“通过Apple登录”按钮，如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。进一步了解“隐藏邮件地址”。然后轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。完成操作即可",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "具体步骤",
+            "在参加计划的App中或网站上，轻点“通过Apple登录”按钮*。",
+            "如果App或网站要求您提供姓名和电子邮件地址，“通过Apple登录”功能会自动填写您AppleID中的信息。如果您愿意，可以编辑自己的姓名，然后选取“共享我的电子邮件”或“隐藏邮件地址”。进一步了解“隐藏邮件地址”。",
+            "轻点“继续”，然后通过面容ID、触控ID或设备密码确认登录。如果您没有面容ID、触控ID或者没有设置设备密码，请输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在登录这个功能之前有先前条件吗？",
+        "act": "verification",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如何使用“通过Apple登录”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "若您要使用“通过Apple登录”功能，您需要使用双重认证，并且已在您的Apple设备上使用相应AppleID登录iCloud。才能使用该功能",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如何使用“通过Apple登录”功能",
+            "要使用“通过Apple登录”功能，您需要使用双重认证，并且已在您的Apple设备上使用相应AppleID登录iCloud。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我可不可以隐藏我的邮件地址？",
+        "act": "verification",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如果您想使用“隐藏邮件地址”功能，请使用“通过Apple登录”功能创建一个新帐户。一旦将帐户转换为支持“通过Apple登录”功能的帐户，便无法再改回去。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您想使用“隐藏邮件地址”功能，请使用“通过Apple登录”功能创建一个新帐户。一旦将帐户转换为支持“通过Apple登录”功能的帐户，便无法再改回去。",
+        "act": "ans/open",
+        "document": "如何使用“通过Apple登录”功能.json",
+        "grounding": [
+            "如果您想使用“隐藏邮件地址”功能，请使用“通过Apple登录”功能创建一个新帐户。一旦将帐户转换为支持“通过Apple登录”功能的帐户，便无法再改回去。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

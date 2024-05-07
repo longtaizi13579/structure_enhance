@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前在浙江丽水市办理了驾驶人信息变化换领驾照业务，好不满意，有什么投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投诉电话、投诉地址都有，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "都需要，先告诉我电话我记一下。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉电话是0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话",
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好记下了，投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以到丽水市公安局交通警察支队警务督察大队去进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "丽水市公安局交通警察支队警务督察大队（莲都区丽青路85号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好谢谢，我还想问一下，机动车驾照升级除了去现场窗口办，可以网上申请办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "1",
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，网上申请、现场窗口都能办。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那网上办理完升级之后的驾驶证怎么给到我呢？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "核发证件",
+            "送达"
+        ],
+        "grounding_id": [
+            "1",
+            "225",
+            "234"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以到现场取走或者邮寄给到您。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "当场送达或邮寄送达。"
+        ],
+        "grounding_id": [
+            "235"
+        ]
+    }
+]

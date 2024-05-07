@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下在iPhone使用“触控调节”这个功能",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您是想知道开启“触控调节”的方法、按住持续时间、 还是调整“触控调节”设置的方法",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "开启“触控调节”的方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何开启“触控调节”",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "开启“触控调节”的方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您要前往iPhone上的WatchApp，然后选择“我的手表”，然后选择“辅助功能”。选择“触控调节”。即可",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "要通过iPhone上的WatchApp打开此功能，请按照以下步骤操作：",
+            "前往iPhone上的WatchApp。",
+            "选择“我的手表”，然后选择“辅助功能”。",
+            "选择“触控调节”。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那直接在AppleWatch上设置呢？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "在AppleWatch上设置，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果是在AppleWatch上设置的话，只需要前往“设置”，然后选择“辅助功能”。 选择“触控调节”即可",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "在AppleWatch上设置，请按照以下步骤操作：",
+            "前往“设置”，然后选择“辅助功能”。",
+            "选择“触控调节”。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那按住持续时间怎么设置？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "按住持续时间"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您要前往“设置”，然后选择“辅助功能”。选择“触控”，然后选择“触控调节”。然后打开“按住持续时间”。只要轻点-和+按钮可更改时间。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "启用“按住持续时间”的方法如下：",
+            "前往“设置”，然后选择“辅助功能”。",
+            "选择“触控”，然后选择“触控调节”。",
+            "打开“按住持续时间”。",
+            "轻点-和+按钮可更改时间。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果是在iPad上是不是更简单？",
+        "act": "verification",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上设置，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要是在iPad上的话，需要前往“设置”，然后选择“辅助功能”。 选择“触控”，然后选择“触控调节”即可",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或AppleWatch上使用“触控调节”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上设置，请按照以下步骤操作：",
+            "前往“设置”，然后选择“辅助功能”。",
+            "选择“触控”，然后选择“触控调节”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们公司在办理省级重点企业研究院认定时工作人员拖拖拉拉，我想要投诉她，能给个投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "科技创新认定",
+            "省级重点企业研究院认定",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T41",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你想要线下还是线上的投诉方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想要线下的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以拨打0571-87056409进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "0571-87056409"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能给个投诉地址吗？我怕电话打不通。",
+        "act": "where",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可以前往浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)605室。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)605室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那他们规定的办理完成的时间是多久呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法律规定的办理完成的时间是120个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "120（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理过程中要收取费用吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理这个是不收取任何费用的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    }
+]

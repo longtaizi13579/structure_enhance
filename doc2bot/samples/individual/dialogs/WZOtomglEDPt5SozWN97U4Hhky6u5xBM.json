@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T4",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "境外机动车驾驶证换证申领这个业务有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领",
+            "基本信息",
+            "办事信息",
+            "办理形式",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97",
+            "100",
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个业务的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "周一-周五，上午9:00-12：00；下午13:30-17:00（双休、法定节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "周一-周五，上午9:00-12：00；下午13:30-17:00（双休、法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问问费用有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "具体什么需要收费？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1 汽车驾驶员考试费（含一次补考）、 2 机动车驾驶证、3 补考（包括法律法规规章规定需重新进行的考试费）、4 摩托车驾驶员考试费（含一次补考），以上这些项目都要收费。",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "1\t汽车驾驶员考试费（含一次补考）"
+        ],
+        "grounding_id": [
+            "317"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "汽车驾驶员考试费（含一次补考）这个是多少钱啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "1\t汽车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "317",
+            "318"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "360元/人次",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "360元/人次"
+        ],
+        "grounding_id": [
+            "319"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": " 补考（包括法律法规规章规定需重新进行的考试费）要多少钱？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "3\t补考（包括法律法规规章规定需重新进行的考试费）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "335",
+            "336"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "80元/类",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "80元/类"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "摩托车驾驶员考试费（含一次补考）",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "4\t摩托车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "344",
+            "345"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "230元/人次",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "230元/人次"
+        ],
+        "grounding_id": [
+            "346"
+        ]
+    }
+]

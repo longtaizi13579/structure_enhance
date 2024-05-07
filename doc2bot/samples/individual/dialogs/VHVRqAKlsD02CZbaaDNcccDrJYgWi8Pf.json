@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我现在想去办理法定赴台乘务签注，得多久能下来？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "1",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您在哪个省份",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我在浙江省丽水市",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边为您查到浙江省丽水市法定办结时限为 30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）",
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "T12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么办理这个业务啊？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "100",
+            "T240"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以选择网上申请或者是去现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "101",
+            "100"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这样的话，我可不可以去现场自助办理啊？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "很抱歉，这个现在是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我如果在办理过程中遇到态度不好的人我该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们给您提供一个投诉电话，您看可以吗？",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "行",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "电话是0578-12345",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    }
+]

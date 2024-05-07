@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省衢州市新增退休人员养老保险待遇申领要办理多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "新增退休人员养老保险待遇申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "新增退休人员养老保险待遇申领承诺办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_新增退休人员养老保险待遇申领.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "基本养老保险视同缴费年限核定的申报需要哪些材料？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "需要《参保人员基本养老保险视同缴费年限核定表》、档案、确定视同缴费年限的辅助材料、居民身份证或社保卡这些材料。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "《参保人员基本养老保险视同缴费年限核定表》",
+            "档案",
+            "确定视同缴费年限的辅助材料",
+            "居民身份证或社保卡"
+        ],
+        "grounding_id": [
+            "138",
+            "157",
+            "178",
+            "199"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是不是参加过职工基本养老保险就能提出申请？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "只要符合在市本级参加职工基本养老保险并且符合视同缴费年限的规定就可以受理\n",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "1、实行职工个人缴费制度之前，具有按国家和我省规定计算的连续工龄，企业或个人可提出申请",
+            "（1）在市本级参加职工基本养老保险；",
+            "（2）符合视同缴费年限的规定"
+        ],
+        "grounding_id": [
+            "133",
+            "262",
+            "263"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "基本养老保险视同缴费年限核定要几天才能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问法定办结时限吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "基本养老保险视同缴费年限核定法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想投诉给我办理基本养老保险视同缴费年限核定的那个人要怎么投诉？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我这里有投诉电话，您需要吗？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "需要，你给我吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话是0570-3086326。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "基本养老保险视同缴费年限核定多久可以办好？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "基本养老保险视同缴费年限核定承诺办结时限是3个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想知道基本养老保险视同缴费年限核定的办理需要交多少钱？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "252"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理基本养老保险视同缴费年限核定是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "254"
+        ]
+    }
+]

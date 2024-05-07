@@ -1,0 +1,308 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省金华市涉外国人、涉港澳台居民、华侨离婚登记的信息",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省_金华市",
+            "婚姻",
+            "涉外国人、涉港澳台居民、华侨离婚登记"
+        ],
+        "grounding_id": [
+            "T6",
+            "T302",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解办理地点，办理时间，咨询方式，监督投诉方式哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道投诉方式有什么",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我可以为您提供投诉电话，投诉地址，投诉网址，您需要哪一种",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉地址在哪",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "浙江省金华市婺城区双龙南街801号信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那可以用自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，别的信息咨询有可以打的电话吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以拨打0579-82473060",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "0579-82473060"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果收费的话可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1698"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们目前不支持",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1699"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那办理的流程是什么样的？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1578"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.冷静期 4.审查 5.登记（发证）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "冷静期",
+            "审查",
+            "登记（发证）"
+        ],
+        "grounding_id": [
+            "1578",
+            "1579",
+            "1587",
+            "1595",
+            "1601",
+            "1609"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "申请的话会审核材料吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "申请",
+            "对证件材料初步审核。申请材料齐全、符合法定形式的，予以受理。申请材料不齐全或者不符合法定形式的，一次性告知申请人补齐。"
+        ],
+        "grounding_id": [
+            "1579",
+            "1580"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "会对证件材料初步审核。申请材料齐全、符合法定形式的，予以受理。申请材料不齐全或者不符合法定形式的，一次性告知申请人补齐。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "对证件材料初步审核。申请材料齐全、符合法定形式的，予以受理。申请材料不齐全或者不符合法定形式的，一次性告知申请人补齐。"
+        ],
+        "grounding_id": [
+            "1580"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那这个冷静期的时限是多久",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "冷静期",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1595",
+            "1597"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "30天",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "30天"
+        ],
+        "grounding_id": [
+            "1598"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，过程中出现不满意可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您可以通过投诉电话，投诉地址，投诉网址进行投诉",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那投诉的电话是多少？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "12345;0579-88900000;0579-82468329",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "12345;0579-88900000;0579-82468329"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

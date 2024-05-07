@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下Mac键盘快捷键的情况",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解剪切、拷贝、粘贴和其他常用快捷键还是睡眠、退出登录和关机快捷键或者是访达和系统快捷键等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "剪切、拷贝、粘贴和其他常用快捷键",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那这个您是想了解剪切、拷贝、粘贴快捷键还是其他常用快捷键",
+        "act": "multiple-choice",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想问那个再次查找快捷键是怎样的",
+        "act": "how",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-G：再次查找：查找之前所找到项目出现的下一个位置。要查找出现的上一个位置，请按Shift-Command-G。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "Command-G：再次查找：查找之前所找到项目出现的下一个位置。要查找出现的上一个位置，请按Shift-Command-G。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-G：再次查找：查找之前所找到项目出现的下一个位置。要查找出现的上一个位置，请按Shift-Command-G。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Mac要使用键盘快捷键是怎么个情况",
+        "act": "how",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键",
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键：Command（或Cmd）⌘；Shift⇧；Option（或Alt）⌥；Control（或Ctrl）⌃；CapsLock⇪；Fn",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键：",
+            "Command（或Cmd）⌘",
+            "Shift⇧",
+            "Option（或Alt）⌥",
+            "Control（或Ctrl）⌃",
+            "CapsLock⇪",
+            "Fn"
+        ],
+        "grounding_id": [
+            "3",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "Mac键盘快捷键也是可以按下某些组合键来实现通常需要鼠标才能完成的操作对吗",
+        "act": "verification",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键",
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "再问一下就是常用快捷键哪个是打开新标签页",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键",
+            "Command-T：打开新标签页。"
+        ],
+        "grounding_id": [
+            "18",
+            "31"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Command-T：打开新标签页。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-T：打开新标签页。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    }
+]

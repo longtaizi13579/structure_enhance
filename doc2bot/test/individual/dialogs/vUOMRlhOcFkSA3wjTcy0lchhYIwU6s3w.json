@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江绍兴的，我驾驶证的有效期到了，我想问一下换领驾驶证的话大概要多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "浙江省_绍兴市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T7",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "期满换领机动车驾驶证的话法定办结时限是1个工作日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我可以到那边的自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你的意思是说是否可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，就是这个意思",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以的，还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行吧，还有我朋友的行驶证弄丢了，我帮她问一下她在浙江台州那边申请补领行驶证的话，可以怎样先去申请呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "办理形式",
+            "浙江省_台州市",
+            "补换领行驶证"
+        ],
+        "grounding_id": [
+            "100",
+            "T8",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以网上申请、现场窗口申请、邮寄申请或者现场自助机申请",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，谢谢，大概要多久可以收到申请结果呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "申请办理后1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那这个补领行驶证可以在那边的自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "补换领行驶证可以自助终端办理",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，谢谢，那如果办理得非常不满意的话，可以怎么去投诉呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这边提供投诉地址，可以吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可以的，投诉地址在什么地方呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉地址在浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

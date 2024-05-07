@@ -1,0 +1,276 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省台州市机动车驾驶证初学申领的信息",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "浙江省_台州市",
+            "机动车驾驶证初学申领",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T8",
+            "1",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是否收费，收费依据，是否支持网上支付，您想了解的是什么呢",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "251"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道是否支持网上支付",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "251"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "252"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那就好，一本驾驶证多少钱呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "收费标准",
+            "2\t机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "246",
+            "263",
+            "264"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证初学申领.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "265"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个业务的设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "347"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据机动车驾驶证申领和使用规定(2016修)（公安部139号令）设定",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "机动车驾驶证申领和使用规定(2016修)（公安部139号令）"
+        ],
+        "grounding_id": [
+            "348"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有可以查询的文号呢？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "依据文号"
+        ],
+        "grounding_id": [
+            "351"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，公安部第139号令",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "公安部第139号令"
+        ],
+        "grounding_id": [
+            "352"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "主要的条款内容是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "条款内容"
+        ],
+        "grounding_id": [
+            "357"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "第五十八条机动车驾驶人户籍迁出原车辆管理所管辖区的，应当向迁入地车辆管理所申请换证。机动车驾驶人在核发地车辆管理所管辖区以外居住的，可以向居住地车辆管理所申请换证。申请时应当填写申请表，提交机动车驾驶人的身份证明和机动车驾驶证，并申报身体条件情况。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "第五十八条机动车驾驶人户籍迁出原车辆管理所管辖区的，应当向迁入地车辆管理所申请换证。机动车驾驶人在核发地车辆管理所管辖区以外居住的，可以向居住地车辆管理所申请换证。申请时应当填写申请表，提交机动车驾驶人的身份证明和机动车驾驶证，并申报身体条件情况。"
+        ],
+        "grounding_id": [
+            "358"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "了解了，当天办的话能办好吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一个工作日差不多",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那如果没有办完是不是可以投诉",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "设定，您可以选择投诉电话，投诉地址或投诉网址",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉的电话是多少",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0576-12345",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "0576-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果是军警机动车驾驶证换证申领的话是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "271",
+            "280"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "按照摩托车驾驶员考试费（含一次补考）230/人次收",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "230/人次"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    }
+]

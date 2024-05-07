@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下 眼睑和泪器疾病方面的疾病？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "眼睑和泪器疾病"
+        ],
+        "grounding_id": [
+            "T2355"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询泪囊炎 ，睑缘炎 ， 眼睑内翻和眼睑外翻 ，眼睑痉挛等疾病，具体是哪一种？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下泪囊炎的诊断方法是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎的诊断",
+            "泪囊炎",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "13",
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据症状和医生的检查来诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "症状和医生的检查"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "噢那就是说根据症状，医生作出诊断是这样吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "根据症状及相关检查结果，医生可作出泪囊炎的诊断。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "对的，根据症状及相关检查结果，医生可作出泪囊炎的诊断。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "根据症状及相关检查结果，医生可作出泪囊炎的诊断。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白，那么泪囊炎改如何治疗呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "泪囊炎分急性和慢性，您想咨询哪一种？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "治疗方式：",
+            "泪囊炎的治疗"
+        ],
+        "grounding_id": [
+            "18",
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "都说一下吧。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对于急性泪囊炎，先抗生素后手术，那对于慢性泪囊炎，直接选择手术。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "对于急性泪囊炎，先抗生素后手术",
+            "对于慢性泪囊炎，手术"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，为什么会得泪囊炎这个病呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "泪囊炎是泪囊受到感染，通常因泪（鼻泪）管阻塞导致。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_泪囊炎.json",
+        "grounding": [
+            "泪囊炎是泪囊受到感染，通常因泪（鼻泪）管阻塞导致。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": " 对了你之前还说眼睑内翻和眼睑外翻这个病，诊断方式是怎么样的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_眼睑内翻和眼睑外翻.json",
+        "grounding": [
+            "眼睑内翻和眼睑外翻的诊断",
+            "眼睑内翻和眼睑外翻",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "12",
+            "1",
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "也是根据症状和医生的检查来诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_眼睑内翻和眼睑外翻.json",
+        "grounding": [
+            "诊断方式：",
+            "症状和医生的检查"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    }
+]

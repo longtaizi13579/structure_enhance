@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省衢州市的，我想咨询下公积金提前还贷的事。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "公积金",
+            "住房公积金提前还贷"
+        ],
+        "grounding_id": [
+            "T5",
+            "T208",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想咨询住房公积金提前还贷是吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "住房公积金提前还贷"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的是的，想问问办理这项业务收不收费？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "201"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "202"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那还需要网上付款之类的吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "205"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不需要网上付款，也不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "206"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我要到什么地方进行办理呀？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以去衢州市行政服务中心，就在衢州市柯城区白云街道花园东大道169号。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有相关的咨询电话给我一个呗。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，你记下，电话是057012329。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "0570-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯我记好了，我还想问下提取住房公积金的事。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "购买自住住房提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "提取公积金，是购买自住住房提取住房公积金吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "购买自住住房提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，我想问下这项业务的投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "电话是057012345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

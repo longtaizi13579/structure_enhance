@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下，浙江省金华市电动车注册登记的地方有什么可以投诉的方式没？\t",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省_金华市",
+            "浙江省_金华市",
+            "电动自行车注册登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T6",
+            "T6",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，根据您的情况，这里有投诉电话与投诉网址，请问您需要哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "投诉电话就可以了。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "0579-12345，您记一下。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "0579-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，能不能在告诉我下投诉地址，我怕电话里描述不清楚。",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉地址：浙江省金华市婺城区双龙南街801号金华市信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在麻烦问一下，我所办理的信息，结果大约多久才能送达到我手上。",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那好，那我所办理的信息可以进行自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前是不支持的哦。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

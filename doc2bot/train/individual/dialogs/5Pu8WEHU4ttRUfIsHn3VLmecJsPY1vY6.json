@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我是浙江省温州人，我的机动车前几天被我抵押了，我现在想取回我的机动车怎么办",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T3",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你可以进行机动车解除抵押登记，您需要办理吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，那我问一下办理的时间都是什么时候",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "冬夏工作日上午8:30-11:30;下午14:00-17:00",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "冬夏工作日上午8:30-11:30;下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "登记完多长时间能送到我的手上？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一天之内就可以",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的弟弟也有些问题想问你，他也是浙江省温州人，他机动车丢失了，怎么登记？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "他需要办理机动车灭失注销登记，需要我告诉你办理地点吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理地点",
+            "机动车灭失注销登记"
+        ],
+        "grounding_id": [
+            "22",
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理地点是：温州市公安局交管局车辆管理所综合大楼二楼8至16号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理地点",
+            "温州市公安局交管局车辆管理所综合大楼二楼8至16号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "他办理的这个还需要收费吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "他平时可能比较忙，支持网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "他之后要自己询问，咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "0577-12123",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "0577-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "他的那个登记完大约多久能送到？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "登记完当天就能送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

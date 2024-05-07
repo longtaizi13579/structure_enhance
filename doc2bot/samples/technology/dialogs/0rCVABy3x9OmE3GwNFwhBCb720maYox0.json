@@ -1,0 +1,294 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何设置ProDisplayXDR？",
+        "act": "how",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置和使用AppleProDisplayXDR",
+            "设置ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "设置ProDisplayXDR包括: 为您的显示器选取位置，安装ProStand或VESA支架转换器，连接显示器，您想具体了解哪个？",
+        "act": "multiple-choice",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置ProDisplayXDR",
+            "为您的显示器选取位置",
+            "安装ProStand或VESA支架转换器",
+            "连接显示器"
+        ],
+        "grounding_id": [
+            "9",
+            "11",
+            "17",
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下选取位置需要注意些什么？",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "为您的显示器选取位置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "ProDisplayXDR使用新的原彩显示技术和双环境光传感器来监测显示器周围的光线。为了获得最佳ProDisplayXDR使用体验，放置这款显示器时，正前方或正后方不要有灯泡或其他光源。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR使用新的原彩显示技术和双环境光传感器来监测显示器周围的光线。为了获得最佳ProDisplayXDR使用体验，放置这款显示器时，正前方或正后方不要有灯泡或其他光源。或者，在“系统偏好设置”>“显示器”中关闭“原彩显示”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "ProStand好安装吗？",
+        "act": "verification",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "安装ProStand或VESA支架转换器"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "ProStand可通过磁力连接器锁定到位以轻松安装到ProDisplayXDR上。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProStand可通过磁力连接器锁定到位以轻松安装到ProDisplayXDR上。了解如何将ProDisplayXDR安装到ProStand上。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": " 连接显示器需要注意什么？",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "连接显示器"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "将随附的雷雳3Pro线缆（2米）连接到显示器上的雷雳3端口，再将另一端直接连接到Mac上的雷雳3端口，而不是通过其他雷雳3设备或集线器以菊花链形式进行连接。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "将随附的雷雳3Pro线缆（2米）连接到显示器上的雷雳3端口，再将另一端直接连接到Mac上的雷雳3端口，而不是通过其他雷雳3设备或集线器以菊花链形式进行连接。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "ProDisplayXDR上有按钮吗？",
+        "act": "verification",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR没有任何按钮，它会在您接入电源并连接到Mac时自动点亮。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "ProDisplayXDR没有任何按钮，它会在您接入电源并连接到Mac时自动点亮。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR没有任何按钮，它会在您接入电源并连接到Mac时自动点亮。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "AppleProDisplayXDR都兼容什么机型？",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "系统要求和兼容的Mac机型",
+            "兼容的Mac机型"
+        ],
+        "grounding_id": [
+            "34",
+            "39"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "ProDisplayXDR在以下Mac机型上支持6016x3384(10bpc)分辨率：2022年推出的MacStudio；019年推出的MacPro；2019年或之后推出的16英寸MacBookPro；2018年或之后推出的15英寸MacBookPro； 2021年推出的14英寸MacBookPro；2020年推出的配备四个雷雳3端口的13英寸MacBookPro；搭载AppleM1芯片的13英寸MacBookPro；2019年推出的iMac或更新机型；2020年推出的Macmini； 2020年推出的MacBookAir；已连接到BlackmagiceGPU或BlackmagiceGPUPro的配备雷雳3端口的Mac电脑。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR在以下Mac机型上支持6016x3384(10bpc)分辨率：",
+            "2022年推出的MacStudio",
+            "2019年推出的MacPro",
+            "2019年或之后推出的16英寸MacBookPro",
+            "2018年或之后推出的15英寸MacBookPro",
+            "2021年推出的14英寸MacBookPro",
+            "2020年推出的配备四个雷雳3端口的13英寸MacBookPro",
+            "搭载AppleM1芯片的13英寸MacBookPro",
+            "2019年推出的iMac或更新机型",
+            "2020年推出的Macmini",
+            "2020年推出的MacBookAir",
+            "已连接到BlackmagiceGPU或BlackmagiceGPUPro的配备雷雳3端口的Mac电脑"
+        ],
+        "grounding_id": [
+            "40",
+            "41",
+            "45",
+            "49",
+            "53",
+            "57",
+            "61",
+            "65",
+            "69",
+            "73",
+            "77",
+            "81"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "ProDisplayXDR有参考模式吗？",
+        "act": "verification",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "使用参考模式"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的。ProDisplayXDR在出厂时已针对各种专业工作流程进行了校准，包含适用于不同制作环境的诸多参考模式。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR在出厂时已针对各种专业工作流程进行了校准，包含适用于不同制作环境的诸多参考模式。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可以简单介绍下AppleProDisplayXDR的性能参数吗？",
+        "act": "verification",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR是我们的首款32英寸视网膜6K显示屏，具备6016x3384分辨率、高达1600尼特亮度、1,000,000:1的对比度，并采用P3广色域和超宽广视角。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "ProDisplayXDR是我们的首款32英寸视网膜6K显示屏，具备6016x3384分辨率、高达1600尼特亮度、1,000,000:1的对比度，并采用P3广色域和超宽广视角。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR是我们的首款32英寸视网膜6K显示屏，具备6016x3384分辨率、高达1600尼特亮度、1,000,000:1的对比度，并采用P3广色域和超宽广视角。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "与macOS集成后，都可以进行哪些设置？",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "与macOS集成后，您可以控制亮度，并且可以使用诸多内建参考模式来设置色彩空间和其他显示特性。您可以将ProDisplayXDR旋转90度，并且macOS会自动调整窗口和显示方向。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "与macOS集成后，您可以控制亮度，并且可以使用诸多内建参考模式来设置色彩空间和其他显示特性。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "与macOS集成后，您可以控制亮度，并且可以使用诸多内建参考模式来设置色彩空间和其他显示特性。您可以将ProDisplayXDR旋转90度，并且macOS会自动调整窗口和显示方向。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "将ProDisplayXDR旋转90度后，macOS会进行自动调整吗？",
+        "act": "verification",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "与macOS集成后，您可以控制亮度，并且可以使用诸多内建参考模式来设置色彩空间和其他显示特性。您可以将ProDisplayXDR旋转90度，并且macOS会自动调整窗口和显示方向。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "会的。将ProDisplayXDR旋转90度，macOS会自动调整窗口和显示方向。",
+        "act": "ans/yes",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "与macOS集成后，您可以控制亮度，并且可以使用诸多内建参考模式来设置色彩空间和其他显示特性。您可以将ProDisplayXDR旋转90度，并且macOS会自动调整窗口和显示方向。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

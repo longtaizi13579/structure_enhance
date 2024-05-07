@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于在“查找”App中设置和使用“遗落时通知”的相关问题？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询需要满足的条件、设置“遗落时通知”、查看设备的遗落位置，还是添加您不希望收到通知的位置？",
+        "act": "multiple-choice",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "需要满足的条件",
+            "设置“遗落时通知”",
+            "查看设备的遗落位置",
+            "添加您不希望收到通知的位置"
+        ],
+        "grounding_id": [
+            "3",
+            "13",
+            "19",
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，什么情况下我会收到“遗落时通知”？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”",
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我可以设置不希望收到通知吗？",
+        "act": "verification",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。",
+        "act": "ans/yes",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的iPhone已经更新到最新版本的iOS，我还需要满足什么样的条件？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "将iPhone更新到最新版本的iOS。",
+            "需要满足的条件"
+        ],
+        "grounding_id": [
+            "4",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您还需要将Apple设备和配件添加到“查找”。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "将Apple设备和配件添加到“查找”。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "“遗落时通知”还可以用于什么系统？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods，那我需要拥有什么样的手机？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您需要拥有iPhone12或更新机型。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何查看设备的遗落位置？",
+        "act": "how",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "查看设备的遗落位置"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤：首先设置“遗落时通知”后，如果您将设备或物品遗落在未知位置，您就会在iPhone上收到一条通知*；然后轻点通知以查看物品的遗落位置；最后轻点“继续”以打开“查找”App。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "具体步骤",
+            "设置“遗落时通知”后，如果您将设备或物品遗落在未知位置，您就会在iPhone上收到一条通知*。",
+            "轻点通知以查看物品的遗落位置。",
+            "轻点“继续”以打开“查找”App。在“查找”App中，您可以："
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "24"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在“查找”App中，我可以进行哪些操作？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "轻点“继续”以打开“查找”App。在“查找”App中，您可以："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以轻点“路线”以查看前往设备或物品遗落位置的路线；也可以轻点“在此处不通知我”。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "轻点“路线”以查看前往设备或物品遗落位置的路线。",
+            "轻点“在此处不通知我”（如果您不希望当设备或物品遗落在这个位置时收到通知）。"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "什么情况下，需要轻点“在此处不通知我”？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "轻点“在此处不通知我”（如果您不希望当设备或物品遗落在这个位置时收到通知）。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您不希望当设备或物品遗落在这个位置时收到通知，可以轻点“在此处不通知我”。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "轻点“在此处不通知我”（如果您不希望当设备或物品遗落在这个位置时收到通知）。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

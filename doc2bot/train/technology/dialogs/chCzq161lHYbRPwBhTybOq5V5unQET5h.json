@@ -1,0 +1,368 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些在iPhone、iPad、iPodtouch或Mac上隐藏照片的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或Mac上隐藏照片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询如何在iPhone、iPad或iPodtouch上隐藏照片还是如何在Mac上隐藏照片？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "如何在Mac上隐藏照片"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我以前在电脑上隐藏了些照片，现在想取消了。想问一下，如何在Mac上取消隐藏照片？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "如何在Mac上隐藏照片",
+            "在Mac上取消隐藏照片"
+        ],
+        "grounding_id": [
+            "28",
+            "38"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“照片”。在菜单栏中，选取“显示”>“显示‘已隐藏’照片相簿”，在边栏中，选择“已隐藏”；然后选择要取消隐藏的照片或视频；最后按住Control键点按相应的照片，然后选取“取消隐藏照片”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "打开“照片”。在菜单栏中，选取“显示”>“显示‘已隐藏’照片相簿”。",
+            "在边栏中，选择“已隐藏”。",
+            "选择要取消隐藏的照片或视频。",
+            "按住Control键点按相应的照片，然后选取“取消隐藏照片”。您也可以从菜单栏中选取“图像”>“取消隐藏照片”，或按下Command-L。"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "最后一步还有其他方法吗？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "按住Control键点按相应的照片，然后选取“取消隐藏照片”。您也可以从菜单栏中选取“图像”>“取消隐藏照片”，或按下Command-L。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您也可以从菜单栏中选取“图像”>“取消隐藏照片”，或按下Command-L。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "按住Control键点按相应的照片，然后选取“取消隐藏照片”。您也可以从菜单栏中选取“图像”>“取消隐藏照片”，或按下Command-L。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想了解一些在iPhone、iPad或iPodtouch上隐藏照片的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上隐藏照片"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想了解如何在iPhone、iPad或iPodtouch上隐藏照片的具体步骤、查找“已隐藏”相簿还是如何在iPhone、iPad或iPodtouch上取消隐藏照片？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "查找“已隐藏”相簿"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在iPhone上，“已隐藏”相簿在默认情况下处于什么状态？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "查找“已隐藏”相簿",
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我可以将他关闭吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我关闭后，已隐藏的照片就都不会显示在“照片”App中了吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我具体怎么查找“已隐藏”相簿？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，“已隐藏”相簿在默认情况下处于打开状态，但您可以将它关闭。当您关闭“已隐藏”相簿后，已隐藏的任何照片或视频都不会显示在“照片”App中。要查找“已隐藏”相簿，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先打开“照片”，然后轻点“相簿”标签页；然后向下滚动，然后在“实用工具”下查找“已隐藏”相簿。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "打开“照片”，然后轻点“相簿”标签页。",
+            "向下滚动，然后在“实用工具”下查找“已隐藏”相簿。如果您使用的是iPad，则可能需要轻点左上角的边栏图标，然后向下滚动，直到在“实用工具”下看到“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果我使用的是iPad呢？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "向下滚动，然后在“实用工具”下查找“已隐藏”相簿。如果您使用的是iPad，则可能需要轻点左上角的边栏图标，然后向下滚动，直到在“实用工具”下看到“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您使用的是iPad，则可能需要轻点左上角的边栏图标，然后向下滚动，直到在“实用工具”下看到“已隐藏”相簿。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "向下滚动，然后在“实用工具”下查找“已隐藏”相簿。如果您使用的是iPad，则可能需要轻点左上角的边栏图标，然后向下滚动，直到在“实用工具”下看到“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上隐藏照片的具体步骤是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上隐藏照片",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先打开“照片”，选择要隐藏的照片或视频；然后 轻点“共享”按钮，然后轻点“隐藏”；最后确认您想要隐藏所选的照片或视频。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "打开“照片”。",
+            "选择要隐藏的照片或视频。",
+            "轻点“共享”按钮，然后轻点“隐藏”。",
+            "确认您想要隐藏所选的照片或视频。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "当我隐藏照片后，要去哪里找？",
+        "act": "where",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "当您隐藏照片和视频后，它们会移到“已隐藏”相簿，因此不会显示在您的“图库”、其他相簿或主屏幕上的“照片”小组件中。在iOS14中，您可以关闭“已隐藏”相簿，从而使照片完全隐藏。您可以随时取消隐藏照片和视频，也可以随时重新打开“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "它们会移到“已隐藏”相簿，您可以去哪里看。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "当您隐藏照片和视频后，它们会移到“已隐藏”相簿，因此不会显示在您的“图库”、其他相簿或主屏幕上的“照片”小组件中。在iOS14中，您可以关闭“已隐藏”相簿，从而使照片完全隐藏。您可以随时取消隐藏照片和视频，也可以随时重新打开“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "在iOS14中，我都可以进行哪些操作？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "当您隐藏照片和视频后，它们会移到“已隐藏”相簿，因此不会显示在您的“图库”、其他相簿或主屏幕上的“照片”小组件中。在iOS14中，您可以关闭“已隐藏”相簿，从而使照片完全隐藏。您可以随时取消隐藏照片和视频，也可以随时重新打开“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "在iOS14中，您可以关闭“已隐藏”相簿，从而使照片完全隐藏。您可以随时取消隐藏照片和视频，也可以随时重新打开“已隐藏”相簿。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "当您隐藏照片和视频后，它们会移到“已隐藏”相簿，因此不会显示在您的“图库”、其他相簿或主屏幕上的“照片”小组件中。在iOS14中，您可以关闭“已隐藏”相簿，从而使照片完全隐藏。您可以随时取消隐藏照片和视频，也可以随时重新打开“已隐藏”相簿。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "在iPad上，我如何取消隐藏照片？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上取消隐藏照片",
+            "在iPad上："
+        ],
+        "grounding_id": [
+            "10",
+            "16"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "首先 打开“照片”。如果边栏处于隐藏状态，请轻点左上角的边栏图标，向下滚动，直到在“实用工具”下看到“已隐藏”。然后轻点要取消隐藏的照片或视频。最后轻点“共享”按钮，然后轻点“取消隐藏”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或Mac上隐藏照片.json",
+        "grounding": [
+            "打开“照片”。如果边栏处于隐藏状态，请轻点左上角的边栏图标。",
+            "向下滚动，直到在“实用工具”下看到“已隐藏”。",
+            "轻点要取消隐藏的照片或视频。",
+            "轻点“共享”按钮，然后轻点“取消隐藏”。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    }
+]

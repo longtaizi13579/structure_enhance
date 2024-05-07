@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解机动车注册登记相关事项。",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "行驶驾驶",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T16",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你是想了解什么地区的国产机动车注册事项呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江省宁波市的。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问你是要了解宁波市国产机动车登记证书收费条例还是办理的工作日时长呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我要了解机动车的收费条例",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车登记证书每本10元。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "请问一下残疾人机动轮椅车注册登记大概要用多少天？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要一个工作日才可以。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请问我多久才能收到证件的呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "请问残疾人机动轮椅车登记可以网上办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "网上申请或现场窗口申请都是可以的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那么可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "十分抱歉，暂时不支持的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

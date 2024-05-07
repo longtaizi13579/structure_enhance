@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": " 你好，我是浙江丽水市的，办理临时入境机动车驾驶证申领的时候，感觉非常不满意，问一下投诉电话是什么？  ",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车驾驶许可申领.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市",
+            "临时入境机动车驾驶许可申领",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12",
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边的投诉电话您记一下 0578-12345",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车驾驶许可申领.json",
+        "grounding": [
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "谢谢，我还有个问题，我的驾照需要升级，可以网上支付么？  ",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "266"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以网上支付的",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那相关费用是怎么收的呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您要询问的是摩托车驾驶员考试费还是汽车驾驶员考试费呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t汽车驾驶员考试费（含一次补考）"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问汽车驾驶员考试的收费标准是咋收的？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t汽车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "287",
+            "288"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，这个是含一次补考费的，收费标准是1人360元",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "360元/人次"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，已经包含一次补考了，那如果这次补考没过，再补考是不是要交费了呀？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，而且会收取一定补考费用，补考一个类别，一次是80元",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "80元/类，次"
+        ],
+        "grounding_id": [
+            "271"
+        ]
+    }
+]

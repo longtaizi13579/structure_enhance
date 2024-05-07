@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下AppleUSB电源适配器是否安全？",
+        "act": "verification",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "关于AppleUSB电源适配器",
+            "Apple把客户的安全放在首位。因此，所有Apple产品（包括USB电源适配器）都经过严格的安全性和可靠性测试，并符合世界各地的政府安全标准。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，放心吧，Apple把客户的安全放在首位。因此，所有Apple产品（包括USB电源适配器）都经过严格的安全性和可靠性测试，并符合世界各地的政府安全标准。",
+        "act": "ans/open",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "Apple把客户的安全放在首位。因此，所有Apple产品（包括USB电源适配器）都经过严格的安全性和可靠性测试，并符合世界各地的政府安全标准。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "明白了，我想问一些关于AppleUSB电源适配器的相关问题？",
+        "act": "what",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "关于AppleUSB电源适配器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想咨询5WUSB电源适配器、10WUSB电源适配器、12WUSB电源适配器、18WUSB-C电源适配器还是其他？",
+        "act": "multiple-choice",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "5WUSB电源适配器"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下了解一下5WUSB电源适配器。",
+        "act": "ans/open",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "5WUSB电源适配器"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "大多数早于iPhone11的iPhone机型的包装盒内都随附一个5W电源适配器。",
+        "act": "ans/open",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "大多数早于iPhone11的iPhone机型的包装盒内都随附一个5W电源适配器。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "现在的Apple产品依然会随附AppleUSB电源适配器和线缆吗？",
+        "act": "verification",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "本概览可以协助您识别Apple的USB电源适配器。许多Apple产品都会随附AppleUSB电源适配器和线缆，您也可以从Apple和Apple授权经销商处单独购买。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "本概览可以协助您识别Apple的USB电源适配器。许多Apple产品都会随附AppleUSB电源适配器和线缆，您也可以从Apple和Apple授权经销商处单独购买。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果没有AppleUSB电源适配器和线缆，我还可以从什么地方买到？",
+        "act": "where",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "本概览可以协助您识别Apple的USB电源适配器。许多Apple产品都会随附AppleUSB电源适配器和线缆，您也可以从Apple和Apple授权经销商处单独购买。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您也可以从Apple和Apple授权经销商处单独购买。",
+        "act": "ans/open",
+        "document": "关于AppleUSB电源适配器.json",
+        "grounding": [
+            "本概览可以协助您识别Apple的USB电源适配器。许多Apple产品都会随附AppleUSB电源适配器和线缆，您也可以从Apple和Apple授权经销商处单独购买。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

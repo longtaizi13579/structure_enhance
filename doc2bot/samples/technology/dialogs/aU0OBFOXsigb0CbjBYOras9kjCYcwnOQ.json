@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近在使用手机里的通知中心的小组件，想问一下这个小组件可以怎么添加或者移除呢？",
+        "act": "how",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "使用“通知中心”中的小组件",
+            "如何添加或移除小组件"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果从“通知中心”中移除小组件的话：在“编辑小组件”视图中，点按相应小组件一角的“移除”按钮。然后，点按“完成”。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "在“编辑小组件”视图中，点按相应小组件一角的“移除”按钮。然后，点按“完成”。",
+            "从“通知中心”中移除小组件"
+        ],
+        "grounding_id": [
+            "13",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "明白，还有我想了解一下这个手机里的健康App的相关使用信息。",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您使用的是iPhone、华为、VIVO还是其他的呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我用的是苹果手机",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您想了解添加您的健康信息、选择您喜欢的类别进行跟踪、选择要与健康共享信息的App还是其他的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App",
+            "添加您的健康信息"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一个个了解一下吧，先了解这个怎么添加健康信息呢？",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "添加您的健康信息"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "添加您的健康信息:首先打开“健康”App，然后轻点“浏览”标签。然后 轻点一个类别，例如，“健身记录”。轻点一个子类别，例如“步数”。轻点右上角的“添加数据”。再输入该活动的日期、时间和数据。最后完成后，轻点“添加”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "添加您的健康信息",
+            "打开“健康”App，然后轻点“浏览”标签。",
+            "轻点一个类别，例如，“健身记录”。",
+            "轻点一个子类别，例如“步数”。",
+            "轻点右上角的“添加数据”。",
+            "输入该活动的日期、时间和数据。",
+            "完成后，轻点“添加”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，那要选择喜欢的类别进行跟踪具体步骤是什么呢？",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "选择您喜欢的类别进行跟踪",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤: 首先打开“健康”App，然后轻点“摘要”标签。 然后轻点右上角的“编辑”。 要在个人收藏中添加或删除类别，请轻点它。带有蓝色星星的类别会出现在您的个人收藏中。 最后完成后，轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "具体步骤",
+            "打开“健康”App，然后轻点“摘要”标签。",
+            "轻点右上角的“编辑”。",
+            "要在个人收藏中添加或删除类别，请轻点它。带有蓝色星星的类别会出现在您的个人收藏中。",
+            "完成后，轻点“完成”。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "了解了，那选择要与健康共享信息的App这个具体可以怎么操作呢？",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "选择要与健康共享信息的App"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤: 首先打开“健康”App，然后轻点“摘要”标签。 轻点右上角的个人头像。 再在“隐私”下，轻点“App”。您可以看到您已拥有的与“健康”兼容的App。如果您没有看到某个App，则说明它可能不兼容。 最后轻点一个App，然后打开您希望该App跟踪的健康类别。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "具体步骤",
+            "打开“健康”App，然后轻点“摘要”标签。",
+            "轻点右上角的个人头像。",
+            "在“隐私”下，轻点“App”。您可以看到您已拥有的与“健康”兼容的App。如果您没有看到某个App，则说明它可能不兼容。",
+            "轻点一个App，然后打开您希望该App跟踪的健康类别。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    }
+]

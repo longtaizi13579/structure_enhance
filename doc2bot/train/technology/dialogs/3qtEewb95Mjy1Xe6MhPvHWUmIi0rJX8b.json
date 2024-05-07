@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下更改AppleID或密码后该如何操作？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "更改AppleID或密码后该如何操作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解哪些服务的操作：FaceTime通话，AppleDeveloperProgram， AppleStore在线商店，iCloud，还是其它？",
+        "act": "multiple-choice",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "FaceTime通话"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下FaceTime通话上的操作。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "FaceTime通话"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是在iPhone、iPad、iPodtouch上，还是在Mac上更新您的AppleID和密码？",
+        "act": "multiple-choice",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch和Mac上更新您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我是在iPhone上更改的密码。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "前往“设置”>“FaceTime通话”。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您需要前往“设置”>“FaceTime通话”进行操作。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "前往“设置”>“FaceTime通话”。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我已经在iPhone上退出登录了，是不是只需要轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码？",
+        "act": "verification",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "如果您已在iPhone或iPodtouch上退出登录，"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "请轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码。在iPad上，输入更新后的AppleID和密码即可。"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我已使用以前的AppleID登录该怎么办？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "请轻点您的AppleID，然后轻点“退出登录”。在iPhone或iPodtouch上，轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码以登录。在iPad上，输入更新后的AppleID和密码即可。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您已使用以前的AppleID登录，请轻点您的AppleID，然后轻点“退出登录”。在iPhone或iPodtouch上，轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码以登录。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "请轻点您的AppleID，然后轻点“退出登录”。在iPhone或iPodtouch上，轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码以登录。在iPad上，输入更新后的AppleID和密码即可。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在iPad上，是不是输入更新后的AppleID和密码即可？",
+        "act": "verification",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "请轻点您的AppleID，然后轻点“退出登录”。在iPhone或iPodtouch上，轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码以登录。在iPad上，输入更新后的AppleID和密码即可。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "请轻点您的AppleID，然后轻点“退出登录”。在iPhone或iPodtouch上，轻点“使用AppleID登录‘FaceTime通话’”，然后输入更新后的AppleID和密码以登录。在iPad上，输入更新后的AppleID和密码即可。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果是在装有OSXMountainLion的Mac上，应该怎么操作？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "装有OSXMountainLion或更高版本的Mac"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先，打开“FaceTime通话”应用。然后，选择“FaceTime通话”>“偏好设置”。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "打开“FaceTime通话”应用。",
+            "选择“FaceTime通话”>“偏好设置”。"
+        ],
+        "grounding_id": [
+            "49",
+            "50"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我已经退出登录怎么办？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "如果您已退出登录，请输入更新后的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您已退出登录，请输入更新后的AppleID和密码。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "如果您已退出登录，请输入更新后的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果我已经使用以前的AppleID登录该怎么办？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "如果您已使用以前的AppleID登录，请选择您的AppleID并点按“退出登录”。然后在系统提示您进行确认时，再次点按“退出登录”，并输入更新后的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您已使用以前的AppleID登录，请选择您的AppleID并点按“退出登录”。然后在系统提示您进行确认时，再次点按“退出登录”，并输入更新后的AppleID和密码。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "如果您已使用以前的AppleID登录，请选择您的AppleID并点按“退出登录”。然后在系统提示您进行确认时，再次点按“退出登录”，并输入更新后的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    }
+]

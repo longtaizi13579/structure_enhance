@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要办理一个去台湾定居的签注，现在人在浙江丽水市，想问一下得几天能办下来？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "办理流程",
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1",
+            "1794",
+            "1797",
+            "1798"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边查到是需要两个工作日可以完成。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "1799"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，有什么方式可以先咨询一下？看看需要准备什么材料。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "1",
+            "124"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "联系电话和联系地址都有，您看需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "电话是多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "联系电话",
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "129",
+            "124"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您记一下，0578-2786331。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "0578-2786331"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，赴台定居签注的申请条件是什么呢？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "134"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注。"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在丽水市行政服务中心3楼出入境办证中心1-8号窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "丽水市行政服务中心（丽水市人民街607号（商会大厦））3楼出入境办证中心1-8号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我担心办理过程中有不满意地方，可以给我一个投诉方式吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉电话可以吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以的，电话是多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有任何不满意您可以拨打0578-12345进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

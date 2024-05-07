@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询常用服务的有关问题吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T138"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，申请遗失补领机动车驾驶证这项服务有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "153",
+            "154"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "没有的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果驾驶证记满12分还能办理吗",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "156"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形才可以受理。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "157"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有什么情况是不能办理的呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "158"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "159"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果要办理这个业务，要去哪里呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以去宁波市公安局交通警察局车辆管理所（宁波市鄞州区福明街道中兴北路33号）前大厅一楼3-10号窗口、后大厅8-20号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "宁波市公安局交通警察局车辆管理所（宁波市鄞州区福明街道中兴北路33号）前大厅一楼3-10号窗口、后大厅8-20号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以网上支付费用吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么东西是需要收费的呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "310"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "机动车驾驶证要收费。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那具体是怎么收费的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "十元一本。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "313"
+        ]
+    }
+]

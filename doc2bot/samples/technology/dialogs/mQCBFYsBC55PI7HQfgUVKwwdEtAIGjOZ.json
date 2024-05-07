@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如果您忘记了Mac登录密码应该怎么办？",
+        "act": "how",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "如果您忘记了Mac登录密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，如果您忘记了Mac用户帐户的登录密码，请在登录窗口中选取一个重设选项。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "请在登录窗口中选取一个重设选项。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "从登录窗口中都会看到哪些重设选项？",
+        "act": "what",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "从登录窗口中选取一个重设选项"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您会看到以下任一密码重设选项：如果您看到使用您的AppleID进行重设的选项；如果您看到用于重新启动并显示密码选项的选项；如果您看到使用您的恢复密钥进行重设的选项。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "要看到以下任一密码重设选项，请点按登录窗口中密码栏旁边的问号。如果您没有看到问号，请输入任意密码三次。",
+            "如果您看到使用您的AppleID进行重设的选项",
+            "如果您看到用于重新启动并显示密码选项的选项",
+            "如果您看到使用您的恢复密钥进行重设的选项"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "23",
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "要看到以上任一密码重设选项，应该如何操作？",
+        "act": "how",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "要看到以下任一密码重设选项，请点按登录窗口中密码栏旁边的问号。如果您没有看到问号，请输入任意密码三次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请点按登录窗口中密码栏旁边的问号。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "要看到以下任一密码重设选项，请点按登录窗口中密码栏旁边的问号。如果您没有看到问号，请输入任意密码三次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的没有问号该怎么办？",
+        "act": "how",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "要看到以下任一密码重设选项，请点按登录窗口中密码栏旁边的问号。如果您没有看到问号，请输入任意密码三次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您没有看到问号，请输入任意密码三次。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "要看到以下任一密码重设选项，请点按登录窗口中密码栏旁边的问号。如果您没有看到问号，请输入任意密码三次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "开始之前要注意些什么？",
+        "act": "what",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "开始之前"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "确保您的Mac已连接到互联网，并且运行的是macOSCatalina或更高版本。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "确保您的Mac已连接到互联网，并且运行的是macOSCatalina或更高版本。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我的电脑出现了“如果您看到使用您的恢复密钥进行重设的选项”，具体我该如何操作？",
+        "act": "how",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "如果您看到使用您的恢复密钥进行重设的选项"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先点按使用恢复密钥进行重设的选项，然后输入您的文件保险箱恢复密钥。然后输入您的新密码信息，然后点按“重设密码”。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "点按使用恢复密钥进行重设的选项，然后输入您的文件保险箱恢复密钥。您在打开文件保险箱并选择创建恢复密钥而不允许您的iCloud帐户(AppleID)解锁您的磁盘时，会收到这个恢复密钥。",
+            "输入您的新密码信息，然后点按“重设密码”。"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么情况下，会收到恢复密钥的信息？",
+        "act": "what",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "点按使用恢复密钥进行重设的选项，然后输入您的文件保险箱恢复密钥。您在打开文件保险箱并选择创建恢复密钥而不允许您的iCloud帐户(AppleID)解锁您的磁盘时，会收到这个恢复密钥。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您在打开文件保险箱并选择创建恢复密钥而不允许您的iCloud帐户(AppleID)解锁您的磁盘时，会收到这个恢复密钥。",
+        "act": "ans/open",
+        "document": "如果您忘记了Mac登录密码.json",
+        "grounding": [
+            "点按使用恢复密钥进行重设的选项，然后输入您的文件保险箱恢复密钥。您在打开文件保险箱并选择创建恢复密钥而不允许您的iCloud帐户(AppleID)解锁您的磁盘时，会收到这个恢复密钥。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    }
+]

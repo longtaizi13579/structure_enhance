@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我驾驶证到期了想要去换证，能给我一个咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "行驶驾驶",
+            "行驶证驾驶证",
+            "达到规定年龄换领机动车驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T16",
+            "T89",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你是需要什么省份的咨询方式呢？",
+        "act": "question/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是在浙江省温州市换证。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式",
+            "浙江省_温州市"
+        ],
+        "grounding_id": [
+            "26",
+            "T3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你是想要线上还是线下的咨询方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想要线下的，方便一点。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可以前温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有咨询电话吗？我不想去。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以拨0577-12123进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "0577-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我多久能拿到驾驶证呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "从做出决定的一个工作日内你就可以拿到。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那要支付费用，我能在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "357"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可以直接在网上支付的。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "358"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我要到哪里办理了？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你可以去温州市公安局交管局车辆管理所综合大楼二楼8-12号窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "温州市公安局交管局车辆管理所综合大楼二楼8-12号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    }
+]

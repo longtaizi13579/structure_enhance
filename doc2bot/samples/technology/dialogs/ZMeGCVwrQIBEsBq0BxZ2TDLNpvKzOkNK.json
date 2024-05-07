@@ -1,0 +1,294 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在使用Apple相机转换器导入照片时，没有看到“导入”标签，我现在该怎么做？",
+        "act": "how",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "如果没有看到导入选项",
+            "使用Apple相机转换器导入照片"
+        ],
+        "grounding_id": [
+            "17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，可以根据以下步骤操作：首先确保数码相机已开机然后断开转换器连接，等待30秒，然后重新连接转换器。还要断开与数码相机或SD卡的连接，等待30秒，然后重新连接。再重新启动iOS设备，然后关闭再重新开启相机。如果有其他数码相机或SD卡使用它们测试一下。进行测试",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "如果您没有看到“导入”标签，请按照以下步骤操作：",
+            "确保数码相机已开机并处于可导出图像的正确模式下。",
+            "断开转换器连接，等待30秒，然后重新连接转换器。",
+            "断开与数码相机或SD卡的连接，等待30秒，然后重新连接。",
+            "重新启动iOS设备，然后关闭再重新开启相机。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那第一步能详细的讲一下吗？",
+        "act": "verification",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "如果没有看到导入选项"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先要确保数码相机已开机并处于可导出图像的正确模式下。",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "确保数码相机已开机并处于可导出图像的正确模式下。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我已经断开转换器和数码相机的连接了，然后干什么？",
+        "act": "what",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "断开转换器连接，等待30秒，然后重新连接转换器。",
+            "断开与数码相机或SD卡的连接，等待30秒，然后重新连接。"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "然后需要重新启动iOS设备，然后关闭再重新开启相机",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "重新启动iOS设备，然后关闭再重新开启相机。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个Apple相机转换器都能导什么？",
+        "act": "what",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "使用Apple相机转换器导入照片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Apple相机转换器可以从数码相机或SD卡导入多种类型的媒体文件。",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "Apple相机转换器可以从数码相机或SD卡导入多种类型的媒体文件。如果文件格式与iOS不兼容，您将无法在设备上查看这些文件，但稍后可将这些文件导入电脑。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我按照你的要求做了，那为什么我有的文件看不到？",
+        "act": "why",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "如果无法导入某些内容"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果文件格式与iOS不兼容，您将无法在设备上查看这些文件，但稍后可将这些文件导入电脑。",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "如果无法导入某些内容",
+            "Apple相机转换器只能导入由数码相机拍摄的内容。您可能无法导入已重命名、已编辑或拷贝到数码相机或SD卡的内容。"
+        ],
+        "grounding_id": [
+            "24",
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那要是SD卡，如何操作",
+        "act": "how",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "要从SD卡或数码相机导入，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先将转换器连接至iOS设备。 然后通过USB将数码相机连接至转换器，或者插入SD卡。“照片”应该会自动打开，并显示“导入”标签。如果没有，请打开“照片”并轻点“导入”。 轻点“导入全部”以导入内容，或轻点具体项目，然后轻点“导入”。 完成导入后，系统可能提示您“保留”还是“删除”相机或SD卡中的媒体。",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "要从SD卡或数码相机导入，请按照以下步骤操作：",
+            "将转换器连接至iOS设备。",
+            "通过USB将数码相机连接至转换器，或者插入SD卡。",
+            "“照片”应该会自动打开，并显示“导入”标签。如果没有，请打开“照片”并轻点“导入”。",
+            "轻点“导入全部”以导入内容，或轻点具体项目，然后轻点“导入”。",
+            "完成导入后，系统可能提示您“保留”还是“删除”相机或SD卡中的媒体。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "第一步是什么？我没跟上",
+        "act": "what",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "要从SD卡或数码相机导入，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先将转换器连接至iOS设备",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "将转换器连接至iOS设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我没有导入标签啊",
+        "act": "why",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "“照片”应该会自动打开，并显示“导入”标签。如果没有，请打开“照片”并轻点“导入”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果没有，请打开“照片”并轻点“导入”",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "“照片”应该会自动打开，并显示“导入”标签。如果没有，请打开“照片”并轻点“导入”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那为什么我的SD卡还是导不进去？",
+        "act": "why",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "您只能将内容导入iPhone、iPad或iPodtouch，而无法将内容导出至SD卡或数码相机。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您只能将内容导入iPhone、iPad或iPodtouch，而无法将内容导出至SD卡或数码相机。",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "您只能将内容导入iPhone、iPad或iPodtouch，而无法将内容导出至SD卡或数码相机。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那我想把照片从SD卡导入到IOS中，我可以用什么设备？",
+        "act": "what",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "为了将照片和视频从SD卡、数码相机或其他受支持的配件导入iOS设备，您可以使用以下辅助设备之一："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您可以使用以下辅助设备的其中之一： 闪电转SD卡相机读卡器或者 闪电转USB3相机转换器或者 闪电转USB相机转换器或者AppleUSB-C转SD卡读卡器",
+        "act": "ans/open",
+        "document": "使用Apple相机转换器导入照片.json",
+        "grounding": [
+            "为了将照片和视频从SD卡、数码相机或其他受支持的配件导入iOS设备，您可以使用以下辅助设备之一：",
+            "闪电转SD卡相机读卡器",
+            "闪电转USB3相机转换器",
+            "闪电转USB相机转换器",
+            "AppleUSB-C转SD卡读卡器"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    }
+]

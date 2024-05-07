@@ -1,0 +1,274 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省温州市，想要咨询下关于降低准驾车型换领机动车驾驶证的事宜。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_温州市",
+            "行驶驾驶",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T3",
+            "T16",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想咨询自愿降低准驾车型换领机动车驾驶证还是身体条件变化降低准驾车型换领机动车驾驶证？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自愿降低准驾车型换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是想问问自愿降低准驾车型换领机动车驾驶证，可以去什么地方进行咨询？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自愿降低准驾车型换领机动车驾驶证",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以到温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台咨询。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "温州市鹿城区过境路298号温州市车管所综合大楼二楼咨询台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你再给我个咨询电话吧，我先打电话问问。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，你记下，电话是057712123。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "0577-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个有什么项目需要收费吗？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "245"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要收取机动车驾驶证的费用。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "246"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那费用是多少啊？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "247"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "10元一本。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，谢谢，我还想问下关于驾驶证信息变化换领的事宜。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是想咨询驾驶人信息变化换领机动车驾驶证的事吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的就是想问问这个是根据什么进行设定的？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "226"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个是根据机动车驾驶证申领和使用规定(2016修)（公安部139号令）设定的。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "机动车驾驶证申领和使用规定(2016修)（公安部139号令）"
+        ],
+        "grounding_id": [
+            "227"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个机动车驾驶证申领和使用规定，公安部139号令，都包括什么啊？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "机动车驾驶证申领和使用规定(2016修)（公安部139号令）"
+        ],
+        "grounding_id": [
+            "227"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有依据文号，颁布机关，实施日期，条款内容，这几项。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "依据文号",
+            "颁布机关",
+            "实施日期",
+            "条款内容"
+        ],
+        "grounding_id": [
+            "230",
+            "232",
+            "234",
+            "236"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我知道了，那你给我个投诉地址吧，我这个总是有问题。",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "你可以去温州市公安局，就是温州市鹿城区滨江街道惠民路十二间桥信访接待窗口进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "温州市公安局（温州市鹿城区滨江街道惠民路十二间桥）信访接待窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，那关于这方面的咨询电话，你再给我下吧。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "嗯，你记下，电话是057712123。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "0577-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

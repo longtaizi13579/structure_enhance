@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下macOS和macOS服务器中提供的服务的相关问题？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS和macOS服务器中提供的服务"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想了解macOS服务器5.12及更高版本中包含的服务、macOS服务器5.7.1至5.11.1中包含的服务、从macOS服务器迁移到macOSBigSur及更高版本的服务还是从macOS服务器迁移至macOSHighSierra及更高版本的服务？",
+        "act": "multiple-choice",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.12及更高版本中包含的服务"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道macOS服务器5.12及更高版本中都包含哪些服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.12及更高版本中包含的服务"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "macOS服务器5.12及更高版本中包含并完全支持以下服务：描述文件管理器、OpenDirectory。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.12及更高版本中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，macOS服务器5.7.1至5.11.1中都包含什么服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含的服务"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：描述文件管理器、OpenDirectory、Xsan。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory",
+            "Xsan"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "macOSBigSur及更高版本中包含用于Xsan管理的命令行工具吗？",
+        "act": "verification",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "从macOS服务器迁移到macOSBigSur及更高版本的服务",
+            "macOSBigSur及更高版本中包含用于Xsan管理的命令行工具。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOSBigSur及更高版本中包含用于Xsan管理的命令行工具。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "关于macOS服务器5.7.1及更高版本需要了解些什么？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要了解macOS服务器中提供了哪些服务，以及已将哪些服务从macOS服务器迁移到了macOS。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "了解macOS服务器中提供了哪些服务，以及已将哪些服务从macOS服务器迁移到了macOS。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "每次安装macOSHighSierra及更高版本时，系统会提供哪些服务器功能？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "每次安装macOSHighSierra及更高版本时，系统都会捆绑安装缓存服务器、文件共享服务器和时间机器服务器等最常用的服务器功能，让更多客户无需额外支付费用即可使用这些重要服务。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "每次安装macOSHighSierra及更高版本时，系统都会捆绑安装缓存服务器、文件共享服务器和时间机器服务器等最常用的服务器功能。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "每次安装macOSHighSierra及更高版本时，系统都会捆绑安装缓存服务器、文件共享服务器和时间机器服务器等最常用的服务器功能，让更多客户无需额外支付费用即可使用这些重要服务。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这些功能需要额外支付费用吗？",
+        "act": "verification",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "每次安装macOSHighSierra及更高版本时，系统都会捆绑安装缓存服务器、文件共享服务器和时间机器服务器等最常用的服务器功能，让更多客户无需额外支付费用即可使用这些重要服务。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "无需额外支付费用即可使用这些重要服务。",
+        "act": "ans/no",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "每次安装macOSHighSierra及更高版本时，系统都会捆绑安装缓存服务器、文件共享服务器和时间机器服务器等最常用的服务器功能，让更多客户无需额外支付费用即可使用这些重要服务。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

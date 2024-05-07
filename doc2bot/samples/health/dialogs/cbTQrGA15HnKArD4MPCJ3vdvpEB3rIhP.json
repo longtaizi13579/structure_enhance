@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我妹妹被怀疑感染了Q热，这种病起病有什么特点？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "感染",
+            "Q热",
+            "Q热的症状"
+        ],
+        "grounding_id": [
+            "T274",
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在细菌进入身体后大约9-28天，会突然出现症状。你妹妹有症状吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "在细菌进入身体后大约9-28天，会突然出现症状。某些人症状轻微或没有症状。其他人有流感样症状。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "没有症状。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "在细菌进入身体后大约9-28天，会突然出现症状。某些人症状轻微或没有症状。其他人有流感样症状。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，有些Q热患者症状轻微或没有症状，但有些人有流感样症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "Q热的症状",
+            "在细菌进入身体后大约9-28天，会突然出现症状。某些人症状轻微或没有症状。其他人有流感样症状。",
+            "Q热"
+        ],
+        "grounding_id": [
+            "27",
+            "28",
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，是这样，我妹妹怀孕了，会因为这个会增加感染风险吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "慢性Q热是一种严重疾病，发生在不到5%的感染者中。以下人群风险最大：",
+            "孕妇"
+        ],
+        "grounding_id": [
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "会的，孕妇本身免疫里就容易降低，她还有没有别的疾病？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "因疾病或药物导致免疫系统功能低下的人群",
+            "孕妇"
+        ],
+        "grounding_id": [
+            "39",
+            "38"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有啊，她还有甲亢，是不是增大了风险？",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "因疾病或药物导致免疫系统功能低下的人群"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，甲亢的人免疫系统功能也会降低的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "因疾病或药物导致免疫系统功能低下的人群"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我妹妹的这种情况生孩子有风险吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "怀孕期间感染的妇女在胎儿足月之前流产或分娩的风险增加。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有一定风险。怀孕期间感染的妇女在胎儿足月之前流产或分娩的风险增加。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "怀孕期间感染的妇女在胎儿足月之前流产或分娩的风险增加。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那Q热是怎么引起的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "Q热",
+            "引起Q热的细菌可在粉尘和粪便中存活数月。即使单个细菌也可引起感染。由于这些特征，这些细菌被视为潜在的生物战剂。"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "导致Q热的细菌，如立克次体，只能在其它生物体的细胞内生存。引起Q热的细菌可在粉尘和粪便中存活数月。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "导致Q热的细菌，如立克次体，只能在其它生物体的细胞内生存。",
+            "引起Q热的细菌可在粉尘和粪便中存活数月。即使单个细菌也可引起感染。由于这些特征，这些细菌被视为潜在的生物战剂。"
+        ],
+        "grounding_id": [
+            "12",
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，那么这些细菌容易感染吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "引起Q热的细菌可在粉尘和粪便中存活数月。即使单个细菌也可引起感染。由于这些特征，这些细菌被视为潜在的生物战剂。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "容易感染。即使单个细菌也可引起感染。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_立克次体及相关感染_Q热.json",
+        "grounding": [
+            "引起Q热的细菌可在粉尘和粪便中存活数月。即使单个细菌也可引起感染。由于这些特征，这些细菌被视为潜在的生物战剂。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

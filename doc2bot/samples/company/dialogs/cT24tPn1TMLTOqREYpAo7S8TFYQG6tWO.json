@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在衢州市补缴住房公积金，现在支持网上付款吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "浙江省_衢州市",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "T6",
+            "205"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不好意思，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "206"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那要是去单位能不能用自助终端办业务啊？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不好意思目前不支持自助终端机办理、",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我要退缴住房公积金的话办结时间是多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你需要的是法定办结时限还是承诺办结时限呢？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定的办结时限吧，是多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你说的不太明白，给我个电话我自己问问，咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话拨打0570-12329。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "0570-12329",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "电话打不通呀，还有没有线下的地址呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "线下咨询地址在衢州市柯城区白云街道花园东大道169号二楼C厅。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    }
+]

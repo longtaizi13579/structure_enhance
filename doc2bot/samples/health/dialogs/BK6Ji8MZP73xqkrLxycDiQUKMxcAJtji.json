@@ -1,0 +1,260 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好想问一些医学方面的问题关于细菌感染的",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "医学主题",
+            "细菌感染：革兰氏阳性菌"
+        ],
+        "grounding_id": [
+            "T3",
+            "T418"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的这个您具体想了解哪方面呢是革兰氏阳性菌、金黄色葡萄球菌感染还是链球菌感染呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰氏阳性菌概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "革兰氏阳性菌大概给说说",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰氏阳性菌概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "革兰阳性分球菌和杆菌先说一下杆菌可导致某些感染，包括：炭疽、白喉、肠球菌感染、丹毒丝菌病、李斯特菌病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性杆菌可导致某些感染，包括：",
+            "炭疽",
+            "白喉",
+            "肠球菌感染",
+            "丹毒丝菌病",
+            "李斯特菌病"
+        ],
+        "grounding_id": [
+            "12",
+            "14",
+            "17",
+            "20",
+            "23",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "等一下就是刚您说的某些感染白喉后面说的是什么来着",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性杆菌可导致某些感染，包括：",
+            "白喉"
+        ],
+        "grounding_id": [
+            "12",
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "肠球菌感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "肠球菌感染"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个肠球菌感染是什么给说说",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "肠球菌感染"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "肠球菌感染是由一群革兰氏阳性菌（称作肠球菌）引起的感染，这群细菌通常常驻在健康人的肠道内但有时会引发感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "肠球菌感染是由一群革兰氏阳性菌（称作肠球菌）引起的感染，这群细菌通常常驻在健康人的肠道内但有时会引发感染。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的我在核实一下就是开始时说的那个革兰阳性杆菌可导致某些感染第一个说的是炭疽对吧",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性杆菌可导致某些感染，包括：",
+            "炭疽"
+        ],
+        "grounding_id": [
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "炭疽"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的那最后一个说的是李斯特菌病对吧",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "李斯特菌病"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "对是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "李斯特菌病"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的关于细菌感染还有别的吗",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "细菌感染：革兰氏阳性菌"
+        ],
+        "grounding_id": [
+            "T418"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的刚说过革兰阳性杆菌可导致某些感染现在给您说一下革兰阳性球菌可导致某些感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性球菌可导致某些感染，包括："
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯球菌可导致感染包括什么",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性球菌可导致某些感染，包括："
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "肺炎球菌感染、金黄色葡萄球菌感染、链球菌感染、中毒性休克综合征",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "肺炎球菌感染",
+            "金黄色葡萄球菌感染",
+            "链球菌感染",
+            "中毒性休克综合征"
+        ],
+        "grounding_id": [
+            "31",
+            "34",
+            "37",
+            "40"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "不好意思在重复一下，丹毒丝菌病是革兰阳性杆菌可导致的对吧",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰阳性杆菌可导致某些感染，包括：",
+            "丹毒丝菌病"
+        ],
+        "grounding_id": [
+            "12",
+            "23"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "对是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "丹毒丝菌病"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

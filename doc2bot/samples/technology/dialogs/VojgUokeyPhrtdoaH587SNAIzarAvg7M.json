@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App",
+        "act": "how",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您了解什么是血氧吗",
+        "act": "question/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "什么是血氧"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "不太清楚，可以介绍一下血氧水平吗",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "什么是血氧",
+            "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“血氧”App的测量数据可以用于医疗吗",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不适用于医疗用途，只能用于一般健身与健康目的。",
+        "act": "ans/no",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，测量的话是怎么操作的呢",
+        "act": "how",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App",
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "AppleWatch是通过“家人共享设置”流程设置的话可以用“血氧”App吗",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那是不可以的",
+        "act": "ans/no",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "则不能使用“血氧”App。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    }
+]

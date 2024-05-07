@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我杭州的公司是一家安全生产检测检验机构，下周有时间想要去办理一个资质变更，应该去哪里办？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "安全生产检测检验机构机资质变更",
+            "浙江省"
+        ],
+        "grounding_id": [
+            "1",
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "浙江省的安全生产检测检验机构机资质变更您可以去：省应急管理厅办事大厅1号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "咨询地址",
+            "省应急管理厅办事大厅1号窗口（杭州市西湖区北山街道体育场路479号行政中心8号楼9楼）"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有电话吗？我先打电话咨询一下。",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询电话：0571-81051471;0571-87056935。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "咨询电话",
+            "0571-81051471;0571-87056935"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "变更需要提供哪些材料？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "申报材料"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您先您要先到市场监管局变更营业执照，后续申报需要提供。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "变更后的营业执照"
+        ],
+        "grounding_id": [
+            "189"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "营业执照已经办好了，是要提供原件吗？我是代理人替我办理，不方便把原件给他。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "变更后的营业执照"
+        ],
+        "grounding_id": [
+            "189"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不需要提供原件，办理业务需要提供复印件即可。",
+        "act": "ans/yesno",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "材料必要性",
+            "必要",
+            "受理标准"
+        ],
+        "grounding_id": [
+            "200",
+            "201",
+            "202"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我可以把材料直接寄过去吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，您可以通过邮寄申请，也可以网上申请。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构机资质变更.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "98",
+            "99"
+        ]
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想把我单位住房公积金从江苏南京变更到浙江宁波来，你能给我说一下申请的相关内容吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "跨省通办服务",
+            "单位住房公积金变更登记"
+        ],
+        "grounding_id": [
+            "T7",
+            "T82",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以呀，您想了解网办方面、办理形式、通办范围还是预约方面的相关内容呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办理形式都有哪些？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前我们只有网上申请和现场窗口申请两种办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个是不能支持那个自助机器办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，目前是不支持的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那你给我一个办事地址吧，改天我去一趟。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，办理地点在宁波市行政服务中心住房公积金分中心办事大厅3楼公积金专窗。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "宁波市行政服务中心住房公积金分中心办事大厅（宁波市海曙区解放南路166号）3楼公积金专窗"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "对了，你这个业务的办结时限是多长时间呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您希望了解法定办结时限和承诺办结时限希望了解？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限为20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

@@ -1,0 +1,872 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下计算机截图",
+        "act": "what",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解如何在微软Windows系统中屏幕截图还是在戴尔电脑上截屏再或是在Snapchat中截屏",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "如何在微软Windows系统中屏幕截图"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "Windows系统中屏幕截图",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "如何在微软Windows系统中屏幕截图"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "运行Windows8和10的电脑可以使用键盘快捷键，自动全屏截图和保存。所有Windows版本都支持使用“PrintScreen”键来全屏截图。其它方法一样有效，比如使用截图工具按任意形状截图，还可以在Surface平板电脑上截图。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "本文会教你如何在Windows电脑上截图。运行Windows8和10的电脑可以使用键盘快捷键，自动全屏截图和保存。所有Windows版本都支持使用“PrintScreen”键来全屏截图。其它方法一样有效，比如使用截图工具按任意形状截图，还可以在Surface平板电脑上截图。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "关于这个屏幕截图方法能具体说一下吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "如何在微软Windows系统中屏幕截图",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在Windows8和10中全屏截图: 1.打开你要截取的屏幕。 2.找到键盘上的“PrintScreen”键。 3.同时按下Win和PrintScreen键。 4.找到截图。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "在Windows8和10中全屏截图",
+            "打开你要截取的屏幕。",
+            "找到键盘上的“PrintScreen”键。",
+            "同时按下Win和PrintScreen键。",
+            "找到截图。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“PrintScreen”键这个是在键盘右上方“PrtSc”吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "找到键盘上的“PrintScreen”键。",
+            "如果不加上数字键盘，PrintScreen键大都位于主键盘的右上方，下面通常写着“SysReq”（系统要求）。",
+            "“PrintScreen”键通常缩写成“PrtSc”或类似的字样。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果不加上数字键盘，PrintScreen键大都位于主键盘的右上方，下面通常写着“SysReq”（系统要求）。“PrintScreen”键通常缩写成“PrtSc”或类似的字样。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "如果不加上数字键盘，PrintScreen键大都位于主键盘的右上方，下面通常写着“SysReq”（系统要求）。",
+            "“PrintScreen”键通常缩写成“PrtSc”或类似的字样。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "找到截图这步具体是怎么样的",
+        "act": "how",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "找到截图。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "打开电脑的“图片”文件夹，你可以在里面的“截图”文件夹找到刚才的截图。每一张截图都会按截图顺序标为“Screenshot（数字）”。第一个截图会被标记为“Screenshot(1)”之类的",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在微软Windows系统中屏幕截图.json",
+        "grounding": [
+            "打开电脑的“图片”文件夹，你可以在里面的“截图”文件夹找到刚才的截图。每一张截图都会按截图顺序标为“Screenshot（数字）”。",
+            "比如说，第一个截图会被标记为“Screenshot(1)”之类的。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的还有问题想问一下就是怎么在Instagram上发布电脑里的图片",
+        "act": "how",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "如何在Instagram上发布电脑中的图片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那您是想了解可选方法还是小提示再或是警告呢",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "有什么方法呢",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "使用Safari浏览器: 1.打开Safari。 2.启用开发菜单项。 3.按⇧Shift+⌘Cmd+N。 4.点击屏幕顶部的开发菜单。 5.选择用户代理。 6.点击Safari--iOS12--iPhone。 7.前往https://www.instagram.com 8.登录你的Instagram帐户。 9.点击页面中间底部的＋。 10.选择要上传的照片。 11.点击窗口右下角的选择按钮。 12.选择滤镜（可选）。 13.点击下一步。 14.配上文字说明。 15.点击分享。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用Safari浏览器",
+            "打开Safari。",
+            "启用开发菜单项。",
+            "按⇧Shift+⌘Cmd+N。",
+            "点击屏幕顶部的开发菜单。",
+            "选择用户代理。",
+            "点击Safari--iOS12--iPhone。",
+            "前往https://www.instagram.com",
+            "登录你的Instagram帐户。",
+            "点击页面中间底部的＋。",
+            "选择要上传的照片。",
+            "点击窗口右下角的选择按钮。",
+            "选择滤镜（可选）。",
+            "点击下一步。",
+            "配上文字说明。",
+            "点击分享。"
+        ],
+        "grounding_id": [
+            "38",
+            "39",
+            "41",
+            "48",
+            "50",
+            "51",
+            "53",
+            "55",
+            "57",
+            "59",
+            "61",
+            "63",
+            "65",
+            "67",
+            "69",
+            "72"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "点击Safari--iOS12--iPhone这步如果有新版本呢如何",
+        "act": "how",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击Safari--iOS12--iPhone。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果有更新的版本，那就点击它。点击它会以移动视图重新加载Safari。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "如果有更新的版本，那就点击它。点击它会以移动视图重新加载Safari。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "登录你的Instagram帐户这个就是按屏幕提示进行对吧",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "登录你的Instagram帐户。",
+            "按照屏幕说明进行登录。登录过后，你就会看到Instagram动态消息。"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "按照屏幕说明进行登录。登录过后，你就会看到Instagram动态消息。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "按照屏幕说明进行登录。登录过后，你就会看到Instagram动态消息。"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "点击页面中间底部的＋这是什么意思",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击页面中间底部的＋。"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "这样将打开访达窗口",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "这样将打开访达窗口。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "点击窗口右下角的选择按钮这步是添加照片吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击窗口右下角的选择按钮。"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "这样会把照片添加到新的帖子里。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "这样会把照片添加到新的帖子里。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "配上文字说明这步就是给照片配文字对吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "配上文字说明。",
+            "点击“写上说明文字”文本框，输入照片的文字说明。"
+        ],
+        "grounding_id": [
+            "69",
+            "70"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "是的点击“写上说明文字”文本框，输入照片的文字说明。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击“写上说明文字”文本框，输入照片的文字说明。"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "在Instagram上发布电脑中的图片还有别的方法吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "如何在Instagram上发布电脑中的图片",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "这个使用Firefox浏览器的步骤您要了解一下吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用Firefox浏览器"
+        ],
+        "grounding_id": [
+            "75"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "好的呀",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用Firefox浏览器"
+        ],
+        "grounding_id": [
+            "75"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "使用Firefox浏览器: 1.打开Firefox浏览器。 2.按Ctrl+⇧Shift+P（PC）或⌘Command+⇧Shift+P（Mac）。 3.点击☰菜单。 4.点击Web开发者。 5.点击Web控制台。 6.前往https://www.instagram.com 7.点击Web控制台中的“响应式设计模式”图标。 8.点击页面顶部的响应菜单。 9.点击iPhone6/7/8。 10.点击登录。 11.登录你的帐户。 12.点击页面底部的＋。 13.选择一张照片。 14.点击窗口中间底部的打开。 15.点击滤镜选项卡。 16.选择一个滤镜。 17.点击下一步。 18.配上文字说明。 19.点击分享。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用Firefox浏览器",
+            "打开Firefox浏览器。",
+            "按Ctrl+⇧Shift+P（PC）或⌘Command+⇧Shift+P（Mac）。",
+            "点击☰菜单。",
+            "点击Web开发者。",
+            "点击Web控制台。",
+            "前往https://www.instagram.com",
+            "点击Web控制台中的“响应式设计模式”图标。",
+            "点击页面顶部的响应菜单。",
+            "点击iPhone6/7/8。",
+            "点击登录。",
+            "登录你的帐户。",
+            "点击页面底部的＋。",
+            "选择一张照片。",
+            "点击窗口中间底部的打开。",
+            "点击滤镜选项卡。",
+            "选择一个滤镜。",
+            "点击下一步。",
+            "配上文字说明。",
+            "点击分享。"
+        ],
+        "grounding_id": [
+            "75",
+            "76",
+            "78",
+            "81",
+            "83",
+            "85",
+            "87",
+            "89",
+            "92",
+            "94",
+            "97",
+            "99",
+            "101",
+            "104",
+            "106",
+            "108",
+            "111",
+            "113",
+            "115",
+            "118"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "按Ctrl+⇧Shift+P（PC）或⌘Command+⇧Shift+P（Mac）这是打开什么呢",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "按Ctrl+⇧Shift+P（PC）或⌘Command+⇧Shift+P（Mac）。"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "这样会打开一个新的隐私窗口。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "这样会打开一个新的隐私窗口。"
+        ],
+        "grounding_id": [
+            "79"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "点击Web控制台这个在什么位置",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击Web控制台。"
+        ],
+        "grounding_id": [
+            "85"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": "它位于菜单顶部附近。这样会在Firefox浏览器的底部打开一个新的窗格，里面会显示很多代码。这个窗格就叫做“Web控制台”",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "它位于菜单顶部附近。这样会在Firefox浏览器的底部打开一个新的窗格，里面会显示很多代码。这个窗格就叫做“Web控制台”。"
+        ],
+        "grounding_id": [
+            "86"
+        ]
+    },
+    {
+        "turn": 32,
+        "role": "user",
+        "utterance": "点击Web控制台中的“响应式设计模式”图标这个在什么位置或者按什么快捷键",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击Web控制台中的“响应式设计模式”图标。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 33,
+        "role": "system",
+        "utterance": "它位于Web控制台的右上角附近，看起来就像一个与方框叠放的小iPhone图标。这样会将登录页面切换为像手机版本一样。也可以直接按Ctrl+⇧Shift+M（Windows）或⌘Command+⌥Option+M（Mac）。如果组合键没有用，那就试着首先点击Web控制台框。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "它位于Web控制台的右上角附近，看起来就像一个与方框叠放的小iPhone图标。这样会将登录页面切换为像手机版本一样。",
+            "你也可以直接按Ctrl+⇧Shift+M（Windows）或⌘Command+⌥Option+M（Mac）。如果组合键没有用，那就试着首先点击Web控制台框。"
+        ],
+        "grounding_id": [
+            "90",
+            "91"
+        ]
+    },
+    {
+        "turn": 34,
+        "role": "user",
+        "utterance": "点击页面顶部的响应菜单这步会出现什么",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击页面顶部的响应菜单。"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 35,
+        "role": "system",
+        "utterance": "随后将出现不同手机和平板电脑的列表。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "随后将出现不同手机和平板电脑的列表。"
+        ],
+        "grounding_id": [
+            "93"
+        ]
+    },
+    {
+        "turn": 36,
+        "role": "user",
+        "utterance": "点击iPhone6/7/8这步是不是可以任意型号呀",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击iPhone6/7/8。",
+            "实际上你可以选择任何型号。这样只会决定你会看到的屏幕类型。"
+        ],
+        "grounding_id": [
+            "94",
+            "95"
+        ]
+    },
+    {
+        "turn": 37,
+        "role": "system",
+        "utterance": "是的实际上你可以选择任何型号。这样只会决定你会看到的屏幕类型。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "实际上你可以选择任何型号。这样只会决定你会看到的屏幕类型。"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 38,
+        "role": "user",
+        "utterance": "点击滤镜选项卡这个是干什么的",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击滤镜选项卡。"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 39,
+        "role": "system",
+        "utterance": "它位于照片下方。这样会显示可以用于照片的滤镜列表。如果没有看到这个选项，那就是你的隐私设置阻止了工具运行。试着禁用所有浏览器扩展程序并重试。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "它位于照片下方。这样会显示可以用于照片的滤镜列表。",
+            "如果没有看到这个选项，那就是你的隐私设置阻止了工具运行。试着禁用所有浏览器扩展程序并重试。"
+        ],
+        "grounding_id": [
+            "109",
+            "110"
+        ]
+    },
+    {
+        "turn": 40,
+        "role": "user",
+        "utterance": "16: 选择一个滤镜这步是不是图片预留滤镜效果",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "选择一个滤镜。",
+            "图片预览将更新为所选的滤镜效果。"
+        ],
+        "grounding_id": [
+            "111",
+            "112"
+        ]
+    },
+    {
+        "turn": 41,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "图片预览将更新为所选的滤镜效果。"
+        ],
+        "grounding_id": [
+            "112"
+        ]
+    },
+    {
+        "turn": 42,
+        "role": "user",
+        "utterance": "那在GoogleChrome浏览器怎么弄呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用GoogleChrome浏览器"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 43,
+        "role": "system",
+        "utterance": "使用GoogleChrome浏览器: 1.打开电脑上的GoogleChrome。 2.点击Chrome右上角的⋮菜单。 3.选择更多工具。 4.点击开发者工具。 5.点击“移动”图标。 6.前往https://www.instagram.com 7.点击页面中间底部的＋按钮。 8.选择一张照片。 9.点击窗口右下角的打开。 10.编辑图像。 11.点击下一步。 12.配上文字说明。 13.点击分享。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "使用GoogleChrome浏览器",
+            "打开电脑上的GoogleChrome。",
+            "点击Chrome右上角的⋮菜单。",
+            "选择更多工具。",
+            "点击开发者工具。",
+            "点击“移动”图标。",
+            "前往https://www.instagram.com",
+            "点击页面中间底部的＋按钮。",
+            "选择一张照片。",
+            "点击窗口右下角的打开。",
+            "编辑图像。",
+            "点击下一步。",
+            "配上文字说明。",
+            "点击分享。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "11",
+            "13",
+            "15",
+            "18",
+            "21",
+            "23",
+            "25",
+            "27",
+            "30",
+            "32",
+            "35"
+        ]
+    },
+    {
+        "turn": 44,
+        "role": "user",
+        "utterance": "点击“移动”图标这个在什么位置上",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击“移动”图标。",
+            "它位于开发者工具窗口左上角，是一个由两个长方形组成的图标。点击后图标会变成蓝色，Chrome窗口会以移动设备的视图来显示内容。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 45,
+        "role": "system",
+        "utterance": "它位于开发者工具窗口左上角，是一个由两个长方形组成的图标。点击后图标会变成蓝色，Chrome窗口会以移动设备的视图来显示内容。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "它位于开发者工具窗口左上角，是一个由两个长方形组成的图标。点击后图标会变成蓝色，Chrome窗口会以移动设备的视图来显示内容。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 46,
+        "role": "user",
+        "utterance": "选择一张照片点击照片所在的文件夹在点击窗口右下角的打开就可以上传照片了对吧",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "选择一张照片。",
+            "你可能需要先从窗口左侧点击照片所在的文件夹。",
+            "点击窗口右下角的打开。",
+            "这样就会开始上传照片。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 47,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "这样就会开始上传照片。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 48,
+        "role": "user",
+        "utterance": "点击下一步这个在什么位置",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "点击下一步。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 49,
+        "role": "system",
+        "utterance": "这个蓝色的按钮位于“新帖子”（NewPost）页面的右上方",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Instagram上发布电脑中的图片.json",
+        "grounding": [
+            "这个蓝色的按钮位于“新帖子”（NewPost）页面的右上方。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 50,
+        "role": "user",
+        "utterance": "好的还有个问题要问一下就是在安卓设备上怎么查看下载的文件",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如何在安卓设备上查看下载的文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 51,
+        "role": "system",
+        "utterance": "您是想了解关于这个的可选方法对吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 52,
+        "role": "user",
+        "utterance": "是的呀",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 53,
+        "role": "system",
+        "utterance": "使用文件管理器这个要给您具体说一下吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用文件管理器"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 54,
+        "role": "user",
+        "utterance": "好的",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用文件管理器"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 55,
+        "role": "system",
+        "utterance": "使用文件管理器: 1.打开应用程序抽屉。 2.点击下载、我的文件或文件管理器。 3.选择文件夹。 4.点击下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用文件管理器",
+            "打开应用程序抽屉。",
+            "点击下载、我的文件或文件管理器。",
+            "选择文件夹。",
+            "点击下载。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10",
+            "12"
+        ]
+    }
+]

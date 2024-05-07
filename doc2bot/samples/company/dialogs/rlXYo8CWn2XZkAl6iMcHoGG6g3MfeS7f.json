@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下在浙江省办省级创新型领军企业培育是要收费的吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "省级创新型领军企业培育",
+            "浙江省",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "T4",
+            "382"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "383"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我想了解一下浙江省的省级国际科技合作基地的认定，怎么咨询呢？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定",
+            "浙江省",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T4",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们目前有咨询电话 、咨询地址、咨询网址，您需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我个地址吧，在哪儿？",
+        "act": "where",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址在杭州市西湖区环城西路33号浙江科技大楼408室。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)408室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有点远呀这里，还是给我个电话吧？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询电话是0571-87054108，或是拨打0571-87055837。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "0571-87054108；0571-87055837"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

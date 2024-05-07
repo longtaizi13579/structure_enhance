@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下如何打开我iPhone上的通知？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "使用iPhone、iPad和iPodtouch上的“通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以从从锁定屏幕打开，也可以从从“通知中心”打开，您具体想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从“通知中心”打开"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "“通知中心”的作用是什么？",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何从“通知中心”打开？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从“通知中心”打开"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有两种方式可以从“通知中心”查看您收到的提醒。您可以在锁定屏幕上，从屏幕中间向上轻扫；也可以在任何其他屏幕上，从屏幕顶部中央向下轻扫。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。",
+            "在锁定屏幕上，从屏幕中间向上轻扫。",
+            "在任何其他屏幕上，从屏幕顶部中央向下轻扫。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何清除通知历史记录？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何从锁定屏幕打开？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以从锁定屏幕进行以下操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还可以从锁定屏幕进行什么操作？",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以从锁定屏幕进行以下操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "轻点某个通知，以打开发出这个通知的App。轻点一组通知，以查看相应App最近发出的所有通知。在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。按住某个通知，以查看这个通知并进行快速操作",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "轻点某个通知，以打开发出这个通知的App。",
+            "轻点一组通知，以查看相应App最近发出的所有通知。",
+            "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。",
+            "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下，“通知中心”中的小组件可以挑选适合自己的尺寸吗？",
+        "act": "verification",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "使用“通知中心”中的小组件",
+            "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。",
+        "act": "ans/yes",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

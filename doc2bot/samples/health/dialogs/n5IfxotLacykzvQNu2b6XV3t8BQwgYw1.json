@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是感染 、肝脏及胆囊疾病 、心脏和血管疾病 还是其他方面的疾病呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询手足口病会通过飞沫传播吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "感染",
+            "肠道病毒",
+            "手足口病",
+            "暴露于以下任何一种情况时，会被感染：",
+            "当感染者咳嗽或打喷嚏时，飞沫会通过空气传播"
+        ],
+        "grounding_id": [
+            "T274",
+            "T467",
+            "1",
+            "15",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当感染者咳嗽或打喷嚏时，飞沫会通过空气传播",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "当感染者咳嗽或打喷嚏时，飞沫会通过空气传播"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个病会通过物体传播吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "暴露于以下任何一种情况时，会被感染：",
+            "污染物体和表面，如门旋钮，然后在洗手之前触摸眼睛、口腔或鼻子"
+        ],
+        "grounding_id": [
+            "15",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "污染物体和表面，如门旋钮，然后在洗手之前触摸眼睛、口腔或鼻子",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "污染物体和表面，如门旋钮，然后在洗手之前触摸眼睛、口腔或鼻子"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个病是否会通过直接接触传播？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "暴露于以下任何一种情况时，会被感染："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，该病会通过与感染者亲密拥抱进行传播",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_肠道病毒_手足口病.json",
+        "grounding": [
+            "感染者（例如，通过拥抱亲密的个人接触者）"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

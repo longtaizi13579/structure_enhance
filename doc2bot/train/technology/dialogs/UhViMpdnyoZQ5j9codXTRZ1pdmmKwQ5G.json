@@ -1,0 +1,336 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要了解一下怎么更换MacPro2019年中的电源呢？",
+        "act": "how",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "更换MacPro（2019年）中的电源"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "更换MacPro2019年中的电源首先要检查必备工具，然后拆卸机壳或上盖，拆卸电源，再安装新电源，最后装回机壳或上盖，还有进一步了解，您想详细了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "更换MacPro（2019年）中的电源",
+            "检查必备工具",
+            "拆卸机壳或上盖",
+            "拆卸电源",
+            "安装新电源",
+            "装回机壳或上盖",
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "10",
+            "31",
+            "35",
+            "40",
+            "49"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，那麻烦先说一下检查必备工具需要什么吧？",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "检查必备工具"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "检查必备工具需要TorxT8螺丝刀和1号十字型螺丝刀。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "检查必备工具",
+            "TorxT8螺丝刀",
+            "1号十字型螺丝刀"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那安装新电源的步骤可以怎么做呢？",
+        "act": "how",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "安装新电源"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "安装新电源首先将新电源插入底部插槽，然后均匀地用力推压，直到电源完全就位。如果拆卸了任何MPX模块，请装回这些模块。，接着将螺丝装回电源接地托架，再装回夹板并完全拧紧十字型螺丝。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "安装新电源",
+            "将新电源插入底部插槽。",
+            "均匀地用力推压，直到电源完全就位。如果拆卸了任何MPX模块，请装回这些模块。",
+            "将T8螺丝装回电源接地托架。",
+            "装回1号和3号夹板，并完全拧紧六颗1号十字型螺丝。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "37",
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那这里面有好多型号的螺丝和夹板，具体是哪些呢？",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "将T8螺丝装回电源接地托架。",
+            "装回1号和3号夹板，并完全拧紧六颗1号十字型螺丝。"
+        ],
+        "grounding_id": [
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要装回电源接地托架的是T8螺丝，装回的夹板是1号和3号夹板。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "将T8螺丝装回电源接地托架。",
+            "装回1号和3号夹板，并完全拧紧六颗1号十字型螺丝。"
+        ],
+        "grounding_id": [
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，那装回机壳或上盖要怎么做呢？",
+        "act": "how",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "装回机壳或上盖"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "装回机壳或上盖有MacPro2019年和MacPro机架式机型，2019年，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "装回机壳或上盖",
+            "MacPro（机架式机型，2019年）"
+        ],
+        "grounding_id": [
+            "40",
+            "46"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我要了解的是MacPro机架式机型，2019年的",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（机架式机型，2019年）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "MacPro机架式机型，2019年，首先将上盖的边缘与前板的插槽对齐，然后在释放闩锁附近用力按压，注意听释放闩锁卡入到位的声音。再连接电源线、显示器以及任何其他外围设备。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（机架式机型，2019年）",
+            "将上盖的边缘与前板的插槽对齐，然后在释放闩锁附近用力按压，注意听释放闩锁卡入到位的声音。",
+            "连接电源线、显示器以及任何其他外围设备。"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，还有就是拆卸机壳或上盖应该怎么弄呢？",
+        "act": "how",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸机壳或上盖"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "拆卸机壳或上盖也有MacPro2019年和MacPro机架式机型，2019年，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拆卸机壳或上盖",
+            "MacPro（2019年）"
+        ],
+        "grounding_id": [
+            "10",
+            "12"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯，这个我想了解一下MacPro2019年的",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（2019年）"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "拆卸MacPro2019机壳或上盖首先将MacPro关机，让电脑冷却，然后拔下MacPro上的线缆。再触摸MacPro外部的金属机壳，以释放所有静电，然后拔下电源线。在MacPro内部触碰部件或安装组件之前，请务必先释放静电。为了避免产生静电，请勿在房间内走动，直到完成电源的安装并将机壳滑回到电脑上。向上翻起顶部闩锁，然后扭动以解锁机壳。 最后径直提起机壳，从MacPro上取下它。小心地将机壳放到一边。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "MacPro（2019年）",
+            "将MacPro关机。",
+            "等待约5到10分钟，让电脑冷却。",
+            "拔下MacPro上除电源线以外的所有线缆。",
+            "触摸MacPro外部的金属机壳，以释放所有静电，然后拔下电源线。在MacPro内部触碰部件或安装组件之前，请务必先释放静电。为了避免产生静电，请勿在房间内走动，直到完成电源的安装并将机壳滑回到电脑上。",
+            "向上翻起顶部闩锁，然后向左扭动以解锁机壳。",
+            "径直提起机壳，从MacPro上取下它。小心地将机壳放到一边。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好，那大概让电脑冷却多久呢？",
+        "act": "when",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "等待约5到10分钟，让电脑冷却。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "等待约5到10分钟即可。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "等待约5到10分钟，让电脑冷却。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "哦，那要拔下MacPro上的所有线缆吗？",
+        "act": "verification",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拔下MacPro上除电源线以外的所有线缆。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "拔下MacPro上除电源线以外的所有线缆。",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "拔下MacPro上除电源线以外的所有线缆。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好的，还有向上翻起顶部闩锁，然后向左还是向右扭动解锁机壳呢？",
+        "act": "what",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "向上翻起顶部闩锁，然后向左扭动以解锁机壳。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "向上翻起顶部闩锁，然后向左扭动以解锁机壳",
+        "act": "ans/open",
+        "document": "更换MacPro（2019年）中的电源.json",
+        "grounding": [
+            "向上翻起顶部闩锁，然后向左扭动以解锁机壳。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

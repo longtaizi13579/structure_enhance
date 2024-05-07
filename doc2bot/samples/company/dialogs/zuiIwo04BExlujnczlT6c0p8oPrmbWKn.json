@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是从外地来浙江舟山的，要给我女儿办理外籍人员子女学校地址变更的审批，请问多久能办理好啊？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "外籍人员子女学校地址变更审批"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，法定的办结时限为45（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "45（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，那审批完成之后我什么时候才能收到啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您不要着急，自作出决定之日起3个工作日内送达的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个审批完成的办理时间也是跟之前的一样的吗？",
+        "act": "when",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，也是45（工作日）。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "45（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "了解了，那我可以去自助终端进行办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "实在抱歉，目前还不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那我只能去现场办理了是吧？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不用的哦，你可以选择以下三种办理方式的其中一种：网上申请/现场窗口申请/邮寄申请。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

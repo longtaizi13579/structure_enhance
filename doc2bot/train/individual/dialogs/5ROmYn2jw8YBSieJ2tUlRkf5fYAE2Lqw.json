@@ -1,0 +1,270 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省杭州市与护照有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "出入境",
+            "护照"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T239",
+            "T297"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您是想咨询与普通护照县官的问题吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的，我想了解关于普通护照相关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您是想问办理地点、办理时间、咨询方式还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问问咨询电话是多少号？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，三部咨询电话您都可以拨打，0571-88209209；0571-87071973；0571-87074431。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "0571-88209209；0571-87071973；0571-87074431"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有咨询地址在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址在杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼大厅值班长专柜。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼大厅值班长专柜"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想咨询关于普通护照的基本信息相关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，那您是想问办件类型、法定办结时限、承诺办结时限还是其他相关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想了解一下其他的办事信息，谢谢。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是否网办、办理形式、通办范围、是否支持预约办理，您想了解哪方面问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "想问一下办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "网上申请或现场窗口申请都可以。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "关于结果信息我还有想问的内容。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "在审批结果类型、审批结果名称、审批结果样本、是否支持物流快递、送达时限、送达方式这几方面中您具体想问哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想知道送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "送达时限为自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

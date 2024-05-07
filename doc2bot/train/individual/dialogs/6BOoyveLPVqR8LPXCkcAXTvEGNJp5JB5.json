@@ -1,0 +1,336 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省金华市的，想咨询下驾驶证方面的问题？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省_金华市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T6",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解驾驶证损毁换证，达到规定年龄换领机动车驾驶证 ，机动车驾驶证增驾申领，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，我想问驾驶证损毁换证的问题。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您是想继续了解收费标准，办理流程，咨询方式，办理地点，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "322"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问办理这个是否收费？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "322",
+            "323"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要收费。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "327"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "328"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有个问题，我想咨询下，我的拖拉机证丢了，该怎么办？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证补换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以申请拖拉机、联合收割机操作人员驾驶证补换证。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证补换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "送达时限：自作出决定之日起5个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起5个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证补换证",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "1097"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "设定依据是：拖拉机和联合收割机驾驶证管理规定；农业机械安全监督管理条例；中华人民共和国道路交通安全法（2021）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "设定依据",
+            "拖拉机和联合收割机驾驶证管理规定",
+            "农业机械安全监督管理条例",
+            "中华人民共和国道路交通安全法（2021）"
+        ],
+        "grounding_id": [
+            "1097",
+            "1098",
+            "1107",
+            "1118"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "农业机械安全监督管理条例，是哪个机关颁布的？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "农业机械安全监督管理条例",
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "1107",
+            "1112"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "颁布机关是：中华人民共和国国务院。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证补换证.json",
+        "grounding": [
+            "颁布机关",
+            "中华人民共和国国务院"
+        ],
+        "grounding_id": [
+            "1112",
+            "1113"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "投诉地址是：金华市农业农村局（双龙南街828号3楼）办公室。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址",
+            "金华市农业农村局（双龙南街828号3楼）办公室"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "投诉电话是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "投诉电话是：0579-88900000",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉电话",
+            "0579-88900000"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    }
+]

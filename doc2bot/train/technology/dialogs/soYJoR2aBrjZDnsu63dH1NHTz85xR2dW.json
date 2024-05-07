@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么查看iPodshuffle上的状态指示灯和电池电量",
+        "act": "how",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "查看iPodshuffle上的状态指示灯和电池电量"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是iPodshuffle第4代，第3代，第2代还是第1代",
+        "act": "multiple-choice",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "iPodshuffle（第4代）"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是第4代，怎么使用“旁白”查看电池电量呢",
+        "act": "how",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "要查看电池电量，请查看状态指示灯或使用旁白。",
+            "使用“旁白”"
+        ],
+        "grounding_id": [
+            "5",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先戴上耳机，然后将它接入iPodshuffle，断开iPodshuffle与任何USB连接线的连接，最后按两下“旁白”按钮。“旁白”会通过耳机播报电池的大概电量。",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "戴上耳机，然后将它接入iPodshuffle。",
+            "断开iPodshuffle与任何USB连接线的连接。",
+            "按两下“旁白”按钮。“旁白”会通过耳机播报电池的大概电量。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "iPod连接到电脑时显示绿色表示什么",
+        "act": "what",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "iPod连接到电脑时的状态指示灯：",
+            "绿色：电量充足"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "绿色：电量充足",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "绿色：电量充足"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果是橙色闪烁的话代表什么",
+        "act": "what",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "橙色闪烁：设备正在与iTunes同步或被用作磁盘"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "表示设备正在与iTunes同步或被用作磁盘",
+        "act": "ans/open",
+        "document": "查看iPodshuffle上的状态指示灯和电池电量.json",
+        "grounding": [
+            "橙色闪烁：设备正在与iTunes同步或被用作磁盘"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我还想问一下为AppleID余额充值的信息",
+        "act": "what",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您想了解什么方面呢",
+        "act": "question/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道自动为AppleID余额充值的话可以设置多长时间充一次",
+        "act": "when",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "自动为AppleID余额充值",
+            "如果您想要自动为AppleID余额充值，",
+            "请设置自动重新充值。您可以每周、每两周或每月为余额充值一次。或者，您可以在余额较低时自动为余额充值。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "45"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以每周、每两周或每月为余额充值一次。或者，您可以在余额较低时自动为余额充值。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "请设置自动重新充值。您可以每周、每两周或每月为余额充值一次。或者，您可以在余额较低时自动为余额充值。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那在iPhone上为AppleID余额充值的步骤什么",
+        "act": "what",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "为您的AppleID余额充值",
+            "在iPhone、iPad或iPodtouch上为AppleID余额充值"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开AppStoreApp，然后轻点屏幕顶部您的照片或登录按钮，轻点“为AppleID充值，要立即充值，请轻点您想要充值的金额。最后按照屏幕上的说明完成购买。",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "轻点屏幕顶部您的照片或登录按钮。",
+            "轻点“为AppleID充值”。",
+            "要立即充值，请轻点您想要充值的金额。或者，要在日后自动为余额充值，请轻点“SetUpAutoReload”（设置自动重新充值）。什么是自动重新充值？",
+            "按照屏幕上的说明完成购买。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "想在日后自动为余额充值的话怎么设置",
+        "act": "how",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "要立即充值，请轻点您想要充值的金额。或者，要在日后自动为余额充值，请轻点“SetUpAutoReload”（设置自动重新充值）。什么是自动重新充值？"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那请轻点“SetUpAutoReload”（设置自动重新充值）",
+        "act": "ans/open",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "要立即充值，请轻点您想要充值的金额。或者，要在日后自动为余额充值，请轻点“SetUpAutoReload”（设置自动重新充值）。什么是自动重新充值？"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "需要短信验证吗",
+        "act": "verification",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "按照屏幕上的说明完成购买。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。",
+        "act": "ans/yes",
+        "document": "为您的AppleID余额充值.json",
+        "grounding": [
+            "按照屏幕上的说明完成购买。有些付款方式可能会提示您通过短信或其他方式来验证您的购买行为。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

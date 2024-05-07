@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在LogicPro中看到音频和MIDI同步提醒有什么作用？",
+        "act": "what",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样查看LogicPro中的采样速率？",
+        "act": "how",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒",
+            "查看LogicPro中的采样速率"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您的项目的采样速率与您的接口的采样速率相匹配，请从“采样速率”弹出式菜单中选择不同的采样速率，然后将其设置回原来的采样速率。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "请从“采样速率”弹出式菜单中选择不同的采样速率，然后将其设置回原来的采样速率。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎样查看数字设备上的时钟设置？",
+        "act": "how",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒",
+            "查看数字设备上的时钟设置"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用的外部音频接口连接了其他数字设备，请确保只有一个接口是主时钟源。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "请确保只有一个接口是主时钟源。"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    }
+]

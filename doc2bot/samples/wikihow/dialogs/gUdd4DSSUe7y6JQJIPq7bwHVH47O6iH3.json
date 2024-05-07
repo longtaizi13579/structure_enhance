@@ -1,0 +1,392 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我用的是戴尔电脑，想问一下，可以在电脑上截屏吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如何在戴尔电脑上截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，可以的，不仅可以在戴尔电脑上截屏，还可以保存截屏图片。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "这篇文章将教你如何在戴尔电脑上截屏和保存截屏图片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，如何在戴尔电脑上截屏呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如何在戴尔电脑上截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您使用的是Windows8和10系统，还是使用的Windows XP、Vista和7系统？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我使用的是使用Windows8系统，具体步骤是什么呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "使用Windows8和10系统"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先前往你想要截图保存的页面，找到PrtSc键和Windows按键，然后同时按下，打开“开始”菜单，在“开始”菜单中输入screenshots，最后点击截图文件夹。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "前往你想要截图保存的页面。",
+            "找到PrtSc键。",
+            "找到Windows按键。",
+            "同时按下Windows键和PrtSc键。",
+            "打开“开始”菜单。",
+            "在“开始”菜单中输入screenshots（截图）。",
+            "点击截图文件夹。"
+        ],
+        "grounding_id": [
+            "5",
+            "8",
+            "11",
+            "13",
+            "16",
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "截屏时，屏幕中的整个画面都会被捕获下来，也包括鼠标光标吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "当你截屏时，屏幕中的整个画面都会被捕获下来，包括桌面上的任务栏，但不包括鼠标光标。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不包括。",
+        "act": "ans/no",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "当你截屏时，屏幕中的整个画面都会被捕获下来，包括桌面上的任务栏，但不包括鼠标光标。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "Windows按键在哪里？",
+        "act": "where",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "找到Windows按键。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "它通常位于键盘的左下角，上面会有一个Windows商标。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "它通常位于键盘的左下角，上面会有一个Windows商标。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": " 同时按下Windows键和PrtSc键，会出现什么情况？",
+        "act": "what",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "同时按下Windows键和PrtSc键。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "屏幕会暂时变暗，这说明已经截下当前屏幕画面了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "屏幕会暂时变暗，这说明已经截下当前屏幕画面了。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果屏幕没有变暗应该怎么办？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如果屏幕没有变暗，请尝试按住Windows键，然后使劲按下PrtSc键。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果屏幕没有变暗，请尝试按住Windows键，然后使劲按下PrtSc键。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如果屏幕没有变暗，请尝试按住Windows键，然后使劲按下PrtSc键。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": " 在“开始”菜单中输入screenshots（截图）后会看到什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "在“开始”菜单中输入screenshots（截图）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "你会看到“开始”窗口的顶部出现一个名为“截图”的文件夹。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "接着你会看到“开始”窗口的顶部出现一个名为“截图”的文件夹。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我还想问一下，如何回拨被屏蔽的号码？",
+        "act": "how",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "如何回拨被屏蔽的号码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以使用回拨码，也可以在智能手机上使用TrapCall，还可以在智能手机上使用Truecaller，您想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想了解一下如何使用回拨码？",
+        "act": "how",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "使用回拨码"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先你要知道，这个方法可能并不适合你。然后确定你所在国家或者地区的回拨码，拨打回拨码，收听来电者的信息，记下来电号码，最后回拨被屏蔽的号码，尝试跟踪号码。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "你要知道，这个方法可能并不适合你。",
+            "确定你所在国家或者地区的回拨码。",
+            "拨打回拨码。",
+            "收听来电者的信息。",
+            "记下来电号码。",
+            "回拨被屏蔽的号码。",
+            "尝试跟踪号码。"
+        ],
+        "grounding_id": [
+            "5",
+            "12",
+            "23",
+            "26",
+            "30",
+            "32",
+            "35"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "美国的回拨码是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "美国-*69或*82"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "美国-*69或*82。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "美国-*69或*82"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "怎么拨打回拨码？",
+        "act": "how",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "拨打回拨码。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "用手机的拨号盘输入回拨码，然后按“呼叫”按钮。如果用的是智能手机，打开手机的应用程序，然后根据需要选择拨号盘选项卡。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "用手机的拨号盘输入回拨码，然后按“呼叫”按钮。",
+            "如果用的是智能手机，打开手机的应用程序，然后根据需要选择拨号盘选项卡。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "为什么要记下来电号码？",
+        "act": "why",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "记下来电号码。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "如果你以后还要给这个人打电话，那最好就记下对方号码。如果有必要，你还可以把这个号码报告给运营商或警察。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "如果你以后还要给这个人打电话，那最好就记下对方号码。如果有必要，你还可以把这个号码报告给运营商或警察。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "什么情况下需要跟踪号码？",
+        "act": "what",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "尝试跟踪号码。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "如果无法回拨，或者知道了号码但没有智能手机，要是你在美国，那就可以拨打*57来追踪运营商号码。要做到这一点，必须在跟踪之前接听电话，然后和当地的执法部门一起跟进这件事情。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "如果无法回拨，或者知道了号码但没有智能手机，要是你在美国，那就可以拨打*57来追踪运营商号码。要做到这一点，必须在跟踪之前接听电话，然后和当地的执法部门一起跟进这件事情。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

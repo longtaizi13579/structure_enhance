@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道孕期发烧的相关信息",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "妊娠合并症",
+            "孕期发烧"
+        ],
+        "grounding_id": [
+            "T566",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪方面的呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果早怀孕初期，体温过高的话会有什么风险？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问提问是否高于103°F（39.5°C）？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，有没有可能会孩子的大脑产生影响呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可能会导致婴儿大脑或脊髓缺陷",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "啊，那有没有流产的可能？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是说自然流产吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "也是由自然流产的可能的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那一般发烧了会怎么医治呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以用降温毯吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以在体温极高的女性中使用降温毯",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

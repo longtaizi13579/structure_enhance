@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我怎么能知道自己可以在iPhone、iPad或iPodtouch上的群组文本信息中添加人员呢？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您先看看是否符合这个群组中至少有三个人，每个人都在使用Apple设备，如iPhone、iPad或iPodtouch呢？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "这个群组中至少有三个人，",
+            "每个人都在使用Apple设备，如iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "符合。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "这个群组中至少有三个人，",
+            "每个人都在使用Apple设备，如iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您就可以向群组文本信息中添加人员。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "您可以向群组文本信息中添加人员"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那怎么知道可以移除某人呢？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iMessage信息（Apple提供的一项功能）中，要移除某人，群组中至少应有四个人，并且每个人都需要使用Apple设备。如果符合要求，您就可以移除。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iMessage信息（Apple提供的一项功能）中，要移除某人，群组中至少应有四个人，并且每个人都需要使用Apple设备。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的我明白了，那可以在群组短信/彩信中添加或移除人员吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员",
+            "您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。了解iMessage信息与短信/彩信之间的区别。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以，您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。了解iMessage信息与短信/彩信之间的区别。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这样啊，那怎么样在iPhone、iPad或iPodtouch上的群组文本信息中添加移除人员呢？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您具体是想知道如何向群组文本信息中添加人员还是如何从群组文本信息中移除人员呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "如何向群组文本信息中添加人员"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道向群组文本信息中添加人员要怎么做？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "如何向群组文本信息中添加人员"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先轻点您要向其中添加人员的群组信息。然后轻点主题对话顶部的群组图标。再轻点联系人右侧的灰色箭头图标，然后轻点“添加联系人”。最后键入您要添加的联系人，然后轻点“完成”就可以了。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "轻点您要向其中添加人员的群组信息。",
+            "轻点主题对话顶部的群组图标。",
+            "轻点联系人右侧的灰色箭头图标，然后轻点“添加联系人”。",
+            "键入您要添加的联系人，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    }
+]

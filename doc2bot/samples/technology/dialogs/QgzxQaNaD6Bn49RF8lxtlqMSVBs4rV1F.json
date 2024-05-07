@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一些关于AirPods的问题",
+        "act": "what",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "识别您的AirPods"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解然后查找型号 、如何识别您的充电盒 还是根据型号识别您的AirPods",
+        "act": "multiple-choice",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "查找型号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何查找型号？",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "查找型号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先前往“设置”>“蓝牙”，然后在列表中找到您的AirPods，轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号。",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“蓝牙”*。",
+            "在列表中找到您的AirPods（例如，“John的AirPods”）。",
+            "轻点AirPods旁边的“更多信息”按钮，然后您会看到具体的型号。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问如何知道我是哪一代的AirPods",
+        "act": "how",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "您可以根据AirPods的型号来了解您拥有的是哪一代AirPods。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以根据AirPods的型号来了解您拥有的是哪一代AirPods",
+        "act": "ans/open",
+        "document": "识别您的AirPods.json",
+        "grounding": [
+            "您可以根据AirPods的型号来了解您拥有的是哪一代AirPods。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对了，还有那个旁白识别功能是干什么的",
+        "act": "what",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "“屏幕识别”功能"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "打开“屏幕识别”后，“旁白”会识别App的界面控制项，以协助您进行浏览。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "“屏幕识别”功能",
+            "打开“屏幕识别”后，“旁白”会识别App的界面控制项，以协助您进行浏览。"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我都哪些设备可以使用旁白识别？",
+        "act": "what",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "需要满足的条件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您需要以下任一使用iOS或iPadOS14或更高版本的设备：包括 iPhoneXS、iPhoneXSMax、iPhoneXR或更新机型、iPadmini（第5代）或更新机型、iPadAir（第3代）或iPadAir（第4代）、iPad（第8代）或更新机型、 所有11英寸iPadPro机型、12.9英寸iPadPro（第3代）或更新机型。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上使用“旁白识别”.json",
+        "grounding": [
+            "需要满足的条件",
+            "iPhoneXS、iPhoneXSMax、iPhoneXR或更新机型",
+            "iPadmini（第5代）或更新机型",
+            "iPadAir（第3代）或iPadAir（第4代）",
+            "iPad（第8代）或更新机型",
+            "所有11英寸iPadPro机型",
+            "12.9英寸iPadPro（第3代）或更新机型"
+        ],
+        "grounding_id": [
+            "3",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    }
+]

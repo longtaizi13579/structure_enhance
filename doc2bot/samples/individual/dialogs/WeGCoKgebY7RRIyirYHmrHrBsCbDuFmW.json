@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我申请的浙江省温州市的劳动能力鉴定到现在都没有，我能去哪儿投诉啊？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "浙江省_温州市",
+            "浙江省_温州市",
+            "劳动能力初次鉴定申请",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "T3",
+            "T3",
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投诉的话您可以前往温州市鹿城区学院中路303号人力资源和社会保障局1号楼11楼1104室",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "温州市鹿城区学院中路303号人力资源和社会保障局1号楼11楼1104室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "行，那有没有投诉电话啊？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，您可以拨打投诉电话12345。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "12345？这么简单？你确定不是在骗我？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，相关投诉电话就是12345.",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_社保医保_工伤保险_劳动能力初次鉴定申请.json",
+        "grounding": [
+            "12345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

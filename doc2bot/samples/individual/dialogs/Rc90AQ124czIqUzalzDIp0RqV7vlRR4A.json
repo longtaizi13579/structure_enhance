@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，办理机动车禁止区域路段通行和停靠审核收费吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）",
+            "是否收费",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "265",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是在哪个地方办理？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "噢，在浙江省台州市。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车限制、禁止的区域或者路段通行、停靠审核（普通货车）.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我再问一下电动自行车注册登记是按照非机动车登记规定多少号文件设定的？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记",
+            "浙江省非机动车登记规定",
+            "依据文号"
+        ],
+        "grounding_id": [
+            "1",
+            "338",
+            "341"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "根据浙公通字116号设定。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙公通字〔2018〕116号"
+        ],
+        "grounding_id": [
+            "342"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，我再问一个别的问题，领取纸质版的检验合格标志有什么受理要求吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "受理"
+        ],
+        "grounding_id": [
+            "1",
+            "290"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只要提交的材料齐全，真实有效 都是予以受理的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那当场就能把合格证拿走吗还是需要等待？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "送达"
+        ],
+        "grounding_id": [
+            "1",
+            "311"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以当场拿走，或者邮寄送达给您。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    }
+]

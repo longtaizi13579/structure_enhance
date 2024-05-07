@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江宁波的，我想咨询下这个公积金缴存登记，咨询地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "单位住房公积金缴存登记",
+            "浙江省_宁波市",
+            "咨询地址",
+            "职工公积金"
+        ],
+        "grounding_id": [
+            "1",
+            "T7",
+            "29",
+            "T81"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想办理单位住房公积金还是个人的？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "单位住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想办理的是单位住房公积金缴存登记。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "单位住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您可以前往宁波市海曙区解放南路166号三楼进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "咨询地址",
+            "宁波市海曙区解放南路166号三楼"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我不想直接到现场去，我想先了解要准备什么材料，再到现场去，你还有其他方式吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想要线上的咨询方式吗？",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对啊，有没有电话可以咨询的呢？",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，我们的咨询电话是0574—12329。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "咨询电话",
+            "0574—12329"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，我记下来，我再问一下办理这个登记需要收费吗?",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "是否收费",
+            "单位住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "247",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "是否收费",
+            "不收费"
+        ],
+        "grounding_id": [
+            "247",
+            "248"
+        ]
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下 浙江杭州基本医疗保险参保人员出国带药的一些信息",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "基本医疗保险参保人员出国（境）带药备案",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是申请条件，申报材料，办理流程，设定依据还是收费标准",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "237"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "238"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "239"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那就好，具体应该去哪儿办呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以到杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）一楼1-7号窗口办理",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）一楼1-7号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果想咨询的话有什么方式吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址和咨询网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询电话吧，方便点",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0571-12333-1",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "0571-12333-1"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那咨询的地址也给我一下吧",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_基本医疗保险参保人员出国（境）带药备案.json",
+        "grounding": [
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那城乡居民参保信息变更登记的话大概多长时间能办好？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "城乡居民参保信息变更登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "53"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "五个工作日左右",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    }
+]

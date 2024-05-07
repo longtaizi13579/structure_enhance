@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近做了一个角膜移植手术，但是术后总感觉眼睛不舒服，不知道怎么回事？",
+        "act": "why",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "角膜移植",
+            "角膜疾病",
+            "眼疾",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "1",
+            "T2340",
+            "T2321",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你做的移植手术是全层角膜移植还是板层角膜移植？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "角膜移植"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你说的全层是角膜全部换掉，板层是部分是吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "角膜移植"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，这两种类型会产生不同的并发症而导致您眼部不舒服的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "部分角膜移植并发症包括"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我属于个部分角膜移植，它的并发症有哪些呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "部分角膜移植并发症包括"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个有移植物排斥、感染问题、切口问题、青光眼、移植失败一系列并发症",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "青光眼"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个排斥的话会有什么危险吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "轻度排斥较常见，在大多数患者中使用皮质类固醇滴眼液很容易成功治疗。严重不可逆排斥（称为移植物衰竭）较罕见。在各种类型角膜移植中，DMEK的排斥率最低，穿透性角膜成形术的排斥率最高。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "最常见的轻度排斥，不过在大多数患者中使用皮质类固醇滴眼液很容易成功治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "轻度排斥较常见，在大多数患者中使用皮质类固醇滴眼液很容易成功治疗。严重不可逆排斥（称为移植物衰竭）较罕见。在各种类型角膜移植中，DMEK的排斥率最低，穿透性角膜成形术的排斥率最高。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果排斥严重的话呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "轻度排斥较常见，在大多数患者中使用皮质类固醇滴眼液很容易成功治疗。严重不可逆排斥（称为移植物衰竭）较罕见。在各种类型角膜移植中，DMEK的排斥率最低，穿透性角膜成形术的排斥率最高。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "严重不可逆排斥很少见，很多角膜移植中，DMEK的排斥率最低，穿透性角膜成形术的排斥率最高。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "轻度排斥较常见，在大多数患者中使用皮质类固醇滴眼液很容易成功治疗。严重不可逆排斥（称为移植物衰竭）较罕见。在各种类型角膜移植中，DMEK的排斥率最低，穿透性角膜成形术的排斥率最高。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你说的这个穿透性角膜成形术就是一开始说的全层角膜移植吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "穿透性角膜成形术"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，全层角膜移植又叫穿透性角膜移植。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_角膜移植.json",
+        "grounding": [
+            "穿透性角膜成形术"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

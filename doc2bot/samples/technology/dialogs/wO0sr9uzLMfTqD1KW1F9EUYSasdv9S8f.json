@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下iPadOSBeta版的软件怎么能卸载掉？",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如何卸载iOS或iPadOSBeta版软件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解删除Beta版描述文件以移除PublicBeta版、恢复设备以移除开发者Beta版还是在系统提醒有新的iOS或iPadOS更新可用时进行更新呢？",
+        "act": "multiple-choice",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "删除Beta版描述文件以移除PublicBeta版"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想删除Beta版描述文件以移除PublicBeta版的软件。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "删除Beta版描述文件以移除PublicBeta版"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要移除PublicBeta版，最简单的方法是删除Beta版描述文件，然后等待下一次的软件更新。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "要移除PublicBeta版，最简单的方法是删除Beta版描述文件，然后等待下一次的软件更新。请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体是怎么删除呢？",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "要移除PublicBeta版，最简单的方法是删除Beta版描述文件，然后等待下一次的软件更新。请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先您要打开“设置”>“通用”，然后轻点“VPN与设备管理”，再轻点“iOSBeta版软件描述文件”，轻点“移除描述文件”，最后重新启动您的设备即可。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "前往“设置”>“通用”，然后轻点“VPN与设备管理”。",
+            "轻点“iOSBeta版软件描述文件”。",
+            "轻点“移除描述文件”，然后重新启动您的设备。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为啥我用Beta创建的备份显示和我的手机不兼容啊？",
+        "act": "what",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "请注意，使用Beta版软件时创建的备份可能与旧版iOS或iPadOS不兼容。如果您未曾使用当前版本的iOS或iPadOS创建过较旧的备份，则可能无法使用最新备份来恢复设备。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您未曾使用当前版本的iOS或iPadOS创建过较旧的备份，则可能无法使用最新备份来恢复设备。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "请注意，使用Beta版软件时创建的备份可能与旧版iOS或iPadOS不兼容。如果您未曾使用当前版本的iOS或iPadOS创建过较旧的备份，则可能无法使用最新备份来恢复设备。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那有什么办法解决这个问题吗？",
+        "act": "what",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "请注意，使用Beta版软件时创建的备份可能与旧版iOS或iPadOS不兼容。如果您未曾使用当前版本的iOS或iPadOS创建过较旧的备份，则可能无法使用最新备份来恢复设备。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先您要确保您的Mac装有最新版本的macOS或最新版本的iTunes，然后将您的设备连接到电脑并设置为恢复模式，在“恢复”选项出现时，点按这个选项最后等待恢复完成即可。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "确保您的Mac装有最新版本的macOS或最新版本的iTunes。",
+            "将您的设备连接到电脑，然后按照以下步骤将设备置于恢复模式：",
+            "在“恢复”选项出现时，点按这个选项。这样会抹掉设备并安装最新的非Beta版iOS或iPadOS。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第2步。",
+            "等待恢复完成。系统提示您输入AppleID和密码时，输入这些信息，这会停用激活锁。如果恢复流程无法完成，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "27",
+            "32",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "恢复模式在哪里调啊？",
+        "act": "what",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "将您的设备连接到电脑，然后按照以下步骤将设备置于恢复模式："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您使用的是什么设备呢？",
+        "act": "question/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "将您的设备连接到电脑，然后按照以下步骤将设备置于恢复模式："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我的是iPhone13。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "对于iPhone8或更新机型：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "对于iPhone8或更新机型：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕即可。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "对于iPhone8或更新机型：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "明白了，那如果可以更新新的公共版本的话，我去怎么能找到安装的地方呢？",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "当iOS或iPadOS的下一个公共版本推出时，安装它即可重新使用iOS或iPadOS的非Beta版本。如果已有可用的更新，您可以前往“设置”>“通用”>“软件更新”进行安装，但前提是这个iOS或iPadOS版本必须高于您当前使用的版本。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以前往“设置”>“通用”>“软件更新”进行安装，但前提是这个iOS或iPadOS版本必须高于您当前使用的版本。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "当iOS或iPadOS的下一个公共版本推出时，安装它即可重新使用iOS或iPadOS的非Beta版本。如果已有可用的更新，您可以前往“设置”>“通用”>“软件更新”进行安装，但前提是这个iOS或iPadOS版本必须高于您当前使用的版本。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那我用了AppleBeta版的话，还可以去尝试使用iOS版本吗？",
+        "act": "verification",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "AppleBeta版软件计划、客户播种计划及AppleDeveloperProgram的成员，均可尝试使用iOS或iPadOSBeta版。这篇文章介绍了在您已安装某个iOSBeta版并且不再需要这个版本的情况下，应如何重新使用最新的公开发布版iOS或iPadOS。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "AppleBeta版软件计划、客户播种计划及AppleDeveloperProgram的成员，均可尝试使用iOS或iPadOSBeta版。",
+        "act": "ans/yes",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "AppleBeta版软件计划、客户播种计划及AppleDeveloperProgram的成员，均可尝试使用iOS或iPadOSBeta版。这篇文章介绍了在您已安装某个iOSBeta版并且不再需要这个版本的情况下，应如何重新使用最新的公开发布版iOS或iPadOS。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

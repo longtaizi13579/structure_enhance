@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我听说AppleMusic可以打开同步资料库了，是不是我只要订阅了AppleMusic或iTunesMatch就可以打开啊？",
+        "act": "ans/open",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "通过订阅AppleMusic打开“同步资料库”",
+            "订阅AppleMusic或iTunesMatch。"
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，如果您订阅AppleMusic或iTunesMatch，就可以打开“同步资料库”。",
+        "act": "ans/open",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "可以通过订阅 Apple Music 打开“同步资料库”",
+            "订阅AppleMusic或iTunesMatch。"
+        ],
+        "grounding_id": [
+            "94",
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "原来是这样，那我具体要怎么操作才能打开资料库呢？",
+        "act": "how",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "打开“同步资料库”",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "21",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是在什么设备上打开您的“同步资料库”呢？您可以回答：在iPhone、iPad或iPodtouch上、在Mac上、在装有Windows版iTunes的PC上或者在其他设备上。",
+        "act": "multiple-choice",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iPhone上打开。",
+        "act": "ans/open",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先您要前往“设置”>“音乐”，然后打开“同步资料库”即可。",
+        "act": "ans/open",
+        "document": "通过订阅AppleMusic打开“同步资料库”.json",
+        "grounding": [
+            "前往“设置”>“音乐”。",
+            "打开“同步资料库”。如果您没有订阅AppleMusic或iTunesMatch，您将看不到用于打开“同步资料库”的选项。"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "找到了。对了，我想给我的家庭里加一个HomeKit，怎么操作呀？",
+        "act": "how",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "向“家庭”App添加HomeKit配件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只需轻点一下或向Siri发出命令，即可向“家庭”App添加配件，然后按房间或区域对配件进行整理，以便轻松控制家中的不同区域。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "只需轻点一下或向Siri发出命令，即可向“家庭”App添加配件，然后按房间或区域对配件进行整理，以便轻松控制家中的不同区域。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江省湖州市赴台团队旅游签注的一些信息",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办理的地点在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "湖州市行政服务中心（浙江省湖州市金盖山路66号1号楼）二楼D区出入境受理窗口1-3号",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "湖州市行政服务中心（浙江省湖州市金盖山路66号1号楼）二楼D区出入境受理窗口1-3号"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，工作的时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "周一至周五上午9:00-下午5:00中午不休（法定节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "周一至周五上午9:00-下午5:00中午不休（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那如果是办理往来台湾通行证的话多长时间可以收到？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一般自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有网上申请和现场窗口申请两种",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有没有承诺办结时限呢？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，7个工作日",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那7天之内肯定能办完吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如有特殊情况的话需要按照法定办结时限，您要了解吗？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯，这个法定办结时限又是多长？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "了解，具体的办理地点是在哪里？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "湖州市行政服务中心（浙江省湖州市金盖山路66号1号楼）二楼D区出入境受理窗口1-3号",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "湖州市行政服务中心（浙江省湖州市金盖山路66号1号楼）二楼D区出入境受理窗口1-3号"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "有没有这里的联系电话啊？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "有的，0572-2252270",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0572-2252270"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    }
+]

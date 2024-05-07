@@ -1,0 +1,310 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下机动车的事",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江金华市",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的关于机动车您具体想了解哪方面呢比如是机动车更换发动机变更登记还是机动车因质量问题更换整车变更登记再或者是危化品运输车申请异地核发检验合格标志通知书等等",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "危化品运输车申请异地核发检验合格标志通知书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是这个危化品运输车申请异地核发检验合格标志通知书这个支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "危化品运输车申请异地核发检验合格标志通知书",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "273"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "274"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个还收费吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "270"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有些信息想问一下是关于车子更换发动机变更登记",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "99"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "也是浙江金华市吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的关于机动车更换发动机变更登记请问您想了解哪方面的信息是基本信息还是办事信息",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "机动车更换发动机变更登记"
+        ],
+        "grounding_id": [
+            "40",
+            "99",
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "想问一下这个都有什么办理形式",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个可以网上申请还可以现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的就是还有一个更换整车变更登记这个是否支持网上支付呢",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "619"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "也是浙江金华市吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个支持网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持网上支付",
+            "支持"
+        ],
+        "grounding_id": [
+            "619",
+            "620"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这个变更登记可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "这个不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那这个变更登记的办理时间您给查一下",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "办理时间星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "办理时间",
+            "星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    }
+]

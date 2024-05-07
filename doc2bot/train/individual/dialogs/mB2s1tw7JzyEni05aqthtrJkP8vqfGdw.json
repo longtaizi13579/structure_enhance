@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省杭州市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您想问机动车、行驶证驾驶证、小客车指标、机动车所有人以上哪方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T153"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下小客车指标单位增量指标配置有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "小客车指标",
+            "单位增量指标配置",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T153",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我想问下咨询地址。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "没问题，咨询地址为杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "小客车指标单位增量指标配置还有什么基本信息呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "小客车指标",
+            "单位增量指标配置"
+        ],
+        "grounding_id": [
+            "T153",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解行政相对人权利和义务、办事信息、中介服务、结果信息还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "结果信息有哪些呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "审批结果类型、审批结果名称、审批结果样本、是否支持物流快递、送达时限、送达方式都可以提供给您。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "送达时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "送达时限为自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "最后想问下，这个业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位增量指标配置.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

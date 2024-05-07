@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的姐姐病情比较严重，想捐献遗体，同一家医院有位患者要做胰腺移植，想了解下我姐姐是否可以捐献给他？？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "移植",
+            "胰腺移植",
+            "供者"
+        ],
+        "grounding_id": [
+            "T1998",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "作为胰腺移植供者需要满足一些条件，比如不酗酒，最近去世等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "供者",
+            "他们最近去世了。",
+            "他们不酗酒。"
+        ],
+        "grounding_id": [
+            "24",
+            "27",
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那医院里有位患者需要同时移植肾脏和胰腺，我姐姐可以捐献给他吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "如果将要移植胰腺和肾脏，它们必须来自同一个供者。",
+            "胰腺移植",
+            "移植"
+        ],
+        "grounding_id": [
+            "31",
+            "1",
+            "T1998"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以，如果将要移植胰腺和肾脏，它们必须来自同一个供者。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "如果将要移植胰腺和肾脏，它们必须来自同一个供者。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，我知道了。我姐姐血糖有点高，可以吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们有糖尿病前期（血糖水平高于正常但还未达到糖尿病诊断标准的状态）或糖尿病。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你姐姐已经诊断为糖尿病吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们有糖尿病前期（血糖水平高于正常但还未达到糖尿病诊断标准的状态）或糖尿病。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "没有，她的血糖水平高于正常但还未达到糖尿病诊断标准的状态",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们有糖尿病前期（血糖水平高于正常但还未达到糖尿病诊断标准的状态）或糖尿病。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那她符合要求，根据要求胰腺移植供者有糖尿病前期（血糖水平高于正常但还未达到糖尿病诊断标准的状态）或糖尿病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们有糖尿病前期（血糖水平高于正常但还未达到糖尿病诊断标准的状态）或糖尿病。",
+            "供者"
+        ],
+        "grounding_id": [
+            "30",
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有哪些要求？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "供者通常是具有以下所有特征的人："
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你姐姐多大年纪？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们年龄在10至55岁之间。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "她48岁。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "他们年龄在10至55岁之间。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那符合要求，胰腺移植供者的年龄要求在10至55岁之间。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_胰腺移植.json",
+        "grounding": [
+            "胰腺移植",
+            "供者",
+            "他们年龄在10至55岁之间。"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "28"
+        ]
+    }
+]

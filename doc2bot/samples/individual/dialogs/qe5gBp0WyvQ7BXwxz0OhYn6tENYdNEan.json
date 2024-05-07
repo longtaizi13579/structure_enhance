@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省宁波市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T10",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理机动车在车辆管理所管辖区域内转移登记这个业务，有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询地址告诉我一下吧。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "宁波市鄞州区福明街道中兴北路33号",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "宁波市鄞州区福明街道中兴北路33号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理这个业务，想投诉有哪些方式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问问费用有关的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "333"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "340"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么内容需要收费？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "340"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1 机动车临时号牌 、2 汽车反光号牌 、 3 机动车登记证书、 4 机动车行驶证、5 摩托车反光号牌、6 挂车反光号牌这些都需要收费。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1\t机动车临时号牌"
+        ],
+        "grounding_id": [
+            "341"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "机动车临时号牌是怎么收费的？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1\t机动车临时号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "341",
+            "342"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "5元/张",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "343"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "机动车行驶证多少钱一本呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "4\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "368",
+            "369"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "370"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "挂车反光号牌呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "6\t挂车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "386",
+            "387"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "50元/副",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "388"
+        ]
+    }
+]

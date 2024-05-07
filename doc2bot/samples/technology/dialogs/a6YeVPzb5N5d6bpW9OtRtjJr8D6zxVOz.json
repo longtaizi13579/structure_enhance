@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下然后更改AirPods和AirPodsPro的设置",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "更改AirPods和AirPodsPro的设置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解为您的AirPods命名，更改AirPodsPro上的按住操作，还是更改AirPods（第1代和第2代）上的轻点两下操作",
+        "act": "multiple-choice",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "更改AirPodsPro上的按住操作"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道更改AirPodsPro上的按住操作怎么使用Siri呢",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "更改AirPodsPro上的按住操作",
+            "您还可以设置按住操作来供自己使用Siri。在AirPodsPro设置屏幕中，轻点“左”或“右”，然后选择“Siri”。您可以将一只AirPod设置为使用Siri，将另一只设置为更改噪声控制模式。"
+        ],
+        "grounding_id": [
+            "10",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在AirPodsPro设置屏幕中，轻点“左”或“右”，然后选择“Siri”。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "您还可以设置按住操作来供自己使用Siri。在AirPodsPro设置屏幕中，轻点“左”或“右”，然后选择“Siri”。您可以将一只AirPod设置为使用Siri，将另一只设置为更改噪声控制模式。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那利用将一只AirPod设置为使用Siri，将另一只设置为更改噪声控制模式吗？",
+        "act": "verification",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "您还可以设置按住操作来供自己使用Siri。在AirPodsPro设置屏幕中，轻点“左”或“右”，然后选择“Siri”。您可以将一只AirPod设置为使用Siri，将另一只设置为更改噪声控制模式。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "您还可以设置按住操作来供自己使用Siri。在AirPodsPro设置屏幕中，轻点“左”或“右”，然后选择“Siri”。您可以将一只AirPod设置为使用Siri，将另一只设置为更改噪声控制模式。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，如果是想给AirPods命名的话怎么操作呢",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "为您的AirPods命名"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开充电盒，然后在iPhone、iPad或iPodtouch上，前往“设置”>“蓝牙”，轻点您的AirPods旁边的“更多信息”按钮，轻点当前名称，输入AirPods的新名称，最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "打开充电盒。",
+            "在iPhone、iPad或iPodtouch上，前往“设置”>“蓝牙”。",
+            "轻点您的AirPods旁边的“更多信息”按钮。",
+            "轻点当前名称。",
+            "输入AirPods的新名称。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，我还想问一下打开“自动人耳检测”但没有佩戴AirPods时音频怎么播放",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "打开或关闭“自动人耳检测”",
+            "默认情况下，当您将AirPods戴入耳中时，它们可以立即感知到，随后接收来自您设备的音频。当您从耳中取出一只耳机时，AirPods还会先暂停再恢复播放，而当您同时取出两只耳机时，则会停止播放且不会恢复。当您打开了“自动人耳检测”但没有佩戴AirPods时，音频会通过您设备的扬声器播放。"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您打开了“自动人耳检测”但没有佩戴AirPods时，音频会通过您设备的扬声器播放。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "默认情况下，当您将AirPods戴入耳中时，它们可以立即感知到，随后接收来自您设备的音频。当您从耳中取出一只耳机时，AirPods还会先暂停再恢复播放，而当您同时取出两只耳机时，则会停止播放且不会恢复。当您打开了“自动人耳检测”但没有佩戴AirPods时，音频会通过您设备的扬声器播放。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "当从耳中取出一只耳机时，AirPods是怎么运行的呢",
+        "act": "how",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "默认情况下，当您将AirPods戴入耳中时，它们可以立即感知到，随后接收来自您设备的音频。当您从耳中取出一只耳机时，AirPods还会先暂停再恢复播放，而当您同时取出两只耳机时，则会停止播放且不会恢复。当您打开了“自动人耳检测”但没有佩戴AirPods时，音频会通过您设备的扬声器播放。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当您从耳中取出一只耳机时，AirPods还会先暂停再恢复播放，而当您同时取出两只耳机时，则会停止播放且不会恢复。",
+        "act": "ans/open",
+        "document": "更改AirPods和AirPodsPro的设置.json",
+        "grounding": [
+            "默认情况下，当您将AirPods戴入耳中时，它们可以立即感知到，随后接收来自您设备的音频。当您从耳中取出一只耳机时，AirPods还会先暂停再恢复播放，而当您同时取出两只耳机时，则会停止播放且不会恢复。当您打开了“自动人耳检测”但没有佩戴AirPods时，音频会通过您设备的扬声器播放。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

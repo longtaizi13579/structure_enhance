@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我有两台MAC，怎么操作另一台DrumMachineDesigner套件呢？",
+        "act": "how",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在另一台Mac上使用自定DrumMachineDesigner套件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先需要将套件的设置存储为PATCH文件，您是需要了解怎么储存PATCH文件还是自定DrumMachineDesigner套件呢？",
+        "act": "multiple-choice",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "将套件的设置存储为PATCH文件"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还要这么麻烦？这个储为PATCH文件怎么操作呢？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "将套件的设置存储为PATCH文件"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开带有您想要存储的自定套件的LogicPro项目然后 要打开“DrumMachineDesigner”窗口，请点按通道条的“乐器”插槽中的“DMD”之后在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch随后如有必要，请点按“资源库”按钮然后点按“资源库”底部的“存储”，然后输入自定套件的名称。为确保您的自定套件显示在“资源库”中的“用户Patch”文件夹中，请将它存储到您的个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument。之后点按“存储”对话框中的“存储”最后前往~/音乐/AudioMusicApps/Patches/Instrument/，然后将PATCH文件拷贝到另一台Mac",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "点按“资源库”底部的“存储”，然后输入自定套件的名称。为确保您的自定套件显示在“资源库”中的“用户Patch”文件夹中，请将它存储到您的个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument。",
+            "点按“存储”对话框中的“存储”。",
+            "前往~/音乐/AudioMusicApps/Patches/Instrument/，然后将PATCH文件拷贝到另一台Mac。",
+            "如有必要，请点按“资源库”按钮。",
+            "在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。",
+            "要打开“DrumMachineDesigner”窗口，请点按通道条的“乐器”插槽中的“DMD”。",
+            "打开带有您想要存储的自定套件的LogicPro项目。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "8",
+            "7",
+            "6",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我装在另外一台MAC上需要两台机子版本都一样吗？",
+        "act": "verification",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "DrumMachineDesigner套件由套件中的样本和一个PATCH文件组成，这个文件用来储存套件的鼓垫分配和其他设置。您可以存储这些组件，然后将它们拷贝到另一台Mac，以便与LogicPro10.5或更高版本搭配使用。您可以使用外置驱动器、iCloud云盘、“隔空投送”、电子邮件或第三方云服务将这些组件转移到另一台Mac。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以存储这些组件，然后将它们拷贝到另一台Mac，以便与LogicPro10.5或更高版本搭配使用。您可以使用外置驱动器、iCloud云盘、“隔空投送”、电子邮件或第三方云服务将这些组件转移到另一台Mac。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "DrumMachineDesigner套件由套件中的样本和一个PATCH文件组成，这个文件用来储存套件的鼓垫分配和其他设置。您可以存储这些组件，然后将它们拷贝到另一台Mac，以便与LogicPro10.5或更高版本搭配使用。您可以使用外置驱动器、iCloud云盘、“隔空投送”、电子邮件或第三方云服务将这些组件转移到另一台Mac。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么转到另一台MAC去的话要储存资料怎么弄呢？",
+        "act": "what",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "存储套件的样本"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想咨询存储套件的样本还是样本的文件在哪里呢？",
+        "act": "multiple-choice",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "存储套件的样本"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道怎么存储套件的样本。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "存储套件的样本"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先使用新软件乐器轨道创建一个新的空项目然后选择轨道，然后从“资源库”中的“用户Patch”文件夹中选取您的自定套件之后选取“文件”>“存储”接着在“存储”对话框中，选择“文件夹”以将您的项目存储为文件夹，选择“采样器音频数据”，为您的项目输入名称并选取位置，然后点按“存储”接着在“访达”中，打开您刚才为项目创建的文件夹。找到名为“快速采样器”的子文件夹，其中包含您套件中使用的样本。最后将“快速采样器”文件夹拷贝到另一台Mac",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在“访达”中，打开您刚才为项目创建的文件夹。找到名为“快速采样器”的子文件夹，其中包含您套件中使用的样本。",
+            "将“快速采样器”文件夹拷贝到另一台Mac。",
+            "在“存储”对话框中，选择“文件夹”以将您的项目存储为文件夹，选择“采样器音频数据”，为您的项目输入名称并选取位置，然后点按“存储”。",
+            "选取“文件”>“存储”。",
+            "选择轨道，然后从“资源库”中的“用户Patch”文件夹中选取您的自定套件。",
+            "使用新软件乐器轨道创建一个新的空项目。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "16",
+            "15",
+            "14",
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，但是我台电脑有重命名文件要怎么处理呢？",
+        "act": "how",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在另一台Mac上重命名和移动文件夹"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先在另一台Mac上，找到“快速采样器”文件夹和PATCH文件，然后将“快速采样器”文件夹的名称更改为您为自定套件PATCH文件指定的相同名称。例如，如果您的PATCH文件名为MyDrumKit.patch，则将“快速采样器”文件夹名称更改为“MyDrumKit”。最后在“访达”中，将PATCH文件和已重命名的文件夹移到个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument/。",
+        "act": "ans/open",
+        "document": "在另一台Mac上使用自定DrumMachineDesigner套件.json",
+        "grounding": [
+            "在另一台Mac上，找到“快速采样器”文件夹和PATCH文件。",
+            "将“快速采样器”文件夹的名称更改为您为自定套件PATCH文件指定的相同名称。例如，如果您的PATCH文件名为MyDrumKit.patch，则将“快速采样器”文件夹名称更改为“MyDrumKit”。",
+            "在“访达”中，将PATCH文件和已重命名的文件夹移到个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument/。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    }
+]

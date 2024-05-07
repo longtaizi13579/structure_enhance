@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么从“我的照片流”中删除照片呢",
+        "act": "how",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "从“我的照片流”中删除照片",
+            "删除照片"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您用的是什么设备呢",
+        "act": "question/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是iPhone，相关的步骤是什么",
+        "act": "what",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“照片”App，然后轻点“相簿”标签，轻点“我的照片流”，轻点“选择”，轻点一张或多张照片，最后轻点“废纸篓”按钮，轻点“删除[数字]张照片”",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "打开“照片”App。",
+            "轻点“相簿”标签。",
+            "轻点“我的照片流”。",
+            "轻点“选择”。",
+            "轻点一张或多张照片。您将在您选择的照片上看到一个勾号。",
+            "轻点“废纸篓”按钮。轻点“删除[数字]张照片”。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么样选择一张或多张照片呢",
+        "act": "how",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "轻点一张或多张照片。您将在您选择的照片上看到一个勾号。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您将在您选择的照片上看到一个勾号，点击就可以",
+        "act": "ans/open",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "轻点一张或多张照片。您将在您选择的照片上看到一个勾号。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那iPodtouch是不是也可以从“我的照片流”中删除照片呢？",
+        "act": "verification",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "从“我的照片流”中删除照片",
+            "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch和Mac上，您可以从“我的照片流”中删除照片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那从“我的照片流”中移除照片时最近项目中的照片会删掉吗",
+        "act": "verification",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "当您从“我的照片流”中移除照片时，以下照片不会被删除：",
+            "您拷贝到iOS设备上“资料库”标签或“最近项目”相簿中的照片"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您从“我的照片流”中移除照片时您拷贝到iOS设备上“资料库”标签或“最近项目”相簿中的照片不会被删除",
+        "act": "ans/no",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "当您从“我的照片流”中移除照片时，以下照片不会被删除：",
+            "您拷贝到iOS设备上“资料库”标签或“最近项目”相簿中的照片"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，如果拷贝到PC上不属于“我的照片流”一部分的某个文件夹中的照片会不会也被删除呢",
+        "act": "verification",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "当您从“我的照片流”中移除照片时，以下照片不会被删除：",
+            "您拷贝到PC上不属于“我的照片流”一部分的某个文件夹中的照片"
+        ],
+        "grounding_id": [
+            "5",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不会的",
+        "act": "ans/no",
+        "document": "从“我的照片流”中删除照片.json",
+        "grounding": [
+            "当您从“我的照片流”中移除照片时，以下照片不会被删除：",
+            "您拷贝到PC上不属于“我的照片流”一部分的某个文件夹中的照片"
+        ],
+        "grounding_id": [
+            "5",
+            "8"
+        ]
+    }
+]

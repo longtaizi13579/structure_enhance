@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下，我先在iCloud通讯录、日历或提醒事项都没有同步怎么办？",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问如果您的iCloud通讯录、日历或提醒事项没有出现在使用了iCloud的所有设备上，该怎么做是吗？",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "了解如果您的iCloud通讯录、日历或提醒事项没有出现在使用了iCloud的所有设备上，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要检查你的App设置。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "检查您的App设置"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何进行检查呢？",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "检查您的App设置"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "果您在“通讯录”或“日历”App中使用多个群组或帐户，请确保将您的iCloud通讯录和日历设置为显示状态：打开“通讯录”App，然后轻点左上角的“群组”。确保“所有iCloud”处于选中状态。 打开“日历”App，然后轻点“日历”标签。确保已选择所有iCloud日历。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您在“通讯录”或“日历”App中使用多个群组或帐户，请确保将您的iCloud通讯录和日历设置为显示状态：",
+            "打开“通讯录”App，然后轻点左上角的“群组”。确保“所有iCloud”处于选中状态。",
+            "打开“日历”App，然后轻点“日历”标签。确保已选择所有iCloud日历。"
+        ],
+        "grounding_id": [
+            "55",
+            "56",
+            "57"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我听完你讲的尝试了一遍还是没变化啊？",
+        "act": "why",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "由于iCloud“生日”日历每天更新一次，因此，可能要到第二天“日历”App中才会显示生日所发生的变化。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "因为由于iCloud“生日”日历每天更新一次，因此，可能要到第二天“日历”App中才会显示生日所发生的变化。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "由于iCloud“生日”日历每天更新一次，因此，可能要到第二天“日历”App中才会显示生日所发生的变化。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那好吧，可是我感觉我还是没太明白你能在跟我讲讲别的协助方法吗？",
+        "act": "verification",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你可以尝试首先iOS13和iPadOS或更高版本然后 watchOS再 macOS之后iCloud.com最后 MicrosoftWindows",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "iOS13和iPadOS或更高版本",
+            "watchOS",
+            "macOS",
+            "iCloud.com",
+            "MicrosoftWindows"
+        ],
+        "grounding_id": [
+            "22",
+            "26",
+            "30",
+            "34",
+            "38"
+        ]
+    }
+]

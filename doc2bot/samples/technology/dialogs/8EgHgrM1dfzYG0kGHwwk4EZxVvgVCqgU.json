@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下如何创建iMovie项目",
+        "act": "how",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "创建一个新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解如何在iPhone或iPad上创建新的iMovie剪辑项目还是如何在Mac上创建新的iMovie剪辑项目",
+        "act": "multiple-choice",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "如何在Mac上创建新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在Mac上创建新的iMovie剪辑项目该怎么做",
+        "act": "how",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "如何在Mac上创建新的iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您要在“项目”浏览器中，点按“新建”。 然后点按“影片”。您的新项目将打开，其中显示浏览器、检视器和时间线。您也可以点按“预告片”，以使用内建模板来用您自己的视频和照片创建预告片。在创建项目后，您可以添加来自“资源库”列表的事件中的片段，或者添加来自“照片”App图库中的视频片段和照片。您还可以从其他来源导入视频片段、照片和其他媒体",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "具体步骤",
+            "在“项目”浏览器中，点按“新建”。如果您正在编辑影片，请点按工具栏中的“项目”按钮，然后再次点按“项目”以打开“项目”浏览器。",
+            "点按“影片”。您的新项目将打开，其中显示浏览器、检视器和时间线。您也可以点按“预告片”，以使用内建模板来用您自己的视频和照片创建预告片。",
+            "创建项目后，您可以添加来自“资源库”列表的事件中的片段，或者添加来自“照片”App图库中的视频片段和照片。您还可以从其他来源导入视频片段、照片和其他媒体："
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我直接录制到 iMovie 剪辑里的话新片放在哪个位置？",
+        "act": "what",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "iMovie剪辑时间线将打开，并将新片段放置在播放头所在的位置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您需要将iMovie剪辑时间线将打开，将新片段放置在播放头所在的位置。",
+        "act": "ans/open",
+        "document": "创建一个新的iMovie剪辑项目.json",
+        "grounding": [
+            "iMovie剪辑时间线将打开，并将新片段放置在播放头所在的位置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "诶，我的iMovie在Mac上无法使用了怎么办",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果无法在Mac上正常使用iMovie剪辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您需要尝试故障诊断，先要重置NVRAM",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "按顺序尝试以下故障诊断步骤",
+            "重置NVRAM"
+        ],
+        "grounding_id": [
+            "4",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我该怎么做",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "重置NVRAM"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "先将Mac关机。然后断开除键盘和鼠标之外所有外置设备的连接。重置NVRAM。再打开iMovie剪辑，并尝试重现问题。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开除键盘和鼠标之外所有外置设备的连接。",
+            "重置NVRAM。",
+            "打开iMovie剪辑，并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我试了还是没法使用，怎么办",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下在舟山设立一个台资企业审批下来要多久？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "基本信息",
+            "浙江省_舟山市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "T3",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道法定时限还是承诺时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定办结时限呗。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "60",
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有哪些办理方式呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是问线上的还是线下的办理方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "线下的。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "线下的有两种，现场窗口申请或者邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业开办_项目审批_台湾地区的投资者在内地投资设立合资、合作经营的演出场所经营单位设立审批.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

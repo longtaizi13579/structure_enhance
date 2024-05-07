@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPhone上播放和录制HDR视频的相关问题？",
+        "act": "what",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "在iPhone或iPad上播放和录制HDR视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：支持HDR的机型，如何播放HDR视频，如何录制HDR视频，还是想进一步了解其它？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "如何录制HDR视频"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解下如何录制HDR视频？",
+        "act": "how",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "如何录制HDR视频"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 首先，打开“设置”。然后，轻点“相机”。 接着，轻点“录制视频”。最后，轻点“HDR视频”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "具体步骤",
+            "打开“设置”。",
+            "轻点“相机”。",
+            "轻点“录制视频”。",
+            "轻点“HDR视频”。默认情况下，这项设置处于打开状态。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "HDR视频在默认情况下是关闭状态吗？",
+        "act": "verification",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "轻点“HDR视频”。默认情况下，这项设置处于打开状态。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的。默认情况下，这项设置处于打开状态。",
+        "act": "ans/no",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "轻点“HDR视频”。默认情况下，这项设置处于打开状态。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问一下，如果我在设置中关闭高效，HDR视频还能正常使用吗？",
+        "act": "verification",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "进一步了解",
+            "HDR视频录制需要使用高效视频格式，所以如果您在“设置”>“相机”>“格式”中关闭“高效”，“HDR视频”也会关闭。如果您稍后重新打开“HDR视频”，则视频将使用“高效”格式，而图像将继续使用“兼容性最佳”格式。"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不能。HDR视频录制需要使用高效视频格式，所以如果您在“设置”>“相机”>“格式”中关闭“高效”，“HDR视频”也会关闭。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "HDR视频录制需要使用高效视频格式，所以如果您在“设置”>“相机”>“格式”中关闭“高效”，“HDR视频”也会关闭。如果您稍后重新打开“HDR视频”，则视频将使用“高效”格式，而图像将继续使用“兼容性最佳”格式。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我再次打开HDR视频，视频和图像会使用什么格式？",
+        "act": "what",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "HDR视频录制需要使用高效视频格式，所以如果您在“设置”>“相机”>“格式”中关闭“高效”，“HDR视频”也会关闭。如果您稍后重新打开“HDR视频”，则视频将使用“高效”格式，而图像将继续使用“兼容性最佳”格式。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您稍后重新打开“HDR视频”，则视频将使用“高效”格式，而图像将继续使用“兼容性最佳”格式。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "HDR视频录制需要使用高效视频格式，所以如果您在“设置”>“相机”>“格式”中关闭“高效”，“HDR视频”也会关闭。如果您稍后重新打开“HDR视频”，则视频将使用“高效”格式，而图像将继续使用“兼容性最佳”格式。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "观看HDR视频时，设备会以什么格式播放视频？",
+        "act": "what",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "如何播放HDR视频",
+            "观看HDR内容（例如来自Apple的HDR影片和电视节目，或来自其他提供商的这类内容）时，您的设备会自动以高动态范围格式播放视频。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "观看HDR内容时，您的设备会自动以高动态范围格式播放视频。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "观看HDR内容（例如来自Apple的HDR影片和电视节目，或来自其他提供商的这类内容）时，您的设备会自动以高动态范围格式播放视频。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "HDR视频的亮度会根据环境光线而改变吗？",
+        "act": "verification",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "HDR视频的亮度和颜色可能因设备和环境光线而异。如果光线较弱（例如，昏暗的房间），则会增强HDR的视觉效果。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "HDR视频的亮度和颜色可能因设备和环境光线而异。如果光线较弱，则会增强HDR的视觉效果。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "HDR视频的亮度和颜色可能因设备和环境光线而异。如果光线较弱（例如，昏暗的房间），则会增强HDR的视觉效果。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "高动态范围(HDR)视频需要iPhone兼容吗？",
+        "act": "verification",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "为了支持高动态范围(HDR)视频（例如来自Apple和其他提供商的HDR影片和电视节目），需要使用兼容的iPhone或iPad。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，为了支持高动态范围(HDR)视频，需要使用兼容的iPhone或iPad。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "为了支持高动态范围(HDR)视频（例如来自Apple和其他提供商的HDR影片和电视节目），需要使用兼容的iPhone或iPad。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

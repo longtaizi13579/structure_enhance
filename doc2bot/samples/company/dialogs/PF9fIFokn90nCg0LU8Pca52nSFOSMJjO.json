@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "宁波市的外商投资企业登记服务太差了，我要投诉，你能给我一个投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "外商投资企业登记（变更）",
+            "监督投诉方式",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "33",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，我们有投诉电话、线下投诉和网站投诉，您需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的投诉地址在宁波市行政服务中心二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "太远了，你还是给我投诉电话吧，电话多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的投诉电话是0574-12345-0。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "0574－12345－0"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有外商投资合伙企业变更登记的投诉地址也是同一个地址吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "投诉地址",
+            "外商投资合伙企业变更登记"
+        ],
+        "grounding_id": [
+            "36",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，外商投资合伙企业变更登记的投诉地址是杭州市凤起东路109号杭州市市场监督管理局12层1219办公室。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "杭州市凤起东路109号杭州市市场监督管理局12层1219办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

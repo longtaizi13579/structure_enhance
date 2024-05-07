@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，就是咱们浙江湖州市办这个机动车的事收费吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "浙江省_湖州市",
+            "机动车",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T13",
+            "T13",
+            "T17",
+            "363"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您指的是机动车哪项业务？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，就是机动车解除质押备案",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，这个是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "364"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "啊？有点吵，还有是否能网上支付呀？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "367"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "368"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，那麻烦你告知我一下到哪可以办这备案详细地址呀？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您记一下，地点是湖州市公安局交通警察支队车辆管理所（湖州市开发区龙溪街道三天门路799号）一楼大厅1-14号窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "湖州市公安局交通警察支队车辆管理所（湖州市开发区龙溪街道三天门路799号）一楼大厅1-14号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯嗯，好的，就是这个结果出来后快递的话多久能到？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦对了，忘了问了，办这个要几个工作日能办好？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

@@ -1,0 +1,340 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下机动车的事",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江金华市呀",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "关于机动车您具体想了解哪方面比如是变更登记还是注销登记再或者是注册登记等等",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想问办这个车子更换发动机变更登记收费吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "275"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是收费",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "是否收费",
+            "是"
+        ],
+        "grounding_id": [
+            "275",
+            "276"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个发动机变更登记收费项目叫什么",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "281"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "机动车行驶证",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "1\t机动车行驶证"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个收费标准是多少",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "284"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个收费支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "274",
+            "279"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我知道了，那我的机动车被人民法院扣押了，我现在想申请机动车更换发动机变更登记是不是就不行了？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "申请条件",
+            "（五）机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的；"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "296"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，机动车被人民法院、人民检察院、行政执法部门依法查封、扣押是禁止性要求，已经不能申请了。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "1",
+            "143"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个更换发动机变更登记办事点的具体地址是在哪",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "1",
+            "126",
+            "127"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "地址有两个一个是金华市二手车交易市场（金华市金东区赤松镇横三路与纵六路交叉口西北100米）一楼大厅1-9号另一个是金华巨宝二手车市场（金华市婺城区新狮街道二环北路3666号）2楼2-11号",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "具体地址",
+            "金华市二手车交易市场（金华市金东区赤松镇横三路与纵六路交叉口西北100米）一楼大厅1-9号",
+            "金华巨宝二手车市场（金华市婺城区新狮街道二环北路3666号）2楼2-11号"
+        ],
+        "grounding_id": [
+            "127",
+            "128",
+            "133"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理时间呢",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "有联系电话吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "0579-82286839",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "0579-82286839"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那这个变更登记支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那这个结果出来后多久能送达呀",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "送达时限自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    }
+]

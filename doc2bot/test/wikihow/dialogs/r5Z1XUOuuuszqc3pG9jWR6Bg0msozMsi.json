@@ -1,0 +1,230 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下如何复制粘贴？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "计算机与电子产品",
+            "如何复制粘贴"
+        ],
+        "grounding_id": [
+            "T2",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，可选方法有四种：Windows电脑、Mac电脑、iPhone或iPad和安卓设备，您想先了解哪一种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "可选方法",
+            "iPhone或iPad"
+        ],
+        "grounding_id": [
+            "3",
+            "32"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解iPhone或iPad。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "iPhone或iPad"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "iPhone或iPad: 1.选择你想要复制的对象： 2.轻触复制。 3.在文档或其它程序中，长按你想要插入文本或图片的位置。 4.轻触粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "iPhone或iPad",
+            "选择你想要复制的对象：",
+            "轻触复制。",
+            "在文档或其它程序中，长按你想要插入文本或图片的位置。",
+            "轻触粘贴。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "36",
+            "38",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "文本或图片轻触粘贴后会被插入到哪里？",
+        "act": "where",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "轻触粘贴。",
+            "文本或图片会被插入到光标所在的位置。"
+        ],
+        "grounding_id": [
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "文本或图片会被插入到光标所在的位置。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "文本或图片会被插入到光标所在的位置。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想再了解下，如何在Mac电脑上操作？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Mac电脑: 1.选择你想要复制的对象： 2.点击菜单栏里的编辑按钮。 3.点击复制。 4.在文档或其它程序中，点击你想要插入文本或图片的位置。 5.点击菜单栏里的编辑按钮。 6.点击粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Mac电脑",
+            "选择你想要复制的对象：",
+            "点击菜单栏里的编辑按钮。",
+            "点击复制。",
+            "在文档或其它程序中，点击你想要插入文本或图片的位置。",
+            "点击菜单栏里的编辑按钮。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "23",
+            "24",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何选择你想要复制的文本？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "文本：点击并拖拽鼠标，高亮标记想要复制粘贴的文本，然后松开鼠标。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "点击并拖拽鼠标，高亮标记想要复制粘贴的文本，然后松开鼠标。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "文本：点击并拖拽鼠标，高亮标记想要复制粘贴的文本，然后松开鼠标。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何在安卓设备上操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "安卓设备"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "安卓设备: 1.选择你想要复制的对象： 2.轻触复制。 3.在文档或其它程序中，长按你想要插入文本或图片的位置。 4.轻触粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "安卓设备",
+            "选择你想要复制的对象：",
+            "轻触复制。",
+            "在文档或其它程序中，长按你想要插入文本或图片的位置。",
+            "轻触粘贴。"
+        ],
+        "grounding_id": [
+            "42",
+            "43",
+            "46",
+            "48",
+            "50"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下，如何在Windows电脑上操作？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Windows电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "Windows电脑: 1.选择你想要复制的对象： 2.右键点击鼠标或触控板。 3.点击复制。 4.在文档或其它地方，点击你想要插入文本或图片的位置。 5.点击粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "Windows电脑",
+            "选择你想要复制的对象：",
+            "右键点击鼠标或触控板。",
+            "点击复制。",
+            "在文档或其它地方，点击你想要插入文本或图片的位置。",
+            "点击粘贴。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9",
+            "11",
+            "14",
+            "15"
+        ]
+    }
+]

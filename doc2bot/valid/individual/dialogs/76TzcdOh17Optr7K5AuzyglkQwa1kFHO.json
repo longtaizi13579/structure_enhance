@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省温州市的，过段时间要去台湾参加学术交流，应该办理什么签注？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_温州市",
+            "出入境",
+            "台湾通行证及签注",
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "T3",
+            "T239",
+            "T240",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请应邀赴台签注。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理地点在哪里？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理地点是：温州市民中心（温州市鹿城区滨江街道会展路1288号）A座二楼65-74号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理地点",
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座二楼65-74号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "894"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达 ",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "894",
+            "895",
+            "897",
+            "906",
+            "915",
+            "921"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果材料符合规定，会出具回执单吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "受理",
+            "办理结果",
+            "1.材料齐全符合法定情形的出具《受理申请回执单》； 2.材料不齐全，出具《补正告知书》；3.不符合法定情形的，出具《不予受理通知书》。"
+        ],
+        "grounding_id": [
+            "897",
+            "904",
+            "905"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会的。材料齐全符合法定情形的出具《受理申请回执单》。",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "1.材料齐全符合法定情形的出具《受理申请回执单》； 2.材料不齐全，出具《补正告知书》；3.不符合法定情形的，出具《不予受理通知书》。"
+        ],
+        "grounding_id": [
+            "905"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "制证签发需要几天？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "制证签发",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "915",
+            "917"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "制证签发都是即办。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时限",
+            "即办"
+        ],
+        "grounding_id": [
+            "917",
+            "918"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "949"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "收费",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "950"
+        ]
+    }
+]

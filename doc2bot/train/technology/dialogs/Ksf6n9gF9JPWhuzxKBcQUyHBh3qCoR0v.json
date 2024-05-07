@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，Mac上怎么用FaceTime？",
+        "act": "how",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "在Mac上使用FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您希望用FaceTime拨打通话、添加人员、使用链接还是接听通话呢？",
+        "act": "multiple-choice",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "拨打FaceTime通话"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么拨打电话。",
+        "act": "ans/open",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "拨打FaceTime通话"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您需要打开FaceTime通话App，然后点按“新建FaceTime通话”按钮，输入通话对象的姓名、电子邮件地址或电话号码，最后点按“FaceTime通话”按钮以进行视频通话，或者点按这个按钮上的箭头，然后选取“FaceTime音频”就可以啦。",
+        "act": "ans/open",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "打开FaceTime通话App。",
+            "点按“新建FaceTime通话”按钮。如果您所用版本的FaceTime通话中没有这个按钮，请跳过这一步骤。",
+            "输入通话对象的姓名、电子邮件地址或电话号码。在macOSMojave或更高版本中，您可以输入多人信息（最多32人），以进行FaceTime群聊通话。",
+            "点按“FaceTime通话”按钮以进行视频通话，或者点按这个按钮上的箭头，然后选取“FaceTime音频”。如果没有看到这个按钮，请改为点按“视频”或“音频”按钮。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我要怎么一次呼叫一群人呢？开会的时候会用到，还有如果通话结束了，怎么关闭？",
+        "act": "how",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "如果您正在呼叫一群人，应该会看到群组中的每个人都对应一个方块。每个人在应答之前，方块上会显示“等待中”。如果您没有看到任何方块，请点按边栏中的“FaceTime通话”按钮以开始通话。",
+            "要退出通话，请点按“结束”按钮。在您离开群组通话时，群组中的其他人会保持通话状态，直到他们选择离开。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您正在呼叫一群人，应该会看到群组中的每个人都对应一个方块，如果您没有看到任何方块，请点按边栏中的“FaceTime通话”按钮以开始通话。如果您要退出通话，请点按“结束”按钮。",
+        "act": "ans/open",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "如果您正在呼叫一群人，应该会看到群组中的每个人都对应一个方块。每个人在应答之前，方块上会显示“等待中”。如果您没有看到任何方块，请点按边栏中的“FaceTime通话”按钮以开始通话。",
+            "要退出通话，请点按“结束”按钮。在您离开群组通话时，群组中的其他人会保持通话状态，直到他们选择离开。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那Windows能进行FaceTime通话吗？",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "用安卓或Windows设备加入FaceTime通话",
+            "可以进行FaceTime通话"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "安卓或Windows设备是可以进行FaceTime通话的。",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "安卓或Windows设备",
+            "可以进行FaceTime通话"
+        ],
+        "grounding_id": [
+            "4",
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我试了，但是刚刚用网页进去的时候，一直看不到屏幕，是啥原因呢？",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，那是不是只要我有苹果的设备就能创建FaceTime通话啊？",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "任何人都可以通过装有iOS15的iPhone、iPad或iPodtouch或是装有macOSMonterey的Mac创建FaceTime通话链接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，任何人都可以通过装有iOS15的iPhone、iPad或iPodtouch或是装有macOSMonterey的Mac创建FaceTime通话链接。",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "任何人都可以通过装有iOS15的iPhone、iPad或iPodtouch或是装有macOSMonterey的Mac创建FaceTime通话链接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我创建链接后，是不是其他人不管用什么设备都可以进到通话里啦？",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "在使用安卓或Windows设备？通过iOS15和macOSMonterey中的FaceTime通话链接，任何人都可以从网页浏览器加入FaceTime通话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，通过iOS15和macOSMonterey中的FaceTime通话链接，任何人都可以从网页浏览器加入FaceTime通话。",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "在使用安卓或Windows设备？通过iOS15和macOSMonterey中的FaceTime通话链接，任何人都可以从网页浏览器加入FaceTime通话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

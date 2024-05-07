@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如果意外地从iCloud中删除了日历、书签或通讯录该怎么办啊？",
+        "act": "how",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "如果意外地从iCloud中删除了日历、书签或通讯录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "从较早的版本恢复通讯录或书签你可以 1.在iPad或电脑上，登录到iCloud.com。 2.点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。 3.向下滚动到页面底部。在“高级”下方，点按“恢复通讯录”或“恢复书签”。 4.点按在早于内容删除日的日期旁边的“恢复”。 5.再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复通讯录或书签",
+            "在iPad或电脑上，登录到iCloud.com。",
+            "点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。",
+            "向下滚动到页面底部。在“高级”下方，点按“恢复通讯录”或“恢复书签”。",
+            "点按在早于内容删除日的日期旁边的“恢复”。",
+            "再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "谢谢啦，那使用“访达”手动同步照片，就是把电脑上某个文件夹中的照片同步到iPhone、iPad或iPodtouch上可以吗？",
+        "act": "verification",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "您可以使用Mac上的“访达”，将“照片”App或电脑上某个文件夹中的照片同步到iPhone、iPad或iPodtouch。每次将iOS设备与电脑同步时，iOS设备上的照片和视频都会更新，从而与电脑上的相簿相匹配。如果您的iPhone、iPad或iPodtouch上有电脑上没有的照片，请了解如何导入这些照片。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当然可以，您可以使用Mac上的“访达”，将“照片”App或电脑上某个文件夹中的照片同步到iPhone、iPad或iPodtouch。每次将iOS设备与电脑同步时，iOS设备上的照片和视频都会更新，从而与电脑上的相簿相匹配。如果您的iPhone、iPad或iPodtouch上有电脑上没有的照片，你也可以咨询如何导入这些照片。",
+        "act": "ans/yes",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "您可以使用Mac上的“访达”，将“照片”App或电脑上某个文件夹中的照片同步到iPhone、iPad或iPodtouch。每次将iOS设备与电脑同步时，iOS设备上的照片和视频都会更新，从而与电脑上的相簿相匹配。如果您的iPhone、iPad或iPodtouch上有电脑上没有的照片，请了解如何导入这些照片。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我需要使用什么上的照片，才能无论在各个设备上，实况照片的效果都会保留？",
+        "act": "what",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "当您将实况照片导入OSXElCapitan和更高版本中的“照片”时，实况照片的效果会保留，但如果您通过电脑将实况照片同步回设备，实况照片的效果则会丢失。因此，请使用“iCloud照片”，这样无论您使用什么设备，实况照片的效果都会保留。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是这样的，当您将实况照片导入OSXElCapitan和更高版本中的“照片”时，实况照片的效果会保留，但如果您通过电脑将实况照片同步回设备，实况照片的效果则会丢失。因此，请使用“iCloud照片”，这样无论您使用什么设备，实况照片的效果都会保留。",
+        "act": "ans/open",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "当您将实况照片导入OSXElCapitan和更高版本中的“照片”时，实况照片的效果会保留，但如果您通过电脑将实况照片同步回设备，实况照片的效果则会丢失。因此，请使用“iCloud照片”，这样无论您使用什么设备，实况照片的效果都会保留。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果不使用“iCloud照片”还可以使用“访达”将哪里的照片和视频手动同步到iPhone、iPad或iPodtouch上呢？",
+        "act": "what",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "如果您不使用“iCloud照片”，可以使用“访达”将Mac中的照片和视频手动同步到iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您不使用“iCloud照片”，可以使用“访达”将Mac中的照片和视频手动同步到iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "使用“访达”手动同步照片.json",
+        "grounding": [
+            "如果您不使用“iCloud照片”，可以使用“访达”将Mac中的照片和视频手动同步到iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想问一下这个合同构成是怎样的？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要咨询哪个方面的合同？",
+        "act": "question/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "泰康健康关爱团体护理保险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问的是关于健康关爱团体护理的保险。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "泰康健康关爱团体护理保险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，健康关爱团体护理的保险是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险单 或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效的声明、 批注、批单及其他投保人与本公司共同认可的书面协议。这个您了解一下。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险单 或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效(见 7.1)的声明、 批注、批单及其他投保人与本公司共同认可的书面协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个投保范围是什么？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的投保范围像政府部门、机关、企业、事业单位等法人组织团体均可作为投保人向本公司投保本合同。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "政府部门、机关、企业、事业单位等法人组织团体均可作为投保人向本公司投保本 合同。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那，投保年龄呢？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投保的年龄就是指定投保时被保险的人的年龄。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "投保年龄是指投保时被保险人的年龄，以周岁(见 7.2)计算。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是按周岁算的吧？",
+        "act": "verification",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "周岁"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是按照有效的身份证中记载的出生日期计算的年龄，也就是周岁。您是想给您自己办理吗？",
+        "act": "verification",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "指按有效身份证件中记载的出生日期计算的年龄，自出生之日起为零周岁，每经 过一年增加一岁，不足一年的不计。例如，出生日期为 2000 年 9 月 1 日，2000 年 9 月 1 日至 2001 年 8 月 31 日期间为 0 周岁，2001 年 9 月 1 日至 2002 年 8 月 31 日期间为 1 周岁，依此类推。"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想给我公司的人办这个保险，那这个保险的金额是你们定的吗？",
+        "act": "verification",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "本合同项下各被保险人的保险金额由投保人在投保时与本公司约定，并在本合同上 载明。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是的，是根据投保人在投保时和我们公司的约定的保险金额，会写在合同上。",
+        "act": "ans/no",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "本合同项下各被保险人的保险金额由投保人在投保时与本公司约定，并在本合同上 载明。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

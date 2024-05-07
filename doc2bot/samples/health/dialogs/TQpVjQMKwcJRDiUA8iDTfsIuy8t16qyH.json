@@ -1,0 +1,58 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我一位医生朋友说我家孩子有可能患上了传染性软疣，想了解下这种病有什么治疗方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "传染性软疣的治疗",
+            "传染性软疣"
+        ],
+        "grounding_id": [
+            "20",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前孩子有针对肿块的外用治疗？注射治疗？还是手术治疗吗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "对肿块外用或注射治疗",
+            "手术去除肿块"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "只是自己在肿块处涂抹药膏，没什么效果。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "对肿块外用或注射治疗"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "建议尽快去医院，在医生指导下对肿块外用或注射治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "对肿块外用或注射治疗"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

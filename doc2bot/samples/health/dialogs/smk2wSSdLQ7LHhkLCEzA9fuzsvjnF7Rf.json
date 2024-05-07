@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我身上有块皮肤已经感染了，非常的疼，我想咨询一下皮肤感染的后续问题",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "皮肤细菌感染"
+        ],
+        "grounding_id": [
+            "T98"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解坏死性皮肤感染还是毛囊炎和皮肤脓肿？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "皮肤细菌感染"
+        ],
+        "grounding_id": [
+            "T98"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "坏死性皮肤感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "坏死性皮肤感染"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "坏死性皮肤感染，包括坏死性蜂窝织炎和坏死性筋膜炎，您是想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "坏死性皮肤感染"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "坏死性筋膜炎的治疗问题",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "坏死性皮肤感染的治疗"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "坏死性筋膜炎治疗是手术切除坏死组织加静脉给予抗生素。通常必须切除大量皮肤、组织和肌肉，在某些病例中，受累手臂或腿可能必须截掉（截肢）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_皮肤细菌感染_坏死性皮肤感染.json",
+        "grounding": [
+            "坏死性皮肤感染的治疗",
+            "如有必要，截肢"
+        ],
+        "grounding_id": [
+            "38",
+            "42"
+        ]
+    }
+]

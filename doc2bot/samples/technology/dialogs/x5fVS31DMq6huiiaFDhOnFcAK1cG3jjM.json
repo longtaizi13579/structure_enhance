@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何识别Mac上的端口",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "识别Mac上的端口"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要了解这些类型以及其他类型的Mac端口的相关信息吗？那请查看您所用Mac的规格",
+        "act": "question/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，那查看规格的话怎么操作呢",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“关于本机”，连按序列号，然后前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。最后点按您的Mac对应的规格页面。",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那雷雳4(USB-C)适配什么样的机型呢",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "雷雳4(USB-C)",
+            "以下Mac机型配备雷雳4(USB-C)端口："
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "MacStudio（2022年机型），MacBookPro（14英寸，2021年），以及 MacBookPro（16英寸，2021年）",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "MacStudio（2022年机型）",
+            "MacBookPro（14英寸，2021年）",
+            "MacBookPro（16英寸，2021年）"
+        ],
+        "grounding_id": [
+            "16",
+            "20",
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以将显示器或雷雳设备连接到电脑正面的雷雳4端口吗",
+        "act": "verification",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如果您持有搭载M1Ultra的MacStudio，您还可以将显示器或雷雳设备连接到电脑正面的雷雳4端口。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您持有搭载M1Ultra的MacStudio是可以的",
+        "act": "ans/yes",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如果您持有搭载M1Ultra的MacStudio，您还可以将显示器或雷雳设备连接到电脑正面的雷雳4端口。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那连接的话用什么型号的连接线呢",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果想为iPhone或iPad充电的话用什么连接线",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以连接USB-C转闪电连接线来为iPhone或iPad充电",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果某台设备无法连接到这个端口的话怎么办",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "那您可以使用转换器进行连接。",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "您可以连接使用雷雳4连接线、雷雳3连接线或USB-C连接线连接的外置显示器和其他设备。您还可以连接USB-C充电线来为笔记本电脑充电，或者连接USB-C转闪电连接线来为iPhone或iPad充电。如果某台设备无法连接到这个端口，您可以使用转换器进行连接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

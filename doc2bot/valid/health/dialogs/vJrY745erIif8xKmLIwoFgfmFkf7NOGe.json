@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "用于治疗糖尿病的药物会不会对叶酸代谢有影响呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "维生素",
+            "叶酸缺乏症",
+            "二甲双胍（用于治疗糖尿病）"
+        ],
+        "grounding_id": [
+            "T2273",
+            "1",
+            "45"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是二甲双胍吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "二甲双胍（用于治疗糖尿病）"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "二甲双胍（用于治疗糖尿病）"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "二甲双胍会妨碍叶酸的代谢的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "另一些药物会妨碍叶酸的代谢。它们包括",
+            "二甲双胍（用于治疗糖尿病）"
+        ],
+        "grounding_id": [
+            "41",
+            "45"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么治疗叶酸缺乏症呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸缺乏症",
+            "叶酸缺乏症的预防和治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "65"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "每天口服叶酸补充剂可有效治疗叶酸缺乏症",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "每天口服叶酸补充剂可有效治疗叶酸缺乏症。"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是预防的话可不可也服用叶酸补充剂呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "为了帮助预防叶酸缺乏症，患者使用干扰叶酸吸收或代谢的药物时，应服用叶酸补充剂。",
+            "叶酸缺乏症的预防和治疗"
+        ],
+        "grounding_id": [
+            "68",
+            "65"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "为了帮助预防叶酸缺乏症，患者使用干扰叶酸吸收或代谢的药物时，应服用叶酸补充剂。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "为了帮助预防叶酸缺乏症，患者使用干扰叶酸吸收或代谢的药物时，应服用叶酸补充剂。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个叶酸补充剂喝多了之后有没有癌症的可能？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸补充剂不能预防冠状动脉疾病或卒中。没有证据表明，叶酸补充剂减少或增加各种癌症的风险。叶酸补充剂似乎不能提高老年人的认知能力。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有证据表明，叶酸补充剂减少或增加各种癌症的风险。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸补充剂不能预防冠状动脉疾病或卒中。没有证据表明，叶酸补充剂减少或增加各种癌症的风险。叶酸补充剂似乎不能提高老年人的认知能力。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，哪些药物对维生素的吸收减少有影响呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "有些药物可减少这种维生素的吸收。它们包括"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "许多抗癫痫药（如苯妥英和苯巴比妥）和用于治疗溃疡性结肠炎的药物（如柳氮磺胺吡啶）可减少这种维生素的吸收",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "有些药物可减少这种维生素的吸收。它们包括",
+            "许多抗癫痫药（如苯妥英和苯巴比妥）",
+            "用于治疗溃疡性结肠炎的药物（如柳氮磺胺吡啶）"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "38"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "了解了，那叶酸对人体是没有毒性的吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸通常没有毒性。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "叶酸通常没有毒性",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_营养障碍_维生素_叶酸缺乏症.json",
+        "grounding": [
+            "叶酸通常没有毒性。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

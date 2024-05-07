@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下颌面损伤的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "医学主题",
+            "颌面损伤"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1283"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：鼻部骨折，颞骨骨折，下颌和中面部骨折，还是耳部损伤？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻部骨折"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，鼻部骨折的诊断方式是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻部骨折",
+            "鼻骨折的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "诊断方式：医生的检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "诊断方式：",
+            "医生的检查"
+        ],
+        "grounding_id": [
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "鼻部骨折的典型症状是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻部骨折",
+            "鼻骨折断（骨折）的典型表现是出血、疼痛、肿胀。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "鼻骨折断的典型表现是出血、疼痛、肿胀。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻骨折断（骨折）的典型表现是出血、疼痛、肿胀。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "医生会怎么检查？",
+        "act": "how",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻骨损伤的诊断通过医生的观察及触诊鼻梁。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "医生会通过观察及触诊鼻梁进行诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_颌面损伤_鼻部骨折.json",
+        "grounding": [
+            "鼻骨损伤的诊断通过医生的观察及触诊鼻梁。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

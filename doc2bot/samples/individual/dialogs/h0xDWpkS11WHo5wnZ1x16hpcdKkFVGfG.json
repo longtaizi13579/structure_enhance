@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下社保的事情",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问哪方面呢是保险还是常用服务",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T187"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "就是工伤认定申请这个可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "工伤认定申请",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问是在哪个省市缴纳的社保",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "浙江金华呀",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的这个是不支持自助终端办理的",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个认定申请都有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "工伤认定申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个可以网上申请还可以现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那什么地点可以办理呀",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理地点是金华市行政服务中心（金华市婺城区西关街道双龙南街858号）人力社保综合窗口1-10号",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理地点",
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）人力社保综合窗口1-10号"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    }
+]

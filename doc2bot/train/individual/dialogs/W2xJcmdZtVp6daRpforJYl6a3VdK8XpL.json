@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省台州市机动车的纸质检验合格标志几天能下来啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "机动车",
+            "免检机动车申请纸质检验合格标志",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T17",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "免检机动车申请纸质检验合格标志一个工作日就可以的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我提交申请的相关材料有没有时间限制啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您应当在自作出决定之日起的10个工作日内送达相关部门。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果我发现浙江台州有人在补换领号牌时有暗箱操作能不能投诉啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "补换领号牌",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，您可以拨打相关投诉电话。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0576-12345",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "0576-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有具体的投诉地址，相关的材料我不知道应该提交到哪儿？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有需要的话您可以去浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想知道一下，这个补换领号牌是确实需要收钱的对吧？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，需要收费。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那可以网上支付吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，我们支持网上支付。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解适用于从Windows转而使用Mac的用户的Mac提示",
+        "act": "what",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "适用于从Windows转而使用Mac的用户的Mac提示"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是右键点按，滚动、轻扫、点按，还是关闭窗口与调整窗口大小",
+        "act": "multiple-choice",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "右键点按"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道右键点按怎么更改",
+        "act": "how",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "右键点按"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "点按Apple鼠标的右上角，或在Apple触控板上用两指点按。您可以在“鼠标”偏好设置和“触控板”偏好设置中更改这项设置。",
+        "act": "ans/open",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "点按Apple鼠标的右上角，或在Apple触控板上用两指点按。您可以在“鼠标”偏好设置和“触控板”偏好设置中更改这项设置。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想更改Mac的设置的话怎么办",
+        "act": "how",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "更改Mac的设置"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以改用“系统偏好设置”",
+        "act": "ans/open",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "在查找“控制面板”吗？现在请改用“系统偏好设置”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那关闭窗口与调整窗口大小在什么地方",
+        "act": "where",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "关闭窗口与调整窗口大小"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "用于关闭、最小化和最大化窗口的按钮位于窗口左上角。",
+        "act": "ans/open",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "用于关闭、最小化和最大化窗口的按钮位于窗口左上角。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我是浙江衢州的，如果在办理住房公积金退缴的时候，工作人员态度不好，我要怎么投诉？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "监督投诉方式",
+            "住房公积金退缴",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "33",
+            "1",
+            "T6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是要电话投诉还是现场投诉呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "现场吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，衢州市行政服务中心二楼C厅12号、14号、16号、18号窗口都可以进行投诉和反应问题。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理这东西有手续费吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "233"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这种是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "234"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一般啥时候能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。您还想了解其他业务吗？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果办理时间太长了我可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的。需要给您提供投诉电话吗？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要的要的。投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉电话是0570-12345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我想改住房公积金账户里的手机号，大概多久能办好？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想去专门问问住房公积金退缴的事，我可以去哪儿？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "详细的地址：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）。二楼C厅12号、14号、16号、18号窗口都可以咨询。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

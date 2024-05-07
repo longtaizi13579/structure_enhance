@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果在AppleTV上看到警告符号的话怎么办",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您尝试恢复了吗",
+        "act": "verification",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果无法恢复AppleTV，请携带AppleTV前往AppleStore零售店或Apple授权服务提供商处，以获取更多协助。",
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "39",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "试了，但还是无法恢复AppleTV",
+        "act": "ans/yes",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果无法恢复AppleTV，请携带AppleTV前往AppleStore零售店或Apple授权服务提供商处，以获取更多协助。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那请携带AppleTV前往AppleStore零售店或Apple授权服务提供商处，以获取更多协助。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果无法恢复AppleTV，请携带AppleTV前往AppleStore零售店或Apple授权服务提供商处，以获取更多协助。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，需要联系Apple支持的话要满足什么条件",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您在尝试更新AppleTV上的软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV正面的指示灯闪烁，请联系Apple支持",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我还想问一下怎么查找AppleTV的序列号",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查找AppleTV的序列号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以查看“关于”屏幕以获取序列号，您还需要了解别的吗",
+        "act": "question/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查找AppleTV的序列号",
+            "查看“关于”屏幕以获取序列号"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果还是没有找到需要的编号应该怎么办",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果仍未找到您需要的编号，请查看您的设备或包装盒。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请查看您的设备或包装盒",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果仍未找到您需要的编号，请查看您的设备或包装盒。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

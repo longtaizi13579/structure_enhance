@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询那个湖州的一照一码户信息变更，我该怎么咨询？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "一照一码户信息变更",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想现场咨询还是电话咨询？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "电话咨询吧，我不想过去一趟。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以拨打咨询电话，0572-2158195。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "0572-2158195",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，记住了。要不也给个地址吧，万一电话没人接呢。",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好，您可以到国家税务总局湖州市税务局青桐路办公区3楼317室现场咨询。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "国家税务总局湖州市税务局青桐路办公区3楼317室（青铜路399号）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，然后我还想问我什么时候可以去办理呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理时间通常是星期一至星期五，上午9:00至下午17:00。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "办理时间",
+            "星期一至星期五，9:00-17:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "记住了，如果我去了，他们不给我改怎么办？可以投诉吧？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，您想要现场投诉还是电话投诉？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "现场的吧，如果真的不改，我就直接过去投诉。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以去国家税务总局湖州市税务局青桐路办公区3楼317室进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "国家税务总局湖州市税务局青桐路办公区3楼317室（青铜路399号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，我突然想到万一我办理的时间太长了，那边投诉的下班了怎么办。",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "那您要投诉电话吗？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "有的话，给我一个吧。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的，投诉电话是0572-12366。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "投诉电话",
+            "0572-12366"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    }
+]

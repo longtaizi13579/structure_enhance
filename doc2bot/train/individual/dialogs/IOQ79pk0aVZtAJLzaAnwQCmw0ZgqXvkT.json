@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省金华市换领驾驶证的一些信息",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省_金华市",
+            "浙江省_金华市",
+            "行驶驾驶",
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "T6",
+            "T6",
+            "T16",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想知道办理地点、办理时间、咨询方式、监督投诉方式 哪种信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如果投诉的话具体地点在哪里？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您想投诉的话，可以到浙江省金华市婺城区双龙南街801号金华市信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我还想知道换发动机的话需要登记啥的吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是问行驶证驾驶证、机动车还是常用服务呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我是说机动车换发动机",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "机动车更换发动机变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我可以给您提供相关的咨询电话0579-88900000、0579-82080925、0579-82286839",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "0579-88900000、0579-82080925、0579-82286839"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果我还有不理解的需要当面咨询的呢，有没有咨询台什么的？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想问相关咨询方式还是线下办事点？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道咨询的具体地址在哪？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "线下咨询地址位于金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "多长时间能办下来？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "此项服务的法定办结时限为一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那我能网上交钱吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "279"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "此项服务支持网上支付的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换发动机变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    }
+]

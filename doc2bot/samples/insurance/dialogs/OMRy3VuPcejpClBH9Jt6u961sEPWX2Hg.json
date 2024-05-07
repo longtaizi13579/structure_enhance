@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问中华好学生重大疾病保险的投保年龄范围是什么？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "投保年龄",
+            "中华好学生重大疾病保险"
+        ],
+        "grounding_id": [
+            "7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投保时被保险人的年龄须为 3 至 25 周岁",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "投保年龄以周岁（见 9.2）计算，投保时被保险人的年龄须为 3 至 25 周岁。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那收到合同需要填什么吗？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "在您收到本合同时，您应当签署本合同的签收回执。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在您收到本合同时，您应当签署本合同的签收回执",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "在您收到本合同时，您应当签署本合同的签收回执。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "基本保险金额是怎么定的呢？",
+        "act": "how",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同的基本保险金额由您在投保时与我们约定并在保险单上载明。若金额发生变更，则以变更后的金额为基本保险金额",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单上载明。若金额发生变更，则以变更后的金额为基本保险金额"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那保险的时间是多长？",
+        "act": "when",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "本合同的保险期间由您在投保时与我们约定并在保险单上载明，最长不超过 1 年，除合同另有约定外，自本合同生效时起，至合同约定的保险合同期满日止。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "本合同的保险期间由您在投保时与我们约定并在保险单上载明，最长不超过 1 年，除合同另有约定外，自本合同生效时起，至合同约定的保险合同期满日止。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

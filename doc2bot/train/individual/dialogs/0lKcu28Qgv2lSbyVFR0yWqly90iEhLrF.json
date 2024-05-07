@@ -1,0 +1,80 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是杭州的。请问可以手机上办理社保医保吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "什么时候可以办理呢?",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "工作日即可办理。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以网上支付吗?",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T168"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    }
+]

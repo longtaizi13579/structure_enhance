@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下关于在手机上使用AppleMusic的相关问题。",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在您的安卓设备上使用AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请问您想了解的使用AppleMusic是在安卓设备上还是苹果设备上呢？",
+        "act": "multiple-choice",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在您的安卓设备上使用AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是安卓手机上的",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在您的安卓设备上使用AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您是想了解将AppleMusic中的音乐流化到Chromecast设备、订阅AppleMusic还是安卓设备上的“音乐”查看实时同步歌词呢？",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在您的安卓设备上使用AppleMusic",
+            "将AppleMusic中的音乐流化到Chromecast设备"
+        ],
+        "grounding_id": [
+            "1",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，我先了解一下这个所有的AppleMusic中的音乐都能流化到Chromecast设备吗？",
+        "act": "verification",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "将AppleMusic中的音乐流化到Chromecast设备"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "并非AppleMusic中的所有内容类型都支持投射，也并非所有Chromecast设备都受支持。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "并非AppleMusic中的所有内容类型都支持投射，也并非所有Chromecast设备都受支持。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那我再了解一下关于订阅登录AppleMusic可以怎么做？",
+        "act": "how",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "订阅AppleMusic"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您订阅了AppleMusic吗？",
+        "act": "verification",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "订阅AppleMusic"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我订阅了的",
+        "act": "ans/yes",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "订阅AppleMusic"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您已经订阅，只需使用您的AppleID登录即可: 首先打开AppleMusicApp。如果您看到试用优惠，请轻点右上角的“登录”。或者，轻点“更多”按钮，然后轻点“登录”。最后 输入登录AppleMusic时使用的同一AppleID和密码。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "如果您已经订阅，只需使用您的AppleID登录即可",
+            "打开AppleMusicApp。",
+            "如果您看到试用优惠，请轻点右上角的“登录”。或者，轻点“更多”按钮，然后轻点“登录”。",
+            "输入登录AppleMusic时使用的同一AppleID和密码。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那好的，那我订阅AppleMusic，这个与实时同步歌词，有什么关系呢？",
+        "act": "what",
+        "document": "在iPhone、iPodtouch或安卓设备上的“音乐”或AppleMusicApp中查看实时同步歌词.json",
+        "grounding": [
+            "在iPhone、iPodtouch或安卓设备上的“音乐”或AppleMusicApp中查看实时同步歌词",
+            "如果您订阅了AppleMusic，则可以在聆听您喜爱的歌曲时，跟着完美同步的歌词哼唱。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您订阅了AppleMusic，则可以在聆听您喜爱的歌曲时，跟着完美同步的歌词哼唱。",
+        "act": "ans/open",
+        "document": "在iPhone、iPodtouch或安卓设备上的“音乐”或AppleMusicApp中查看实时同步歌词.json",
+        "grounding": [
+            "如果您订阅了AppleMusic，则可以在聆听您喜爱的歌曲时，跟着完美同步的歌词哼唱。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

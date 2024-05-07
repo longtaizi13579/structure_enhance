@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "港澳探亲签注我可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "常用服务",
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T269",
+            "40",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "结果多久会给反馈呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

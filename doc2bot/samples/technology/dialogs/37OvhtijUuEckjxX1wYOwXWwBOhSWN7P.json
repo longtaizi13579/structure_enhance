@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我以前一直是Windows用户，现在突然换成了Mac的用户，想了解如何在我的新 Mac 上完成一些常见任务？",
+        "act": "how",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "适用于从Windows转而使用Mac的用户的Mac提示"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想了解右键点按、滚动、轻扫、点按、更改音量、更改Mac的设置、打开App还是其他？",
+        "act": "multiple-choice",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "更改Mac的设置"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解更改Mac的设置。",
+        "act": "ans/open",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "更改Mac的设置"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在查找“控制面板”吗？现在请改用“系统偏好设置”。",
+        "act": "ans/open",
+        "document": "适用于从Windows转而使用Mac的用户的Mac提示.json",
+        "grounding": [
+            "在查找“控制面板”吗？现在请改用“系统偏好设置”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一些关于使用Wi-Fi通话功能拨打电话的相关问题？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "使用Wi-Fi通话功能拨打电话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您具体想咨询使用iPhone拨打Wi-Fi电话、添加设备、如果您无法添加设备，请检查以下各项：还是其他？",
+        "act": "multiple-choice",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "添加设备"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对添加的设备有什么要求？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "请确保要添加的设备装有最新版本的软件。然后，按照以下步骤操作：",
+            "添加设备"
+        ],
+        "grounding_id": [
+            "12",
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请确保要添加的设备装有最新版本的软件。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "请确保要添加的设备装有最新版本的软件。然后，按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "具体如何操作呢？",
+        "act": "how",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "请确保要添加的设备装有最新版本的软件。然后，按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先在iPhone上，前往“设置”>“电话”>“Wi-Fi通话”，打开“为其他设备添加Wi-Fi通话”；然后返回到上一个屏幕，然后轻点“在其他设备上通话”。如果“允许‘在其他设备上通话’”还没有开启，请将它打开。“允许在下列设备上通话”下面会显示符合条件的设备列表。最后打开要使用Wi-Fi通话的所有设备。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "在iPhone上，前往“设置”>“电话”>“Wi-Fi通话”。",
+            "打开“为其他设备添加Wi-Fi通话”。",
+            "返回到上一个屏幕，然后轻点“在其他设备上通话”。",
+            "如果“允许‘在其他设备上通话’”还没有开启，请将它打开。“允许在下列设备上通话”下面会显示符合条件的设备列表。",
+            "打开要使用Wi-Fi通话的所有设备。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "想要使用Wi-Fi通话功能，需要有什么条件？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "您需要持有iPhone5c或更新机型并使用受支持的运营商，才能使用Wi-Fi通话功能。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您需要持有iPhone5c或更新机型并使用受支持的运营商，才能使用Wi-Fi通话功能。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "您需要持有iPhone5c或更新机型并使用受支持的运营商，才能使用Wi-Fi通话功能。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "Wi-Fi通话功能的作用是什么？",
+        "act": "what",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "借助Wi-Fi通话功能，您可以在有Wi-Fi连接但蜂窝网络信号很差或无信号的区域拨打或接听电话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "借助Wi-Fi通话功能，您可以在有Wi-Fi连接但蜂窝网络信号很差或无信号的区域拨打或接听电话。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "借助Wi-Fi通话功能，您可以在有Wi-Fi连接但蜂窝网络信号很差或无信号的区域拨打或接听电话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我为什么无法添加设备？",
+        "act": "why",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果您无法添加设备，请检查以下各项："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您无法添加设备，请检查以下各项：在iPhone上，确保已经打开“Wi-Fi通话”和“允许‘在其他设备上通话’”，并确保您的设备显示在“允许在下列设备上通话”的下方。确保您在iPhone和其他设备上的FaceTime通话和iCloud中使用同一AppleID。",
+        "act": "ans/open",
+        "document": "使用Wi-Fi通话功能拨打电话.json",
+        "grounding": [
+            "如果您无法添加设备，请检查以下各项：",
+            "在iPhone上，确保已经打开“Wi-Fi通话”和“允许‘在其他设备上通话’”，并确保您的设备显示在“允许在下列设备上通话”的下方。",
+            "确保您在iPhone和其他设备上的FaceTime通话和iCloud中使用同一AppleID。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25"
+        ]
+    }
+]

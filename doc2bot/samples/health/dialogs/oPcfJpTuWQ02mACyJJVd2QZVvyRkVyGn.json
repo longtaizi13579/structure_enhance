@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友和我说患上那个鼻窦癌，我想要了解一下关于这方面的信息。",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想要了解关于鼻窦癌的诊断，治疗还是其他方面的呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌",
+            "鼻窦癌的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我先了解一下关于这个鼻窦癌是怎么诊断吧？",
+        "act": "how",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌的诊断",
+            "鼻窦癌"
+        ],
+        "grounding_id": [
+            "23",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "诊断方法有影像学检查、组织活检等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "影像学检查",
+            "组织活检",
+            "鼻窦癌的诊断"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，了解了，那这个鼻窦癌发作的话会有什么症状呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌",
+            "鼻窦癌的症状"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个鼻窦癌症状是由癌症对附近结构的压迫造成的，会出现疼痛感。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌症状是由癌症对附近结构的压迫造成的，包括: ",
+            "疼痛"
+        ],
+        "grounding_id": [
+            "14",
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那还会有别的什么症状吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌的症状"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的还会患病窦下面的上牙松动，耳痛或胀满。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "患病窦下面的上牙松动",
+            "耳痛或胀满"
+        ],
+        "grounding_id": [
+            "54",
+            "51"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我朋友说他的脸也会出现疼痛，这个和鼻窦癌有关吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "鼻窦癌的症状",
+            "面部麻木或刺痛"
+        ],
+        "grounding_id": [
+            "12",
+            "53"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有关的，这个还会出现面部麻木或刺痛。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_耳鼻喉疾病_口腔、鼻、和喉癌_鼻窦癌.json",
+        "grounding": [
+            "面部麻木或刺痛"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    }
+]

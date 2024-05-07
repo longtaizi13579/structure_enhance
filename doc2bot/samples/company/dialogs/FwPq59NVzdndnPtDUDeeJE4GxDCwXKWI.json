@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下衢州市的内资投资旅行社业务许可之前不是要收费吗？现在能网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "内资投资旅行社业务许可",
+            "浙江省_衢州市",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "T6",
+            "313"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不好意思，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "314"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，投诉的方法有哪些？我先留一个避免出现意外。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前投诉方式有投诉电话 、投诉地址 、投诉网址，你需要查询哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉地址在衢州市柯城区花园东大道169号市行政服务中心一楼A厅综合窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "衢州市柯城区花园东大道169号市行政服务中心一楼A厅综合窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那线下的办理地址呢？是同一个吗？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的哦，办理地点在衢州市柯城区白云街道花园东大道169号一楼A厅无差别窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_项目投资_常用服务_内资投资旅行社业务许可.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼A厅无差别窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

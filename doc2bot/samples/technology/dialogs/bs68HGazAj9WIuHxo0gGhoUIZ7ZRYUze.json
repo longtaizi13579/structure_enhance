@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要了解一下关于在“家庭”App里添加HomeKit配件的一些相关信息。",
+        "act": "what",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "向“家庭”App添加HomeKit配件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解添加配件、按房间和区域整理配件、添加房间还是其他的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "向“家庭”App添加HomeKit配件",
+            "添加配件"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先了解一下啊添加配件的话可以怎么添加呢？",
+        "act": "how",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "添加配件"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "按照以下步骤操作：首先打开“家庭”App，然后轻点“添加配件”或“添加”。再轻点“添加配件”。使用iPhone、iPad或iPodtouch上的摄像头扫描配件或配件文稿中的八位HomeKit代码或二维码。如果您使用的是iPhone7或更新机型，并在您的配件上看到了，请将您的iPhone靠近这个配件以进行添加。再在配件出现时轻点它。如果系统询问您要不要“将配件添加到网络”，请轻点“允许”。再为配件命名并将配件分配给某个房间，以协助您在“家庭”App中识别它和使用Siri对它进行控制。 最后轻点“下一步”，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "然后，按照以下步骤操作：",
+            "打开“家庭”App，然后轻点“添加配件”或“添加”。",
+            "轻点“添加配件”。",
+            "使用iPhone、iPad或iPodtouch上的摄像头扫描配件或配件文稿中的八位HomeKit代码或二维码。如果您使用的是iPhone7或更新机型，并在您的配件上看到了，请将您的iPhone靠近这个配件以进行添加。",
+            "在配件出现时轻点它。如果系统询问您要不要“将配件添加到网络”，请轻点“允许”。",
+            "为配件命名并将配件分配给某个房间，以协助您在“家庭”App中识别它和使用Siri对它进行控制。",
+            "轻点“下一步”，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "9",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，咦，我怎么在“家庭”App添加不了配件呢？",
+        "act": "why",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "添加配件"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要向“家庭”App添加配件，请使用您的iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "要向“家庭”App添加配件，请使用您的iPhone、iPad或iPodtouch。您无法在Mac上向“家庭”App添加配件。在设置配件之前，请检查以下事项："
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的就是苹果手机呀，还是不行怎么回事呢？",
+        "act": "why",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "添加配件",
+            "要向“家庭”App添加配件，请使用您的iPhone、iPad或iPodtouch。您无法在Mac上向“家庭”App添加配件。在设置配件之前，请检查以下事项："
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您无法在Mac上向“家庭”App添加配件。在设置配件之前，请检查以下事项： 确保配件已开机且在附近。查阅配件的手册，确定这个配件是不是需要其他硬件才能与HomeKit搭配使用。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "添加配件",
+            "要向“家庭”App添加配件，请使用您的iPhone、iPad或iPodtouch。您无法在Mac上向“家庭”App添加配件。在设置配件之前，请检查以下事项：",
+            "确保配件已开机且在附近。",
+            "查阅配件的手册，确定这个配件是不是需要其他硬件才能与HomeKit搭配使用。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，还有就是在为房间分配配件完成之后要怎么做呢？",
+        "act": "how",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "为房间分配配件",
+            "在为房间分配配件后，您可以完成某些操作，例如在您的家中播放和控制音乐。您还可以让Siri在您想要观看的位置播放您想观看的内容。"
+        ],
+        "grounding_id": [
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在为房间分配配件后，您可以完成某些操作，例如在您的家中播放和控制音乐。您还可以让Siri在您想要观看的位置播放您想观看的内容。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "在为房间分配配件后，您可以完成某些操作，例如在您的家中播放和控制音乐。您还可以让Siri在您想要观看的位置播放您想观看的内容。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那添加房间的具体步骤是什么呢？",
+        "act": "what",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "添加房间",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤:首先打开“家庭”App，然后轻点或点按“添加”，选择“添加房间”。最后为房间命名，然后轻点或点按“存储”。",
+        "act": "ans/open",
+        "document": "向“家庭”App添加HomeKit配件.json",
+        "grounding": [
+            "具体步骤",
+            "打开“家庭”App，然后轻点或点按“添加”。",
+            "选择“添加房间”。",
+            "为房间命名，然后轻点或点按“存储”。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34",
+            "35"
+        ]
+    }
+]

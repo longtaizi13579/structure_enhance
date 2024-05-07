@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省嘉兴市办理普通护照的情况",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "护照",
+            "普通护照"
+        ],
+        "grounding_id": [
+            "T11",
+            "T297",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解是否支持物流快递，送达时限，送达方式哪一项？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道送达时限",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办结的话七天之内可以完成吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "承诺办结时限",
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "承诺办结时限为 7个工作日",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "7（工作日）",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "62",
+            "61"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，可以网上申请吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那是否支持自助终端办理呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，最迟多少天我可以拿到结果？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有别的问题想咨询的话怎么办？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址，咨询网址，您需要哪一种",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "咨询的地址在哪",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口可以吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "也是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

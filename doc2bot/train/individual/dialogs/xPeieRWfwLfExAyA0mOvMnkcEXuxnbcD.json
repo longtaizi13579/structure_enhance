@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要去香港旅游，请问办理签证的费用是多少？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "出入境",
+            "港澳通行证及签注",
+            "港澳其他签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T239",
+            "T281",
+            "1",
+            "995"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是在哪个城市办理？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是在浙江省湖州市办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你是要办理长期的还是短期的呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1002"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我需要办理短期的，不超过一年。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注"
+        ],
+        "grounding_id": [
+            "1012"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "湖州市短期多次有效签注的收费标准是80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "80元/件",
+            "浙江省_湖州市",
+            "2\t短期（不超过一年）多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1014",
+            "T13",
+            "1012",
+            "1013"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那一次签注的收费标准是多少呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1\t一次签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1003",
+            "1004"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一次签注收费标准是15元/件。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1\t一次签注",
+            "收费标准",
+            "15元/件"
+        ],
+        "grounding_id": [
+            "1003",
+            "1004",
+            "1005"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我能在网上支付费用吗?",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1000"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以在网上支付费用。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1001"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道要准备一些什么资料，能给个咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可以拨打0572-2252275；0572-2252270进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0572-2252275；0572-2252270"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

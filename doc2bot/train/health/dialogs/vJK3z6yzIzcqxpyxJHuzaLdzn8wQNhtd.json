@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，具体是心脏和血管疾病、儿童的健康问题、血液紊乱还是其他种类疾病呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "儿童的健康问题"
+        ],
+        "grounding_id": [
+            "T794"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下儿童的神经母细胞瘤这个病。",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "神经母细胞瘤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是神经母细胞瘤的症状、神经母细胞瘤的诊断、神经母细胞瘤的预后还是其他相关问题呢？ ",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "神经母细胞瘤的预后"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下这个病的儿童生存率是多少？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "神经母细胞瘤的预后",
+            "低危和中危疾病儿童的生存率约为90%。高危疾病儿童的生存率约为15%，但是通过更新的强化联合治疗方法，该比率已提高到50%以上。"
+        ],
+        "grounding_id": [
+            "54",
+            "56"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "低危和中危疾病儿童的生存率约为90%。高危疾病儿童的生存率约为15%，但是通过更新的强化联合治疗方法，该比率已提高到50%以上。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "低危和中危疾病儿童的生存率约为90%。高危疾病儿童的生存率约为15%，但是通过更新的强化联合治疗方法，该比率已提高到50%以上。"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "做了磁共振能诊断这个病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "诊断方法有：",
+            "计算机断层扫描(CT)或磁共振成像(MRI)"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，ct也可以。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "计算机断层扫描(CT)或磁共振成像(MRI)"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有什么诊断方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "诊断方法有："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有时进行骨髓分析和尿液检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "有时进行骨髓分析和尿液检查"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有其他诊断方法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "诊断方法有："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "组织活检也算诊断方法之一。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_神经母细胞瘤.json",
+        "grounding": [
+            "组织活检"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

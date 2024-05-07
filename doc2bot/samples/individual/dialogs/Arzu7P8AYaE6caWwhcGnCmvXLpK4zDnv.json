@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想了解一下从浙江省宁波市到台湾办理签注的相关信息",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询赴台探亲签注港澳探亲签注还是护照加注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是赴台探亲签注，办理这个业务的时间大约在什么时候呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "赴台探亲签注的办理时间为工作日上午：9：00—12：00；下午：13：30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "工作日上午：9：00—12：00；下午：13：30—17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我应该去哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以到鄞州公安局出入境管理大队东柳受理点进行办理",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "鄞州公安局出入境管理大队东柳受理点（鄞州区东郊街道站前商业街18号）A2-A6"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有没有具体的门牌号呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "鄞州区东郊街道站前商业街18号",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "鄞州公安局出入境管理大队东柳受理点（鄞州区东郊街道站前商业街18号）A2-A6"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，是只有工作日才能办吗？我只有周六有时间怎么办？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "周六上午9:00-11:30，下午13:00-16:00也可以的，法定节假日除外",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "周六（法定节假日除外）上午9:00-11:30，下午13:00-16:00"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，所以周六的工作时间和周一到周五的是一样的吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "上午截止时间延迟半个小时，下午延迟一个小时",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "工作日上午：9：00—12：00；下午：13：30—17:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    }
+]

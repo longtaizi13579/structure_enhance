@@ -1,0 +1,264 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我不满意纳税缴费服务，我可以投诉吗？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "监督投诉方式",
+            "纳税缴费"
+        ],
+        "grounding_id": [
+            "31",
+            "T68"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的。您想选择哪种投诉方式?",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想亲自去投诉，可以去哪儿投诉？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉地址：杭州市上城区建国南路276号601室（或各主管税务机关办税服务厅综合服务窗口）。您还有什么问题吗？",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "杭州市上城区建国南路276号601室（或各主管税务机关办税服务厅综合服务窗口）"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我可以网上交费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "379"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "380"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办理业务要钱吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "375"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "376"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果不想跑去窗口投诉，可以电话投诉吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的。可以拨打全国统一咨询投诉热线。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "电话具体是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "0571-12345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "线下办理的地方在哪儿？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体地址在杭州市上城区太平门直街267号二楼国家税务总局杭州市上城区税务局办税服务厅综合服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "杭州市上城区太平门直街267号二楼国家税务总局杭州市上城区税务局办税服务厅综合服务窗口"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "工作时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "工作日的上午8:30～12:00，下午14:00～17:30。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "工作日：上午8:30～12:00，下午14:00～17:30"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "只有这一个办理的地方吗？",
+        "act": "why",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "也可以去杭州市西湖区文三路461号国家税务总局杭州市西湖区税务局办税服务厅综合服务窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "杭州市西湖区文三路461号国家税务总局杭州市西湖区税务局办税服务厅综合服务窗口"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这里的工作时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "同样是工作日的上午8:30～12:00，下午14:00～17:30。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_纳税缴费_常用服务_扣缴企业所得税报告.json",
+        "grounding": [
+            "工作日：上午8:30～12:00，下午14:00～17:30"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    }
+]

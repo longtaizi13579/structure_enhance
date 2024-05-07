@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的手机是安卓系统，我想问一下如何查看下载的文件？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "计算机与电子产品",
+            "如何在安卓设备上查看下载的文件"
+        ],
+        "grounding_id": [
+            "T2",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，一般有两个方法：1、使用Chrome；2、使用文件管理器，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "可选方法",
+            "使用Chrome"
+        ],
+        "grounding_id": [
+            "3",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先跟我说一下如何使用Chrome。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用Chrome"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用Chrome: 1.打开Chrome。 2.点击⁝。 3.点击下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用Chrome",
+            "打开Chrome。",
+            "点击⁝。",
+            "点击下载。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "19",
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "再跟我说一下怎么使用文件管理器查看下载的文件吧？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如何在安卓设备上查看下载的文件",
+            "使用文件管理器"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "使用文件管理器: 1.打开应用程序抽屉。 2.点击下载、我的文件或文件管理器。 3.选择文件夹。 4.点击下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用文件管理器",
+            "打开应用程序抽屉。",
+            "点击下载、我的文件或文件管理器。",
+            "选择文件夹。",
+            "点击下载。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "点击下载后，如果没有看到“下载”文件夹，应该怎么办？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "点击下载。",
+            "如果没有看到“下载”文件夹，可能需要打开其他文件夹找一找。"
+        ],
+        "grounding_id": [
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果没有看到“下载”文件夹，可能需要打开其他文件夹找一找。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如果没有看到“下载”文件夹，可能需要打开其他文件夹找一找。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，如何使用Gimp制作透明图像？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "如何使用Gimp制作透明图像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般有两种方法：1、使图像的背景透明；2、使整个图像透明，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "使图像的背景透明"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我说一下，使图像的背景透明吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "使图像的背景透明"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "使图像的背景透明的步骤: 1.打开GIMP。 2.在GIMP中打开图像。 3.点击图层。 4.选择透明度。 5.点击添加Alpha通道。 6.点击工具。 7.选择选择工具。 8.点击模糊选择。 9.选择部分背景。 10.按Del键。 11.删除背景的其余部分。 12.将项目导出为PNG文件。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "使图像的背景透明",
+            "打开GIMP。",
+            "在GIMP中打开图像。",
+            "点击图层。",
+            "选择透明度。",
+            "点击添加Alpha通道。",
+            "点击工具。",
+            "选择选择工具。",
+            "点击模糊选择。",
+            "选择部分背景。",
+            "按Del键。",
+            "删除背景的其余部分。",
+            "将项目导出为PNG文件。"
+        ],
+        "grounding_id": [
+            "37",
+            "38",
+            "41",
+            "44",
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "60",
+            "63",
+            "66"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何找到添加Alpha通道？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "点击添加Alpha通道。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你可以在弹出菜单中找到它。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "你可以在弹出菜单中找到它。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "怎么找到”模糊选择“？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "点击模糊选择。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "它在弹出菜单中。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Gimp制作透明图像.json",
+        "grounding": [
+            "它在弹出菜单中。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    }
+]

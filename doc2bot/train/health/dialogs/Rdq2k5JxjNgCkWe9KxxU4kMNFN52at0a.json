@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道手指腱鞘感染的话需要住院吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染",
+            "腱鞘感染的治疗",
+            "手部疾病",
+            "骨、关节及肌肉疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "T1732",
+            "T1692"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "患者是需要住院治疗的，您还需要知道更多治疗信息吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "患者需要住院治疗。医生通过手术切口排出脓液。可静脉给予抗生素治疗。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想知道是怎么治疗的？",
+        "act": "how",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染",
+            "腱鞘感染的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可静脉给予抗生素治疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "患者需要住院治疗。医生通过手术切口排出脓液。可静脉给予抗生素治疗。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那需要手术吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "腱鞘感染的治疗",
+            "手指腱鞘感染"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "会通过手术切口排出脓液",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "患者需要住院治疗。医生通过手术切口排出脓液。可静脉给予抗生素治疗。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个感染具体是在手的什么部位？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "细菌感染可以在围绕手掌和手指内侧的肌腱的腱鞘中发展。（还可以参阅手部疾病概述。)",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "细菌感染可以在围绕手掌和手指内侧的肌腱的腱鞘中发展。（还可以参阅手部疾病概述。) "
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那应该怎么判断呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染",
+            "腱鞘感染的诊断",
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "1",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您是想知道腱鞘感染的诊断方法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染",
+            "腱鞘感染的诊断",
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "1",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "手指腱鞘感染",
+            "腱鞘感染的诊断",
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "1",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以通过培养诊断",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "培养"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

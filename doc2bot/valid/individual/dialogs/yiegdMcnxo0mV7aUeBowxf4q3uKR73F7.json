@@ -1,0 +1,316 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江衢州，想咨询一下出入境和台湾通行证及签注问题。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T5",
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询赴台乘务签注、赴台学习签注还是赴台定居签注问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道赴台乘务签注需要去哪里咨询？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址为衢州市行政服务中心，也就是衢州市柯城区白云街道花园东大道169号。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那请问签注完多久会出结果呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "送达时限",
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "120",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的送达时限在自作出决定之日起2个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，请问具体该怎么办理呢？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解办理形式、通办范围还是是否支持预约办理问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道办理形式有什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的办理形式有网上申请、现场窗口申请和邮寄申请，您可以按需选择。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "101",
+            "100"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯嗯，请问有没有联系方式方便我咨询呢？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，我们的咨询电话是0570-3015588。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "0570-3015588",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "请问我们可以自己办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是想问我们是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "很抱歉，我们这边暂不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那如果我签注完对结果不满意该怎么办？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以通过监督投诉方式解决，请问您需要投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "34",
+            "33"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "请给我一个投诉电话吧，谢谢。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的，投诉电话是0570-12345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "0570-12345（衢州政府服务热线）",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那请问赴台乘务收费是怎么样的？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "1\t赴台乘务",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "524",
+            "525"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "收费标准根据国家发展和改革委员会、财政部发改价格〔2017〕1186号规定，赴台乘务多次有效签注是80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "收费标准",
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "525",
+            "526"
+        ]
+    }
+]

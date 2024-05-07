@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省台州市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_台州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T8",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证有关的内容。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是军警机动车驾驶证换证申领 、达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询军警机动车驾驶证换证申领的费用问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "军警机动车驾驶证换证申领",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "271"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "276"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "276"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "277"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "境外机动车驾驶证换证申领的流程是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "境外机动车驾驶证换证申领",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "224"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理流程: 1.体检 2.申请 3.受理 4.审核 5.核发证件 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "体检",
+            "申请",
+            "受理",
+            "审核",
+            "核发证件",
+            "送达"
+        ],
+        "grounding_id": [
+            "225",
+            "227",
+            "229",
+            "236",
+            "241",
+            "250"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "受理审批标准是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "受理",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "229",
+            "232"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "公安交管部门根据申请人提交的材料，决定是否受理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "公安交管部门根据申请人提交的材料，决定是否受理。"
+        ],
+        "grounding_id": [
+            "233"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "转入换领机动车驾驶证业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限",
+            "转入换领机动车驾驶证",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "59",
+            "1",
+            "40"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

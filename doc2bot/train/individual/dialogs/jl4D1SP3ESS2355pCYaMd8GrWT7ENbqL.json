@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我和老婆离婚了，但是我名下有个小客车，离婚后对这个客车的分配有分歧，想咨询一下。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "小客车指标",
+            "民政部门协议离婚类其他指标配置"
+        ],
+        "grounding_id": [
+            "T153",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是哪里的人呀？各个地方标准不一样的。是浙江省吗？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，浙江杭州的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那请问您是想了解哪方面的业务呢？收费标准，法定办结时限还是咨询方式呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "439"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是那个收费标准哈，收不收费啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "440"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理民政部门协议离婚类其他指标配置业务时，是不收费的呢。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "441"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "原本以为要收费呢，想网上支付的。那么也就是不支持网上支付了。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "444"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的呢，不支持网上支付的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "445"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我办理这个业务，会花多少时间啊",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要10个工作日的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "多谢，那如果想进一步了解相关信息的话，能给我一个咨询地址吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "杭州市的咨询地址在行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那出结果了，我什么时候会收到通知啊？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "会在自作出决定之日起1个工作日内送达的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_民政部门协议离婚类其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "护理人员会不会因为粗心给错药呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "药物错误可能由以下情况引起：",
+            "护理人员将药物给予错误的患者。",
+            "药品"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "13",
+            "T2894"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "护理人员是可能将药物给予错误的患者",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "护理人员将药物给予错误的患者。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那有没有可能是写标签的时候写错了？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "护理人员读错药品容器的标签，给予错误的药物或剂量。"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是说读错药品容器的标签，给予错误的药物或剂量吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "护理人员读错药品容器的标签，给予错误的药物或剂量。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "护理人员读错药品容器的标签，给予错误的药物或剂量。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这种情况也是可能出现的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "护理人员读错药品容器的标签，给予错误的药物或剂量。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那是怎么确定吃药的时间是餐前还是餐后呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药品",
+            "药物差错",
+            "当药物空腹吸收好时，患者采取餐时服药，或者当需要食物防止药物副作用时，患者采取不与餐同服。"
+        ],
+        "grounding_id": [
+            "T2894",
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当药物空腹吸收好时，患者采取餐时服药，或者当需要食物防止药物副作用时，患者采取不与餐同服",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "当药物空腹吸收好时，患者采取餐时服药，或者当需要食物防止药物副作用时，患者采取不与餐同服。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "知道了，那患者吃错药的话有没有影响？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "患者弄混药物并且错误服用。",
+            "药物差错"
+        ],
+        "grounding_id": [
+            "9",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "患者弄混药物并且错误服用会引起药物差错，可能会对患者产生不良影响",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "患者弄混药物并且错误服用。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那储存的方式不恰当的话也会给药品带来影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "药物错误可能由以下情况引起：",
+            "药剂师或患者不正确地储存药物，从而削弱药物的效价。"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，药剂师或患者不正确地储存药物，从而削弱药物的效价",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药剂师或患者不正确地储存药物，从而削弱药物的效价。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我想知道更多有关药物错误的信息可以去哪里？",
+        "act": "where",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "有关药物错误的更多信息"
+        ],
+        "grounding_id": [
+            "1",
+            "37"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以前往临床研究参与信息和研究中心(CISCRP)，您还需要更多线上资源吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "临床研究参与信息和研究中心(CISCRP)"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯，有没有网站什么的？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "有关药物错误的更多信息"
+        ],
+        "grounding_id": [
+            "1",
+            "37"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "ClinicalTrials.gov",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "ClinicalTrials.gov"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    }
+]

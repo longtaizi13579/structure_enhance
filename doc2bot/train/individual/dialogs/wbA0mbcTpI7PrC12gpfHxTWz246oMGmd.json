@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前在浙江衢州市办理 了一个机动车解除抵押登记，挺不满意的，有什么投诉方式没？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "浙江省_衢州市",
+            "监督投诉方式",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "T5",
+            "33",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投诉电话和投诉地址都有，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "投诉电话吧，简单一些。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的您记一下，0570-12345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我朋友之前办了个换领机动车登记证书业务服务态度也特别不好，也想要一个投诉电话。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，0570-12345。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "正常办理换领机动车登记证书就是提交材料，然后审核完成下发证件对吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "办理流程",
+            "审核",
+            "制证"
+        ],
+        "grounding_id": [
+            "1",
+            "300",
+            "310",
+            "317"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，看提交的材料是否齐全、真实有效，符合申请下发证书。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "审核申请人提交的材料，检查材料是否真实、有效。",
+            "对材料齐全、符合法定形式的申请，制作机动车登记证书。"
+        ],
+        "grounding_id": [
+            "314",
+            "321"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那证书我多久能收到？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般通过审核决定之日起10个工作日内可以送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，可以给我一个领取机动车登记证书的线下联系电话吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "联系电话"
+        ],
+        "grounding_id": [
+            "1",
+            "156"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，0570-6025759。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0570-6025759"
+        ],
+        "grounding_id": [
+            "157"
+        ]
+    }
+]

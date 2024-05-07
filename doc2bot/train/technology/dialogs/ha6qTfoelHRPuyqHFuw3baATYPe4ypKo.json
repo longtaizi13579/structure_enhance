@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么使用Keynote直播？",
+        "act": "how",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "开始使用Keynote直播"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解将Keynote遥控与Keynote直播搭配使用还是开始之前的问题呢？",
+        "act": "multiple-choice",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "将Keynote遥控与Keynote直播搭配使用"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道将Keynote遥控与Keynote直播搭配使用的时候，如果从遥控器启动演示，是不是只能使用本地播放呢？",
+        "act": "verification",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "将Keynote遥控与Keynote直播搭配使用",
+            "如果您从遥控器启动演示，您只可以使用本地播放。"
+        ],
+        "grounding_id": [
+            "35",
+            "40"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，如果您从遥控器启动演示，您只可以使用本地播放",
+        "act": "ans/yes",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "如果您从遥控器启动演示，您只可以使用本地播放。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，我看你还提到了开始之前，那你能说说在开始之前要做什么吗？",
+        "act": "what",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "开始使用Keynote直播",
+            "开始之前"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想要通过Keynote直播功能在线播放演示文稿，就要先更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。[",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "要通过Keynote直播功能在线播放演示文稿，请更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我记住了，那做完你说的这些之后又要干什么呢？",
+        "act": "how",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "开始使用Keynote直播",
+            "开始之前"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以邀请位于任何位置的最多500位观看者，或位于您本地无线局域网上的最多35位观看者。要进行观看，观看者需要使用网页浏览器或最新版本的Keynote讲演App。他们无需iCloud帐户也可观看演示文稿。",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "您可以邀请位于任何位置的最多500位观看者，或位于您本地无线局域网上的最多35位观看者。要进行观看，观看者需要使用网页浏览器或最新版本的Keynote讲演App。他们无需iCloud帐户也可观看演示文稿。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我明白了，我还有一个问题想要问你，就是iCloud版Keynote讲演发布说明的内容是什么？",
+        "act": "what",
+        "document": "iCloud版Keynote讲演发布说明.json",
+        "grounding": [
+            "iCloud版Keynote讲演发布说明"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解2021年9月的呢还是2020年7月的呢？",
+        "act": "multiple-choice",
+        "document": "iCloud版Keynote讲演发布说明.json",
+        "grounding": [
+            "2020年7月"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解2020年7月iCloud版Keynote讲演发布的说明中有没有提到为图像视频添加说明和标题的内容呢？",
+        "act": "verification",
+        "document": "iCloud版Keynote讲演发布说明.json",
+        "grounding": [
+            "iCloud版Keynote讲演发布说明",
+            "2020年7月",
+            "轻松地为图像、视频、形状和其他对象添加说明和标题。"
+        ],
+        "grounding_id": [
+            "1",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是有提到，2020年7月iCloud版Keynote讲演发布说明中提到了可以轻松地为图像、视频、形状和其他对象添加说明和标题的内容。",
+        "act": "ans/open",
+        "document": "iCloud版Keynote讲演发布说明.json",
+        "grounding": [
+            "2020年7月",
+            "轻松地为图像、视频、形状和其他对象添加说明和标题。"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    }
+]

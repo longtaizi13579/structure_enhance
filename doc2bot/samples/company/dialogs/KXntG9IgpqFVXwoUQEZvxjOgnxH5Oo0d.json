@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "现在浙江省重点公司研究院认定能在终端机办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "抱歉，目前不支持自助终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好吧，那这个流程到决定之后多久能给我送达结果？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达，也就是当天就能送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这么快！对了，你给我一个省科技厅的详细地址可以吗？我忘记在哪了。",
+        "act": "where",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "浙江省科技厅在杭州市西湖区环城西路33号浙江科技大楼。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)503室"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "去年公司有安全、质量事故，可以申请条件省级重点企业研究院认定嘛？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "申请条件",
+            "（四）企业近三年内无重大的安全、质量事故，严重的环境违法、知识产权违法、税务违法、科研失信等行为。"
+        ],
+        "grounding_id": [
+            "131",
+            "309"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以，企业近三年内无重大的安全、质量事故，严重的环境违法、知识产权违法、税务违法、科研失信等行为。不符合受理条件的",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "数量限制",
+            "受理条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "132",
+            "134",
+            "136"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解一下，数量限制是多少呢？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "因为认定省级研究院为竞争性申报，所以数量限制以当年度申报通知为准。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "有数量限制，为竞争性申报，以当年度申报通知为准。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那这个业务大概要花多少钱？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前我们此项业务办理是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    }
+]

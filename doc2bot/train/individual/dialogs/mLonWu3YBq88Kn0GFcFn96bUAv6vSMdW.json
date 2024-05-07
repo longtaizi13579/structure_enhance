@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市出入境的有关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "浙江省_湖州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T13",
+            "T13",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问港澳通行证及签注还是台湾通行证及签注的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询办理港澳其他签注签注遇到问题，有哪些监督投诉的方式？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "三种，投诉电话 、投诉地址、投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "把投诉电话告诉我吧！",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打0572-12345进行投诉。",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0572-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那现场投诉的地址是什么？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以去湖州市吴兴区青铜路298号主楼8楼810室进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理港澳其他签注这项业务的办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

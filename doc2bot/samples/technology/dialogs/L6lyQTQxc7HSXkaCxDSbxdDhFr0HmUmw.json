@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想资讯一下Mac上的AppStore下载App的事。",
+        "act": "what",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "从Mac上的AppStore下载App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想咨询哪方面？如何下载Mac版App还是如何查找您购买的App？",
+        "act": "multiple-choice",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如何下载Mac版App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先咨询一下如何下载Mac版App，我不会操作。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如何下载Mac版App"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先打开AppStoreApp，然后览或搜索您要下载的App，最后点按价格或“获取”按钮。如果您看到“打开”按钮而不是价格或“获取”按钮，则表示您已经购买或下载了这个App。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "浏览或搜索您要下载的App。",
+            "点按价格或“获取”按钮。如果您看到“打开”按钮而不是价格或“获取”按钮，则表示您已经购买或下载了这个App。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想查找一下家庭成员已从AppStore购买的App，我需要重新下载吗？",
+        "act": "verification",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如果您想要下载家庭成员已从AppStore购买的App，请重新下载这个App。确保你们双方都在使用“家人共享”。",
+            "如何查找您购买的App"
+        ],
+        "grounding_id": [
+            "21",
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，如果您想要下载家庭成员已从AppStore购买的App，请重新下载这个App。确保你们双方都在使用“家人共享”。",
+        "act": "ans/yes",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如果您想要下载家庭成员已从AppStore购买的App，请重新下载这个App。确保你们双方都在使用“家人共享”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想查找我自己购买的App应该怎么做？",
+        "act": "how",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如何查找您购买的App"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用“启动台”打开您下载的App。某些App可能会要求您在打开App之前下载Rosetta。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "使用“启动台”打开您下载的App。某些App可能会要求您在打开App之前下载Rosetta。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

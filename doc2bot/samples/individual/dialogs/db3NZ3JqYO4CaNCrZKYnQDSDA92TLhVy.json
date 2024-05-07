@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道在浙江省温州市办理台湾通行证及签注的相关信息",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_温州市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T3",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您办理的是应邀赴台签注，赴台学习签注，赴台其他签注，赴台商务签注，赴台团队旅游签注哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是应邀赴台签注，应该去哪儿办呢？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以前往温州市民中心（温州市鹿城区滨江街道会展路1288号）A座二楼65-74号窗口进行办理",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座二楼65-74号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是否可以通过自助终端办理呢？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那是只能到现场进行申请了？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，有网上申请和现场窗口申请两种方式",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，最后的结果大概多长时间能送达呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "通常自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那应邀赴台签注的设定依据是多久开始实施的呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "设定依据",
+            "实施日期"
+        ],
+        "grounding_id": [
+            "1",
+            "925",
+            "933"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "设定依据中国公民往来台湾地区管理办法是1992年5月1日开始实施的",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "设定依据",
+            "中国公民往来台湾地区管理办法",
+            "1992-05-01"
+        ],
+        "grounding_id": [
+            "925",
+            "926",
+            "934"
+        ]
+    }
+]

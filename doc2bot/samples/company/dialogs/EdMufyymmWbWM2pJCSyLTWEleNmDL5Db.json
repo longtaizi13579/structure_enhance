@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要是参加咱们省的万人计划杰出人才、科技创新领军人才、科技创业领军人才培育，这个的入选人员名单多久可以送达？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个是电子文件，自作出决定之日起7个工作日内在网上送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "自作出决定之日起7个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那承诺的办好时间要多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个要60个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我可以去自助终端上进行办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不支持的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那能用什么方式进行办理？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以在网上进行申请的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_常用服务_省“万人计划”杰出人才、科技创新领军人才、科技创业领军人才培育.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行，你给我个咨询电话，不清楚的地方我再问问。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你可以打0571-85255625或者0571-85255627这两个电话咨询。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "0571-85255625，0571-85255627"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好我记下了，我再问下浙江省杭州市关于省级科技型中小企业认定的咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "省级科技型中小企业认定",
+            "咨询地址",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "1",
+            "29",
+            "T10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以去杭州市上城区解放东路18号市民中心C座1207房间进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "杭州市上城区解放东路18号市民中心C座1207房间"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个认定可以去自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个同样不支持的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_科技创新认定_常用服务_省级科技型中小企业认定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

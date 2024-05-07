@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想问这个关于行驶证驾驶证延期的事办这个得多久能弄好呀",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T89",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，浙江杭州",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是要了解驾驶证延期审验对吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是呀，办这个多久能办好",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个法定办结时限是1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这延期审验结果出来多久能到呀？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，就是办这个支持自助办理吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "啊，那个还有个事您给查查，就是湖州市驾驶证增驾申领办理地点具体在哪呀？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理地点",
+            "浙江省_湖州市",
+            "机动车驾驶证增驾申领"
+        ],
+        "grounding_id": [
+            "22",
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的帮您查询了一下地点在湖州市公安局交通警察支队车辆管理所（湖州市开发区龙溪街道三天门路799号）一楼大厅1-15号窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "湖州市公安局交通警察支队车辆管理所（湖州市开发区龙溪街道三天门路799号）一楼大厅1-15号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，对了，还是增驾申领这个多久能办好呀",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个法定办结时限是60（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "不好意思，您在给查个地方就是嘉兴市的是信息变化换领驾驶证那有什么监督投诉方式吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式",
+            "浙江省_嘉兴市",
+            "驾驶人信息变化换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "33",
+            "T11",
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的帮您查询了，有三种方式一投诉电话二投诉地址三投诉网址，您需要哪一个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哦，投诉地址在哪",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "地址是嘉兴市中山东路1156号交警支队二楼政治处211室",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "呃就是我朋友问嘉兴市换领驾驶证申报材料里那个要什么纸质材料吗规格数量有要求吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "申报材料",
+            "纸质材料份数",
+            "纸质材料规格"
+        ],
+        "grounding_id": [
+            "1",
+            "142",
+            "168",
+            "170"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的根据您问的这个情况帮您查询了，这个申报材料无需纸质材料无特定规格要求",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "无需纸质材料",
+            "无特定规格要求"
+        ],
+        "grounding_id": [
+            "169",
+            "171"
+        ]
+    }
+]

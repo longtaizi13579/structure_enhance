@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是一名护士，我的患者每天要吃很多药，如何避免让他吃错？",
+        "act": "how",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药品",
+            "药物差错"
+        ],
+        "grounding_id": [
+            "T2894",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您的患者每天吃的药品种类很多，建议您使用药物整理器，否则很可能导致药物差错。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "使用药物整理器"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "药物整理器是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "使用药物整理器"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "药物整理器有独立格子，可对应一周的每一天以及一天内多达4个不同时间，每次服用一个格子里的药物即可，不会出现错服或漏服。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物整理器可能有用，特别是当患者一天服用几种不同药物时。这些整理器有独立格子，可对应一周的每一天以及一天内多达4个不同时间。患者或其护理人员在相应格子放入一周的药物量。例如，如果规定药物在每天早晨服用一次，他们会将一个剂量放入每天的“早晨”格子。在当天的相应时间，患者服用那个格子内的全部药物。因为格子里的全部药物同时服用，所以不同药物混在一起不是问题。除提醒患者之外，这些整理器可以让护理人员观察患者是否已经服用药物。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "药品都有说明，为什么会吃错呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "比如，将不止一种药物放入一个瓶子中、药瓶上的说明磨损、不理解药瓶上的说明等等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错最常因患者弄混何时和如何服用药物所致，造成服用错误的药物或剂量。常见的混淆原因包括人们将不止一种药物放入一个瓶子中、药瓶上的说明磨损、不理解药瓶上的说明、拥有不止一瓶相同药物、拥有多瓶药物而患者不确定哪一瓶何时要用（和哪一瓶已经用过)。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "除了患者自己，还有别的原因会引起药物差错吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错",
+            "药物错误可能由以下情况引起："
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，比如药剂师读错处方或看错药物容器，给予错误的药物或剂量。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药剂师读错处方或看错药物容器，给予错误的药物或剂量。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "药物差错会对药物本身的效果产生影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物错误可能由以下情况引起："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "会的，药剂师或患者不正确地储存药物，从而削弱药物的效价。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药剂师或患者不正确地储存药物，从而削弱药物的效价。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有没有关于药物差错的官方网站，我想了解更多的内容？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "有关药物错误的更多信息"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，你可以到ClinicalTrials.gov上进行查询。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "ClinicalTrials.gov"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有别的地方吗？",
+        "act": "where",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "有关药物错误的更多信息"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "还有临床研究参与信息和研究中心(CISCRP）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "临床研究参与信息和研究中心(CISCRP)"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "药物差错的具体表述是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "药物差错是指医生、医疗保健从业者、药剂师和患者在开具、给药、服用或储存药物时，所犯的错误。药物错误可能使人生病并引起疾病加重。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物概述_药物差错.json",
+        "grounding": [
+            "药物差错是指医生、医疗保健从业者、药剂师和患者在开具、给药、服用或储存药物时，所犯的错误。药物错误可能使人生病并引起疾病加重。在美国，估计药物错误每年耗费医疗保健系统多达1770亿美元（这取决于定义）。（请参见药物概述。）"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要办理一个去台湾的乘务签注，现在人在浙江宁波市，想问多长时间能办下来？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "浙江省_宁波市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T10",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定多久能办完？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边给您查到是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那么费用是怎么收取？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "386",
+            "395"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是赴台乘务签注的价格吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "1\t赴台乘务"
+        ],
+        "grounding_id": [
+            "394"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯呢是的，通行证和签注价格我知道，乘务签注价位我不清楚，所以想问问。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "1\t赴台乘务",
+            "赴台乘务签注",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "394",
+            "1",
+            "386",
+            "395"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据国家发展和改革委员会、财政部发改价格，赴台乘务多次有效签注80元一件。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "396"
+        ]
+    }
+]

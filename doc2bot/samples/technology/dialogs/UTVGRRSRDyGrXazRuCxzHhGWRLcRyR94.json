@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下使用Mac上的“辅助功能快捷键”面板的事情。",
+        "act": "what",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "使用Mac上的“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询哪方面的事?",
+        "act": "question/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "使用Mac上的“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问的是如何打开“辅助功能快捷键”面板？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "打开“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "同时按下以下按键：Option(⌥)、Command(⌘)和F5，在配备触控ID的笔记本电脑上，连按三次触控ID。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "同时按下以下按键：Option(⌥)、Command(⌘)和F5。在配备触控栏的笔记本电脑上，可能还需要按下Fn（功能）键。",
+            "在配备触控ID的笔记本电脑上，连按三次触控ID。（如果在进行这项操作时按住Command键，则会打开或关闭旁白。）"
+        ],
+        "grounding_id": [
+            "4",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有简便的方法？",
+        "act": "what",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Mac键盘快捷键该怎么使用呢？",
+        "act": "how",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "修饰键包括哪些？",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有ommand（或Cmd）⌘，Shift⇧，Option（或Alt）⌥，Control（或Ctrl）⌃，CapsLock⇪，Fn这些。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command（或Cmd）⌘",
+            "Shift⇧",
+            "Option（或Alt）⌥",
+            "Control（或Ctrl）⌃",
+            "CapsLock⇪",
+            "Fn"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有了这些快捷键就可以不需要鼠标、触控板或其他输入设备才能完成操作是吧？",
+        "act": "verification",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。",
+        "act": "ans/yes",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "用键盘浏览菜单得快捷键是哪个？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "用键盘浏览菜单",
+            "操作"
+        ],
+        "grounding_id": [
+            "19",
+            "134"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "向左箭头、向右箭头。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "向左箭头、向右箭头"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    }
+]

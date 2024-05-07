@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省舟山市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T9",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证的有关问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是延期换领机动车驾驶证、达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询延期换领机动车驾驶证的费用问题。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "302"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "身体条件变化降低准驾车型换领机动车驾驶证这个业务的结果送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "身体条件变化降低准驾车型换领机动车驾驶证",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我想投诉，有哪些方式？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "0580－12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "0580－12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

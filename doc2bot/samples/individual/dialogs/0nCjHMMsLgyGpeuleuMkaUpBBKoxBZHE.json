@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省衢州市的，过段时间要去台湾探亲，想咨询下签注的问题？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T5",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解赴台探亲签注，还是护照加注？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下赴台探亲签注，办理这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "10016"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理需要收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "10017"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前支持两种办理形式：网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限为30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "咨询电话是：0570-3015588",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3015588"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

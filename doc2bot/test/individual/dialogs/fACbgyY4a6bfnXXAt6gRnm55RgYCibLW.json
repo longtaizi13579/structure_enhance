@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省金华市婚姻生育有关的问题。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "婚姻生育",
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T301",
+            "T6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询有关结婚的问题嘛？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "婚姻"
+        ],
+        "grounding_id": [
+            "T302"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，涉外国人、涉港澳台居民、华侨离婚登记多久能办好？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "婚姻",
+            "涉外国人、涉港澳台居民、华侨离婚登记",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T302",
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当天就可以。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以自助办理离婚登记吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨离婚登记",
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只可以现场窗口办理",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下如何兑换AppleGiftCard或AppStore与iTunes充值卡的相关问题。",
+        "act": "what",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请问您想了解如何使用这些充值卡可以购买的项目、怎么通过电子邮件收到的充值卡还是其他的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡",
+            "使用这些充值卡可以购买的项目"
+        ],
+        "grounding_id": [
+            "1",
+            "51"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先问一下兑换这些充值卡有什么用呢？",
+        "act": "what",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "使用这些充值卡可以购买的项目",
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡"
+        ],
+        "grounding_id": [
+            "51",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您兑换AppleGiftCard或AppStore与iTunes充值卡后，便可使用AppleID余额来购买项目。购买项目包括App、游戏，以及AppleMusic或iCloud+等订阅服务。但对于某些购买项目，无法使用AppleID余额。了解使用AppleID余额可以购买哪些项目。",
+        "act": "ans/open",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "当您兑换AppleGiftCard或AppStore与iTunes充值卡后，便可使用AppleID余额来购买项目。购买项目包括App、游戏，以及AppleMusic或iCloud+等订阅服务。但对于某些购买项目，无法使用AppleID余额。了解使用AppleID余额可以购买哪些项目。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，如果在手机上来使用充值卡可以怎么用呢？",
+        "act": "how",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡",
+            "使用这些充值卡可以购买的项目"
+        ],
+        "grounding_id": [
+            "1",
+            "51"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您问的是在安卓设备上，还是苹果设备上呢？",
+        "act": "multiple-choice",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡",
+            "使用这些充值卡可以购买的项目",
+            "在安卓设备上，您可以使用充值卡来购买AppleMusic订阅。要从AppStore、AppleBooks或AppleTVApp购买项目，请使用Apple设备。"
+        ],
+        "grounding_id": [
+            "1",
+            "51",
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是在安卓设备上的",
+        "act": "where",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "在安卓设备上，您可以使用充值卡来购买AppleMusic订阅。要从AppStore、AppleBooks或AppleTVApp购买项目，请使用Apple设备。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在安卓设备上，您可以使用充值卡来购买AppleMusic订阅。要从AppStore、AppleBooks或AppleTVApp购买项目，请使用Apple设备。",
+        "act": "ans/open",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "在安卓设备上，您可以使用充值卡来购买AppleMusic订阅。要从AppStore、AppleBooks或AppleTVApp购买项目，请使用Apple设备。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，那要是通过电子邮件收到的充值卡可以怎么弄呢？",
+        "act": "how",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如果您是通过电子邮件收到的充值卡"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要兑换某人通过电子邮件发送给您的充值卡， 请打开相应的电子邮件，然后轻点或点按“RedeemNow”立即兑换按钮。",
+        "act": "ans/open",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如果您是通过电子邮件收到的充值卡",
+            "请打开相应的电子邮件，然后轻点或点按“RedeemNow”（立即兑换）按钮。",
+            "要兑换某人通过电子邮件发送给您的充值卡，"
+        ],
+        "grounding_id": [
+            "49",
+            "72",
+            "50"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白，还有就是我在的地方不能使用GooglePlay只能使用AppleMusic应该怎么办呢？",
+        "act": "how",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp",
+            "请前往Apple网站下载AppleMusicApp。"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您所在的国家或地区可以使用AppleMusic，但无法使用GooglePlay，请前往Apple网站下载AppleMusicApp。",
+        "act": "ans/open",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "下载安卓版AppleMusicApp",
+            "请前往Apple网站下载AppleMusicApp。",
+            "如果您所在的国家或地区可以使用AppleMusic，但无法使用GooglePlay，"
+        ],
+        "grounding_id": [
+            "3",
+            "27",
+            "4"
+        ]
+    }
+]

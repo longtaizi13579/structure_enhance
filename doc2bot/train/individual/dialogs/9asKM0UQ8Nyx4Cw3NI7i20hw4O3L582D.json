@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江金华的，我想了解一下医疗保险参保人员历年账户家庭共济备案都有啥，我应该去哪儿咨询？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省_金华市",
+            "医疗保险",
+            "基本医疗保险参保人员历年账户家庭共济备案"
+        ],
+        "grounding_id": [
+            "29",
+            "T6",
+            "T169",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以去金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼医保综合服务大厅咨询，",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼医保综合服务大厅"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有电话吗？可以打电话吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的。咨询电话4000579222；0579-82777333。您还有其他问题吗？",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "咨询电话",
+            "4000579222；0579-82777333"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般备案需要交钱吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "182"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "183"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果需要交费，可以支付宝支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "186"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不支持网上支付的。您是否使用过自助终端呢？",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "187"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "没有，自助终端是什么？可以办业务？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。基本医疗保险参保人员历年账户家庭共济备案业务支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

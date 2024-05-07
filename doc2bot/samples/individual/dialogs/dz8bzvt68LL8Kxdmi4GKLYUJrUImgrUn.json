@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江免检机动车申请纸质检验合格标志的一些信息",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想知道是否收费，收费依据还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "343"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道能网上支付吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "343"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前不支持",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "344"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那收不收费呢？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "339"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "340"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想知道机动车因质量问题更换整车变更登记的投诉方式",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您需啊投诉电话，投诉地址还是投诉网址？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉地址吧",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那电话呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "0570－12345",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "0570－12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在iMessage信息中要移除某人需要满足什么要求？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员",
+            "在iMessage信息（Apple提供的一项功能）中，要移除某人，群组中至少应有四个人，并且每个人都需要使用Apple设备。"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "群组中至少应有四个人，并且每个人都需要使用Apple设备。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iMessage信息（Apple提供的一项功能）中，要移除某人，群组中至少应有四个人，并且每个人都需要使用Apple设备。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iMessage信息中要向群组文本信息中添加人员要满足什么要求？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员",
+            "在iMessage信息（Apple提供的一项功能）中，"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个群组中至少有三个人，每个人都在使用Apple设备，如iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "这个群组中至少有三个人，",
+            "每个人都在使用Apple设备，如iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以在群组短信/彩信中添加或移除人员吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员",
+            "您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。了解iMessage信息与短信/彩信之间的区别。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上的群组文本信息中添加和移除人员.json",
+        "grounding": [
+            "您无法在群组短信/彩信中添加或移除人员，也无法添加或移除使用非Apple设备的人员。了解iMessage信息与短信/彩信之间的区别。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在Mac上怎样拨打FaceTime通话？",
+        "act": "how",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "在Mac上使用FaceTime通话",
+            "拨打FaceTime通话",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您需要按照以下步骤：1.打开FaceTime通话App。 2.点按“新建FaceTime通话”按钮。如果您所用版本的FaceTime通话中没有这个按钮，请跳过这一步骤。 3.输入通话对象的姓名、电子邮件地址或电话号码。在macOSMojave或更高版本中，您可以输入多人信息（最多32人），以进行FaceTime群聊通话。 4.点按“FaceTime通话”按钮以进行视频通话，或者点按这个按钮上的箭头，然后选取“FaceTime音频”。如果没有看到这个按钮，请改为点按“视频”或“音频”按钮。 5.如果您正在呼叫一群人，应该会看到群组中的每个人都对应一个方块。每个人在应答之前，方块上会显示“等待中”。如果您没有看到任何方块，请点按边栏中的“FaceTime通话”按钮以开始通话。 6.要退出通话，请点按“结束”按钮。在您离开群组通话时，群组中的其他人会保持通话状态，直到他们选择离开。",
+        "act": "ans/open",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "打开FaceTime通话App。",
+            "点按“新建FaceTime通话”按钮。如果您所用版本的FaceTime通话中没有这个按钮，请跳过这一步骤。",
+            "输入通话对象的姓名、电子邮件地址或电话号码。在macOSMojave或更高版本中，您可以输入多人信息（最多32人），以进行FaceTime群聊通话。",
+            "点按“FaceTime通话”按钮以进行视频通话，或者点按这个按钮上的箭头，然后选取“FaceTime音频”。如果没有看到这个按钮，请改为点按“视频”或“音频”按钮。",
+            "如果您正在呼叫一群人，应该会看到群组中的每个人都对应一个方块。每个人在应答之前，方块上会显示“等待中”。如果您没有看到任何方块，请点按边栏中的“FaceTime通话”按钮以开始通话。",
+            "要退出通话，请点按“结束”按钮。在您离开群组通话时，群组中的其他人会保持通话状态，直到他们选择离开。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在FaceTime群聊通话期间，视频方块会怎样工作？",
+        "act": "how",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "在Mac上使用FaceTime通话",
+            "拨打FaceTime通话",
+            "在FaceTime群聊通话期间，视频方块会按如下方式工作："
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "最活跃的发言人会显示在实时视频方块中。其他参与者会显示在下面的一排方块中。在这个视图中，各个方块会自动移动，发言人的方块会自动放大。您可以在macOSCatalina或更高版本中阻止这种移动：从FaceTime通话菜单栏中，选取“FaceTime通话”>“偏好设置”，然后取消选择“说话人”。",
+        "act": "ans/open",
+        "document": "在Mac上使用FaceTime通话.json",
+        "grounding": [
+            "最活跃的发言人会显示在实时视频方块中。其他参与者会显示在下面的一排方块中。在这个视图中，各个方块会自动移动，发言人的方块会自动放大。您可以在macOSCatalina或更高版本中阻止这种移动：从FaceTime通话菜单栏中，选取“FaceTime通话”>“偏好设置”，然后取消选择“说话人”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

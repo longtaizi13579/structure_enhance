@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，我可以用什么方式来打开iPhone上的手电筒呢？",
+        "act": "what",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "如何在iPhone、iPadPro或iPodtouch上使用手电筒",
+            "有多种方式可以打开或关闭手电筒。您可以指示Siri完成这一操作，也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有多种方式可以打开或关闭手电筒。您可以指示Siri完成这一操作，也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "有多种方式可以打开或关闭手电筒。您可以指示Siri完成这一操作，也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我iPhone上的闪光灯可以用作手电筒吗？",
+        "act": "verification",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。",
+        "act": "ans/yes",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何更改iPhone手电筒的亮度呢？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "更改手电筒的亮度"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是在配备面容ID的iPhone上更改，还是在配备主屏幕按钮的iPhone上更改？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都给我说一下吧。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "更改手电筒的亮度"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。然后按住“手电筒”按钮。最后 向上或向下拖移滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。",
+            "按住“手电筒”按钮。",
+            "向上或向下拖移滑块。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "32"
+        ]
+    }
+]

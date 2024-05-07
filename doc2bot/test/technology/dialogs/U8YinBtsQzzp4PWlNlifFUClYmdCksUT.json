@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的iPhone的主屏幕图标被放大了，有办法缩小吗？",
+        "act": "verification",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "具体操作方法是什么？",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想在设备上的“设置”中关闭缩放功能还是在“访达”或iTunes中关闭缩放功能？",
+        "act": "multiple-choice",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能",
+            "在“访达”或iTunes中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "3",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下，如何在在设备上的“设置”中关闭缩放功能？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果因主屏幕图标被放大而导致您无法访问“设置”，请在屏幕上用三根手指轻点两下以进行缩小。要关闭缩放功能，请前往“设置”>“辅助功能”>“缩放”，然后轻点以关闭“缩放”。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果因主屏幕图标被放大而导致您无法访问“设置”，请在屏幕上用三根手指轻点两下以进行缩小。",
+            "要关闭缩放功能，请前往“设置”>“辅助功能”>“缩放”，然后轻点以关闭“缩放”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我主屏幕上的图标显示得过大，或被放大以适合屏幕，这说明了什么？",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果主屏幕上的图标显示得过大，或被放大以适合屏幕，则说明您的设备可能打开了缩放功能。了解如何关闭缩放功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果主屏幕上的图标显示得过大，或被放大以适合屏幕，则说明您的设备可能打开了缩放功能。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果主屏幕上的图标显示得过大，或被放大以适合屏幕，则说明您的设备可能打开了缩放功能。了解如何关闭缩放功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我哥给我的iPhone主屏幕上设置了个动态效果，我不太习惯，可以关闭这些效果吗？",
+        "act": "verification",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "减弱iPhone、iPad或iPodtouch的屏幕动态效果",
+            "您的设备使用动态效果在主屏幕上和App内营造立体感。如果您不习惯iPhone、iPad或iPodtouch上的动态效果或屏幕画面移动效果，可以使用“减弱动态效果”来关闭这些效果。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，您可以使用“减弱动态效果”来关闭这些效果。",
+        "act": "ans/yes",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "您的设备使用动态效果在主屏幕上和App内营造立体感。如果您不习惯iPhone、iPad或iPodtouch上的动态效果或屏幕画面移动效果，可以使用“减弱动态效果”来关闭这些效果。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那你跟我说一些关于iPhone屏幕动态效果的相关问题吧？",
+        "act": "what",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "减弱iPhone、iPad或iPodtouch的屏幕动态效果"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您想了解iPhone、iPad或iPodtouch的屏幕画面会移动，还是要打开“减弱动态效果”？",
+        "act": "multiple-choice",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "要打开“减弱动态效果”，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道打开“减弱动态效果”的具体步骤是什么？",
+        "act": "what",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "要打开“减弱动态效果”，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤：首先前往“设置”>“辅助功能”。然后选择“动作”，然后打开“减弱动态效果”。",
+        "act": "ans/open",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“辅助功能”。",
+            "选择“动作”，然后打开“减弱动态效果”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "打开“减弱动态效果”后，什么效果会在手机上发生变化，甚至停用？",
+        "act": "what",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "打开“减弱动态效果”后，某些屏幕效果会在您的设备上发生变化或被停用，其中包括："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "屏幕过渡和效果使用画面渐隐效果，而不是缩放或幻灯片效果；当您倾斜设备时，略微移动的墙纸、App和提醒的视差效果会被停用；某些App中的动画和效果会被停用。",
+        "act": "ans/open",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "屏幕过渡和效果使用画面渐隐效果，而不是缩放或幻灯片效果。",
+            "当您倾斜设备时，略微移动的墙纸、App和提醒的视差效果会被停用。",
+            "某些App中的动画和效果会被停用。例如，“天气”App中的天气动画。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    }
+]

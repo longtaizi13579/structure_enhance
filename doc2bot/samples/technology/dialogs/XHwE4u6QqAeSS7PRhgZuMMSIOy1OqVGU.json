@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么更改Apple提供的订阅",
+        "act": "how",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "更改Apple提供的订阅"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在什么设备上更改呢",
+        "act": "question/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "更改Apple提供的订阅"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPhone更改订阅方案",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上更改订阅方案"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“设置”App，轻点您的姓名，然后轻点“订阅”，轻点您要更改的订阅的名称，如果有不同类型的订阅可供使用，则会显示一个列表。轻点所需的选项，轻点“购买”。 如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "轻点您的姓名，然后轻点“订阅”。",
+            "打开“设置”App。",
+            "轻点您要更改的订阅的名称。",
+            "如果有不同类型的订阅可供使用，则会显示一个列表。轻点所需的选项。",
+            "轻点“购买”。",
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "9",
+            "8",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "没有看到“与家人共享”怎么办",
+        "act": "how",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，如果是在AppleWatch上更改订阅方案的话流程是什么",
+        "act": "what",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "在AppleWatch上更改订阅方案"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先在AppleWatch上，打开AppStore，然后滚动到“帐户”并轻点它，轻点“订阅”，轻点您要更改的订阅。 如果您选取了可与家庭成员共享的订阅，请确保您已设置“家人共享”或已加入现有的家庭群组。",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "在AppleWatch上，打开AppStore。",
+            "滚动到“帐户”并轻点它。",
+            "轻点“订阅”。",
+            "轻点您要更改的订阅。",
+            "如果您选取了可与家庭成员共享的订阅，请确保您已设置“家人共享”或已加入现有的家庭群组。"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下如果意外地从iCloud中删除了日历、书签或通讯录的话怎么办",
+        "act": "how",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "如果意外地从iCloud中删除了日历、书签或通讯录",
+            "您可以前往iCloud.com，然后从较早的版本恢复丢失的日历、书签或通讯录。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以前往iCloud.com，然后从较早的版本恢复丢失的日历、书签或通讯录。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "您可以前往iCloud.com，然后从较早的版本恢复丢失的日历、书签或通讯录。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

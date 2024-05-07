@@ -1,0 +1,286 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解下浙江省嘉兴市行驶驾驶机动车的问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "行驶驾驶",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T16",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们可以办理进口机动车注册登记、身份证明号码变更备案、补换领号牌、机动车跨车辆管理所管辖区域转移登记等一系列业务，请问您想办理那种业务呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下进口机动车注册登记的咨询方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想知道咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询地址具体在什么位置呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询地址",
+            "嘉兴市南湖区南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—16号窗口"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的办公地点在嘉兴市南湖区南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—16号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "嘉兴市南湖区南江路1626号嘉兴市公安局交警支队车辆管理所1号楼1楼1—16号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我可以电话咨询进口机动车注册登记相关问题吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记",
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那咨询电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询电话",
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "浙江省嘉兴市机动车申请补换领纸质检验合格标志有法定办结时限吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那具体时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "机动车申请补换领纸质检验合格标志的办理地点是在哪里？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志",
+            "办理地点",
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "1",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理地点为嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想咨询机动车申请补换领纸质检验合格标志相关问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "机动车申请补换领纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您是想了解申请条件、申报材料、办理流程、设定依据、收费标准还是其他问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "276"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想咨询一下是否支持网上支付？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车申请补换领纸质检验合格标志.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    }
+]

@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问想要申请护照的话需要满足什么条件呢？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "护照"
+        ],
+        "grounding_id": [
+            "T297"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您要申请的是普通护照吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "中国公民因前往外国定居、探亲、学习、就业、旅行、从事商业活动等非公务原因出国的可以申请办理普通护照",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "中国公民因前往外国定居、探亲、学习、就业、旅行、从事商业活动等非公务原因出国的可以申请办理普通护照；"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是必须具有中国国籍吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "申请人有下列情形之一的，不予签发普通护照：",
+            "（一）不具有中华人民共和国国籍的；"
+        ],
+        "grounding_id": [
+            "135",
+            "1492"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那什么情况下不给办呢？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "申请人有下列情形之一的，不予签发普通护照：无法证明身份的，在申请过程中弄虚作假的或者有法定不准出境情形的",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "（二）无法证明身份的；",
+            "（三）在申请过程中弄虚作假的；",
+            "（四）有法定不准出境情形的。"
+        ],
+        "grounding_id": [
+            "1493",
+            "1494",
+            "1495"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那在温州市民中心的哪里去办呢？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以到温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口进行办理",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我还想了解一下普通护照的设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "1442"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是依据中华人民共和国主席令第五十号中华人民共和国护照法设定的",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "中华人民共和国护照法",
+            "中华人民共和国主席令第五十号"
+        ],
+        "grounding_id": [
+            "1443",
+            "1447"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这部法律是什么时候开始实施的呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "1450"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自2007年1月1日起开始实施的",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "2007-01-01"
+        ],
+        "grounding_id": [
+            "1451"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的谢谢，那办理的话多长时间能有结果呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "差不多30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

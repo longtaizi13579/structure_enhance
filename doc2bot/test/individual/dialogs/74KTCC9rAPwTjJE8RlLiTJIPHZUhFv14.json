@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省丽水市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T12",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理港澳其他签注，有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0578-2786331",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0578-2786331"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址告诉我一下吧。",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "丽水市行政服务中心（丽水市人民街607号）商会大厦3楼出入境办证中心1-8号窗口",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "丽水市行政服务中心（丽水市人民街607号）商会大厦3楼出入境办证中心1-8号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "港澳其他签注的申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    }
+]

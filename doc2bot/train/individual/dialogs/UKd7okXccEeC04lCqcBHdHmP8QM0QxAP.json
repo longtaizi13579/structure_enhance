@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江台州的，最近计划去台湾探亲，请问这个赴台签证怎么办理啊？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "出入境",
+            "台湾通行证及签注",
+            "应邀赴台签注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "T8",
+            "T239",
+            "T240",
+            "1",
+            "327"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，办理流程大概是这样的，先申请，相关部门受理、审核，审核通过之后制证签发，然后送达。",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "327",
+            "328",
+            "330",
+            "339",
+            "348",
+            "354"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那受理之后，会有什么结果呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "受理",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "330",
+            "337"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理结果有三种，材料齐全符合法定情形的出具《受理申请回执单》；材料不全的，出具《补正告知书》；不符合法定情形的出具《不予受理通知书》。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "1.材料齐全符合法定情形的出具《受理申请回执单》； 2.材料不齐全，出具《补正告知书》；3.不符合法定情形的，出具《不予受理通知书》。",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "338",
+            "337"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那证办好之后，多久可以送达啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "送达",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "354",
+            "327"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "省内EMS2日内可以送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "EMS工作人员省内2日送达",
+            "送达"
+        ],
+        "grounding_id": [
+            "355",
+            "354"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我担心办理过程中会让我不满意，可以投诉嘛？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，你是想要投诉电话，投诉地址还是投诉网址啊？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我个投诉电话吧",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "记一下哦，投诉电话，0576-12345、0576-88212219",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "0576-12345、0576-88212219"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，记下了，对了，还想问下从申请到完全办理好，时间要多久呢",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办结时限是30个工作日以内",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，最近我还挺忙的，看看能不能趁中午去办理呢？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您想中午大约几点过来呢？夏天的话中午上班晚的",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我大概中午一点过去，可以嘛？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以的，我们夏季的工作时间是上午8：30—12：00，下午2:00—5:00，您可以12：00以前过来。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "工作日夏季：上午8：30—12：00，下午2:00—5:00；冬季：上午8：30—12：00，下午1:30—4:30"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江衢州这边的个体工商户，计划做个注销登记，关于这方面的内容去哪能咨询？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "个体工商户注销登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您需要咨询电话、咨询地址中的哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想问地址在哪。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以到衢州市行政服务中心一楼无差别受理窗口进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼无差别受理窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个登记结果大概多久能出来？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "个体工商户注销登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内送达的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你这个法定审核要求的时间是多久啊？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定结办时限为15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我记得政务服务中心有一个自助机器，叫啥来着，那个机器能办吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您问的是自助终端机器是否可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对对对，是的。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前我们暂不支持自助终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那是必须要去现场窗口办理吗？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您有两种方式可以选择的，网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那我还是去现场详细咨询过后再办理吧，你这个行政服务中心具体位置在哪？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体地址在：衢州市柯城区白云街道花园东大道169号。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼A厅无差别受理窗口"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "湖州的电动注册登记办理快不快，法定几天办好？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "法定办结时限",
+            "浙江省_湖州市",
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "59",
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "很快的，法定1个工作日内办结。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那办理登记是不是还需要把车骑去？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，因为需要现场检验车辆，建议就近办理。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我在德清县，去哪里方便？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以去德清县政务服务中心车管所分中心一楼大厅2-4号窗口办理业务。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "德清县政务服务中心车管所分中心一楼大厅2-4号窗口（德清县乾元镇金鹅山村）",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "23",
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理登记还要交费吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "356"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您好，办理电动自行车注册登记是免费的，不收费。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "是否收费",
+            "不收费"
+        ],
+        "grounding_id": [
+            "357",
+            "358"
+        ]
+    }
+]

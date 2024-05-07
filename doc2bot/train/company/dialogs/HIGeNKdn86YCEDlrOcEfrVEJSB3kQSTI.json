@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江台州，想咨询科技创新认定问题。",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "科技创新认定",
+            "浙江省_台州市",
+            "科技创新认定"
+        ],
+        "grounding_id": [
+            "T41",
+            "T8",
+            "T41"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您是想咨询示范物流园区认定审核、省级创新型领军企业培育还是实验动物生产许可变更呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "示范物流园区认定审核（审核转报）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道对示范物流园区认定审核有不满要怎么解决？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "示范物流园区认定审核（审核转报）",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以通过监督投诉方式解决，请问您需要投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请给我一个投诉地址吧，谢谢。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，投诉地址为台州市人民政府15楼1549室。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "投诉地址",
+            "台州市人民政府（台州市椒江区白云山南路233号）15楼1549室"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "额，可以把电话号码也报给我吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，投诉电话为0576-12345-2。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "投诉电话",
+            "0576-12345-2"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想咨询一下什么时候能审核完成？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个的法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_科技创新认定_科技创新认定_示范物流园区认定审核（审核转报）.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想了解一下有关实验动物生产许可变更的内容可以吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "实验动物生产许可变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当然可以，您想了解服务办理区域、办理地点还是办理时间呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以说一下具体的办理时间吗？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，办理时间分夏季和其他季节。夏季为星期一至星期五上午8:30-12:00，下午14:30-18:00；其他季节为星期一至星期五上午8:30-12:00，下午14:00-17:30。当然，法定节假日除外。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "办理时间",
+            "夏季：星期一至星期五上午8:30-12:00，下午14:30-18:00；其他季节：星期一至星期五上午8:30-12:00，下午14:00-17:30（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那请问我们可以自己办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想问我们是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "很抱歉，我们这边暂不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_实验动物生产许可变更.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我下载到手机里的文件我找不到了，有没有什么办法能帮帮我",
+        "act": "what",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如何在安卓设备上查看下载的文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以通过文件管理器找到或者是Chrome寻找，您想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如何在安卓设备上查看下载的文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咋通过文件管理器寻找？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "如何在安卓设备上查看下载的文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "打开应用程序抽屉。点击下载、我的文件或文件管理器。选择文件夹。 点击下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用文件管理器",
+            "打开应用程序抽屉。",
+            "点击下载、我的文件或文件管理器。",
+            "选择文件夹。",
+            "点击下载。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那用Chrome又该怎么做",
+        "act": "how",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用Chrome"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "打开Chrome。 点击⁝。点击下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "使用Chrome",
+            "打开Chrome。",
+            "点击⁝。",
+            "点击下载。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "19",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那三个点在哪？",
+        "act": "where",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "点击⁝。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "它位于Chrome的右上角",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在安卓设备上查看下载的文件.json",
+        "grounding": [
+            "点击⁝。",
+            "它位于Chrome的右上角。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问如何创建Prezi账户",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "如何使用Prezi"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "访问官网。下载iPad程序。进入Prezi的编辑器。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "访问官网。",
+            "创建账户",
+            "下载iPad程序。",
+            "进入Prezi的编辑器。"
+        ],
+        "grounding_id": [
+            "5",
+            "4",
+            "10",
+            "13"
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省衢州市的，我有个国外朋友需要开车来咱们国内参加比赛，该怎么办？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "临时入境机动车号牌、行驶证核发"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请临时入境机动车号牌、行驶证核发。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "临时入境机动车号牌、行驶证核发"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在办理过程中，如果有不满意的地方，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉地址是：衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉地址",
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉电话是：0570-12345",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "投诉电话",
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前支持两种办理形式：网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限为3（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "法定办结时限",
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_行驶证驾驶证_临时入境机动车号牌、行驶证核发.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

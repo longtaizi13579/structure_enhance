@@ -1,0 +1,286 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下衢州市的工伤医疗（康复）费用的申报支持在自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "工伤医疗（康复）费用申报",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不好意思，不支持。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "不支持的呀，那好吧，我还想问一下完整的申报下来的时间是多少呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前工伤医疗（康复）费用申报的法定办结时限是42个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "法定办结时限",
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一个月这么长啊，那你们的办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前我们的办理形式有网上申请、现场窗口申请、邮寄申请这三种形式，请问您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "98",
+            "99"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你们刚才说不能在自助终端处理，你还是给我说现场申请的吧，我先知道要带哪些东西过去。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，我们的地址是衢州市行政服务中心，现场申请的话，建议您到时候去咨询。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "行吧，那我把材料带过去之后，你们啥时候会送达呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您提交材料之后，我们会对材料进行审核并作出决定，自作出决定之日起3个工作日内就会送达，请耐心等一下。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这么说程序还挺严格的呀，那这个申请条件应该也挺高的吧，有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "127",
+            "128"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "没有数量限制呢，不过我们的受理条件是，第一是在统筹地参加工伤保险的人员；第二是发生事故后被认定为工伤，发生工伤医疗费的。然后在禁止性要求这方面是没有的。请问您符合这些条件吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "受理条件",
+            "（一）在统筹地参加工伤保险的人员；\n",
+            "（二）发生事故后被认定为工伤，发生工伤医疗费的。",
+            "禁止性要求",
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "130",
+            "131",
+            "634",
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "就是符合这些条件才来申报的呀。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，既然您符合申请条件，那到时候把材料带过去，我们会帮您办理的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那就先谢谢你了，我还想了解那个供养亲属抚恤金申领的一些基本信息。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您想了解基本信息还是办事信息呢？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "38",
+            "95"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想了解那个办理形式是怎么样的？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，我们有网上申请好现场窗口申请这2种方式，您可以看着哪种比较方便呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我选那个网上申请吧，就不到现场去办了。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的，那你可以登录我们的网站，上面有网上申请的流程。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    }
+]

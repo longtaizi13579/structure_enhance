@@ -1,0 +1,62 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下关于皮肤病的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_银屑病及其他鳞屑性疾病_玫瑰糠疹.json",
+        "grounding": [
+            "医学主题",
+            "皮肤病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，你是想了解玫瑰糠疹 、银屑病 、毛发红糠疹 ，还是扁平苔藓？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_皮肤病_银屑病及其他鳞屑性疾病_玫瑰糠疹.json",
+        "grounding": [
+            "玫瑰糠疹",
+            "银屑病及其他鳞屑性疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "T57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下玫瑰糠疹治疗时，自然照射都可以缓解瘙痒吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_银屑病及其他鳞屑性疾病_玫瑰糠疹.json",
+        "grounding": [
+            "玫瑰糠疹",
+            "玫瑰糠疹的治疗",
+            "无论人工还是自然的照射都可加速消退和缓解瘙痒。"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，无论人工还是自然的照射都可加速消退和缓解瘙痒。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_皮肤病_银屑病及其他鳞屑性疾病_玫瑰糠疹.json",
+        "grounding": [
+            "无论人工还是自然的照射都可加速消退和缓解瘙痒。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

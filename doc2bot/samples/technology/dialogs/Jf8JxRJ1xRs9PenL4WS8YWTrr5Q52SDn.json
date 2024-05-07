@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下可以使用iPhone上的ApplePay来乘坐公共交通？",
+        "act": "verification",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通",
+            "了解在哪里可以使用iPhone和AppleWatch上的ApplePay来乘坐公共交通。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有些地方可以有些地方不可以。具体要查看一下您所在的地区。",
+        "act": "ans/yesno",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "了解在哪里可以使用iPhone和AppleWatch上的ApplePay来乘坐公共交通。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果系统中没有列出我所在的国家或地区，那么我应该怎么办？",
+        "act": "how",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "请咨询当地的公共交通公司，了解他们是不是支持使用ApplePay进行付款。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请咨询当地的公共交通公司，了解他们是不是支持使用ApplePay进行付款。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "请咨询当地的公共交通公司，了解他们是不是支持使用ApplePay进行付款。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那我想咨询一下具体在哪里可以使用ApplePay乘坐公共交通？",
+        "act": "where",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想在咨询亚太地区、欧洲、北美洲，还是其他？",
+        "act": "multiple-choice",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "亚太地区"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想咨询一下亚太地区。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "亚太地区"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那么您想咨询澳大利亚、中国大陆、香港、日本还是其他国家？",
+        "act": "multiple-choice",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "亚太地区",
+            "中国大陆",
+            "香港",
+            "日本"
+        ],
+        "grounding_id": [
+            "8",
+            "11",
+            "15",
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "因为我一直在国内，所以想咨询一下中国大陆。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "中国大陆"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "添加交通联合交通卡*。在接受这种卡的任何地区都可以乘车。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加交通联合(ChinaT-Union)交通卡*。在接受这种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "北京和上海呢？",
+        "act": "what",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "北京：添加北京一卡通*。在接受这种卡的任何地区都可以乘车。",
+            "上海：添加上海交通卡*。在接受这种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "北京：添加北京一卡通*。在接受这种卡的任何地区都可以乘车；上海：添加上海交通卡*。在接受这种卡的任何地区都可以乘车。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "北京：添加北京一卡通*。在接受这种卡的任何地区都可以乘车。",
+            "上海：添加上海交通卡*。在接受这种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下关于头戴式耳机和入耳式耳机的声音故障诊断相关信息。",
+        "act": "what",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解耳机的品牌是Beats、Devialet Gemini、华为还是其他品牌呢？",
+        "act": "multiple-choice",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是Beats头戴式耳机和入耳式耳机",
+        "act": "ans/open",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您想了解关于声音故障诊断–Beats头戴式耳机和入耳式耳机的手机对按钮操作无响应、啪嗒声、爆裂声、噗哧声或一侧没有声音、麦克风无法拾音还是其他的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机",
+            "手机对按钮操作无响应"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，我先了解一下手机对按钮操作无响应应该怎么办呢？",
+        "act": "how",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "手机对按钮操作无响应"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "确保耳机插头连接牢靠。对于需要按压多次的功能，请在使用线控/麦克风时改变按压操作的速度。",
+        "act": "ans/open",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "确保耳机插头连接牢靠。对于需要按压多次的功能，请在使用线控/麦克风时改变按压操作的速度。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那要是啪嗒声、爆裂声、噗哧声或一侧没有声音应该怎么处理呢？",
+        "act": "how",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "啪嗒声、爆裂声、噗哧声或一侧没有声音"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "啪嗒声、爆裂声、噗哧声或一侧没有声音的话: 首先确保完全插入3.5毫米音频插孔。平直的输入端连接到耳机，L形输入端连接到音频设备。然后检查确保音频源已开机且正常运行。 如果音频源是台式电脑或笔记本电脑，请尝试调整配置设置。如果您仍听到失真的声音，请尝试另一个音频源和备用线缆。",
+        "act": "ans/open",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "啪嗒声、爆裂声、噗哧声或一侧没有声音",
+            "确保完全插入3.5毫米音频插孔。平直的输入端连接到耳机，L形输入端连接到音频设备。",
+            "检查确保音频源已开机且正常运行。",
+            "如果音频源是台式电脑或笔记本电脑，请尝试调整配置设置。",
+            "如果您仍听到失真的声音，请尝试另一个音频源和备用线缆。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白，我新买的Beats头戴式耳机总是出问题，可以有什么解决办法吗？",
+        "act": "what",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果是遇到音频相关的问题？可以在这篇文章中找到答案。",
+        "act": "ans/open",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "遇到音频相关的问题？可以在这篇文章中找到答案。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

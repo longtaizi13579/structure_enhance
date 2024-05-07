@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想查询一下浙江省公路项目许可申请业务的监督投诉方式。",
+        "act": "what",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "浙江省",
+            "国内外经济组织投资建设公路项目许可",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，我们有投诉电话，投诉地址，投诉网址，您需要哪一个监督投诉方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你给我一个投诉电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，投诉电话是0571-87813819。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "0571-87813819"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办这个项目的许可证的话，你们要不要收费啊？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前我们是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那太好了，那你给我说一下办理流程的细节可以吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理流程为: 1.申请 2.受理 3.审核、审批、报审 4.决定 5.送达。了解哪一个流程的细节呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核、审批、报审",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "210",
+            "211",
+            "213",
+            "222",
+            "231",
+            "240"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解一下申请的具体细节。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "211"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "申请办理许可证时，申请人向省交通运输厅提交申请材料，或在浙江政务服务网进行网上申报，并选择结果送达方式即可。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "申请人向省交通运输厅提交申请材料，或在浙江政务服务网进行网上申报，并选择结果送达方式"
+        ],
+        "grounding_id": [
+            "212"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个办理流程这么繁琐，办结时限会不会很久啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想问法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "法定办结时限为70个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "70（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

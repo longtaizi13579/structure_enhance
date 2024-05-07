@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想自己缴纳住房公积金，办理开户缴存登记，多久能拿到审批结果呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "公积金",
+            "常用服务",
+            "个体工商户、自由职业者住房公积金缴存登记",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T208",
+            "T223",
+            "1",
+            "40",
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你是在哪个城市办理的？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是在浙江省绍兴市办理的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "绍兴市是自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理过程中需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个是不需要收取任何费用的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我能在什么时间去办理呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你是需要夏季还是冬季的办理时间？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我需要夏季的办理时间。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "夏季的话你可以在工作日的上午8:30-12:00，下午2:00-5:30前去办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "工作日，夏季：上午8:30-12:00，下午2:00-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我能自助办理吗？这样方便一点。",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前还不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想要准备妥当再去办理，你能给我个咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你可以前往浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口进行咨询。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

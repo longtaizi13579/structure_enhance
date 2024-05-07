@@ -1,0 +1,384 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我最近在学习计算机，想了解一些这方面的问题可以吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何打开有密码保护的Excel文件还是如何复制粘贴呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "如何打开有密码保护的Excel文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何打开有密码保护的Excel文件？",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "如何打开有密码保护的Excel文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您在解锁工作表或工作簿的时候，首先 在电脑上找到Excel文件。其次 启用文件扩展名（如果没有启用的话）、将“xlsx”扩展名更改为“zip”、右键点击ZIP文件，选择“全部解压缩”、打开“xl”文件夹，选择“工作表”文件夹。然后右键点击锁定的工作表，选择“编辑”。之后按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”、在选择<>里的所有所有内容、复制编辑好的工作簿或工作表文件。 再打开之前创建的ZIP文件、找到同名文件夹，里面有编辑好的工作表或工作簿。 最后粘贴编辑好的文件，覆盖原始文件。关闭ZIP文件，将扩展名重命名为“xlsx”。 打开文件，导入工作簿、工作表。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "解锁工作表/工作簿",
+            "在电脑上找到Excel文件。",
+            "启用文件扩展名（如果没有启用的话）。",
+            "将“xlsx”扩展名更改为“zip”。",
+            "右键点击ZIP文件，选择“全部解压缩”。",
+            "打开“xl”文件夹，然后选择“工作表”文件夹。",
+            "右键点击锁定的工作表，选择“编辑”。",
+            "按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”。",
+            "选择<>里的所有所有内容。",
+            "复制编辑好的工作簿或工作表文件。",
+            "打开之前创建的ZIP文件。",
+            "找到同名文件夹，里面有编辑好的工作表或工作簿。",
+            "粘贴编辑好的文件，覆盖原始文件。",
+            "关闭ZIP文件，将扩展名重命名为“xlsx”。",
+            "打开文件，导入工作簿、工作表。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "20",
+            "22",
+            "24",
+            "26",
+            "28",
+            "31",
+            "34",
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "46"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这么多步骤呀，那将“xlsx”扩展名更改为“zip”时出现提示说文件不可用，怎么办？",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "将“xlsx”扩展名更改为“zip”。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在更换扩展名的时候Windows系统会提示你重命名文件可能会导致文件不可用，您不用管，确认操作就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "Windows系统会提示你重命名文件可能会导致文件不可用。确认操作。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样啊，那全部解压缩后的文件在哪里找？",
+        "act": "where",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "右键点击ZIP文件，选择“全部解压缩”。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "全部解压缩后会在当前路径中创建一个新的文件夹，新文件夹与Excel文件同名。您找到与原来文件名一样的文件就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "这会在当前路径中创建一个新的文件夹，新文件夹与Excel文件同名。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我知道了，那打开“xl”文件夹里面是不是就是我需要的工作表了？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "打开“xl”文件夹，然后选择“工作表”文件夹。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "打开“xl”文件夹会显示文档中所有的工作表，每个工作表都是独立的文件，您根据您的需要打开就好了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "这样会显示文档中所有的工作表。每个工作表都是独立的文件，如“sheet1.xml”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，那如果我想要解锁整个工作表进行编辑，要怎么办呢?",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "右键点击锁定的工作表，选择“编辑”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果你尝试解锁整个工作表进行编辑，请返回“xl”文件夹，编辑“workbook.xml”文件。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "如果你尝试解锁整个工作表进行编辑，请返回“xl”文件夹，编辑“workbook.xml”文件。剩余的步骤也是相同的。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我记住了，那最后关闭ZIP文件时，为什么还要将扩展名重命名为“xlsx”呢？",
+        "act": "why",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "关闭ZIP文件，将扩展名重命名为“xlsx”。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是为了将ZIP文件更改回Excel文件，方便编辑。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "这会将ZIP文件更改回Excel文件。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "原来是这样啊，我还想了解一些计算机的使用问题，你能再给我说说吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想了解如何在戴尔电脑上截屏还是如何重启电脑呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如何在戴尔电脑上截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想知道如何在戴尔电脑上截屏？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如何在戴尔电脑上截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，接下来我会教您如何在戴尔电脑上截屏和保存截屏图片。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "这篇文章将教你如何在戴尔电脑上截屏和保存截屏图片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "谢谢你，具体要怎么截屏呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "如何在戴尔电脑上截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您使用Windows8和10系统时，首先前往你想要截图保存的页面。 找到PrtSc键。 找到Windows按键。 然后同时按下Windows键和PrtSc键。 再打开“开始”菜单。在“开始”菜单中输入screenshots（截图）。最后点击截图文件夹就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "使用Windows8和10系统",
+            "前往你想要截图保存的页面。",
+            "找到PrtSc键。",
+            "找到Windows按键。",
+            "同时按下Windows键和PrtSc键。",
+            "打开“开始”菜单。",
+            "在“开始”菜单中输入screenshots（截图）。",
+            "点击截图文件夹。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "11",
+            "13",
+            "16",
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "PrtSc键在哪里？我找不到。",
+        "act": "where",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "找到PrtSc键。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "它通常位于戴尔键盘的右上方。不同于其它品牌的计算机键盘，戴尔的“屏幕打印”键上面除了标记有“PrtSc”，不会标记其它字符。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "它通常位于戴尔键盘的右上方。不同于其它品牌的计算机键盘，戴尔的“屏幕打印”键上面除了标记有“PrtSc”，不会标记其它字符。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "看见了，那开始菜单在哪里呢？",
+        "act": "where",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "打开“开始”菜单。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "按下Windows键或点击屏幕左下角的Windows商标按键就可以看见了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "按下Windows键或点击屏幕左下角的Windows商标按键。打开“开始”菜单，此时鼠标光标就位于“搜索栏”中。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我知道了，那截好图后要在哪里找到图片呢？",
+        "act": "where",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "点击截图文件夹。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "当你首次截屏后，系统便会在“图片”文件夹中创建一个名为“截图”的文件夹。打开文件夹，你能在里面找到截屏后保存的图片。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在戴尔电脑上截屏.json",
+        "grounding": [
+            "当你首次截屏后，系统便会在“图片”文件夹中创建一个名为“截图”的文件夹。",
+            "打开文件夹，你能在里面找到截屏后保存的图片。"
+        ],
+        "grounding_id": [
+            "22",
+            "21"
+        ]
+    }
+]

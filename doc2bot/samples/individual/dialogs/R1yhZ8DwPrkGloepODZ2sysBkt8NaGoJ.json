@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省绍兴市针对遗失补领机动车驾驶证部门有没有监督投诉的方式？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "遗失补领机动车驾驶证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是需要投诉电话、投诉地址、投诉网址还是其他投诉方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "请问投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可致电0575--81500020进行投诉咨询。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉浙江省绍兴市期满换领机动车驾驶证部门的电话是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "期满换领机动车驾驶证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是0575--81500020。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "请问可以去哪里到现场进行投诉？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以到绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我不过去，你们可以以中介的形式帮我办理吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "中介服务"
+        ],
+        "grounding_id": [
+            "106"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不好意思，我们不涉及中介服务的相关办理事项。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "不涉及中介服务"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "只有自己有权利去处理这件事吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "权力来源"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，只有法定本级行使权力。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "法定本级行使"
+        ],
+        "grounding_id": [
+            "74"
+        ]
+    }
+]

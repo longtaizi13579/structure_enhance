@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如何重置Mac的SMC呢？",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如何重置Mac的SMC"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的Mac配备是什么呢？",
+        "act": "question/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如果您的Mac配备的是AppleT2安全芯片，请根据您的Mac机型按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "mac配备是AppleT2安全芯片。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如果您的Mac配备的是AppleT2安全芯片，请根据您的Mac机型按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先将Mac关机，在内建键盘上按住一些按键，Mac可能会开机。接着按住全部三个按键7秒钟，然后在不松开按键的情况下按住电源按钮， 继续按住全部四个按键7秒钟，然后松开这些按键， 最后等待几秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "将Mac关机。",
+            "在内建键盘上，按住以下所有按键。Mac可能会开机。",
+            "按住全部三个按键7秒钟，然后在不松开按键的情况下按住电源按钮。如果Mac处于开机状态，它将在您按住这些按键时关机。",
+            "继续按住全部四个按键7秒钟，然后松开这些按键。",
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "15",
+            "17",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "按键具体是哪些健呢？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "在内建键盘上，按住以下所有按键。Mac可能会开机。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是键盘左侧的Control，键盘左侧的Option(Alt)， 键盘右侧的Shift。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "键盘左侧的Control",
+            "键盘左侧的Option(Alt)",
+            "键盘右侧的Shift"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你说重置SMC的意义是什么呢？",
+        "act": "verification",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如何重置Mac的SMC"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "通过重置SMC，可以解决某些与电源、电池、风扇和其他功能相关的问题。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "系统管理控制器(SMC)可控制Mac的电源管理方式。通过重置SMC，可以解决某些与电源、电池、风扇和其他功能相关的问题。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白，我还想问一下，装有不可拆卸电池的笔记本电脑都有什么型号的？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "装有不可拆卸电池的笔记本电脑"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这类电脑包括2009年中至2017年推出的MacBookPro机型、2017年或之前推出的MacBookAir机型，以及所有MacBook机型。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "这类电脑包括2009年中至2017年推出的MacBookPro机型、2017年或之前推出的MacBookAir机型，以及所有MacBook机型，但MacBook（13英寸，2009年中）除外。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    }
+]

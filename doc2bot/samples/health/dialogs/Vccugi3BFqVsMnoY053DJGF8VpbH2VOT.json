@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下周围神经和相关疾病的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "医学主题",
+            "周围神经和相关疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1418"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解僵人综合征，神经肌肉接头疾病概述，Isaacs综合征，多发性单神经病，Eaton-Lambert综合征，还是其它？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "僵人综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下僵人综合征，这种病一般用什么方式进行诊断？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "僵人综合征的诊断",
+            "僵人综合征"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "诊断方式： 肌电图， 血液化验。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "诊断方式：",
+            "肌电图",
+            "血液化验"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这种病会导致全身残疾吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "僵人综合征的症状",
+            "通常，僵人综合症会发展，导致全身残疾和僵硬。"
+        ],
+        "grounding_id": [
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "会的，僵人综合症会发展，导致全身残疾和僵硬。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "通常，僵人综合症会发展，导致全身残疾和僵硬。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那僵人综合征还有什么其它症状表现？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "僵人综合征的症状"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "僵人综合征患者表现为躯干、腹部肌肉逐渐僵硬、肥大。而上肢和下肢肌肉较少累及。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_僵人综合征.json",
+        "grounding": [
+            "僵人综合征患者表现为躯干、腹部肌肉逐渐僵硬、肥大。而上肢和下肢肌肉较少累及。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想了解下Eaton-Lambert综合征方面的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "Eaton-Lambert综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Eaton-Lambert综合征的症状，诊断，和治疗，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "Eaton-Lambert综合征的治疗"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问一下，Eaton-Lambert综合征的治疗方法是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "Eaton-Lambert综合征的治疗",
+            "Eaton-Lambert 综合征的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Eaton-Lambert 综合征的治疗方法主要有：治疗存在的癌症，胍，有时给予皮质类固醇和血浆置换。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "Eaton-Lambert 综合征的治疗方法主要有：",
+            "治疗存在的癌症",
+            "胍",
+            "有时给予皮质类固醇和血浆置换"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "胍的治疗原理是什么，有没有什么副作用？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "胍可使乙酰胆碱释放增加，从而改善症状，但可导致骨髓抑制和肝功能损害。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "胍可使乙酰胆碱释放增加，从而改善症状，但可导致骨髓抑制和肝功能损害。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "胍可使乙酰胆碱释放增加，从而改善症状，但可导致骨髓抑制和肝功能损害。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "医生一般通过什么方式能判断出患者可能患有Eaton-Lambert综合征？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "医生根据症状怀疑Eaton-Lambert综合征，但必须进行肌电图对诊断。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "医生根据症状怀疑Eaton-Lambert综合征，但必须进行肌电图对诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_周围神经和相关疾病_Eaton-Lambert综合征.json",
+        "grounding": [
+            "医生根据症状怀疑Eaton-Lambert综合征，但必须进行肌电图对诊断。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

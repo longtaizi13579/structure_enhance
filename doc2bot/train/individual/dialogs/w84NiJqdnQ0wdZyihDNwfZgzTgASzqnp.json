@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是想问问就是这个机动查补号牌的事这个收多少钱",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "机动车",
+            "补换领号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T17",
+            "1",
+            "326"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯这个浙江台州市",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的帮您查询了，我目前看到补换领号牌收费标准中有多个收费项目，您具体名称知道是什么吗",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "啥，我这刚有点吵，我这个是汽车号牌",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "4\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "325"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，该号牌收费是100元一副",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "100元/副"
+        ],
+        "grounding_id": [
+            "327"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哎，等一下，就是我朋友想问那个临时号牌怎么收费的",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "3\t机动车临时行驶车号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "316",
+            "317"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是五元一张",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "5元/张"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，麻烦你在给看一下，那摩托车号牌怎么收费呀",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "2\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "307",
+            "308"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的摩托车的是70元一副",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦好的，就还有补领号牌办理流程是怎样的",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个流程分五步一申请二受理三审核四制证五送达，请问您具体有想了解哪步吗",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "249",
+            "251",
+            "258",
+            "265",
+            "272"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个审核什么呢",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "审核",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "258",
+            "261"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个审核标准是审核申请人提交的材料，检查材料是否真实、有效。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_补换领号牌.json",
+        "grounding": [
+            "审核申请人提交的材料，检查材料是否真实、有效。"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    }
+]

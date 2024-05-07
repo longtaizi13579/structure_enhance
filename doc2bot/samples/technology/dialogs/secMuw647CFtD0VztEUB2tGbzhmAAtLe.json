@@ -1,0 +1,72 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道macOS服务器5.7.1至5.11.1中包含的服务有哪些？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本",
+            "macOS和macOS服务器中提供的服务",
+            "macOS服务器5.7.1至5.11.1中包含的服务"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "14"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：描述文件管理器、OpenDirectory、Xsan。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory",
+            "Xsan"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "macOS服务器5.12及更高版本中包含哪些服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本",
+            "macOS和macOS服务器中提供的服务",
+            "macOS服务器5.12及更高版本中包含的服务"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "macOS服务器5.12及更高版本中包含并完全支持以下服务：描述文件管理器、OpenDirectory。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.12及更高版本中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    }
+]

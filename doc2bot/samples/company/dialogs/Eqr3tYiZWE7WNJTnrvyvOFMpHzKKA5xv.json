@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想去温州市门店办理外商投资合伙企业的注销登记，在夏天哪个时间段可以去办理呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "办理时间",
+            "浙江省_温州市",
+            "外商投资合伙企业注销登记"
+        ],
+        "grounding_id": [
+            "24",
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，夏季每周的工作日上午8：30-12:00，下午2:30-5:30可以正常办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "工作日，夏季：上午8：30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，能给我一个咨询的方式呢？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们目前的咨询方式有电话咨询与线下咨询地址，您需要哪个呢?",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询电话",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "27",
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "咨询电话吧，是多少？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的咨询电话是0577-88926105。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "0577-88926105"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的谢谢，还有我在衢州市注销个体工商户，需要几份纸质材料呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "纸质材料份数",
+            "材料名称",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "147",
+            "139",
+            "138"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只需要1份纸质材料。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_企业注销_常用服务_个体工商户注销登记.json",
+        "grounding": [
+            "1份"
+        ],
+        "grounding_id": [
+            "148"
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道包细胞数量多少是正常情况呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "白细胞计数高"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "正常情况下，血液中的白细胞数目（白细胞计数）低于11000个细胞/微升（11×109个细胞/升）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "白细胞是身体防御传染性病原体和异物的重要组成部分（免疫系统）。正常情况下，血液中的白细胞数目（白细胞计数）低于11000个细胞/微升（11×109个细胞/升）。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那白细胞的作用是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "白细胞计数高"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "白细胞是身体防御传染性病原体和异物的重要组成部分（免疫系统）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "白细胞是身体防御传染性病原体和异物的重要组成部分（免疫系统）。正常情况下，血液中的白细胞数目（白细胞计数）低于11000个细胞/微升（11×109个细胞/升）。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果数显数量偏高的话有什么原因呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "其他病因包括"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可能是使用某些药物（如皮质类固醇）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "使用某些药物（如皮质类固醇）"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有别的原因吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "其他病因包括"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "也可能是未成熟或异常的白细胞从骨髓释放入血",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "未成熟或异常的白细胞从骨髓释放入血"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那会不会是白血病呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "其他病因包括",
+            "骨髓癌（如白血病）"
+        ],
+        "grounding_id": [
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "也有骨髓癌（如白血病）的可能",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_血液紊乱_白细胞疾病_白细胞计数高.json",
+        "grounding": [
+            "骨髓癌（如白血病）"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

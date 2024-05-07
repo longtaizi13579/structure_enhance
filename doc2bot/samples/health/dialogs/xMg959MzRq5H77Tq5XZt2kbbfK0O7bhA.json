@@ -1,0 +1,277 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下关于抗生素的相关问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "医学主题",
+            "抗生素"
+        ],
+        "grounding_id": [
+            "T3",
+            "T289"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询恶唑烷酮类：利奈唑胺和特地唑胺、氨曲南、青霉素类，还是其他？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "恶唑烷酮类：利奈唑胺和特地唑胺"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道恶唑烷酮类的抗生素一般都什么情况下使用？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "恶唑烷酮类：利奈唑胺和特地唑胺",
+            "恶唑烷酮类是用于治疗严重感染的一类抗生素，通常在其它抗生素无效之后使用。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "恶唑烷酮类是用于治疗严重感染的一类抗生素，通常在其它抗生素无效之后使用。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "恶唑烷酮类是用于治疗严重感染的一类抗生素，通常在其它抗生素无效之后使用。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "恶唑烷酮类包括什么药物？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "恶唑烷酮类包括如下药物："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "包括利奈唑胺和泰地唑利。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "利奈唑胺",
+            "泰地唑利"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "妊娠期间，准妈妈可以使用利奈唑胺和特地唑胺吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "仅在益处超过风险的情况下，才可以在妊娠期间使用利奈唑胺和特地唑胺。（也请参见妊娠期用药。）"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "仅在益处超过风险的情况下，才可以在妊娠期间使用利奈唑胺和特地唑胺。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "仅在益处超过风险的情况下，才可以在妊娠期间使用利奈唑胺和特地唑胺。（也请参见妊娠期用药。）"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哺乳期间呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "哺乳期间使用利奈唑胺和特地唑胺是否安全是未知的。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "哺乳期间使用利奈唑胺和特地唑胺是否安全是未知的。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_感染_抗生素_恶唑烷酮类：利奈唑胺和特地唑胺.json",
+        "grounding": [
+            "哺乳期间使用利奈唑胺和特地唑胺是否安全是未知的。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问一下，青霉素类一般用于治疗什么引起的感染？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "青霉素类",
+            "青霉素类被用于治疗革兰氏阳性菌（如链球菌感染）和某些革兰氏阴性菌（如脑膜炎球菌感染）引起的感染。"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "青霉素类被用于治疗革兰氏阳性菌和某些革兰氏阴性菌引起的感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "青霉素类被用于治疗革兰氏阳性菌（如链球菌感染）和某些革兰氏阴性菌（如脑膜炎球菌感染）引起的感染。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "青霉素类都包括什么药物？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "青霉素类包括如下药物："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "包括：阿莫西林、Ampicillin、Carbenicillin、双氯西林、萘夫西林、苯唑青、青霉素G、PenicillinV、哌拉西林、替卡西林。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "阿莫西林",
+            "Ampicillin",
+            "Carbenicillin",
+            "双氯西林",
+            "萘夫西林",
+            "苯唑青",
+            "青霉素G",
+            "PenicillinV",
+            "哌拉西林",
+            "替卡西林"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "阿莫西林和苄基青霉素的区别是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "食物不干扰阿莫西林的吸收，但苄基青霉素应在餐前1小时或餐后2小时服用。阿莫西林往往比氨苄青霉素（口服时）更常用，因为阿莫西林血液吸收更好，胃肠道副作用更少，并且可以减少给药次数。（也请参见抗生素概述。） "
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "食物不干扰阿莫西林的吸收，但苄基青霉素应在餐前1小时或餐后2小时服用。阿莫西林往往比氨苄青霉素更常用，因为阿莫西林血液吸收更好，胃肠道副作用更少，并且可以减少给药次数。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "食物不干扰阿莫西林的吸收，但苄基青霉素应在餐前1小时或餐后2小时服用。阿莫西林往往比氨苄青霉素（口服时）更常用，因为阿莫西林血液吸收更好，胃肠道副作用更少，并且可以减少给药次数。（也请参见抗生素概述。） "
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "system",
+        "utterance": "您知道药物吸收指的是什么吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "吸收"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "user",
+        "utterance": "不知道，你跟我说一下吧。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "吸收"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "system",
+        "utterance": "药物吸收是指给药后药物进入血液循环的过程。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "吸收",
+            "药物吸收是指给药后药物进入血液循环的过程。"
+        ],
+        "grounding_id": [
+            "38",
+            "55"
+        ]
+    }
+]

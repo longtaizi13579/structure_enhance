@@ -1,0 +1,266 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，咨询一下出入境的事",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "出入境"
+        ],
+        "grounding_id": [
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_温州市"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯浙江温州市",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_温州市"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的关于出入境的服务您想了解哪方面",
+        "act": "question/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是这样护照加注办这个收费吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1583"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不收费",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1584"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办这个支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1587"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的支持",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1588"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦好的，对了这有什么监督投诉方式",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个有三个方式一投诉电话二投诉网址三投诉地址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "地址在哪",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "地址是在温州市民中心（温州市鹿城区滨江街道会展路1288号）A区2楼73号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区2楼73号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯这个护照加注能自助办理吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个目前暂不支持",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "麻烦您给查一下办这个都有什么咨询方式",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这有三个方式一咨询电话二咨询地址三咨询网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我来个电话吧",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的您记一下0577-89980376、0577-89980375",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0577-89980376、0577-89980375；"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那个咨询地址您也告诉我吧",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的地址是温州市民中心（温州市鹿城区滨江街道会展路1288号）A区二楼65-70号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区二楼65-70号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

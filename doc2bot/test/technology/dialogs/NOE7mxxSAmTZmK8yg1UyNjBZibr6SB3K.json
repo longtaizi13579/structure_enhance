@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想咨询一下更改iCloud设置",
+        "act": "what",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "更改iCloud设置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想问选择使用iCloud的App还是关闭 iCloud呢?",
+        "act": "multiple-choice",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "选择使用iCloud的App"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是想问选择使用iCloud的App",
+        "act": "what",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "选择使用iCloud的App"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以使用iPhone、iPad或iPodtouch",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体需要如何操作呢?",
+        "act": "how",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先: 前往“设置”>“[您的姓名]”。然后轻点“iCloud”。最后轻点以选取要使用iCloud的App。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“iCloud”。",
+            "轻点以选取要使用iCloud的App。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果在WindowsPC上的具体操作是什么呢?",
+        "act": "what",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "具体步骤",
+            "在WindowsPC上"
+        ],
+        "grounding_id": [
+            "17",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开Windows版iCloud。然后选择或取消选择各个App。最后点按“应用”。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "打开Windows版iCloud。",
+            "选择或取消选择各个App。请参阅下文以了解更多信息。",
+            "点按“应用”。"
+        ],
+        "grounding_id": [
+            "18",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在Mac上的具体步骤能跟我说一下吗?",
+        "act": "verification",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在Mac上",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的,首先选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更低版本，则无需点按“AppleID”。然后 点按“iCloud”。最后 选择或取消选择各个App。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更低版本，则无需点按“AppleID”。",
+            "点按“iCloud”。",
+            "选择或取消选择各个App。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我的mac的功能老是以不同的方式列出是为什么呢?",
+        "act": "verification",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在较低版本的macOS中，有些功能不会显示或会以不同的方式列出。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "因为在较低版本的macOS中，有些功能不会显示或会以不同的方式列出。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "在较低版本的macOS中，有些功能不会显示或会以不同的方式列出。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我最后还想问一下关闭会怎样?",
+        "act": "how",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "关闭iCloud"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是问关闭iCloud会发生什么吗?",
+        "act": "verification",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "关闭iCloud"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "关闭iCloud"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您退出登录iCloud（或删除iCloud），iCloud便不会再备份您iPhone、iPad或iPodtouch上的信息。如果您打开了自动下载所购音乐、App或图书的功能，则这些购买项目仍会下载到您的设备上。",
+        "act": "ans/open",
+        "document": "更改iCloud设置.json",
+        "grounding": [
+            "如果您退出登录iCloud（或删除iCloud），iCloud便不会再备份您iPhone、iPad或iPodtouch上的信息。",
+            "如果您打开了自动下载所购音乐、App或图书的功能，则这些购买项目仍会下载到您的设备上。"
+        ],
+        "grounding_id": [
+            "38",
+            "46"
+        ]
+    }
+]

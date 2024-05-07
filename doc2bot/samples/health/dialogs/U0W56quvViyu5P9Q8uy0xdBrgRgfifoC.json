@@ -1,0 +1,296 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一些医学方面的问题",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解疾病的哪方面",
+        "act": "question/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "肛门直肠疾病"
+        ],
+        "grounding_id": [
+            "T1905"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "肛门直肠方面的疾病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "肛门直肠疾病"
+        ],
+        "grounding_id": [
+            "T1905"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想问直肠炎吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "家庭版"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对啊，这个直肠炎会因放疗所导致吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "直肠炎",
+            "炎症原因很多，从感染至放疗。"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "炎症原因很多，从感染至放疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "炎症原因很多，从感染至放疗。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那直肠炎的症状一般都有什么",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "直肠炎的症状"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "通常，直肠炎会引起排便用力时疼痛、无痛性出血或直肠排泌黏液。若直肠炎由淋病、单纯性疱疹或巨细胞病毒所致，肛门和直肠可有剧烈疼痛。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "通常，直肠炎会引起排便用力时疼痛、无痛性出血或直肠排泌黏液。若直肠炎由淋病、单纯性疱疹或巨细胞病毒所致，肛门和直肠可有剧烈疼痛。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那治这直肠炎都是口服的药吗那放疗的呢",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "直肠炎",
+            "为了治疗放疗所致的直肠炎，可将皮质类固醇涂抹在受累部位，有时需口服。"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您是要问治疗放疗所致的直肠炎吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "为了治疗放疗所致的直肠炎，可将皮质类固醇涂抹在受累部位，有时需口服。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是啊，放疗所致的肠炎，",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "为了治疗放疗所致的直肠炎，可将皮质类固醇涂抹在受累部位，有时需口服。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "为了治疗放疗所致的直肠炎，可将皮质类固醇涂抹在受累部位，有时需口服",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "为了治疗放疗所致的直肠炎，可将皮质类固醇涂抹在受累部位，有时需口服。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这病会不会很痛",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "根据病因，直肠炎可无痛，也可非常痛。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据病因，直肠炎可无痛，也可非常痛",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "根据病因，直肠炎可无痛，也可非常痛。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那还想问问这个直肠炎的诊断的问题",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "直肠炎的诊断"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您是要问这个直肠炎诊断方式吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的呀一般都啥方式",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "诊断方式一直肠镜检查或乙状结肠镜检查二 血液化验和便检三有时进行结肠镜检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "直肠镜检查或乙状结肠镜检查",
+            "血液化验和便检",
+            "有时进行结肠镜检查"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这个要是溃疡性的结肠炎医生是通过什么检查",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "医生还可通过结肠镜（使用内镜检查整个大肠）检查肠道的其余部分，以查找克罗恩病或溃疡性结肠炎。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "医生还可通过结肠镜（使用内镜检查整个大肠）检查肠道的其余部分，以查找克罗恩病或溃疡性结肠炎。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "医生还可通过结肠镜（使用内镜检查整个大肠）检查肠道的其余部分，以查找克罗恩病或溃疡性结肠炎。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那还有我在网上搜了一下这个直肠炎有的也是因为抗生素所致，这是怎么个情况",
+        "act": "how",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "此外，直肠炎可归因于某些非性传播细菌（如沙门氏菌），也由于使用抗生素破坏了肠道正常细菌、导致其他细菌在其位置生长（艰难梭菌——参见艰难梭菌结肠炎）而引起。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "是这样直肠炎可归因于某些非性传播细菌（如沙门氏菌），也由于使用抗生素破坏了肠道正常细菌、导致其他细菌在其位置生长（艰难梭菌——参见艰难梭菌结肠炎）而引起。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_肛门直肠疾病_直肠炎.json",
+        "grounding": [
+            "此外，直肠炎可归因于某些非性传播细菌（如沙门氏菌），也由于使用抗生素破坏了肠道正常细菌、导致其他细菌在其位置生长（艰难梭菌——参见艰难梭菌结肠炎）而引起。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

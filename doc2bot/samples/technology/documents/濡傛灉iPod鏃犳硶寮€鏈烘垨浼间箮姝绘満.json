@@ -1,0 +1,152 @@
+{
+    "document_id": 543,
+    "domain": "technology",
+    "name": "如果iPod无法开机或似乎死机",
+    "graph": {
+        "1": {
+            "data": "如果iPod无法开机或似乎死机",
+            "type": "root",
+            "pid": "0"
+        },
+        "4": {
+            "data": "强制重新启动iPod",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "5": {
+            "data": "如果您的iPod没有响应，请按照以下说明来强制重新启动。查明您的iPod是哪款机型。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "9": {
+            "data": "iPodnano（第7代）",
+            "type": "sequence",
+            "pid": "5"
+        },
+        "10": {
+            "data": "同时按住睡眠/唤醒按钮和主屏幕按钮，直到屏幕关闭。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "11": {
+            "data": "等待设备重新启动。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "12": {
+            "data": "仍然需要协助？请接入电源，然后再试一次。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "13": {
+            "data": "iPodshuffle",
+            "type": "sequence",
+            "pid": "5"
+        },
+        "14": {
+            "data": "拔掉设备上的所有配件。",
+            "type": "sequence-step",
+            "pid": "13"
+        },
+        "15": {
+            "data": "使用电源开关将iPod关机。（如果您看到开关旁显示绿色，则表示iPod处于开机状态。）",
+            "type": "sequence-step",
+            "pid": "13"
+        },
+        "19": {
+            "data": "等待10秒钟，然后再次将iPod开机。",
+            "type": "sequence-step",
+            "pid": "13"
+        },
+        "20": {
+            "data": "iPodclassic",
+            "type": "sequence",
+            "pid": "5"
+        },
+        "21": {
+            "data": "将锁定开关用力移至关闭位置，确保开关旁不再显示橙色。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "22": {
+            "data": "同时按住MENU（菜单）按钮和中央按钮（或选择按钮）8秒钟，或者直到您看到Apple标志。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "28": {
+            "data": "为设备充电",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "29": {
+            "data": "如果您的iPod仍然没有响应，可能是因为电池电量不足。请至少为iPod充电30分钟：",
+            "type": "sequence",
+            "pid": "28"
+        },
+        "30": {
+            "data": "将iPod与设备随附的充电线连接起来。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "31": {
+            "data": "将充电线的另一端接入电源：使用插入墙壁插座的USB适配器，或者使用已开机且没有处于睡眠模式的电脑（而非键盘）上的USB2.0或3.0端口。您也可以使用USB集线器、扩展坞或Apple认证的其他电源配件。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "32": {
+            "data": "等待几分钟直到充电屏幕出现，或者直到iPodshuffle上的状态指示灯变成橙色。",
+            "type": "sequence-step",
+            "pid": "29"
+        },
+        "33": {
+            "data": "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作：",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "34": {
+            "data": "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "35": {
+            "data": "尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "36": {
+            "data": "如果设备还是无法开机，则可能需要维修。请联系Apple支持。",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "40": {
+            "data": "如果您的iPod可以开机，但在启动过程中卡住",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "41": {
+            "data": "如果您的iPod还是没有响应、在启动过程中卡住，或者持续显示Apple标志或，请按照以下步骤操作：",
+            "type": "sequence",
+            "pid": "40"
+        },
+        "42": {
+            "data": "如果您使用的是装有macOSMojave或更低版本的Mac，或者使用的是PC，请确保您的电脑装有最新版本的iTunes。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "43": {
+            "data": "如果您使用的是iPodnano或iPodclassic，请将iPod设为磁盘模式。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "47": {
+            "data": "在装有macOSCatalina或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave或更低版本的Mac或者PC上，打开iTunes。然后，将您的iPod直接连接到电脑。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "48": {
+            "data": "在“访达”或iTunes中找到您的iPod，然后选择“恢复iPod”。",
+            "type": "sequence-step",
+            "pid": "41"
+        }
+    }
+}

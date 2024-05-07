@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一下如果iPhone、iPad或iPodtouch无法更新怎么办啊？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询更新的方法还是更新时的显示？",
+        "act": "multiple-choice",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "更新设备无法更新时都会显示什么呢？",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "当您尝试更新设备时，可能会看到以下某条信息："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "无法检查更新。检查软件更新时出错。” “无法安装更新。需要接入网络才能进行软件更新。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "“无法检查更新。检查软件更新时出错。”",
+            "“无法安装更新。需要接入网络才能进行软件更新。”"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是我的是空间不足，无法进行更新怎么办？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果空间不足，无法进行更新"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是无法将设备连接到电脑吗？",
+        "act": "verification",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，我该如何操作呢？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "除了内存不够，还有其他的原因吗？",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "无法通过无线方式来更新iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的比如 下载更新的用时过长，无法连接更新服务器， 更新无法完成都会造成] 无法通过无线方式来更新iPhone、iPad或iPodtouch",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "下载更新的用时过长",
+            "无法连接更新服务器",
+            "更新无法完成"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你说的那个下载用时过长怎么办呢？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果下载用时过长"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您需要连接互联网才能更新您的设备。下载更新所需的时间因更新大小和您的互联网速度而异。您可以在下载更新时正常使用设备，然后设备会在可以安装更新时通知您。为提高下载速度，请避免下载其他内容，并尽可能使用Wi-Fi网络。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "您需要连接互联网才能更新您的设备。下载更新所需的时间因更新大小和您的互联网速度而异。您可以在下载更新时正常使用设备，然后设备会在可以安装更新时通知您。为提高下载速度，请避免下载其他内容，并尽可能使用Wi-Fi网络。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可是我使用相同网络再次更新设备还是看到以上任一信息怎么办？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "尝试使用相同网络再次更新您的设备。如果您仍看到以上任一信息，请尝试使用其他网络更新您的设备，或使用电脑更新您的设备："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请尝试使用其他网络更新您的设备，或使用电脑更新您的设备",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "尝试使用相同网络再次更新您的设备。如果您仍看到以上任一信息，请尝试使用其他网络更新您的设备，或使用电脑更新您的设备："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可是尝试完了还是出问题",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果尝试使用多个网络进行更新后问题再次发生，"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果尝试使用多个网络进行更新后问题再次发生， 请移除相应更新。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果尝试使用多个网络进行更新后问题再次发生，",
+            "请移除相应更新。"
+        ],
+        "grounding_id": [
+            "32",
+            "65"
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下哪些Xbox无线控制器可以和Apple设备配对？",
+        "act": "what",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "将Xbox控制器与Apple设备配对",
+            "看看支持哪些无线控制器"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "Xbox无线控制器（蓝牙版）（型号1708）；XboxElite无线控制器2代；Xbox自适应控制器；Xbox无线控制器SeriesS和SeriesX。",
+        "act": "ans/open",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "Xbox无线控制器（蓝牙版）（型号1708）",
+            "XboxElite无线控制器2代",
+            "Xbox自适应控制器",
+            "Xbox无线控制器SeriesS和SeriesX"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果控制器无法正常连接怎么办？",
+        "act": "how",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "如果控制器无法正常连接或正常使用"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以将它取消配对，然后再次配对。",
+        "act": "ans/open",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "将它取消配对，然后再次配对。如果仍然无法配对或连接，请就如何将蓝牙配件与iOS设备配对获取协助。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我试过了，还是不行。",
+        "act": "ans/open",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "将它取消配对，然后再次配对。如果仍然无法配对或连接，请就如何将蓝牙配件与iOS设备配对获取协助。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是否连接了多个蓝牙配件？",
+        "act": "verification",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "确保您没有尝试同时连接过多蓝牙配件。AppleTV4K和AppleTVHD可同时支持最多两个同一类型的控制器，或支持一个混合使用多台蓝牙音频设备的控制器。其他控制器和音频蓝牙限制因设备而异。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "没有，我只连接了一个。这个和控制器是否为最新版本有关系吗？",
+        "act": "verification",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "确认控制器上的固件是最新版本。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，您需要确认控制器上的固件是最新版本。",
+        "act": "ans/yes",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "确认控制器上的固件是最新版本。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "Xbox无线控制器都可以和哪些Apple设备配对？",
+        "act": "what",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "了解如何将Xbox无线控制器与iPhone、iPodtouch、iPad、AppleTV或Mac配对。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Xbox无线控制器可以与iPhone、iPodtouch、iPad、AppleTV或Mac配对。",
+        "act": "ans/open",
+        "document": "将Xbox控制器与Apple设备配对.json",
+        "grounding": [
+            "了解如何将Xbox无线控制器与iPhone、iPodtouch、iPad、AppleTV或Mac配对。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

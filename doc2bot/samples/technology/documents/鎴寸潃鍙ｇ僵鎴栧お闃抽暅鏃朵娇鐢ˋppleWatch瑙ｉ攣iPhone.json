@@ -1,0 +1,172 @@
+{
+    "document_id": 184,
+    "domain": "technology",
+    "name": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+    "graph": {
+        "1": {
+            "data": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "所需条件",
+            "type": "conjunction",
+            "pid": "1"
+        },
+        "4": {
+            "data": "使用AppleWatch解锁iPhone需要满足以下设备要求：",
+            "type": "conjunction",
+            "pid": "3"
+        },
+        "5": {
+            "data": "使用面容ID的iPhone（iPhoneX或更新机型）且装有iOS14.5或更高版本",
+            "type": "condition",
+            "pid": "4"
+        },
+        "6": {
+            "data": "装有watchOS7.4或更高版本的AppleWatchSeries3或更新机型",
+            "type": "condition",
+            "pid": "4"
+        },
+        "7": {
+            "data": "要使用这项功能，还需要满足以下要求：",
+            "type": "conjunction",
+            "pid": "3"
+        },
+        "8": {
+            "data": "您的AppleWatch需要与您的iPhone配对。",
+            "type": "condition",
+            "pid": "7"
+        },
+        "12": {
+            "data": "您的iPhone和AppleWatch需要打开无线局域网和蓝牙。（您无需连接到无线局域网。）",
+            "type": "condition",
+            "pid": "7"
+        },
+        "13": {
+            "data": "您的AppleWatch需要设有密码，并且手腕检测功能必须处于打开状态。",
+            "type": "condition",
+            "pid": "7"
+        },
+        "17": {
+            "data": "您的AppleWatch需要戴在您的手腕上并已解锁。",
+            "type": "condition",
+            "pid": "7"
+        },
+        "18": {
+            "data": "您需要戴着口罩（遮住口鼻），或戴着太阳镜或滑雪镜（遮住眼睛）。",
+            "type": "condition",
+            "pid": "7"
+        },
+        "19": {
+            "data": "如何设置“使用AppleWatch解锁”",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "20": {
+            "data": "在iPhone上打开“设置”App。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "21": {
+            "data": "轻点“面容ID与密码”，然后输入您的密码。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "22": {
+            "data": "向下滚动至“使用AppleWatch解锁”，然后在手表名称的旁边打开这项功能。如果您的手表没有启用手腕检测功能，系统会要求您打开这项功能。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "23": {
+            "data": "如何使用AppleWatch解锁iPhone",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "24": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "23"
+        },
+        "25": {
+            "data": "确保您戴着口罩、太阳镜或滑雪镜，并且您的AppleWatch佩戴在您的手腕上并已解锁。",
+            "type": "sequence-step",
+            "pid": "24"
+        },
+        "26": {
+            "data": "抬起iPhone或轻点它的屏幕以唤醒iPhone。",
+            "type": "sequence-step",
+            "pid": "24"
+        },
+        "27": {
+            "data": "看一眼您的iPhone以解锁设备。然后，您就可以从iPhone屏幕底部向上轻扫来开始使用设备了。",
+            "type": "sequence-step",
+            "pid": "24"
+        },
+        "28": {
+            "data": "如果您本意并不是要解锁iPhone",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "29": {
+            "data": "当AppleWatch成功解锁您的iPhone时，手表会提供触感反馈并显示一条提醒。如果您本意并不是要解锁iPhone，",
+            "type": "condition",
+            "pid": "28"
+        },
+        "30": {
+            "data": "轻点AppleWatch屏幕上的“锁定iPhone”后，下次解锁iPhone时，iPhone会要求您输入密码。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "31": {
+            "data": "在没有AppleWatch的情况下戴着口罩使用面容ID",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "32": {
+            "data": "如果运行的是iOS15.4及更高版本，",
+            "type": "condition",
+            "pid": "31"
+        },
+        "36": {
+            "data": "iPhone12和iPhone13的这项功能可与“使用AppleWatch解锁”协同工作。这样，在搭配着佩戴任何面部遮挡物品（例如太阳镜和口罩）时，就可以更方便地解锁iPhone。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "37": {
+            "data": "进一步了解",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "42": {
+            "data": "当AppleWatch佩戴在您的手腕上并已解锁，并且您的iPhone就在附近时，“使用AppleWatch解锁”功能才会发挥作用。这项功能不会使用面容ID来识别和认证您的身份。",
+            "type": "ordinary",
+            "pid": "37"
+        },
+        "43": {
+            "data": "“使用AppleWatch解锁”功能只能用于解锁您的iPhone。它不能用于验证您的身份以使用ApplePay、钥匙串中储存的密码或受密码保护的App。在戴着口罩、太阳镜或滑雪镜时，您仍可以通过输入iPhone密码来使用这些功能，或通过AppleWatch来使用ApplePay。",
+            "type": "ordinary",
+            "pid": "37"
+        },
+        "44": {
+            "data": "能够使用AppleWatch解锁iPhone",
+            "type": "solution",
+            "pid": "3"
+        },
+        "45": {
+            "data": "请轻点AppleWatch屏幕上的“锁定iPhone”按钮。",
+            "type": "solution",
+            "pid": "29"
+        },
+        "46": {
+            "data": "您可以在iPhone12或iPhone13上带着口罩使用面容ID，而无需使用AppleWatch。",
+            "type": "solution",
+            "pid": "32"
+        }
+    }
+}

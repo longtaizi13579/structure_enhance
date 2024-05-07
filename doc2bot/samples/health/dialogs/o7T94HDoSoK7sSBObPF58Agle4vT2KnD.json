@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关节脱位有什么治疗方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "医学主题",
+            "关节脱位"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1343"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你想咨询什么部位脱位的治疗方法呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "关节脱位"
+        ],
+        "grounding_id": [
+            "T1343"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下肘关节脱位的治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "肘关节脱位的治疗"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "肘关节脱位给患者使用镇静剂和止痛药，然后给患者进行肘关节复位。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "治疗肘关节脱位通常涉及以下方面：",
+            "给患者使用镇静剂和止痛药",
+            "向上牵拉手腕直到关节复位"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那复位了以后还要做什么治疗吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "向上牵拉手腕直到关节复位"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "复位后检查关节的稳定性，行X光片检查，然后使用夹板固定关节长达一周，直到疼痛和肿胀消退。然后开始活动范围训练，并且戴吊带2~3周。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "复位后，检查关节的稳定性，行X光片检查，以确保没有遗漏任何骨折情况。之后通常使用夹板固定关节长达一周，直到疼痛和肿胀消退。然后开始活动范围训练，并且戴吊带2~3周。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果是半脱位要用夹板固定一周吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "肘关节脱位"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你说的是肘关节什么位置脱位？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "肘关节脱位"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "桡骨头半脱位。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "桡骨头半脱位的治疗"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般来说不需要夹板固定，医生会运用手法将关节复位。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "通常运用手法将关节复位"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    }
+]

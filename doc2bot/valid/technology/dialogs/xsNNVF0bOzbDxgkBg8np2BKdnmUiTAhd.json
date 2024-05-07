@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道用iPhone或iPad在“音乐”App中发起“同播共享”会话的时候要怎么做？",
+        "act": "how",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用",
+            "在“音乐”App中发起“同播共享”会话"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先打开“音乐”App。然后按住一首歌、一张专辑或一个播放列表，然后轻点“同播共享”。在出现的屏幕中，输入要呼叫的联系人。 再轻点“FaceTime通话”以发起FaceTime视频通话。或者轻点音频按钮以发起FaceTime音频通话。 最后在“音乐”App的顶部，轻点您要播放的音乐旁边的“开始”就可以了。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "打开“音乐”App。",
+            "按住一首歌、一张专辑或一个播放列表，然后轻点“同播共享”。",
+            "在出现的屏幕中，输入要呼叫的联系人。",
+            "轻点“FaceTime通话”以发起FaceTime视频通话。或者轻点音频按钮以发起FaceTime音频通话。",
+            "在“音乐”App的顶部，轻点您要播放的音乐旁边的“开始”。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我会了谢谢你，那我怎么知道我可以和所有人在FaceTime通话中一起收听音乐呢？",
+        "act": "how",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "所有人可以在FaceTime通话中一起收听音乐"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是否满足持有已更新至最新版iOS或iPadOS的iPhone或iPad，订阅了AppleMusic呢？",
+        "act": "verification",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "持有已更新至最新版iOS或iPadOS的iPhone或iPad",
+            "订阅了AppleMusic"
+        ],
+        "grounding_id": [
+            "4",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，满足。",
+        "act": "ans/yes",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "持有已更新至最新版iOS或iPadOS的iPhone或iPad",
+            "订阅了AppleMusic"
+        ],
+        "grounding_id": [
+            "4",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您和所有人可以在FaceTime通话中一起收听音乐。",
+        "act": "ans/yes",
+        "document": "在iPhone或iPad上将“同播共享”与AppleMusic搭配使用.json",
+        "grounding": [
+            "以下是所有人必须满足的要求",
+            "所有人可以在FaceTime通话中一起收听音乐"
+        ],
+        "grounding_id": [
+            "3",
+            "54"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我知道了，那i我问你啊，如果我想在Phone、iPad和iPodtouch上自定盲文命令要怎么做？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令",
+            "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS或iPadOS。如果您要在iPhone、iPad或iPodtouch上自定盲文命令，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以前往“设置”>“辅助功能”>“旁白”>“盲文”>“[连接的盲文显示器名称]”>“更多信息”>“盲文命令”。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json",
+        "grounding": [
+            "前往“设置”>“辅助功能”>“旁白”>“盲文”>“[连接的盲文显示器名称]”>“更多信息”>“盲文命令”。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我会了谢谢你，我还有一个问题问你，就是怎么更新iPhone、iPad或iPodtouch呢？",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想知道通过无线方式更新iPhone、iPad或iPodtouch还是自定自动更新呢？",
+        "act": "multiple-choice",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "通过无线方式更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道怎么通过无线方式更新iPhone、iPad或iPodtouch？",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "通过无线方式更新iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先 使用iCloud或电脑备份您的设备。然后将设备插接到电源，然后通过无线局域网连接到互联网。再前往“设置”>“通用”，然后轻点“软件更新”。 如果看到两个可用的软件更新选项，请选取要安装的那个。最后轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”就可以了。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "使用iCloud或电脑备份您的设备。",
+            "将设备插接到电源，然后通过无线局域网连接到互联网。",
+            "前往“设置”>“通用”，然后轻点“软件更新”。",
+            "如果看到两个可用的软件更新选项，请选取要安装的那个。",
+            "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。"
+        ],
+        "grounding_id": [
+            "11",
+            "15",
+            "19",
+            "20",
+            "21"
+        ]
+    }
+]

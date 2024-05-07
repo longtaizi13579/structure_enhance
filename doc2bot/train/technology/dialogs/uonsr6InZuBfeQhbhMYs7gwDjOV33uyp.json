@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道这个在iPhone和iPad上要怎么编辑接入点名称呢？",
+        "act": "how",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "在iPhone和iPad上查看和编辑接入点名称(APN)"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解自动输入APN设置吗？",
+        "act": "verification",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "自动输入APN设置"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，具体怎么做呢？",
+        "act": "how",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "自动输入APN设置"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您的蜂窝网络运营商支持这一功能，则可以在iOS15和iPadOS15及更高版本中自动填充APN设置，首先插入SIM卡。然后在iPhone或iPad上，前往“设置”>“蜂窝网络”>“蜂窝数据”。最后在“蜂窝数据”下，选择“使用运营商设置”就可以了。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "如果您的蜂窝网络运营商支持这一功能，则可以在iOS15和iPadOS15及更高版本中自动填充APN设置：",
+            "插入SIM卡。",
+            "在iPhone或iPad上，前往“设置”>“蜂窝网络”>“蜂窝数据”。",
+            "在“蜂窝数据”下，选择“使用运营商设置”。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那如果在自动输入APN设置的时候，输错了有什么影响呢？",
+        "act": "what",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "自动输入APN设置",
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "5",
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您输入了错误的APN设置，可能会失去蜂窝数据连接并产生额外费用。除非您的运营商或移动设备管理员指示您编辑APN，否则不要这样做。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "如果您输入了错误的APN设置，可能会失去蜂窝数据连接并产生额外费用。除非您的运营商或移动设备管理员指示您编辑APN，否则不要这样做。请联系您的运营商以确认正确的APN设置。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样啊，那我昨天想修改这个APN设置，提示不能修改是为什么呢？",
+        "act": "why",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "在iPhone和iPad上查看和编辑接入点名称(APN)"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "仅当您的运营商允许时，您才能在iPhone和iPad上编辑或查看您的APN。如果您无法修改APN设置，请联系您的运营商。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "仅当您的运营商允许时，您才能在iPhone和iPad上编辑或查看您的APN。如果您无法修改APN设置，请联系您的运营商。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我明白了，还有就是我已经修改了APN设置，但是第二天又变回了修改之前的是怎么回事?",
+        "act": "why",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是否有更新iOS系统的行为呢？",
+        "act": "verification",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我修改完APN设置之后更新了iOS系统。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是这样的，除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "除非您使用的是配置描述文件，否则更新iOS会还原对APN设置进行的所有更改。如果您在更新iOS前编辑APN设置，这些设置会还原为默认值。您可能需要在更新iOS后重新输入这些设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，早知道就更新完再修改了。那现在要在哪里查看APN设置呢？",
+        "act": "where",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您的运营商允许，在“设置”>“蜂窝网络”>“蜂窝数据选项”>“蜂窝网络”就可以查看。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "“设置”>“蜂窝网络”>“蜂窝数据选项”>“蜂窝网络”",
+            "如果您的运营商允许，您可以在以下位置之一查看您的APN设置："
+        ],
+        "grounding_id": [
+            "17",
+            "16"
+        ]
+    }
+]

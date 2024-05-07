@@ -1,0 +1,384 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友通过AppleTVApp租借了影片，但不知道怎么观看，想咨询一下？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "通过AppleTVApp租借影片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以通过AppleTVApp中的“资料库”标签或者iTunes中的“影片”菜单观看您的租借项目。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "通过AppleTVApp中的“资料库”标签或者iTunes中的“影片”菜单观看您的租借项目。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "具体如何操作？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "通过AppleTVApp中的“资料库”标签或者iTunes中的“影片”菜单观看您的租借项目。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是通过iPhone观看还是电脑观看？",
+        "act": "multiple-choice",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下在在iPhone上如何操作？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开AppleTVApp。在iPhone或iPodtouch上，轻点“资料库”。然后查看“租借项目”下的内容。最后轻点您租借的影片。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "打开AppleTVApp。",
+            "在iPhone或iPodtouch上，轻点“资料库”。然后查看“租借项目”下的内容。如果您找不到“租借项目”，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。在iPad上，前往边栏。在“资料库”下，轻点“租借项目”。",
+            "轻点您租借的影片。在这里，您可以："
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我怎么找不到“租借项目”？",
+        "act": "why",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iPhone或iPodtouch上，轻点“资料库”。然后查看“租借项目”下的内容。如果您找不到“租借项目”，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。在iPad上，前往边栏。在“资料库”下，轻点“租借项目”。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您找不到“租借项目”，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iPhone或iPodtouch上，轻点“资料库”。然后查看“租借项目”下的内容。如果您找不到“租借项目”，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。在iPad上，前往边栏。在“资料库”下，轻点“租借项目”。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还可以下载租借的影片吗？",
+        "act": "verification",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何下载？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "下载您的租借项目：轻点“下载”按钮。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想知道，如何在PC上的iTunes中观看？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在PC上的iTunes中"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开iTunes，从左上角的弹出式菜单中，选取“影片”；然后在iTunes窗口的顶部，点按“租借的”标签。最后将指针悬停在租借的影片上。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "打开iTunes。",
+            "从左上角的弹出式菜单中，选取“影片”。",
+            "在iTunes窗口的顶部，点按“租借的”标签。如果您找不到“租借的”标签，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。",
+            "将指针悬停在租借的影片上，然后您可以："
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41",
+            "43"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "找不到“租借的”标签，这表示什么？",
+        "act": "what",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iTunes窗口的顶部，点按“租借的”标签。如果您找不到“租借的”标签，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您找不到“租借的”标签，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在iTunes窗口的顶部，点按“租借的”标签。如果您找不到“租借的”标签，则表示您的租借项目已过期或者不是通过您登录时所用的AppleID租借的。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我也可以下载租借的影片吗？",
+        "act": "verification",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：点按“下载”按钮。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的，想要下载，请点按“下载”按钮。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "下载您的租借项目：点按“下载”按钮。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "在AppleTVApp中，我都可以进行哪些操作？",
+        "act": "what",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在AppleTVApp中查找和租借影片，然后将影片下载或流播放到iPhone、iPad、iPodtouch、AppleTV、Mac、PC、智能电视机或流媒体设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "在AppleTVApp中查找和租借影片，然后将影片下载或流播放到iPhone、iPad、iPodtouch、AppleTV、Mac、PC、智能电视机或流媒体设备上。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在AppleTVApp中查找和租借影片，然后将影片下载或流播放到iPhone、iPad、iPodtouch、AppleTV、Mac、PC、智能电视机或流媒体设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "我想学学，如何通过AppleTVApp租借影片？",
+        "act": "how",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "通过AppleTVApp租借影片"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "具体步骤：首先打开AppleTVApp，搜索要租借的影片；然后在影片的页面上，轻点或点按“租借”按钮。；最后使用您的AppleID登录以租借影片。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "具体步骤",
+            "打开AppleTVApp。",
+            "搜索要租借的影片。",
+            "在影片的页面上，轻点或点按“租借”按钮。如果没有“租借”按钮，则表示影片无法租借。",
+            "使用您的AppleID登录以租借影片。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "我找的影片怎么没有租借按钮？",
+        "act": "why",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在影片的页面上，轻点或点按“租借”按钮。如果没有“租借”按钮，则表示影片无法租借。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "如果没有“租借”按钮，则表示影片无法租借。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "在影片的页面上，轻点或点按“租借”按钮。如果没有“租借”按钮，则表示影片无法租借。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "租借的影片时限是几天？",
+        "act": "when",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "您可以在30天内开始观看您的租借项目，这个时限过后，租借项目将从您的资料库中被删除。租借项目开始播放后，您有48小时的时间来观看租借项目，这个时限过后，租借项目将从您的资料库中被删除。了解如何更改租借项目的字幕或音频语言。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "您可以在30天内开始观看您的租借项目，这个时限过后，租借项目将从您的资料库中被删除。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "您可以在30天内开始观看您的租借项目，这个时限过后，租借项目将从您的资料库中被删除。租借项目开始播放后，您有48小时的时间来观看租借项目，这个时限过后，租借项目将从您的资料库中被删除。了解如何更改租借项目的字幕或音频语言。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "如果我已经开始播放了，我可以有多长时间来观看这个电影？",
+        "act": "when",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "您可以在30天内开始观看您的租借项目，这个时限过后，租借项目将从您的资料库中被删除。租借项目开始播放后，您有48小时的时间来观看租借项目，这个时限过后，租借项目将从您的资料库中被删除。了解如何更改租借项目的字幕或音频语言。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "您有48小时的时间来观看租借项目，这个时限过后，租借项目将从您的资料库中被删除。",
+        "act": "ans/open",
+        "document": "通过AppleTVApp租借影片.json",
+        "grounding": [
+            "您可以在30天内开始观看您的租借项目，这个时限过后，租借项目将从您的资料库中被删除。租借项目开始播放后，您有48小时的时间来观看租借项目，这个时限过后，租借项目将从您的资料库中被删除。了解如何更改租借项目的字幕或音频语言。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

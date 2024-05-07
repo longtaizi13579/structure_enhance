@@ -1,0 +1,406 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市的社保医保有关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，统筹地区以外交通、食宿费申领、供养亲属抚恤金申领、工伤医疗（康复）费用申报这三方面您想咨询哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "统筹地区以外交通、食宿费申领这方面内容有哪些基本信息，请给我讲解一下。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "很多，例如行政相对人权利和义务、办事信息、中介服务、结果信息等，具体您想知道哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解结果信息有关的内容。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，具体是审批结果类型、审批结果名称、审批结果样本、是否支持物流快递、送达时限、送达方式中的哪方面问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问一下送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，送达时限为自作出决定之日起3个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下统筹地区以外交通、食宿费申领的收费标准？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "323"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付，您想提问哪个方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是否收费？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "325"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这项服务支持自助终端办理吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "供养亲属抚恤金申领有哪些咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们可给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "麻烦将咨询地址告诉我一下，谢谢。",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "咨询地址在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我还想了解一下供养亲属抚恤金申领的收费标准的相关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "1627"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付，您想提问哪个方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1632"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "是否支持网上支付？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1632"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1633"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那这个服务收费吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1628"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1629"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "供养亲属抚恤金申领这方面内容有哪些基本信息，请给我讲解一下。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "很多，例如行政相对人权利和义务、办事信息、中介服务、结果信息等，具体您想知道哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "我想知道有关办事信息的内容。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "是否网办、办理形式、通办范围、是否支持预约办理，您想了解哪方面问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "好的，那办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "办理形式分为网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江温州这边设立公司登记的办理时间是多久？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "公司设立登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T12",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果办理，什么时候可以拿到结果？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内，您可以拿到结果信息。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我可以在自助终端上办理这个业务吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "抱歉，现在还不支持自助办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业开办_常用服务_公司设立登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

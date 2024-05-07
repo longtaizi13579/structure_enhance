@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，打算去台湾定居，想问下这个签注可以通过什么方式办理？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "赴台定居签注",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，目前的办理形式有两种，一种是网上申请，另一种是现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办好之后，几天能拿到？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据相关规定，自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有什么受理条件吗，免得到时候要跑好几趟？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般情况下，经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注。 （至于跑动次数、承诺时限等情况，根据疫情和政策管控，可能会随时调控。）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是免费办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1808"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是，需要收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1817"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "多少钱？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1808"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据相关规定，赴台定居一次签注15元/件。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居一次签注15元/件"
+        ],
+        "grounding_id": [
+            "1818"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果我要办理应邀赴台签注的话可不可以自助办理？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办好后几天能拿到？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据相关规定，自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "都有哪些办理方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前支持两种办理形式：网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

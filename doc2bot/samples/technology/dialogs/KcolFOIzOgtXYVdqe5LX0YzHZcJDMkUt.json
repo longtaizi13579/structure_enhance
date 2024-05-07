@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果找不到家人的共享内容怎么办",
+        "act": "how",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "如果您找不到家人的共享内容"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您用的是什么设备呢",
+        "act": "question/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是iPhone",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那可以按照步骤检查“家人共享”设置，您需要了解吗",
+        "act": "verification",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查“家人共享”设置",
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查“家人共享”设置",
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先前往“设置”，轻点您的姓名，然后轻点“家人共享”，.轻点您的姓名，记下所列出的AppleID。轻点“返回”以返回到“家人共享”，轻点“购买项目共享”，并确保“与家人共享购买项目”已打开，轻点“返回”，然后轻点AppleID，轻点“媒体与购买项目”，轻点“显示帐户，最后使用您的AppleID登录。确保您登录时使用的AppleID与您用于“家人共享”的AppleID相同。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "前往“设置”，轻点您的姓名，然后轻点“家人共享”。",
+            "轻点您的姓名。",
+            "轻点“返回”以返回到“家人共享”。",
+            "记下所列出的AppleID。您稍后需要使用这个AppleID登录。",
+            "轻点“购买项目共享”，并确保“与家人共享购买项目”已打开。",
+            "轻点“返回”，然后轻点AppleID。",
+            "轻点“媒体与购买项目”。",
+            "轻点“显示帐户”。",
+            "使用您的AppleID登录。确保您登录时使用的AppleID与您用于“家人共享”的AppleID相同。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "9",
+            "8",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为什么要记下所列出的AppleID",
+        "act": "why",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "记下所列出的AppleID。您稍后需要使用这个AppleID登录。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "因为您稍后需要使用这个AppleID登录。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "记下所列出的AppleID。您稍后需要使用这个AppleID登录。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那需要让家庭成员也检查设备吗",
+        "act": "verification",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "确保您已使用同一AppleID登录“家人共享”和“媒体与购买项目”，并确保“购买项目共享”已打开。然后，让您的家庭成员也检查各自的设置。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "确保您已使用同一AppleID登录“家人共享”和“媒体与购买项目”，并确保“购买项目共享”已打开。然后，让您的家庭成员也检查各自的设置。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果仍找不到共享内容的话怎么办",
+        "act": "how",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "如果您仍找不到共享内容"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那需要退出登录“媒体与购买项目”，但无需退出登录使用您的AppleID的任何其他服务",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "退出登录“媒体与购买项目”",
+            "确保您使用了与家人共享内容时使用的同一AppleID来登录所有Apple服务。您无需退出登录使用您的AppleID的任何其他服务，例如iCloud或iMessage信息。"
+        ],
+        "grounding_id": [
+            "41",
+            "42"
+        ]
+    }
+]

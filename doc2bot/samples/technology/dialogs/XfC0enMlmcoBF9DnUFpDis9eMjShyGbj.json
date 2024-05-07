@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么在Apple钱包中添加、使用和共享登机牌、门票和其他凭证呢",
+        "act": "how",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证",
+            "使用Apple钱包中的登机牌、门票或其他凭证"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要了解在AppleWatch上使用登机牌、门票或其他凭证的方法吗",
+        "act": "verification",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "如何在AppleWatch上使用登机牌、门票或其他凭证"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，步骤是怎么样的呢",
+        "act": "how",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "如何在AppleWatch上使用登机牌、门票或其他凭证"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先连按两下侧边按钮，然后向下滚动以找到您想要使用的登机牌、门票或其他凭证，然后轻点它，在免接触式读卡器处扫描或轻点AppleWatch的显示屏，或向工作人员出示AppleWatch。",
+        "act": "ans/open",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "连按两下侧边按钮。",
+            "向下滚动以找到您想要使用的登机牌、门票或其他凭证，然后轻点它。",
+            "在免接触式读卡器处扫描或轻点AppleWatch的显示屏，或向工作人员出示AppleWatch。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个门票可以共享吗",
+        "act": "verification",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "使用“钱包”App，您可以添加和使用度假区票卡凭证、登机牌、电影票、优惠券、回馈卡等。您还可以共享某些凭证和门票。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以共享某些凭证和门票",
+        "act": "ans/yes",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "使用“钱包”App，您可以添加和使用度假区票卡凭证、登机牌、电影票、优惠券、回馈卡等。您还可以共享某些凭证和门票。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有没有可能将“快捷模式”与“钱包”App中的某些凭证和门票配合使用呢?",
+        "act": "verification",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "您或许能够将“快捷模式”与“钱包”App中的某些凭证和门票配合使用。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你或许可以尝试一下",
+        "act": "ans/yes",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "您或许能够将“快捷模式”与“钱包”App中的某些凭证和门票配合使用。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果没有看到用于将登机牌、门票或其他凭证添加到“钱包”App的选项怎么办？",
+        "act": "how",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "如果您没有看到用于将登机牌、门票或其他凭证添加到“钱包”App的选项，"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那请联系发放凭证的商家或公司，以确保他们支持“钱包”App中的凭证。",
+        "act": "ans/open",
+        "document": "在Apple钱包中添加、使用和共享登机牌、门票和其他凭证.json",
+        "grounding": [
+            "请联系发放凭证的商家或公司，以确保他们支持“钱包”App中的凭证。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    }
+]

@@ -1,0 +1,376 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "浙江省_湖州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T13",
+            "T13",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询行驶证驾驶证有关的问题吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，我想咨询行驶证驾驶证有关的问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想咨询驾驶证损毁换证这项业务的问题吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对，我想咨询一下办理这项业务的结果送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办理时间呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "周一至周五冬令时：上午9:00-下午16:30，中午不休；夏令时：上午9:00-下午16：30;中午不休；周六上午8:30-11:30下午13:30-15:30（法定假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "周一至周五冬令时：上午9:00-下午16:30，中午不休；夏令时：上午9:00-下午16：30;中午不休；周六上午8:30-11:30下午13:30-15:30（法定假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解一下这个业务的收费标准。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "335"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付、收费项目名称，您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "342"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "收费项目是啥啊？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "342"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "机动车驾驶证是需要收费的。",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "343"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那具体的收费标准呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "345"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "10元一本。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "345"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那如果有其他问题，我可以通过什么方式进行咨询呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一共三种，我可以给您提供咨询电话、咨询地址、咨询网址，请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "咨询电话告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0572－12123",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "0572－12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "驾驶证损毁换证的申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "151",
+            "152"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "没有的。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "153"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果驾驶证被扣押的话可以办吗",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "不可以，申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形才会受理。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "有什么禁止性要求吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "156"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "没有。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "157"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那么我想办理这个业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "那如果想办理这个业务，有哪些办理形式呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

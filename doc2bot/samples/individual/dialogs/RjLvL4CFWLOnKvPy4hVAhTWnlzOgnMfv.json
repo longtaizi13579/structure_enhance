@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想办理驾照升级，在浙江丽水市办，想问一下收费情况。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "浙江省_丽水市",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "T12",
+            "261"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问是否支持网上支付？还是是否收费？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "支持网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "266"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，支持网上支付。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那就是要收费的是吧？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "是否收费",
+            "是"
+        ],
+        "grounding_id": [
+            "1",
+            "262",
+            "263"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车驾驶证增加申领是有费用的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "收费项目都有啥？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "261",
+            "268"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问机动车驾驶证费用还是考试费？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "2\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "考试费我知道，机动车驾驶证多少钱啊？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "收费项目名称",
+            "2\t机动车驾驶证",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "268",
+            "278",
+            "279",
+            "261"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个是文本费，收费标准是10元每本。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "知道了，我升级驾照还需要再体检一次吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理流程",
+            "体检"
+        ],
+        "grounding_id": [
+            "1",
+            "208",
+            "209"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的您需要去具备互联网提交身体条件证明的医疗机构体检。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理流程",
+            "体检",
+            "由具备互联网提交身体条件证明的医疗机构体检"
+        ],
+        "grounding_id": [
+            "208",
+            "209",
+            "210"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "行吧，办完之后多久我能拿到证件？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这边给您查询到是自受理之日起10个工作日内送达给到您。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

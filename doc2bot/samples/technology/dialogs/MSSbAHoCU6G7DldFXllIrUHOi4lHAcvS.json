@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下Mac上的“隔空投送”功能？",
+        "act": "what",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "在Mac上使用“隔空投送”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是想了解通过“隔空投送”共享内容、通过“隔空投送”接收内容，还是如果您在“隔空投送”中看不到其他设备？",
+        "act": "multiple-choice",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "通过“隔空投送”共享内容"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解一下，如何通过“隔空投送”共享内容？",
+        "act": "how",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "通过“隔空投送”共享内容"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤：首先 打开要发送的文件，然后点按App窗口中的“共享”按钮。或者，在“访达”中按住Control键点按相应文件，然后从快捷键菜单中选取“共享”；然后从列出的共享选项中，选取“隔空投送”；最后从“隔空投送”表单中选取一位接收者。",
+        "act": "ans/open",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "具体步骤",
+            "打开要发送的文件，然后点按App窗口中的“共享”按钮。或者，在“访达”中按住Control键点按相应文件，然后从快捷键菜单中选取“共享”。",
+            "从列出的共享选项中，选取“隔空投送”。",
+            "从“隔空投送”表单中选取一位接收者。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有其他方法吗？",
+        "act": "verification",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "通过“隔空投送”共享内容"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "或者打开“隔空投送”窗口，然后将文件拖移到接收者。",
+        "act": "ans/yes",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "或者打开“隔空投送”窗口，然后将文件拖移到接收者："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "具体步骤是什么？",
+        "act": "what",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "或者打开“隔空投送”窗口，然后将文件拖移到接收者："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先 在“访达”窗口的边栏中选择“隔空投送”。或者从菜单栏中选取“前往”>“隔空投送”；然后隔空投送”窗口随即会显示附近的“隔空投送”用户。",
+        "act": "ans/open",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "在“访达”窗口的边栏中选择“隔空投送”。或者从菜单栏中选取“前往”>“隔空投送”。",
+            "“隔空投送”窗口随即会显示附近的“隔空投送”用户。将一个或多个文稿、照片或其他文件拖移到窗口中显示的接收者。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以将多张照片都拖给接收者吗？",
+        "act": "verification",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "“隔空投送”窗口随即会显示附近的“隔空投送”用户。将一个或多个文稿、照片或其他文件拖移到窗口中显示的接收者。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "将一个或多个文稿、照片或其他文件拖移到窗口中显示的接收者。",
+        "act": "ans/open",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "“隔空投送”窗口随即会显示附近的“隔空投送”用户。将一个或多个文稿、照片或其他文件拖移到窗口中显示的接收者。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还想问一下，可以从我的iPhone上共享内容吗？",
+        "act": "verification",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "您也可以从您的iPhone、iPad或iPodtouch共享内容。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以从您的iPhone、iPad或iPodtouch共享内容。",
+        "act": "ans/yes",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "您也可以从您的iPhone、iPad或iPodtouch共享内容。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何通过“隔空投送”接收内容？",
+        "act": "how",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "通过“隔空投送”接收内容"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "当附近有人尝试使用“隔空投送”向您发送文件时，他们的请求会显示为通知，或显示为“隔空投送”窗口中的信息。请点按“接受”，以将文件存储到“下载”文件夹。",
+        "act": "ans/open",
+        "document": "在Mac上使用“隔空投送”.json",
+        "grounding": [
+            "当附近有人尝试使用“隔空投送”向您发送文件时，他们的请求会显示为通知，或显示为“隔空投送”窗口中的信息。请点按“接受”，以将文件存储到“下载”文件夹。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

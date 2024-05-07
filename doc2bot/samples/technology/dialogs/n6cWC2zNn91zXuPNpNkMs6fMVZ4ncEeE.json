@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的通知太多了，有什么办法管理一下通知吗？",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "使用iPhone、iPad和iPodtouch上的“通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想通过从锁定屏幕打开还是从“通知中心”打开并管理您的通知呢？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我直接从屏幕里去操作吧，你给我说一下具体的操作。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以轻点某个通知或者轻点某一组通知查看对应的app和其所有通知。也可以向左清扫，管理app的提醒或清除这个通知。按住某个通知，可以快速操作编辑。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以从锁定屏幕进行以下操作：",
+            "轻点某个通知，以打开发出这个通知的App。",
+            "轻点一组通知，以查看相应App最近发出的所有通知。",
+            "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。",
+            "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个历史记录怎么清除啊？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要清除通知历史记录，请轻点“关闭”按钮，然后轻点“清除”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

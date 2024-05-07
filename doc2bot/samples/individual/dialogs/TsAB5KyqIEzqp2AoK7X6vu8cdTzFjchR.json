@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下在浙江省湖州市办理失业保险关系大约多久能办完？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "53"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个申请的法定办结时限为30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "53",
+            "54"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我办理这个的过程中遇到了不顺心的，我怎么投诉",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您需要投诉电话还是投诉地址？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉电话",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，您记一下投诉电话是：0572-2358051或0572-12345投诉热线",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "投诉电话",
+            "0572-2358051或0572-12345投诉热线"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理这个业务的法定依据是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是依据中华人民共和国社会保险法，颁布机关是全国人民代表大会常务委员会",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "设定依据",
+            "中华人民共和国社会保险法",
+            "颁布机关",
+            "全国人民代表大会常务委员会"
+        ],
+        "grounding_id": [
+            "1",
+            "372",
+            "373",
+            "376",
+            "377"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我这个我可以去自助终端办理吗 ",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个是可以的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "支持"
+        ],
+        "grounding_id": [
+            "71",
+            "72"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我这也业务的办理流程大致是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "337"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理流程大致分为: 1.申请 2.受理 3.复核 4.审核 5.办结 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "办理流程",
+            "申请",
+            "受理",
+            "复核",
+            "审核",
+            "办结",
+            "送达"
+        ],
+        "grounding_id": [
+            "1",
+            "337",
+            "338",
+            "342",
+            "351",
+            "356",
+            "361",
+            "366"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那复核的办理时限是多久啊，我挺急的",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "办理时限"
+        ],
+        "grounding_id": [
+            "352"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "当工作人员在受理通过后，会立即复核",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "复核",
+            "办理时限",
+            "即办"
+        ],
+        "grounding_id": [
+            "351",
+            "352",
+            "353"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那我都应该带什么去呢",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这边为您提供一个咨询电话，你去咨询可以吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您记一下，电话是0572-2021490、0572-2051161",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询电话",
+            "0572-2021490、0572-2051161"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

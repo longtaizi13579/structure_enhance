@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我的汽车因质量问题退车了，应该怎么办？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的汽车是否进行了正常登记？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，登记过。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您可以申请机动车因质量问题退车注销登记。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "385"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理地点是：嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点",
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    }
+]

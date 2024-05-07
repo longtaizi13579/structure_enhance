@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我儿子最近开始出现喘息、咳嗽、呼吸急促，这是怎么了？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "医学主题",
+            "儿童的健康问题",
+            "婴儿和儿童呼吸系统疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T794",
+            "T1159"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "他今年多大了？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "今年三岁了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "除了你说的这些症状，他会胸闷，呼吸困难吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "医学主题",
+            "婴儿和儿童呼吸系统疾病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1159"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有时候喘的厉害会感觉呼吸不上来。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "根据你所说的症状，应该是儿童哮喘了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "儿童哮喘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "儿童哮喘长大后还会有吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "儿童哮喘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "大部分小朋友只是在儿童期有哮喘，长大了就不会了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "许多在儿童期出现喘息的儿童在以后的生活中并不会出现哮喘。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那为什么会有哮喘呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "哮喘的危险因素"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你们家族里有遗传史吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "遗传和产前因素"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "没有，我们家没有人有哮喘。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "哮喘的危险因素"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那可能是某些过敏源了。比如尘螨，蟑螂粪便等等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "经常暴露于高浓度的某些过敏原（如尘螨、蟑螂粪便）的儿童更易在年龄较小时患哮喘。不过，医生已经注意到哮喘在发达国家的儿童中更为常见。与生活在较不发达国家的儿童相比，这些国家的儿童往往生活在非常清洁、卫生的环境中，并且接触到的传染病更少。因此，医生认为，也许儿童时期暴露于某些物质以及发生感染可能实际上有助于儿童的免疫系统学会不对触发因素产生过度反应。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那有什么治疗的方法吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "过敏针剂（免疫疗法）"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以打抗过敏针，如果没有效果，就停止注射，有效果，可以注射三年或者更长的时间。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "儿童中抗过敏注射液通常比成人更有效。如果24个月后哮喘症状没有得到显著缓解，通常会停止注射。如果症状缓解，则应继续注射3年或更长时间。但是，继续注射的最佳时间长度未知。"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "除了尘螨，蟑螂粪便还有其他会导致过敏的因素吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "虽然目前哮喘的发病机制尚未完全明确，研究表明该病有许多危险因素："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前哮喘的发病机制尚未完全明确，但是也有可能病毒感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_婴儿和儿童呼吸系统疾病_儿童哮喘.json",
+        "grounding": [
+            "虽然目前哮喘的发病机制尚未完全明确，研究表明该病有许多危险因素：",
+            "病毒感染"
+        ],
+        "grounding_id": [
+            "32",
+            "35"
+        ]
+    }
+]

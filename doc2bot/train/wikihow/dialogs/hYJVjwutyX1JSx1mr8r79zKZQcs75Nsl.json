@@ -1,0 +1,276 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是一名学生，我想咨询一下如何计算圆半径？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "教育与交流",
+            "如何计算圆半径"
+        ],
+        "grounding_id": [
+            "T253",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，可选方法有：使用周长计算半径、使用面积计算半径、使用直径计算半径、使用扇形的面积和内角大小来计算半径。您想先学哪一种呢？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "可选方法",
+            "使用面积计算半径"
+        ],
+        "grounding_id": [
+            "3",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先学使用面积计算半径。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用面积计算半径"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用面积计算半径: 1.回想一下圆面积的计算公式。 2.求解半径。 3.将面积数值带入公式。 4.用面积除以圆周率π{\\displaystyle\\pi}。 5.计算平方根。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用面积计算半径",
+            "回想一下圆面积的计算公式。",
+            "求解半径。",
+            "将面积数值带入公式。",
+            "用面积除以圆周率π{\\displaystyle\\pi}。",
+            "计算平方根。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "26",
+            "33",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何将面积数值带入公式？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "将面积数值带入公式。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果题中已知圆形的面积，那么就可以用这个公式来求出半径。将已知的圆面积带入公式，取代变量A{\\displaystyleA}。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "如果题中已知圆形的面积，那么就可以用这个公式来求出半径。将已知的圆面积带入公式，取代变量A{\\displaystyleA}。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "圆的半径是指什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "圆的半径是指从圆心到圆周上任意一点之间的距离。[1]X研究来源最简单的半径计算方法就是用圆的直径除以2（直径是指通过圆的中心到边上两点间的距离，是半径的两倍）。如果你不知道直径是多少但知道其它一些信息的话，比如圆的周长（C=2π(r){\\displaystyleC=2\\pi(r)}）或圆面积（A=π(r2){\\displaystyleA=\\pi(r^{2})}），你也可以试着变换公式，将变量r{\\displaystyler}放到等式的一侧，然后求出半径。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "圆的半径是指从圆心到圆周上任意一点之间的距离。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "圆的半径是指从圆心到圆周上任意一点之间的距离。[1]X研究来源最简单的半径计算方法就是用圆的直径除以2（直径是指通过圆的中心到边上两点间的距离，是半径的两倍）。如果你不知道直径是多少但知道其它一些信息的话，比如圆的周长（C=2π(r){\\displaystyleC=2\\pi(r)}）或圆面积（A=π(r2){\\displaystyleA=\\pi(r^{2})}），你也可以试着变换公式，将变量r{\\displaystyler}放到等式的一侧，然后求出半径。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何使用周长计算半径？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用周长计算半径"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用周长计算半径: 1.写下圆周长的计算公式。 2.求出半径（r）。 3.把周长的数值带入公式。 4.计算结果，并将结果近似到小数位。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用周长计算半径",
+            "写下圆周长的计算公式。",
+            "求出半径（r）。",
+            "把周长的数值带入公式。",
+            "计算结果，并将结果近似到小数位。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "14",
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "把周长的数值带入公式，这一步请举例说明一下吧？",
+        "act": "what",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "把周长的数值带入公式。",
+            "例如，如果一个圆形的周长为15厘米，那么带入公式，得：r=152π{\\displaystyler={\\frac{15}{2\\pi}}}厘米。"
+        ],
+        "grounding_id": [
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "例如，如果一个圆形的周长为15厘米，那么带入公式，得：r=152π{\\displaystyler={\\frac{15}{2\\pi}}}厘米。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "例如，如果一个圆形的周长为15厘米，那么带入公式，得：r=152π{\\displaystyler={\\frac{15}{2\\pi}}}厘米。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何使用直径计算半径？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用直径计算半径"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "使用直径计算半径: 1.查看题目中是否给出直径信息。 2.将直径除以2求得圆半径。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用直径计算半径",
+            "查看题目中是否给出直径信息。",
+            "将直径除以2求得圆半径。"
+        ],
+        "grounding_id": [
+            "44",
+            "45",
+            "49"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何使用扇形的面积和内角大小来计算半径？",
+        "act": "how",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用扇形的面积和内角大小来计算半径"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "使用扇形的面积和内角大小来计算半径: 1.写下扇形的面积公式。 2.将扇形的面积和内角带入公式。 3.用内角角度除以360。 4.分离(π)(r2){\\displaystyle(\\pi)(r^{2})}部分。 5.等式的两边同时除以π{\\displaystyle\\pi}。 6.等式两边同时进行平方根计算。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "使用扇形的面积和内角大小来计算半径",
+            "写下扇形的面积公式。",
+            "将扇形的面积和内角带入公式。",
+            "用内角角度除以360。",
+            "分离(π)(r2){\\displaystyle(\\pi)(r^{2})}部分。",
+            "等式的两边同时除以π{\\displaystyle\\pi}。",
+            "等式两边同时进行平方根计算。"
+        ],
+        "grounding_id": [
+            "53",
+            "54",
+            "56",
+            "59",
+            "62",
+            "65",
+            "68"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "扇形的面积公式是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "写下扇形的面积公式。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "公式是：Asector=θ360(π)(r2){\\displaystyleA_{sector}={\\frac{\\theta}{360}}(\\pi)(r^{2})}。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算圆半径.json",
+        "grounding": [
+            "公式是：Asector=θ360(π)(r2){\\displaystyleA_{sector}={\\frac{\\theta}{360}}(\\pi)(r^{2})}，这里的Asector{\\displaystyleA_{sector}}代表扇形的面积，θ{\\displaystyle\\theta}代表扇形顶角的角度，r{\\displaystyler}代表圆形的半径。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    }
+]

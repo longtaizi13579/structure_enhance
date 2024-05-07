@@ -1,0 +1,410 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我想问下机动车改颜色的事。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车",
+            "机动车改变车身颜色变更登记"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想咨询机动车改变车身颜色变更登记这项业务吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，就是这项业务，想问问法定的办好时限要多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "需要1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你刚才说法定办好时间要几天，我没听清。",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要1个工作日，一天。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那具体的办理地点在哪里？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以去嘉兴市公安局交警支队车辆管理所车城分所，就在嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼1楼2—6号窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哪里都什么时间可以办理业务？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你可以在工作日：上午8：30—12：00；下午2：00—5：00去办理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "工作日：上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有什么项目需要收费吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "803"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要收取机动车行驶证的费用。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "1\t机动车行驶证"
+        ],
+        "grounding_id": [
+            "804"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "费用是多少啊？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "805"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "10元一本。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "806"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，谢谢，我还想问下关于机动车注销登记的事。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "你是想问机动车因质量问题退车注销登记，机动车灭失注销登记，机动车回收注销登记，机动车因故不在我国境内使用注销登记的哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是想问机动车因质量问题退车注销登记的办理流程有哪些？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "336"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理流程有1.申请 2.受理 3.审核 4.制证 5.送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "336",
+            "337",
+            "339",
+            "348",
+            "357",
+            "366"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "申请是需要如何进行申请？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "需要你向公安交管部门提交申请材料或在浙江政务服务网进行网上申报，并选择结果送达方式。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请人向公安交管部门提交申请材料或在浙江政务服务网进行网上申报，并选择结果送达方式。"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "审核要审核哪些内容？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "审核"
+        ],
+        "grounding_id": [
+            "348"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "要审核申请人提交的材料，检查材料是否真实、有效。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "审核申请人提交的材料，检查材料是否真实、有效。"
+        ],
+        "grounding_id": [
+            "354"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "审核时如果材料不齐全怎么办？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请材料齐全、符合法定形式的，予以办理。申请材料不齐全或者不符合法定形式的，当场告知申请人需要补正的全部内容。"
+        ],
+        "grounding_id": [
+            "356"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "如果申请材料不齐全或者不符合法定形式的，会当场告知申请人需要补正的全部内容。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请材料齐全、符合法定形式的，予以办理。申请材料不齐全或者不符合法定形式的，当场告知申请人需要补正的全部内容。"
+        ],
+        "grounding_id": [
+            "356"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "这个送达，是怎么送达啊？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "366"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "这个可以当场送达或邮寄送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "367"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "好的，谢谢，我还想问下你刚才说的机动车因故不在我国境内使用注销登记，这个要去哪里办理？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车因故不在我国境内使用注销登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "可以去嘉兴市公安局交警支队车辆管理所车城分所，就在嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼1楼2—6号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "嘉兴市公安局交警支队车辆管理所车城分所（嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼）1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "给我个相关的咨询电话吧。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "好的，你记下，电话是057312123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

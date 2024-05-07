@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省温州市，想要咨询出入境相关问题。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "浙江省_温州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T3",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想询问台湾通行证及签注、港澳通行证及签注还是护照的相关问题呢？",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我旅游签注办理的结果不满意，想要投诉。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的投诉地址是温州市民中心A区2楼73号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "投诉地址",
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区2楼73号窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有投诉电话呢？没时间去现场。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉热线是0577-89980358、0577-12345。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "投诉电话",
+            "0577-89980358、“0577-12345”投诉热线。"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解赴台个人旅游签注办理的相关费用信息。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "赴台个人旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问你想了解赴台个人旅游签注的收费标准还是收费项目名称呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "574",
+            "581"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道相关收费标准。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "583"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "收费标准是由国家发展和改革委员会、财政部发改价格1186号颁布的相关标准，赴台个人旅游一次签注15元/件。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_台湾通行证及签注_赴台个人旅游签注.json",
+        "grounding": [
+            "收费标准",
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台个人旅游一次签注15元/件。"
+        ],
+        "grounding_id": [
+            "583",
+            "584"
+        ]
+    }
+]

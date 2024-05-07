@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问怎么测定和校准AppleProDisplayXDR呢？",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定和校准AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想了解测定ProDisplayXDR还是微调校准呢？",
+        "act": "multiple-choice",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么测定ProDisplayXDR呢？",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要下载测试图案才可以进行测试，首先前往AVFoundation开发者页面。然后在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。 最后连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "下载测试图案",
+            "前往AVFoundation开发者页面。",
+            "在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。",
+            "连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那你刚刚说的微调校准要怎么操作呢？",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "微调校准"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“系统偏好设置”>“显示器”。然后从“预置”菜单中，选取要微调的参考模式。 之后从“预置”菜单中，选取“微调校准”。 最后设置白点值和亮度值，然后输入描述。 点按“好”以存储微调校准就可以了。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”>“显示器”。",
+            "从“预置”菜单中，选取要微调的参考模式。",
+            "从“预置”菜单中，选取“微调校准”。",
+            "设置白点值和亮度值，然后输入描述。",
+            "点按“好”以存储微调校准。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52",
+            "53",
+            "54"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，那怎么设置AppleProDisplayXDR呢？",
+        "act": "how",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置和使用AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先为您的显示器选取位置。然后安装ProStand或VESA支架转换器 。最后连接显示器。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "为您的显示器选取位置",
+            "安装ProStand或VESA支架转换器",
+            "连接显示器"
+        ],
+        "grounding_id": [
+            "11",
+            "17",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我刚好有VESA支架，要怎么安装呢？",
+        "act": "how",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "安装ProStand或VESA支架转换器"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您已经拥有VESA支架，可以安装VESA支架转换器，在现有安装环境中使用ProDisplayXDR。当您将VESA支架转换器与ProDisplayXDR搭配使用时，请调整显示器，使屏幕面朝前方、不与地面平行。切勿使屏幕完全朝上或完全朝下，例如面朝天花板或背朝天花板。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "如果您已经拥有VESA支架，可以安装VESA支架转换器，在现有安装环境中使用ProDisplayXDR。当您将VESA支架转换器与ProDisplayXDR搭配使用时，请调整显示器，使屏幕面朝前方、不与地面平行。切勿使屏幕完全朝上或完全朝下，例如面朝天花板或背朝天花板。了解如何安装VESA支架转换器。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "谢谢你我会了，那怎么使用AppleProDisplayXDR呢？",
+        "act": "how",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置和使用AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想了解使用参考模式还是系统要求和兼容的Mac机型呢？",
+        "act": "multiple-choice",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "使用参考模式"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道ProDisplayXDR参考模式适用于哪些方面？",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "使用参考模式"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "ProDisplayXDR在出厂时已针对各种专业工作流程进行了校准，包含适用于不同制作环境的诸多参考模式。",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "ProDisplayXDR在出厂时已针对各种专业工作流程进行了校准，包含适用于不同制作环境的诸多参考模式。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

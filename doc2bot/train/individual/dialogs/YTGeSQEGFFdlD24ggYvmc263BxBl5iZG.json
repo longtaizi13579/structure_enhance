@@ -1,0 +1,248 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省绍兴市出入境的有关问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T7",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询台湾通行证及签注、常用服务、港澳通行证及签注还是护照有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "港澳探亲签注的申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "常用服务",
+            "港澳探亲签注",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "T269",
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "申请人已经满18周岁子女可随同申请吗",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "申请人的配偶、未满18周岁子女可随同申请",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "申请人探望在香港或者澳门定居、长期居住、就学或者就业亲属的，可申请港澳探亲签注。申请人的配偶、未满18周岁子女可随同申请。\n这里的亲属是指配偶、父母、配偶的父母、子女、子女的配偶、兄弟姐妹、（外）祖父母或者（外）孙子女。"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个签注的办理时间是？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理时间",
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "工作日：夏令时：上午8：30-12：00，下午14：00-17：30；冬令时：上午8：30-12：00，下午14：00-17：00",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "工作日：夏令时：上午8：30-12：00，下午14：00-17：30；冬令时：上午8：30-12：00，下午14：00-17：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还行咨询一下这个签注费用的有关问题",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "375"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "382"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "具体收费项目都有什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "382"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "分别是短期（不超过一年）多次有效签注和一次有效签注，两个项目",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "2\t一次有效签注"
+        ],
+        "grounding_id": [
+            "392"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "一次有效签注怎么收费的？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "393"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "15元/件",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "15元/件"
+        ],
+        "grounding_id": [
+            "394"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个业务的承诺办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "七个工作日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个业务支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

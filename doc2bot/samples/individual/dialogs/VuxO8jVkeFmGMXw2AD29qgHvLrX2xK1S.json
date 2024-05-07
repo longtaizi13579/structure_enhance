@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我之前在浙江绍兴办机动车解除抵押的时候被坑了，能投诉吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，您可以到绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "除了到窗口投诉，还有其他方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您还可以拨打投诉电话0575--81500020。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "0575--81500020"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那我想再确认一下，办这个确实是不收费的吧？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "492"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，此项业务不收费。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "493"
+        ]
+    }
+]

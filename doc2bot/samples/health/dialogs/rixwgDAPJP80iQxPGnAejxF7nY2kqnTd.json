@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近眼睛总是不舒服，想咨询下关于角膜的疾病都有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "眼疾",
+            "角膜疾病"
+        ],
+        "grounding_id": [
+            "T2321",
+            "T2340"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "角膜疾病有很多种，有Cogan综合征、眼部带状疱疹、水疱性角膜结膜炎、角膜移植、单纯疱疹性角膜炎、角膜溃疡、干燥性角膜结膜炎、圆锥形角膜、大泡性角膜病、周边溃疡性角膜炎、角膜软化症、间质性角膜炎、角膜疾病简介 、浅层点状角膜炎，你想咨询哪个呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个Cogan综合征需要怎么诊断啊？",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征",
+            "Cogan综合征的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个的诊断方式是通过眼科检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "诊断方式：",
+            "眼科检查"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，那这个Cogan综合征的症状是什么样的？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征的症状"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "患者可能发生眼痛、视力下降、强光敏感增加和眼睛发红。如果耳朵受累，患者可发生听力损失、耳鸣和眩晕。如果血管受累，患者可能出现心脏杂音和跛行（身体活动期间四肢疼痛）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "患者可能发生眼痛、视力下降、强光敏感增加和眼睛发红。如果耳朵受累，患者可发生听力损失、耳鸣和眩晕。如果血管受累，患者可能出现心脏杂音和跛行（身体活动期间四肢疼痛）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个Cogan综合征会不会危及生命啊？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有可能，Cogan综合征是一种自身免疫病，可导致眼、耳和有时血管（血管炎）发炎。自身免疫病是机体免疫系统功能异常导致机体攻击自身组织的疾病。当Cogan综合征累及血管时，它可引发一种危及生命的疾病，即主动脉炎。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征是一种自身免疫病，可导致眼、耳和有时血管（血管炎）发炎。自身免疫病是机体免疫系统功能异常导致机体攻击自身组织的疾病。当Cogan综合征累及血管时，它可引发一种危及生命的疾病，即主动脉炎。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "system",
+        "utterance": "如果引发主动脉炎就非常危险了，你了解这个疾病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "主动脉炎"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "user",
+        "utterance": "不了解，主动脉炎是指什么啊？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "主动脉炎"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "主动脉炎就是指主动脉发炎。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "主动脉炎是指主动脉发炎。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

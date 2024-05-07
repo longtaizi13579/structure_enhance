@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道使用AppleBooks整理书库的话怎么做",
+        "act": "how",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "使用AppleBooks阅读图书以及进行更多操作",
+            "整理书库"
+        ],
+        "grounding_id": [
+            "1",
+            "18"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想怎么整理书库呢",
+        "act": "question/open",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "整理书库",
+            "对图书进行排序"
+        ],
+        "grounding_id": [
+            "18",
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道对图书进行排序的步骤",
+        "act": "what",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "对图书进行排序"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“图书”App，然后在iPhone或iPad上，轻点“书库”。或者在Mac上，点按“书库”下的“全部”，接着轻点或点按“手动”，最后选择一个排序选项，如“书名”、“作者”或“最近阅读”。在iPhone或iPad上没有看到“手动排序”？只需在屏幕上向下轻扫，就会出现“手动排序”选项。",
+        "act": "ans/open",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "打开“图书”App。",
+            "在iPhone或iPad上，轻点“书库”。或者在Mac上，点按“书库”下的“全部”。",
+            "轻点或点按“手动”。",
+            "选择一个排序选项，如“书名”、“作者”或“最近阅读”。在iPhone或iPad上没有看到“手动排序”？只需在屏幕上向下轻扫，就会出现“手动排序”选项。"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果想以列表形式查看图书的话怎么操作呢",
+        "act": "how",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "以列表形式查看图书",
+            "要以列表而非网格形式查看图书，请按照如下方式操作："
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您是要在iPhone或iPad上还是Mac上呢",
+        "act": "multiple-choice",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "在iPhone或iPad上，轻点“列表视图”按钮。",
+            "或者在Mac上，点按菜单栏中的“显示”>“显示为”，然后点按“列表视图”。"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在Mac上是怎么做的",
+        "act": "how",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "或者在Mac上，点按菜单栏中的“显示”>“显示为”，然后点按“列表视图”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "点按菜单栏中的“显示”>“显示为”，然后点按“列表视图”。",
+        "act": "ans/open",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "或者在Mac上，点按菜单栏中的“显示”>“显示为”，然后点按“列表视图”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在“图书”App中从“图书商店”购买的有声书可以找到吗",
+        "act": "verification",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "在“图书”App中，您可以找到从“图书商店”或“有声书商店”购买的或手动添加到您设备的所有图书、丛书、PDF和有声书。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "在“图书”App中，您可以找到从“图书商店”或“有声书商店”购买的或手动添加到您设备的所有图书、丛书、PDF和有声书。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

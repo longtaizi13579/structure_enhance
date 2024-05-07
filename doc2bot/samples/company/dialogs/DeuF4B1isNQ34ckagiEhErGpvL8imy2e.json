@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "朋友想申请个人住房公积金免缴，人在浙江杭州，多久能好？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "法定办结时限",
+            "浙江省_杭州市",
+            "个人住房公积金免缴"
+        ],
+        "grounding_id": [
+            "59",
+            "T10",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为20个工作日的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个申请麻烦吗？需要哪些条件？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "个人住房公积金免缴",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "231",
+            "234"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "申请条件是职工按杭州市最低工资标准领取工资的，职工个人可以免缴住房公积金，职工所在单位仍应按照规定比例为职工缴存住房公积金。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "职工按杭州市最低工资标准领取工资的，职工个人可以免缴住房公积金，职工所在单位仍应按照规定比例为职工缴存住房公积金。",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "235",
+            "234"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，申请办理的话需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "357"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "申请办理是不需要收费的，您还有其他问题吗？",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "358"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以自己在手机或电脑自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "抱歉，这个目前是不支持的，需要去现场办理的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_个人住房公积金免缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，办理中对服务不满意可以投诉吗？投诉电话是？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，有不满意的地方可以拨打电话0571-12345-2进行投诉。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "0571-12345-2"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果想去现场进行投诉的话，地址是？",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体地址在杭州市上城区新业路311号市民中心L楼的2楼228室。",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼228室。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "想去现场咨询需要准备什么材料的话还是刚刚那个地址吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，可以去刚那个地址的2楼65-72号公积金窗口进行咨询，也可去各主城区行政服务中心市公积金窗口咨询。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_职工公积金_常用服务_单位住房公积金降低缴存比例和缓缴.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼65-72号公积金窗口。（或各主城区行政服务中心市公积金窗口）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

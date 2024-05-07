@@ -1,0 +1,376 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下办台湾签注的事",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江嘉兴",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "赴台签注有学习签注，商务签注，旅游签注，应邀赴台签注，乘务签注，定居签注还有其他签注您想办哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个赴台其他签注都什么办理流程",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "9499"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "9499",
+            "9500",
+            "9502",
+            "9511",
+            "9520",
+            "9526"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那受理这步有时限吗",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "9502",
+            "9503"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "受理的办理时限是2个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "受理",
+            "办理时限",
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "9502",
+            "9503",
+            "9504"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那制证签发这步有时限吗",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "制证签发",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "9520",
+            "9522"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个也是2个工作日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "2个工作日"
+        ],
+        "grounding_id": [
+            "9523"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "就是我朋友想问办台湾通行证也是嘉兴呀这个收费项目叫什么",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "往来台湾通行证",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "T11",
+            "1",
+            "1523"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "往来台湾通行证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "1\t往来台湾通行证"
+        ],
+        "grounding_id": [
+            "1524"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个收多少钱呀",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1525"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "60元每证",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "1526"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这收费支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1516",
+            "1521"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1522"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "您刚提到有赴台学习签注这个办事点在哪具体地址呀",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "1",
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "也是嘉兴市吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "地址一个是嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口另一个是嘉兴市行政审批服务中心（嘉兴市南湖区东栅街道凌公塘路1683号）4楼26—29号公安受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口",
+            "嘉兴市行政审批服务中心（嘉兴市南湖区东栅街道凌公塘路1683号）4楼26—29号公安受理窗口"
+        ],
+        "grounding_id": [
+            "126",
+            "131"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "这个通行证办好之后多久能送达呀",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "这个自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "关于这个台湾通行证有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "这个有三种方式一咨询电话二咨询地址三咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "电话多少我记一下",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "0573-12367",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0573-12367"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

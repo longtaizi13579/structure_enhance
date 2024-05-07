@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解关于App、音乐、影片和电视节目。",
+        "act": "what",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题",
+            "关于App、音乐、影片和电视节目"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "iCloud云备份包含您在AppleMusicApp、AppleTVApp、AppleBooksApp、Apple播客App和AppStore中的购买历史记录的相关信息。从iCloud云备份恢复后，您购买的媒体会自动从Apple服务重新下载。能否重新下载因国家或地区而异。如果以前购买的项目已退款或是商店中已不再提供，则可能无法下载。以前购买的某些影片可能无法从AppleTV重新下载。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "iCloud云备份包含您在AppleMusicApp、AppleTVApp、AppleBooksApp、Apple播客App和AppStore中的购买历史记录的相关信息。从iCloud云备份恢复后，您购买的媒体会自动从Apple服务重新下载。能否重新下载因国家或地区而异。如果以前购买的项目已退款或是商店中已不再提供，则可能无法下载。以前购买的某些影片可能无法从AppleTV重新下载。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "iPhone、iPad或iPodtouch中的信息丢失了怎么办？",
+        "act": "how",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题",
+            "您可以检查的方面",
+            "确保您从iCloud云备份正确恢复了您的iOS设备。登录iCloud进行恢复不同于从iCloud云备份进行恢复。了解如何从iCloud云备份恢复。"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。",
+        "act": "ans/open",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "确保iCloud云备份包含您丢失的那类信息。如果您从iPhone备份恢复iPad（反之亦然），则部分数据将无法恢复。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "用iCloud云备份可以恢复全部iPhone、iPad或iPodtouch丢失的信息吗？",
+        "act": "verification",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不会",
+        "act": "ans/no",
+        "document": "关于使用iCloud云备份恢复iPhone、iPad或iPodtouch后信息丢失的问题.json",
+        "grounding": [
+            "您有没有注意到在使用iCloud云备份恢复iPhone、iPad或iPodtouch后出现信息丢失问题？请了解详情。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

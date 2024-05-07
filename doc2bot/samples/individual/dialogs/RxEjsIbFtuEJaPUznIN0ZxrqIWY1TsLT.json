@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我有一朋友想在浙江宁波市办理机动车注册登记，想问一下办理时间都是几点钟呢？\t",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "机动车",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T10",
+            "T17",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想问的国产机动车注册登记办理时间吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，想问的是国产机动车注册登记时间。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "办理时间",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的这边查询到国产机动车注册登记办理时间是工作日上午8:30—11:30，下午13:30—17:00.",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "工作日上午8:30—11:30，下午13:30—17:00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的谢谢，我想咨询一下要办机动车质押都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "浙江省_嘉兴市",
+            "机动车",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "T11",
+            "T17",
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "网上申请和现场窗口申请这两种方式都能办理机动车质押备案，您想选择哪种方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我在网上办理的话登记证我多久能拿到？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这边查询的是受理之日起1个工作日就能送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理时间都是几点钟？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "每个工作日8：30——17：00 ，周六也办理时间是上午8：30—12：00；下午2：00—5：00。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "工作日：8：30——17：00，周六上午8：30—12：00；下午2：00—5：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "登记证一个工作日就能送到，那办理时间是不是一天就能办完？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，咱们法定的办结时限是一个工作日呢。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理的费用能在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "是否支持网上支付",
+            "不支持"
+        ],
+        "grounding_id": [
+            "1",
+            "315",
+            "316"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "抱歉是不支持网上支付的呢。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那你给我个投诉电话。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "投诉电话",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "34",
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉电话您记一下0573-12345。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

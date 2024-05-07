@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "哎 您好您好，我是浙江省杭州市的，我想咨询有关小客车指标的问题",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T153"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的 您是要咨询哪一类小汽车指标呢?",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T153"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "就是关于继承这一方面的问题",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "继承类小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您需要去杭州市行政服务中心进行咨询办理",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那办理继承类小客车指标办理完成时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "继承类小客车其他指标配置",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般10个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_继承类小客车其他指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理个人新能源类小客车的指标配置投诉电话是多少？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "个人新能源类小客车其他指标配置",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我帮您查一下，这两天系统正在维修，你可以选择去当地的投诉机构投诉",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那也可以，你把投诉地址告诉我一下吧",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，在杭州市中河北路108号港航大楼的14楼1417室就可以办理了",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以可以，我再咨询一下着法拍那类的一般办下来要多久",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "单位司法拍卖类小客车其他指标配置",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般10个工作日就可以了\t",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我可以自己自助办理吗？就不去人工办理了",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不好意思，这个是不接受自助办理的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个办理完是多久可以送到啊",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个只要省内，一个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位司法拍卖类小客车其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

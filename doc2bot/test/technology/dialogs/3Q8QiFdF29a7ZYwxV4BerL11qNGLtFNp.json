@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的苹果电脑上的照片无法打开，应该怎么办？",
+        "act": "how",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "就Mac上的“照片”App获取协助"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您需要先备份资料库，然后确保您的软件为最新版本。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "确保您的软件为最新版本"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "为什么要确保软件是最新版本？",
+        "act": "why",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "“照片”是Mac操作系统的一部分。您可以通过运行最新版本的macOS来避免或解决许多问题。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "“照片”是Mac操作系统的一部分。您可以通过运行最新版本的macOS来避免或解决许多问题。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "“照片”是Mac操作系统的一部分。您可以通过运行最新版本的macOS来避免或解决许多问题。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我备份了资料库，软件也是最新版本，但依然打不开，这是为什么呢？",
+        "act": "why",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "就Mac上的“照片”App获取协助"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您的媒体浏览器未显示您的照片和视频还是您在使用“照片”时遇到其他问题 ？",
+        "act": "multiple-choice",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "如果媒体浏览器未显示您的照片和视频"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "媒体浏览器的作用是什么？",
+        "act": "what",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "如果媒体浏览器未显示您的照片和视频",
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "什么情况下照片才会显示在媒体浏览器中？",
+        "act": "what",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "什么情况下，媒体浏览器不会显示这个图库的内容呢？",
+        "act": "what",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "通过媒体浏览器，您可以在Pages文稿和iMovie剪辑等其他App中访问照片图库中的图像。“照片”图库只有被指定为“系统照片图库”时，它的内容才会显示在媒体浏览器中。如果您拥有多个“照片”图库，而您正在使用的图库并未被设定为“系统照片图库”，则媒体浏览器不会显示这个图库的内容。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，如何将当前图库指定为“系统照片图库”？",
+        "act": "how",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "请按照以下步骤将当前图库指定为“系统照片图库”："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先选取“照片”>“偏好设置”，然后点按“偏好设置”窗口顶部的“通用”按钮；最后点按“用作系统照片图库”。",
+        "act": "ans/open",
+        "document": "就Mac上的“照片”App获取协助.json",
+        "grounding": [
+            "选取“照片”>“偏好设置”。",
+            "点按“偏好设置”窗口顶部的“通用”按钮。",
+            "点按“用作系统照片图库”。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25"
+        ]
+    }
+]

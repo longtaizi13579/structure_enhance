@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，去台湾通行证的问题是咨询您这吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的请问您要了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "呃，浙江嘉兴市呀，",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是要办理往来台湾通行证，还是已经有通行证了只办签注",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，我是帮朋友问的他只是说办通行证，想问这个结果出来后快递能多久送到",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的帮您查询了这个自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那个台湾通行证一般多久就能办好呀",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，那办这个可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，在有个事办通行证在哪个地方您给查一下",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "地点在嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

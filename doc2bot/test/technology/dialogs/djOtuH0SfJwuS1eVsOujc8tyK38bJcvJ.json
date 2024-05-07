@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想问一下我的AppleWatchSE检测我摔得很严重的话他会做什么?",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatchSE或AppleWatchSeries4或更新机型检测到您摔得很严重，它可以在您需要时协助联系紧急服务。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "它可以在您需要时协助联系紧急服务。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatchSE或AppleWatchSeries4或更新机型检测到您摔得很严重，它可以在您需要时协助联系紧急服务。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我还是想问一些使用AppleWatch上的“摔倒检测”的事?",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "使用AppleWatch上的“摔倒检测”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体是要问什么呢?了解激活锁的工作方式还是打开或关闭“摔倒检测”的操作呢?",
+        "act": "multiple-choice",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": " 了解激活锁的工作方式方面的事,如果又发生了刚才那样的情况,我需要做什么?",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。",
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "4",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。[4]",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个是世界通用的吗?",
+        "act": "verification",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "某些国家和地区拥有多个紧急服务号码。对于这些国家或地区，AppleWatch会呼叫与救护车服务关联的号码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是,只有某些国家和地区拥有多个紧急服务号码。对于这些国家或地区，AppleWatch会呼叫与救护车服务关联的号码。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "某些国家和地区拥有多个紧急服务号码。对于这些国家或地区，AppleWatch会呼叫与救护车服务关联的号码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能在跟我讲一下设置“医疗急救卡”并添加紧急联系人的操作吗?",
+        "act": "verification",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "设置“医疗急救卡”并添加紧急联系人"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你是想问具体的操作吗?",
+        "act": "verification",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的,跟我详细说一下吧",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的,首先打开iPhone上的“设置”，然后轻点“健康”>“医疗急救卡”。然后轻点“编辑”输入您的出生日期和其他健康信息。再要添加紧急联系人，请轻点紧急联系人下方的“添加”按钮。轻点某个联系人，然后添加关系信息。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "打开iPhone上的“设置”，然后轻点“健康”>“医疗急救卡”。",
+            "轻点“编辑”。",
+            "输入您的出生日期和其他健康信息。",
+            "要添加紧急联系人，请轻点紧急联系人下方的“添加”按钮。轻点某个联系人，然后添加关系信息。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有呢?",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "然后要移除某个紧急联系人，请轻点这个联系人旁边的“移除”按钮，然后轻点“删除”。之后要在锁定屏幕上查看医疗急救卡，请打开“锁定时显示”。在紧急情况下，这个功能可以向想要伸出援手的人提供信息。要与紧急救援人员共享您的医疗急救卡，请打开“紧急呼叫期间共享”。当您在iPhone或AppleWatch上向紧急服务机构拨打电话或发送短信时，您的医疗急救卡会自动共享给紧急服务机构*。最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "要移除某个紧急联系人，请轻点这个联系人旁边的“移除”按钮，然后轻点“删除”。",
+            "要在锁定屏幕上查看医疗急救卡，请打开“锁定时显示”。在紧急情况下，这个功能可以向想要伸出援手的人提供信息。要与紧急救援人员共享您的医疗急救卡，请打开“紧急呼叫期间共享”。当您在iPhone或AppleWatch上向紧急服务机构拨打电话或发送短信时，您的医疗急救卡会自动共享给紧急服务机构*。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我最后还想问一下如何挂断电话?",
+        "act": "how",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如何挂断电话"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您拨打了紧急服务电话，您可以在通话结束时或者不再需要急救护理时挂断电话",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果您拨打了紧急服务电话，您可以在通话结束时或者不再需要急救护理时挂断电话："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "具体需要如何操作呢?",
+        "act": "how",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果您拨打了紧急服务电话，您可以在通话结束时或者不再需要急救护理时挂断电话："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "先 轻点“结束通话”按钮。然后 在“结束通话”屏幕上，轻点“是”。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "轻点“结束通话”按钮。",
+            "在“结束通话”屏幕上，轻点“是”。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    }
+]

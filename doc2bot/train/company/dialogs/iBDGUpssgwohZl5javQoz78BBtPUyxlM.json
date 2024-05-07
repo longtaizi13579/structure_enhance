@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我人在浙江省，我想知道外籍人员子女学校终止审批办理流程中的一些问题。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "办理流程有申请、受理、审查、审批、备案、送达，您具体是想了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查",
+            "审批",
+            "备案",
+            "送达"
+        ],
+        "grounding_id": [
+            "240",
+            "241",
+            "243",
+            "252",
+            "261",
+            "270",
+            "279"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你给我说一下要怎么申请吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "241"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以通过浙江政务服务网或浙里办APP提交申请，并选择结果送达方式。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "申请人通过浙江政务服务网或浙里办APP提交申请，并选择结果送达方式。"
+        ],
+        "grounding_id": [
+            "242"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想了解一些外籍人员子女学校地址变更审批的问题。",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "外籍人员子女学校地址变更审批"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解是否收费、收费依据、是否支持网上支付中的哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这样啊，那外籍人员子女学校终止审批多久可以办结？",
+        "act": "when",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "外籍人员子女学校终止审批法定办结时限是45个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "45（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

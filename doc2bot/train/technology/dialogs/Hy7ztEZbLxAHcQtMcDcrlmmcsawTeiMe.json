@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，如何在iPad删除电子邮件？",
+        "act": "how",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "在iPhone、iPad和iPodtouch上删除电子邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何删除多封电子邮件还是如何删除单封电子邮件？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除单封电子邮件"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "删除单封电子邮件",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除单封电子邮件"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“邮件”，前往您的“收件箱”。轻点右上角的“编辑”，然后选择要删除的电子邮件。最后轻点“废纸篓”或“归档”即可。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "具体步骤",
+            "打开“邮件”，前往您的“收件箱”。",
+            "轻点右上角的“编辑”，然后选择要删除的电子邮件。",
+            "轻点“废纸篓”或“归档”。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有简便方法吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "您也可以快速向左轻扫某封电子邮件以将它删除。或者，按住“收件箱”中的电子邮件，然后轻点弹出的菜单中的“废纸篓”按钮。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您也可以快速向左轻扫某封电子邮件以将它删除。或者，按住“收件箱”中的电子邮件，然后轻点弹出的菜单中的“废纸篓”按钮。都是可以的",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "您也可以快速向左轻扫某封电子邮件以将它删除。或者，按住“收件箱”中的电子邮件，然后轻点弹出的菜单中的“废纸篓”按钮。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "一个一个删太麻烦了，你再告诉我一下多封一起删怎么做",
+        "act": "how",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除多封电子邮件"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "很简单，打开“邮件”，前往您的“收件箱，轻点右上角的“编辑”，然后逐一选择要删除的电子邮件，或者轻点“全选”，然后轻点“废纸篓”或“归档”。如果只能看到“归档”，请按住“归档”以查看其他选项，如“删除所选邮件”",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上删除电子邮件.json",
+        "grounding": [
+            "如何删除多封电子邮件",
+            "打开“邮件”，前往您的“收件箱”。",
+            "轻点右上角的“编辑”，然后逐一选择要删除的电子邮件，或者轻点“全选”。",
+            "轻点“废纸篓”或“归档”。如果只能看到“归档”，请按住“归档”以查看其他选项，如“删除所选邮件”。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]

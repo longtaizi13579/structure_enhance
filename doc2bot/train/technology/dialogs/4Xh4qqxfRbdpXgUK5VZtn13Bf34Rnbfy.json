@@ -1,0 +1,316 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么在Apple设备上使用HEIF或HEVC媒体",
+        "act": "how",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "在Apple设备上使用HEIF或HEVC媒体"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要拍摄这种媒体，使用这种媒体，还是共享和转换这种媒体",
+        "act": "multiple-choice",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "拍摄这种媒体"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道拍摄这种媒体的话可以进行设置吗",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "拍摄这种媒体",
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "11",
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体",
+        "act": "ans/yes",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那具体的设置步骤是怎么样的呢",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "尽管建议您以HEIF和HEVC格式进行拍摄，但您也可以对这些设备进行相应的设置，以使用与其他设备和操作系统更广泛兼容的旧式格式来拍摄媒体："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先前往“设置”>“相机”，然后轻点“格式”，轻点“兼容性最好”。此后拍摄的所有照片和视频将使用JPEG或H.264格式。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "前往“设置”>“相机”。",
+            "轻点“格式”。",
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。",
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“兼容性最好”的设置在什么样的格式上提供呢",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "轻点“兼容性最好”。这项设置仅在能够以HEIF或HEVC格式拍摄媒体的设备上提供，并且仅在使用iOS11或更高版本时才可用。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果想再次使用节省空间的格式应该怎么做",
+        "act": "how",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "此后拍摄的所有照片和视频将使用JPEG或H.264格式。要再次使用节省空间的HEIF和HEVC格式，请选取“高效”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "iOS11支持高效图像文件格式吗",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "iOS11和macOSHighSierra支持下面这两种新的行业标准媒体格式：",
+            "适用于照片的HEIF（高效图像文件格式）"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您说的是适用于照片的HEIF吗？",
+        "act": "verification",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "适用于照片的HEIF（高效图像文件格式）"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "适用于照片的HEIF（高效图像文件格式）"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "iOS11和macOSHighSierra支持适用于照片的HEIF（高效图像文件格式）媒体格式",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "iOS11和macOSHighSierra支持下面这两种新的行业标准媒体格式：",
+            "适用于照片的HEIF（高效图像文件格式）"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果想复制使用iOS设备拍摄的HEIF媒体应该用什么版本呢",
+        "act": "what",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "请升级到iOS11或更高版本或者macOSHighSierra或更高版本，以查看、编辑或复制使用iOS设备拍摄的HEIF或HEVC媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请升级到iOS11或更高版本或者macOSHighSierra或更高版本",
+        "act": "ans/open",
+        "document": "在Apple设备上使用HEIF或HEVC媒体.json",
+        "grounding": [
+            "请升级到iOS11或更高版本或者macOSHighSierra或更高版本，以查看、编辑或复制使用iOS设备拍摄的HEIF或HEVC媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那使用“家庭共享”将媒体从电脑共享到其他设备的步骤是什么",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”将媒体从电脑共享到其他设备",
+            "设置“家庭共享”",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "14",
+            "23"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "请问您是在Mac上设置“家庭共享”，还是在PC上设置“家庭共享”",
+        "act": "multiple-choice",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "在PC上设置“家庭共享”"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "是在PC上设置“家庭共享”",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "在PC上设置“家庭共享”"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "步骤为：首先打开Windows版iTunes，如果您还没有登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID，最后从iTunes窗口顶部的菜单栏中，选取“文件”>“家庭共享”>“打开家庭共享”。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "打开Windows版iTunes。",
+            "如果您还没有登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "从iTunes窗口顶部的菜单栏中，选取“文件”>“家庭共享”>“打开家庭共享”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "29"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果是在Mac上设置“家庭共享”的话该怎么操作呢",
+        "act": "how",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "在Mac上设置“家庭共享”"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“系统偏好设置”，然后点按“共享”，点按“媒体共享”，选择“家庭共享”并使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID，最后点按“打开家庭共享”。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“共享”。",
+            "点按“媒体共享”。",
+            "选择“家庭共享”并使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "点按“打开家庭共享”。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    }
+]

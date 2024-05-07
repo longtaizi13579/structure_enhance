@@ -1,0 +1,274 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如果您找不到家人的共享内容怎么办？",
+        "act": "how",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "如果您找不到家人的共享内容"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那您需要检查“家人共享”设置。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "如果您仍找不到共享内容"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果检查完“家人共享”设置没问题怎么办？",
+        "act": "how",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "如果您仍找不到共享内容"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您可能需要尝试这几种方法：退出登录“媒体与购买项目”，检查某个App是否可共享，询问您的家庭成员是不是隐藏了购买项目，确保您的设备符合系统要求，您想具体了解哪一个？",
+        "act": "multiple-choice",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "退出登录“媒体与购买项目”"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "先说下退出登录“媒体与购买项目”吧。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "退出登录“媒体与购买项目”"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有两种方法：在iPhone、iPad或iPodtouch上，在Mac上，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先说下在iPhone、iPad或iPodtouch上的操作方法吧。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上: 1.前往“设置”>“[您的姓名]”。 2.轻点“媒体与购买项目”。 3.轻点“退出登录”。 4.再次轻点“媒体与购买项目”。 5.轻点“不是[您的姓名]？”，然后通过您用于“家人共享”的AppleID登录。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上",
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“媒体与购买项目”。",
+            "轻点“退出登录”。",
+            "再次轻点“媒体与购买项目”。",
+            "轻点“不是[您的姓名]？”，然后通过您用于“家人共享”的AppleID登录。"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "检查“家人共享”设置的具体操作方法是什么？",
+        "act": "what",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查“家人共享”设置"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有两种方法：在iPhone、iPad或iPodtouch上，在Mac上，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "先说下在iPhone、iPad或iPodtouch上的操作方法吧。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上: 1.前往“设置”，轻点您的姓名，然后轻点“家人共享”。 2.轻点您的姓名。 3.记下所列出的AppleID。您稍后需要使用这个AppleID登录。 4.轻点“返回”以返回到“家人共享”。 5.轻点“购买项目共享”，并确保“与家人共享购买项目”已打开。 6.轻点“返回”，然后轻点AppleID。 7.轻点“媒体与购买项目”。 8.轻点“显示帐户”。 9.使用您的AppleID登录。确保您登录时使用的AppleID与您用于“家人共享”的AppleID相同。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上",
+            "前往“设置”，轻点您的姓名，然后轻点“家人共享”。",
+            "轻点您的姓名。",
+            "记下所列出的AppleID。您稍后需要使用这个AppleID登录。",
+            "轻点“返回”以返回到“家人共享”。",
+            "轻点“购买项目共享”，并确保“与家人共享购买项目”已打开。",
+            "轻点“返回”，然后轻点AppleID。",
+            "轻点“媒体与购买项目”。",
+            "轻点“显示帐户”。",
+            "使用您的AppleID登录。确保您登录时使用的AppleID与您用于“家人共享”的AppleID相同。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "检查“家人共享”设置的目的是什么？",
+        "act": "what",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查“家人共享”设置"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "确保您已使用同一AppleID登录“家人共享”和“媒体与购买项目”，并确保“购买项目共享”已打开。然后，让您的家庭成员也检查各自的设置。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "确保您已使用同一AppleID登录“家人共享”和“媒体与购买项目”，并确保“购买项目共享”已打开。然后，让您的家庭成员也检查各自的设置。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在Mac上如何操作退出登录“媒体与购买项目”？",
+        "act": "how",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "退出登录“媒体与购买项目”",
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "41",
+            "52"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "在Mac上: 1.打开AppStore。 2.在菜单栏中，选取“商店”>“退出登录”。 3.在菜单栏中，选取“商店”>“登录”。 4.使用您用于“家人共享”的同一AppleID登录。",
+        "act": "ans/open",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "在Mac上",
+            "打开AppStore。",
+            "在菜单栏中，选取“商店”>“退出登录”。",
+            "在菜单栏中，选取“商店”>“登录”。",
+            "使用您用于“家人共享”的同一AppleID登录。"
+        ],
+        "grounding_id": [
+            "52",
+            "53",
+            "54",
+            "55",
+            "56"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "检查设置的时候，需要让家庭成员也检查自己的吗？",
+        "act": "verification",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查您的设置，并让您的家庭成员检查各自的设置。如果您仍然找不到所需的App或其他内容，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的，当然需要。",
+        "act": "ans/yes",
+        "document": "如果您找不到家人的共享内容.json",
+        "grounding": [
+            "检查您的设置，并让您的家庭成员检查各自的设置。如果您仍然找不到所需的App或其他内容，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

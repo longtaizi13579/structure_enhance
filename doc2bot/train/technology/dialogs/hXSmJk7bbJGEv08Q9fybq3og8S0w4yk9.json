@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下关于在iPhone或iPodtouch上使用“健康”App的问题",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是添加您的健康信息、选择要与健康共享信息的App、了解您的健康状况在一段时间内的变化哪个操作呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "选择要与健康共享信息的App"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何选择要与健康共享信息的App？",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "选择要与健康共享信息的App"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1.打开“健康”App，然后轻点“摘要”标签。 2.轻点右上角的个人头像。 3.在“隐私”下，轻点“App”。您可以看到您已拥有的与“健康”兼容的App。如果您没有看到某个App，则说明它可能不兼容。 4.轻点一个App，然后打开您希望该App跟踪的健康类别。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "打开“健康”App，然后轻点“摘要”标签。",
+            "轻点右上角的个人头像。",
+            "在“隐私”下，轻点“App”。您可以看到您已拥有的与“健康”兼容的App。如果您没有看到某个App，则说明它可能不兼容。",
+            "轻点一个App，然后打开您希望该App跟踪的健康类别。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "健康核对清单有什么用？",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App",
+            "设置您的健康资料",
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "1",
+            "4",
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "通过健康核对清单，您可以查看并启用可用的健康功能。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iPad上怎么使用“隔空打印”进行打印？",
+        "act": "how",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印",
+            "使用“隔空打印”进行打印"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "1.打开您想要从中进行打印的App。 2.要找到打印选项，请轻点这个App的共享图标—或—或者轻点。 3.向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。 4.轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。 5.选取打印份数或其他选项，例如要打印的页面。 6.轻点右上角的“打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "打开您想要从中进行打印的App。",
+            "要找到打印选项，请轻点这个App的共享图标—或—或者轻点。",
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。",
+            "轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。",
+            "选取打印份数或其他选项，例如要打印的页面。",
+            "轻点右上角的“打印”。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么在iPad上查看打印作业？",
+        "act": "how",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印",
+            "查看或取消打印作业",
+            "查看打印作业"
+        ],
+        "grounding_id": [
+            "1",
+            "16",
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要查看打印作业，请打开App切换器，然后轻点“打印中心”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "要查看打印作业，请打开App切换器，然后轻点“打印中心”。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

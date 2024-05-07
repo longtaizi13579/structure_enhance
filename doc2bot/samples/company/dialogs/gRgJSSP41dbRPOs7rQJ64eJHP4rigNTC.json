@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我人在浙江绍兴，想办理职工参保登记，一般到哪个地方办理？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "职工参保登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以到绍兴市政务服务办公室1楼B区医保社保综合窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "绍兴市政务服务办公室（凤林西路178号亿兆大厦）1楼B区医保社保综合窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我老公是自由职业，可以申请职工参保登记嘛？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记",
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "95",
+            "96"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以的，行政区域内经依法登记注册的用人单位的职工，统筹区内符合条件的灵活就业人员都符合受理条件。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "行政区域内经依法登记注册的用人单位（包括企业、个体经济组织、民办非企业单位、国家机关、事业单位、社会团体等）的职工。统筹区内符合条件的灵活就业人员。"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行吧，你们这个窗口一般什么时候开始工作？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们正常是工作日的上午：08:30-12:00，下午：14:00-17:00可以接受办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "工作日，上午：08:30-12:00下午：14:00-17:00"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦哦，那这个登记一般办结时限是多久啊？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解的是法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还有一些其他问题想了解，你们这个还有什么其他的咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们有电话咨询、网上咨询、线下咨询三种方式，您需要我为您提供哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "你先给我个电话吧，我打电话先问问。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的咨询电话是：0575-81162923。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "0575-81162923"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

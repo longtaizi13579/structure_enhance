@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下这个社保养老保险有个一次性待遇申领关于这个有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "社保医保",
+            "养老保险",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T168",
+            "T179",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在哪个省市缴纳的社保",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯浙江衢州市",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您问的这个关于个人账户一次性待遇申领咨询方式有三种一咨询电话二咨询地址三咨询网址，您需要哪一个呢",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，地址在哪里呀",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，好，那个咨询电话你也说一下吧",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0570-3079628",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "0570-3079628"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "参保人员不是在职死亡可以申领吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "申请条件",
+            "参保人员在职死亡/离境定居或外国籍人员回国"
+        ],
+        "grounding_id": [
+            "127",
+            "131"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以，这个受理条件是参保人员在职死亡可以申请。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "参保人员在职死亡/离境定居或外国籍人员回国"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦这样啊，那个这个申领多久能办好呀",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "14（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "14（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道戴着口罩或太阳镜时使用AppleWatch解锁iPhone要怎么办？",
+        "act": "how",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "戴着口罩或太阳镜时使用AppleWatch解锁iPhone"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道如何设置“使用AppleWatch解锁”吗?",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "如何设置“使用AppleWatch解锁”"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你说说怎么做？",
+        "act": "how",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "如何设置“使用AppleWatch解锁”"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先在iPhone上打开“设置”App。 然后轻点“面容ID与密码”，然后输入您的密码。 再向下滚动至“使用AppleWatch解锁”，然后在手表名称的旁边打开这项功能就可以了。如果您的手表没有启用手腕检测功能，系统会要求您打开这项功能。",
+        "act": "ans/open",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "在iPhone上打开“设置”App。",
+            "轻点“面容ID与密码”，然后输入您的密码。",
+            "向下滚动至“使用AppleWatch解锁”，然后在手表名称的旁边打开这项功能。如果您的手表没有启用手腕检测功能，系统会要求您打开这项功能。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那我问你啊，就是如果当点了AppleWatch成功解锁iPhon，解锁的时候是不是要输密码呀？",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "如何使用AppleWatch解锁iPhone",
+            "如果您本意并不是要解锁iPhone"
+        ],
+        "grounding_id": [
+            "23",
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，轻点AppleWatch屏幕上的“锁定iPhone”后，下次解锁iPhone时，iPhone会要求您输入密码。",
+        "act": "ans/yes",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "轻点AppleWatch屏幕上的“锁定iPhone”后，下次解锁iPhone时，iPhone会要求您输入密码。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，我明白了。那AppleWatch上的“对讲机”你觉得可以怎么用呢？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "在AppleWatch上使用“对讲机”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您在和朋友或者家人外出购物时想要在茫茫人海中他，就可以使用对讲机，您只需轻点一下即可使用“对讲机”App联系对方。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "无论您是外出购物还是要从茫茫人海中寻找一个人，只需轻点一下即可使用“对讲机”App联系对方。添加好友，然后控制何时进行交谈。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省湖州市失业补助金的投诉方式有哪些？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "失业补助金申领",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我可以为您提供投诉电话、投诉地址、投诉网址",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道投诉电话是多少",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以拨打0572-2358051或0572-12345投诉热线",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "0572-2358051或0572-12345投诉热线"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，如果我想咨询别的信息的话应该到哪里呢？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以到湖州市民服务中心5号楼8楼802室（金盖山路66号）咨询",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市民服务中心5号楼8楼802室（金盖山路66号）、湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有别的地址吗？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口也可以",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市民服务中心5号楼8楼802室（金盖山路66号）、湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，有咨询的电话号码吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，0572-2200160、0572-2051161",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "0572-2200160、0572-2051161"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那办理的时候是需要交钱吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "393"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费的",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "394"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯，那可以去湖州市南浔区善琏镇便民服务中心去办理吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市南浔区善琏镇便民服务中心（湖州市南浔区善琏镇北兴路381号）人力社保窗口"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您说的是湖州市南浔区善琏镇北兴路381号的人力社保窗口吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市南浔区善琏镇便民服务中心（湖州市南浔区善琏镇北兴路381号）人力社保窗口"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的，这里可以办吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市南浔区善琏镇便民服务中心（湖州市南浔区善琏镇北兴路381号）人力社保窗口"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市南浔区善琏镇便民服务中心（湖州市南浔区善琏镇北兴路381号）人力社保窗口"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那就好，那办理的时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "法定工作日（夏季：上午8:30-11:30，下午1：00-4：30；冬季：上午8:30-11:30，下午1：30-4：30）"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "法定工作日（夏季：上午8:30-11:30，下午1：00-4：30；冬季：上午8:30-11:30，下午1：30-4：30）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "法定工作日（夏季：上午8:30-11:30，下午1：00-4：30；冬季：上午8:30-11:30，下午1：30-4：30）"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    }
+]

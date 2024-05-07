@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问泰康疫苗接种2021医疗意外保险的生效日期在哪里可以看呢？",
+        "act": "how",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "泰康疫苗接种2021医疗意外保险",
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "保险单上有记载",
+        "act": "ans/open",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "您提出保险申请且我们同意承保，本合同成立。 本合同的成立日、生效日以保险单记载的日期为准。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那投保的年龄是按照周岁还是虚岁算的呢？",
+        "act": "what",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是以周岁计算的",
+        "act": "ans/open",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "投保年龄指您投保时被保险人的年龄，以周岁（见 7.2）计算。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那预防接种门急诊医疗保险金是多少？",
+        "act": "what",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "基本保险金额、住院日额"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同的预防接种门急诊医疗保险金根据 您选择的保险责任与我们约定，在保险单上载明",
+        "act": "ans/open",
+        "document": "泰康疫苗接种2021医疗意外保险.json",
+        "grounding": [
+            "本合同的预防接种门急诊医疗保险金、异常反应/偶合症住院医疗保险金、异常反 应/偶合症伤残保险金、异常反应/偶合症身故保险金、特定免疫失效医疗保险金的 基本保险金额和异常反应/偶合症住院津贴保险金的住院日额由您在投保时根据 您选择的保险责任与我们约定，并在保险单上载明。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

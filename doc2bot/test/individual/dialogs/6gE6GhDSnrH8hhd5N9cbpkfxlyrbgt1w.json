@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省金华市的，我的机动车登记证书不小心损毁了，该怎么办？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省_金华市",
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "T6",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请换领机动车登记证书。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "329"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "330"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有一个问题，我有辆汽车因为质量问题，更换了发动机，怎么变更登记证书上的信息？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车",
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以申请机动车因质量问题更换整车变更登记。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理这个能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "619"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "620"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下我的机动车是达到国家规定的强制报废标准的可以进行登记吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "申请条件",
+            "（四）机动车达到国家规定的强制报废标准的； "
+        ],
+        "grounding_id": [
+            "138",
+            "448"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以，因为机动车达到国家规定的强制报废标准的是我们的禁止性要求。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_机动车更换车身或者车架变更登记.json",
+        "grounding": [
+            "（四）机动车达到国家规定的强制报废标准的； "
+        ],
+        "grounding_id": [
+            "448"
+        ]
+    }
+]

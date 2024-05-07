@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道用ApplePay进行交易是否安全呢？",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "ApplePay在设计时就考虑到了您的安全和隐私，相较于实体信用卡、借记卡和储值卡，ApplePay是一种更加安全和便捷的付款方式。并且通过ApplePay，您可以便捷、安全且私密地在商店里、应用内和网站上进行交易。您还可以在“信息”中使用ApplePay（仅限美国）向朋友和家人汇款以及从他们那里收款。借助“钱包”中的免接触式回馈卡，您可以在使用ApplePay付款时接收和兑换回馈积分。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "通过ApplePay，您可以便捷、安全且私密地在商店里、应用内和网站上进行交易。您还可以在“信息”中使用ApplePay（仅限美国）向朋友和家人汇款以及从他们那里收款。借助“钱包”中的免接触式回馈卡，您可以在使用ApplePay付款时接收和兑换回馈积分。ApplePay在设计时就考虑到了您的安全和隐私。因此，相较于实体信用卡、借记卡和储值卡，ApplePay是一种更加安全和便捷的付款方式。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我就放心了，还有就是我在ApplePay中使用储值卡卡号时，相关的信息会被保留在Apple上吗？",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不会，ApplePay的设计也旨在保护您的个人信息。Apple不会储存您在ApplePay中使用的原始信用卡、借记卡或储值卡卡号，也无法访问这些信息。当您在ApplePay中使用信用卡、借记卡或储值卡时，Apple不会保留任何能够追溯到您本人的交易信息。您的交易仍会在您、商家（或开发者）和您的银行（或发卡机构）之间进行。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay的设计也旨在保护您的个人信息。Apple不会储存您在ApplePay中使用的原始信用卡、借记卡或储值卡卡号，也无法访问这些信息。当您在ApplePay中使用信用卡、借记卡或储值卡时，Apple不会保留任何能够追溯到您本人的交易信息。您的交易仍会在您、商家（或开发者）和您的银行（或发卡机构）之间进行。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那我问你啊，怎么保护自己的AppleID或者个人账户呢？",
+        "act": "how",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "安全性和AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解为您的AppleID设置高安全性密码还是 确保您的安全提示问题的答案不易被猜到呢？",
+        "act": "multiple-choice",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "确保您的安全提示问题的答案不易被猜到"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道怎么样确保自己的安全提示问题的答案不易被猜到？",
+        "act": "how",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "确保您的安全提示问题的答案不易被猜到"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您在设置安全提示问题的时候可以与其他身份识别信息一起使用，可帮助Apple验证请求访问您帐户的人员是否为您本人，这样可以提高账户安全性。",
+        "act": "ans/open",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "Apple使用安全提示问题作为辅助方法，以便您在线确认自己的身份，或在联系Apple支持时确认自己的身份。安全提示问题经过精心设计，便于您记忆而其他人却很难猜到。与其他身份识别信息一起使用时，可帮助Apple验证请求访问您帐户的人员是否为您本人。如果您还没有选择您的安全提示问题，请访问AppleID帐户页面以进行设置。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这样啊，那你上面提到的为AppleID设置高安全性密码具体要怎么做呢？",
+        "act": "how",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "为您的AppleID设置高安全性密码"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Apple政策要求您将高安全性密码用于AppleID。密码必须包含八个或更多字符，并同时包含大写和小写字母，以及至少一个数字。您还可以添加其他字符和标点符号，以提高密码的安全性。Apple还运用其他密码规则，以确保您的密码不易被猜到。",
+        "act": "ans/open",
+        "document": "安全性和AppleID.json",
+        "grounding": [
+            "Apple政策要求您将高安全性密码用于AppleID。密码必须包含八个或更多字符，并同时包含大写和小写字母，以及至少一个数字。您还可以添加其他字符和标点符号，以提高密码的安全性。Apple还运用其他密码规则，以确保您的密码不易被猜到。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

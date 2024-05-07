@@ -1,0 +1,312 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在浙江省金华市办理到台湾的签注是需要收费的吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "台湾通行证及签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T6",
+            "T240",
+            "9565"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您办理的是赴台其他签注、赴台学习签注或应邀赴台签注哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是赴台其他签注，需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "9566"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9567"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那需要提前申请吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "办理流程",
+            "申请"
+        ],
+        "grounding_id": [
+            "9511",
+            "9512"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要的，申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "9513"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "提交完材料之后需要等待多久才能受理呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "受理",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "9514",
+            "9519"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "对申请材料进行初步审核，申请材料齐全且符合法定情形的，应当当场受理，并现场采集指纹、相片和签字。对申请材料不齐全应当一次告知申请人需要补正的全部内容。不符合法定情形的，不予受理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "对申请材料进行初步审核，申请材料齐全且符合法定情形的，应当当场受理，并现场采集指纹、相片和签字。对申请材料不齐全应当一次告知申请人需要补正的全部内容。不符合法定情形的，不予受理。"
+        ],
+        "grounding_id": [
+            "9520"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那受理之后还有什么别的流程吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "办理流程",
+            "受理"
+        ],
+        "grounding_id": [
+            "9511",
+            "9514"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "还有审核审批、制证签发和送达，请问您还需要了解哪部分的信息呢？",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "9523",
+            "9532",
+            "9538"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道制证签发是什么意思？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "制证签发"
+        ],
+        "grounding_id": [
+            "9532"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "制证签发是再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。"
+        ],
+        "grounding_id": [
+            "9533"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那送达的话有没有时间限制呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "9538"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "EMS工作人员省内2日送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "EMS工作人员省内2日送达"
+        ],
+        "grounding_id": [
+            "9539"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，可以给我具体办事点的地址吗？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以到金华市公安局出入境管理局（金华市婺城区新狮街道八一北街1055号）1-4号窗口办理",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "金华市公安局出入境管理局（金华市婺城区新狮街道八一北街1055号）1-4号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那在西关街道有没有办理地点呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址",
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安服务专区C15-C20"
+        ],
+        "grounding_id": [
+            "124",
+            "125",
+            "131"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有的，请问您需要我为您提供吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "嗯，需要",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安服务专区C15-C20",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安服务专区C15-C20"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好的，那这里能不能使用自助机器办理呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "目前不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

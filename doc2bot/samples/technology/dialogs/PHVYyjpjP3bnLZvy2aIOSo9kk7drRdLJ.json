@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下关于iPhone手电筒的相关问题？",
+        "act": "what",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "如何在iPhone、iPadPro或iPodtouch上使用手电筒"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，具体您想了解什么呢？",
+        "act": "question/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，iPhone上的闪光灯可以用作手电筒吗？",
+        "act": "verification",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，如何打开iPhone上的手电筒？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想在配备主屏幕按钮的iPhone上使用手电筒，还是在配备面容ID的iPhone上使用手电，或者是其他？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想先了解一下，在配备主屏幕按钮的iPhone上使用手电筒的具体步骤是什么？",
+        "act": "what",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以使用“控制中心”，具体步骤是：首先在iPhone或iPodtouch上，从屏幕底部边缘向上轻扫，以打开“控制中心”。然后轻点“手电筒”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”",
+            "在iPhone或iPodtouch上，从屏幕底部边缘向上轻扫，以打开“控制中心”。",
+            "轻点“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何关闭呢？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "要关闭手电筒，请再次轻点“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要关闭手电筒，请再次轻点“手电筒”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "要关闭手电筒，请再次轻点“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "怎么更改手电筒的亮度？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "更改手电筒的亮度"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在配备主屏幕按钮的iPhone上或在iPodtouch上，请从屏幕底部边缘向上轻扫以打开“控制中心”。然后 按住“手电筒”按钮。最后向上或向下拖移滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。",
+            "按住“手电筒”按钮。",
+            "向上或向下拖移滑块。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在配备面容ID的iPhone上或在iPad上，如何打开“控制中心”？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPad上，从屏幕右上角向下轻扫以打开“控制中心”。或者，在配备主屏幕按钮的iPhone上或在iPodtouch上，从屏幕底部边缘向上轻扫以打开“控制中心”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可以从锁定屏幕打开手电筒吗？",
+        "act": "verification",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您还可以从锁定屏幕打开手电筒：按住左下角的“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您还可以从锁定屏幕打开手电筒：按住左下角的“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "怎么操作呢？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您还可以从锁定屏幕打开手电筒：按住左下角的“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "按住左下角的“手电筒”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您还可以从锁定屏幕打开手电筒：按住左下角的“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

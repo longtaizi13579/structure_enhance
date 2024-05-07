@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么识别Mac上的端口",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "识别Mac上的端口"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想识别的是雷雳4(USB-C)，雷雳/USB4还是雷雳3",
+        "act": "multiple-choice",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "雷雳/USB4"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道iMac（24英寸，M1，2021年）配备雷雳/USB4端口吗",
+        "act": "verification",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "以下Mac机型配备雷雳/USB4端口：",
+            "iMac（24英寸，M1，2021年）"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是匹配的",
+        "act": "ans/yes",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "以下Mac机型配备雷雳/USB4端口：",
+            "iMac（24英寸，M1，2021年）"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想要了解这些类型以及其他类型的Mac端口的相关信息的话应该关注什么",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那请查看您所用Mac的规格",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎么看您所用Mac的规格呢",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号，然后前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”，最后点按您的Mac对应的规格页面。",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，对于HDMI端口的话2012年至2015年推出的MacBookPro适配吗",
+        "act": "verification",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "HDMI",
+            "以下Mac机型配备HDMI端口：",
+            "2012年至2015年推出的MacBookPro"
+        ],
+        "grounding_id": [
+            "103",
+            "104",
+            "107"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是适配的",
+        "act": "ans/yes",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "HDMI",
+            "以下Mac机型配备HDMI端口：",
+            "2012年至2015年推出的MacBookPro"
+        ],
+        "grounding_id": [
+            "103",
+            "104",
+            "107"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这种端口需和什么显示器一起使用呢",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "将HDMI与使用HDMI线缆连接的显示器和TV搭配使用。"
+        ],
+        "grounding_id": [
+            "110"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要将HDMI与使用HDMI线缆连接的显示器和TV搭配使用",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "将HDMI与使用HDMI线缆连接的显示器和TV搭配使用。"
+        ],
+        "grounding_id": [
+            "110"
+        ]
+    }
+]

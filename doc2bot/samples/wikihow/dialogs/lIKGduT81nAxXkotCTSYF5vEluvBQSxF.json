@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我最近对一些电子产品很感兴趣，所以想了解一些关于这方面的问题。",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何使用Prezi 还是如何使用Gimp制作透明图像呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "如何使用Prezi"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下使用Prezi做演示文稿的时候，是通过什么方式来展示内容的？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "如何使用Prezi"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Prezi是种网上演示程序，通过非线性的方式展示一段内容，和通常的幻灯片不同。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "当你想到演讲的时候，可能首先出现在你脑海中的是powerpoint幻灯片。这种幻灯片每个人都做过，可能会有点儿乏味。想要换个口味？可以试试Prezi哦。Prezi是种网上演示程序，通过非线性的方式展示一段内容，和通常的幻灯片不同。下面的教程教你如何快速学会Prezi的使用。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这样啊，那用Prezi设计演示文稿的时候，具体要怎么做呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "如何使用Prezi",
+            "设计演示文稿"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先要勾绘出概念轮廓。其次用主要内容点设置基础。然后想想\"路径＂的问题、保接路径稳定。最后从大局开始。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "勾绘出概念轮廓。",
+            "用主要内容点设置基础。",
+            "想想\"路径＂的问题。",
+            "路径就是各帧之间的过渡。这种过渡不是线性的，而是以任意顺序进行的。＂镜头＂可以跟随路径，在各帧之间运行。",
+            "保接路径稳定。",
+            "从大局开始。"
+        ],
+        "grounding_id": [
+            "16",
+            "19",
+            "21",
+            "22",
+            "23",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我不太明白你说的这些，你可以给我说说用主要内容点设置基础是什么意思吗?",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "用主要内容点设置基础。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "就是主要内容点起着奠基稳固的作用，你可以把它们想作＂焦点＂，之后的帧都围绕着它们来展开。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "主要点在这里起着奠基稳固的作用。你可以把它们想作＂焦点＂，之后的帧都围绕着它们来展开。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，这样啊，那你说的路径问题又是什么意思呀？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "想想\"路径＂的问题。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "路径就是各帧之间的过渡。这种过渡不是线性的，而是以任意顺序进行的。＂镜头＂可以跟随路径，在各帧之间运行。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "路径就是各帧之间的过渡。这种过渡不是线性的，而是以任意顺序进行的。＂镜头＂可以跟随路径，在各帧之间运行。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，那怎么样保接路径稳定啊?",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "保接路径稳定。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "尽量让镜头运行得流畅点、线性点。你可以上下移动，或者左右移动。不要旋转太厉害，除非是为了突出某个信息而用的。使用缩放功能要谨慎。如果使用过度，会让人失去方向感，还会影响阅读者的注意力。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "尽量让镜头运行得流畅点、线性点。你可以上下移动，或者左右移动。不要旋转太厉害，除非是为了突出某个信息而用的。",
+            "使用缩放功能要谨慎。如果使用过度，会让人失去方向感，还会影响阅读者的注意力。"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我知道了，你说的从大局开始又是指什么呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "从大局开始。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "就是画布本身是无限大的，你可以从焦点来着手设计，加上更多细节后，你就可以添加小的物件，用放大功能让观众看到它。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Prezi.json",
+        "grounding": [
+            "因为画布本身是无限大的，你可以从焦点来着手设计，加上更多细节后，你就可以添加小的物件，并且用放大功能让观众看到它。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，知道了，我还想了解一些电子产品的使用问题，你能给我说说吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想了解如何回拨被屏蔽的号码还是如何给iPhone添加铃声呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "如何回拨被屏蔽的号码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我想知道如何回拨被屏蔽的号码?",
+        "act": "how",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "如何回拨被屏蔽的号码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "被屏蔽的号码不会显示为常规的来电，这意味着想回拨这些号码可能会非常麻烦。你可以使用所在国家或者地区的回拨码，在对方给你打电话后，立即回拨被屏蔽的号码。但很可能得借助一些应用程序来识别号码，比如TrapCall或Truecaller。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何回拨被屏蔽的号码.json",
+        "grounding": [
+            "这篇文章教你如何从手机中查找并回拨被屏蔽的号码。被屏蔽的号码不会显示为常规的来电，这意味着想回拨这些号码可能会非常麻烦。你可以使用所在国家或者地区的回拨码，在对方给你打电话后，立即回拨被屏蔽的号码。但很可能得借助一些应用程序来识别号码，比如TrapCall或Truecaller。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

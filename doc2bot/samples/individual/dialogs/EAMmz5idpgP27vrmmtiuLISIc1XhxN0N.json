@@ -1,0 +1,334 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一下出入境这办签注的事",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江金华",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "涉及签注的有港澳还有台湾，您是要办到哪里的签注呢",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是这样我和朋友打算去台湾旅游我们问了旅行社了跟旅游团去，旅行社说要办团体旅游签注是这样吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的如果您跟旅游团去是要办赴台团队旅游签注，那您有台湾通行证嘛",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "1",
+            "T240"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我有通行证但是我朋友没有，到时我们一起办通行证和签注一块办没问题吧",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的可以",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果有什么问题不满意的这有什么监督投诉方式吗",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "帮您查询了有三种方式一投诉电话二投诉地址三投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉地址在哪",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "地址是浙江省金华市婺城区双龙南街801号金华市信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉地址",
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那你把投诉电话也告诉我吧",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "电话有两个一个是0571-87286318另一个是0579-12345",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "投诉电话",
+            "0571-87286318；0579-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个签注什么时候可以办理",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理时间星期一至星期五（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "办理时间",
+            "星期一至星期五（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "您等一下我朋友还有问题要问，就是咱们金华办那个台湾签注还有别的吗，好像要去台湾学习这得办哪个签注",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T6",
+            "T240"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "那可以办赴台学习签注",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这个学习签注得多久能办好呀",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "法定办结时限30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那这个学习签注还有些信息不清楚想了解",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "好的那您想了解一些基本信息呢还是办事信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "办事信息吧我想知道这都有什么办理形式",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "这个可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

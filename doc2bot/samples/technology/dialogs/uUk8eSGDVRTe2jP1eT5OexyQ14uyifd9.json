@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我刚在在我的iPad上玩游戏的时候突然我的信号没了，一直显示“无服务”我该咋解决",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您在iPhone或iPad上看到“无服务”或“正在搜索”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您需要联系您的运营商来确认您的帐户处于活跃状态，且信誉良好。还要确保您所在区域没有停电。而且确认您的设备没有被阻止接收蜂窝网络服务，并设置了正确的数据套餐。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "运营商问题或帐户问题可能会对服务造成影响。请联系您的运营商来确认以下事项：",
+            "确认帐户处于活跃状态，且信誉良好。",
+            "确保您所在区域没有停电。",
+            "确认您的设备没有被阻止接收蜂窝网络服务，并设置了正确的数据套餐。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52",
+            "53"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "运营商可以访问我帐户的相关详情吗？",
+        "act": "verification",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "只有无线运营商可以访问和管理您帐户的相关详情："
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "iPhone无线运营商和 iPad无线运营商是可以访问和管理您帐户的相关详情的",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "只有无线运营商可以访问和管理您帐户的相关详情：",
+            "iPhone无线运营商",
+            "iPad无线运营商"
+        ],
+        "grounding_id": [
+            "54",
+            "55",
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还要检查网络吗？",
+        "act": "verification",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "检查网络覆盖区域"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您要确保您在蜂窝网络的覆盖区域内",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "检查网络覆盖区域",
+            "确保您在蜂窝网络的覆盖区域内。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    }
+]

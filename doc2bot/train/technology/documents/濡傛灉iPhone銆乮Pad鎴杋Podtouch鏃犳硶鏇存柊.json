@@ -1,0 +1,193 @@
+{
+    "document_id": 530,
+    "domain": "technology",
+    "name": "如果iPhone、iPad或iPodtouch无法更新",
+    "graph": {
+        "1": {
+            "data": "如果iPhone、iPad或iPodtouch无法更新",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "您可能由于以下某种原因",
+            "type": "disjunction",
+            "pid": "1"
+        },
+        "3": {
+            "data": "设备上的可用储存空间不足",
+            "type": "condition",
+            "pid": "2"
+        },
+        "4": {
+            "data": "下载更新的用时过长",
+            "type": "condition",
+            "pid": "2"
+        },
+        "5": {
+            "data": "无法连接更新服务器",
+            "type": "condition",
+            "pid": "2"
+        },
+        "6": {
+            "data": "更新无法完成",
+            "type": "condition",
+            "pid": "2"
+        },
+        "7": {
+            "data": "如果空间不足，无法进行更新",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "8": {
+            "data": "如果没有足够的空间来下载和安装更新，您设备上的软件将尝试腾出空间。它只会移除可重新下载的App数据，不会移除或重新放置您的任何数据。如果设备上的空间仍然不足，您可以使用电脑更新您的设备。",
+            "type": "ordinary",
+            "pid": "7"
+        },
+        "12": {
+            "data": "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。",
+            "type": "ordinary",
+            "pid": "7"
+        },
+        "13": {
+            "data": "进一步了解您的App和内容占用的空间。",
+            "type": "ordinary",
+            "pid": "7"
+        },
+        "17": {
+            "data": "如果下载用时过长",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "18": {
+            "data": "您需要连接互联网才能更新您的设备。下载更新所需的时间因更新大小和您的互联网速度而异。您可以在下载更新时正常使用设备，然后设备会在可以安装更新时通知您。为提高下载速度，请避免下载其他内容，并尽可能使用Wi-Fi网络。",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "19": {
+            "data": "如果您无法连接更新服务器或无法验证更新",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "当您尝试更新设备时，可能会看到以下某条信息：",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "21": {
+            "data": "“无法检查更新。检查软件更新时出错。”",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "22": {
+            "data": "“无法安装更新。需要接入网络才能进行软件更新。”",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "23": {
+            "data": "尝试使用相同网络再次更新您的设备。如果您仍看到以上任一信息，请尝试使用其他网络更新您的设备，或使用电脑更新您的设备：",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "24": {
+            "data": "使用装有macOSCatalina或更高版本的Mac更新您的设备",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "28": {
+            "data": "使用装有macOSMojave或更早版本的Mac或者WindowsPC更新您的设备",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "32": {
+            "data": "如果尝试使用多个网络进行更新后问题再次发生，",
+            "type": "condition",
+            "pid": "19"
+        },
+        "36": {
+            "data": "进一步了解iOS和iPadOS更新。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "37": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "36"
+        },
+        "38": {
+            "data": "iOS和iPadOS更新",
+            "type": "see-more",
+            "pid": "37",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "40": {
+            "data": "如果更新无法完成",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "41": {
+            "data": "安装更新时，进度条可能移动比较缓慢。更新用时因更新大小和设备上的文件数量而异。",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "45": {
+            "data": "要通过无线方式进行更新，请确保您的设备一直与电源连接。如果设备的电量耗尽，请将它连接到电源，然后将设备开机，以便完成更新或恢复。",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "50": {
+            "data": "移除再重新下载更新",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "51": {
+            "data": "如果您仍然无法安装最新版本的iOS或iPadOS，请尝试重新下载更新：",
+            "type": "sequence",
+            "pid": "50"
+        },
+        "52": {
+            "data": "前往“设置”>“通用”>“[设备名称]储存空间”。",
+            "type": "sequence-step",
+            "pid": "51"
+        },
+        "53": {
+            "data": "在App列表中找到更新。",
+            "type": "sequence-step",
+            "pid": "51"
+        },
+        "54": {
+            "data": "轻点更新，然后轻点“删除更新”。",
+            "type": "sequence-step",
+            "pid": "51"
+        },
+        "55": {
+            "data": "前往“设置”>“通用”>“软件更新”，然后下载最新的更新。",
+            "type": "sequence-step",
+            "pid": "51"
+        },
+        "56": {
+            "data": "如果您在App列表中没有看到更新，或者问题再次发生，则需要使用电脑更新您的设备：",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "57": {
+            "data": "使用装有macOSCatalina或更高版本的Mac更新您的设备",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "61": {
+            "data": "使用装有macOSMojave或更早版本的Mac或者WindowsPC更新您的设备",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "64": {
+            "data": "无法通过无线方式来更新iPhone、iPad或iPodtouch。",
+            "type": "solution",
+            "pid": "2"
+        },
+        "65": {
+            "data": "请移除相应更新。",
+            "type": "solution",
+            "pid": "32"
+        }
+    }
+}

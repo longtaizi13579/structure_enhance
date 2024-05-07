@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果在AppleTV上看到警告符号是什么情况",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您使用的是AppleTV4K还是AppleTVHD或更早机型",
+        "act": "multiple-choice",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTVHD或更早机型"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是AppleTVHD，什么情况会看到警告符号呢",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您在尝试更新软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV上的指示灯闪烁，",
+            "如果您使用的是AppleTVHD或更早机型"
+        ],
+        "grounding_id": [
+            "13",
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可能是尝试更新软件时看到警告符号",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "则您可以恢复AppleTV。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那应该怎么处理",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您在尝试更新软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV上的指示灯闪烁，"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以恢复AppleTV",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "则您可以恢复AppleTV。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那是不是要有Mac或装有iTunes的PC",
+        "act": "verification",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "Mac或装有iTunes的PC"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "Mac或装有iTunes的PC"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "恢复的话对连接线有什么要求吗",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线",
+            "可以恢复 Apple TV"
+        ],
+        "grounding_id": [
+            "17",
+            "42"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果是AppleTV4K看到警告符合的加怎么办",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTV4K",
+            "如果您在尝试更新AppleTV上的软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV正面的指示灯闪烁，",
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请联系Apple支持",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    }
+]

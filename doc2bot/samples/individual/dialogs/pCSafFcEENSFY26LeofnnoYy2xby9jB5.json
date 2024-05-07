@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，想咨询下社保医保的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T4",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解城乡居民参保信息变更登记，基本医疗保险参保人员出国（境）带药备案，转移接续手续办理，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "城乡居民参保信息变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我了解城乡居民参保信息变更登记，办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "城乡居民参保信息变更登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话是：0571-12333",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询电话",
+            "0571-12333"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址是：杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询地址",
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限为5（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "法定办结时限",
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办事处的正常工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理时间是：周一至周日（除法定节日以外），上午9:00--12:00，下午14:00-17:00（冬令时13:30-17:00）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "办理时间",
+            "周一至周日（除法定节日以外），上午9:00--12:00，下午14:00-17:00（冬令时13:30-17:00）"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办事处的地址在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理地点是：杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）一楼1-7号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "办理地点",
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）一楼1-7号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "投诉地址是：杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）4号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "投诉地址",
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）4号窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

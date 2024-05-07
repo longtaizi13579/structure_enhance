@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下这个在Mac版中浏览器打不开某个网页或无法正常工作应该怎么办呢？",
+        "act": "how",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果Mac版Safari浏览器打不开某个网页或无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，打不开某个网页或无法正常工作的浏览器是Safari、QQ、谷歌还是其他的呢？",
+        "act": "multiple-choice",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果Mac版Safari浏览器打不开某个网页或无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是Safari浏览器",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果Mac版Safari浏览器打不开某个网页或无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以尝试以下使用无痕浏览窗口进行测试",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "使用无痕浏览窗口进行测试"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那这样做可以的话后面具体应该怎么做呢？",
+        "act": "how",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。: 首先选取“Safari浏览器”>“偏好设置”，然后点按“隐私”。点按“管理网站数据”。 然后从显示的列表中选择受影响的网站。再点按“移除”。点按“完成”。最后在非无痕浏览窗口中再次打开相应网站。",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。",
+            "选取“Safari浏览器”>“偏好设置”，然后点按“隐私”。",
+            "点按“管理网站数据”。",
+            "从显示的列表中选择受影响的网站。",
+            "点按“移除”。",
+            "点按“完成”。",
+            "在非无痕浏览窗口中再次打开相应网站。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那这个Mac版Safari浏览器打不开某个网页或无法正常工作具体会有什么显示呢？",
+        "act": "what",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果Mac版Safari浏览器打不开某个网页或无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "网页为空白或只显示部分内",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "网页为空白或只显示部分内容"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，那这个iPhone版Safari浏览器产生影响的问题所适用的解决方案适用于Mac版Safari浏览器吗？",
+        "act": "verification",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "对iPhone、iPad或iPodtouch版Safari浏览器产生影响的问题所适用的解决方案同样也适用于Mac版Safari浏览器。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，对iPhone、iPad或iPodtouch版Safari浏览器产生影响的问题所适用的解决方案同样也适用于Mac版Safari浏览器。",
+        "act": "ans/yes",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "对iPhone、iPad或iPodtouch版Safari浏览器产生影响的问题所适用的解决方案同样也适用于Mac版Safari浏览器。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的鄂，那我要是使用的登录信息正确的，网页可以登录吗？",
+        "act": "verification",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "尽管使用的登录信息正确，但在网页上无法登录"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "尽管使用的登录信息正确，但在网页上无法登录",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "尽管使用的登录信息正确，但在网页上无法登录"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

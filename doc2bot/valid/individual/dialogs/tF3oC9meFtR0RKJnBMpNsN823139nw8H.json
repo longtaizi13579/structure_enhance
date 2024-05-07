@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江省湖州市残疾人机动轮椅车注册登记几天可以办完？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "残疾人机动轮椅车注册登记法定办结时限是一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我还有个朋友跟我一样也要办理可以吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以的，是有数量限制的，1名下肢残疾人只能登记1辆残疾人机动轮椅车。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1名下肢残疾人只能登记1辆残疾人机动轮椅车"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "电动自行车注册登记要去哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以到德清县政务服务中心车管所分中心一楼大厅2-4号窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "德清县政务服务中心车管所分中心一楼大厅2-4号窗口（德清县乾元镇金鹅山村）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理电动自行车注册登记的工作人员态度不好要怎么投诉？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以到湖州市吴兴区青铜路298号主楼8楼810室进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "电动自行车注册登记可以在网上交费吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "361"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "电动自行车注册登记不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "362"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想要投诉办理残疾人机动轮椅车注册登记的那个人要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您为什么想要投诉呢？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "态度不好。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您直接到湖州市吴兴区青铜路298号主楼8楼810室就可以投诉了。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,306 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好就是想问这个一下iPhone与CarPlay车载搭配使用的情况",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "将CarPlay车载与iPhone搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解设置CarPlay车载还是使用Siri控制CarPlay车载或者是使用汽车的内建控制项来操作CarPlay车载等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "设置CarPlay车载"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "设置CarPlay车载",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "设置CarPlay车载"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的那这个具体步骤您要了解一下吗",
+        "act": "verification",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体步骤: 1.启动您的汽车，然后确保Siri已打开。 2.将iPhone连接到汽车",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "具体步骤",
+            "启动您的汽车，然后确保Siri已打开。",
+            "将iPhone连接到汽车："
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "将iPhone连接到汽车这个有什么要注意的吗",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "将iPhone连接到汽车："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果汽车支持通过USB连接线连接CarPlay车载，请将iPhone插接到车内的USB端口。这类USB端口可能标有CarPlay车载图标或智能手机图标。请务必使用Apple闪电转USB连接线。如果汽车同时支持通过无线方式和USB连接线来连接CarPlay车载，请将iPhone插接到车内的USB端口。iPhone上会显示一条提醒，让您可以选择在日后驾驶时以无线方式连接CarPlay车载。如果汽车仅支持无线CarPlay车载，请按住方向盘上的语音命令按钮。确保您的立体声系统处于无线或蓝牙模式。然后，在您的iPhone上，前往“设置”>“通用”>“CarPlay车载”，并选择您的汽车。请查看您的汽车使用手册，以了解更多信息。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果汽车支持通过USB连接线连接CarPlay车载，请将iPhone插接到车内的USB端口。这类USB端口可能标有CarPlay车载图标或智能手机图标。请务必使用Apple闪电转USB连接线。",
+            "如果汽车同时支持通过无线方式和USB连接线来连接CarPlay车载，请将iPhone插接到车内的USB端口。iPhone上会显示一条提醒，让您可以选择在日后驾驶时以无线方式连接CarPlay车载。",
+            "如果汽车仅支持无线CarPlay车载，请按住方向盘上的语音命令按钮。确保您的立体声系统处于无线或蓝牙模式。然后，在您的iPhone上，前往“设置”>“通用”>“CarPlay车载”，并选择您的汽车。请查看您的汽车使用手册，以了解更多信息。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个CarPlay车载有什么好呢",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "什么是CarPlay车载？"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "CarPlay车载能让您在车内更智能、更安全地使用iPhone，这样您便可以将注意力放在路况上。在将iPhone连接到CarPlay车载后，您可以获取逐步导航路线、拨打电话、收发信息、收听音乐，等等。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "CarPlay车载能让您在车内更智能、更安全地使用iPhone，这样您便可以将注意力放在路况上。在将iPhone连接到CarPlay车载后，您可以获取逐步导航路线、拨打电话、收发信息、收听音乐，等等。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯还有什么吗关于CarPlay车载",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "什么是CarPlay车载？",
+            "在iOS13及更高版本中，CarPlay车载仪表盘可让您更轻松地了解前方路况。通过这个仪表板，您还可以在同一屏幕上浏览地图、使用音频控制项和查看Siri建议，以便轻松访问“日历”日程等内容。您甚至可以使用这个仪表盘来控制HomeKit配件，例如门遥控开关。"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iOS13及更高版本中，CarPlay车载仪表盘可让您更轻松地了解前方路况。通过这个仪表板，您还可以在同一屏幕上浏览地图、使用音频控制项和查看Siri建议，以便轻松访问“日历”日程等内容。您甚至可以使用这个仪表盘来控制HomeKit配件，例如门遥控开关。请确保您所在的国家或地区支持CarPlay车载，且您的汽车支持CarPlay车载。如果您不确定自己的汽车是不是支持CarPlay车载，请与相应车辆生产企业联系。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "在iOS13及更高版本中，CarPlay车载仪表盘可让您更轻松地了解前方路况。通过这个仪表板，您还可以在同一屏幕上浏览地图、使用音频控制项和查看Siri建议，以便轻松访问“日历”日程等内容。您甚至可以使用这个仪表盘来控制HomeKit配件，例如门遥控开关。",
+            "请确保您所在的国家或地区支持CarPlay车载，且您的汽车支持CarPlay车载。如果您不确定自己的汽车是不是支持CarPlay车载，请与相应车辆生产企业联系。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "使用Siri控制CarPlay车载这个怎么弄",
+        "act": "how",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "使用Siri控制CarPlay车载"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以通过以下两种方法来使用Siri控制CarPlay车载，具体取决于您的汽车，按住方向盘上的语音命令按钮，然后问Siri一个问题或向Siri发出某个操作指令。另一个按住CarPlay车载仪表盘或触控屏上的CarPlay车载主屏幕按钮，然后问Siri一个问题或向Siri发出某个操作指令。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "您可以通过以下两种方法来使用Siri控制CarPlay车载，具体取决于您的汽车：",
+            "按住方向盘上的语音命令按钮，然后问Siri一个问题或向Siri发出某个操作指令。",
+            "按住CarPlay车载仪表盘或触控屏上的CarPlay车载主屏幕按钮，然后问Siri一个问题或向Siri发出某个操作指令。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "Siri控制CarPlay车载还有什么能做",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "使用Siri控制CarPlay车载",
+            "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及。"
+        ],
+        "grounding_id": [
+            "25",
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那如果有支持HomeKit的车库门遥控开关可以直接向Siri发出“打开车库门”之类的操作指令对吗",
+        "act": "verification",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "则可以采用CarPlay车载仪表盘上显示的Siri建议，或者在快到家时直接向Siri发出“打开车库门”之类的操作指令。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个也是使用Siri控制CarPlay车载",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "使用Siri控制CarPlay车载"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还有问题想问一下也是关于CarPlay车载与iPhone搭配使用的",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "将CarPlay车载与iPhone搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您还想了解哪方面呢比如是让Siri播报信息还是整理您的CarPlay车载App或者是更改CarPlay车载墙纸再或是需要协助",
+        "act": "multiple-choice",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "需要协助？"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "需要协助",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "需要协助？"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "如果您遇到了与第三方App相关的问题，请尝试联系App开发者。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果您遇到了与第三方App相关的问题，请尝试联系App开发者。"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    }
+]

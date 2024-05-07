@@ -1,0 +1,230 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省温州市普通护照的信息应该怎么获取咨询方式？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_温州市",
+            "护照",
+            "普通护照",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T3",
+            "T297",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址，咨询网址，您需要什么",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道咨询地址在哪",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区二楼65-70号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区二楼65-70号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那咨询的电话是多少？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0577-89980376、0577-89980375",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "0577-89980376、0577-89980375；"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，是只能去现场申请吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，也可以网上申请",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，办理的流程是什么？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1411"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理流程通常为: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "1411",
+            "1412",
+            "1414",
+            "1423",
+            "1432",
+            "1438"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "应该怎么申请呢？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "1412"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网、“浙里办”APP进行网上申报。"
+        ],
+        "grounding_id": [
+            "1413"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那审核审批要多长时间？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "1423",
+            "1424"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "3个工作日",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "3个工作日"
+        ],
+        "grounding_id": [
+            "1425"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，送达的话是不是也有时限？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "送达",
+            "EMS工作人员省内2个工作日送达（邮寄时间不计算在办证时限内）"
+        ],
+        "grounding_id": [
+            "1438",
+            "1439"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，EMS工作人员省内2个工作日送达",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "EMS工作人员省内2个工作日送达（邮寄时间不计算在办证时限内）"
+        ],
+        "grounding_id": [
+            "1439"
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道我的显示器没有被检测到是怎么回事？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果连接到Mac的外置显示器没有被检测到或画面模糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您说的是什么显示器呢？是连接到Mac的外置显示器吗？",
+        "act": "verification",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "确保您的Mac运行的是最新版macOS。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我连接到Mac上的外置显示器。",
+        "act": "ans/yes",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果连接到Mac的外置显示器没有被检测到或画面模糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要确保您的Mac运行的是最新版macOS。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "确保您的Mac运行的是最新版macOS。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我需要怎么做呢？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果连接到Mac的外置显示器没有被检测到或画面模糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道具体的操作步骤吗？",
+        "act": "verification",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，您给我说说我具体要怎么做。",
+        "act": "ans/yes",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，从苹果菜单中，选取“系统偏好设置”，然后点按“显示器”。然后，在“显示器设置”中，从边栏选择外置显示器，然后在按住Option键的同时点按“缩放”以查看其他分辨率。最后，选择一个分辨率，然后点按“完成”。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "从苹果菜单中，选取“系统偏好设置”，然后点按“显示器”。",
+            "在“显示器设置”中，从边栏选择外置显示器，然后在按住Option键的同时点按“缩放”以查看其他分辨率。",
+            "选择一个分辨率，然后点按“完成”。"
+        ],
+        "grounding_id": [
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我的显示器画面还是模糊的话，跟分辨率有关系是吗？",
+        "act": "verification",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果显示器画面模糊"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，如果图像或文本模糊或呈像素化，请检查显示器的分辨率和亮度。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "请检查显示器的分辨率和亮度。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对了，想问一下哪些机型可以将iMac用作显示屏啊？",
+        "act": "what",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "在目标显示屏模式下将iMac用作显示屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "2011年、2012年、2013年以及2014年中推出的iMac机型",
+        "act": "ans/open",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "2011年、2012年、2013年以及2014年中推出的iMac机型"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这些机型需要满足是吗条件啊？",
+        "act": "what",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "应满足下列条件："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先，该iMac机型可以用作外置显示屏。或者用作显示屏的iMac必须装有macOSHighSierra或更低版本，此外，您要连接的另一台Mac必须是2019年或更早推出的，并且装有macOSCatalina或更低版本。最后，连接两台Mac电脑的线缆必须为雷雳或雷雳2线缆。",
+        "act": "ans/open",
+        "document": "在目标显示屏模式下将iMac用作显示屏.json",
+        "grounding": [
+            "该iMac机型可以用作外置显示屏",
+            "用作显示屏的iMac必须装有macOSHighSierra或更低版本。",
+            "您要连接的另一台Mac必须是2019年或更早推出的，并且装有macOSCatalina或更低版本。",
+            "连接两台Mac电脑的线缆必须为雷雳或雷雳2线缆。"
+        ],
+        "grounding_id": [
+            "54",
+            "6",
+            "10",
+            "11"
+        ]
+    }
+]

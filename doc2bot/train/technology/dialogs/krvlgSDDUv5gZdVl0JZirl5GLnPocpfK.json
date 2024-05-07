@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我刚买了一部iPhone手机，想了解一下这里面的Shazam的一些相关信息。",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解使用ShazamApp、查看之前通过Shazam识别的歌曲、购买使用Shazam识别出的歌曲还是其他的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "使用ShazamApp",
+            "查看之前通过Shazam识别的歌曲",
+            "购买使用Shazam识别出的歌曲",
+            "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam"
+        ],
+        "grounding_id": [
+            "4",
+            "48",
+            "57",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先问一下这个Shazam它有什么功能呢？",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "当您在广播中、商店内或其他任何地方听到一首歌曲时，可以使用Shazam识别您听到的是什么歌曲。然后，您可以查看Shazam音乐库以找到已识别的歌曲，并根据您使用Shazam识别出的歌曲来发现新音乐。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您在广播中、商店内或其他任何地方听到一首歌曲时，可以使用Shazam识别您听到的是什么歌曲。然后，您可以查看Shazam音乐库以找到已识别的歌曲，并根据您使用Shazam识别出的歌曲来发现新音乐。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "当您在广播中、商店内或其他任何地方听到一首歌曲时，可以使用Shazam识别您听到的是什么歌曲。然后，您可以查看Shazam音乐库以找到已识别的歌曲，并根据您使用Shazam识别出的歌曲来发现新音乐。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，明白了，那这个ShazamApp[可以怎么使用呢？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "使用ShazamApp"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "使用ShazamApp有自动识别功能、“控制中心”使用Shazam、还有其他的一些，您想详细了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "使用ShazamApp",
+            "在iPhone、iPad或iPodtouch上的“控制中心”使用Shazam"
+        ],
+        "grounding_id": [
+            "4",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，我先了解一下在“控制中心”使用Shazam可以怎么使用呢？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "使用ShazamApp"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "从“控制中心”识别歌曲，请轻点Shazam按钮，以识别您的设备上或您周围当前正在播放的歌曲。即使您在使用耳机，Shazam也可以识别您的设备上正在播放的歌曲。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "要从“控制中心”识别歌曲，请轻点Shazam按钮，以识别您的设备上或您周围当前正在播放的歌曲。即使您在使用耳机，Shazam也可以识别您的设备上正在播放的歌曲。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那要是没有网络的话这个ShazamApp可以使用吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam",
+            "使用ShazamApp",
+            "即使没有互联网连接，这款App也会创建一个唯一的数字指纹，以便在您的设备下次连接到互联网时将其与Shazam数据库进行匹配。如果某首歌曲无法识别，则它将从Shazam的待识别列表中消失。"
+        ],
+        "grounding_id": [
+            "1",
+            "4",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "即使没有互联网连接，这款App也会创建一个唯一的数字指纹，以便在您的设备下次连接到互联网时将其与Shazam数据库进行匹配。如果某首歌曲无法识别，则它将从Shazam的待识别列表中消失。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "即使没有互联网连接，这款App也会创建一个唯一的数字指纹，以便在您的设备下次连接到互联网时将其与Shazam数据库进行匹配。如果某首歌曲无法识别，则它将从Shazam的待识别列表中消失。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

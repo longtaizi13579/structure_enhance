@@ -1,0 +1,182 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省丽水市，我需要投诉你们丽水市政务大厅办事人员，投诉地址是哪里？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "常用服务",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "T14",
+            "T24",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "抱歉，请问您投诉办事人员什么事情呢？",
+        "act": "question/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我上周办理的企业注销到现在没办理下来，难道不是你们的工作效率差吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "个人独资企业注销"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据您提交的材料我们需要一个审核周期，如您想继续投诉，我们的投诉地址为：丽水市莲都区花园路1号（市信访局）。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "投诉地址",
+            "丽水市莲都区花园路1号（市信访局）"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个地址离我很远，我需要先电话投诉，你们电话多少？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的投诉电话为：0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "投诉电话",
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想详细了解一下我的办理流程有没有问题，导致现在还没出结果是为什么？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "个人独资企业注销",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "215"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们办理步骤为：1.申请，2.受理，3.审查或核准，4.决定，5.送达。请问您要咨询哪一步呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "办理流程",
+            "受理",
+            "审查/核准",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "215",
+            "218",
+            "225",
+            "232",
+            "239"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想咨询申请，我生怕材料没准备齐全。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "216"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "为您查看到，您的材料是齐全的，还在审核期。请耐心等待。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "审查/核准"
+        ],
+        "grounding_id": [
+            "225"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能给我一个咨询电话吗？我想跟新一下进度。",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的咨询电话为：0578-2090228。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_企业注销_常用服务_个人独资企业注销.json",
+        "grounding": [
+            "咨询电话",
+            "0578-2090228"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

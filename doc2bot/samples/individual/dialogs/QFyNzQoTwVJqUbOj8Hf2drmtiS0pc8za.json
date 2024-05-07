@@ -1,0 +1,330 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问有关机动车驾驶证增驾申领的投诉方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址和投诉网址，您需要哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那办理的地点和投诉地点是同一个吗？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不一样的，办理地点在绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那他们的工作时间是几点到几点呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您问的是夏季时间还是冬季时间呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "冬季时间吧",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间",
+            "上午8:30—12:00，下午13:30—17:00（夏）；上午8:30—12:00，下午13:30—16:30（冬）周一至周五（节假日除外）"
+        ],
+        "grounding_id": [
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "冬季办理时间为周一至周五上午8:30—12:00，下午13:30—16:30，节假日除外",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "上午8:30—12:00，下午13:30—17:00（夏）；上午8:30—12:00，下午13:30—16:30（冬）周一至周五（节假日除外）"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，那有没有联系方式呢？想提前打电话问一下",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以拨打0575-88644633",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0575-88644633"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那除了这个地方有没有滨海分所附近的办理地点呢？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所滨海分所（绍兴滨海新城百红线城东路东侧200米）",
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "136",
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的，绍兴市公安局交通管理局车辆管理所滨海分所（绍兴滨海新城百红线城东路东侧200米）",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所滨海分所（绍兴滨海新城百红线城东路东侧200米）"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这里的办理时间和那个地方一样吗？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不一样的，这里是上午8:30—12:00，下午14:00—17:00（夏、冬）周一至周五（节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "上午8:30—12:00，下午14:00—17:00（夏、冬）周一至周五（节假日除外）"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，那这里的联系方式也可以给我一下吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以的，0575-81500247",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0575-81500247"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "除了这两个地方的话还有别的地点可以办理吗？我看看哪一个更近一些",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您还可以前往绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C01、C02、C03进行办理",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C01、C02、C03"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那这里的信息可以给我一下吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "请问您需要的是办理时间还是联系电话呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间",
+            "联系电话"
+        ],
+        "grounding_id": [
+            "142",
+            "144"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "联系电话吧，打电话方便一些",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "0575-81500098",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0575-81500098"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    }
+]

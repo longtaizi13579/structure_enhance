@@ -1,0 +1,362 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在电脑上做剪辑时，总是无法正常使用，是我操作的问题吗？",
+        "act": "why",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果无法在Mac上正常使用iMovie剪辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解无法在Mac上正常使用iMovie剪辑的原因吗？",
+        "act": "question/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，麻烦告知我该怎么做？",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果无法在Mac上正常使用iMovie剪辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以尝试重置NVRAM",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "重置NVRAM是什么意思，我该如何重置呢？",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "重置NVRAM"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我重置NVRAM，具体要怎么操作呢？",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，将Mac关机。然后，断开除键盘和鼠标之外所有外置设备的连接。接着，重置NVRAM。最后，打开iMovie剪辑，并尝试重现问题。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开除键盘和鼠标之外所有外置设备的连接。",
+            "重置NVRAM。",
+            "打开iMovie剪辑，并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，iMovie可以正常使用了，我还想问一下，剪辑完之后可以用iPhone或iPad上共享或者导出吗？",
+        "act": "verification",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "共享或导出iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以在iPhone或iPad上共享或导出iMovie剪辑项目。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "在iPhone或iPad上共享或导出iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那太好了，请问该怎么操作？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "在iPhone或iPad上共享或导出iMovie剪辑项目"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "通过电子邮件或短信发送影片。还可以在iMovie剪辑中打开，进行更改或共享。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "通过电子邮件或短信发送影片，导出影片以在其他设备上观看，或将影片共享到网上。如果您想在共享影片后对其进行编辑，请在iMovie剪辑中打开存储的相应项目，进行更改，然后改好后再次共享即可。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "不行啊，电子邮件发送不了，总提示我影片太大了，我该怎么办？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "通过电子邮件或短信发送影片"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果影片太大而无法发送，您可以减小影片文件的大小。取消当前的信息或电子邮件，返回共享屏幕，轻点“选项”，然后选取较低的分辨率。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "如果影片太大而无法发送，您可以减小影片文件的大小。取消当前的信息或电子邮件，返回共享屏幕，轻点“选项”，然后选取较低的分辨率。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，知道了，我还想把我剪好的影片让很多人看到，我该怎么操作？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "在网上共享影片"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想要在网上共享您的影片，是吗？",
+        "act": "verification",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "将影片存储在照片图库中，然后上传到网上。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的，我要让我的个人账号火起来，让很多人看到我的视频。",
+        "act": "ans/yes",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "将影片存储在照片图库中，然后上传到网上。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以将影片存储在照片图库中，然后上传到网上。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "将影片存储在照片图库中，然后上传到网上。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那我该怎么做啊？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "将影片存储在照片图库中，然后上传到网上。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先，在iMovie剪辑的“项目”浏览器中，轻点要共享的项目，然后轻点“共享”按钮。 然后，选择合适的分辨率。接着，点“存储视频”。最后，设备上打开YouTube或Facebook等App，上传视频。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "在iMovie剪辑的“项目”浏览器中，轻点要共享的项目，然后轻点“共享”按钮。",
+            "如果您想更改视频的分辨率，请轻点影片标题下方的“选项”，然后选取一个分辨率。1080p是在网上共享影片的较为适合的分辨率。分辨率越低（如720p高清），生成的文件越小，相比高分辨率的影片，上传到网上的速度会更快。",
+            "轻点“存储视频”，将影片存储在设备上的照片图库中。",
+            "在您的设备上打开YouTube或Facebook等App，或访问相应网站获取您要使用的服务，然后上传视频。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "嗯，明白了，那我导出来的影片都可以在哪里看啊？",
+        "act": "where",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "导出影片以在其他设备上观看"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "导出影片以在其他设备上观看",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那我要怎么操作呢？",
+        "act": "how",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "首先，在“项目”浏览器中，轻点您要共享的影片。然后，轻点“共享”按钮。接着，更改影片的分辨率或格式。最后，选取要将影片导出到的位置。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "在“项目”浏览器中，轻点您要共享的影片。如果您正在编辑项目，请轻点左上角的“完成”。",
+            "轻点“共享”按钮。",
+            "要更改影片的分辨率或格式，请轻点“选项”，然后在设置好选项后轻点“完成”。",
+            "选取要将影片导出到的位置："
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "好的，你最后说要选取位置，都可以选取哪里呢？",
+        "act": "where",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "选取要将影片导出到的位置："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "可使用“隔空投送”，还可以选照片图库，存储到iCloud云盘、设备上的某个文件夹或您在“文件”App中启用的其他第三方储存空间服务。",
+        "act": "ans/open",
+        "document": "共享或导出iMovie剪辑项目.json",
+        "grounding": [
+            "要使用“隔空投送”，请轻点“隔空投送”，然后轻点屏幕顶部相应用户的个人头像。或者，您可以在自己的Apple设备之间使用“隔空投送”。",
+            "要将影片导出到您的照片图库，请轻点“存储视频”。如果您启用了“iCloud照片”，可以从登录到同一iCloud帐户的所有Apple设备访问视频。",
+            "要将影片存储到iCloud云盘、设备上的某个文件夹或您在“文件”App中启用的其他第三方储存空间服务，请轻点“存储到‘文件’”，选取相应位置，然后轻点“存储”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "29"
+        ]
+    }
+]

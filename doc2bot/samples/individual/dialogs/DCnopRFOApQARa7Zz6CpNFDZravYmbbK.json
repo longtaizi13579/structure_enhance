@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下从浙江嘉兴到香港是不是需要办理相关证件？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，请问您是要办理港澳商务签注、港澳逗留签注、往来港澳通行证还是港澳其他签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是港澳商务签注，申请之后需要多久能办下来啊？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "30个工作日之内就可以的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这么久啊，那我应该去哪办呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理地点位于嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "嘉兴市公安局出入境管理局（嘉兴市南湖区越秀南路409号）一楼5、6、7受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，如果超过30天还没有办好的话可以打电话投诉吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如有需要您可以拨打0573-82618211投诉电话。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "0573-82618211"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,264 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下这个车子因质量问题退车注销登记办这个有什么咨询方式",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "帮您查询了这个有三种方式一咨询电话二咨询地址三咨询网址，您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询地址在什么地方",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "地址是浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "麻烦您把咨询电话也给我吧",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "电话是0580-12123",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "咨询电话",
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那办这个注销登记收费吗",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "384"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "385"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不收费也就不存在什么是否支持网上支付嘞",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "388"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是也不支持网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "是否支持网上支付",
+            "不支持"
+        ],
+        "grounding_id": [
+            "388",
+            "389"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个办理时间您给查一下",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的时间您记一下冬令时间：上午8：30-12：00，下午14：00-17：00；夏令时间：上午8：30-12：00，下午14：30-17：30（周一至周五，法定节假日除外）",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理时间",
+            "冬令时间：上午8：30-12：00，下午14：00-17：00；夏令时间：上午8：30-12：00，下午14：30-17：30（周一至周五，法定节假日除外）"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那还有个事就是我朋友想问一下咱们舟山市办这个机动车解除质押备案都什么流程",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "276"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "276",
+            "277",
+            "279",
+            "286",
+            "293",
+            "300"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那受理这步审批标准是什么",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "审批标准",
+            "受理"
+        ],
+        "grounding_id": [
+            "282",
+            "279"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "受理申请人提交的材料，检查材料是否齐全",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "受理申请人提交的材料，检查材料是否齐全。"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那送达可以邮寄吗",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "送达",
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "300",
+            "301"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个可以当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    }
+]

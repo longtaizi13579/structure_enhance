@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省丽水市申请机动车驾驶证增驾的相关信息",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "机动车驾驶证增驾申领",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T12",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是需要咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询地址吧",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址为丽水市公安局交通警察支队车辆管理所",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            " 丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那电话是多少呢？方便问",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打0578-12123进行咨询",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0578-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，我还想问一下收费的时候能不能用二维码啊？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您说的是网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，就是网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，我们支持网上支付",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果是拖拉机的驾驶证往浙江省外转呢？也是要收费的？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "拖拉机、联合收割机操作人员驾驶证转出省外换证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T9",
+            "1",
+            "312"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您说的是拖拉机、联合收割机操作人员驾驶证转出省外换证吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "拖拉机、联合收割机操作人员驾驶证转出省外换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，这个需不需要交钱？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个业务是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "313"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那就好，那就不用带那个二维码了是吧？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，不需要",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "317"
+        ]
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省衢州市参保人员达到法定退休年龄领取基本养老保险待遇资格确认的相关信息",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "参保人员达到法定退休年龄领取基本养老保险待遇资格确认"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解法定办结时限，承诺办结时限，受理机构，决定机构还是联办机构",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道承诺办结时限是多久",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大概三个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那多长时间可以送到结果呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般自作出决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那申请这个的话是不是没有数量上的限制？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "129",
+            "130"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，无数量限制",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那需要满足什么条件才会受理呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在统筹地参加企业职工基本养老保险，达到法定退休年龄需要办理领取基本养老保险待遇资格确认的参保人员",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_参保人员达到法定退休年龄领取基本养老保险待遇资格确认.json",
+        "grounding": [
+            "在统筹地参加企业职工基本养老保险，达到法定退休年龄需要办理领取基本养老保险待遇资格确认的参保人员"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那可以使用自助终端办理基本养老保险视同缴费年限核定吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "抱歉，我们暂时不支持自助终端办理该业务",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，如果要申请个人账户一次性待遇申领的话多长时间有结果？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "57"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一般是14个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "14（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

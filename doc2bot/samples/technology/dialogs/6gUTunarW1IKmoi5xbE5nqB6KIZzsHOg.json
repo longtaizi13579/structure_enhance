@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问关于测定AppleProDisplayXDR的一些问题",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定和校准AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问关于下载测试图案、微调校准还是测定和校准显示器的技巧",
+        "act": "multiple-choice",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何下载测试图案",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先前往AVFoundation开发者页面。 然后在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。最后连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "下载测试图案",
+            "前往AVFoundation开发者页面。",
+            "在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。",
+            "连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我大致调整到特定目标了，我还想精准的调节，我是不是需要重新调整",
+        "act": "verification",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "微调校准"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不需要，如果您的工作流程已调整到特定目标，您可以微调AppleProDisplayXDR的校准。这样您就可以调整显示器的白点值和亮度值，以更精确地匹配您所在组织内部的显示器校准目标。",
+        "act": "ans/no",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "微调校准",
+            "您可以微调AppleProDisplayXDR的校准。这样您就可以调整显示器的白点值和亮度值，以更精确地匹配您所在组织内部的显示器校准目标。"
+        ],
+        "grounding_id": [
+            "44",
+            "119"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那，我还有一个问题显示器该如何测定？",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定显示器"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先将第三方光谱辐射仪对准显示器的中央，然后确保室内环境保持昏暗或黑暗。接着打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。最后将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较就可以了。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定显示器",
+            "将第三方光谱辐射仪对准显示器的中央。",
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。",
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定HDR、BT.709和BT.601格式下的颜色或亮度。",
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于HDR10的图案时，请使用HDR视频(P3–ST2084)预置。",
+            "将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。根据光谱辐射仪的容差或校准情况，读数与参考值可能略有不同。"
+        ],
+        "grounding_id": [
+            "33",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何确保当前所用的参考模式与所选的测试图案相符？",
+        "act": "how",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于HDR10的图案时，请使用HDR视频(P3–ST2084)预置。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "例如，在使用基于HDR10的图案时，请使用HDR视频(P3–ST2084)预置。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于HDR10的图案时，请使用HDR视频(P3–ST2084)预置。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我选了其他的参考模式，我如何才能有更好的结果？",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "请在必要时再次微调校准以获得最佳结果。"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您选取了其他参考模式，请在必要时再次微调校准以获得最佳结果。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "请在必要时再次微调校准以获得最佳结果。"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    }
+]

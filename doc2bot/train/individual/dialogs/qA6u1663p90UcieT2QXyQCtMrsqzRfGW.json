@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江温州机动车因质量问题更换整车变更登记的一些信息",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "浙江省_温州市",
+            "机动车因质量问题更换整车变更登记"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是法定办结时限，办理地点，办理时间还是咨询方式",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限是多久",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大概一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车因质量问题更换整车变更登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果对办理机动车改变车身颜色变更登记不满意的话可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，我们为您提供投诉电话，投诉地址，投诉网址",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0577-88300122",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "0577-88300122"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉的地址呢？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "温州市公安局（温州市鹿城区滨江街道惠民路十二间桥）信访接待窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "温州市公安局（温州市鹿城区滨江街道惠民路十二间桥）信访接待窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

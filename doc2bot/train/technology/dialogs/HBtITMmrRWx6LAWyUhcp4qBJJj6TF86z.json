@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些在iPhone上使用手电筒的相关问题？",
+        "act": "what",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "如何在iPhone、iPadPro或iPodtouch上使用手电筒"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询指示Siri完成操作、在配备面容ID的iPhone上或在iPadPro上关闭或打开手电筒、在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心” 还是其他？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "指示Siri完成操作"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何指示Siri完成操作？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "指示Siri完成操作"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用Siri来打开手电筒的示例：“嘿Siri，打开手电筒。”、“嘿Siri，可以打开手电筒吗？”或者“嘿Siri，关闭手电筒。”",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "下面提供了一些关于如何使用Siri来打开手电筒的示例：",
+            "“嘿Siri，打开手电筒。”",
+            "“嘿Siri，可以打开手电筒吗？”"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我的iPhone上的LED闪光灯可用作手电筒吗？",
+        "act": "verification",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "您的iPhone、iPadPro或iPodtouch上的LED闪光灯还可用作手电筒，以便您在需要时作为辅助照明。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "除了指示Siri打开或关闭手电筒外，还有什么别的办法吗？",
+        "act": "what",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "有多种方式可以打开或关闭手电筒。您可以指示Siri完成这一操作，也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "有多种方式可以打开或关闭手电筒。您可以指示Siri完成这一操作，也可以在配备面容ID的iPhone上或在iPadPro上使用“控制中心”，或者在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”来操作？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPhone上或在iPodtouch上使用“控制中心”"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先在iPhone或iPodtouch上，从屏幕底部边缘向上轻扫，以打开“控制中心”。然后轻点“手电筒”按钮。最后要关闭手电筒，请再次轻点“手电筒”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在iPhone或iPodtouch上，从屏幕底部边缘向上轻扫，以打开“控制中心”。",
+            "轻点“手电筒”按钮。",
+            "要关闭手电筒，请再次轻点“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何在配备面容ID的iPhone上或在iPadPro上关闭或打开手电筒？",
+        "act": "how",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "在配备面容ID的iPhone上或在iPadPro上关闭或打开手电筒"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤：首先从右上角向下轻扫以在iPhone或iPad上打开“控制中心”。然后轻点“手电筒”按钮。最后要关闭手电筒，请再次轻点“手电筒”按钮。",
+        "act": "ans/open",
+        "document": "如何在iPhone、iPadPro或iPodtouch上使用手电筒.json",
+        "grounding": [
+            "具体步骤",
+            "从右上角向下轻扫以在iPhone或iPad上打开“控制中心”。",
+            "轻点“手电筒”按钮。",
+            "要关闭手电筒，请再次轻点“手电筒”按钮。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "18",
+            "19"
+        ]
+    }
+]

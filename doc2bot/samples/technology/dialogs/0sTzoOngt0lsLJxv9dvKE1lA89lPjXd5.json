@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，我的iPod开不了机，好像死机了，应该怎么办？",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果iPod无法开机或似乎死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以先尝试强制重新启动 iPod，如果不行的话，可能是设备没电了，需要为设备进行充电。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "为设备充电"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我试过强制重启了，没有反应。如果30分钟后还是没有看到充电屏幕怎么办？",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作：检查线缆连接是不是牢固。清除所有端口中的所有碎屑。尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。如果设备还是无法开机，则可能需要维修。请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作：",
+            "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。",
+            "尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。",
+            "如果设备还是无法开机，则可能需要维修。请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "会不会是我充电方式有问题，正确的充电方式是什么？",
+        "act": "what",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod仍然没有响应，可能是因为电池电量不足。请至少为iPod充电30分钟："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先，将iPod与设备随附的充电线连接起来。 然后，将充电线的另一端接入电源：使用插入墙壁插座的USB适配器，或者使用已开机且没有处于睡眠模式的电脑（而非键盘）上的USB2.0或3.0端口。您也可以使用USB集线器、扩展坞或Apple认证的其他电源配件。 最后，等待几分钟直到充电屏幕出现，或者直到iPodshuffle上的状态指示灯变成橙色。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "将iPod与设备随附的充电线连接起来。",
+            "将充电线的另一端接入电源：使用插入墙壁插座的USB适配器，或者使用已开机且没有处于睡眠模式的电脑（而非键盘）上的USB2.0或3.0端口。您也可以使用USB集线器、扩展坞或Apple认证的其他电源配件。",
+            "等待几分钟直到充电屏幕出现，或者直到iPodshuffle上的状态指示灯变成橙色。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iPod可以开机了，但在启动过程中又卡住了，怎么办？",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod可以开机，但在启动过程中卡住"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的iPod还是没有响应、在启动过程中卡住，或者持续显示Apple标志或，请按照以下步骤操作：如果您使用的是装有macOSMojave或更低版本的Mac，或者使用的是PC，请确保您的电脑装有最新版本的iTunes。如果您使用的是iPodnano或iPodclassic，请将iPod设为磁盘模式。在装有macOSCatalina或更高版本的Mac上，打开“访达”窗口。然后，将您的iPod直接连接到电脑。在“访达”或iTunes中找到您的iPod，然后选择“恢复iPod”。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您使用的是装有macOSMojave或更低版本的Mac，或者使用的是PC，请确保您的电脑装有最新版本的iTunes。",
+            "如果您使用的是iPodnano或iPodclassic，请将iPod设为磁盘模式。",
+            "在装有macOSCatalina或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave或更低版本的Mac或者PC上，打开iTunes。然后，将您的iPod直接连接到电脑。",
+            "在“访达”或iTunes中找到您的iPod，然后选择“恢复iPod”。"
+        ],
+        "grounding_id": [
+            "42",
+            "43",
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在装有macOSMojave或更低版本的Mac或者PC上怎么操作？",
+        "act": "what",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "在装有macOSCatalina或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave或更低版本的Mac或者PC上，打开iTunes。然后，将您的iPod直接连接到电脑。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在装有macOSMojave或更低版本的Mac或者PC上，打开iTunes。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "在装有macOSCatalina或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave或更低版本的Mac或者PC上，打开iTunes。然后，将您的iPod直接连接到电脑。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    }
+]

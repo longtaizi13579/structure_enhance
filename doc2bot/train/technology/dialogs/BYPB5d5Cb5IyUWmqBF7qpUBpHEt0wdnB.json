@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一下如何使用iCloud日历订阅？",
+        "act": "how",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "使用iCloud日历订阅"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你想咨询设置新日历还是平时的日历阅读呢？",
+        "act": "multiple-choice",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "在Mac上设置一个新的iCloud日历订阅"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "新的iCloud日历订阅",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "在Mac上设置一个新的iCloud日历订阅"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那你是想在什么系统上进行设置呢？",
+        "act": "question/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "使用iCloud日历订阅"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询在Mac上设置一个新的iCloud日历订阅",
+        "act": "what",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "在Mac上设置一个新的iCloud日历订阅"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，首先在“日历”中，选取“文件”>“新建日历订阅”。然后输入日历的网址，然后点按“订阅”。之后输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称。最后从“位置”菜单中选取“iCloud”，然后点按“好”。",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "在“日历”中，选取“文件”>“新建日历订阅”。",
+            "输入日历的网址，然后点按“订阅”。",
+            "输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称。",
+            "从“位置”菜单中选取“iCloud”，然后点按“好”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "第三步能再说一遍吗？",
+        "act": "verification",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的： 输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "输入日历名称，然后选取一种颜色来帮助您在日历上标识这个名称。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我如果想将现有日历订阅添加到iCloud怎么做呢？",
+        "act": "how",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "将现有日历订阅添加到iCloud"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果Mac上有一个要在您的iPhone、iPad或iPodtouch上查看的日历订阅，您可以将它添加到iCloud。",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "如果Mac上有一个要在您的iPhone、iPad或iPodtouch上查看的日历订阅，您可以将它添加到iCloud。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能在跟我讲一下具体的操作流程吗？",
+        "act": "verification",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "如果Mac上有一个要在您的iPhone、iPad或iPodtouch上查看的日历订阅，您可以将它添加到iCloud。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先 打开“日历”，然后点按窗口左上角的“日历”按钮，以查看您的日历列表。再从列表中选择订阅的日历。之后在菜单栏中，选取“编辑”>“显示简介”。最后从“位置”菜单中选取“iCloud”，然后点按“好”",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "打开“日历”。",
+            "点按窗口左上角的“日历”按钮，以查看您的日历列表。",
+            "从列表中选择订阅的日历。",
+            "在菜单栏中，选取“编辑”>“显示简介”。",
+            "从“位置”菜单中选取“iCloud”，然后点按“好”。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果我想取消日历订阅需要怎么做？",
+        "act": "how",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "取消日历订阅"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果在macOS上，打开“日历”。右键点按您要取消订阅的日历*，然后选择“取消订阅”。如果在iOS上，打开“日历”。轻点“日历”>>“删除日历”。但是*您无法取消订阅“USHolidays”（美国节假日）日历。",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "在macOS上，打开“日历”。右键点按您要取消订阅的日历*，然后选择“取消订阅”。",
+            "在iOS上，打开“日历”。轻点“日历”>>“删除日历”。",
+            "*您无法取消订阅“USHolidays”（美国节假日）日历。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我最后还想问一下我不是从iCloud.com恢复日历也没有访问iCloud.com或使用MicrosoftOutlook，为什么看不到我的日历订阅呢？",
+        "act": "why",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "看不到您的日历订阅？",
+            "您将看不到通过iCloud更新的已订阅日历。",
+            "您将需要再次订阅您的日历。"
+        ],
+        "grounding_id": [
+            "22",
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "你可以检查您的iOS设备和Mac是否使用同一AppleID登录到iCloud",
+        "act": "ans/open",
+        "document": "使用iCloud日历订阅.json",
+        "grounding": [
+            "检查您的iOS设备和Mac是否使用同一AppleID登录到iCloud。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

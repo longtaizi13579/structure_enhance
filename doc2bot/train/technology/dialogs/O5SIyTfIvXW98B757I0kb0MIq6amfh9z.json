@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，为了支持高动态范围的HDR视频，需要对录制它的iPhone手机有什么要求？",
+        "act": "what",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "在iPhone或iPad上播放和录制HDR视频",
+            "为了支持高动态范围(HDR)视频（例如来自Apple和其他提供商的HDR影片和电视节目），需要使用兼容的iPhone或iPad。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "需要使用兼容的iPhone或iPad。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "为了支持高动态范围(HDR)视频（例如来自Apple和其他提供商的HDR影片和电视节目），需要使用兼容的iPhone或iPad。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何识别我的iPhone是否支持HDR的机型？",
+        "act": "how",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "支持HDR的机型"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "识别您的iPhone机型或iPad机型，然后检查相应的技术规格，以了解您的设备是不是支持播放和/或录制HDR视频。",
+        "act": "ans/open",
+        "document": "在iPhone或iPad上播放和录制HDR视频.json",
+        "grounding": [
+            "识别您的iPhone机型或iPad机型，然后检查相应的技术规格，以了解您的设备是不是支持播放和/或录制HDR视频。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想咨询一些关于在iPhone上随机播放音乐的相关问题？",
+        "act": "what",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何在iPhone上随机播放音乐"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您好，您想了解让Siri随机播放音乐、还是想了解如何随机播放专辑或播放列表、如何随机播放资料库中的所有歌曲或专辑、如何关闭随机播放，还是其他？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "让Siri随机播放音乐"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道如何让Siri随机播放音乐？",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "让Siri随机播放音乐"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以轻松让Siri打开或关闭随机播放。只需说出如下内容：“嘿Siri，随机播放这张专辑。”、“嘿Siri，随机播放我的自驾游歌单。”“嘿Siri，随机播放我的所有歌曲。”、“嘿Siri，关闭随机播放。”",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "您可以轻松让Siri打开或关闭随机播放。只需说出如下内容：",
+            "“嘿Siri，随机播放这张专辑。”",
+            "“嘿Siri，随机播放我的自驾游歌单。”",
+            "“嘿Siri，随机播放我的所有歌曲。”",
+            "“嘿Siri，关闭随机播放。”"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我的“随机播放”按钮未高亮显示，这说明了什么？",
+        "act": "what",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "当“随机播放”按钮未高亮显示时，即表示关闭了随机播放。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当“随机播放”按钮未高亮显示时，即表示关闭了随机播放。",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "当“随机播放”按钮未高亮显示时，即表示关闭了随机播放。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何关闭随机播放？",
+        "act": "how",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "如何关闭随机播放"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤：首先 轻点屏幕底部正在播放的歌曲；然后轻点右下角的“待播清单”按钮；最后轻点“随机播放”按钮以关闭随机播放。",
+        "act": "ans/open",
+        "document": "如何在iPhone上随机播放音乐.json",
+        "grounding": [
+            "具体步骤",
+            "轻点屏幕底部正在播放的歌曲。",
+            "轻点右下角的“待播清单”按钮。",
+            "轻点“随机播放”按钮以关闭随机播放。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    }
+]

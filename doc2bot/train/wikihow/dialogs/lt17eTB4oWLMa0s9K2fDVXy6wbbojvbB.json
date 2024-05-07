@@ -1,0 +1,344 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问可以怎样禁用谷歌Chrome更新呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在Chrome浏览器中禁用自动更新可以阻止浏览器在未授权的情况下下载和安装更新。如果想在Windows电脑上禁用Chrome更新，那就得用注册表编辑器来阻止进行更新。而在Mac电脑上，要用到终端应用程序。如果是移动设备端，则可以禁用Chrome应用程序的自动更新功能。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "在Chrome浏览器中禁用自动更新可以阻止浏览器在未授权的情况下下载和安装更新。如果想在Windows电脑上禁用Chrome更新，那就得用注册表编辑器来阻止进行更新。而在Mac电脑上，要用到终端应用程序。如果是移动设备端，则可以禁用Chrome应用程序的自动更新功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那需要将Chrome浏览器更新至最新版本吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "建议定期将Chrome浏览器更新至最新版本，这样可以修补安全漏洞，保护电脑免受病毒和恶意软件的侵袭。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": " 建议定期将Chrome浏览器更新至最新版本，这样可以修补安全漏洞，保护电脑免受病毒和恶意软件的侵袭。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "建议定期将Chrome浏览器更新至最新版本，这样可以修补安全漏洞，保护电脑免受病毒和恶意软件的侵袭。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，那要怎么彻底禁用谷歌Chrome更新呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您说的是Mac电脑还是Windows电脑呢？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新",
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，我先了解一下Mac电脑吧",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Mac电脑步骤如下: 1.在实用程序文件夹中打开终端程序。 2.输入命令，禁用谷歌产品的自动更新。 3.如果打开了Chrome浏览器，请重新启动它。 4.手动查看更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Mac电脑",
+            "在实用程序文件夹中打开终端程序。",
+            "输入命令，禁用谷歌产品的自动更新。",
+            "如果打开了Chrome浏览器，请重新启动它。",
+            "手动查看更新。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那么Windows电脑又是怎么弄的呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新",
+            "Windows电脑"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Windows电脑的步骤是: 1.打开注册表编辑器。 2.展开“HKEY_LOCAL_MACHINE”文件夹。 3.展开“SOFTWARE”文件夹。 4.展开“Policies”文件夹。 5.右键点击“Policies”文件夹，选择“新建”→“项”。 6.右键点击新建的“Google”文件夹，选择“新建”→“项”。 7.右键点击右侧的面板，选择“新建”→“DWORD”。 8.双击新的“UpdateDefault”DWORD值。 9.确保将“数据”一栏设置为“0”。 10.关闭注册表编辑器。 11.定期手动检查更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Windows电脑",
+            "打开注册表编辑器。",
+            "展开“HKEY_LOCAL_MACHINE”文件夹。",
+            "展开“SOFTWARE”文件夹。",
+            "展开“Policies”文件夹。",
+            "右键点击“Policies”文件夹，选择“新建”→“项”。",
+            "右键点击新建的“Google”文件夹，选择“新建”→“项”。",
+            "右键点击右侧的面板，选择“新建”→“DWORD”。",
+            "双击新的“UpdateDefault”DWORD值。",
+            "确保将“数据”一栏设置为“0”。",
+            "关闭注册表编辑器。",
+            "定期手动检查更新。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "20",
+            "22",
+            "24",
+            "26",
+            "28",
+            "30",
+            "32",
+            "34",
+            "36",
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，这个注册表编辑器可以怎么打开呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "打开注册表编辑器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "按下Win+R，输入regedit，打开注册表编辑器即可。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "按下Win+R，输入regedit，打开注册表编辑器。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦，那右键点击新建的“Google”文件夹，选择“新建”→“项，命名为什么呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "右键点击新建的“Google”文件夹，选择“新建”→“项”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "将新建的项命名为“Update”",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "将新建的项命名为“Update”（更新）。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，那右键点击右侧的面板，选择“新建”→“DWORD”，这个地方要怎么改呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "右键点击右侧的面板，选择“新建”→“DWORD”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "将新的DWORD命名为“UpdateDefault”。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "将新的DWORD命名为“UpdateDefault”（默认更新）。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，那操作好后关闭注册表编辑器之后就不会自动下载和安装更新了吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "关闭注册表编辑器。",
+            "以后Chrome浏览器不会自动下载和安装更新了。"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的，以后Chrome浏览器不会自动下载和安装更新了。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "以后Chrome浏览器不会自动下载和安装更新了。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "明白了，我还想了解一下iOS设备是怎样彻底禁用谷歌Chrome更新的呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新",
+            "iOS设备"
+        ],
+        "grounding_id": [
+            "1",
+            "41"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "iOS设备操作步骤如下: 1.在iOS设备上打开“设置”应用程序。 2.选择“iTunes和AppStore”。 3.关闭“更新”开关。 4.定期检查更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "iOS设备",
+            "在iOS设备上打开“设置”应用程序。",
+            "选择“iTunes和AppStore”。",
+            "关闭“更新”开关。",
+            "定期检查更新。"
+        ],
+        "grounding_id": [
+            "41",
+            "42",
+            "44",
+            "46",
+            "48"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "哦，那安卓设备设备又是怎么操作的呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新",
+            "安卓设备"
+        ],
+        "grounding_id": [
+            "1",
+            "50"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "安卓设备: 1.在安卓设备上打开谷歌应用程序商店。 2.搜索Chrome。 3.点击右上角的⋮按钮。 4.取消勾选“自动更新”复选框。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "安卓设备",
+            "在安卓设备上打开谷歌应用程序商店。",
+            "搜索Chrome。",
+            "点击右上角的⋮按钮。",
+            "取消勾选“自动更新”复选框。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "53",
+            "55",
+            "57"
+        ]
+    }
+]

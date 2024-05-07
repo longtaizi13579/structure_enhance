@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省金华市的，我想知道怎么投诉办理管道停止运行、封存、报废备案的工作人员？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "浙江省_金华市",
+            "管道停止运行、封存、报废备案",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T9",
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是需要投诉电话、投诉地址还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你给我个投诉电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉电话是0579-82469768、0579-82469765、0579-12345、0579-88900000。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "0579-82469768、0579-82469765、0579-12345、0579-88900000"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解一些招标拍卖的问题。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "招标拍卖"
+        ],
+        "grounding_id": [
+            "T109"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解拍卖企业拍卖的文物审核还是拍卖企业及分支机构（设立）呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "拍卖企业拍卖的文物审核"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了拍卖企业拍卖的文物审核办理要不要钱？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "是否收费",
+            "拍卖企业拍卖的文物审核"
+        ],
+        "grounding_id": [
+            "255",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "256"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理拍卖企业拍卖的文物审核可以在网上支付吗?",
+        "act": "verification",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "拍卖企业拍卖的文物审核",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "259"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "拍卖企业拍卖的文物审核不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_招标拍卖_招标拍卖_拍卖企业拍卖的文物审核.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "260"
+        ]
+    }
+]

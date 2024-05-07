@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下小头畸形的相关信息",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "小头畸形"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "小头畸形是指头异常小。头部通常很小，因为大脑很小，并且发育异常。那您是想了解小头畸形的病因，症状，诊断还是治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "小头畸形的病因"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "病因吧，我想知道小头畸形会不会因为遗传问题导致？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "小头畸形的病因",
+            "小头畸形可能由多种疾病引起，包括",
+            "遗传性代谢异常或问题"
+        ],
+        "grounding_id": [
+            "17",
+            "19",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您说的是遗传性代谢异常或问题吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "遗传性代谢异常或问题"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "遗传性代谢异常或问题"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这是小头畸形的病因之一",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "遗传性代谢异常或问题",
+            "小头畸形可能由多种疾病引起，包括"
+        ],
+        "grounding_id": [
+            "23",
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那巨头畸形呢？压实遗传导致的？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "巨头畸形可以是正常的，也可以是遗传性疾病或其他疾病引起。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_巨头畸形.json",
+        "grounding": [
+            "巨头畸形可以是正常的，也可以是遗传性疾病或其他疾病引起。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，营养不良的话能不能导致小头畸形呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "小头畸形可能由多种疾病引起，包括",
+            "重度营养不良"
+        ],
+        "grounding_id": [
+            "19",
+            "30"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "重度营养不良的话是有可能的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_脑和脊髓的出生缺陷_小头畸形.json",
+        "grounding": [
+            "重度营养不良"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

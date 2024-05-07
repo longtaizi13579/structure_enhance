@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，咨询一下浙江嘉兴市出入境服务事宜",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "出入境",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T239",
+            "T269"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您是要咨询办理护照还是港澳台通行证及签注服务呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，是这样港澳通行证我有了，我要去探亲办港澳签注的事情。这个办公时间给查查",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，请您记录一下，办理时间是工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那在问一下办这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "2424"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的收费",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "2425"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哎，麻烦您，再问一下，这个有什么监督投诉方式吗",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是要投诉电话、投诉地址，还是投诉网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉地址吧，您说我记一下。",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，地址是嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，投诉电话您也说一下吧",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，电话是0573-82618211",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "0573-82618211"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还有个问题，这个签注一般要多长时间才能办好？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

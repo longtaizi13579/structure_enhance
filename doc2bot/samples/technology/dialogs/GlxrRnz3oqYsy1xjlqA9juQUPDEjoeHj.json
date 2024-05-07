@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "为啥我在跟新的时候出现了警告符号呢？",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解为什么AppleTV上看到警告符号还是怎么处理警告符号呢？",
+        "act": "multiple-choice",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解为什么AppleTV上看到警告符号。",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您在尝试更新软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV上的指示灯闪烁，[13] 则您可以恢复AppleTV。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "则您可以恢复AppleTV。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么我要怎么设置才能恢复正常呢？",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "可以恢复 Apple TV"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们需要满足，Mac或装有iTunes的PC、高速互联网连接、适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线即可",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "Mac或装有iTunes的PC",
+            "高速互联网连接",
+            "适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我再去买一根USB-C连接线就可以了嘛？",
+        "act": "verification",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "适用于AppleTVHD的USB-C连接线，或者适用于AppleTV（第3代）的Micro-USB连接线"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么重新下载有声书呢？",
+        "act": "how",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "重新下载图书和有声书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想知道Mac重新下载图书和有声书的步骤还是有声书的介绍呢？",
+        "act": "ans/open",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "如何在Mac上重新下载图书或有声书",
+            "重新下载图书和有声书"
+        ],
+        "grounding_id": [
+            "12",
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道Mac重新下载图书和有声书的步骤",
+        "act": "ans/open",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "如何在Mac上重新下载图书或有声书"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先打开“AppleBooks”。然后点按屏幕左下角的“登录”或您的名字。接着在“我的购买项目”下，点按“图书”或“有声书”。之后 点按“不在此Mac上”，以查看不在您电脑上的已购买内容。接着点按“所有图书”或“所有有声书”以筛选结果。最后找到您想要下载的图书或有声书，然后点按“下载”按钮。",
+        "act": "ans/open",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "点按“所有图书”或“所有有声书”以筛选结果。",
+            "找到您想要下载的图书或有声书，然后点按“下载”按钮。",
+            "点按“不在此Mac上”，以查看不在您电脑上的已购买内容。",
+            "在“我的购买项目”下，点按“图书”或“有声书”。",
+            "点按屏幕左下角的“登录”或您的名字。",
+            "打开“AppleBooks”。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "16",
+            "15",
+            "14",
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那么在我另外一台iPad怎么下载有声书呢？",
+        "act": "how",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上重新下载图书或有声书"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开BooksApp，然后轻点屏幕底部的“阅读中”。然后 轻点屏幕右上角的“登录”按钮或您的照片。之后在“我的购买项目”下方，轻点“图书”或“有声书”。如果您使用“家人共享”，则可以轻点家庭成员的名字来查看他们的购买项目。随后 轻点“不在此[设备]上”，然后轻点“所有图书”或“所有有声书”。最后找到您想要下载的图书或有声书，然后轻点“下载”按钮。",
+        "act": "ans/open",
+        "document": "重新下载图书和有声书.json",
+        "grounding": [
+            "找到您想要下载的图书或有声书，然后轻点“下载”按钮。",
+            "轻点“不在此[设备]上”，然后轻点“所有图书”或“所有有声书”。",
+            "在“我的购买项目”下方，轻点“图书”或“有声书”。如果您使用“家人共享”，则可以轻点家庭成员的名字来查看他们的购买项目。",
+            "轻点屏幕右上角的“登录”按钮或您的照片。",
+            "打开BooksApp，然后轻点屏幕底部的“阅读中”。"
+        ],
+        "grounding_id": [
+            "8",
+            "7",
+            "6",
+            "5",
+            "4"
+        ]
+    }
+]

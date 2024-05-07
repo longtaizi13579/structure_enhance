@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前在浙江宁波市办了一个去台湾定居的签注，挺不满意的，我想投诉，有什么投诉方式啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "浙江省_宁波市",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T10",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投诉电话可以吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以的，电话号多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉电话您记一下0574-12345。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有投诉地址也告诉我一下在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，投诉地址在宁波市鄞州区北明程路788号9061室。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "宁波市鄞州区北明程路788号9061室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我朋友最近也想要办理 去台湾的签注，想问问收费怎么收？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "台湾通行证及签注",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "T240",
+            "1850"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "也是办赴台湾去定居的签注吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "1\t赴台定居"
+        ],
+        "grounding_id": [
+            "1851"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的是的，费用是多少啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "收费标准",
+            "收费项目名称",
+            "1\t赴台定居",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "1843",
+            "1850",
+            "1851",
+            "1852"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "赴台定居签注收费标准是根据国家发展和改革委员会、财政部发改价格，一次签注是15元。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台定居一次签注15元/件。"
+        ],
+        "grounding_id": [
+            "1853"
+        ]
+    }
+]

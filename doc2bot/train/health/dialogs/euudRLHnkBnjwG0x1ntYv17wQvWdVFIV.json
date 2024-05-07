@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，治疗IgG4疾病，治疗方法只有保守治疗吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "IgG4相关疾病",
+            "常见治疗方法有"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不是这样的，治疗IgG4相关疾病，常用方法有皮质类固醇，Rituximab，有时进行手术。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "IgG4相关疾病",
+            "治疗",
+            "常见治疗方法有",
+            "皮质类固醇",
+            "Rituximab",
+            "有时进行手术"
+        ],
+        "grounding_id": [
+            "1",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "什么情况下需要进行手术治疗，能举个例子吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "一些患者需要外科手术，如支架术，以缓解输尿管（将尿液从肾脏输送到膀胱的管道）或胆管的阻塞。",
+            "治疗"
+        ],
+        "grounding_id": [
+            "68",
+            "60"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一些患者需要外科手术，如支架术，以缓解输尿管（将尿液从肾脏输送到膀胱的管道）或胆管的阻塞。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "一些患者需要外科手术，如支架术，以缓解输尿管（将尿液从肾脏输送到膀胱的管道）或胆管的阻塞。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想检查一下，看是否患有IgG4相关疾病，该做什么检查呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "IgG4相关疾病",
+            "诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "51"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这样啊，建议您先做个影像检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "影像"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那就是说影像学检查可以完全确诊IgG4相关疾病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "IgG4相关疾病",
+            "诊断",
+            "常见诊断方法有"
+        ],
+        "grounding_id": [
+            "1",
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，当影像检查后怀疑是IgG4相关疾病，需要做进一步血液化验帮助诊断。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "血液化验"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那确诊后必须手术治疗吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "有时进行手术",
+            "治疗"
+        ],
+        "grounding_id": [
+            "64",
+            "60"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不是的，根据病情有时进行手术。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "有时进行手术"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我查了下资料，说治疗IgG4相关疾病通常采用改变免疫系统活性的药物治疗，这类药物有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "比如皮质类固醇。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有其他药物吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "常见治疗方法有"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有，Rituximab也是可以改变免疫系统活性的药物。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "Rituximab"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想知道，这种疾病影像学检查通常检查哪些部位？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "医生通常会对有症状的区域（例如，眼眶、胸部、腹部和骨盆）进行CT或MRI检查。他们还可能对其他部位进行影像学检查，以寻找可能受累但不引起症状的器官。"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "医生通常会对有症状的区域（例如，眼眶、胸部、腹部和骨盆）进行CT或MRI检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "医生通常会对有症状的区域（例如，眼眶、胸部、腹部和骨盆）进行CT或MRI检查。他们还可能对其他部位进行影像学检查，以寻找可能受累但不引起症状的器官。"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那么，只检查这些部位就可以了吗",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "医生通常会对有症状的区域（例如，眼眶、胸部、腹部和骨盆）进行CT或MRI检查。他们还可能对其他部位进行影像学检查，以寻找可能受累但不引起症状的器官。"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "医生还可能对其他部位进行影像学检查，以寻找可能受累但不引起症状的器官。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_IgG4相关疾病_IgG4相关疾病.json",
+        "grounding": [
+            "医生通常会对有症状的区域（例如，眼眶、胸部、腹部和骨盆）进行CT或MRI检查。他们还可能对其他部位进行影像学检查，以寻找可能受累但不引起症状的器官。"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    }
+]

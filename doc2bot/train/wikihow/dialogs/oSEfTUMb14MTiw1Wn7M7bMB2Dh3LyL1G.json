@@ -1,0 +1,362 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是一名学生，最近在学英语，想问下如何正确使用英文标点？",
+        "act": "how",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "如何正确使用英文标点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "正确使用大写字母，正确使用句尾标点，正确使用逗号，正确使用冒号与分号，正确使用连字符和破折号，正确使用撇号，正确使用斜线，正确使用其他标点，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "可选方法",
+            "正确使用大写字母"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下争取使用大写字母吧。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用大写字母"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "正确使用大写字母: 1.在句首使用大写字母。 2.在专有名词、标题和头衔词首使用大写字母。 3.在缩写词中使用大写字母。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用大写字母",
+            "在句首使用大写字母。",
+            "在专有名词、标题和头衔词首使用大写字母。",
+            "在缩写词中使用大写字母。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在缩写词中使用大写字母是什么意思？",
+        "act": "what",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "在缩写词中使用大写字母。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "缩写词指的是用专有名词词组中每个单词的首字母组成的单词。缩写词常常用于缩写那些全称较长，不宜每次提到都使用全称的专有名词。有时缩写词的字母会被标点符号所分割，不过这一情况并不多见。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "缩写词指的是用专有名词词组中每个单词的首字母组成的单词。缩写词常常用于缩写那些全称较长，不宜每次提到都使用全称的专有名词。有时缩写词的字母会被标点符号所分割，不过这一情况并不多见。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "正确使用撇号的方法是什么？",
+        "act": "what",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用撇号"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "正确使用撇号: 1.在表示所有格时与“s”一同使用撇号。 2.在缩写由两个词组成的词组时使用撇号。 3.在引语内再次出现引语时使用单引号。 4.不要使用“'s”来把单数名词变成复数。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用撇号",
+            "在表示所有格时与“s”一同使用撇号。",
+            "在缩写由两个词组成的词组时使用撇号。",
+            "在引语内再次出现引语时使用单引号。",
+            "不要使用“'s”来把单数名词变成复数。"
+        ],
+        "grounding_id": [
+            "92",
+            "93",
+            "100",
+            "104",
+            "107"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不要使用“'s”来把单数名词变成复数，能举例说明下吗？",
+        "act": "verification",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "不要使用“'s”来把单数名词变成复数。"
+        ],
+        "grounding_id": [
+            "107"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "以下是撇号的正确使用方法和错误使用方法：CORRECT-apple→apples（正确使用：apple→apples）INCORRECT-apple→apple's（错误使用：apple→apple's)",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "以下是撇号的正确使用方法和错误使用方法：CORRECT-apple→apples（正确使用：apple→apples）INCORRECT-apple→apple's（错误使用：apple→apple's)"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何正确使用句尾标点？",
+        "act": "how",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用句尾标点"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "正确使用句尾标点: 1.在陈述句结尾使用句点（句号）。 2.在问题的结尾使用问号。 3.在感叹句结尾使用感叹号。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "正确使用句尾标点",
+            "在陈述句结尾使用句点（句号）。",
+            "在问题的结尾使用问号。",
+            "在感叹句结尾使用感叹号。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "19",
+            "22"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在问题的结尾使用问号，这点能具体解释下吗？",
+        "act": "verification",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "在问题的结尾使用问号。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在句尾使用问号（“?”）表示这是一个疑问句，即，一个问题。在你的提问、疑问和询问句的结尾使用这一标点。",
+        "act": "ans/open",
+        "document": "教育与交流_如何正确使用英文标点.json",
+        "grounding": [
+            "在句尾使用问号（“?”）表示这是一个疑问句，即，一个问题。在你的提问、疑问和询问句的结尾使用这一标点。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "还有个问题，如何如何计算梯形的周长？",
+        "act": "how",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "如何计算梯形的周长"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有3种方法：已知梯形的高、两条侧边长和上底边边长，已知两条侧边长和上、下底边长，已知梯形的高、上底边长和底部内夹角角度，您想学习哪个？",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "可选方法",
+            "已知梯形的高、两条侧边长和上底边边长"
+        ],
+        "grounding_id": [
+            "3",
+            "12"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "先说下已知梯形的高、两条侧边长和上底边边长的计算方法吧。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知梯形的高、两条侧边长和上底边边长"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "已知梯形的高、两条侧边长和上底边边长: 1.将梯形分割成一个矩形和两个直角三角形。 2.画出梯形的高。 3.标出底边中央部分的长度，也就是分割得到的矩形的底边。 4.写出勾股定理的公式，来计算第一个直角三角形的边长。 5.将第一个三角形里已知的信息、数据带入公式里。 6.计算等式里已知数值的平方。 7.开方运算，得到b{\\displaystyleb}的值。 8.求出第二个直角三角形中未知长度的边长。 9.将梯形的所有边长相加。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知梯形的高、两条侧边长和上底边边长",
+            "将梯形分割成一个矩形和两个直角三角形。",
+            "画出梯形的高。",
+            "标出底边中央部分的长度，也就是分割得到的矩形的底边。",
+            "写出勾股定理的公式，来计算第一个直角三角形的边长。",
+            "将第一个三角形里已知的信息、数据带入公式里。",
+            "计算等式里已知数值的平方。",
+            "开方运算，得到b{\\displaystyleb}的值。",
+            "求出第二个直角三角形中未知长度的边长。",
+            "将梯形的所有边长相加。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "16",
+            "19",
+            "22",
+            "24",
+            "27",
+            "30",
+            "36",
+            "39"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "画出梯形的高这一步，能举例讲一下吗？",
+        "act": "verification",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "画出梯形的高。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "例如，如果梯形的高为6厘米，那么你从上底边上的每个顶点向底边做垂线，得到的垂线长为6厘米。在垂线上标出高的长度，也就是6cm。",
+        "act": "ans/yes",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "例如，如果梯形的高为6厘米，那么你从上底边上的每个顶点向底边做垂线，得到的垂线长为6厘米。在垂线上标出高的长度，也就是6cm。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "已知两条侧边长和上、下底边长的计算方法是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知两条侧边长和上、下底边长"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "已知两条侧边长和上、下底边长: 1.写出梯形的周长公式。 2.将每条边的边长带入公式。 3.将各边长相加，就能得到梯形的周长。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "已知两条侧边长和上、下底边长",
+            "写出梯形的周长公式。",
+            "将每条边的边长带入公式。",
+            "将各边长相加，就能得到梯形的周长。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "10"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "梯形的周长公式是什么？",
+        "act": "what",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "写出梯形的周长公式。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "周长公式是P=T+B+L+R{\\displaystyleP=T+B+L+R}，其中P{\\displaystyleP}代表梯形的周长，变量T{\\displaystyleT}是梯形上底边的边长，变量B{\\displaystyleB}是梯形下底边的边长（在梯形中，平行的两条边是梯形的底边，短的一条是上底边，长的是下底边）。L{\\displaystyleL}是梯形左侧的侧边长，R{\\displaystyleR}是梯形右侧的侧边长。以下公式里所有的P都代指周长，不再做中文注明。",
+        "act": "ans/open",
+        "document": "教育与交流_如何计算梯形的周长.json",
+        "grounding": [
+            "周长公式是P=T+B+L+R{\\displaystyleP=T+B+L+R}，其中P{\\displaystyleP}代表梯形的周长，变量T{\\displaystyleT}是梯形上底边的边长，变量B{\\displaystyleB}是梯形下底边的边长（在梯形中，平行的两条边是梯形的底边，短的一条是上底边，长的是下底边）。L{\\displaystyleL}是梯形左侧的侧边长，R{\\displaystyleR}是梯形右侧的侧边长。以下公式里所有的P都代指周长，不再做中文注明。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

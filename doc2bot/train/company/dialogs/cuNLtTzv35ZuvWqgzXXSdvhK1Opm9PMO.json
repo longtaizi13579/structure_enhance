@@ -1,0 +1,248 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在宁波开一家分公司，要怎么办理？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是母公司法人还是子公司法人？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是母公司法人。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请带上您的身份证原件与合伙人合同在宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼商事登记区E2026-E2038办理即可。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理地点",
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼商事登记区E2026-E2038"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是我朋友说我不符合.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》，是否可以给我继续办理呢？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "2.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》相关规定。"
+        ],
+        "grounding_id": [
+            "286"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以继续办理，因为.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》相关规定。是我们受理条件中的一条。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "受理条件",
+            "2.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》相关规定。"
+        ],
+        "grounding_id": [
+            "134",
+            "286"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我过来办理这个费用能公对公转账吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "270"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "抱歉，我们现在不支持线上转账。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "276"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那么开分公司要收多少费用呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "设立分公司不收取任何费用。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "272"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "原来是这样，我想电话咨询一下申请条件中的公共安全性这一条是怎么回事？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的咨询电话为0574-87185566。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "咨询电话",
+            "0574-87185566"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "多久能办理好呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是想查询申请办理日还是结算工作日呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "就是想知道多久能办理下来。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们会在20个工作日出相关结果。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我分公司的法人不在宁波，还有什么方式能够办理？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "T7"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "我们有四种方式办理，网上申请、现场窗口申请、邮寄申请、现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    }
+]

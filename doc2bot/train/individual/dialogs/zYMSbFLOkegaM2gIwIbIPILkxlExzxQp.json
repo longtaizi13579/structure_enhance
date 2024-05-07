@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江绍兴免检机动车申请纸质检验合格标志的相关信息",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "T7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解什么方面呢？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "免检机动车申请纸质检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是根据机动车登记规定（公安部124号令），您还需要了解依据文号，颁布机关，实施日期和条款内容吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，我想知道实施的日期是什么时候",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是2012年9月12日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_免检机动车申请纸质检验合格标志.json",
+        "grounding": [
+            "2012-09-12"
+        ],
+        "grounding_id": [
+            "325"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那如果是机动车因质量问题退车注销登记的话可以申请一次以上吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "146",
+            "147"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以，通常1辆机动车只能申请1次。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1辆机动车只能申请1次。"
+        ],
+        "grounding_id": [
+            "148"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果申请之前有交通违法行为可以申请吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（二）机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕。"
+        ],
+        "grounding_id": [
+            "329"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕就可以申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（二）机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕。"
+        ],
+        "grounding_id": [
+            "329"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那被盗抢的机动车可以申请吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（三）机动车属于被盗抢的；"
+        ],
+        "grounding_id": [
+            "331"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "机动车属于被盗抢的话是在禁止性要求之中的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "禁止性要求",
+            "（三）机动车属于被盗抢的；"
+        ],
+        "grounding_id": [
+            "151",
+            "331"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那办理的话应该去哪里？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号（1至5号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号（1至5号窗口）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想知道一下制证的办理结果",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "制证",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "295",
+            "300"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "签注机动车登记证书，核发机动车行驶证，核发检验合格标志",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "签注机动车登记证书，核发机动车行驶证，核发检验合格标志 "
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    }
+]

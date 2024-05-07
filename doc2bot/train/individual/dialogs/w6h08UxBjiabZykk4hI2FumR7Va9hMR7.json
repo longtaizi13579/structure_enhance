@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江衢州市这边的，前段时间做了计生手术，最近感觉不太舒服，想问一下可以去做一下复查吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "浙江省_衢州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "1",
+            "T5",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "哦，针对您这种情况，建议您先去做一下并发症鉴定，先了解一下情况再说，您觉得呢？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以啊，那这个鉴定要多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是60个工作日以内",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那再问一下办这个鉴定可以在自助机器上办理么？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不支持的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "做这个鉴定的话，要收钱么？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    }
+]

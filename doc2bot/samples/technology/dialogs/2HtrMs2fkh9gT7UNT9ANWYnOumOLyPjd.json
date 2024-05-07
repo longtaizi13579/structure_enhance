@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我朋友要我在iPad上拍摄截屏，我想问一下这是什么意思？",
+        "act": "what",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "就是快速存储屏幕上的内容的意思。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "快速存储屏幕上的内容。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可是我想要在支持ApplePencil的iPad机型上拍摄截屏咋办？",
+        "act": "how",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "要在支持ApplePencil的iPad机型上拍摄截屏，您可以从iPad屏幕任意一侧的底部边角轻扫ApplePencil。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以从iPad屏幕任意一侧的底部边角轻扫ApplePencil。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "要在支持ApplePencil的iPad机型上拍摄截屏，您可以从iPad屏幕任意一侧的底部边角轻扫ApplePencil。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那需要如何在iPad上拍摄截屏呢？",
+        "act": "how",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先要知道你的iPad是否配备主屏幕按钮呢？",
+        "act": "ans/yesno",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，配备主屏幕按钮。",
+        "act": "ans/yes",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那您需要首先同时按下顶部按钮和主屏幕按钮。然后快速松开这两个按钮。最后拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "同时按下顶部按钮和主屏幕按钮。",
+            "快速松开这两个按钮。",
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "缩略图可以进行点击吗？",
+        "act": "verification",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "轻点缩略图可将它打开，或向左轻扫可将它关闭。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我朋友的没有主屏幕按钮需要如何拍摄截屏？",
+        "act": "how",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "如何在没有主屏幕按钮的iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先同时按下顶部按钮和任一音量按钮*。然后快速松开这两个按钮。最后拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "同时按下顶部按钮和任一音量按钮*。",
+            "快速松开这两个按钮。",
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]

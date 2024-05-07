@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省台州市转入换领机动车驾驶证是收费的吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "行驶证驾驶证",
+            "转入换领机动车驾驶证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T89",
+            "1",
+            "360"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "361"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那具体是怎么样收费的呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "368"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "收费标准为一本十元",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "369"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，如果申请的话有没有次数上的限制啊？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "141",
+            "142"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "没有的",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "143"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那就好，申请完之后就可以办理是吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，您需要满足我们的受理条件才能办理的",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "受理条件（一）申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形； （二）不具有道路交通安全违法行为、交通事故未处理完毕的情形。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件",
+            "（一）申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形；\n",
+            "（二）不具有道路交通安全违法行为、交通事故未处理完毕的情形。 温馨提示：属于同时申请有效期满换证、达到规定年龄换证和因身体条件变化降低准驾车型换证的，申请人需到具备条件的医疗机构体检。"
+        ],
+        "grounding_id": [
+            "144",
+            "145",
+            "380"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，只要满足这些条件就行是吧？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，但是如果您属于同时申请有效期满换证、达到规定年龄换证和因身体条件变化降低准驾车型换证的，申请人需到具备条件的医疗机构体检",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "（二）不具有道路交通安全违法行为、交通事故未处理完毕的情形。 温馨提示：属于同时申请有效期满换证、达到规定年龄换证和因身体条件变化降低准驾车型换证的，申请人需到具备条件的医疗机构体检。"
+        ],
+        "grounding_id": [
+            "380"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那我大概多长时间能收到呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "基本自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "10个工作日是包括办理的那天吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的，办理时间有法定办结时限",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那这个法定办结时限是多长？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

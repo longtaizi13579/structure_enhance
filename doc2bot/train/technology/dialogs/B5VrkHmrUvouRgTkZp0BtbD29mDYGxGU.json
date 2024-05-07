@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么查找iPhone、iPad和iPodtouch的备份呢",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找iPhone、iPad和iPodtouch的备份"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想查找的备份在什么位置呢",
+        "act": "question/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在装有macOSMojave或更低版本的Mac上或者在PC上："
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在装有macOSMojave或更低版本的Mac上或者在PC上应该怎么操作",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在装有macOSMojave或更低版本的Mac上或者在PC上："
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开iTunes。点按您的设备，然后选取“偏好设置”，然后点按“设备”，完成后，点按“好”。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "打开iTunes。点按您的设备。",
+            "选取“偏好设置”，然后点按“设备”。在这里，您可以右键点按所需的备份，然后选取“在访达中显示”，也可以选择“删除”或“归档”。",
+            "完成后，点按“好”。"
+        ],
+        "grounding_id": [
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "点按“设备”之后怎么做呢",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "选取“偏好设置”，然后点按“设备”。在这里，您可以右键点按所需的备份，然后选取“在访达中显示”，也可以选择“删除”或“归档”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在这里，您可以右键点按所需的备份，然后选取“在访达中显示”，也可以选择“删除”或“归档”。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "选取“偏好设置”，然后点按“设备”。在这里，您可以右键点按所需的备份，然后选取“在访达中显示”，也可以选择“删除”或“归档”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是想在Windows8或10上搜索备份文件夹的话怎么办呢",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在Windows8或10上搜索备份文件夹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先查找搜索栏，然后在搜索栏中输入%appdata%，接着按下Return键，最后按文件夹",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找搜索栏：",
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。",
+            "按下Return键。",
+            "连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。"
+        ],
+        "grounding_id": [
+            "35",
+            "39",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在搜索栏中输入%appdata%之后如果看不到备份怎么办",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果看不到备份，请输入%USERPROFILE%。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那文件夹是怎么按照什么顺序按呢",
+        "act": "what",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "拷贝“备份”文件夹之后可以将其移动到其他文件夹吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。",
+        "act": "ans/no",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想询问一下如何更改我的AppleID密码？",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "更改您的AppleID密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想询问在 iPhone、iPad、iPod touch 或 Apple Watch 上还是在mac上还是在网页上呢？",
+        "act": "multiple-choice",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在网页上"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先给我讲一下在网页上具体需要如何操作吧？",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在网页上"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先登录appleid.apple.com 在“登录和安全”部分中，点按“密码”.然后输入当前密码，然后输入新密码并确认新密码。忘记了密码？再点按“更改密码”。最后使用新的AppleID密码登录，以访问各项Apple功能和服务。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "登录appleid.apple.com。",
+            "在“登录和安全”部分中，点按“密码”。",
+            "输入当前密码，然后输入新密码并确认新密码。忘记了密码？",
+            "点按“更改密码”。",
+            "使用新的AppleID密码登录，以访问各项Apple功能和服务。"
+        ],
+        "grounding_id": [
+            "25",
+            "29",
+            "30",
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那你刚才说的在iPhone、iPad、iPodtouch或AppleWatch上又如何操作呢?",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或AppleWatch上"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先轻点“设置”>“[您的姓名]”>“密码与安全性” 轻点“更改密码”。然后输入当前密码或设备密码，然后输入新密码并确认新密码。忘记了密码？再轻点“更改”或“更改密码”。最后使用新的AppleID密码登录，以访问各项Apple功能和服务。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "轻点“设置”>“[您的姓名]”>“密码与安全性”。",
+            "轻点“更改密码”。",
+            "输入当前密码或设备密码，然后输入新密码并确认新密码。忘记了密码？",
+            "轻点“更改”或“更改密码”。",
+            "使用新的AppleID密码登录，以访问各项Apple功能和服务。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我感觉我还是有些了解的不够透彻,我还想进一步了解密码和AppleID可以吗?",
+        "act": "verification",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "进一步了解密码和AppleID"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我可以跟你说一下您的AppleID是您用来访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "您的AppleID是您用来访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "前面一共三种方式都说完了,最后一种在Mac上也跟我说一下具体的操作步骤吧?",
+        "act": "what",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的,首先选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。再点按“密码与安全性”。最后点按“更改密码”。您需要先输入Mac的解锁密码，然后才能重设AppleID密码。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。",
+            "点按“密码与安全性”。",
+            "点按“更改密码”。您需要先输入Mac的解锁密码，然后才能重设AppleID密码。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    }
+]

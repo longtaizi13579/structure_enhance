@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我怀孕时生病了，医生给我用替加环素，能用吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "医学主题",
+            "替加环素"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是其他药物用了不起作用吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "该药物对许多耐药细菌（包括对四环素类耐药的细菌）有效。但是，替加环素的死亡风险高于其它抗生素。因此，只有当没有替代方案可用时，才可使用替加环素。替加环素通过静脉给药。",
+            "替加环素"
+        ],
+        "grounding_id": [
+            "9",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你其他药用了没效果，又没有其他替代方案，只能使用替加环素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "该药物对许多耐药细菌（包括对四环素类耐药的细菌）有效。但是，替加环素的死亡风险高于其它抗生素。因此，只有当没有替代方案可用时，才可使用替加环素。替加环素通过静脉给药。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那对胎儿有什么影响吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "在妊娠和哺乳期间使用替加环素"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可能会对胎儿的牙齿和骨骼发育产生有害影响。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "妊娠期间服用替加环素，类似四环素类一样，可能对胎儿的牙齿和骨骼发育产生有害影响，但有时治疗的益处可能超过风险。（也请参见妊娠期用药。）"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为什么其他抗生素没有效果，只能用这个呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "因为替加环素通过阻止细菌产生其生长和繁殖所需要的蛋白质起作用。所以这个药对许多耐药细菌有效。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_替加环素.json",
+        "grounding": [
+            "替加环素通过阻止细菌产生其生长和繁殖所需要的蛋白质起作用。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

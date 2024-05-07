@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一些人体知识，可以吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "人体"
+        ],
+        "grounding_id": [
+            "T2480"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想了解那一方面？细胞解剖学？分子解剖学？还是什么？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "细胞解剖学研究细胞及其组成部分，此类结构只能使用特殊技术和特殊仪器（如显微镜）来观察。",
+            "分子解剖学（通常称为分子生物学）是从生物化学水平上对细胞的最小组成进行研究。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说说细胞解剖学研究啥的？",
+        "act": "what",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "细胞解剖学研究细胞及其组成部分，此类结构只能使用特殊技术和特殊仪器（如显微镜）来观察。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "细胞解剖学研究细胞及其组成部分，此类结构只能使用特殊技术和特殊仪器（如显微镜）来观察。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "细胞解剖学研究细胞及其组成部分，此类结构只能使用特殊技术和特殊仪器（如显微镜）来观察。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那人体生物学包括啥？",
+        "act": "what",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "人体生物学包括"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "人体生物学包括生理学（身体如何发挥功能）和 解剖学（身体是如何构成的）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_基本知识_人体_人体简介.json",
+        "grounding": [
+            "人体生物学包括",
+            "生理学（身体如何发挥功能）",
+            "解剖学（身体是如何构成的）"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    }
+]

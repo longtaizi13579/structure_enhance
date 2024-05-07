@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江金华设立外商合伙企业登记是依据啥管理办法来的？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "浙江省_金华市",
+            "外商投资合伙企业分支机构设立登记"
+        ],
+        "grounding_id": [
+            "T9",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想问关于外商投资合伙企业分支机构的设立依据吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "外商投资合伙企业分支机构设立登记",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "292"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的。",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "《中华人民共和国合伙企业登记管理办法(2019修订)》是我们的设定依据。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "设定依据",
+            "中华人民共和国合伙企业登记管理办法(2019修订)"
+        ],
+        "grounding_id": [
+            "292",
+            "293"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，我还记得你们这个是不是可以网上支付的来着？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理外商合伙企业登记是不用收费的，所以也不存在支持网上支付的说法呢。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不收费？你确定办理外商合伙企业登记不用收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "是否收费",
+            "外商投资合伙企业分支机构设立登记"
+        ],
+        "grounding_id": [
+            "303",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "嗯嗯，是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "304"
+        ]
+    }
+]

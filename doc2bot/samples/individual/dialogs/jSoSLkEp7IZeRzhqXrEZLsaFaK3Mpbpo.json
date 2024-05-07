@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想了解下关于浙江省到台湾出入境签注的事项。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T10",
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，去台湾的签注有赴台定居签注， 赴台其他签注和赴台乘务签注，你是想了解哪个啊？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问的就是赴台定居签注，想了解下这个的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在办理的时候遇到问题怎么办，你有没有投诉电话？告诉我下。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果有问题，可以打0574-12345这个电话投诉。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，你在告诉我个宁波市可以去投诉的地址，不行我好去现场问。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "T10",
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，你记下地址是在宁波市鄞州区北明程路788号9061室。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "宁波市鄞州区北明程路788号9061室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个可以在什么时间进行办理啊？别我去的时候工作人员还没上班。",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "上班时间是在工作日上午：9：00—12：00；下午：13：30—17:00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "工作日上午：9：00—12：00；下午：13：30—17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

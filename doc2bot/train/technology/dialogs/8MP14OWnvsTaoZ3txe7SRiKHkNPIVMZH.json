@@ -1,0 +1,328 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，我的照片流有什么作用？",
+        "act": "what",
+        "document": "我的照片流.json",
+        "grounding": [
+            "我的照片流"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "使用“我的照片流”，您可以访问最近使用iPhone、iPad或iPodtouch拍摄的照片或者从Mac或PC上传的照片。",
+        "act": "ans/open",
+        "document": "我的照片流.json",
+        "grounding": [
+            "使用“我的照片流”，您可以访问最近使用iPhone、iPad或iPodtouch拍摄的照片或者从Mac或PC上传的照片。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我可以用我的照片流吗？",
+        "act": "verification",
+        "document": "我的照片流.json",
+        "grounding": [
+            "可在设备上使用“我的照片流”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是否具备以下条件：装有iOS5.1或更高版本的iPhone、iPad或iPodtouch；装有OSXLion10.7.5或更高版本和“照片”App的Mac；装有AppletvOS5.0或更高版本的AppleTVHD或AppleTV（第2代或第3代）；装有Windows7和Windows版iCloud的PC。",
+        "act": "verification",
+        "document": "我的照片流.json",
+        "grounding": [
+            "所需条件",
+            "可在设备上使用“我的照片流”",
+            "装有iOS5.1或更高版本的iPhone、iPad或iPodtouch",
+            "装有OSXLion10.7.5或更高版本和“照片”App的Mac",
+            "装有AppletvOS5.0或更高版本的AppleTVHD或AppleTV（第2代或第3代）",
+            "装有Windows7和Windows版iCloud的PC"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "8",
+            "9",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个我都具备。",
+        "act": "ans/yes",
+        "document": "我的照片流.json",
+        "grounding": [
+            "装有iOS5.1或更高版本的iPhone、iPad或iPodtouch",
+            "装有OSXLion10.7.5或更高版本和“照片”App的Mac",
+            "装有AppletvOS5.0或更高版本的AppleTVHD或AppleTV（第2代或第3代）",
+            "装有Windows7和Windows版iCloud的PC"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您可以在设备上使用“我的照片流”。",
+        "act": "ans/yes",
+        "document": "我的照片流.json",
+        "grounding": [
+            "可在设备上使用“我的照片流”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问一些关于“我的照片流”的常见问题？",
+        "act": "what",
+        "document": "我的照片流.json",
+        "grounding": [
+            "关于“我的照片流”的常见问题"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解：我能否使用“我的照片流”来备份照片，而不使用“iCloud云备份”或iTunes？  “我的照片流”中照片的分辨率如何？我的照片什么时候会上传到“我的照片流”？ 还是其它？",
+        "act": "multiple-choice",
+        "document": "我的照片流.json",
+        "grounding": [
+            "我的照片什么时候会上传到“我的照片流”？"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想问下，如何在PC上将照片上传到“我的照片流”？",
+        "act": "what",
+        "document": "我的照片流.json",
+        "grounding": [
+            "我的照片什么时候会上传到“我的照片流”？"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要在PC上将照片上传到“我的照片流”，请按照以下步骤操作： 首先，点按Windows“开始”按钮，然后点按“图片”。 然后，选择左侧面板中“收藏夹”菜单下的“iCloudPhotos”。 接着，点按“上传照片”。 最后，选择要添加到“我的照片流”中的照片，然后点按“打开”。",
+        "act": "ans/open",
+        "document": "我的照片流.json",
+        "grounding": [
+            "要在PC上将照片上传到“我的照片流”，请按照以下步骤操作：",
+            "点按Windows“开始”按钮，然后点按“图片”。",
+            "选择左侧面板中“收藏夹”菜单下的“iCloudPhotos”。",
+            "点按“上传照片”。",
+            "选择要添加到“我的照片流”中的照片，然后点按“打开”。"
+        ],
+        "grounding_id": [
+            "64",
+            "65",
+            "66",
+            "67",
+            "68"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想咨询下从iCloud“文稿与数据”升级到iCloud云盘的相关问题？",
+        "act": "what",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "如何从iCloud“文稿与数据”升级到iCloud云盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想了解什么是iCloud云盘？还是如何设置iCloud云盘？",
+        "act": "multiple-choice",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "如何设置iCloud云盘"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想了解下如何设置iCloud云盘。",
+        "act": "ans/open",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "如何设置iCloud云盘"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "那您是想了解在Mac上设置，还是在iCloud.com上设置？",
+        "act": "multiple-choice",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想了解下在Mac上如何设置？",
+        "act": "how",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤: 首先，前往苹果菜单>“系统偏好设置”，然后点按“AppleID”。 然后，选择“iCloud”。 接着，根据需要用您的AppleID登录。 最后，选择“iCloud云盘”。",
+        "act": "ans/open",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "具体步骤",
+            "前往苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更早的版本，则无需点按“AppleID”。",
+            "选择“iCloud”。",
+            "根据需要用您的AppleID登录。",
+            "选择“iCloud云盘”。"
+        ],
+        "grounding_id": [
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我使用的是macOSMojave版本，第一步怎么操作？",
+        "act": "how",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "前往苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更早的版本，则无需点按“AppleID”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您使用的是macOSMojave或更早的版本，则无需点按“AppleID”。",
+        "act": "ans/open",
+        "document": "如何从iCloud“文稿与数据”升级到iCloud云盘.json",
+        "grounding": [
+            "前往苹果菜单>“系统偏好设置”，然后点按“AppleID”。如果您使用的是macOSMojave或更早的版本，则无需点按“AppleID”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我还想问一下，如何打开“iCloud照片”？",
+        "act": "how",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "设置和使用“iCloud照片”",
+            "打开“iCloud照片”"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上: 首先，前往“设置”>“[您的姓名]”。然后，轻点“iCloud”。最后，轻点“照片”，然后打开“iCloud照片”。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上",
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“iCloud”。",
+            "轻点“照片”，然后打开“iCloud照片”。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "iCloud照片有什么作用？",
+        "act": "what",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

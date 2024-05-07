@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下什么情况下，AppleWatch的“查找”和激活锁会自动打开？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁",
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果已启用激活锁，我输入我的AppleID和密码后，可以进行哪些操作？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "当您在配对的iPhone上设置“查找我的iPhone”时，AppleWatch的“查找”和激活锁会自动打开。如果已启用激活锁，任何人都必须输入您的AppleID和密码才能进行以下操作："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "取消AppleWatch与iPhone的配对；将AppleWatch与新的iPhone配对并搭配使用；在您的设备上关闭“查找”。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "取消AppleWatch与iPhone的配对。",
+            "将AppleWatch与新的iPhone配对并搭配使用。",
+            "在您的设备上关闭“查找”。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "AppleWatch上的激活锁的作用是什么？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "关于AppleWatch上的激活锁，我需要特别注意什么？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁",
+            "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您只需使“查找”保持打开状态，并牢记您的AppleID和密码。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "这可帮助您确保设备安全，即使设备落入他人之手也能安然无虞，而且还提高了找回设备的几率。即使您远程抹掉您设备上的数据，激活锁仍可以继续阻止他人在未经您允许的情况下重新激活您的设备。您只需使“查找”保持打开状态，并牢记您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "激活锁”的功能是什么？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

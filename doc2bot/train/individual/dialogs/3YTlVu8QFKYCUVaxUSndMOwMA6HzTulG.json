@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶驾驶",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T16",
+            "T11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证有关的问题",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是驾驶证延期审验、达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "驾驶证延期审验这个业务有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "嘉兴市南湖区南江路1626号长水路口嘉兴市公安局交通警察支队车辆管理所1号楼1楼",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "嘉兴市南湖区南江路1626号长水路口嘉兴市公安局交通警察支队车辆管理所1号楼1楼；"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个业务的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "213"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "214",
+            "216",
+            "225",
+            "234",
+            "243"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "受理需要多长时间？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "216",
+            "217"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "立即受理",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "218"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那受理是谁负责？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "受理",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "216",
+            "219"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "受理岗工作人员",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "受理岗"
+        ],
+        "grounding_id": [
+            "220"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是否受理是什么标准决定的？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "受理",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "216",
+            "221"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "公安交管部门根据申请人提交的材料，决定是否受理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "公安交管部门根据申请人提交的材料，决定是否受理。"
+        ],
+        "grounding_id": [
+            "222"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个业务的办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下台湾通行证的办理可以在自助终端办理直接办理吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T240",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您是在哪个地方办理台湾通行证呢？浙江吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，宁波的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那请问是办理赴台乘务签注 ，赴台其他签注 还是赴台定居签注呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "赴台乘务签注，不太清楚这个名字哈。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这边了解道德是暂不支持自助终端办理赴台乘务签注。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "啊这，好吧，那我去办理的话，办好了几天内会得到消息呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是不是2天就可以办好了？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不是的，会在30个工作日办结，好了之后2个工作日内告知结果。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "差点搞混了，不好意思。能不能给个咨询电话给我？我想自己问一下。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您记一下，号码是0574-87758210。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "0574-87758210"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "以防万一电话打不通，地址也顺便告诉一下吧。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，地址是宁波市鄞州区宁穿路1901号D2001号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "宁波市鄞州区宁穿路1901号D2001号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "谢谢，对了我想再问一下，办理赴台乘务咋收费的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "1\t赴台乘务",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "394",
+            "395"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台乘务多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "396"
+        ]
+    }
+]

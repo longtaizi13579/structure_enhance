@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，如果iPad上的麦克风无法正常工作怎么办？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以清洁麦克风处理。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "具体怎么做呢？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "清洁麦克风:首先清除iPad上的屏幕保护膜、保护膜或保护壳。 最后清除iPad开口处的所有碎屑。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风",
+            "清除iPad上的屏幕保护膜、保护膜或保护壳。",
+            "清除iPad开口处的所有碎屑。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "清除iPad开口处的什么？",
+        "act": "what",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清除iPad开口处的所有碎屑。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": " 清除iPad开口处的所有碎屑。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清除iPad开口处的所有碎屑。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果AppleTV遥控器无法正常工作，怎么办？",
+        "act": "what",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果AppleTV遥控器无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你是SiriRemote或AppleTVRemote？",
+        "act": "multiple-choice",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "SiriRemote或AppleTVRemote"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "AppleTVRemote",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "SiriRemote或AppleTVRemote"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤: 首先同时按住“TV/控制中心”按钮和“调低音量”按钮。按住按钮约5秒钟，或者等待AppleTV状态指示灯关闭并再次亮起。 其次松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。 最后在遥控器重新启动后，您的TV屏幕上将显示一条“已连接”通知。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "具体步骤",
+            "同时按住“TV/控制中心”按钮和“调低音量”按钮。按住按钮约5秒钟，或者等待AppleTV状态指示灯关闭并再次亮起。",
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。",
+            "在遥控器重新启动后，您的TV屏幕上将显示一条“已连接”通知。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "松开按钮后会怎么样？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "松开按钮，然后等待5到10秒钟。您的TV屏幕上将显示一条“连接中断”通知。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果遥控器仍无法正常使用呢？",
+        "act": "how",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果遥控器仍无法正常使用，请尝试以下步骤："
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果遥控器仍无法正常使用，请尝试以下步骤：: 首先将遥控器指向AppleTV。确保遥控器与AppleTV之间的距离约为3英寸。 其次.按住“返回”或“MENU”（菜单）和“调高音量”5秒钟。 最后如果系统提示，请将遥控器放在AppleTV的顶部以完成配对。",
+        "act": "ans/open",
+        "document": "如果AppleTV遥控器无法正常工作.json",
+        "grounding": [
+            "如果遥控器仍无法正常使用，请尝试以下步骤：",
+            "将遥控器指向AppleTV。确保遥控器与AppleTV之间的距离约为3英寸。",
+            "按住“返回”或“MENU”（菜单）和“调高音量”5秒钟。",
+            "如果系统提示，请将遥控器放在AppleTV的顶部以完成配对。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果Siri没有响应呢？",
+        "act": "how",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "如果Siri没有响应"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "默认情况下，只要没有在“设置”>“辅助功能”>“Siri”中打开“始终用‘嘿Siri’唤醒”，那么当设备屏幕朝下或被挡住时，Siri不会响应。",
+        "act": "ans/open",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "默认情况下，只要没有在“设置”>“辅助功能”>“Siri”中打开“始终用‘嘿Siri’唤醒”，那么当设备屏幕朝下或被挡住时，Siri不会响应。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

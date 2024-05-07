@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问变更机动车共同所有人的结果多久能送到啊？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "机动车",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T17",
+            "122"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）还是机动车所有人住所迁入车辆管理所管辖区域变更登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是前面那个，多长时间能送到？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "送达时限",
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）"
+        ],
+        "grounding_id": [
+            "122",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "基本在自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，还挺快的，那不用去那个自助机器那儿办吧？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们目前还不支持自助终端办理的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，如果超过两天还没有收到是可以投诉的吧？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，我可以为您提供投诉电话、投诉地址、投诉网址",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0570-12345",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "0570-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那具体的投诉地址在哪儿呢？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉地址位于衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "衢州市公安局交通警察支队车辆管理所(衢州市衢江区樟潭街道三衢路1079号)一楼1-14号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，过去就直接能办理啊？不需要再等？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，当天就能办理",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那有没有办理地点的联系电话呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有的，如果您需要的话我可以为您提供",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好，那给我一下吧",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0570-5667929",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "0570-5667929"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    }
+]

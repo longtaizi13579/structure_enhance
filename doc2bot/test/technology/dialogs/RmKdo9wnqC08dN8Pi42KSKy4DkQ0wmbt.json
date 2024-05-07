@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，想要用AppleID查找AppleTV的序列号该怎么办？",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查找AppleTV的序列号",
+            "使用您的AppleID查找序列号",
+            "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在电脑上的AppleID帐户页面查找AppleTV的序列号具体该怎么操作？",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你需要1.前往appleid.apple.com，然后使用您用于AppleTV的AppleID登录。 2.向下滚动到名为“设备”的部分。 3.选择您的AppleTV。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "前往appleid.apple.com，然后使用您用于AppleTV的AppleID登录。",
+            "向下滚动到名为“设备”的部分。",
+            "选择您的AppleTV。"
+        ],
+        "grounding_id": [
+            "11",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在注册AppleTV或请求获得支持时是不是需要提供序列号？",
+        "act": "verification",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "注册AppleTV或请求获得支持时，可能需要提供序列号。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，注册AppleTV或请求获得支持时，可能需要提供序列号。",
+        "act": "ans/yes",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "注册AppleTV或请求获得支持时，可能需要提供序列号。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果在AppleTV上看到警告符号该怎么恢复AppleTV？",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号",
+            "恢复AppleTV"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那请问你使用的是AppleTV4K还是AppleTVHD或更早机型？",
+        "act": "multiple-choice",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTVHD或更早机型"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果是AppleTVHD该怎么办？",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTVHD或更早机型"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那你需要1.从AppleTV上拔下HDMI线缆和电源线。 2.在AppleTVHD的背面，接入USB-C连接线。 3.将USB-C或Micro-USB连接线的另一端插入电脑上的USB端口。 4.对于AppleTV（HD或第3代），请插入电源线。 5.如果使用的是Mac，请打开“访达”窗口。如果使用的是PC，请打开最新版本的iTunes。 6.在设备显示在电脑上时，将它选中。 7.点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。8.在AppleTV完成恢复后，请拔下USB-C或Micro-USB连接线及电源线（如果已连接）。然后将HDMI线缆和电源线重新连接到AppleTV。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "从AppleTV上拔下HDMI线缆和电源线。",
+            "在AppleTVHD的背面，接入USB-C连接线。对于AppleTV（第3代），请使用Micro-USB连接线。务必使用适合您所用机型的线缆，不得将闪电转USB连接线接入您的AppleTV。",
+            "将USB-C或Micro-USB连接线的另一端插入电脑上的USB端口。",
+            "对于AppleTV（HD或第3代），请插入电源线。",
+            "如果使用的是Mac，请打开“访达”窗口。如果使用的是PC，请打开最新版本的iTunes。",
+            "在设备显示在电脑上时，将它选中。",
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。",
+            "在AppleTV完成恢复后，请拔下USB-C或Micro-USB连接线及电源线（如果已连接）。然后将HDMI线缆和电源线重新连接到AppleTV。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "31",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "恢复AppleTV所需的时间要多久？",
+        "act": "when",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "恢复AppleTV所需的时间取决于您的互联网连接速度。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果使用的是AppleTV4K在尝试更新AppleTV上的软件时看到警告符号，还显示黑屏并且AppleTV正面的指示灯闪烁，要怎么解决？",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号",
+            "如果您使用的是AppleTV4K",
+            "如果您在尝试更新AppleTV上的软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV正面的指示灯闪烁，"
+        ],
+        "grounding_id": [
+            "1",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这种情况的话，请你联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那你告诉我下该如何识别AppleTV遥控器，就是AppleRemote（铝金属）你给我描述下呗？",
+        "act": "how",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "AppleRemote（铝金属）"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "它是银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：可用于任何AppleTV。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

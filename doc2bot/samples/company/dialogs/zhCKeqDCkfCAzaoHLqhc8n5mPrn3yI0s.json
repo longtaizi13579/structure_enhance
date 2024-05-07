@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江宁波外国人投资的企业登记审批需要多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "外商投资企业登记（设立）"
+        ],
+        "grounding_id": [
+            "T7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想知道浙江省宁波市外商投资企业登记法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "外商投资企业登记（设立）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，就是这个意思。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "浙江省宁波市外商投资企业登记法定办结时限为20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，这个登记的时候没有董事的身份证原件，但是有复印件可以吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "外商投资企业登记（设立）",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "1",
+            "136"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，您登记时只要有法定代表人、董事、监事和经理的任职文件及身份证明复印件就可以。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "法定代表人、董事、监事和经理的任职文件及身份证明复印件。"
+        ],
+        "grounding_id": [
+            "183"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，登记这个企业的时候要不要收钱啊？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "外商投资企业登记（设立）",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "323"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理外商投资企业登记是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那你们办这个登记的营业时间是啥时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "外商投资企业登记（设立）",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想问浙江省宁波市外商投资企业登记的办理时间吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "外商投资企业登记（设立）",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "外商投资企业登记的办理时间为工作日的上午9：00-12：00，下午13:30-17：00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "工作日，上午9：00-12：00，下午13:30-17：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我看你们这个不是当场就能办下来的，要是当天拿不了，选择寄快递，大概多久能到？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

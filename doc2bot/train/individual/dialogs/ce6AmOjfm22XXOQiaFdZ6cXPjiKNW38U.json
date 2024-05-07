@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下嘉兴有关机动车备案的事情。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪一个呢，机动车解除质押备案，机动车在车辆管理所管辖区域内转移登记 还是机动车因质量问题退车注销登记？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "机动车解除质押备案，我想了解这个办理需要几天时间？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结只有1个工作日即可。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "时间挺快的，那我可以去自助机办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "暂不支持呢。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那我帮我朋友问问，他那个车子有质量问题需要注销登记，可以手机上面直接办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "机动车因质量问题退车注销登记",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "1",
+            "101"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，机动车因质量问题退车注销登记可以通过完善申请和先吃窗口申请的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯嗯，他的办理时间也是1天吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "嗯，也是一个工作日即可。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那他那个申请条件有啥要注意的吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有3方面，数量限制，受理条件和禁止性要求。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "数量限制",
+            "受理条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "130",
+            "132",
+            "134"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我应该满足于什么样的受理条件呢?",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "申请条件",
+            "机动车因质量问题退车注销登记"
+        ],
+        "grounding_id": [
+            "129",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "满足已注册登记的机动车因质量问题退车的； 机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕，这两项条件就可以。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车因质量问题退车注销登记.json",
+        "grounding": [
+            "（二）机动车所有人申请注销登记前，应当将涉及该车的道路交通安全违法行为和交通事故处理完毕。",
+            " （五）机动车在抵押登记、质押备案期间的。",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "399",
+            "398",
+            "132"
+        ]
+    }
+]

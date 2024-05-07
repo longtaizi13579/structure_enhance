@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPodtouch上拨打和接听电话时，如何设置iPhone的蜂窝移动网络通话？",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在Mac、iPad或iPodtouch上拨打和接听电话",
+            "设置iPhone蜂窝移动网络通话"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在iPad或iPodtouch上，需要前往“设置”>“FaceTime通话”，然后打开“来自iPhone的通话”。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在iPad或iPodtouch上，前往“设置”>“FaceTime通话”，然后打开“来自iPhone的通话”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在Mac上拨打电话时，打开FaceTime通话应用后该怎么办？",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "拨打和接听电话",
+            "在Mac上拨打电话",
+            "或者打开FaceTime通话应用，在搜索栏中输入电话号码，然后点按“音频”。"
+        ],
+        "grounding_id": [
+            "19",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "打开FaceTime通话应用，然后在搜索栏中输入电话号码，再然后点按“音频”。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "或者打开FaceTime通话应用，在搜索栏中输入电话号码，然后点按“音频”。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "除了上面的办法，还可以怎样在Mac上拨打电话？",
+        "act": "how",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在Mac上拨打电话"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可以在“通讯录”、“日历”、Safari浏览器或其他会自动检测此类数据的应用中，将鼠标指针移到任何电话号码上。点按括起电话号码的方框中的箭头，然后选取“使用iPhone呼叫[电话号码]”。",
+        "act": "ans/open",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "在“通讯录”、“日历”、Safari浏览器或其他会自动检测此类数据的应用中，将鼠标指针移到任何电话号码上。点按括起电话号码的方框中的箭头，然后选取“使用iPhone呼叫[电话号码]”。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

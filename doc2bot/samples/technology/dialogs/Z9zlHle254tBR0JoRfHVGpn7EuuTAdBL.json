@@ -1,0 +1,94 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我买的都是雷劈的USB想联接MAC上的端口，我的MAC是2022年新买的，想来确认一下怎么弄呢？",
+        "act": "how",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "识别Mac上的端口",
+            "雷雳4(USB-C)",
+            "MacStudio（2022年机型）"
+        ],
+        "grounding_id": [
+            "1",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是可以使用的，雷雳4有三个版本配合使用，MacStudio（2022年机型）、MacBookPro（14英寸，2021年）、MacBookPro（16英寸，2021年）",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "以下Mac机型配备雷雳4(USB-C)端口：",
+            "MacStudio（2022年机型）",
+            "MacBookPro（14英寸，2021年）",
+            "MacBookPro（16英寸，2021年）"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "20",
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想解这些类型以及其他类型的Mac端口的相关信息有哪些？",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想查看您所用Mac的规格还是想了解端口出厂信息呢？",
+        "act": "multiple-choice",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解我所用Mac的规格，在哪里查看呢？",
+        "act": "what",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "如需了解这些类型以及其他类型的Mac端口的相关信息，请查看您所用Mac的规格："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号然后 前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。最后点按您的Mac对应的规格页面。",
+        "act": "ans/open",
+        "document": "识别Mac上的端口.json",
+        "grounding": [
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13"
+        ]
+    }
+]

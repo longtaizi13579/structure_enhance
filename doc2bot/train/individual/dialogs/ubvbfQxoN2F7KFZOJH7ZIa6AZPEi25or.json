@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "生育保险、养老保险、工伤保险、失业保险，您想咨询哪个保险呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "养老保险"
+        ],
+        "grounding_id": [
+            "T179"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一下养老保险有关的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "养老保险"
+        ],
+        "grounding_id": [
+            "T179"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您是想咨询个人账户一次性待遇申领、参保人员达到法定退休年龄领取基本养老保险待遇资格确认还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道个人账户一次性待遇申领这项业务的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "14个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "14（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "关于个人账户一次性待遇申领业务还有哪些基本信息呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "1",
+            "38"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们可以提供行政相对人权利和义务、办事信息、中介服务、结果信息等方面信息，请问您想了解哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，办事信息有什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是否网办、办理形式、通办范围、是否支持预约办理，您想了解哪方面问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理形式是什么？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这项服务的收费标准有哪些呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "427"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付以及收费项目名称您想了解哪个方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "428"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想知道是否收费？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "429"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "429"
+        ]
+    }
+]

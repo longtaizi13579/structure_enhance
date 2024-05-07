@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省宁波市的，我想了解一些纳税缴费的问题。",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "纳税缴费"
+        ],
+        "grounding_id": [
+            "T7",
+            "T68"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解国家鼓励项目免税确认、纳税信用补评还是海关缴款书核查申请的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下国家鼓励项目免税确认要去哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您到宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）三楼基建帮办席位FB001-FB004就可以办理了。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）三楼基建帮办席位FB001-FB004"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "纳税信用补评有哪些办理过程呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "纳税信用补评"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "纳税信用补评有申请、受理、审查或核准、决定、送达几个办理流程。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审查/核准",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "160",
+            "162",
+            "171",
+            "180",
+            "189"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解一些税务服务的问题。",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "税务服务"
+        ],
+        "grounding_id": [
+            "T73"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想了解跨区域涉税事项报验还是补办出口退（免）税证明呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "跨区域涉税事项报验"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解跨区域涉税事项报验有哪些办理形式呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "跨区域涉税事项报验",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "98"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "跨区域涉税事项报验可以网上申请也可以现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_跨区域涉税事项报验.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想投诉给我办理一照一码户信息变更的那个人要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您拨打0572-12366就可以投诉了。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "0572-12366"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

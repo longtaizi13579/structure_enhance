@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，苹果手机里的设备密码是怎么修改的？",
+        "act": "what",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "更改iPhone、iPad和iPod设备的密码"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "先登录iCloud，进入“更改密码”界面，再回答安全问题，最后创建新密码就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "登录iCloud。",
+            "进入“更改密码”界面。",
+            "回答安全问题。",
+            "创建新密码。"
+        ],
+        "grounding_id": [
+            "5",
+            "13",
+            "17",
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我刚试了下，没有提示回答安全问题啊，我重新输入密码后怎么突然跳到登录界面了？",
+        "act": "what",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "回答安全问题。",
+            "输入密码两次来确认新密码。你的新密码会立刻生效，而你也会立即登出所有已登录的设备，你需要输入正确的新密码，才能重新登录账户。"
+        ],
+        "grounding_id": [
+            "17",
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果你的设备是受信任的设备，就不用再回答安全问题了，你输入新密码后，你的新密码会立刻生效，而你也会立即登出所有已登录的设备，需要输入正确的新密码，才能重新登录账户",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "受信任的设备不会提示你回答安全问题。",
+            "输入密码两次来确认新密码。你的新密码会立刻生效，而你也会立即登出所有已登录的设备，你需要输入正确的新密码，才能重新登录账户。"
+        ],
+        "grounding_id": [
+            "19",
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，如果我是忘记了密码，要怎么重置密码呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "重置忘记的密码"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": " 在修改密码的网址上输入AppleID，选择一个验证方式，再创建新的密码就可以了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "在iforgot.apple.com上输入AppleID。",
+            "选择验证方式。",
+            "创建新的密码。"
+        ],
+        "grounding_id": [
+            "36",
+            "41",
+            "47"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在哪个网址输入AppleID修改密码？",
+        "act": "what",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "在iforgot.apple.com上输入AppleID。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iforgot.apple.com，这是专门恢复密码用的？",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "在iforgot.apple.com上输入AppleID。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解下iTunes和AppleID是一样的吗？iTunes是怎么修改密码的？",
+        "act": "what",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "如何更改iTunes密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "苹果将旗下所有服务，包括iTunes的购买内容，都整理、统一到一个账户里，这个账户就是AppleID（苹果账户）。如果你创建了一个iTunes专用账户，那么这个账户就变成了你的AppleID，而且使用方法与之前的账户一致。你可以在电脑或iOS设备上，通过AppleID网站更改账户密码。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何更改iTunes密码.json",
+        "grounding": [
+            "苹果将旗下所有服务，包括iTunes的购买内容，都整理、统一到一个账户里，这个账户就是AppleID（苹果账户）。如果你创建了一个iTunes专用账户，那么这个账户就变成了你的AppleID，而且使用方法与之前的账户一致。你可以在电脑或iOS设备上，通过AppleID网站更改账户密码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问下，怎么创建自己YouTube频道的订阅链接？",
+        "act": "what",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如何创建YouTube频道的订阅链接"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你的是苹果手机还是安卓的？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你使用安卓系统，一定要有一个可以编辑文本的软件。你可以从Play商店下载任何免费的文本编辑器，比如Monospace、谷歌文档或文本编辑器。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我苹果安卓都有，这有什么区别吗？",
+        "act": "what",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你使用安卓系统，一定要有一个可以编辑文本的软件。你可以从Play商店下载任何免费的文本编辑器，比如Monospace、谷歌文档或文本编辑器。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果你使用安卓系统，一定要有一个可以编辑文本的软件。你可以从Play商店下载任何免费的文本编辑器，比如Monospace、谷歌文档或文本编辑器。如果是苹果，可以直接用，https://zh.wikihow.com/%E5%88%9B%E5%BB%BAYouTube%E9%A2%91%E9%81%93%E7%9A%84%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5 这个网页里能教你如何创建自己YouTube频道的订阅链接，当别人点击你个人网站上或社交媒体个人信息中的链接，就能直接转到你YouTube频道的订阅界面。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "本篇文章教你如何创建自己YouTube频道的订阅链接。当别人点击你个人网站上或社交媒体个人信息中的链接，就能直接转到你YouTube频道的订阅界面。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "还有个问题就是怎么查看别人WhatsApp的最后在线时间？",
+        "act": "what",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "如何查看别人WhatsApp的最后在线时间"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个你是用安卓手机查看，还是用苹果手机查看？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "安卓"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "用安卓手机。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "安卓"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "用手机打开WhatsApp，点击聊天，选择一个联系人，再查看日期和时间就可以了。",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "打开WhatsApp。",
+            "点击聊天。",
+            "选择一个联系人。",
+            "查看日期和时间。"
+        ],
+        "grounding_id": [
+            "17",
+            "19",
+            "22",
+            "24"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "怎么选择联系人？",
+        "act": "what",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "选择一个联系人。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "直接点击他们的姓名就行了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何查看别人WhatsApp的最后在线时间.json",
+        "grounding": [
+            "点击他们的姓名即可。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

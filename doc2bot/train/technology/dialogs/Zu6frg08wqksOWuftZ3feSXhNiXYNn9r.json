@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于使用Windows版iTunes中的“iTunes诊断”并收集信息的相关问题？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "使用Windows版iTunes中的“iTunes诊断”并收集信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询如何运行“iTunes诊断”，还是存储结果？",
+        "act": "multiple-choice",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行“iTunes诊断”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解一下如何运行“iTunes诊断”？",
+        "act": "how",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行“iTunes诊断”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先确保您装有最新版本的iTunes，然后打开iTunes，从iTunes窗口顶部的菜单栏中，选取“帮助”>“运行诊断程序”，选取一项或所有的可用测试，然后点按“下一步”。最后运行测试。完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "确保您装有最新版本的iTunes。",
+            "打开iTunes。",
+            "从iTunes窗口顶部的菜单栏中，选取“帮助”>“运行诊断程序”。",
+            "选取一项或所有的可用测试，然后点按“下一步”。",
+            "运行测试。完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想了解一下，要将摘要存储到您的电脑中，应该按什么健？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "存储结果",
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "13",
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要将摘要存储到您的电脑中，请点按“存储”。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "存储后，什么样的文件会存储到我的电脑上？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件会存储到您的电脑上。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，用什么来查看rtf文件？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以使用文本编辑器查看RTF文件。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这两个文件可以与AppleAdvisor共享吗？",
+        "act": "verification",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "要将摘要存储到您的电脑中，请点按“存储”。名为“iTunesDiagnostics.rtf”和“iTunesDiagnostics.spx”的文件即会存储到您的电脑上。您可以使用文本编辑器查看RTF文件，还可以将这两个文件与AppleAdvisor（技术顾问）共享。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "“iTunes诊断”的作用是什么？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "“iTunes诊断”可以收集和显示有关电脑的信息。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor寻求更多协助，以修复问题。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "“iTunes诊断”可以修复问题吗？",
+        "act": "verification",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以。",
+        "act": "ans/no",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "Windows版iTunes包含“iTunes诊断”吗？",
+        "act": "verification",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "Windows版iTunes包含“iTunes诊断”。可使用这个应用来识别各种问题。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "Windows版iTunes包含“iTunes诊断”。可使用这个应用来识别各种问题。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

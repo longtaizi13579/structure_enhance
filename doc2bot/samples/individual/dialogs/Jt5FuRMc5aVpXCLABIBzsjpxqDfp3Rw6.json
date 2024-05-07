@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我驾驶证丢了，想补一个，办理补换业务的这个什么时候上班啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，你是在浙江办理是吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，浙江台州。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "台州的办理时间是工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季:上午8:30-12:00，下午2:00-5:00。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季:上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是不是我可以直接申请就可以了？丢了补办一个就可以了？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "机动车行驶证灭失、丢失的。",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "145",
+            "144"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，受理条件就是机动车行驶证灭失、丢失的。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "机动车行驶证灭失、丢失的。"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "ok，这个是不是可以自助机直接办理的？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "嗯，是的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "一定要现场去自助机办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不一定的，网上申请，邮寄申请都可以。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那最好不过了，是不是当天办好就可以拿到了？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，自作出决定之日起1个工作日内送达。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

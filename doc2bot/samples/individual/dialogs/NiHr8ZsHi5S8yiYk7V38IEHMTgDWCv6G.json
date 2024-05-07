@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，就是考试教育中考优待这个是咨询您这吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "考试教育",
+            "中考优待"
+        ],
+        "grounding_id": [
+            "T228",
+            "T229"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您要询问浙江哪个城市的？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，衢州市呀，就是对台胞子女考生参加中考优待的确认，这方面的有什么监督投诉方式呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "对台胞子女考生参加中考优待的确认",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，帮您查了一下有投诉电话、投诉地址、还有投诉网址，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，投诉地址是哪里呀？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "衢州市西区白云街道仙霞中路36号行政4号楼衢州市教育局901室",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "衢州市西区白云街道仙霞中路36号行政4号楼衢州市教育局901室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，麻烦你把投诉电话也说一下吧？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，您记一下，是0570-3084306。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "0570-3084306"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，对了这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "274"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个不收费的",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "275"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那再问一下，敢于这个中考优待确认有什么咨询电话吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询电话是0570-3080158",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "0570-3080158"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个确认结果出来以后能快递吗要多久送到呀？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个自作出决定之日起7个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "自作出决定之日起7个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问问出入境办公时间",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "出入境",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T239",
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦浙江舟山呀，我要办台湾通行证",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "往来台湾通行证"
+        ],
+        "grounding_id": [
+            "T9",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，帮您查询了台湾通行证办理时间是周一到周五（法定节假日除外）：上午8:30-12:00，下午14:00-17:00[",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "周一到周五（法定节假日除外）：上午8:30-12:00，下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "啊，就是办这个通行证有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "帮您查询了可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那这个通行证办这个收费项目名称叫什么，别回来到网上看错了，得问清楚了",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1470"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": " 收费名称是往来台湾通行证",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "1\t往来台湾通行证"
+        ],
+        "grounding_id": [
+            "1471"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，知道了，那办这个证收多少钱呀",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1472"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个收费标准是国家发展和改革委员会、财政部发改价格规【2019】1931号：2020年1月1日起，往来台湾通行证调整为60元/证。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格规【2019】1931号：2020年1月1日起，往来台湾通行证调整为60元/证。"
+        ],
+        "grounding_id": [
+            "1473"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯嗯，麻烦您给我查一下，这个办这有什么咨询方式吗，",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，帮您查询了有三种咨询方式一咨询电话、二咨询地址、三咨询网址您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "呃，咨询电话吧，稍等我找个笔记一下",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，请您记录电话是0580-2072077",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0580-2072077"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

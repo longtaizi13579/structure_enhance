@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果iPhone、iPad或iPodtouch无法更新的话是出现什么问题了呢",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可能由于以下某种原因，空间不足，下载用时过长，无法连接更新服务器或无法验证更新等",
+        "act": "multiple-choice",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果空间不足，无法进行更新"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果是因为空间不足但又没有办法将设备连接到电脑的话怎么办",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果空间不足，无法进行更新",
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "7",
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体应该去哪里操作呢",
+        "act": "where",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "前往“设置”>“通用”>“[设备名称]储存空间”。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果您无法将设备连接到电脑，您可以移除设备上不使用的内容和App，以腾出空间来进行更新。前往“设置”>“通用”>“[设备名称]储存空间”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "设备上的软件尝试腾出空间的话会移除数据吗？",
+        "act": "verification",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果没有足够的空间来下载和安装更新，您设备上的软件将尝试腾出空间。它只会移除可重新下载的App数据，不会移除或重新放置您的任何数据。如果设备上的空间仍然不足，您可以使用电脑更新您的设备。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果没有足够的空间来下载和安装更新，您设备上的软件将尝试腾出空间。它只会移除可重新下载的App数据，不会移除或重新放置您的任何数据。",
+        "act": "ans/no",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果没有足够的空间来下载和安装更新，您设备上的软件将尝试腾出空间。它只会移除可重新下载的App数据，不会移除或重新放置您的任何数据。如果设备上的空间仍然不足，您可以使用电脑更新您的设备。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，那什么出现什么情况就是无法更新呢",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "当您尝试更新设备时，可能会看到以下某条信息："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您尝试更新设备时，可能会看到以下某条信息： “无法检查更新。检查软件更新时出错。”“无法安装更新。需要接入网络才能进行软件更新。”",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "“无法检查更新。检查软件更新时出错。”",
+            "当您尝试更新设备时，可能会看到以下某条信息：",
+            "“无法安装更新。需要接入网络才能进行软件更新。”"
+        ],
+        "grounding_id": [
+            "21",
+            "20",
+            "22"
+        ]
+    }
+]

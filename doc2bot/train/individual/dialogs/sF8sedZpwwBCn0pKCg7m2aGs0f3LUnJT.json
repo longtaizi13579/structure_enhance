@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江温州机动车驾驶人联系方式及联系地址变更备案的信息",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "浙江省_温州市",
+            "机动车驾驶人联系方式及联系地址变更备案"
+        ],
+        "grounding_id": [
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢？",
+        "act": "question/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "机动车驾驶人联系方式及联系地址变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有申请的数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "146",
+            "147"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "无数量限制的",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "148"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那禁止性的要求呢，也没有吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "151"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，无禁止性要求",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "152"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，一般多长时间可以办好？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "差不多一个工作日",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理的流程是怎么样的？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "172"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": " 1.申请 2.受理 3.办结",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "办结"
+        ],
+        "grounding_id": [
+            "173",
+            "175",
+            "182"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "申请的话是到哪里？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "173"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "申请人向公安交管部门提交申请材料",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "申请人向公安交管部门提交申请材料"
+        ],
+        "grounding_id": [
+            "174"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是否受理是由什么标准决定的",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "受理",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "175",
+            "178"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据受理申请人提交的材料，检查材料是否齐全。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "受理申请人提交的材料，检查材料是否齐全。"
+        ],
+        "grounding_id": [
+            "179"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那送达的时限是多长？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

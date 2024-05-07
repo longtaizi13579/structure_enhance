@@ -1,0 +1,100 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何在Keynote讲演中录制音频？",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在Pages文稿、Numbers表格和Keynote讲演中录制音频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想在在iPhone或iPad上录制音频还是在Mac上录制音频？",
+        "act": "multiple-choice",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在Mac上录制音频"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在Mac上录制音频",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "录制音频",
+            "在Mac上录制音频"
+        ],
+        "grounding_id": [
+            "36",
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以使用Mac的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。: 1.打开文稿、幻灯片或工作表后，点按工具栏中的“媒体”按钮，然后选取“录制音频”。 2.要开始录音，请点按“录制”按钮。“录制音频”窗口中将显示新的录音。 3.要停止录音，请点按“停止”按钮。 4.要添加到现有录音，请再次点按“录制”按钮。 5.要试听录音，请点按“试听”。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "您可以使用Mac的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。",
+            "打开文稿、幻灯片或工作表后，点按工具栏中的“媒体”按钮，然后选取“录制音频”。",
+            "要开始录音，请点按“录制”按钮。“录制音频”窗口中将显示新的录音。",
+            "要停止录音，请点按“停止”按钮。",
+            "要添加到现有录音，请再次点按“录制”按钮。",
+            "要试听录音，请点按“试听”。"
+        ],
+        "grounding_id": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iPhone或iPad上录制音频如何编辑和替换录音？",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在Pages文稿、Numbers表格和Keynote讲演中录制音频",
+            "在iPhone或iPad上录制音频",
+            "编辑和替换录音"
+        ],
+        "grounding_id": [
+            "1",
+            "5",
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要修剪录音以仅播放所需的部分，请按照以下步骤操作：: 1.拖移录音上的控制柄，以选择要保留的部分。 2.轻点“修剪”按钮，以移除控制柄所选区域之外的所有内容。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "要修剪录音以仅播放所需的部分，请按照以下步骤操作：",
+            "拖移录音上的控制柄，以选择要保留的部分。",
+            "轻点“修剪”按钮，以移除控制柄所选区域之外的所有内容。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19"
+        ]
+    }
+]

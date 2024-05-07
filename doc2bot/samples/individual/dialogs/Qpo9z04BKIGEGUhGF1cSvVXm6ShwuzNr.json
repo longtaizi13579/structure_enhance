@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在浙江丽水市办理驾照升级，办事地点在哪啊？",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "浙江省_丽水市",
+            "浙江省_丽水市",
+            "行驶证驾驶证",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "T12",
+            "T12",
+            "T89",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，办理地址在丽水市公安局交通警察支队车辆管理所。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所（丽水市莲都区万象街道吕埠坑）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "机动车驾照升级收费吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否收费",
+            "机动车驾驶证增驾申领"
+        ],
+        "grounding_id": [
+            "262",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "机动车驾驶证增驾申领这项服务是收取费用的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以在自动机器上办理吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "行驶证驾驶证",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T89",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "抱歉，这个是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，知道了，我担心办理过程中有不满意的地方，有投诉电话吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "行驶证驾驶证",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "T89",
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，您记一下投诉电话是0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "电话有了  投诉地址有吗？也告诉我一下。",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，投诉地址在丽水市公安局交通警察支队警务督察大队，就在莲都区丽青路85号。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "丽水市公安局交通警察支队警务督察大队（莲都区丽青路85号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我今年35岁，可以申请机动车驾驶证增驾吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "申请条件",
+            "（一）年龄条件："
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "135"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，您这个年纪申请哪种都可以。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "（一）年龄条件："
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    }
+]

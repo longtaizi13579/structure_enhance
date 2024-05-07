@@ -1,0 +1,264 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友最近在医院查出子宫内膜异位症，我想问一下可以做这个子宫切除术加双侧输卵管卵巢的切除术吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "子宫内膜异位症",
+            "子宫切除术加双侧输卵管卵巢切除术适用于以下情况："
+        ],
+        "grounding_id": [
+            "1",
+            "139"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你朋友还打算再生育孩子吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "当女性（通常是临近绝经的女性或不打算再生育的女性）需要彻底治疗（以完全消除病症）时"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "打算的，她刚结婚两年，还没有孩子",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "当女性（通常是临近绝经的女性或不打算再生育的女性）需要彻底治疗（以完全消除病症）时"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那你朋友这个子宫内膜异位症是经常多次复发吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "子宫内膜异位症复发时，经常多次发生"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "不是，偶尔会复发",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "子宫内膜异位症复发时，经常多次发生"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那不介意做这个手术的",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "子宫切除术加双侧输卵管卵巢切除术适用于以下情况："
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，医生说她要服用抑制卵巢活动的药物，服药是要注意什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "其他抑制卵巢活动的药物通常仅在女性不能服用联合口服避孕药或用联合口服避孕药治疗无效时使用。它们包括"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果有生育的打算不要服用孕激素的药物如甲孕酮和炔诺酮。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "孕激素（如甲孕酮和炔诺酮）"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那可以服用这个炔羟雄烯唑吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "炔羟雄烯唑（合成雄性激素或男性荷尔蒙）"
+        ],
+        "grounding_id": [
+            "112"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "炔羟雄烯唑有合成雄性激素，不能一起服用的",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "炔羟雄烯唑（合成雄性激素或男性荷尔蒙）"
+        ],
+        "grounding_id": [
+            "112"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我在网上查过GnRH对治疗这方面也是有用的，对吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "GnRH拮抗剂elagolix，像GnRH激动剂一样，抑制卵巢产生雌激素，如果长期服用，会导致骨密度降低。如果服用时间超过6个月，医生可能会让服用小剂量的孕激素，以尽量减少骨密度的下降。"
+        ],
+        "grounding_id": [
+            "116"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，但是你了解这个GnRH拮抗剂elagolix的药效和副作用吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "GnRH拮抗剂elagolix，像GnRH激动剂一样，抑制卵巢产生雌激素，如果长期服用，会导致骨密度降低。如果服用时间超过6个月，医生可能会让服用小剂量的孕激素，以尽量减少骨密度的下降。"
+        ],
+        "grounding_id": [
+            "116"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "不怎么了解，麻烦讲解一下吧",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "GnRH拮抗剂elagolix，像GnRH激动剂一样，抑制卵巢产生雌激素，如果长期服用，会导致骨密度降低。如果服用时间超过6个月，医生可能会让服用小剂量的孕激素，以尽量减少骨密度的下降。"
+        ],
+        "grounding_id": [
+            "116"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "GnRH拮抗剂elagolix，和GnRH激动剂一样，抑制卵巢产生雌激素的，不能长期服用，会导致骨密度降低。服用超过6个月，医生会让服用小剂量的孕激素，来减少骨密度的下降。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "GnRH拮抗剂elagolix，像GnRH激动剂一样，抑制卵巢产生雌激素，如果长期服用，会导致骨密度降低。如果服用时间超过6个月，医生可能会让服用小剂量的孕激素，以尽量减少骨密度的下降。"
+        ],
+        "grounding_id": [
+            "116"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，谢谢，还有在服药方面还有什么需要注意的吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "其他抑制卵巢活动的药物通常仅在女性不能服用联合口服避孕药或用联合口服避孕药治疗无效时使用。它们包括"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "除了刚刚说的孕激素、炔羟雄烯唑、Elagolix之外，促性腺激素释放激素激动剂服用时也要注意的",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "促性腺激素释放激素激动剂（GnRH激动剂——如亮丙瑞林和那法瑞林）"
+        ],
+        "grounding_id": [
+            "110"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "行，那这个子宫内膜异位症是怎么诊断的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有时进行活组织检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "有时进行活组织检查"
+        ],
+        "grounding_id": [
+            "65"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还有别的诊断的方式吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "还有腹腔镜检查子宫内膜组织",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_子宫内膜异位症_子宫内膜异位症.json",
+        "grounding": [
+            "腹腔镜检查子宫内膜组织"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    }
+]

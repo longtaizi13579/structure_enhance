@@ -1,0 +1,328 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解健康方面的问题",
+        "act": "what",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "健康"
+        ],
+        "grounding_id": [
+            "T219"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何吞药丸、如何快速消除腹胀、如何缓解消化不良中的哪个呢？",
+        "act": "multiple-choice",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "如何吞药丸"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何吞药丸",
+        "act": "ans/open",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "如何吞药丸"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想知道吞服药丸的可选方法对吗？",
+        "act": "verification",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对的",
+        "act": "ans/yes",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您需要用液体送服药丸",
+        "act": "ans/open",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "用液体送服药丸"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以跟我说一下具体方法吗？",
+        "act": "how",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "用液体送服药丸"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您需要1.喝一小口凉水。 2.尝试两口吞药法。 3.使用吸管。 4.先喝大量的水。 5.帮助小孩吞药。",
+        "act": "ans/open",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "喝一小口凉水。",
+            "尝试两口吞药法。",
+            "使用吸管。",
+            "先喝大量的水。",
+            "帮助小孩吞药。"
+        ],
+        "grounding_id": [
+            "29",
+            "33",
+            "36",
+            "39",
+            "45"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以解释一下 尝试两口吞药法吗？",
+        "act": "what",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "尝试两口吞药法。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "将药丸放在舌头上。喝一大口水，把水吞了，但不要吞药。接下来再喝一大口水，这次连水带药一起吞。最后再喝一口水，帮助药丸通过喉咙。第一口水帮助喉咙打开得更大，第二口水让药丸轻松通过喉咙。",
+        "act": "ans/open",
+        "document": "健康_如何吞药丸.json",
+        "grounding": [
+            "将药丸放在舌头上。喝一大口水，把水吞了，但不要吞药。接下来再喝一大口水，这次连水带药一起吞。最后再喝一口水，帮助药丸通过喉咙。",
+            "第一口水帮助喉咙打开得更大，第二口水让药丸轻松通过喉咙。"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解缓解消化不良的可选方法",
+        "act": "what",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "如何缓解消化不良",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您如果消化不良严重的话则需要就医",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "就医"
+        ],
+        "grounding_id": [
+            "74"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以跟我说一下就医步骤吗？",
+        "act": "what",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "就医"
+        ],
+        "grounding_id": [
+            "74"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1.识别心脏病发作。 2.如果出现严重症状，请立刻联络医生。 3.接受检查。",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "识别心脏病发作。",
+            "如果出现严重症状，请立刻联络医生。",
+            "接受检查。"
+        ],
+        "grounding_id": [
+            "75",
+            "82",
+            "91"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可能会出现哪些严重症状？",
+        "act": "what",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "如果出现严重症状，请立刻联络医生。"
+        ],
+        "grounding_id": [
+            "82"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "便血、粪便呈黑色焦油状、吐血、难以吞咽、极度疲惫或贫血、食欲不振、体重下降、腹部有肿块。",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "便血、粪便呈黑色焦油状。",
+            "吐血。",
+            "难以吞咽。",
+            "极度疲惫或贫血。",
+            "食欲不振。",
+            "体重下降。",
+            "腹部有肿块。"
+        ],
+        "grounding_id": [
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果消化不良没有严重到需要就医呢？",
+        "act": "what",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "可选方法",
+            "如何缓解消化不良"
+        ],
+        "grounding_id": [
+            "3",
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您需要改变饮食",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "改变饮食"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "怎样改变饮食呢？",
+        "act": "how",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "改变饮食"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "1.少吃经常引发消化不良的食物。 2.少喝酒。 3.少吃多餐。 4.不要在临睡前吃东西。",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "少吃经常引发消化不良的食物。",
+            "少喝酒。",
+            "少吃多餐。",
+            "不要在临睡前吃东西。"
+        ],
+        "grounding_id": [
+            "33",
+            "40",
+            "43",
+            "47"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "为什么要少吃多餐呢？",
+        "act": "why",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "少吃多餐。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "这样胃部就不会有太多食物，负担过重，也能防止胃被撑大，使你不舒服。与其吃3大餐，不如吃5到6份小餐。你可以在早餐和午餐之间，午餐和晚餐之间吃一些点心。细嚼慢咽，这样食物更容易消化。",
+        "act": "ans/open",
+        "document": "健康_如何缓解消化不良.json",
+        "grounding": [
+            "这样胃部就不会有太多食物，负担过重，也能防止胃被撑大，使你不舒服。",
+            "与其吃3大餐，不如吃5到6份小餐。你可以在早餐和午餐之间，午餐和晚餐之间吃一些点心。",
+            "细嚼慢咽，这样食物更容易消化。"
+        ],
+        "grounding_id": [
+            "44",
+            "45",
+            "46"
+        ]
+    }
+]

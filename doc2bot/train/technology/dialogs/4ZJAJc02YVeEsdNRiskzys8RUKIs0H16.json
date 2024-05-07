@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于AppleBooks的一些问题",
+        "act": "what",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "使用AppleBooks阅读图书以及进行更多操作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，请问您是想了解阅读图书、整理书库还是在iPhone、iPad、iPodtouch或Mac上购买图书 ",
+        "act": "multiple-choice",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "整理书库"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何整理书库",
+        "act": "how",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "整理书库"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先打开“图书”App，然后在iPhone或iPad上，轻点“书库”。或者在Mac上，点按“书库”下的“全部”。.轻点或点按“手动”，最后选择一个排序选项，如“书名”、“作者”或“最近阅读”就可以了。",
+        "act": "ans/open",
+        "document": "使用AppleBooks阅读图书以及进行更多操作.json",
+        "grounding": [
+            "对图书进行排序",
+            "打开“图书”App。",
+            "在iPhone或iPad上，轻点“书库”。或者在Mac上，点按“书库”下的“全部”。",
+            "轻点或点按“手动”。",
+            "选择一个排序选项，如“书名”、“作者”或“最近阅读”。在iPhone或iPad上没有看到“手动排序”？只需在屏幕上向下轻扫，就会出现“手动排序”选项。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，我还想知道如何在我的iPad上使用第三方扩展",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装提供扩展的iOSApp"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解如何安装提供扩展的iOSApp还是在iOS设备上使用扩展编辑照片",
+        "act": "multiple-choice",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用“照片”中的第三方App和扩展进行编辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解如何安装提供扩展的iOSApp",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装提供扩展的iOSApp"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。",
+            "安装提供扩展的iOSApp"
+        ],
+        "grounding_id": [
+            "12",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在iOS设备上使用扩展编辑照片又该怎么做",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先打开“照片”App，然后轻点一张照片。然后轻点“编辑”，然后轻点“更多”按钮。 从出现的菜单中选择一个App。使用扩展中的工具编辑这张照片。 如果您对自己所作的编辑感到满意，请点按“完成”。如果您完成了所有编辑，请点按“完成”以退出编辑模式。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片",
+            "打开“照片”App，然后轻点一张照片。",
+            "轻点“编辑”，然后轻点“更多”按钮。",
+            "使用扩展中的工具编辑这张照片。",
+            "如果您对自己所作的编辑感到满意，请点按“完成”。您可以选取另一扩展以将更多编辑应用到照片，或者使用内建于“照片”中的任何编辑工具。",
+            "从出现的菜单中选择一个App。",
+            "如果您完成了所有编辑，请点按“完成”以退出编辑模式。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "21",
+            "22",
+            "20",
+            "23"
+        ]
+    }
+]

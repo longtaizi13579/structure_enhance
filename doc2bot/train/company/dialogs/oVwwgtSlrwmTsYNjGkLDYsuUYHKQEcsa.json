@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江湖州市办理的外国企业常驻变更登记，做出决定后的结果什么时候能送到？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_企业变更_企业登记变更_外国企业常驻代表机构变更登记.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "外国企业常驻代表机构变更登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "118"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "送达时限在作出决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_企业变更_企业登记变更_外国企业常驻代表机构变更登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我不是记得变更登记需要收费吗？能不能支持网上支付呢？",
+        "act": "why",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "是否支持网上支付",
+            "外商投资合伙企业变更登记"
+        ],
+        "grounding_id": [
+            "299",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不好意思，目前不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "300"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那有没有什么咨询方式可以给我来咨询一下这些事情呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，您想要线下的地址呢，还是电话咨询？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先给我线下的地址吧，我去看一看，这个地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询地址在杭州市上城区解放东路18号市民中心H楼一楼商事登记综合进件窗口6-13号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_企业变更_企业登记变更_外商投资合伙企业变更登记.json",
+        "grounding": [
+            "杭州市行政服务中心(H楼)（杭州市上城区解放东路18号市民中心H楼）一楼商事登记综合进件窗口6-13号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在宁波的外商投资企业登记变更话，办结时限大概什么时候啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "外商投资企业登记（变更）",
+            "浙江省_宁波市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T7",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您需要知道的是法定办结时限，还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "法定办结的时限，大概有多久呀？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "法定办结时限有20个工作日",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想了解一些其他的事情，还有什么可以咨询的方法吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们有咨询电话和咨询地址，还有网址咨询，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "就给我一个地址吧，我一会儿自己去，地址在哪呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的，我们的线下地址是宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

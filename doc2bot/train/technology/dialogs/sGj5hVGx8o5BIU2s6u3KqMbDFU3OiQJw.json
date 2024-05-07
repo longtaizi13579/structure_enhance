@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下如何在Mac版GarageBand中使用Drummer乐段？",
+        "act": "how",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "在Mac版GarageBand中使用Drummer乐段"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：查找Drummer乐段，在项目中添加Drummer乐段，还是添加更多Drummer乐段？",
+        "act": "multiple-choice",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "在项目中添加Drummer乐段"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在项目中添加Drummer乐段后，可以对该轨道进行编辑吗？",
+        "act": "verification",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "在项目中添加Drummer乐段",
+            "现在，您可以使用Drummer编辑器像编辑任何其他Drummer轨道那样来编辑该轨道。您还可以在轨道中创建您自己的片段，并进行自由的编辑。"
+        ],
+        "grounding_id": [
+            "7",
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以使用Drummer编辑器像编辑任何其他Drummer轨道那样来编辑该轨道。您还可以在轨道中创建您自己的片段，并进行自由的编辑。",
+        "act": "ans/open",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "找到您喜欢的Drummer乐段后，请将其拖移到轨道区域的空白部分中。GarageBand会自动使用Drummer乐段的某个片段创建一个新的Drummer轨道。Drummer编辑器中的所有设置都将进行相应的配置，以重现Drummer乐段的声音。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么在项目中添加Drummer乐段？",
+        "act": "how",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "找到您喜欢的Drummer乐段后，请将其拖移到轨道区域的空白部分中。GarageBand会自动使用Drummer乐段的某个片段创建一个新的Drummer轨道。Drummer编辑器中的所有设置都将进行相应的配置，以重现Drummer乐段的声音。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "找到您喜欢的Drummer乐段后，请将其拖移到轨道区域的空白部分中。GarageBand会自动使用Drummer乐段的某个片段创建一个新的Drummer轨道。",
+        "act": "ans/open",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "找到您喜欢的Drummer乐段后，请将其拖移到轨道区域的空白部分中。GarageBand会自动使用Drummer乐段的某个片段创建一个新的Drummer轨道。Drummer编辑器中的所有设置都将进行相应的配置，以重现Drummer乐段的声音。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "查找Drummer乐段时，如何打开循环浏览器？",
+        "act": "how",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "查找Drummer乐段",
+            "要打开循环浏览器，请点按GarageBand窗口右上角的。"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要打开循环浏览器，请点按GarageBand窗口右上角。",
+        "act": "verification",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "要打开循环浏览器，请点按GarageBand窗口右上角的。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "点按GarageBand窗口右上角后，会显示什么？",
+        "act": "what",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "循环浏览器中随即将显示带黄色图标的Drummer乐段。",
+        "act": "ans/open",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要在循环浏览器中仅显示Drummer乐段，应该怎么操作？",
+        "act": "how",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。",
+        "act": "ans/open",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "怎么试听该乐段？",
+        "act": "how",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "点按循环浏览器中的某个乐段可试听该乐段。",
+        "act": "ans/open",
+        "document": "在Mac版GarageBand中使用Drummer乐段.json",
+        "grounding": [
+            "循环浏览器中随即将显示带黄色图标的Drummer乐段。要在循环浏览器中仅显示Drummer乐段，请从循环浏览器顶部的“LoopPacks”弹出式菜单中选择“Drummer”。点按循环浏览器中的某个乐段可试听该乐段。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

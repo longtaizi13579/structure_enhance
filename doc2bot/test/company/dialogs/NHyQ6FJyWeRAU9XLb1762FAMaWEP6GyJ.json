@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下在浙江金华这边单位社保的信息查询可不可以在网上支付费用呢？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "参保单位参保信息查询",
+            "浙江省_金华市",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "T9",
+            "164"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不可以的，还不支持网上交费的",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "165"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "行吧，那这个是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "160"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个参保单位参保信息查询是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还以为收费的，那如果我去办理很不满意的话可以怎样投诉呢？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这边有投诉地址和投诉电话，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "麻烦和我说一下投诉的地址在哪里吧？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉地址在金华市双龙南街801号金华市政府北门",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "金华市双龙南街801号金华市政府北门"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，谢谢，那我可以在办理地方的自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您的意思说可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以的哦，还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "行吧，那你麻烦和我说一下办理流程是什么样的吧？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程是1、收件2、受理审核3、办结",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "办理流程",
+            "收件",
+            "受理审核",
+            "办结"
+        ],
+        "grounding_id": [
+            "111",
+            "112",
+            "117",
+            "122"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，还有就是办理具体是在什么地方办理的，麻烦和我说一下",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "85"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体地址是在金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼社保综合服务窗口",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_职工社保医保_职工社保医保_参保单位参保信息查询.json",
+        "grounding": [
+            "具体地址",
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼社保综合服务窗口"
+        ],
+        "grounding_id": [
+            "85",
+            "86"
+        ]
+    }
+]

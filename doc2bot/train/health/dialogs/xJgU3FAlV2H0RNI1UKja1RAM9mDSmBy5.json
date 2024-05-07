@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下乳腺癌的相关信息",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "乳房疾病",
+            "乳腺癌"
+        ],
+        "grounding_id": [
+            "T646",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "当乳腺细胞出现异常，分裂失控时，便发生乳腺癌。您想了解的是乳癌的危险因素，类型，症状，筛查，诊断，分期，预后，预防还是治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "乳腺癌的治疗"
+        ],
+        "grounding_id": [
+            "349"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道治疗的话必须做手术吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "手术",
+            "乳腺癌的治疗"
+        ],
+        "grounding_id": [
+            "359",
+            "349"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是指乳房切除术还是乳房再造术呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "乳房切除术"
+        ],
+        "grounding_id": [
+            "375"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是保留乳头的乳房切除术",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "保留乳头的乳房切除术与保留皮肤的乳房切除术相同，除此之外，它会留下乳头和乳头周围的色素皮肤区域(乳晕)。"
+        ],
+        "grounding_id": [
+            "379"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果必要的话是需要的，而且保留乳头的乳房切除术与保留皮肤的乳房切除术相同，除此之外，它会留下乳头和乳头周围的色素皮肤区域(乳晕)。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "保留乳头的乳房切除术与保留皮肤的乳房切除术相同，除此之外，它会留下乳头和乳头周围的色素皮肤区域(乳晕)。"
+        ],
+        "grounding_id": [
+            "379"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那是怎么分期的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "乳腺癌的分期"
+        ],
+        "grounding_id": [
+            "264"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当癌症确诊后，对其进行分期。分期为0至IV的数字，反映癌症的广泛程度和侵袭程度，您需要了解每个数字代表什么吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "当癌症确诊后，对其进行分期。分期为0至IV的数字（有时以字母标明分层），反映癌症的广泛程度和侵袭程度： "
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想是的IV期是什么情况？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "IV期为转移癌（从乳房和淋巴结扩散至腋窝和机体其他部分的癌症）。"
+        ],
+        "grounding_id": [
+            "273"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "IV期为转移癌（从乳房和淋巴结扩散至腋窝和机体其他部分的癌症）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "IV期为转移癌（从乳房和淋巴结扩散至腋窝和机体其他部分的癌症）。"
+        ],
+        "grounding_id": [
+            "273"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那什么情况下激素阻断药物优于化疗呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "当癌症具有以下特征时，激素阻断药物优于化疗："
+        ],
+        "grounding_id": [
+            "539"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "癌症为受体阳性， 癌症在诊断和初始治疗后2年内未复发，以及癌症不会立即危及生命。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "癌症为受体阳性。",
+            "癌症在诊断和初始治疗后2年内未复发。",
+            "癌症不会立即危及生命。"
+        ],
+        "grounding_id": [
+            "540",
+            "541",
+            "542"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那对淋巴结进行评估时是不是超声检查后的活检未发现癌细胞就代表是正常的？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "如果超声检查后的活检未发现癌细胞，进行前哨淋巴结活检，因为即使活检样本中没有癌细胞，癌细胞可能存在于淋巴结的其他部位。"
+        ],
+        "grounding_id": [
+            "398"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不是的，还需进行前哨淋巴结活检，因为即使活检样本中没有癌细胞，癌细胞可能存在于淋巴结的其他部位。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "如果超声检查后的活检未发现癌细胞，进行前哨淋巴结活检，因为即使活检样本中没有癌细胞，癌细胞可能存在于淋巴结的其他部位。"
+        ],
+        "grounding_id": [
+            "398"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好吧，那多大概率可能发生乳腺癌基因突变呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "你知道吗……不到1%的女性有乳腺癌基因突变。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不到1%的女性有乳腺癌基因突变",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_乳房疾病_乳腺癌.json",
+        "grounding": [
+            "你知道吗……不到1%的女性有乳腺癌基因突变。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    }
+]

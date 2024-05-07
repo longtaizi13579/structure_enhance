@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下，在浙江省嘉兴市有可以办理去香港的通行证吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，有办理出入境证件的业务。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "出入境"
+        ],
+        "grounding_id": [
+            "T239"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我这次是去香港出差的，只去一天，我应该办理哪种通行证呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您好，你可以办理个港澳其他签注，签注会注明您可以前往的次数，目前办理的通行证的来往次数都是2次的。次数用完了是可以续签的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "每次是多少钱啊？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "3020"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": " 一次有效签注的收费标准15元/件。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "4\t一次有效签注",
+            "收费标准",
+            "15元/件"
+        ],
+        "grounding_id": [
+            "3019",
+            "3020",
+            "3021"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那嘉兴市的地址在哪里呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有两个办理地点，分别是1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我办个港澳通行证是多少钱呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1\t往来港澳通行证"
+        ],
+        "grounding_id": [
+            "2992"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "往来港澳通行证收费标准是60元/证，港澳通行证没有签注是不能去往香港和澳门的，而签注不仅仅指的是给港澳通行证，在护照等方面也需要签注审批的",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1\t往来港澳通行证",
+            "收费标准",
+            "60元/证"
+        ],
+        "grounding_id": [
+            "2992",
+            "2993",
+            "2994"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "因为我要经常去香港出差，去一次就要办理一次有效签注感觉有点贵呀。",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "建议您办理个短期多次有效签注。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "3\t短期（不超过一年）多次有效签注"
+        ],
+        "grounding_id": [
+            "3010"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个多少钱啊？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "3011"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "收费标准是80元/件标准，这个是短期的不超过一年，在您办理好的以年内都可以多次来返，不会再次收取费用。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准",
+            "80元/件"
+        ],
+        "grounding_id": [
+            "3011",
+            "3012"
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的职业是警察，工作的风险也是很大的，之前买了一个附加人民警察定期寿险，咨询一下相关信息",
+        "act": "what",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "附加人民警察团体定期寿险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体想了解哪方面？双方订立的合同、本公司提供的保障 还是保险金的申请？",
+        "act": "multiple-choice",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "双方订立的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下合同，一般合同都包括哪些内容？",
+        "act": "what",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "本附加险合同包括本附加险条款、保险单及其他保险凭证、投保单及其他投保文件、合法有效的声明、批注、批单及其他投保人与本公司共同认可的书面协议。",
+        "act": "ans/open",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "本附加险合同是投保人与本公司约定保险权利义务关系的协议，包括本附加险条款、保险单及其他保险凭证、投保单及其他投保文件、合法有效的声明、批注、批单及其他投保人与本公司共同认可的书面协议。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个附加险的投保范围和主险一样吗？",
+        "act": "verification",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "本附加险合同接受的投保范围与主险合同一致。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一样的，本附加险合同接受的投保范围与主险合同一致。",
+        "act": "ans/yes",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "本附加险合同接受的投保范围与主险合同一致。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那保险期间呢？和主险也是一样的吧？",
+        "act": "verification",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "除另有约定外，本附加险合同的保险期间与主险合同一致。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "除另有约定的以外，本附加险合同的保险期间与主险合同一致。",
+        "act": "ans/yesno",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "除另有约定外，本附加险合同的保险期间与主险合同一致。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果被保险人身故，公司是依据合同赔偿对应的身故保险金吧？",
+        "act": "verification",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "被保险人身故，本公司按本合同保险单所载该被保险人对应的身故保险金额给付身故保险金，本附加险合同对该被保险人的保险责任终止。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这种情况得先看看你的主险合同还在有效期不？",
+        "act": "verification",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "在本附加险合同保险期间内， 且在主险合同和本附加险合同均有效的前提下，本公司按以下约定承担保险责任："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是在有效期的",
+        "act": "ans/yes",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "在本附加险合同保险期间内， 且在主险合同和本附加险合同均有效的前提下，本公司按以下约定承担保险责任："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那你说的这个情况如果也是在附加险合同有效期，并且在附加险保险期间内，我们是按照约定承担保险责任的。",
+        "act": "ans/open",
+        "document": "附加人民警察团体定期寿险  .json",
+        "grounding": [
+            "在本附加险合同保险期间内， 且在主险合同和本附加险合同均有效的前提下，本公司按以下约定承担保险责任："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

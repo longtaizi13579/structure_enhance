@@ -1,0 +1,357 @@
+{
+    "document_id": 16,
+    "domain": "technology",
+    "name": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件",
+    "graph": {
+        "1": {
+            "data": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "请根据您遇到的情况，尝试以下建议：",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "如果您可以打开LogicPro或MainStage，但在处理项目或Concert时遇到问题，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "8": {
+            "data": "如果您无法打开LogicPro或MainStage，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "12": {
+            "data": "如果您找不到最近安装的插件，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "16": {
+            "data": "旁通音频单元插件",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "17": {
+            "data": "如果您在某个使用第三方插件的LogicPro项目或MainStageConcert中遇到问题，",
+            "type": "condition",
+            "pid": "16"
+        },
+        "18": {
+            "data": "您可以通过几种不同的方式来旁通插件：",
+            "type": "ordinary",
+            "pid": "16"
+        },
+        "19": {
+            "data": "将指针放在通道条中的插件插槽上，然后点按“旁通”按钮，以使插槽变暗。",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "20": {
+            "data": "按住Option键点按插件插槽，以使插槽变暗。",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "21": {
+            "data": "在插件窗口中，点按“旁通”按钮，以使插槽变暗。",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "22": {
+            "data": "如果旁通某个插件后问题得到解决，",
+            "type": "condition",
+            "pid": "16"
+        },
+        "26": {
+            "data": "移除音频单元插件",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "27": {
+            "data": "如果您无法打开LogicPro或MainStage，请移除第三方音频单元的安装器文件：",
+            "type": "sequence",
+            "pid": "26"
+        },
+        "29": {
+            "data": "在Mac上查找已安装的插件文件：",
+            "type": "sequence-step",
+            "pid": "27"
+        },
+        "30": {
+            "data": "在“访达”菜单栏中，选取“前往”>“前往文件夹”，在“前往文件夹”栏中键入“/资源库/Audio/Plug-Ins/Components”，然后点按“前往”。",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "31": {
+            "data": "您还可以查看个人文件夹中的“资源库”。在“访达”菜单栏中，选取“前往”>“前往文件夹”，在“前往文件夹”栏中键入“~/资源库/Audio/Plug-Ins/Components”，然后点按“前往”。",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "32": {
+            "data": "如果您怀疑问题与某个插件有关，请在文件夹中找到这个插件的文件，然后将这个文件拖移到桌面上。",
+            "type": "sequence-step",
+            "pid": "27"
+        },
+        "33": {
+            "data": "尝试重新打开这个App。",
+            "type": "sequence-step",
+            "pid": "27"
+        },
+        "34": {
+            "data": "如果仍然无法打开LogicPro或MainStage：",
+            "type": "sequence",
+            "pid": "26"
+        },
+        "35": {
+            "data": "在桌面上创建一个新文件夹。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "36": {
+            "data": "将出现在各自安装位置的所有插件文件移到这个新文件夹中。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "37": {
+            "data": "尝试打开LogicPro或MainStage。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "38": {
+            "data": "如果您可以打开这个App，请将每个插件文件逐个放回到各自的原始位置。将每个插件文件放回原位后，请退出再重新打开这个App。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "39": {
+            "data": "如果在将某个插件文件放回原位后无法打开这个App，则说明这个插件可能已损坏或不兼容。请尝试重新安装已停用的插件，或咨询相关生产企业以获取更新。",
+            "type": "sequence-step",
+            "pid": "34"
+        },
+        "40": {
+            "data": "查找最近安装的LogicPro或MainStage插件",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "41": {
+            "data": "如果您安装了第三方音频单元插件，但在LogicPro或MainStage中没有找到相应插件，",
+            "type": "condition",
+            "pid": "40"
+        },
+        "42": {
+            "data": "重新启动Mac",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "43": {
+            "data": "如果您的Mac运行的是macOSHighSierra或更高版本，并且您最近安装的某个插件在LogicPro或MainStage中找不到，请重新启动您的Mac。重新启动Mac之前，请确认这个插件是不是兼容64位。32位插件与LogicPro或MainStage不兼容。",
+            "type": "sequence",
+            "pid": "42"
+        },
+        "44": {
+            "data": "选取苹果菜单>“重新启动”。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "45": {
+            "data": "打开LogicPro或MainStage。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "46": {
+            "data": "点按某个音频效果插槽、乐器插槽或MIDI效果插槽，以确认能不能在弹出式菜单中看到这个插件。",
+            "type": "sequence-step",
+            "pid": "43"
+        },
+        "47": {
+            "data": "如果在LogicPro或MainStage中仍然没有找到相应插件，",
+            "type": "condition",
+            "pid": "42"
+        },
+        "48": {
+            "data": "确保已安装相应插件",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "49": {
+            "data": "使用插件管理器检查相应插件是否安装。",
+            "type": "sequence",
+            "pid": "48"
+        },
+        "50": {
+            "data": "选取“LogicPro”>“偏好设置”>“插件管理器”或“MainStage”>“偏好设置”>“插件管理器”。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "51": {
+            "data": "在插件管理器中，找到这个插件。要按生产企业筛选这个列表，请点按左栏中的生产企业名称。如果这个插件的“兼容性”栏中显示“未被授权”，请确保这个插件已按照生产企业文档中所述进行了正确授权。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "52": {
+            "data": "重新安装这个插件，然后重新启动电脑。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "53": {
+            "data": "打开LogicPro或MainStage，然后查看插件管理器，看看插件是否出现在那里。如果出现在那里，请打开项目或Concert，并确保可以找到相应插件。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "54": {
+            "data": "如果插件出现在插件管理器中，但在LogicPro项目或MainStageconcert中无法找到，请重新扫描这个插件。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "58": {
+            "data": "如果您仍然无法在插件管理器中找到相应插件，请还原所有音频单元。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "62": {
+            "data": "重新扫描插件",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "63": {
+            "data": "如果插件出现在插件管理器中，但仍然无法在LogicPro或MainStage中找到，请重新扫描这个插件。",
+            "type": "sequence",
+            "pid": "62"
+        },
+        "64": {
+            "data": "在插件管理器中，找到您要检查的插件。要按生产企业进行筛选，请点按左栏中的生产企业名称。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "65": {
+            "data": "如果这个插件的“兼容性”栏中显示“失败的验证”，请在列表中选择这个插件，然后点按“还原并重新扫描选定部分”。如果这个插件的“兼容性”栏中显示“未被授权”，请确保这个插件已按照生产企业文档中所述进行了正确授权，然后重新扫描这个插件。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "66": {
+            "data": "如果这个插件再次未能通过验证，请咨询相关生产企业以确定这个插件与您的macOS版本是不是兼容，并获取可用更新。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "67": {
+            "data": "如果插件未出现在插件管理器中，请尝试还原所有音频单元。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "71": {
+            "data": "在LogicPro和MainStage中还原所有音频单元",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "72": {
+            "data": "如果您在LogicPro或MainStage的插件管理器中找不到最近安装的插件，请尝试使用LogicPro插件管理器还原所有音频单元。在LogicPro中还原所有音频单元的同时也会还原MainStage中的音频单元。",
+            "type": "sequence",
+            "pid": "71"
+        },
+        "73": {
+            "data": "选取“LogicPro”>“偏好设置”>“插件管理器”。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "74": {
+            "data": "点按“音频单元全部还原”。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "75": {
+            "data": "关闭LogicPro，然后将它重新打开。LogicPro会重新扫描所有已安装的音频单元插件。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "76": {
+            "data": "查看LogicPro或MainStage，看看能否找到相应插件。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "77": {
+            "data": "如果仍无法找到这个插件，",
+            "type": "condition",
+            "pid": "71"
+        },
+        "78": {
+            "data": "仅重新扫描MainStage插件",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "79": {
+            "data": "如果您仅使用MainStage并且没有安装LogicPro，请手动移除文件，以重新扫描MainStage中的所有音频单元：",
+            "type": "sequence",
+            "pid": "78"
+        },
+        "80": {
+            "data": "在“访达”中，按住Option键，然后选取“前往”>“资源库”。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "81": {
+            "data": "在打开的“访达”窗口中，找到“Caches”文件夹中的“AudioUnitCache”文件夹。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "82": {
+            "data": "将“AudioUnitCache”文件夹中的文件移到桌面。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "83": {
+            "data": "重新启动电脑，然后打开MainStage。所有已安装的音频单元插件都将被重新扫描。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "84": {
+            "data": "如果仍无法找到这个插件，",
+            "type": "condition",
+            "pid": "78"
+        },
+        "93": {
+            "data": "请尝试旁通插件。",
+            "type": "solution",
+            "pid": "4"
+        },
+        "94": {
+            "data": "请尝试移除插件。",
+            "type": "solution",
+            "pid": "8"
+        },
+        "95": {
+            "data": "请重新启动Mac，确认有没有安装相应插件，并重新扫描您的插件。",
+            "type": "solution",
+            "pid": "12"
+        },
+        "96": {
+            "data": "请逐个旁通项目中的每个第三方插件，并在旁通每个插件后测试这个项目。",
+            "type": "solution",
+            "pid": "17"
+        },
+        "97": {
+            "data": "请咨询相关生产企业，以确认这个插件是不是兼容您所用的macOS版本，并获取可用更新。",
+            "type": "solution",
+            "pid": "22"
+        },
+        "98": {
+            "data": "请尝试按照这一部分中的步骤操作，直到您找到相应插件。",
+            "type": "solution",
+            "pid": "41"
+        },
+        "99": {
+            "data": "请确保已安装这个插件。",
+            "type": "solution",
+            "pid": "47"
+        },
+        "100": {
+            "data": "请咨询相关生产企业以确定这个插件与您的macOS版本是不是兼容，并获取可用更新。",
+            "type": "solution",
+            "pid": "77"
+        },
+        "101": {
+            "data": "请咨询相关生产企业以确定这个插件与您的macOS版本是不是兼容，并获取可用更新。",
+            "type": "solution",
+            "pid": "84"
+        }
+    }
+}

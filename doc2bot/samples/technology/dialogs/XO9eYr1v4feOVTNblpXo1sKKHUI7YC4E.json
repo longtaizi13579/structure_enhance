@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一下如果iPad上的麦克风无法正常工作怎么办？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你具体是想问清洁麦克风还是如果 Siri 无法检测到您的声音 打开“语音备忘录”App，还是如果您无法在视频中录制声音呢？",
+        "act": "multiple-choice",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "跟我讲一下清洁麦克风的具体操作吧",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清洁麦克风"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先清除iPad上的屏幕保护膜、保护膜或保护壳。然后 清除iPad开口处的所有碎屑。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "清除iPad上的屏幕保护膜、保护膜或保护壳。",
+            "清除iPad开口处的所有碎屑。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有什么情况能让Pad上的麦克风无法正常工作吗？",
+        "act": "what",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果iPad上的麦克风无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "还有如果您无法在视频中录制声音和如果麦克风在特定 App 中无法正常工作和如果 Siri 无法检测到您的声音的情况",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果您无法在视频中录制声音"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "无法在视频中录制声音需要怎么操作？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果您无法在视频中录制声音"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先 打开“相机”App，录制视频时，对着iPad的顶部说话。然后 轻点“相机选取器”以切换到其他相机。然后在录制另一个视频时，对着iPad的顶部说话。再当播放所录制的视频时，您应该能够清晰地听到自己的声音。最后如果您无法清晰地听到自己的声音，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "打开“相机”App。",
+            "录制视频时，对着iPad的顶部说话。",
+            "轻点“相机选取器”以切换到其他相机。然后在录制另一个视频时，对着iPad的顶部说话。",
+            "当播放所录制的视频时，您应该能够清晰地听到自己的声音。",
+            "如果您无法清晰地听到自己的声音，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那 如果Siri无法检测到您的声音咋办啊？",
+        "act": "how",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "如果Siri无法检测到您的声音"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先打开“语音备忘录”App，轻点“录制”按钮，对着iPad的顶部说话，然后停止录音。然后当播放所录制的备忘录时，您应该能够清晰地听到自己的声音。最后如果您无法清晰地听到自己的声音，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPad上的麦克风无法正常工作.json",
+        "grounding": [
+            "打开“语音备忘录”App。",
+            "轻点“录制”按钮，对着iPad的顶部说话，然后停止录音。",
+            "当播放所录制的备忘录时，您应该能够清晰地听到自己的声音。",
+            "如果您无法清晰地听到自己的声音，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我的Mac版Safari浏览器打不开网页或无法正常工作了我需要咋办？",
+        "act": "how",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果Mac版Safari浏览器打不开某个网页或无法正常工作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可以进行使用无痕浏览窗口进行测试关闭 Safari 浏览器扩展或是检查网络设置等等",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "使用无痕浏览窗口进行测试"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我已经使用无痕浏览窗口进行测试过了，有效果可是我不知道接下来该怎么操作？",
+        "act": "how",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。",
+            "使用无痕浏览窗口进行测试"
+        ],
+        "grounding_id": [
+            "29",
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "可是网站需要登录具体还需要怎么做？",
+        "act": "how",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。首先选取“Safari浏览器”>“偏好设置”，然后点按“隐私”。然后点按“管理网站数据”。再从显示的列表中选择受影响的网站。之后点按“移除”。再点按“完成”。最后在非无痕浏览窗口中再次打开相应网站。",
+        "act": "ans/open",
+        "document": "如果Mac版Safari浏览器打不开某个网页或无法正常工作.json",
+        "grounding": [
+            "如果这样做有效，请按照以下步骤从Mac中移除网站的数据。然后，网站就可以根据需要创建新数据。如果网站需要登录，请确保您知道自己的登录信息，然后再继续操作。",
+            "选取“Safari浏览器”>“偏好设置”，然后点按“隐私”。",
+            "点按“管理网站数据”。",
+            "从显示的列表中选择受影响的网站。",
+            "点按“移除”。",
+            "点按“完成”。",
+            "在非无痕浏览窗口中再次打开相应网站。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35"
+        ]
+    }
+]

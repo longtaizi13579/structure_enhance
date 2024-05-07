@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在您的安卓设备上使用AppleMusic的问题？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在您的安卓设备上使用AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：获取AppleMusicAp，订阅AppleMusic，将AppleMusic中的音乐流化到Chromecast设备，还是将AppleMusic与AndroidAuto搭配使用？",
+        "act": "multiple-choice",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "订阅AppleMusic"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "订阅AppleMusic后有什么好处？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "订阅AppleMusic"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以流播放数百万首歌曲。根据您的音乐喜好，获取专属播放列表和建议。在任何设备上都可以通过AppleMusicApp聆听音乐。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "您可以流播放数百万首歌曲。根据您的音乐喜好，获取专属播放列表和建议。在任何设备上都可以通过AppleMusicApp聆听音乐。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何获取AppleMusicApp？",
+        "act": "how",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "获取AppleMusicApp"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以下载AppleMusicApp。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "你可以下载AppleMusicApp"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哪些设备可以下载AppleMusicApp？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "条件",
+            "你可以下载AppleMusicApp"
+        ],
+        "grounding_id": [
+            "49",
+            "53"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "装有Android5.0Lollipop或更高版本的安卓手机。装有Android5.0Lollipop或更高版本的平板电脑。一台支持安卓App的Chromebook。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "装有Android5.0Lollipop或更高版本的安卓手机",
+            "装有Android5.0Lollipop或更高版本的平板电脑",
+            "一台支持安卓App的Chromebook"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "将AppleMusic与AndroidAuto搭配使用指的是什么？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "将AppleMusic与AndroidAuto搭配使用"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "借助AndroidAuto，您可以在汽车上收听AppleMusic，并通过车上的显示面板控制正在播放的内容。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "借助AndroidAuto，您可以在汽车上收听AppleMusic，并通过车上的显示面板控制正在播放的内容。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "借助AndroidAuto，您可以在汽车上收听AppleMusic，并通过车上的显示面板控制正在播放的内容。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先，在安卓设备上，从GooglePlay下载AndroidAuto。 然后，将安卓设备连接到您的汽车。 接着，从汽车的显示面板中，打开AndroidAuto。 最后，在AndroidAuto中，打开AppleMusicApp并播放音乐。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "在安卓设备上，从GooglePlay下载AndroidAuto。",
+            "将安卓设备连接到您的汽车。",
+            "从汽车的显示面板中，打开AndroidAuto。",
+            "在AndroidAuto中，打开AppleMusicApp并播放音乐。"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果已经订阅AppleMusic，该怎么操作？",
+        "act": "how",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "如果您已经订阅，只需使用您的AppleID登录即可"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您已经订阅，只需使用您的AppleID登录即可。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "如果您已经订阅，只需使用您的AppleID登录即可"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "如果您已经订阅，只需使用您的AppleID登录即可"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先，打开AppleMusicApp。然后，如果您看到试用优惠，请轻点右上角的“登录”。或者，轻点“更多”按钮，然后轻点“登录”。 最后，输入登录AppleMusic时使用的同一AppleID和密码。",
+        "act": "ans/open",
+        "document": "在您的安卓设备上使用AppleMusic.json",
+        "grounding": [
+            "打开AppleMusicApp。",
+            "如果您看到试用优惠，请轻点右上角的“登录”。或者，轻点“更多”按钮，然后轻点“登录”。",
+            "输入登录AppleMusic时使用的同一AppleID和密码。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

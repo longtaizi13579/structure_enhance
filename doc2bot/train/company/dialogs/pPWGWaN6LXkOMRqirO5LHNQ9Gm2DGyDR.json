@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，浙江宁波现在开办企业可以正常登记吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "企业开办",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T96",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的。请问您是准备开办哪类企业？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "企业开办"
+        ],
+        "grounding_id": [
+            "T96"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "外商投资企业。需要走手续吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "外商投资企业登记（设立）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "需要进行外商投资企业登记。您还有什么要了解的？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "外商投资企业登记（设立）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "大概需要多久才能办好？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_外商投资企业登记（设立）.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我可以在网上申请吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的。您是否需要其他办理形式？",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "都有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "网上申请，现场窗口申请，邮寄申请，现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以设立分公司吗？有什么要求吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "分公司设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "分公司设立登记也是需要一定条件的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "有什么条件呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "1.符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。 [135] 2.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》相关规定。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "1.符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。\n",
+            "2.符合《宁波市保障“无证件（证明）办事之城”改革若干规定（试行）》相关规定。"
+        ],
+        "grounding_id": [
+            "135",
+            "286"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "有限制数量吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "无数量限制。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "有什么不能有的要求吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "禁止一切不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定的行为。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "办理过程中如果需要交费，可以支付宝支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "275"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业开办_常用服务_分公司设立登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "276"
+        ]
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下减弱iPhone屏幕动态效果",
+        "act": "what",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "减弱iPhone、iPad或iPodtouch的屏幕动态效果"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是注意到iPhone的屏幕画面会移动还是要打开“减弱动态效果”的操作步骤，",
+        "act": "multiple-choice",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "要打开“减弱动态效果”，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "要打开“减弱动态效果”操作步骤有什么",
+        "act": "what",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "要打开“减弱动态效果”，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 首先前往“设置”>“辅助功能”。 其次选择“动作”，然后打开“减弱动态效果”。",
+        "act": "ans/open",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“辅助功能”。",
+            "选择“动作”，然后打开“减弱动态效果”。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果不打开减弱动态效果能减弱iPhone屏幕画面移动吗",
+        "act": "verification",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "减弱iPhone、iPad或iPodtouch的屏幕动态效果",
+            "如果您注意到iPhone、iPad或iPodtouch的屏幕画面会移动，",
+            "可以打开“减弱动态效果”。"
+        ],
+        "grounding_id": [
+            "1",
+            "2",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不能",
+        "act": "ans/no",
+        "document": "减弱iPhone、iPad或iPodtouch的屏幕动态效果.json",
+        "grounding": [
+            "可以打开“减弱动态效果”。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有问题想问一下就是关于iPodtouch上的主屏幕图标放大",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的您是想了解在设备上的“设置”中关闭缩放功能还是在“访达”或iTunes中关闭缩放功能",
+        "act": "multiple-choice",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在“访达”或iTunes中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在“访达”或iTunes中关闭缩放功能",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在“访达”或iTunes中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还可以使用“访达”或iTunes关闭缩放功能：首先将您的iPhone、iPad或iPodtouch连接到电脑。然后在装有macOSCatalina10.15的Mac上，打开“访达”。在装有macOS10.14或更低版本的Mac上或者在PC上，打开iTunes。 3.当您的设备出现在“访达”或iTunes中时请选择它。 4.选择“配置辅助功能”。 5.要关闭缩放功能，请取消选中“缩放”复选框。最后点按“好”。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "您还可以使用“访达”或iTunes关闭缩放功能：",
+            "将您的iPhone、iPad或iPodtouch连接到电脑。",
+            "在装有macOSCatalina10.15的Mac上，打开“访达”。在装有macOS10.14或更低版本的Mac上或者在PC上，打开iTunes。",
+            "当您的设备出现在“访达”或iTunes中时请选择它。",
+            "选择“配置辅助功能”。",
+            "要关闭缩放功能，请取消选中“缩放”复选框。",
+            "点按“好”。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "就是想问一下如果屏幕图标显示过大是不是说可能打开了缩放功能",
+        "act": "verification",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果主屏幕上的图标显示得过大，或被放大以适合屏幕，则说明您的设备可能打开了缩放功能。了解如何关闭缩放功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "如果主屏幕上的图标显示得过大，或被放大以适合屏幕，则说明您的设备可能打开了缩放功能。了解如何关闭缩放功能。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那怎么在设备上的“设置”中关闭缩放功能",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在设备上的“设置”中关闭缩放功能，如果因主屏幕图标被放大而导致您无法访问“设置”，请在屏幕上用三根手指轻点两下以进行缩小。要关闭缩放功能，请前往“设置”>“辅助功能”>“缩放”，然后轻点以关闭“缩放”。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch上的主屏幕图标被放大.json",
+        "grounding": [
+            "在设备上的“设置”中关闭缩放功能",
+            "如果因主屏幕图标被放大而导致您无法访问“设置”，请在屏幕上用三根手指轻点两下以进行缩小。",
+            "要关闭缩放功能，请前往“设置”>“辅助功能”>“缩放”，然后轻点以关闭“缩放”。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5"
+        ]
+    }
+]

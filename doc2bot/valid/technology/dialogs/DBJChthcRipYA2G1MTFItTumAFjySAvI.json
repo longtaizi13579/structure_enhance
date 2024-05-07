@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于在iPhone或iPad上设置个人热点的相关问题？",
+        "act": "what",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如何在iPhone或iPad上设置个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：设置个人热点，通过Wi-Fi、蓝牙或USB连接到个人热点，设置或更改Wi-Fi密码，让您的家人自动加入，还是其它？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "设置个人热点"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解下设置个人热点的操作步骤。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "设置个人热点"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 1.前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。 2.轻点“允许其他人加入”旁边的滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。",
+            "轻点“允许其他人加入”旁边的滑块。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么更改Wi-Fi密码？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "设置或更改Wi-Fi密码"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要更改无线局域网密码，请前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，然后轻点“无线局域网密码”。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您需要设置一个Wi-Fi密码才能设置个人热点。要更改无线局域网密码，请前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，然后轻点“无线局域网密码”。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "更改密码后，已连接的设备会断开吗？",
+        "act": "verification",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "更改密码后，所有已连接的设备都会断开连接。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "更改密码后，所有已连接的设备都会断开连接。",
+        "act": "ans/yes",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "更改密码后，所有已连接的设备都会断开连接。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "连接个人热点的方式都有哪些？",
+        "act": "what",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "通过Wi-Fi、蓝牙或USB连接到个人热点"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果屏幕被锁定后，个人热点还能保持连接吗？",
+        "act": "verification",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

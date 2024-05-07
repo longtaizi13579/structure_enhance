@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，想买一款重疾保险，请问有什么推荐吗？",
+        "act": "what",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问这事您第一次购买重疾保险吗？",
+        "act": "verification",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，想买一份比较全的疾病保险，涵盖种类比较多的",
+        "act": "ans/yes",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您有没有超过55周岁呢？我们有的保险对年龄有限制的",
+        "act": "question/open",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "没有超过，哪种保险比较适合？",
+        "act": "what",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "推荐您买人保寿险人人保2.0重大疾病保险这款产品，B款",
+        "act": "ans/open",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "人保寿险人人保2.0重大疾病保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果有遗传性疾病导致重疾的，这个保险起作用吗？",
+        "act": "verification",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "（9）遗传性疾病（见 9.16），先天性畸形、变形或染色体异常（见 9.17），但本合同另 有约定的除外",
+            "（一）因下列情形之一导致被保险人发生本合同约定的轻症疾病或重大疾病的，我们 不承担给付轻症疾病保险金、重大疾病保险金或轻症疾病豁免保险费的责任："
+        ],
+        "grounding_id": [
+            "459",
+            "30"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这种情况下，我们是不承担给付保险费的责任。",
+        "act": "ans/no",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "我们 不承担给付轻症疾病保险金、重大疾病保险金或轻症疾病豁免保险费的责任"
+        ],
+        "grounding_id": [
+            "651"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我朋友买了这款保险，后来终止了，能恢复吗？",
+        "act": "verification",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "效力中止与恢复"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你好，如果 合同效力中止在 2 年内，是可以申请恢复合同效力的。",
+        "act": "ans/open",
+        "document": "人保寿险人人保2.0重大疾病保险（B款）  .json",
+        "grounding": [
+            "在本合同效力中止期间，我们不承担保险责任。 本合同效力中止后 2 年内，您可以申请恢复合同效力。经我们与您协商并达成协议， 在您补交保险费、利息（见 9.19）及其他各项欠款的次日零时起，合同效力恢复。 自本合同效力中止之日起满 2 年您和我们未达成协议的，我们有权解除合同。我们解 除合同的，向您退还合同效力中止时本合同的现金价值。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

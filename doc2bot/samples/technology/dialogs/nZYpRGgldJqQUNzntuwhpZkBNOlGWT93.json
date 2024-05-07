@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "iOS支持的蓝牙描述文件格式是什么？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "高级音频分发描述文件(A2DP)"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "A2DP允许通过蓝牙连接将高品质音频（立体声或单声道）从一台设备流化到另一台设备。使用A2DP能够以无线方式将iOS设备上的音乐通过无线耳机、扬声器或兼容的车载音频系统播放。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "A2DP允许通过蓝牙连接将高品质音频（立体声或单声道）从一台设备流化到另一台设备。使用A2DP能够以无线方式将iOS设备上的音乐通过无线耳机、扬声器或兼容的车载音频系统播放。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "电话簿访问描述文件(PBAP)适用于什么机型？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "电话簿访问描述文件(PBAP)"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个描述文件适用于iPhone5s及更新机型。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "这个描述文件适用于iPhone5s及更新机型。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "免提描述文件(HFP1.6)适用于什么机型？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "免提描述文件(HFP1.6)"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个描述文件适用于iPhone5s及更新机型、iPadAir及更新机型、iPodtouch（第6代）及更新机型。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "这个描述文件适用于iPhone5s及更新机型、iPadAir及更新机型、iPodtouch（第6代）及更新机型。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "车载套件和移动电话使用PBAP这个描述文件可以用来完成哪些操作？",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件",
+            "电话簿访问描述文件(PBAP)",
+            "PBAP允许iPhone与其他蓝牙设备交换电话簿对象。*车载套件和移动电话使用这个描述文件来完成以下操作："
+        ],
+        "grounding_id": [
+            "1",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "允许车载套件显示来电者姓名。允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。允许车载套件显示通话记录。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "允许车载套件显示来电者姓名。",
+            "允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。",
+            "允许车载套件显示通话记录。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14"
+        ]
+    }
+]

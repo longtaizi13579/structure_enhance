@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询您一些关于App请求跟踪活动的相关问题。",
+        "act": "what",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "如果App请求跟踪您的活动"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解管理活动跟踪权限、App的全部功能，使用App还是其他的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "如果App请求跟踪您的活动"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先问一下如果有出现跟踪活动的请求时，我点击不允许的话我还可以使用相应App的全部功能吗？",
+        "act": "verification",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "如果App请求跟踪您的活动",
+            "在看到希望跟踪您活动的请求时，您可以轻点“允许”或“要求App不跟踪”。无论您是不是允许App跟踪您的活动，都仍然可以使用相应App的全部功能。"
+        ],
+        "grounding_id": [
+            "1",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在看到希望跟踪您活动的请求时，您可以轻点“允许”或“要求App不跟踪”。无论您是不是允许App跟踪您的活动，都仍然可以使用相应App的全部功能。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在看到希望跟踪您活动的请求时，您可以轻点“允许”或“要求App不跟踪”。无论您是不是允许App跟踪您的活动，都仍然可以使用相应App的全部功能。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，明白，那我选取要求App不跟踪，会对我有什么影响吗？",
+        "act": "what",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果您选取“要求App不跟踪”，相应App的开发者便无法访问系统广告标识符(IDFA)，这个标识符通常用于跟踪。此外，相应App也不能使用可识别您身份或您设备的其他信息（例如您的电子邮件地址）来跟踪您的活动。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您选取“要求App不跟踪”，相应App的开发者便无法访问系统广告标识符(IDFA)，这个标识符通常用于跟踪。此外，相应App也不能使用可识别您身份或您设备的其他信息（例如您的电子邮件地址）来跟踪您的活动。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果您选取“要求App不跟踪”，相应App的开发者便无法访问系统广告标识符(IDFA)，这个标识符通常用于跟踪。此外，相应App也不能使用可识别您身份或您设备的其他信息（例如您的电子邮件地址）来跟踪您的活动。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样啊，那还有刚刚有提到的管理活动跟踪权限，设置这个的话，具体步骤是什么呢？",
+        "act": "what",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "管理活动跟踪权限",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "具体步骤: 首先前往“隐私”设置，查看已请求跟踪您活动的App的列表。在iPhone、iPad或iPodtouch上，请前往“设置”>“隐私”>“跟踪”。在AppleTV上，请前往“设置”>“通用”>“隐私”>“跟踪”。 最后轻点来为特定App关闭或打开跟踪权限。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "具体步骤",
+            "前往“隐私”设置，查看已请求跟踪您活动的App的列表。在iPhone、iPad或iPodtouch上，请前往“设置”>“隐私”>“跟踪”。在AppleTV上，请前往“设置”>“通用”>“隐私”>“跟踪”。",
+            "轻点来为特定App关闭或打开跟踪权限。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，其实我不明白为什么这个App要请求跟踪我的活动呢？",
+        "act": "why",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "App开发者可以自定所示信息的部分内容，向您说明App为什么要求跟踪您的活动。您还可以在AppStore上访问相应App的产品页面，以详细了解App开发者如何使用您的数据。"
+        ],
+        "grounding_id": [
+            "7",
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "App开发者可以自定所示信息的部分内容，向您说明App为什么要求跟踪您的活动。您还可以在AppStore上访问相应App的产品页面，以详细了解App开发者如何使用您的数据。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "App开发者可以自定所示信息的部分内容，向您说明App为什么要求跟踪您的活动。您还可以在AppStore上访问相应App的产品页面，以详细了解App开发者如何使用您的数据。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个允许App请求跟踪”设置会被禁止使用吗？",
+        "act": "verification",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在某些情况下，“允许App请求跟踪”设置会被停用，这些情况包括："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "会的",
+        "act": "ans/yes",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在某些情况下，“允许App请求跟踪”设置会被停用，这些情况包括："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那什么情况下会被停用呢？",
+        "act": "what",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在某些情况下，“允许App请求跟踪”设置会被停用，这些情况包括："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在某些情况下，“允许App请求跟踪”设置会被停用，这些情况包括：用户持有的是儿童帐户或未满18岁（按出生年份计算），并已使用他们的AppleID登录*；您的AppleID由教育机构或企业机构管理；您的设备处于受管理状态，并且采用了限制跟踪的配置描述文件；您的AppleID是在过去3天内创建的",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在某些情况下，“允许App请求跟踪”设置会被停用，这些情况包括：",
+            "用户持有的是儿童帐户或未满18岁（按出生年份计算），并已使用他们的AppleID登录*",
+            "您的AppleID由教育机构或企业机构管理",
+            "您的设备处于受管理状态，并且采用了限制跟踪的配置描述文件",
+            "您的AppleID是在过去3天内创建的"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+        ]
+    }
+]

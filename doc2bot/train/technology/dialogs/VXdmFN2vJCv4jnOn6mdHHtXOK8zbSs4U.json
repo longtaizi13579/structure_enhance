@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下，我的iPhone开启“勿扰模式”后，状态栏上会显示什么？",
+        "act": "what",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "在iPhone、iPad和iPodtouch上使用“勿扰模式”",
+            "开启“勿扰模式”后，状态栏中和锁定屏幕上将会显示新月图标。要开启“勿扰模式”，请按照适用于您的软件版本的以下步骤操作。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，开启“勿扰模式”后，状态栏中和锁定屏幕上将会显示新月图标。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "开启“勿扰模式”后，状态栏中和锁定屏幕上将会显示新月图标。要开启“勿扰模式”，请按照适用于您的软件版本的以下步骤操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何开启“勿扰模式”？",
+        "act": "how",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "开启“勿扰模式”后，状态栏中和锁定屏幕上将会显示新月图标。要开启“勿扰模式”，请按照适用于您的软件版本的以下步骤操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这得按照适用于您的软件版本进行操作。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "开启“勿扰模式”后，状态栏中和锁定屏幕上将会显示新月图标。要开启“勿扰模式”，请按照适用于您的软件版本的以下步骤操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我想咨询一些在iPhone、iPad和iPodtouch上使用“勿扰模式”的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "在iPhone、iPad和iPodtouch上使用“勿扰模式”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想咨询在iOS15和iPadOS15上开启“勿扰模式” 、在iOS14及更低版本和iPadOS14上开启“勿扰模式”还是更改“勿扰模式”设置，或者是其他？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "在iOS15和iPadOS15上开启“勿扰模式”"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问一下在iOS15和iPadOS15上开启“勿扰模式”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "在iOS15和iPadOS15上开启“勿扰模式”"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要从“控制中心”开启“勿扰模式”，请按照以下步骤操作：首先在iPhone、iPodtouch或iPad上，打开“控制中心”；然后轻点“专注”，然后轻点“勿扰模式”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "要从“控制中心”开启“勿扰模式”，请按照以下步骤操作：",
+            "在iPhone、iPodtouch或iPad上，打开“控制中心”。",
+            "轻点“专注”，然后轻点“勿扰模式”。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "什么是“驾驶”专注模式？",
+        "act": "what",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "进一步了解",
+            "设置“驾驶”专注模式，以便在您开车期间自动将通知静音。"
+        ],
+        "grounding_id": [
+            "44",
+            "49"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "设置“驾驶”专注模式，以便在您开车期间自动将通知静音。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad和iPodtouch上使用“勿扰模式”.json",
+        "grounding": [
+            "设置“驾驶”专注模式，以便在您开车期间自动将通知静音。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    }
+]

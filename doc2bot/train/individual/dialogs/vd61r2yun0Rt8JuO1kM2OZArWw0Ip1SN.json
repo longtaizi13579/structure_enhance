@@ -1,0 +1,270 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T5",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询港澳通行证及签注的有关问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是港澳商务签注、港澳逗留签注、 往来港澳通行证还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "港澳商务签注的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）三楼E厅2-10号",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）三楼E厅2-10号"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "星期一至星期五（法定节假日除外）上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00）",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "星期一至星期五（法定节假日除外）上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想咨询一些有关费用的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "528"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "533"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "533"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "534"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这种签注的申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "166",
+            "167"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "168"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "什么情况下可以申请此种签注？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "169"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "企业机构人员、个体工商户经营者赴港澳从事商务活动的，可以申请商务签注。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "企业机构人员、个体工商户经营者赴港澳从事商务活动的，可以申请商务签注。"
+        ],
+        "grounding_id": [
+            "170"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那如果我想投诉，我有哪些投诉方式呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "0570-12345（衢州政府服务热线）",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "0570-12345（衢州政府服务热线）"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

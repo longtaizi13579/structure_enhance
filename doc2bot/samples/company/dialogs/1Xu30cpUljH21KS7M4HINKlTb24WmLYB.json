@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是台州的，我要投诉税务局里办理纳税信用补评的工作人员，我要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "监督投诉方式",
+            "纳税信用补评",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "31",
+            "1",
+            "T8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要到现场去投诉还是打电话呢？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "纳税信用补评",
+            "浙江省_台州市",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T8",
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "给我投诉地址吧，那个工作人员态度太恶劣了，我得去现场投诉他。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，投诉地址是台州市椒江区开发大道692号台州市行政服务中心2楼206室，你可以到这去。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "台州市椒江区开发大道692号台州市行政服务中心2楼206室",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我记下了，对了，有电话不？也给我一个吧，如果我后面没有时间到现场的话，还可以直接打电话去投诉。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，您可以拨打电话0576-12366进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "投诉电话",
+            "0576-12366"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我还想问一下，这个补评一般会什么时候才能够办好？我就是因为1个星期过去了，还没有看到结果，才想要投诉的。",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "纳税信用补评",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问承诺办结时限还是法定办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定的是15个工作日要办理完成。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限",
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那承诺的办结时限呢？他们和我说是一个星期左右，但是现在一个星期都过去2天了。",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "承诺办结时限是10个工作日，您再等待一下。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "承诺办结时限",
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    }
+]

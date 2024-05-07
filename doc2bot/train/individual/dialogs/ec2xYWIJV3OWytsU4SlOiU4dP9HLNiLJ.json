@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我机动车驾驶证丢了，我要补领，这个服务叫什么具体名称啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "服务名称"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您咨询的业务办理地址是哪里呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "宁波市，浙江省。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您咨询的服务名称为遗失补领机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，叫遗失补领机动车驾驶证啊。那你们啥时间能给我办呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "遗失补领机动车驾驶证的办理时间为工作日上午8:30—11:30，下午13:30—17:00（后大厅8:30—17:00，全年无休）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "工作日上午8:30—11:30，下午13:30—17:00（后大厅8:30—17:00，全年无休）。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我再问问，这个业务的实施科室是哪个呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "实施或牵头处（科）室名称"
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "该业务的实施处室为宁波市公安局交通警察局车辆管理所。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "宁波市公安局交通警察局车辆管理所"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦。那我的申请批出来之后，我拿到的结果叫什么啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "结果信息",
+            "审批结果名称"
+        ],
+        "grounding_id": [
+            "111",
+            "114"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您得到的审批结果名称为机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "机动车驾驶证"
+        ],
+        "grounding_id": [
+            "115"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "啊，还是驾驶证是吧。那我怎么来办理呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以在网上申请或到现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

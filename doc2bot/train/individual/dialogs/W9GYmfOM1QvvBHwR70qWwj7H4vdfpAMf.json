@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省杭州市，想要咨询行驶证驾驶证问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T4",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想咨询驾驶证延期审验、达到规定年龄换领机动车驾驶证还是驾驶人申请恢复驾驶资格呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道驾驶证延期审验需要多久能办理完成。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的法定办结时限为1天。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想要延期换领机动车驾驶证，需要什么手续呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "延期换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想要了解收费标准、办理流程还是支付方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "284",
+            "289"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道能不能网上支付。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "抱歉，我们的系统不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理这个业务收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "285"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "延期换领机动车驾驶证的办理是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_延期换领机动车驾驶证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "286"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "请问除了到现场咨询，还有其他的咨询方式吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以电话咨询，咨询电话为0571-12123，0571-96345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_境外机动车驾驶证换证申领.json",
+        "grounding": [
+            "咨询电话",
+            "0571-12123，0571-96345"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

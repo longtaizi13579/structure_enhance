@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么根据皮肤色调选择化妆品",
+        "act": "how",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "如何根据皮肤色调选择化妆品",
+            "可选方法",
+            "个人形象与时尚"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "T108"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想选的是什么类型？",
+        "act": "question/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "如何根据皮肤色调选择化妆品",
+            "可选方法",
+            "选择粉底"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "粉底",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择粉底"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "选择粉底: 1.选择完全符合你肤色的粉底。 2.在你的皮肤上试用粉底，看看颜色是否合适。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择粉底",
+            "选择完全符合你肤色的粉底。",
+            "在你的皮肤上试用粉底，看看颜色是否合适。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那需要根据季节不同更换粉底吗？",
+        "act": "verification",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择完全符合你肤色的粉底。",
+            "你可能需要根据季节选择不同的粉底，因为夏季肤色往往会深一些。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可能需要根据季节选择不同的粉底，因为夏季肤色往往会深一些。",
+        "act": "ans/yes",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "你可能需要根据季节选择不同的粉底，因为夏季肤色往往会深一些。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，试色的话一般是在什么部位？",
+        "act": "what",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "最适合试色的地方是脸颊和下颚骨之间。粉底分黄色底色调和蓝色底色调两种。有的化妆品线会在产品标签上写“冷调米黄”、“暖调蜂蜜色”等等，方便你选择。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "最适合试色的地方是脸颊和下颚骨之间。粉底分黄色底色调和蓝色底色调两种。有的化妆品线会在产品标签上写“冷调米黄”、“暖调蜂蜜色”等等，方便你选择。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "最适合试色的地方是脸颊和下颚骨之间。粉底分黄色底色调和蓝色底色调两种。有的化妆品线会在产品标签上写“冷调米黄”、“暖调蜂蜜色”等等，方便你选择。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那腮红应该怎么选呢？",
+        "act": "how",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择腮红"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "腮红必须适合你的肤色，可以和你的皮肤自然相容",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "腮红必须适合你的肤色，可以和你的皮肤自然相容。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "中间色肤色适合什么颜色的腮红呢？",
+        "act": "what",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "中间色肤色很适合杏色、珊瑚色、桃色。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "中间色肤色很适合杏色、珊瑚色、桃色",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "中间色肤色很适合杏色、珊瑚色、桃色。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那眼影的话又应该怎么选",
+        "act": "how",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择眼影"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "选择适合你肤色色调，并能突出眼睛颜色的眼影",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "选择适合你肤色色调，并能突出眼睛颜色的眼影。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "灰色、银色适合什么肤色的人呢？",
+        "act": "what",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "而冷色调皮肤的人则适合蓝色、灰色、银色、粉色、梅子色等等。所选的颜色不仅要是和你的肤色和瞳孔颜色，还要考虑你的皮肤色调。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "冷色调皮肤的人则适合蓝色、灰色、银色、粉色、梅子色等等。所选的颜色不仅要是和你的肤色和瞳孔颜色，还要考虑你的皮肤色调。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何根据皮肤色调选择化妆品.json",
+        "grounding": [
+            "而冷色调皮肤的人则适合蓝色、灰色、银色、粉色、梅子色等等。所选的颜色不仅要是和你的肤色和瞳孔颜色，还要考虑你的皮肤色调。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    }
+]

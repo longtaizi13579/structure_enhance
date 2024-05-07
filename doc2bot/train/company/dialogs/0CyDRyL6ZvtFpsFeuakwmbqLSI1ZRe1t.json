@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想知道企业近三年内无重大的安全、质量事故可以评定为省级重点企业研究院吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "（四）企业近三年内无重大的安全、质量事故，严重的环境违法、知识产权违法、税务违法、科研失信等行为。"
+        ],
+        "grounding_id": [
+            "1",
+            "309"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "企业近三年内无重大的安全、质量事故，严重的环境违法、税务违法、科研失信等行为都是可以申请评定省级重点企业研究院的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "（四）企业近三年内无重大的安全、质量事故，严重的环境违法、知识产权违法、税务违法、科研失信等行为。"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "多长时间能评定下来？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想问承诺办结时间还是法定办结时间？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "承诺办结是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这边查到的是48个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "48（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "申报准备的材料是需要申请人自备是吧？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "申报材料",
+            "申请人自备"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "142"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，主办企业相关材料企业营业执照、税务登记证书等及近三年财务审计报告都需要申请人自备。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "材料名称",
+            "主办企业相关材料（企业营业执照、税务登记证书等及近三年财务审计报告）",
+            "申请人自备"
+        ],
+        "grounding_id": [
+            "139",
+            "140",
+            "142"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我怕我办的时候有不满意，有什么投诉方式没？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉电话和投诉网址都有，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉电话多少？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您记一下，0571-87056409。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "0571-87056409"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对了，支持自助机器办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "省级重点企业研究院认定",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "抱歉啊，这个是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级重点企业研究院认定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

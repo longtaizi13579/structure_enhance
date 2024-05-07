@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一些关于在Mac上使用SDXC卡插槽的问题",
+        "act": "what",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "使用Mac上的SD和SDXC卡插槽"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想问哪些Mac机型配备SDXC卡插槽还是支持哪些类型的卡？",
+        "act": "multiple-choice",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "以下Mac机型配备SDXC卡插槽："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哪些Mac机型配备SDXC卡插槽",
+        "act": "what",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "以下Mac机型配备SDXC卡插槽："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，配备SDXC卡插槽的Mac机型有2022年推出的MacStudio、2021年推出的MacBookPro、2011年至2015年推出的MacBookPro、 2011年至2014年推出的Macmini、 2013年至2017年推出的13英寸MacBookAir机型、 2010年或之后推出的27英寸iMac机型、 和2010年或之后推出的21.5英寸iMac机型。",
+        "act": "ans/open",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "以下Mac机型配备SDXC卡插槽：",
+            "2022年推出的MacStudio",
+            "2021年推出的MacBookPro",
+            "2011年至2014年推出的Macmini",
+            "2011年至2015年推出的MacBookPro",
+            "2010年或之后推出的27英寸iMac机型",
+            "2013年至2017年推出的13英寸MacBookAir机型",
+            "2010年或之后推出的21.5英寸iMac机型"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "7",
+            "6",
+            "9",
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是我把卡放进去后，没有装载啊，是不是我Mac坏了",
+        "act": "verification",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "如果您的卡没有装载"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，如果您插入的卡没有装载， 请取出卡并再次插入。有时SD卡会因您插入得太慢或太快而无法正常装载。",
+        "act": "ans/no",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "请取出卡并再次插入。有时，SD卡会因您插入得太慢或太快而无法正常装载。",
+            "如果您的卡没有装载"
+        ],
+        "grounding_id": [
+            "34",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是还是没有啊，为什么",
+        "act": "why",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "如果卡仍然无法装载，"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果卡仍然无法装载，您可能需要将SD卡重新格式化。",
+        "act": "ans/open",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "您可能需要将SD卡重新格式化。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，这回可以了，那我该怎么推出SD卡",
+        "act": "how",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "推出SD卡"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果要推出SD卡，请将这张卡对应的图标拖移到“废纸篓”中。待相应图标从桌面上消失后，便可从插槽中取出卡。但是请不要在Mac处于睡眠状态时取出卡，因为这样可能会导致数据丢失。请务必先唤醒您的电脑并推出SD卡，然后再将它从您的Mac中取出。",
+        "act": "ans/open",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "推出SD卡",
+            "要推出SD卡，请将这张卡对应的图标拖移到“废纸篓”中。待相应图标从桌面上消失后，便可从插槽中取出卡。",
+            "请不要在Mac处于睡眠状态时取出卡，因为这样可能会导致数据丢失。请务必先唤醒您的电脑并推出SD卡，然后再将它从您的Mac中取出。"
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24"
+        ]
+    }
+]

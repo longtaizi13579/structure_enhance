@@ -1,0 +1,358 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T13",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询台湾通行证及签注业务有关的问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是赴台团队旅游签注、往来台湾通行证还是其他签注有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理往来台湾通行证遇到问题，想投诉有哪些方式？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "监督投诉方式",
+            "往来台湾通行证"
+        ],
+        "grounding_id": [
+            "33",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0572-12345",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0572-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "赴台商务签注的咨询方式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "湖州市吴兴区青铜路298号政法楼4楼404室",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号政法楼4楼404室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个签注的办理形式是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "基本信息",
+            "赴台商务签注",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "1",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "结果多久会给反馈呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "结果会在自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果遇到问题，我想要投诉有哪些投诉方式？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "湖州市吴兴区青铜路298号主楼8楼810室",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "赴台团队旅游签注的咨询方式又有哪些呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "也是三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "浙江省统一政务咨询投诉举报平台",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省统一政务咨询投诉举报平台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

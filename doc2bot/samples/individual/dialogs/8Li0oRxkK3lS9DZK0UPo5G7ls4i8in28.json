@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省台州市办理台湾签注的相关信息",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是应邀赴台签注吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，这个去哪里办呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "此项业务的办理点为台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼C11-C14窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼C11-C14窗口"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "需要携带哪些资料呢？我可以打电话问一下吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以，您可以拨打0576-88212297进行咨询",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "0576-88212297"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，那我下午六点过去可以吗？我六点才下班",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "六点应该不行，工作人员那个时候应该就下班了",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那他们的上班时间是几点到几点呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理时间在工作日的夏季：上午8：30—12：00，下午2:00—5:00或者冬季：上午8：30—12：00，下午1:30—4:30",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "工作日夏季：上午8：30—12：00，下午2:00—5:00；冬季：上午8：30—12：00，下午1:30—4:30"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那缴费时可以用支付宝线上支付吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "387"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果他多收我钱我可以投诉的吧？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，我可以为您提供投诉电话、投诉地址和投诉网址",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，那我要投诉地址",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好饿，投诉地址为台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境236室",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼出入境236室"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

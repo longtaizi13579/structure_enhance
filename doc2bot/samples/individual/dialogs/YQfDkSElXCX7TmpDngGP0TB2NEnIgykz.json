@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问办理港澳探亲签注的话应该去哪里呢？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以到市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼进行办理",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境2-6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "二楼每个窗口都可以办吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是的，根据标识找到公安出入境2-6号窗口进行办理",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境2-6号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，是周一到周五上班吧？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，但是法定节假日是休息的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "周一到周五（法定节假日除外）：上午8:30-12:00，下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我上午十点去应该就差不多吧",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，在上午8:30-12:00，下午14:00-17:00时间段都可以",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "周一到周五（法定节假日除外）：上午8:30-12:00，下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是下午五点之后就不能办了吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "周一到周五（法定节假日除外）：上午8:30-12:00，下午14:00-17:00"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那我五点之前去没有人的话是不是可以投诉？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，您是否偶需要投诉电话、投诉地址、投诉网址的信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯，投诉电话是多少，我记一下",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话为0580-12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

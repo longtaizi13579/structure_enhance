@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省绍兴市的，我的一辆汽车因发生交通事故，导致发动机号码模糊不清楚，应该怎么办？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "机动车",
+            "机动车发动机号码、车辆识别代号变更备案"
+        ],
+        "grounding_id": [
+            "T7",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请机动车发动机号码、车辆识别代号变更备案。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "机动车发动机号码、车辆识别代号变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "它的设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "608"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "设定依据是：机动车登记规定，和机动车登记工作规范。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "设定依据",
+            "机动车登记规定（公安部124号令）",
+            "机动车登记工作规范"
+        ],
+        "grounding_id": [
+            "608",
+            "609",
+            "620"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想问问机动车登记工作规范相关问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "机动车登记工作规范"
+        ],
+        "grounding_id": [
+            "620"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "依据文号，颁布机关，实施日期，条款内容，您想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "依据文号"
+        ],
+        "grounding_id": [
+            "623"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "依据文号是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "依据文号"
+        ],
+        "grounding_id": [
+            "623"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "依据文号是：公交管〔2012〕333号。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "依据文号",
+            "公交管〔2012〕333号"
+        ],
+        "grounding_id": [
+            "623",
+            "624"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问下关于汽车解除抵押的问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解机动车解除抵押登记吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，办理这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "机动车解除抵押登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "492"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "493"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "都有什么办理形式？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "目前支持两种办理形式：网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "102",
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_机动车_机动车解除抵押登记.json",
+        "grounding": [
+            "投诉地址",
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

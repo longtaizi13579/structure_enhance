@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解如何通过 iPhone在支持“隔空打印”的打印机上进行打印？",
+        "act": "how",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先打开您想要从中进行打印的App，要找到打印选项，请轻点这个App的共享图标—或—或者轻点。然后向下滚动并轻点或“打印”。轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。最后选取打印份数或其他选项，例如要打印的页面，轻点右上角的“打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "打开您想要从中进行打印的App。",
+            "要找到打印选项，请轻点这个App的共享图标—或—或者轻点。",
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。",
+            "轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。",
+            "选取打印份数或其他选项，例如要打印的页面。",
+            "轻点右上角的“打印”。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我怎么找不到打印选项？",
+        "act": "why",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在打印之前，我除了要确保我的iPhone与打印机都已连接至同一Wi-Fi网络，还需要注意些什么呢？",
+        "act": "what",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "开始之前",
+            "确保您的iPhone、iPad或iPodtouch以及打印机都已连接至同一Wi-Fi网络，并且您在覆盖范围内。"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您还要确认您的打印机是不是支持“隔空打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "确认您的打印机是不是支持“隔空打印”。有关详细信息，请联系打印机的生产企业。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我不知道我的打印机是否支持“隔空打印”？",
+        "act": "what",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "确认您的打印机是不是支持“隔空打印”。有关详细信息，请联系打印机的生产企业。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "关于这一方面，您可能需要联系打印机的生产企业。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "确认您的打印机是不是支持“隔空打印”。有关详细信息，请联系打印机的生产企业。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还有一个问题，在设置iPhone蜂窝移动网络通话的时候，需要将所有设备均使用同一AppleID登录iCloud吗？",
+        "act": "verification",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "设置iPhone蜂窝移动网络通话",
+            "所有设备均使用同一AppleID登录iCloud。"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。所有设备均使用同一AppleID登录iCloud。",
+        "act": "ans/yes",
+        "document": "在Mac、iPad或iPodtouch上拨打和接听电话.json",
+        "grounding": [
+            "所有设备均使用同一AppleID登录iCloud。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

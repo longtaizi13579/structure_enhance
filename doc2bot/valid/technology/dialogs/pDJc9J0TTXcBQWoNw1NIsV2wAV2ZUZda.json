@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于查找iPhone备份的问题？",
+        "act": "what",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找iPhone、iPad和iPodtouch的备份"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：查找储存在Mac或PC上的备份，删除或拷贝Mac或PC上的备份，还是查找和管理储存在iCloud中的备份？",
+        "act": "multiple-choice",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找储存在Mac或PC上的备份"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下查找储存在Mac或PC上的备份，在Mac上搜索备份文件夹的操作步骤是什么？",
+        "act": "what",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在Mac上搜索备份文件夹",
+            "要查找备份列表，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要查找备份列表，请按照以下步骤操作：: 首先，点按菜单栏中的放大镜。然后，键入或拷贝并粘贴以下内容：~/资源库/ApplicationSupport/MobileSync/Backup/ 接着，按下Return键。最后，选择“文件夹”下的“备份”文件夹。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "要查找备份列表，请按照以下步骤操作：",
+            "点按菜单栏中的放大镜。",
+            "键入或拷贝并粘贴以下内容：~/资源库/ApplicationSupport/MobileSync/Backup/",
+            "按下Return键。",
+            "选择“文件夹”下的“备份”文件夹。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "备份一般存储在哪里？",
+        "act": "what",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "备份文件夹可以移动吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器，否则可能损害备份文件。",
+        "act": "ans/no",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "“访达”和iTunes会将备份存储到“备份”文件夹。“备份”文件夹的位置因操作系统而异。尽管您可以拷贝“备份”文件夹，但您不应该将其移动到其他文件夹、外置驱动器或网络驱动器。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那可以对备份文件进行编辑或重命名吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。备份可作为您设备上几乎所有数据和设置的安全副本。因此，虽然您可以查看或访问备份文件的内容，但这些内容通常不是以您可以读取的格式储存的。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。",
+        "act": "ans/no",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。备份可作为您设备上几乎所有数据和设置的安全副本。因此，虽然您可以查看或访问备份文件的内容，但这些内容通常不是以您可以读取的格式储存的。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "备份有什么作用？",
+        "act": "what",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。备份可作为您设备上几乎所有数据和设置的安全副本。因此，虽然您可以查看或访问备份文件的内容，但这些内容通常不是以您可以读取的格式储存的。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "备份可作为您设备上几乎所有数据和设置的安全副本。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。备份可作为您设备上几乎所有数据和设置的安全副本。因此，虽然您可以查看或访问备份文件的内容，但这些内容通常不是以您可以读取的格式储存的。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下，如何查找和管理储存在iCloud中的备份？",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找和管理储存在iCloud中的备份"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上的操作方法：首先，前往“设置”>“[您的姓名]”>“iCloud”。然后，轻点“管理储存空间”，然后轻点“备份”。最后，轻点备份后，可以查看有关这个备份的更多详细信息，选取要备份的信息，或删除这个备份。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上：",
+            "前往“设置”>“[您的姓名]”>“iCloud”。",
+            "轻点“管理储存空间”，然后轻点“备份”。",
+            "轻点备份后，可以查看有关这个备份的更多详细信息，选取要备份的信息，或删除这个备份。"
+        ],
+        "grounding_id": [
+            "67",
+            "68",
+            "69",
+            "70"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我可以在iPhone上选取iPad上的备份内容吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "要选取所要备份的内容，您只能从储存这些内容的设备的“设置”菜单中进行选取。例如，尽管您可以在iPhone上查看iPad备份，但您只能从iPad的“设置”菜单选取需要备份的iPad内容。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以。要选取所要备份的内容，您只能从储存这些内容的设备的“设置”菜单中进行选取。例如，尽管您可以在iPhone上查看iPad备份，但您只能从iPad的“设置”菜单选取需要备份的iPad内容。",
+        "act": "ans/no",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "要选取所要备份的内容，您只能从储存这些内容的设备的“设置”菜单中进行选取。例如，尽管您可以在iPhone上查看iPad备份，但您只能从iPad的“设置”菜单选取需要备份的iPad内容。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    }
+]

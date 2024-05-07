@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问下，浙江宁波的住房公积金怎么提取啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "公积金",
+            "公积金提取"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "T208",
+            "T214"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是因为什么想提取住房公积金啊？是出境定居提取住房公积金，还是要建造、翻建、大修自住住房提取住房公积金啊？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是想出境定居提取住房公积金，想问问这个可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "326"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个是不支持的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "327"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我办理的时候，它收费吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "322"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你放心，是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "323"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那规定的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "时限是3个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个办理成功的结果信息送达时限是多久？不会很久吧？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不会很久的，自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我办理的时候可以在自助终端进行办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个还不支持哈。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那他们的投诉电话是多少？不行我在打电话问问。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "电话是057412345。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "0574—12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

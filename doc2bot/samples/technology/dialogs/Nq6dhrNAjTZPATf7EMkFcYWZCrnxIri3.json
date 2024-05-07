@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下就是在一台Mac上使用多个macOS版本",
+        "act": "what",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "添加APFS宗卷: 1.确保Mac使用的是macOSHighSierra或更高版本。 2.打开“磁盘工具”（位于“应用程序”文件夹的“实用工具”文件夹中）。 3.在边栏中，选择现有的APFS宗卷，如MacintoshHD。 4.从菜单栏中选取“编辑”>“添加APFS宗卷”，或者点按“磁盘工具”工具栏中的“添加宗卷”按钮(+)。仅当选择的宗卷采用APFS格式时，这些选项才可用。 5.为新宗卷键入任意名称，然后点按“添加”。 6.退出“磁盘工具”。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "添加APFS宗卷",
+            "确保Mac使用的是macOSHighSierra或更高版本。",
+            "打开“磁盘工具”（位于“应用程序”文件夹的“实用工具”文件夹中）。",
+            "在边栏中，选择现有的APFS宗卷，如MacintoshHD。",
+            "从菜单栏中选取“编辑”>“添加APFS宗卷”，或者点按“磁盘工具”工具栏中的“添加宗卷”按钮(+)。仅当选择的宗卷采用APFS格式时，这些选项才可用。",
+            "为新宗卷键入任意名称，然后点按“添加”。",
+            "退出“磁盘工具”。"
+        ],
+        "grounding_id": [
+            "8",
+            "10",
+            "14",
+            "15",
+            "16",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那在macOS版本之间切换具体要怎么办",
+        "act": "how",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在macOS版本之间切换"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在macOS版本之间切换，要在已安装的macOS版本之间切换，只需从另一个宗卷启动Mac。您可以通过更改Mac启动磁盘来完成这一操作。当您首次从新宗卷启动时，设置助理会协助您创建新的用户帐户。用户帐户不会在宗卷之间共享，但您可以在用户帐户之间共享文件。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在macOS版本之间切换",
+            "要在已安装的macOS版本之间切换，只需从另一个宗卷启动Mac。您可以通过更改Mac启动磁盘来完成这一操作。",
+            "当您首次从新宗卷启动时，设置助理会协助您创建新的用户帐户。用户帐户不会在宗卷之间共享，但您可以在用户帐户之间共享文件。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的还有问题想问一下也是关于在一台Mac上使用多个macOS版本的",
+        "act": "what",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "在一台Mac上使用多个macOS版本"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是想了解进行备份还是在新宗卷上安装兼容的macOS或是让每个宗卷上的macOS保持最新状态再或是删除宗卷",
+        "act": "multiple-choice",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "删除宗卷"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "删除宗卷",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "删除宗卷"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您想删除某个宗卷，包括这个宗卷上的macOS和所有其他数据，请按照以下步骤操作。: 首先1.从您不会删除的宗卷启动Mac。 2.打开“磁盘工具”。 3.从“磁盘工具”的边栏中，选择要删除的宗卷。 4.从菜单栏中选取“编辑”>“删除APFS宗卷”，或者点按“磁盘工具”工具栏中的“删除宗卷”按钮(–)。 最后5.点按“删除”。如果这个宗卷属于某个宗卷组，请在系统提示您删除这个宗卷组时，按照提示操作。",
+        "act": "ans/open",
+        "document": "在一台Mac上使用多个macOS版本.json",
+        "grounding": [
+            "如果您想删除某个宗卷，包括这个宗卷上的macOS和所有其他数据，请按照以下步骤操作。",
+            "从您不会删除的宗卷启动Mac。",
+            "打开“磁盘工具”。",
+            "从“磁盘工具”的边栏中，选择要删除的宗卷。",
+            "从菜单栏中选取“编辑”>“删除APFS宗卷”，或者点按“磁盘工具”工具栏中的“删除宗卷”按钮(–)。",
+            "点按“删除”。如果这个宗卷属于某个宗卷组，请在系统提示您删除这个宗卷组时，按照提示操作。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55"
+        ]
+    }
+]

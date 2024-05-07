@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一些关于AppleStudioDisplay的一些问题",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调AppleStudioDisplay的校准"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问如何测定显示器还是下载测试图案",
+        "act": "multiple-choice",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "测定显示器"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问测定显示器的具体步骤是什么",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "测定显示器",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先将第三方光谱辐射仪对准显示器的中央并确保室内环境保持昏暗或黑暗，然后打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。最后将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较即可",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "将第三方光谱辐射仪对准显示器的中央。",
+            "具体步骤",
+            "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。",
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。",
+            "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于DCISDR的模式时，请使用数码影院(P3–DCI)预置。",
+            "将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。根据光谱辐射仪的容差或校准情况，读数与参考值可能有些不同。"
+        ],
+        "grounding_id": [
+            "27",
+            "26",
+            "28",
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "每个文件夹里面作用都不一样吗？",
+        "act": "verification",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定BT.709和BT.601等配置下的颜色或亮度。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在调节光谱仪的时候都需要调节什么？",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "请将它关闭。"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果光谱辐射仪有自动中性密度(ND)滤镜设置，请将它关闭。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "请将它关闭。"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个东西，都适配哪些Mac机型",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "兼容的Mac机型"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "适配2022年推出的MacStudio、 2019年推出的MacPro、 2019年或之后推出的16英寸MacBookPro、2018年或之后推出的15英寸MacBookPro、 2021年推出的14英寸MacBookPro、2020年推出的配备四个雷雳3端口的13英寸MacBookPro、 搭载AppleM1芯片的13英寸MacBookPro、2019年推出的iMac或更新机型、 2020年推出的Macmini、2020年推出的MacBookAir、已连接到BlackmagiceGPU或BlackmagiceGPUPro的配备雷雳3端口的Mac电脑、",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "兼容的Mac机型",
+            "ProDisplayXDR在以下Mac机型上支持6016x3384(10bpc)分辨率：",
+            "2019年推出的MacPro",
+            "2022年推出的MacStudio",
+            "2019年或之后推出的16英寸MacBookPro",
+            "2021年推出的14英寸MacBookPro",
+            "2020年推出的配备四个雷雳3端口的13英寸MacBookPro",
+            "搭载AppleM1芯片的13英寸MacBookPro",
+            "2018年或之后推出的15英寸MacBookPro",
+            "2019年推出的iMac或更新机型",
+            "2020年推出的Macmini",
+            "2020年推出的MacBookAir",
+            "已连接到BlackmagiceGPU或BlackmagiceGPUPro的配备雷雳3端口的Mac电脑"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "45",
+            "41",
+            "49",
+            "57",
+            "61",
+            "65",
+            "53",
+            "69",
+            "73",
+            "77",
+            "81"
+        ]
+    }
+]

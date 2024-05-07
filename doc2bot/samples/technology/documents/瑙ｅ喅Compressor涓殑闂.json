@@ -1,0 +1,397 @@
+{
+    "document_id": 380,
+    "domain": "technology",
+    "name": "解决Compressor中的问题",
+    "graph": {
+        "1": {
+            "data": "解决Compressor中的问题",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "请按照以下建议列出的顺序操作，直至您查明或解决问题。操作前，请务必备份所有自定的Compressor设置和要更新的Compressor版本。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "7": {
+            "data": "1.重新启动Mac",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "8": {
+            "data": "重新启动Mac会还原与Compressor相关的系统资源。要重新启动Mac，请选取苹果菜单()>“重新启动”，然后重新打开Compressor并尝试重现问题。",
+            "type": "ordinary",
+            "pid": "7"
+        },
+        "9": {
+            "data": "2.断开外部设备的连接",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "10": {
+            "data": "有时，不兼容或出现故障的外部设备可能会导致Compressor出现问题。要测试外部设备，请进行以下操作：",
+            "type": "sequence",
+            "pid": "9"
+        },
+        "11": {
+            "data": "将Mac关机。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "断开除键盘和鼠标之外的所有外部设备的连接。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "重置NVRAM。您只需在第一次断开外部设备的连接时进行此操作。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "17": {
+            "data": "打开Compressor，并尝试重现问题。如果问题不再出现，则逐个重新连接设备，直至您可以重现问题。如果设备要求在重新连接后重新启动Mac，请确保照做。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "18": {
+            "data": "如果问题仅在连接某部特定设备后出现，您可能需要更新或检修这部设备。请联系生产企业以获取支持。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "19": {
+            "data": "3.查看文档",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "查看“Compressor帮助”，以确保Compressor正常运行。您可以在“Compressor帮助”中搜索警告或错误信息中显示的关键词。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "24": {
+            "data": "4.检查系统要求",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "25": {
+            "data": "确保您的电脑满足Compressor系统要求。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "29": {
+            "data": "5.确保Compressor为最新版本",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "30": {
+            "data": "更新Compressor之前，请完成所有正在处理的转码项目。然后，备份所有自定的Compressor设置和要更新的Compressor版本。",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "34": {
+            "data": "要确保您使用的是最新版本的Compressor，请选取苹果菜单()>“AppStore”，然后点按工具栏中的“更新”。如果有可用的更新，您可以点按“更新”按钮以下载并安装。",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "35": {
+            "data": "6.验证专业视频格式的安装",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "36": {
+            "data": "确保您已安装专业视频格式。",
+            "type": "ordinary",
+            "pid": "35"
+        },
+        "40": {
+            "data": "7.检查媒体和设备的兼容性",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "41": {
+            "data": "确保您使用的是兼容的媒体格式、设备以及外部储存设备格式。请联系设备制造商以获取支持。如果设备有软件更新可用，请按照制造商的说明更新摄像机和外部储存设备等设备的固件，或更新接口等设备的驱动程序。",
+            "type": "ordinary",
+            "pid": "40"
+        },
+        "45": {
+            "data": "8.检查软件的兼容性",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "46": {
+            "data": "如果您将第三方插件或其他软件与Compressor搭配使用，请确保它与您所用版本的Compressor兼容。请联系开发者以获得支持。如果有可用的更新，请按照开发者的说明来更新软件。如果没有可用的更新，则在兼容版本发布之前，请按照开发者推荐的方法移除插件。",
+            "type": "ordinary",
+            "pid": "45"
+        },
+        "47": {
+            "data": "9.在另一个用户帐户中进行测试",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "48": {
+            "data": "使用Mac上的另一个用户帐户打开Compressor。以另一个用户身份登录可以帮助您确定意外行为是否与特定用户的设置或文件有关。",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "49": {
+            "data": "10.在新批处理项目中进行测试",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "50": {
+            "data": "使用已知良好的媒体（即您已在其他项目中成功使用的媒体）启动新的批处理项目。如果您无法使用已知良好的媒体重现问题，则问题可能与受影响批处理项目中的媒体有关。请从原始来源获取媒体的新副本。",
+            "type": "ordinary",
+            "pid": "49"
+        },
+        "51": {
+            "data": "如果没有已知良好的媒体可用，可以使用FinalCutPro和Motion创建一些媒体。",
+            "type": "ordinary",
+            "pid": "49"
+        },
+        "52": {
+            "data": "在FinalCutPro中，可使用占位符以及“FinalCutPro附加内容”中的音效，然后可以将这类内容共享到AppleProRes422母版文件。",
+            "type": "ordinary",
+            "pid": "51"
+        },
+        "56": {
+            "data": "在Motion中，可使用Motion补充内容并将这类内容导出为QuickTime影片。",
+            "type": "ordinary",
+            "pid": "51"
+        },
+        "60": {
+            "data": "11.移除“Compressor”文件夹",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "61": {
+            "data": "尝试移除“Compressor”文件夹以解决该问题。移除Compressor之前，请按如下所述备份您的自定Compressor设置：",
+            "type": "sequence",
+            "pid": "60"
+        },
+        "62": {
+            "data": "前往您的个人文件夹中的“资源库/ApplicationSupport/Compressor/Settings/”。",
+            "type": "sequence-step",
+            "pid": "61"
+        },
+        "63": {
+            "data": "按住Control键并点按“设置”文件夹，然后选取“Compressor设置”。",
+            "type": "sequence-step",
+            "pid": "61"
+        },
+        "64": {
+            "data": "将生成的.zip文件移动到另一个位置，例如“桌面”。",
+            "type": "sequence-step",
+            "pid": "61"
+        },
+        "65": {
+            "data": "要移除“Compressor”文件夹，请进行以下操作：",
+            "type": "sequence",
+            "pid": "60"
+        },
+        "66": {
+            "data": "在Compressor中，选取“Compressor”>“偏好设置”，然后点按“我的电脑”。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "67": {
+            "data": "确保“允许其他电脑在我的电脑上执行批处理”已关闭。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "68": {
+            "data": "退出Compressor。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "69": {
+            "data": "在“访达”中，按住Option键，并选取“前往”>“资源库”。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "70": {
+            "data": "从“ApplicationSupport”文件夹中，将“Compressor”文件夹拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "71": {
+            "data": "重新启动Mac。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "75": {
+            "data": "打开Compressor。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "76": {
+            "data": "返回Compressor偏好设置，开启“允许其他电脑在我的电脑上执行批处理”，然后关闭偏好设置窗口。",
+            "type": "sequence-step",
+            "pid": "65"
+        },
+        "77": {
+            "data": "12.移除“AppleQmaster”文件夹",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "78": {
+            "data": "如果您之前在Mac上安装过Compressor3.5版或4.0–4.0.7版，则可能拥有“AppleQmaster”文件夹，您应移除该文件夹。",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "79": {
+            "data": "对于Compressor4.0–4.0.7，请进行以下操作：",
+            "type": "sequence",
+            "pid": "77"
+        },
+        "80": {
+            "data": "退出Compressor。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "81": {
+            "data": "在“访达”中，按住Option键，并选取“前往”>“资源库”。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "82": {
+            "data": "从“ApplicationSupport”文件夹中，将“AppleQmaster”文件夹拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "83": {
+            "data": "重新启动Mac。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "87": {
+            "data": "对于Compressor3.5，请进行以下操作：",
+            "type": "sequence",
+            "pid": "77"
+        },
+        "88": {
+            "data": "退出Compressor。",
+            "type": "sequence-step",
+            "pid": "87"
+        },
+        "89": {
+            "data": "从硬盘的顶级目录中打开“资源库”文件夹，然后打开“ApplicationSupport”文件夹。将“AppleQmaster”文件夹拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "87"
+        },
+        "90": {
+            "data": "重新启动Mac。",
+            "type": "sequence-step",
+            "pid": "87"
+        },
+        "94": {
+            "data": "13.还原Compressor偏好设置",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "95": {
+            "data": "还原偏好设置不会影响您的项目或项目中的任何媒体。但是，任何自定偏好设置都将还原为默认设置。",
+            "type": "ordinary",
+            "pid": "94"
+        },
+        "96": {
+            "data": "还原偏好设置之前，请选取“Compressor”>“偏好设置”，并记录原有的具体设置。然后，按如下所述备份您的自定设置：",
+            "type": "sequence",
+            "pid": "94"
+        },
+        "97": {
+            "data": "前往您的个人文件夹中的“资源库/ApplicationSupport/Compressor/Settings/”。",
+            "type": "sequence-step",
+            "pid": "96"
+        },
+        "98": {
+            "data": "按住Control键并点按“设置”文件夹，然后选取“Compressor设置”。",
+            "type": "sequence-step",
+            "pid": "96"
+        },
+        "99": {
+            "data": "将生成的.zip文件移动到另一个位置，例如“桌面”。",
+            "type": "sequence-step",
+            "pid": "96"
+        },
+        "100": {
+            "data": "要在Compressor4.3或更高版本中还原偏好设置，请进行以下操作：",
+            "type": "sequence",
+            "pid": "94"
+        },
+        "101": {
+            "data": "重新启动Mac。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "105": {
+            "data": "在“访达”中，按住Option键并选取“前往”>“资源库”。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "106": {
+            "data": "从“ApplicationSupport”文件夹中，将“Compressor”文件夹拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "107": {
+            "data": "返回“资源库”文件夹，然后打开“Preferences”文件夹。找到以下两个文件：",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "108": {
+            "data": "返回“资源库”文件夹，然后打开“Preferences”文件夹。找到以下两个文件：",
+            "type": "ordinary",
+            "pid": "107"
+        },
+        "109": {
+            "data": "com.apple.Compressor.plist",
+            "type": "ordinary",
+            "pid": "108"
+        },
+        "110": {
+            "data": "com.apple.Compressor.LSSharedFileList.plist",
+            "type": "ordinary",
+            "pid": "108"
+        },
+        "111": {
+            "data": "将这些文件拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "112": {
+            "data": "重新启动Mac。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "113": {
+            "data": "尝试重现您遇到的问题。如果问题不再出现，则打开Compressor偏好设置，并重新应用您的自定设置。如有必要，请恢复您已备份的“设置”文件夹。",
+            "type": "sequence-step",
+            "pid": "100"
+        },
+        "114": {
+            "data": "14.移除并重新安装Compressor",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "115": {
+            "data": "如果问题仍然存在，请移除并重新安装Compressor。",
+            "type": "sequence",
+            "pid": "114"
+        },
+        "116": {
+            "data": "在“访达”的前往菜单中选取“应用程序”。",
+            "type": "sequence-step",
+            "pid": "115"
+        },
+        "117": {
+            "data": "找到Compressor并将其拖移到“废纸篓”。",
+            "type": "sequence-step",
+            "pid": "115"
+        },
+        "118": {
+            "data": "从MacAppStore重新安装Compressor，或从备份中将其恢复。从备份恢复Compressor时，您可以将它从储存位置拖移到“应用程序”文件夹，也可以从“时间机器”备份恢复Compressor。",
+            "type": "sequence-step",
+            "pid": "115"
+        }
+    }
+}

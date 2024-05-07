@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问问衢州市住房公积金退缴的事情，有什么途径吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "住房公积金退缴",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前咨询途径有电话咨询与线下地址咨询，你需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询方式",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "给我个电话吧，电话多少呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，咨询电话是0570-12329。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "0570-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "打了电话忙线，你还是给我一个地址吧我自己去问问，具体的地址在哪里？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "线下咨询地址在衢州市柯城区白云街道花园东大道169号二楼C厅。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）二楼C厅12号、14号、16号、18号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那里可以用自助终端办理业务吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "暂时不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

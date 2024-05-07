@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下医学问题关于感染方面的",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "医学主题",
+            "感染"
+        ],
+        "grounding_id": [
+            "T3",
+            "T274"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的那您是想了解寄生虫感染、细菌感染、 疱疹病毒感染、还是结核病和相关感染等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "结核病和相关感染"
+        ],
+        "grounding_id": [
+            "T490"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "想了解结核病和相关感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "结核病和相关感染"
+        ],
+        "grounding_id": [
+            "T490"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个您具体是想了解麻风病、与结核病(TB)相关的细菌引起的感染、粟粒性结核(TB)还是结核病呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "麻风病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想了解麻风病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "麻风病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是想了解麻风病的传播、分类、症状、诊断、预防还是治疗呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "麻风病的分类"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个麻风病的分类是根据什么分几类呀",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "麻风病的分类",
+            "根据皮肤受累部位的类型及数量，可将麻风病分为以下几类："
+        ],
+        "grounding_id": [
+            "18",
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据皮肤受累部位的类型及数量，可将麻风病分为以下几类贫菌型和富菌型",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "根据皮肤受累部位的类型及数量，可将麻风病分为以下几类：",
+            "贫菌型",
+            "富菌型"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "富菌型麻风病是怎么判断的呢",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "如果患者的皮肤受累部位不低于6个且/或从受累部位的样本中检测到细菌，则为富菌型麻风病。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果患者的皮肤受累部位不低于6个且/或从受累部位的样本中检测到细菌，则为富菌型麻风病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_结核病和相关感染_麻风病.json",
+        "grounding": [
+            "如果患者的皮肤受累部位不低于6个且/或从受累部位的样本中检测到细菌，则为富菌型麻风病。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

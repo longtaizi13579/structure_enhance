@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想浙江省了解一下机动车所有人住所迁出车辆管理所管辖区域变更登记的情况",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "机动车所有人住所迁出车辆管理所管辖区域变更登记"
+        ],
+        "grounding_id": [
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道的是是否收费，收费依据还是是否支持网上支付呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "318"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那收费的标准是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "326"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车临时号牌5元/张。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "机动车临时号牌5元/张。"
+        ],
+        "grounding_id": [
+            "327"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "322"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "323"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，那结果什么时候能拿到呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "送达时限为自作出决定之日起10个工作日内",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车所有人住所迁出车辆管理所管辖区域变更登记.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

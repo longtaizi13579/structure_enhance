@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么使用AppleWatch跑步呢？",
+        "act": "how",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "戴着您的AppleWatch跑步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想了解如何开始进行跑步体能训练还是如何跟踪您的进度呢？",
+        "act": "multiple-choice",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "如何开始进行跑步体能训练"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何开始进行跑步体能训练？",
+        "act": "how",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "如何开始进行跑步体能训练"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“体能训练”App。 然后滚动到“户外跑步”或“室内跑步”。 轻点“更多”按钮以设置卡路里，距离或时间目标。要为“户外跑步”设置配速提醒，请向下滚动，轻点“设置提醒”，您也可以设置您的时间，然后选择“平均”、“滚动”或“关闭”。 最后轻点“开始”。等待三秒倒计时。要跳过倒计时，请轻点屏幕。",
+        "act": "ans/open",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "打开“体能训练”App。",
+            "滚动到“户外跑步”或“室内跑步”。",
+            "轻点“更多”按钮以设置卡路里，距离或时间目标。要为“户外跑步”设置配速提醒，请向下滚动，轻点“设置提醒”，您也可以设置您的时间，然后选择“平均”、“滚动”或“关闭”。",
+            "轻点“开始”。",
+            "等待三秒倒计时。要跳过倒计时，请轻点屏幕。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那如何跟踪跑步进度呢？",
+        "act": "how",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "如何跟踪您的进度"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您具体是想知道选择要跟踪的度量标准还是查看您的路线呢？",
+        "act": "multiple-choice",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "选择要跟踪的度量标准"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "说一下怎么选择要跟踪的度量标准？",
+        "act": "how",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "选择要跟踪的度量标准"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先在iPhone上，打开WatchApp。 然后轻点“我的手表”标签，再然后轻点“体能训练”>“体能训练视图”。 选择一项体能训练，然后轻点“编辑”。 最后更改您希望包括在测量数据中的指标就可以了。",
+        "act": "ans/open",
+        "document": "戴着您的AppleWatch跑步.json",
+        "grounding": [
+            "在iPhone上，打开WatchApp。",
+            "轻点“我的手表”标签，然后轻点“体能训练”>“体能训练视图”。",
+            "选择一项体能训练，然后轻点“编辑”。",
+            "更改您希望包括在测量数据中的指标："
+        ],
+        "grounding_id": [
+            "22",
+            "23",
+            "24",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我明白了，那我再问你啊，AppleWatch上的“摔倒检测”是怎么使用呢？",
+        "act": "how",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "使用AppleWatch上的“摔倒检测”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想知道了解激活锁的工作方式还是打开或关闭“摔倒检测” 呢？",
+        "act": "multiple-choice",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解激活锁的工作方式是什么样的？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "了解激活锁的工作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "在您佩戴AppleWatchSE或AppleWatchSeries4或更新机型期间，如果手表检测到您摔得很严重，它会轻触您的手腕、发出警报声并显示提醒。您可以选择联系紧急服务，也可以按下数码表冠并轻点左上角的“关闭”，或者轻点“我没事”来关闭提醒。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这样的哦，那这个摔倒检测有什么作用呢？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "使用AppleWatch上的“摔倒检测”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您一个人在家的时候不小心摔了，它会检测您摔得是否严重，可以在您需要时协助联系紧急服务。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatchSE或AppleWatchSeries4或更新机型检测到您摔得很严重，它可以在您需要时协助联系紧急服务。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这么方便啊，那如果AppleWatch检测到您没有做出任何动作，会发生什么情况？",
+        "act": "what",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "使用AppleWatch上的“摔倒检测”",
+            "如果AppleWatch检测到您没有做出任何动作，会发生什么情况"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果AppleWatch检测到您在大约一分钟内没有做出任何动作，它会开始30秒的倒计时，同时轻触您的手腕并发出提醒声。提醒声的音量会逐渐提高，以便您或附近的其他人可以听到。如果您不想拨打紧急服务电话，请轻点“取消”。倒计时结束后，AppleWatch会自动联系紧急服务。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“摔倒检测”.json",
+        "grounding": [
+            "如果AppleWatch检测到您在大约一分钟内没有做出任何动作，它会开始30秒的倒计时，同时轻触您的手腕并发出提醒声。提醒声的音量会逐渐提高，以便您或附近的其他人可以听到。如果您不想拨打紧急服务电话，请轻点“取消”。倒计时结束后，AppleWatch会自动联系紧急服务。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我问一下浙江宁波市申请统筹地区以外的交通食宿费要多久能申请下来？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "T10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是问法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定时限是几天？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边查到是42个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，这么长时间，我担心我会有不满意的地方，有投诉电话可以给我一个吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，您记录一下，有任何不满意可以打这个电话进行投诉0574-12345。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "0574-12345",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都可以怎么办理？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "98"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种办理方式，网上申请、邮寄申请或者去线下窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "99",
+            "98"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "线下的话支持自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自助办理？您意思是是自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对的，就是自助终端。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不好意思，线下不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "90",
+            "89"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，我下午 2：00过去他们上班吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，他们是工作日上午09:00-12:00，下午13:30-17:00上班。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工作日：上午09:00-12:00，下午13:30-17:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

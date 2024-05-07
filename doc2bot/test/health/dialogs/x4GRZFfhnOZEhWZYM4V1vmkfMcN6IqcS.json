@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下，花粉热是不是季节性过敏呀？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏反应"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，不过花粉热这个名字有一定程度误导，因为症状并不仅限于传统上收集枯草的夏季。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏的症状"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那花粉热的症状具体是什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏的症状"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "花粉热可以造成鼻、上颚、咽喉后部和眼搔痒。痒可以突然逐渐出现，也可以突然出现。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "花粉热可以造成鼻、上颚、咽喉后部和眼搔痒。痒可以突然逐渐出现，也可以突然出现。鼻流涕，产生透明水样排泄物，并且鼻可以变得堵塞。儿童鼻塞可以导致耳部感染。鼻粘膜可以水肿，呈紫红色。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个东西和其他的病一起发作，会有更严重的症状吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏的症状"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您的其他病症是什么呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "其它症状包括咳嗽和喘息（特别是在患有哮喘的人中），有时易激惹及睡眠困难。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "比如说哮喘和过敏一起发作会怎么样。",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "其它症状包括咳嗽和喘息（特别是在患有哮喘的人中），有时易激惹及睡眠困难。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在患有哮喘的人中发生过敏，可能还会咳嗽和喘息，有时易激惹及导致睡眠困难。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "其它症状包括咳嗽和喘息（特别是在患有哮喘的人中），有时易激惹及睡眠困难。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那你还能告诉我一些跟季节性过敏相关的其他信息吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏反应"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您具体是想了解季节性过敏的症状、诊断、还是治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏的诊断"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解季节性过敏的诊断方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "季节性过敏的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "对于季节性过敏的诊断，一般医生会进行评估。有时也会进行皮肤试验或过敏原特异性免疫球蛋白试验。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_过敏反应和其它超敏疾病_季节性过敏反应.json",
+        "grounding": [
+            "有时进行皮肤试验或过敏原特异性免疫球蛋白试验"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

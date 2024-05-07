@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是绍兴的，我的驾驶证到期了，我想更换驾驶证，更换收费吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "期满换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "T7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "更换是收费的，具体价钱是10元/本",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准",
+            "10元/本",
+            "期满换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "337",
+            "338",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我如果想补一个驾驶证，怎么申请？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "办理形式",
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "100",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您的驾驶证是丢了是吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您有两种选择网上申请或者是现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请",
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "100",
+            "101",
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果补办的话怎么收费？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "275"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还是10元/本",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "10元/本"
+        ],
+        "grounding_id": [
+            "1",
+            "276"
+        ]
+    }
+]

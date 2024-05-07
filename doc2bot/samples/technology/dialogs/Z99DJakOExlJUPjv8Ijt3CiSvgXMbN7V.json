@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么在iPhone或iPodtouch上旋转屏幕呢",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "在iPhone或iPodtouch上旋转屏幕"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您的设备是否有主屏幕按钮呢",
+        "act": "verification",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "在有主屏幕按钮的iPhone或iPodtouch上旋转屏幕"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是有主屏幕按钮的，应该怎么做呢",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "在有主屏幕按钮的iPhone或iPodtouch上旋转屏幕"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先从屏幕的底部边缘向上轻扫，以打开“控制中心”，然后点“竖排方向锁定”按钮。最后将iPhone或iPodtouch横过来。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "从屏幕的底部边缘向上轻扫，以打开“控制中心”。",
+            "轻点“竖排方向锁定”按钮，以确保它已关闭。",
+            "将iPhone或iPodtouch横过来。"
+        ],
+        "grounding_id": [
+            "19",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "轻点“竖排方向锁定”按钮就会关闭是吗？",
+        "act": "verification",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "轻点“竖排方向锁定”按钮，以确保它已关闭。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，需要确保它已关闭",
+        "act": "ans/yes",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "轻点“竖排方向锁定”按钮，以确保它已关闭。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果没有主屏幕按钮的话怎么办",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "在没有主屏幕按钮的iPhone上旋转屏幕"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先从屏幕的右上角向下轻扫，以打开“控制中心”，然后轻点“竖排方向锁定”按钮，以确保它已关闭，最后将iPhone横过来",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "从屏幕的右上角向下轻扫，以打开“控制中心”。",
+            "轻点“竖排方向锁定”按钮，以确保它已关闭。",
+            "将iPhone横过来。"
+        ],
+        "grounding_id": [
+            "6",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那按照上面的步骤在有主屏幕按钮的iPhone上操作完成之后还是没有旋转的话怎么办",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "在有主屏幕按钮的iPhone或iPodtouch上旋转屏幕",
+            "如果屏幕仍然没有旋转，请尝试其他已知可在横排模式下工作的App，如Safari浏览器或“信息”。"
+        ],
+        "grounding_id": [
+            "17",
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果屏幕仍然没有旋转，请尝试其他已知可在横排模式下工作的App，如Safari浏览器或“信息”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "如果屏幕仍然没有旋转，请尝试其他已知可在横排模式下工作的App，如Safari浏览器或“信息”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好事没有旋转的话可以凶什么地方寻求帮助呢",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "仍然需要协助？"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请就您的iPhone或iPodtouch联系Apple支持",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上旋转屏幕.json",
+        "grounding": [
+            "请就您的iPhone或iPodtouch联系Apple支持。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

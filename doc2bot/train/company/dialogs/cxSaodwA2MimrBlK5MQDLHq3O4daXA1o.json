@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我创业申请书都已经交上去10个工作日，还没有办理好，我要投诉你们杭州市管理局，有什么方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "监督投诉方式",
+            "创业投资企业备案"
+        ],
+        "grounding_id": [
+            "T10",
+            "33",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要现场投诉还是电话投诉。",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "电话吧，更快一点。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的投诉电话是：0571-85251802。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "0571-85251802",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "35",
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "电话都打不通的，要怎么投诉这件事情？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以线下投诉在杭州市上城区解放东路18号市民中心B座1511室。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "杭州市上城区解放东路18号市民中心B座1511室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行，在我去之前，我要怎么咨询我申请为什么这么久还没有办理下来？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是现场咨询还是电话咨询？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "现场吧，电话可能没有人接。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以到杭州市上城区解放东路18号市民中心B座1512室投诉",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "咨询地址",
+            "杭州市上城区解放东路18号市民中心B座1512室"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "只要带身份证就可以了吗？我想打电话先咨询一下。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "创业投资企业备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您要资讯哪些问题？我帮您查询相关部门电话。",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "创业投资企业备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想查询我还有那些资料要重新递交。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "创业投资企业备案",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "查询部门电话为：0571-85251882。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "咨询电话",
+            "0571-85251882"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这次缴费能在网上支付了吧？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "创业投资企业备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "抱歉，我们现在不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "389"
+        ]
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下杭州创业投资企业怎么能备案？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "创业投资企业备案",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是在浙江省杭州市，需要知道办理创业投资企业备案的渠道吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "创业投资企业备案",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的，就是办理渠道。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以选择在网上申请、现场窗口申请、邮寄申请三种渠道办理的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，那不支持终端机器办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "很抱歉，目前暂不支持终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行吧，那我申请完多久，这个结果能送到呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "120",
+            "111"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内即可送达您的结果。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦哦，那你们这个有啥办结时限吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想问的是承诺办结时限还是法定办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "承诺办结时限",
+            "基本信息"
+        ],
+        "grounding_id": [
+            "61",
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "先告诉我承诺办结时限是多久吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "承诺办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这么久啊，那这个法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "目前创业投资企业备案无特定法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "无特定法定办结时限"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那么请问办理时间大概是什么时间段呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "时间如下：工作日，夏季：上午9:00-12：00，下午14:00-17：00；冬季：上午9:00-12:00，下午13:30-17：00。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_招标拍卖_常用服务_创业投资企业备案.json",
+        "grounding": [
+            "工作日，夏季：上午9:00-12：00，下午14:00-17：00；冬季：上午9:00-12:00，下午13:30-17：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些将Shazam与AppleMusic、Snapchat等搭配使用的相关问题？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "将Shazam与AppleMusic、Snapchat等搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好， 您想咨询收听Shazam已识别的歌曲、在Snapchat中使用Shazam还是其他？",
+        "act": "multiple-choice",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询收听Shazam已识别的歌曲。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您想咨询AppleMusic、Spotify、Deeze还是YouTubeMusic？",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Deezer"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果我的设备上装有DeezerApp，那么我就可以用自己的Deezer帐户打开歌曲吗？",
+        "act": "verification",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Deezer",
+            "如果您的设备上装有DeezerApp，您还可以使用自己的Deezer帐户打开歌曲。轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在Deezer中打开”。"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "如果您的设备上装有DeezerApp，您还可以使用自己的Deezer帐户打开歌曲。轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在Deezer中打开”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何操作呢？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "如果您的设备上装有DeezerApp，您还可以使用自己的Deezer帐户打开歌曲。轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在Deezer中打开”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在Deezer中打开”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "如果您的设备上装有DeezerApp，您还可以使用自己的Deezer帐户打开歌曲。轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在Deezer中打开”。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何试听Shazam已识别的歌曲？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲",
+            "在识别出一首歌曲后，轻点Shazam识别出的这首歌曲旁边的播放按钮可试听。要收听整首歌曲，请将Shazam连接到AppleMusic或Shazam支持的其他音乐流媒体服务。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在识别出一首歌曲后，轻点Shazam识别出的这首歌曲旁边的播放按钮可试听。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在识别出一首歌曲后，轻点Shazam识别出的这首歌曲旁边的播放按钮可试听。要收听整首歌曲，请将Shazam连接到AppleMusic或Shazam支持的其他音乐流媒体服务。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果我要听首，应该怎么办？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在识别出一首歌曲后，轻点Shazam识别出的这首歌曲旁边的播放按钮可试听。要收听整首歌曲，请将Shazam连接到AppleMusic或Shazam支持的其他音乐流媒体服务。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要收听整首歌曲，请将Shazam连接到AppleMusic或Shazam支持的其他音乐流媒体服务。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在识别出一首歌曲后，轻点Shazam识别出的这首歌曲旁边的播放按钮可试听。要收听整首歌曲，请将Shazam连接到AppleMusic或Shazam支持的其他音乐流媒体服务。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何在AppleMusic中收听歌曲？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "AppleMusic",
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我是AppleMusic订阅者，那我的好处是什么？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "在iPhone上，如何将使用Shazam识别的歌曲同步到AppleMusic？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Shazam已识别的某首歌曲旁边的AppleMusic按钮，即可在AppleMusic中收听这首歌曲。如果您是AppleMusic订阅者，则已使用Shazam识别的歌曲可以自动添加到“音乐”App中名为“我的Shazam曲目”的播放列表中。在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”，轻点“设置”按钮，然后打开“将使用Shazam识别的歌曲同步到AppleMusic”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果我要在Spotify中收听整首歌曲，应该怎么操作？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Spotify",
+            "要在Spotify中收听整首歌曲，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。"
+        ],
+        "grounding_id": [
+            "21",
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "将Shazam连接到您的Spotify帐户后，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "将Shazam连接到您的Spotify帐户后，您可以通过以下方式收听Shazam已识别的歌曲：",
+            "要在Spotify中收听整首歌曲，请轻点Shazam已识别的某首歌曲旁边的“Spotify”。"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    }
+]

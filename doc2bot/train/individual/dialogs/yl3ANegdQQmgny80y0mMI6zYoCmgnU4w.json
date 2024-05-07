@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江的机动车所有人联系方式变更备案",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "机动车所有人联系方式变更备案"
+        ],
+        "grounding_id": [
+            "T9",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解线下办事点，申请条件，申报材料还是办理流程？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道线下办事点的具体地址",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "126",
+            "127"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以到舟山市公安局交通警察支队车辆管理所2－7号窗口(舟山市新城海天大道399号)，或者舟山市公安局交通警察支队车辆管理所双桥分所1－4号窗口（舟山市汽车城12号）",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "舟山市公安局交通警察支队车辆管理所2－7号窗口(舟山市新城海天大道399号)",
+            "舟山市公安局交通警察支队车辆管理所双桥分所1－4号窗口（舟山市汽车城12号）"
+        ],
+        "grounding_id": [
+            "128",
+            "131"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那申请完之后有什么受理的条件吗？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那不符合环保规定的车可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "（七）不符合环保规定的"
+        ],
+        "grounding_id": [
+            "234"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "（七）不符合环保规定的"
+        ],
+        "grounding_id": [
+            "234"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果要支付的话可以用微信或支付宝吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "225"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "226"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那还有别的问题可以怎么咨询？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址和咨询网址，您需要什么？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道咨询地址在哪",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那不蚂蚁的话可以投诉吧？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以通过投诉电话，投诉地址，投诉网址进行投诉",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那投诉电话是多少",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0577-88300122",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车所有人_机动车驾驶人联系方式及联系地址变更备案.json",
+        "grounding": [
+            "0577-88300122"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

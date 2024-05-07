@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道个人新能源类小客车的怎么咨询相关信息啊？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "个人新能源类小客车其他指标配置",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以通过咨询电话、咨询地址或咨询网址",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那你能给我提供咨询电话吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，咨询电话为0571-87008625",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "0571-87008625"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体的咨询地址呢？我怕电话里说不清楚",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址位于杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市行政服务中心（H楼）（杭州市上城区解放东路18号市民中心H楼）一楼交通运输窗口自助服务区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，这个是没有申请次数的限制的吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "159",
+            "160"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "161"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，只要买的是新能源类的车就能申请是吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "受理条件",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "162",
+            "159"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不是的，按规定购买的新能源车，需要符合工业和信息化部《新能源汽车推广应用推荐车型目录》所列的小客车及进口纯电动车的条件",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "（一）按规定购买的新能源车，需要符合工业和信息化部《新能源汽车推广应用推荐车型目录》所列的小客车及进口纯电动车的条件。"
+        ],
+        "grounding_id": [
+            "163"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那想投诉的话应该怎么办？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址和投诉网址三种方式",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那投诉地址是在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "杭州市中河北路108号港航大楼14楼1417室",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人新能源类小客车其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

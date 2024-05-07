@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，我在调节显示器的分辨率的时候没有显示分辨率啊，我该怎么做？",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "请查看规格页面来了解您的Mac支持哪些显示器分辨率。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您的显示器没有显示预期的分辨率，请查看规格页面来了解您的Mac支持哪些显示器分辨率",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "请查看规格页面来了解您的Mac支持哪些显示器分辨率。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "ok，我明白了，我还想了解如何把显示屏连接到电脑上。",
+        "act": "how",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您用的是什么样芯片的Mac电脑",
+        "act": "question/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1芯片的Mac："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好像是M1的吧",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1芯片的Mac："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用的是搭载M1芯片的Mac，在iMac、Macmini、MacBookAir和13英寸MacBookPro上，您可以使用任一雷雳/USB4端口连接一台外置显示屏。在iMac上，请将显示屏连接到带雷雳符号的任一端口。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1芯片的Mac：",
+            "在iMac、Macmini、MacBookAir和13英寸MacBookPro上，您可以使用任一雷雳/USB4端口连接一台外置显示屏。在iMac上，请将显示屏连接到带雷雳符号的任一端口。"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我可以外接多少个显示屏？",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据Mac机型，您可以连接一台或多台外置显示屏，您可以选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。 然后前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。 点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "根据Mac机型，您可以连接一台或多台外置显示屏。要了解Mac支持的外置显示屏数量，请查看它的技术规格页面：",
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦哦，我看了一下不是M1的，是M1Pro的，这有什么区别吗？",
+        "act": "verification",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1Pro的Mac："
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您使用的是搭载M1Pro的Mac，您可以使用雷雳4(USB-C)端口和HDMI端口，将最多两台外置显示屏连接到您的Mac。[19]",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1Pro的Mac：",
+            "您可以使用雷雳4(USB-C)端口和HDMI端口，将最多两台外置显示屏连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "ok，那如果是Apple芯片是不是就不同了",
+        "act": "verification",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "搭载Apple芯片的Mac电脑"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Apple芯片的Mac电脑可以连接最多5台显示屏，具体取决于Mac上所用的芯片。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "搭载Apple芯片的Mac电脑",
+            "搭载Apple芯片的Mac电脑可以连接最多5台显示屏，具体取决于Mac上所用的芯片。要了解您的Mac搭载哪种芯片，请选取苹果菜单>“关于本机”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    }
+]

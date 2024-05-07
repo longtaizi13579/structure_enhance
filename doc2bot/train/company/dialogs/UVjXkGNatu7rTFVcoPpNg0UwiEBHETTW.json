@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我给我们公司的职工办理住房公积金账户封存需要携带什么材料？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "个人住房公积金账户封存",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "1",
+            "136"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "识别到您的ID在浙江省绍兴市。请问您的公司也在绍兴市吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我们公司在浙江绍兴。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那您携带经办人身份证和积金存缴职工封存登记表就可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "经办人身份证",
+            "公积金缴存职工封存登记表"
+        ],
+        "grounding_id": [
+            "138",
+            "155"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，非常感谢。过几天也快到住房公积金年审的时间了。你好不好给我一个电话，我提前咨询一下材料？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，咨询电话是0575-12329。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_住房公积金年度验审.json",
+        "grounding": [
+            "0575-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

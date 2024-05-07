@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省宁波市的，想把自己的B2驾驶证降为C1，办理中遇到问题应该去哪投诉？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "自愿降低准驾车型换领机动车驾驶证",
+            "投诉地址",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T10",
+            "1",
+            "36",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，办理自愿降低准驾车型换领机动车驾驶证遇到问题，可以到：宁波市鄞州区福明街道中兴北路33号进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "宁波市鄞州区福明街道中兴北路33号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有投诉电话吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，投诉电话是：0574-12345。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有一个问题，办理的时候可以通过网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "338"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "339"
+        ]
+    }
+]

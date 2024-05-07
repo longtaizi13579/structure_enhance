@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是有关对电脑授权的须知事项，还是如何对PC授权或取消对PC的授权",
+        "act": "multiple-choice",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如何对PC授权或取消对PC的授权"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道对PC授权或取消对PC的授权的步骤",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如何对PC授权或取消对PC的授权",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "52",
+            "53"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开iTunes。在iTunes窗口的顶部，选取“帐户”，并确保您已使用AppleID登录，然后选取“帐户”>“授权”，选取“对这台电脑授权”或“取消对这台电脑的授权”，使用您的AppleID和密码登录。最后点按“授权”或“取消授权”。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "打开iTunes。在iTunes窗口的顶部，选取“帐户”，并确保您已使用AppleID登录。",
+            "选取“帐户”>“授权”，然后选取“对这台电脑授权”或“取消对这台电脑的授权”。",
+            "使用您的AppleID和密码登录。忘记了AppleID？",
+            "点按“授权”或“取消授权”。"
+        ],
+        "grounding_id": [
+            "54",
+            "55",
+            "56",
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那能不能对六台电脑进行授权呢",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您有五台已授权电脑，并想要对新电脑进行授权，则必须取消对其中一台电脑的授权。",
+        "act": "ans/no",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "则必须取消对其中一台电脑的授权。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，如果想看已经授权的电脑有多少的话怎么操作",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "查看已授权的电脑数量"
+        ],
+        "grounding_id": [
+            "65"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开iTunes，然后选取“帐户”>“查看我的帐户”，使用您的AppleID和密码登录。，最后在“帐户信息”页面的顶部，查看“电脑授权”旁边的内容，以了解有多少台已授权电脑。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "打开iTunes。",
+            "选取“帐户”>“查看我的帐户”。",
+            "使用您的AppleID和密码登录。忘记了AppleID？",
+            "在“帐户信息”页面的顶部，查看“电脑授权”旁边的内容，以了解有多少台已授权电脑。"
+        ],
+        "grounding_id": [
+            "66",
+            "67",
+            "68",
+            "72"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在“音乐”App可以授权吗",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您可以在“音乐”App、AppleTVApp或“图书”App中对Mac进行授权。在上述某个App中对Mac进行授权后，您便可以访问您的所有iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以在“音乐”App、AppleTVApp或“图书”App中对Mac进行授权。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您可以在“音乐”App、AppleTVApp或“图书”App中对Mac进行授权。在上述某个App中对Mac进行授权后，您便可以访问您的所有iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "授权一个app是西能用这个已经授权的吗",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您可以在“音乐”App、AppleTVApp或“图书”App中对Mac进行授权。在上述某个App中对Mac进行授权后，您便可以访问您的所有iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是，在上述某个App中对Mac进行授权后，您便可以访问您的所有iTunesStore购买项目",
+        "act": "ans/no",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您可以在“音乐”App、AppleTVApp或“图书”App中对Mac进行授权。在上述某个App中对Mac进行授权后，您便可以访问您的所有iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "播放iTunesStore购买项目的授权数量限制是多少",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您一次最多可以授权五台电脑",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

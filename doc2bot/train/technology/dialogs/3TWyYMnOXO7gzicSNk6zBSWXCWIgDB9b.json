@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "最近我新买一个ipad用来写教案，我想知道HDR视频能导入到Numbers里吗？",
+        "act": "verification",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您使用的HDR影片是HEVC、AVI、MP4还是FLV格式呢？",
+        "act": "verification",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我用的是HEVC格式的。",
+        "act": "ans/open",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Numbers表格是可以使用高效视频编码(HEVC)格式的HDR影片的。",
+        "act": "ans/open",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "在Pages文稿、Numbers表格和Keynote讲演10.2或更高版本中，您可以将HDR影片添加到文稿、电子表格和演示文稿中。对于HDR影片，Pages文稿、Numbers表格和Keynote讲演使用高效视频编码(HEVC)格式。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那除了Numbers表格，HDR视频还能导到哪些软件里呀？",
+        "act": "what",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "您还可以将高动态范围(HDR)影片添加到文稿、电子表格和演示文稿中。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您还可以将高动态范围(HDR)影片添加到Pages文稿和Keynote演示文稿中。",
+        "act": "ans/open",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "您还可以将高动态范围(HDR)影片添加到文稿、电子表格和演示文稿中。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那HEVC格式的SDR影片可以添加到文稿和表格里吗？",
+        "act": "verification",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "使用以下Apple设备和软件版本时，您还可以将采用HEVC格式拍摄的标准动态范围(SDR)影片添加到文稿、电子表格和演示文稿中："
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个对设备和软件的版本是有一定的匹配要求的，请问您想了解macOS、iOS、iPad还是iPadOS版本呢？",
+        "act": "multiple-choice",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "装有macOSMojave以及Pages文稿8.2、Numbers表格6.2或Keynote讲演9.2或更高版本的Mac。",
+            "装有iOS13的iPhone或iPad或者装有iPadOS的iPad，并且还装有Pages文稿5.2、Numbers表格5.2或Keynote讲演5.2或更高版本。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果是macOS应该匹配到什么版本的软件呢？",
+        "act": "what",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "装有macOSMojave以及Pages文稿8.2、Numbers表格6.2或Keynote讲演9.2或更高版本的Mac。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "macOSMojave需要匹配Pages文稿8.2、Numbers表格6.2或Keynote讲演9.2或更高版本的Mac才可将SDR添加进去。",
+        "act": "ans/open",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "装有macOSMojave以及Pages文稿8.2、Numbers表格6.2或Keynote讲演9.2或更高版本的Mac。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白了，我还想知道一下，我用ipad把视频添加到文稿的时候，会转换成mp4格式，这是咋回事呀？",
+        "act": "why",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "将影片添加到文稿、电子表格和演示文稿中",
+            "为确保HEVC格式的影片在添加到文稿时不会转换为另一种格式，请先关闭针对较旧设备的影片优化设置："
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您在iPad上的Pages文稿、Numbers表格或Keynote讲演中打开文稿后，依次轻点“更多”按钮、“设置”和“添加影片”，然后关闭“为较旧设备优化”就可以避免啦。",
+        "act": "ans/open",
+        "document": "将HEVC影片用于Pages文稿、Numbers表格和Keynote讲演.json",
+        "grounding": [
+            "在iPhone或iPad上的Pages文稿、Numbers表格或Keynote讲演中打开文稿后，依次轻点“更多”按钮、“设置”和“添加影片”，然后关闭“为较旧设备优化”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

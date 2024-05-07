@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解干细胞移植的一些问题",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "移植",
+            "干细胞移植"
+        ],
+        "grounding_id": [
+            "T1998",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你想了解感染，移植物抗宿主病，原发病复发哪一方面呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道干细胞移植有没有感染的风险？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "感染",
+            "干细胞移植存在风险，因为受者的白细胞已经被化疗或放疗破坏。因此开始2~3周感染风险非常高——直至移植的干细胞可以产生足够的白细胞来保护机体防御感染。"
+        ],
+        "grounding_id": [
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "干细胞移植存在风险，因为受者的白细胞已经被化疗或放疗破坏。因此开始2~3周感染风险非常高",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植存在风险，因为受者的白细胞已经被化疗或放疗破坏。因此开始2~3周感染风险非常高——直至移植的干细胞可以产生足够的白细胞来保护机体防御感染。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个风险什么时候就降为零了呢？",
+        "act": "when",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植存在风险，因为受者的白细胞已经被化疗或放疗破坏。因此开始2~3周感染风险非常高——直至移植的干细胞可以产生足够的白细胞来保护机体防御感染。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "直至移植的干细胞可以产生足够的白细胞来保护机体防御感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植存在风险，因为受者的白细胞已经被化疗或放疗破坏。因此开始2~3周感染风险非常高——直至移植的干细胞可以产生足够的白细胞来保护机体防御感染。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那会给予受者什么样的好处？",
+        "act": "what",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "给予受者"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "集落刺激因子，刺激血细胞（包括有助于抵抗感染的白细胞）的生成，也有助于减少感染风险的抗微生物药物",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "集落刺激因子，刺激血细胞（包括有助于抵抗感染的白细胞）的生成",
+            "有助于减少感染风险的抗微生物药物"
+        ],
+        "grounding_id": [
+            "49",
+            "50"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，移植之后需要住院吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植的受者通常需要住院1～2个月。",
+            "干细胞移植后"
+        ],
+        "grounding_id": [
+            "41",
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植的受者通常需要住院1～2个月。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "一般住多长时间呢？",
+        "act": "when",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植的受者通常需要住院1～2个月。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "通常需要住院1～2个月",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_免疫性疾病_移植_干细胞移植.json",
+        "grounding": [
+            "干细胞移植的受者通常需要住院1～2个月。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    }
+]

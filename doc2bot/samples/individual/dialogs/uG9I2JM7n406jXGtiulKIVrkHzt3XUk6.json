@@ -1,0 +1,280 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省金华市的，想咨询下港澳签注的问题？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "出入境",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T6",
+            "T239",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解港澳其他签注，港澳商务签注，还是港澳逗留签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询港澳其他签注，办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限为30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "360"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "需要收费",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "361"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉电话是：0571-87286318；0579-12345",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉电话",
+            "0571-87286318；0579-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理地点在哪里？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理地点是：金华市公安局出入境管理局（金华市婺城区新狮街道八一北街1055号）1-4号窗口",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "办理地点",
+            "金华市公安局出入境管理局（金华市婺城区新狮街道八一北街1055号）1-4号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办事处那边的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "咨询电话是：0579-82512200，0579-82512431",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话",
+            "0579-82512200，0579-82512431"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

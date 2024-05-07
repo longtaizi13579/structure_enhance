@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我上周在公司晕倒了磕到了头判定是工伤，但是我申报费用时只给我报销一点钱，这个咋办？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "社保医保",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T168",
+            "T189"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您申报的市工伤医疗（康复）费用是吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对对。就是那个。我现在已经康复了。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，麻烦告知一下您目前所在的省市在什么地方。",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "浙江绍兴的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我这边建议您可以投诉一下，有投诉电话，地址和网址。您看想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先告诉我地址吧。我看看远不远。",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "地点在绍兴市人力资源和社会保障局1504办公室（曲屯路368号）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "绍兴市人力资源和社会保障局1504办公室（曲屯路368号）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我坐车要半小时才到那，那还是电话吧",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "电话是0575-88608106。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "0575-88608106"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下就是之前存储的密码怎么在iPhone上查找",
+        "act": "how",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "如何在iPhone上查找已存储的密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在“设置”中查看已存储的密码: 首先轻点“设置”，然后选择“密码”。在iOS13或更低版本中，选择“密码与帐户”，然后轻点“网站与App密码”。其次在出现提示时使用面容ID或触控ID，或者输入设备密码。最后要查看密码，请选择一个网站",
+        "act": "ans/open",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "在“设置”中查看已存储的密码",
+            "轻点“设置”，然后选择“密码”。在iOS13或更低版本中，选择“密码与帐户”，然后轻点“网站与App密码”。",
+            "在出现提示时使用面容ID或触控ID，或者输入设备密码。",
+            "要查看密码，请选择一个网站。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "最后查看密码选择一个网站就是可以删除或更新密码对吗",
+        "act": "verification",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "要查看密码，请选择一个网站。",
+            "要删除已存储的密码，请轻点“删除密码”。",
+            "要更新密码，请轻点“编辑”。"
+        ],
+        "grounding_id": [
+            "8",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的要删除已存储的密码，请轻点“删除密码”要更新密码，请轻点“编辑”。",
+        "act": "ans/yes",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "要删除已存储的密码，请轻点“删除密码”。",
+            "要更新密码，请轻点“编辑”。"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有问题想问一下也是如何在iPhone上查找已存储的密码",
+        "act": "how",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "如何在iPhone上查找已存储的密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的除了在“设置”中查看已存储的密码那您是还想了解使用Siri查找已存储的密码或是需要更多协助？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "使用Siri查找已存储的密码"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "使用Siri查找已存储的密码",
+        "act": "ans/open",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "使用Siri查找已存储的密码"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以使用Siri查看密码，例如说出“嘿Siri，显示我的密码”。如果您要查找特定App或网站的密码，也可以问Siri。例如，说出“嘿Siri，我的爱奇艺密码是什么？”。",
+        "act": "ans/open",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "您可以使用Siri查看密码，例如说出“嘿Siri，显示我的密码”。如果您要查找特定App或网站的密码，也可以问Siri。例如，说出“嘿Siri，我的爱奇艺密码是什么？”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那需要更多协助是怎么情况",
+        "act": "how",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "需要更多协助？"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch或Mac上保持同步更新。",
+        "act": "ans/open",
+        "document": "如何在iPhone上查找已存储的密码.json",
+        "grounding": [
+            "iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch或Mac上保持同步更新。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的再问个事就是在Mac上如何查找已存储的密码",
+        "act": "how",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "如何在Mac上查找已存储的密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的那您是想了解在Safari浏览器中查看已存储的密码还是使用iCloud钥匙串在您的多台设备上存储密码或者是使用“自动填充”储存信用卡信息等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用“自动填充”储存信用卡信息"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "使用“自动填充”储存信用卡信息",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用“自动填充”储存信用卡信息"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "“自动填充”功能会自动输入您之前存储的信用卡详细信息、“通讯录”App中的联系人信息等内容。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "“自动填充”功能会自动输入您之前存储的信用卡详细信息、“通讯录”App中的联系人信息等内容。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果使用iCloud钥匙串在多台设备上存储密码是如何呢",
+        "act": "how",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用iCloud钥匙串在您的多台设备上存储密码"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

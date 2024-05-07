@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我从事园艺方面的工作，经常跟植物打交道，总是被蚊子咬，想问一下如何在被蚊子叮后止痒？",
+        "act": "how",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "家居与园艺",
+            "如何在被蚊子叮后止痒"
+        ],
+        "grounding_id": [
+            "T177",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，被蚊子叮后止痒可以使用使用厨房用品，也可以使用市售产品，还可以使用药草和精油，或使用水、热气和压力。您想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "可选方法",
+            "使用厨房用品"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下都可以使用哪些厨房用品？",
+        "act": "what",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "使用厨房用品"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以利用柠檬或青柠、利用早餐吃的燕麦，或者在在患处涂一点嫩肉粉、涂少许蜂蜜、涂少许蜂蜜，还可以使用小苏打。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "利用柠檬或青柠。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么利用柠檬或青柠？",
+        "act": "how",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "利用柠檬或青柠。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "切片后轻轻揉擦被叮咬的部位，或是将在患处滴一滴果汁。柠檬酸有轻微止痒功效。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "切片后轻轻揉擦被叮咬的部位，或是将在患处滴一滴果汁。柠檬酸有轻微止痒功效。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "燕麦也能止痒吗？",
+        "act": "verification",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "利用早餐吃的燕麦。",
+            "燕麦以止痒作用闻名，兑少许水拌成糊状，涂在被咬部位。等它变干后才洗干净。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，燕麦以止痒作用闻名。",
+        "act": "ans/yes",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "燕麦以止痒作用闻名，兑少许水拌成糊状，涂在被咬部位。等它变干后才洗干净。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "用燕麦具体怎么操作？",
+        "act": "how",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "燕麦以止痒作用闻名，兑少许水拌成糊状，涂在被咬部位。等它变干后才洗干净。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "兑少许水拌成糊状，涂在被咬部位。等它变干后才洗干净。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "燕麦以止痒作用闻名，兑少许水拌成糊状，涂在被咬部位。等它变干后才洗干净。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "为什么要涂少许蜂蜜？",
+        "act": "why",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "涂少许蜂蜜。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "因为蜂蜜可以舒缓被咬部位和稍微止痒。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "蜂蜜可以舒缓被咬部位和稍微止痒。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "夏天在户外享受美好时光时，最讨厌的事情是什么？",
+        "act": "what",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "在户外享受美好时光时，最让人讨厌的莫过于被蚊子咬了。被叮咬的部位一直发痒，感觉好像怎么样也无法止痒。不过别担心，这里会教你许多处理蚊子叮咬的方法，可以帮助止痒。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在户外享受美好时光时，最让人讨厌的莫过于被蚊子咬了。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "在户外享受美好时光时，最让人讨厌的莫过于被蚊子咬了。被叮咬的部位一直发痒，感觉好像怎么样也无法止痒。不过别担心，这里会教你许多处理蚊子叮咬的方法，可以帮助止痒。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嫩肉粉也可以止痒吗？",
+        "act": "verification",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "在患处涂一点嫩肉粉。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，在患处涂一点嫩肉粉就可以止痒。",
+        "act": "ans/yes",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "在患处涂一点嫩肉粉。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "具体怎么操作？",
+        "act": "how",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "在患处涂一点嫩肉粉。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "先兑水才涂抹，等它变干后再洗干净。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何在被蚊子叮后止痒.json",
+        "grounding": [
+            "先兑水才涂抹，等它变干后再洗干净。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

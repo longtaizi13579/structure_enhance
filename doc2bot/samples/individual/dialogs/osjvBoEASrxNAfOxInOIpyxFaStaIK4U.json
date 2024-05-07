@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下浙江嘉兴在网上怎么登记行驶驾驶机动车证啊？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "机动车",
+            "行驶驾驶",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "T17",
+            "T16",
+            "T11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您在进口机动车注册登记网页里按照提示填写基本信息就可以了。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那请问可以在网上支付这个费用吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "4977"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "放心，我们是支持网上支付的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "4978"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "4970",
+            "5026"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们是按照车牌号进行收费的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "6\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "5025"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的是6汽车反光号牌，请问收费多少元？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "6\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "5025"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据收费标准，您需要交100元。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "100元/副",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "5027",
+            "4970"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果是临时号牌该交多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "3\t.机动车临时号牌"
+        ],
+        "grounding_id": [
+            "4998"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "按照收费标准，临时号牌是5元一张。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "5元/张"
+        ],
+        "grounding_id": [
+            "4999",
+            "5000"
+        ]
+    }
+]

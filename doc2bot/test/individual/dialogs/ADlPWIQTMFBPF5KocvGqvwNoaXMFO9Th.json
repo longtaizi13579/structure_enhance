@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下这个办护照的事情",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "护照"
+        ],
+        "grounding_id": [
+            "T297"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江杭州市",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是要办普通护照对吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对呀办护照收费吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1316"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的收费",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "是否收费",
+            "是"
+        ],
+        "grounding_id": [
+            "1316",
+            "1317"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个要到哪去办呀",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理地点是杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理地点",
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那护照多久能办好",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个办事点具体地址是那个杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口对吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址",
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口"
+        ],
+        "grounding_id": [
+            "124",
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是这个地址",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个地方什么时间办公呀",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "内地居民接待大厅周一到周日（法定节假日及长假除外），上午9:00-12:00，下午13：30-17:00（夏令时14:00-17:30）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "内地居民接待大厅周一到周日（法定节假日及长假除外），上午9:00-12:00，下午13：30-17:00（夏令时14:00-17:30）"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个办事点有联系电话吗",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "联系电话0571-88209209；0571-87071973；0571-87074431",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "联系电话",
+            "0571-88209209；0571-87071973；0571-87074431"
+        ],
+        "grounding_id": [
+            "129",
+            "130"
+        ]
+    }
+]

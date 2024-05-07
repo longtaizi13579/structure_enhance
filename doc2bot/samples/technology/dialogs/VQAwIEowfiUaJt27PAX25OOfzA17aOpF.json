@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，借助智能热点，iPhone上的什么功能可以为Mac、iPhone、iPad或iPodtouch提供互联网连接？",
+        "act": "what",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "无需输入密码即可使用智能热点连接到个人热点",
+            "借助智能热点，iPhone或iPad（Wi-Fi+蜂窝网络）上的个人热点可以为Mac、iPhone、iPad或iPodtouch提供互联网连接，而且无需输入密码。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "借助智能热点，iPhone或iPad上的个人热点可以为Mac、iPhone、iPad或iPodtouch提供互联网连接。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "借助智能热点，iPhone或iPad（Wi-Fi+蜂窝网络）上的个人热点可以为Mac、iPhone、iPad或iPodtouch提供互联网连接，而且无需输入密码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "需要输入密码吗？",
+        "act": "verification",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "借助智能热点，iPhone或iPad（Wi-Fi+蜂窝网络）上的个人热点可以为Mac、iPhone、iPad或iPodtouch提供互联网连接，而且无需输入密码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "无需输入密码。",
+        "act": "ans/no",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "借助智能热点，iPhone或iPad（Wi-Fi+蜂窝网络）上的个人热点可以为Mac、iPhone、iPad或iPodtouch提供互联网连接，而且无需输入密码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "连接个人热点的方法是什么？",
+        "act": "what",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "使用智能热点",
+            "以下是连接个人热点的方法："
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想在Mac上连接还是在iPad、iPodtouch或另一台iPhone上？",
+        "act": "multiple-choice",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "以下是连接个人热点的方法：",
+            "在Mac上，使用菜单栏中的Wi-Fi状态菜单选取提供个人热点的iPhone或iPad的名称。",
+            "在iPad、iPodtouch或另一台iPhone上，前往“设置”>“Wi-Fi”，然后轻点提供个人热点的iPhone或iPad的名称。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都跟我说一下吧。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "以下是连接个人热点的方法："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在Mac上，使用菜单栏中的Wi-Fi状态菜单选取提供个人热点的iPhone或iPad的名称。在iPad、iPodtouch或另一台iPhone上，前往“设置”>“Wi-Fi”，然后轻点提供个人热点的iPhone或iPad的名称。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "在Mac上，使用菜单栏中的Wi-Fi状态菜单选取提供个人热点的iPhone或iPad的名称。",
+            "在iPad、iPodtouch或另一台iPhone上，前往“设置”>“Wi-Fi”，然后轻点提供个人热点的iPhone或iPad的名称。"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "设置个人热点的具体步骤是什么？",
+        "act": "what",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "设置个人热点",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": " 首先前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”；轻点“允许其他人加入”旁边的滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。",
+            "轻点“允许其他人加入”旁边的滑块。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    }
+]

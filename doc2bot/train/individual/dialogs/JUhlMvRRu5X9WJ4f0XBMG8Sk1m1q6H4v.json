@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省舟山市拖拉机驾驶证如果要转到外地去的话能不能网上交钱呀？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "浙江省_舟山市",
+            "行驶证驾驶证",
+            "拖拉机、联合收割机操作人员驾驶证转出省外换证",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "T9",
+            "T9",
+            "T89",
+            "1",
+            "316"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想问拖拉机、联合收割机操作人员驾驶证转出省外换证的收费标准吗？",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，能不能网上交钱？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "抱歉，此项服务不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "317"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我好像听人家说别的省办这个不收钱啊？浙江需要收钱吗？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "312"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "浙江省此项服务不收费的",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "313"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我兄弟不是被人骗了吗，他花了好几百，能投诉吗？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，请问您是需要投诉电话、投诉地址或投诉网址吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，我想知道去哪儿投诉啊？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址为舟山市新城海天大道681号市信访局",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证转出省外换证.json",
+        "grounding": [
+            "舟山市新城海天大道681号市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "行，那我要是因为身体出现问题换驾驶证的话要收钱吗？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "身体条件变化降低准驾车型换领机动车驾驶证",
+            "1\t机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1",
+            "304"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您是说身体条件变化降低准驾车型换领机动车驾驶证的收费标准吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "嗯，办这个咋收费啊？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "305"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您好，收费标准为10元/本",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_行驶证驾驶证_身体条件变化降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "306"
+        ]
+    }
+]

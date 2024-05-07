@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下营养概述方面的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "医学主题",
+            "营养概述"
+        ],
+        "grounding_id": [
+            "T3",
+            "T2293"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：维生素和矿物质，卡路里，碳水化合物、蛋白质和脂肪，营养需求，纤维，还是其它？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "维生素和矿物质"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下维生素和矿物质，这种些物质对人体有什么作用？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "维生素和矿物质",
+            "维生素和矿物质是必需营养素。也就是说，它们不能由机体合成，因此必须从食物中获得。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "维生素和矿物质是必需营养素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "维生素和矿物质是必需营养素。也就是说，它们不能由机体合成，因此必须从食物中获得。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这些物质可以由机体自己合成吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "维生素和矿物质是必需营养素。也就是说，它们不能由机体合成，因此必须从食物中获得。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以，维生素和矿物质必须从食物中摄取。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "维生素和矿物质是必需营养素。也就是说，它们不能由机体合成，因此必须从食物中获得。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "维生素有哪些分类？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "但维生素被分类为"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "维生素可分为水溶性维生素和脂溶性维生素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "但维生素被分类为",
+            "水溶性维生素：维生素C和B族维生素中的八种维生素",
+            "脂溶性维生素：维生素A、D、E和K"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "脂溶性维生素包括什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "脂溶性维生素：维生素A、D、E和K"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "脂溶性维生素包括：维生素A、D、E和K。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "脂溶性维生素：维生素A、D、E和K"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "水溶性维生素包括什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "水溶性维生素：维生素C和B族维生素中的八种维生素"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "水溶性维生素包括：维生素C和B族维生素中的八种维生素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_维生素和矿物质.json",
+        "grounding": [
+            "水溶性维生素：维生素C和B族维生素中的八种维生素"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想了解下纤维，纤维是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "纤维"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "纤维是一种韧性复合碳水化合物，一些食物中含有纤维。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "一些食物中含有纤维，纤维是一种韧性复合碳水化合物。纤维可能是"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "纤维摄入过多会导致什么后果？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "机体摄入过多的非可溶性纤维会干扰某些维生素和矿物质的吸收。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "机体摄入过多的非可溶性纤维会干扰某些维生素和矿物质的吸收。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "机体摄入过多的非可溶性纤维会干扰某些维生素和矿物质的吸收。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "纤维可以分为哪些类别？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "一些食物中含有纤维，纤维是一种韧性复合碳水化合物。纤维可能是",
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。",
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "纤维可分为：部分可溶性和非可溶性。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "一些食物中含有纤维，纤维是一种韧性复合碳水化合物。纤维可能是",
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。",
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "非可溶性是什么意思？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "非可溶性：这部分并不溶于水，而机体不能消化它们。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

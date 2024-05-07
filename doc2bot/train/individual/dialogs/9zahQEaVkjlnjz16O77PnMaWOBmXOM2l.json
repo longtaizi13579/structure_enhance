@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我有台湾通行证，需要办签注，我是去台湾学习的，要办哪个签注呀？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好根据您说的情况，您应该办理赴台学习签注",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "赴台学习签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那您给查一下这个收费标准。",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "9574"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，这个根据国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台学习多次有效签注80元/件",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台学习多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "9575"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，那这个是否支持网上支付呀？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "9570"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的支持",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "9571"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦。刚有点吵，在啰嗦一下，是否收费来着？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "9566"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的收费",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_台湾通行证及签注_赴台学习签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9567"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问在浙江省台州市注销机动车登记应该去哪儿办理？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "浙江省_台州市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T8",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想问机动车因故不在我国境内使用注销登记还是机动车因质量问题退车注销登记？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车因故不在我国境内使用注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是机动车因故不在我国境内使用注销登记的办理地点",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "机动车因故不在我国境内使用注销登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以到台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口进行办理",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "台州市行政服务中心车辆管理分中心（台州市椒江区海门街道机场北路451号）车驾管综合服务大厅一楼1-16号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那相关信息的咨询也可以到这个地方吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，我可以为您提供咨询方式，您需要咨询电话、咨询地址、咨询网址哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址在哪里呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，那办理的话也有可以选择的不同形式吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，您可以选择网上申请或现场窗口申请",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，如果办理过程中有不满意的地方可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，您想要投诉电话、投诉地址或投诉网址哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "地址吧，是不是在办理地点附近？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，最后的结果当天能拿到吗？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_机动车_机动车因故不在我国境内使用注销登记.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

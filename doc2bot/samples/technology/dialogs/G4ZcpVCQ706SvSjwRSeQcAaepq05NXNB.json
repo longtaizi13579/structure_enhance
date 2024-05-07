@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果Mac上的触控ID无法正常使用的话应该怎么办",
+        "act": "how",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "如果Mac上的触控ID无法正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以一下的一些方法，每完成一个步骤后，都请尝试使用触控ID：首先确保您使用的是最新版本的macOS，然后确保您的手指和触控ID传感器清洁干燥，手指应完全覆盖触控ID传感器。或者试试选取苹果菜单>“系统偏好设置”，点按“用户与群组”，然后点按锁形图标以进行更改。以及确保“解锁Mac”或“iTunesStore、AppStore与AppleBooks”处于打开状态，并且您已添加一个或多个指纹。尝试添加不同的指纹。对于带有触控ID的妙控键盘，请关闭再打开键盘，然后使用USB转闪电连接线将键盘连接到Mac。最后试试重新启动Mac",
+        "act": "ans/open",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "确保您使用的是最新版本的macOS。",
+            "确保您的手指和触控ID传感器清洁干燥*。使用干净的无绒布擦掉触控ID传感器上的所有污垢或碎屑。",
+            "手指应完全覆盖触控ID传感器。在触控ID扫描时，您不应按得太快或移动手指。",
+            "选取苹果菜单>“系统偏好设置”，点按“用户与群组”，然后点按锁形图标以进行更改。点按“登录选项”，并确保自动登录已关闭。",
+            "选取苹果菜单>“系统偏好设置”，点按“触控ID”，然后确保“解锁Mac”或“iTunesStore、AppStore与AppleBooks”处于打开状态，并且您已添加一个或多个指纹。",
+            "尝试添加不同的指纹。",
+            "对于带有触控ID的妙控键盘，请关闭再打开键盘，然后使用USB转闪电连接线将键盘连接到Mac。在您关闭妙控键盘然后再重新打开后，最多可能在接下来的10秒钟内无法使用触控ID。",
+            "重新启动Mac。"
+        ],
+        "grounding_id": [
+            "13",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "手指完全覆盖触控ID传感器之后需要移动吗",
+        "act": "verification",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "手指应完全覆盖触控ID传感器。在触控ID扫描时，您不应按得太快或移动手指。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在触控ID扫描时，您不应按得太快或移动手指。",
+        "act": "ans/no",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "手指应完全覆盖触控ID传感器。在触控ID扫描时，您不应按得太快或移动手指。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在关闭妙控键盘然后再重新打开后，是不是不会可能无法使用触控ID呢？",
+        "act": "verification",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "对于带有触控ID的妙控键盘，请关闭再打开键盘，然后使用USB转闪电连接线将键盘连接到Mac。在您关闭妙控键盘然后再重新打开后，最多可能在接下来的10秒钟内无法使用触控ID。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，最多可能在接下来的10秒钟内无法使用触控ID",
+        "act": "ans/yes",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "对于带有触控ID的妙控键盘，请关闭再打开键盘，然后使用USB转闪电连接线将键盘连接到Mac。在您关闭妙控键盘然后再重新打开后，最多可能在接下来的10秒钟内无法使用触控ID。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那需不需要检查一下兼容性呢",
+        "act": "verification",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "检查兼容性"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要，在带有触控ID的妙控键盘上设置和使用触控ID，您需要一台搭载Apple芯片的Mac电脑以及macOSBigSur11.4或更高版本。要在带有触控ID的Mac笔记本电脑上使用内建触控ID，只需在“系统偏好设置”>“触控ID”中设置触控ID。",
+        "act": "ans/yes",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "要在带有触控ID的妙控键盘上设置和使用触控ID，您需要一台搭载Apple芯片的Mac电脑以及macOSBigSur11.4或更高版本。",
+            "要在带有触控ID的Mac笔记本电脑上使用内建触控ID，只需在“系统偏好设置”>“触控ID”中设置触控ID。"
+        ],
+        "grounding_id": [
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，触控ID传感器在键盘的什么地方",
+        "act": "where",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "找到触控ID传感器",
+            "触控ID传感器位于键盘右上角。"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "触控ID传感器位于键盘右上角",
+        "act": "ans/open",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "触控ID传感器位于键盘右上角。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我看到有的时候不能用触控ID必须输入密码是什么情况",
+        "act": "what",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "如果您需要输入密码",
+            "此外，在以下情况下，您可能需要输入密码而不能使用触控ID："
+        ],
+        "grounding_id": [
+            "24",
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在以下情况下，您可能需要输入密码而不能使用触控ID：您的指纹连续五次不能被识别，您的设备已超过48小时不曾解锁，您尝试在“系统偏好设置”的“触控ID”面板中更改设置",
+        "act": "ans/open",
+        "document": "如果Mac上的触控ID无法正常使用.json",
+        "grounding": [
+            "此外，在以下情况下，您可能需要输入密码而不能使用触控ID：",
+            "您的指纹连续五次不能被识别",
+            "您的设备已超过48小时不曾解锁",
+            "您尝试在“系统偏好设置”的“触控ID”面板中更改设置"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    }
+]

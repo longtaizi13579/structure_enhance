@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，我家的汽车被盗了，想再买一辆，该怎么办？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "个人被盗抢小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的车辆是否正常进行登记，并且在公安机关登记后6个月未追回？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "个人被盗抢小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "个人被盗抢小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那你可以申请个人被盗抢小客车其他指标配置。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "个人被盗抢小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办事处正常的办理时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "436"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理流程总共分五步：1.申请 2.受理 3.初审 4.终审 5.办结。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "初审",
+            "终审",
+            "办结"
+        ],
+        "grounding_id": [
+            "436",
+            "437",
+            "439",
+            "448",
+            "457",
+            "466"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办好后几天能给我？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据相关规定，送达时限为：自作出决定之日起1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "都有什么办理途径？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前办理形式有两种：网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "把材料提交上去后，几天能办好？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "根据相关规定，法定办结时限为10（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果在办理过程中遇到问题，应该怎么投诉？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以通过电话进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉电话是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线0571-12345。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_个人被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

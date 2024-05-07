@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是脑、脊髓及神经障碍、损伤及中毒、精神健康障碍还是其他疾病的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "损伤及中毒"
+        ],
+        "grounding_id": [
+            "T1174"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "视力模糊是热衰竭的症状吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "热衰竭",
+            "热衰竭的症状",
+            "损伤及中毒",
+            "高温损害",
+            "视力模糊"
+        ],
+        "grounding_id": [
+            "1",
+            "12",
+            "T1174",
+            "T1358",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "对的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "视力模糊"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "肌肉疼痛呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "热衰竭的症状",
+            "热衰竭的症状往往不明确，与许多其他疾病的症状都相似。人们可能没有意识到他们的症状与高温有关。症状包括",
+            "肌肉疼痛"
+        ],
+        "grounding_id": [
+            "12",
+            "14",
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "也是症状之一。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "肌肉疼痛"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "头晕呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "热衰竭的症状",
+            "热衰竭的症状往往不明确，与许多其他疾病的症状都相似。人们可能没有意识到他们的症状与高温有关。症状包括",
+            "头晕"
+        ],
+        "grounding_id": [
+            "12",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "也是热衰竭的症状",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "头晕"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "热衰竭还有什么其他症状吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "热衰竭的症状",
+            "热衰竭的症状往往不明确，与许多其他疾病的症状都相似。人们可能没有意识到他们的症状与高温有关。症状包括"
+        ],
+        "grounding_id": [
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "还可能会恶心",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "恶心"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "热衰竭的症状",
+            "热衰竭的症状往往不明确，与许多其他疾病的症状都相似。人们可能没有意识到他们的症状与高温有关。症状包括"
+        ],
+        "grounding_id": [
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "也可能会呕吐",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_高温损害_热衰竭.json",
+        "grounding": [
+            "呕吐"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

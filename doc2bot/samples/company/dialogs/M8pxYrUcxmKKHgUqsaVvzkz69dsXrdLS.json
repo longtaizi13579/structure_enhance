@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我上周在宁波提交的公积金账户问题怎么还没解决？你们投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封",
+            "浙江省_宁波市",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "1",
+            "T7",
+            "34"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们的投诉电话是：0574-12345。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "投诉电话",
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "电话都打不通，你们线下投诉地址在哪里？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们线下投诉地址在：宁波市海曙区解放南路166号。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "宁波市海曙区解放南路166号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你们办理到底需要多长时间？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想咨询办理结果日还是申请周长呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理结果多久能出来？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们会在20工作日出结果。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "60",
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你们除了窗口办理自助终端办理可以吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "抱歉，因为涉及到人脸识别，我们不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "处理现场办理还有哪些渠道能办理？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "目前只有网上申请或现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么时候出结果呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "1",
+            "111"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们会在自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我开启公积金账户按照什么条例来执行的？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "个人住房公积金账户启封"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们是严格按照浙江省住房公积金条例执行。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_常用服务_个人住房公积金账户启封.json",
+        "grounding": [
+            "浙江省住房公积金条例"
+        ],
+        "grounding_id": [
+            "228"
+        ]
+    }
+]

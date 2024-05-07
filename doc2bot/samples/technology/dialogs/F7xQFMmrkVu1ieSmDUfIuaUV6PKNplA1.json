@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道在iPhone、iPad或iPodtouch上“隔空投送”的使用方法",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想知道开始之前，“隔空投送”使用方法，如何接受“隔空投送”还是调整“隔空投送”设置的方法",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "开始之前"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道开始之前需要检查什么才能使“隔空投送”正常工作",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "开始之前",
+            "检查要接收内容的用户有没有将“隔空投送”设置为仅接收来自联系人的内容。如果他们设置了，并且您在他们的“通讯录”中，那么他们需要在您的联系人名片中填写您的AppleID所使用的电子邮件地址或手机号码，才能使“隔空投送”正常工作。"
+        ],
+        "grounding_id": [
+            "3",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "检查要接收内容的用户有没有将“隔空投送”设置为仅接收来自联系人的内容。如果他们设置了，并且您在他们的“通讯录”中，那么他们需要在您的联系人名片中填写您的AppleID所使用的电子邮件地址或手机号码，才能使“隔空投送”正常工作。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "检查要接收内容的用户有没有将“隔空投送”设置为仅接收来自联系人的内容。如果他们设置了，并且您在他们的“通讯录”中，那么他们需要在您的联系人名片中填写您的AppleID所使用的电子邮件地址或手机号码，才能使“隔空投送”正常工作。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是传输和接受的双方都需要打开蓝牙吗",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "检查您与要接收内容的用户是不是均已打开Wi-Fi和蓝牙。如果有任一方打开了“个人热点”，请将它关闭。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，检查您与要接收内容的用户是不是均已打开Wi-Fi和蓝牙",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "检查您与要接收内容的用户是不是均已打开Wi-Fi和蓝牙。如果有任一方打开了“个人热点”，请将它关闭。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "需不需要打开热点呢",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "检查您与要接收内容的用户是不是均已打开Wi-Fi和蓝牙。如果有任一方打开了“个人热点”，请将它关闭。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不需要，如果有任一方打开了“个人热点”，请将它关闭",
+        "act": "ans/no",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "检查您与要接收内容的用户是不是均已打开Wi-Fi和蓝牙。如果有任一方打开了“个人热点”，请将它关闭。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那“隔空投送”可以接收照片吗",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "使用“隔空投送”与附近的其他Apple设备共享和接收照片、文稿等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "使用“隔空投送”与附近的其他Apple设备共享和接收照片、文稿等。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果传输的人不再对方通讯录中的话应该怎么办",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "如果您不在他们的“通讯录”中，请让他们将“隔空投送”接收设置设定为“所有人”，以便接收文件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您不在他们的“通讯录”中，请让他们将“隔空投送”接收设置设定为“所有人”，以便接收文件。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上“隔空投送”的使用方法.json",
+        "grounding": [
+            "如果您不在他们的“通讯录”中，请让他们将“隔空投送”接收设置设定为“所有人”，以便接收文件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

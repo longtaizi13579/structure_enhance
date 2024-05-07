@@ -1,0 +1,348 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省金华市的，我的汽车登记证书不小心撕毁了怎么办？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省_金华市",
+            "换领机动车登记证书",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请换领机动车登记证书。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果在办理过程中发生问题，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我投诉电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是：0579-12345。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0579-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "把投诉地址也给我吧？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉地址是：浙江省金华市婺城区双龙南街801号金华市信访局。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能不能给我个办事处那边的联系方式？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询电话是：0579-88900000、0579-82082501、0579-82461652。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0579-88900000、0579-82082501、0579-82461652"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "咨询地址也给我吧？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "咨询地址是：金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "具体办理地点能告诉我吗？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "126",
+            "127"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以到：金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安专区C03-C26窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）二楼公安专区C03-C26窗口"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那边正常办理时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "129"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理时间：星期一至星期五、星期六上午（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00（5月1日至9月30日）；9:00—12:00、13:00—17:00（10月1日至次年4月30日）。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "星期一至星期五、星期六上午（法定节假日按照国家假期安排）8:30—12:00、13:30—17:00（5月1日至9月30日）；9:00—12:00、13:00—17:00（10月1日至次年4月30日）"
+        ],
+        "grounding_id": [
+            "130"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "有这个办理点的联系电话吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "联系电话是：0579-82461652。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0579-82461652"
+        ],
+        "grounding_id": [
+            "132"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "有没有别的办理地点，我离刚才那个地址比较远？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您还可以到：金华市公安局交通警察支队车辆管理所（金华市金东区赤松镇汽车城内横三路）1-10号窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "金华市公安局交通警察支队车辆管理所（金华市金东区赤松镇汽车城内横三路）1-10号窗口"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那这个办理点的工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "星期一至星期五（法定节假日按照国家假期安排）上午：8:30—12:00下午：13:30—17:00"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "把这个办理点的电话也给我吧？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "联系电话：0579-82082501。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "0579-82082501",
+            "联系电话"
+        ],
+        "grounding_id": [
+            "137",
+            "136"
+        ]
+    }
+]

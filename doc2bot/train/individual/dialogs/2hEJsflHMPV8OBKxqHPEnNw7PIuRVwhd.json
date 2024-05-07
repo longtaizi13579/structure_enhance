@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江宁波个体户住房公积金的一些问题？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询个体工商户、自由职业者住房公积金缴存登记的办理地点、办理时间还是收费标准呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办这个的收费标准？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "此项服务是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "293"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我公积金的存取能不能网上支付啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "非常抱歉，我们不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，如果我要申请的话大概多久能通过啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "20个工作日之内应该就会有结果了。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那要是超出20个工作日还没有结果的话，我可以投诉吧？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，请问您需要投诉电话、投诉地址或投诉网址的相关信息吗？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道投诉的地址在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉地址位于宁波市海曙区解放南路166号",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "宁波市海曙区解放南路166号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那投诉电话也给我一下吧？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，投诉电话是0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，我还想问一下之后能不能用银行的自助提款机存取钱啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不好意思，目前我们是不支持自助终端代理的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

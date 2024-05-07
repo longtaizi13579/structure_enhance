@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果在Mac上无法发送或接收电子邮件，要怎么做？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果您在Mac上无法发送或接收电子邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您的Mac已连接到互联网，但突然不能发送或接收电子邮件了，您可以查看状态信息 、使用网页邮件测试 、移除您的电子邮件帐户，然后重新添加。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "查看状态信息"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "查看状态信息，发现状态为“网络离线”，要怎么做？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "查看状态信息",
+            "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。"
+        ],
+        "grounding_id": [
+            "4",
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果状态为“网络离线”，请确保您的Mac已连接到互联网，然后再试一次。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "查看状态信息发现“邮件”要求您输入密码，但输入密码不起作用，要怎么做？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果您在Mac上无法发送或接收电子邮件",
+            "查看状态信息",
+            "如果“邮件”要求您输入密码，但输入密码不起作用，请查明电子邮件服务提供商为什么拒绝您的密码。"
+        ],
+        "grounding_id": [
+            "1",
+            "4",
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请查明电子邮件服务提供商为什么拒绝您的密码。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果“邮件”要求您输入密码，但输入密码不起作用，请查明电子邮件服务提供商为什么拒绝您的密码。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "状态图标可能是什么样的？",
+        "act": "what",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "查看状态信息",
+            "您可能会在“邮件”边栏中的帐户收件箱旁边或在“邮件”窗口右上角看到一个状态图标，如闪电或警告符号。"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "状态图标可能是闪电或警告符号。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "您可能会在“邮件”边栏中的帐户收件箱旁边或在“邮件”窗口右上角看到一个状态图标，如闪电或警告符号。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "使用的是iCloud邮件帐户怎么做网页邮件测试？",
+        "act": "how",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "如果您在Mac上无法发送或接收电子邮件",
+            "使用网页邮件测试",
+            "许多电子邮件服务提供商都提供网页邮件，这是一种通过Safari浏览器等网络浏览器使用电子邮件的方式，而不是使用“邮件”这样的电子邮件App。例如，如果您使用的是iCloud邮件帐户，则可以使用iCloud.com发送和接收电子邮件。"
+        ],
+        "grounding_id": [
+            "1",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您使用的是iCloud邮件帐户，可以使用iCloud.com发送和接收电子邮件。",
+        "act": "ans/open",
+        "document": "如果您在Mac上无法发送或接收电子邮件.json",
+        "grounding": [
+            "许多电子邮件服务提供商都提供网页邮件，这是一种通过Safari浏览器等网络浏览器使用电子邮件的方式，而不是使用“邮件”这样的电子邮件App。例如，如果您使用的是iCloud邮件帐户，则可以使用iCloud.com发送和接收电子邮件。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

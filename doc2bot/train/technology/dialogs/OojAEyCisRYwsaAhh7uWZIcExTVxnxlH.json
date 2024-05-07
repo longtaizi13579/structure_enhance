@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果iPhone、iPad或iPodtouch无法更新可能是什么原因？",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新",
+            "您可能由于以下某种原因"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "设备上的可用储存空间不足、下载更新的用时过长、无法连接更新服务器、更新无法完成",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "设备上的可用储存空间不足",
+            "下载更新的用时过长",
+            "无法连接更新服务器",
+            "更新无法完成"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "什么设备可以给iPhone、iPad或iPodtouch更新",
+        "act": "what",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新",
+            "尝试使用相同网络再次更新您的设备。如果您仍看到以上任一信息，请尝试使用其他网络更新您的设备，或使用电脑更新您的设备："
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "装有macOSCatalina或更高版本的Mac更新您的设备和装有macOSMojave或更早版本的Mac或者WindowsPC",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "使用装有macOSCatalina或更高版本的Mac更新您的设备",
+            "使用装有macOSMojave或更早版本的Mac或者WindowsPC更新您的设备"
+        ],
+        "grounding_id": [
+            "24",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果移除再重新下载更新后还安装不了怎么办？",
+        "act": "how",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "如果iPhone、iPad或iPodtouch无法更新",
+            "移除再重新下载更新",
+            "如果您仍然无法安装最新版本的iOS或iPadOS，请尝试重新下载更新："
+        ],
+        "grounding_id": [
+            "1",
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.前往“设置”>“通用”>“[设备名称]储存空间”。 2.在App列表中找到更新。 3.轻点更新，然后轻点“删除更新”。 4.前往“设置”>“通用”>“软件更新”，然后下载最新的更新。",
+        "act": "ans/open",
+        "document": "如果iPhone、iPad或iPodtouch无法更新.json",
+        "grounding": [
+            "前往“设置”>“通用”>“[设备名称]储存空间”。",
+            "在App列表中找到更新。",
+            "轻点更新，然后轻点“删除更新”。",
+            "前往“设置”>“通用”>“软件更新”，然后下载最新的更新。"
+        ],
+        "grounding_id": [
+            "52",
+            "53",
+            "54",
+            "55"
+        ]
+    }
+]

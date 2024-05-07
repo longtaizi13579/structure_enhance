@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下测定和校准AppleProDisplayXDR？",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定和校准AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你具体是想咨询什么，测定 Pro Display XDR还是微调校准还是进行现场重新校准等等呢？",
+        "act": "multiple-choice",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "测定ProDisplayXDR",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "测定ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "能说的在具体一点吗？是下载测试图案还是测定显示器？",
+        "act": "multiple-choice",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能跟我说一下下载测试图案具体的操作步骤吗？",
+        "act": "verification",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "下载测试图案"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，首先前往AVFoundation开发者页面。然后在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。最后连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "前往AVFoundation开发者页面。",
+            "在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。",
+            "连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。"
+        ],
+        "grounding_id": [
+            "27",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我ProDisplayXDR在装配线上的显示器出厂校准流程有什么用呢？",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "每台ProDisplayXDR在装配线上都会经过先进的显示器出厂校准流程，以确保P3广色域面板和各个LED背光灯的准确性。此外，出厂校准流程会使用复杂的内建算法，准确再现当今的媒体工作流程所用的多种色彩空间，包括sRGB、BT.601、BT.709和P3-ST.2084(HDR)。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "用来，以确保P3广色域面板和各个LED背光灯的准确性。此外，出厂校准流程会使用复杂的内建算法，准确再现当今的媒体工作流程所用的多种色彩空间，包括sRGB、BT.601、BT.709和P3-ST.2084(HDR)。",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "每台ProDisplayXDR在装配线上都会经过先进的显示器出厂校准流程，以确保P3广色域面板和各个LED背光灯的准确性。此外，出厂校准流程会使用复杂的内建算法，准确再现当今的媒体工作流程所用的多种色彩空间，包括sRGB、BT.601、BT.709和P3-ST.2084(HDR)。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下进行现场重新校准",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "进行现场重新校准"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那你具体是想问检查要求还是校准显示器还是还原校准呢？",
+        "act": "multiple-choice",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "检查要求"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "检查要求，我需要什么版本的显示器固件和仪器呢？而且我只想问一下关于PhotoResearch的",
+        "act": "what",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "检查要求",
+            "要进行现场重新校准，必须装有macOSCatalina10.15.6或更高版本、显示器固件4.2.37，并使用以下任一仪器："
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要进行现场重新校准，必须装有macOSCatalina10.15.6或更高版本、显示器固件4.2.37，并使用以下任一仪器：PhotoResearchPR-740、PR-745或PR-788 推荐带宽：4nm或5nm所需的光圈：0.1、0.125、0.2或0.25",
+        "act": "ans/open",
+        "document": "测定和校准AppleProDisplayXDR.json",
+        "grounding": [
+            "要进行现场重新校准，必须装有macOSCatalina10.15.6或更高版本、显示器固件4.2.37，并使用以下任一仪器：",
+            "PhotoResearch",
+            "PR-740、PR-745或PR-788",
+            "推荐带宽：4nm或5nm",
+            "所需的光圈：0.1、0.125、0.2或0.25"
+        ],
+        "grounding_id": [
+            "60",
+            "64",
+            "65",
+            "66",
+            "67"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果我要移除微调校准，能给我简单说明一下吗",
+        "act": "what",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "微调校准",
+            "要移除微调校准，请从“微调校准”菜单中选取“恢复默认”。"
+        ],
+        "grounding_id": [
+            "36",
+            "47"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要移除微调校准，请从“微调校准”菜单中选取“恢复默认”。",
+        "act": "ans/open",
+        "document": "微调AppleStudioDisplay的校准.json",
+        "grounding": [
+            "要移除微调校准，请从“微调校准”菜单中选取“恢复默认”。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我最后还想问一下设置和使用AppleProDisplayXDR",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置和使用AppleProDisplayXDR"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那你具体是想问使用参考模式还是设置ProDisplayXDR还是系统要求和兼容的 Mac 机型呢?",
+        "act": "multiple-choice",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "跟我说一下设置ProDisplayXDR的具体操作步骤吧",
+        "act": "what",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "设置ProDisplayXDR"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，首先为您的显示器选取位置，然后 安装ProStand或VESA支架转换器，最后连接显示器",
+        "act": "ans/open",
+        "document": "设置和使用AppleProDisplayXDR.json",
+        "grounding": [
+            "为您的显示器选取位置",
+            "安装ProStand或VESA支架转换器",
+            "连接显示器"
+        ],
+        "grounding_id": [
+            "11",
+            "17",
+            "26"
+        ]
+    }
+]

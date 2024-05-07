@@ -1,0 +1,274 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，咨询一下就是有个残疾人机动轮椅车注册登记那个申请有数量限制吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "153",
+            "154"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪个省市？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江衢州市",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的该登记是有数量限制的",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那一个残疾人能登记几辆呀",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1名下肢残疾人只能登记1辆残疾人机动轮椅车"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1名下肢残疾人只能登记1辆残疾人机动轮椅车",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1名下肢残疾人只能登记1辆残疾人机动轮椅车"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个登记可以怎么办理",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个有什么咨询方式吗",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个有三种方式一电话咨询二咨询地址三咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询电话你说一下吧",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的咨询电话是0570-8810122",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "0570-8810122",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "哦好的，还有在问一下那咱们衢州市办那个机动车所有人姓名变更登记办理时间您给查一下",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）",
+            "办理时间",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "T5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个办公时间是工作日，星期一至星期五（节假日除外），上午8:30—12:00下午13:00—16:00",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "工作日，星期一至星期五（节假日除外），上午8:30—12:00下午13:00—16:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这个变更登记是否支持自助办理呀",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个目前不支持",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哦好的，还有办这个姓名变更登记有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "102"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "啊那这个多久能办好",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "帮您查询了一下该变更登记法定办结时限1（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所在辖区内）.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

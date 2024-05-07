@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "macOS服务器5.12及更高版本中包含哪些服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本",
+            "macOS和macOS服务器中提供的服务",
+            "macOS服务器5.12及更高版本中包含的服务"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "描述文件管理器、OpenDirectory。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "描述文件管理器",
+            "OpenDirectory"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "macOS服务器5.7.1至5.11.1中包含哪些服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本",
+            "macOS和macOS服务器中提供的服务",
+            "macOS服务器5.7.1至5.11.1中包含的服务",
+            "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务："
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "描述文件管理器、OpenDirectory、Xsan。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "描述文件管理器",
+            "OpenDirectory",
+            "Xsan"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在Mac上安装MicrosoftWindows后，可以选择哪种启动方式？",
+        "act": "what",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "以macOS或Windows重新启动Mac"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以选择以macOS或Windows启动Mac。",
+        "act": "ans/open",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎样在Mac启动期间使用“启动管理器”？",
+        "act": "how",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "以macOS或Windows重新启动Mac",
+            "如何从Windows中以macOS启动",
+            "或者，在Mac启动期间使用“启动管理器”："
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先从Windows的“开始”菜单中重新启动Mac。然后在Mac开始重新启动时，按住Option（或Alt）⌥键。 最后在“启动管理器”窗口中选择Mac启动宗卷(MacintoshHD)，然后按下Return键或点按向上箭头",
+        "act": "ans/open",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "从Windows的“开始”菜单中重新启动Mac。",
+            "在Mac开始重新启动时，按住Option（或Alt）⌥键。",
+            "在“启动管理器”窗口中选择Mac启动宗卷(MacintoshHD)，然后按下Return键或点按向上箭头："
+        ],
+        "grounding_id": [
+            "13",
+            "17",
+            "18"
+        ]
+    }
+]

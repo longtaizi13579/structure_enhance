@@ -1,0 +1,284 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解下隐藏从AppStore购买的项目可以吗",
+        "act": "verification",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏从AppStore购买的项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是要取消隐藏App，还是在iPhone、iPad或iPodtouch上隐藏App",
+        "act": "multiple-choice",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏购买清单中的App后会发生什么"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "隐藏某个App后会发生什么？",
+        "act": "what",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏某个App后，这个App不会从您的设备、家庭成员的设备或使用您的AppleID登录的其他设备上被移除。如果您想要从主屏幕移除某个App，请自定iPhone的主屏幕。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "隐藏某个App后，这个App不会从您的设备、家庭成员的设备或使用您的AppleID登录的其他设备上被移除。如果您想要从主屏幕移除某个App，请自定iPhone的主屏幕。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏某个App后，这个App不会从您的设备、家庭成员的设备或使用您的AppleID登录的其他设备上被移除。如果您想要从主屏幕移除某个App，请自定iPhone的主屏幕。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上取消隐藏App怎么办？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "如果您从iPhone、iPad或iPodtouch中删除了某个App，当您取消隐藏时，这个App不会自动重新出现在主屏幕上。您需要从AppStore中重新下载这个App。您无需重新购买相应的App。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您从iPhone、iPad或iPodtouch中删除了某个App，当您取消隐藏时，这个App不会自动重新出现在主屏幕上。您需要从AppStore中重新下载这个App。您无需重新购买相应的App。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "如果您从iPhone、iPad或iPodtouch中删除了某个App，当您取消隐藏时，这个App不会自动重新出现在主屏幕上。您需要从AppStore中重新下载这个App。您无需重新购买相应的App。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上隐藏App，具体怎么做呢？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上隐藏App"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开AppStoreApp。 其次轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。 再次轻点“已购项目”。如果您使用“家人共享”，请轻点“我的购买项目”。 接着找到您要隐藏的App，然后在这个App上向左轻扫并轻点“隐藏”。 最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。",
+            "轻点“已购项目”。如果您使用“家人共享”，请轻点“我的购买项目”。",
+            "找到您要隐藏的App，然后在这个App上向左轻扫并轻点“隐藏”。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "打开AppStoreApp后怎么做？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "打开AppStoreApp。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "使用“家人共享”，然后怎么操作？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "轻点“已购项目”。如果您使用“家人共享”，请轻点“我的购买项目”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "轻点“已购项目”。如果您使用“家人共享”，请轻点“我的购买项目”。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "轻点“已购项目”。如果您使用“家人共享”，请轻点“我的购买项目”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上取消隐藏App，具体怎么操作？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上取消隐藏App",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "15",
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开AppStoreApp。 其次轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。 再次轻点您的姓名或AppleID。系统可能会要求您使用AppleID登录。 接着向下滚动并轻点“隐藏的已购项目”。 然后找到所需的App，然后轻点“取消隐藏”。 接着要返回AppStore，请轻点“帐户设置”，然后轻点“完成”。 最后.搜索这个App，然后轻点下载按钮。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "轻点屏幕顶部的帐户按钮，或者您的头像或姓名首字母缩写。",
+            "轻点您的姓名或AppleID。系统可能会要求您使用AppleID登录。",
+            "向下滚动并轻点“隐藏的已购项目”。",
+            "找到所需的App，然后轻点“取消隐藏”。",
+            "要返回AppStore，请轻点“帐户设置”，然后轻点“完成”。",
+            "搜索这个App，然后轻点下载按钮。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "轻点您的姓名或AppleID，然后怎么做？",
+        "act": "how",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "轻点您的姓名或AppleID。系统可能会要求您使用AppleID登录。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "向下滚动并轻点“隐藏的已购项目”。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "向下滚动并轻点“隐藏的已购项目”。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "什么情况下“取消隐藏”？",
+        "act": "what",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "找到所需的App，然后轻点“取消隐藏”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "找到所需的App，然后轻点“取消隐藏”。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "找到所需的App，然后轻点“取消隐藏”。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "什么情况下轻点“完成”？",
+        "act": "what",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "要返回AppStore，请轻点“帐户设置”，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "要返回AppStore，请轻点“帐户设置”，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "要返回AppStore，请轻点“帐户设置”，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

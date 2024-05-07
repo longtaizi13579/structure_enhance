@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，在Mac上安装MicrosoftWindows后，还可以用macOS启动Mac吗？",
+        "act": "verification",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "以macOS或Windows重新启动Mac",
+            "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的。在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。",
+        "act": "ans/open",
+        "document": "以macOS或Windows重新启动Mac.json",
+        "grounding": [
+            "在Mac上安装MicrosoftWindows后，您可以选择以macOS或Windows启动Mac。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下其他macOS安装选项，如果从恢复功能安装macOS时，会获得最近所安装macOS的最新版本吗？",
+        "act": "verification",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "其他macOS安装选项",
+            "当您从恢复功能安装macOS时，会获得最近所安装macOS的最新版本，但也有一些例外："
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您从恢复功能安装macOS时，会获得最近所安装macOS的最新版本，但也有一些例外：在基于Intel的Mac上，您可以在启动时使用Shift-Option-Command-R来获得Mac自带的macOS，或与它最接近且仍在提供的版本。或者，您也可以在启动时使用Option-Command-R来获得与Mac兼容的最新版macOS；在某些情况下，也可获得Mac自带的macOS或与它最接近且仍在提供的版本。",
+        "act": "ans/yesno",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "当您从恢复功能安装macOS时，会获得最近所安装macOS的最新版本，但也有一些例外：",
+            "在基于Intel的Mac上，您可以在启动时使用Shift-Option-Command-R来获得Mac自带的macOS，或与它最接近且仍在提供的版本。或者，您也可以在启动时使用Option-Command-R来获得与Mac兼容的最新版macOS；在某些情况下，也可获得Mac自带的macOS或与它最接近且仍在提供的版本。"
+        ],
+        "grounding_id": [
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果刚刚更换过Mac主板，是不是只会获得与Mac兼容的最新版macOS？",
+        "act": "verification",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "您可能只会获得与Mac兼容的最新版macOS。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "您可能只会获得与Mac兼容的最新版macOS。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何通过macOS恢复功能启动？",
+        "act": "how",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "通过macOS恢复功能启动"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先确保您的Mac已连接到互联网。然后确定您使用的是不是搭载Apple芯片的Mac。",
+        "act": "ans/open",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "首先确保您的Mac已连接到互联网。然后确定您使用的是不是搭载Apple芯片的Mac，并按照相应的步骤操作："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果是Apple芯片，应该怎么操作？",
+        "act": "how",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "Apple芯片"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "将Mac开机并继续按住电源按钮，直至您看到启动选项窗口。点按标有“选项”字样的齿轮图标，然后点按“继续”。",
+        "act": "ans/open",
+        "document": "如何重新安装macOS.json",
+        "grounding": [
+            "将Mac开机并继续按住电源按钮，直至您看到启动选项窗口。点按标有“选项”字样的齿轮图标，然后点按“继续”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还有个问题，我想问一下macOS服务器5.7.1至5.11.1中包含哪些服务？",
+        "act": "what",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "关于macOS服务器5.7.1及更高版本",
+            "macOS和macOS服务器中提供的服务",
+            "macOS服务器5.7.1至5.11.1中包含的服务"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：描述文件管理器； OpenDirectory； Xsan。",
+        "act": "ans/open",
+        "document": "关于macOS服务器5.7.1及更高版本.json",
+        "grounding": [
+            "macOS服务器5.7.1至5.11.1中包含并完全支持以下服务：",
+            "描述文件管理器",
+            "OpenDirectory",
+            "Xsan"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    }
+]

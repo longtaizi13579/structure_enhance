@@ -1,0 +1,300 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市出入境有关的问题",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T4",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询常用服务有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是护照加注、赴台探亲签注还是港澳探亲签注有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "护照加注的申报材料有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "申报材料",
+            "材料名称"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "139"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "符合户籍地申办要求的材料、陪同委托书、注明有曾用名的户口簿、陪同人的身份证明、定居国外的有效证明、曾持有的普通护照、中国公民出入境证件申请表、具有英文、繁体汉字、多音字、非标准汉语发音姓名的护照、国外定居的有效证明、 中华人民共和国护照和近期正面免冠彩色制证相片",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "陪同委托书",
+            "注明有曾用名的户口簿",
+            "陪同人的身份证明",
+            "定居国外的有效证明",
+            "曾持有的普通护照",
+            "中国公民出入境证件申请表",
+            "具有英文、繁体汉字、多音字、非标准汉语发音姓名的护照、国外定居的有效证明",
+            "中华人民共和国护照",
+            "近期正面免冠彩色制证相片"
+        ],
+        "grounding_id": [
+            "159",
+            "176",
+            "195",
+            "214",
+            "231",
+            "250",
+            "271",
+            "290",
+            "309"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不同人申请这个会有差别吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "申报材料",
+            "受理标准"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "322"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不会的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "无差别受理"
+        ],
+        "grounding_id": [
+            "323"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个业务的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼5-9号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那遇到问题，监督投诉方式又有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼４号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "杭州市公安局出入境接待大厅（杭州市上城区望江街道婺江路169号）一楼４号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个业务的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "400"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "送达",
+            "制证签发",
+            "审核审批",
+            "申请",
+            "受理"
+        ],
+        "grounding_id": [
+            "427",
+            "421",
+            "412",
+            "401",
+            "403"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "审批需要多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "412",
+            "413"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "当天完成",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0个工作日"
+        ],
+        "grounding_id": [
+            "414"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果审核不通过怎么办？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "制证签发"
+        ],
+        "grounding_id": [
+            "421"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。"
+        ],
+        "grounding_id": [
+            "422"
+        ]
+    }
+]

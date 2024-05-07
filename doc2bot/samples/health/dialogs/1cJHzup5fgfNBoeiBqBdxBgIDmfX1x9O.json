@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好 我想咨询一下女性健康问题如果在孕期发烧了会怎么样呢",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "女性健康问题",
+            "孕期发烧"
+        ],
+        "grounding_id": [
+            "T504",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果烧到39.5摄氏度的话，就会有可能导致流产",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这么严重吗，那如果发烧了 但是没有流产呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那样的话有可能会影响婴儿大脑或脊髓缺陷",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果在妊娠晚期，发烧了会有什么风险呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧",
+            "在妊娠晚期，发热会增加以下问题的风险："
+        ],
+        "grounding_id": [
+            "1",
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那就有可能直接导致早产，一定要注意！",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "早产"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "会注意的，那万一一不小心在孕期发烧了呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那你一定不要担心，医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "医生会治疗发热的原因，但孕妇也可以使用对乙酰氨基酚降低体温。可以在体温极高的女性中使用降温毯。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

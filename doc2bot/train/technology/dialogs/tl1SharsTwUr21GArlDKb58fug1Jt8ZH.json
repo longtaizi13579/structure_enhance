@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何使用AppleWatch上的“健身记录”App",
+        "act": "how",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "使用AppleWatch上的“健身记录”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想跟踪您的活动情况，活动，锻炼，还是站立",
+        "act": "multiple-choice",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "站立"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道指明使用轮椅之后，“站立”圆环会怎么样",
+        "act": "how",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "如果您指明了您在使用轮椅，“站立”圆环会切换成“转动”圆环。“转动”显示了您在期间至少推动轮椅1分钟的小时数。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您指明了您在使用轮椅，“站立”圆环会切换成“转动”圆环。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "如果您指明了您在使用轮椅，“站立”圆环会切换成“转动”圆环。“转动”显示了您在期间至少推动轮椅1分钟的小时数。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“转动”显示的是什么",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "如果您指明了您在使用轮椅，“站立”圆环会切换成“转动”圆环。“转动”显示了您在期间至少推动轮椅1分钟的小时数。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“转动”显示了您在期间至少推动轮椅1分钟的小时数。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "如果您指明了您在使用轮椅，“站立”圆环会切换成“转动”圆环。“转动”显示了您在期间至少推动轮椅1分钟的小时数。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果想跟踪活动情况的话应该怎么操作",
+        "act": "how",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "跟踪您的活动情况"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，打开AppleWatch上的“健身记录”App，然后按照屏幕上的步骤操作。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "首先，打开AppleWatch上的“健身记录”App，然后按照屏幕上的步骤操作。当您达到设定的目标时，AppleWatch会通知您，并提供建议和鼓励，以帮助您合上圆环。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在达到设定的目标时会有什么表现呢",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "首先，打开AppleWatch上的“健身记录”App，然后按照屏幕上的步骤操作。当您达到设定的目标时，AppleWatch会通知您，并提供建议和鼓励，以帮助您合上圆环。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您达到设定的目标时，AppleWatch会通知您，并提供建议和鼓励，以帮助您合上圆环。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "首先，打开AppleWatch上的“健身记录”App，然后按照屏幕上的步骤操作。当您达到设定的目标时，AppleWatch会通知您，并提供建议和鼓励，以帮助您合上圆环。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那“锻炼”圆环显示的是什么",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "锻炼"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“锻炼”圆环显示了目前您完成了多少分钟的一定强度的活动。通过每天至少锻炼30分钟来完成您的每日锻炼目标。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "“锻炼”圆环显示了目前您完成了多少分钟的一定强度的活动。通过每天至少锻炼30分钟来完成您的每日锻炼目标。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下在AppleWatch上怎么使用“对讲机”",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "在AppleWatch上使用“对讲机”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问您的iPhone在不在身边呢",
+        "act": "question/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone不在身边，您可以通过蜂窝网络或Wi-Fi连接使用“对讲机”。"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "不在，怎么办呢",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone不在身边，您可以通过蜂窝网络或Wi-Fi连接使用“对讲机”。"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您的iPhone不在身边，您可以通过蜂窝网络或Wi-Fi连接使用“对讲机”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone不在身边，您可以通过蜂窝网络或Wi-Fi连接使用“对讲机”。"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    }
+]

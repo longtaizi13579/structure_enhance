@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省台州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "浙江省_台州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T8",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "军警机动车驾驶证换证申领有哪些收费项目？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "军警机动车驾驶证换证申领",
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "T89",
+            "1",
+            "271",
+            "278"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1 摩托车驾驶员考试费（含一次补考） 2 驾驶员科目三（道路驾驶技能）3 机动车驾驶证4 驾驶员科目二（场地驾驶技能）5 驾驶员科目一（道路交通安全法律、法规和相关知识）6 补考（包括法律法规规章规定需重新进行的考试费）都要收费，您想咨询哪一项？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "2\t驾驶员科目三（道路驾驶技能）"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "驾驶员科目三（道路驾驶技能）收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "100元/人次",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "100元/人次"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "机动车驾驶证多少钱一本？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "3\t机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "297",
+            "298"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "驾驶员科目二（场地驾驶技能）考试多少钱？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "180元/人次",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_军警机动车驾驶证换证申领.json",
+        "grounding": [
+            "180元/人次"
+        ],
+        "grounding_id": [
+            "308"
+        ]
+    }
+]

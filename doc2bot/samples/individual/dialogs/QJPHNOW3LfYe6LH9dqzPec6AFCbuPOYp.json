@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市公积金的有关问题",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T4",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是跨省通办服务、公积金提取还是常用服务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "跨省通办服务"
+        ],
+        "grounding_id": [
+            "T209"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "购买自住住房提取住房公积金服务的设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "跨省通办服务",
+            "购买自住住房提取住房公积金",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "T209",
+            "1",
+            "4000"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "住房公积金管理条例",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "住房公积金管理条例"
+        ],
+        "grounding_id": [
+            "4001"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "住房公积金管理条例的实施日期是什么时候？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "住房公积金管理条例",
+            "实施日期"
+        ],
+        "grounding_id": [
+            "4001",
+            "4008"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1999年4月3日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "1999-04-03"
+        ],
+        "grounding_id": [
+            "4009"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个业务有哪些办理形式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "三种，网上申请、现场窗口申请、现场自助机申请均可。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "监督投诉方式有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼228室。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼228室。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个业务要去哪办理？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼65-72号公积金窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_公积金_跨省通办服务_购买自住住房提取住房公积金.json",
+        "grounding": [
+            "杭州市行政服务中心(市民中心L楼)（杭州市上城区新业路311号市民中心L楼）2楼65-72号公积金窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

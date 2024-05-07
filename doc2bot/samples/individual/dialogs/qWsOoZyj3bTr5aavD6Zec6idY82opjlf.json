@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想申请到台湾的签注有没有数量上的限制呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "T240",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您要申请的是应邀赴台签注、赴台学习签注、赴台商务签注还是赴台其他签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应邀赴台签注，有没有次数限制？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "没有的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我是去参加采访的，符合申请条件吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有没有注意事项呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "131",
+            "134"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，其他更多的信息我可以到哪儿咨询？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过咨询电话、咨询地址或咨询网址，需要我为您提供吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以拨打0571-88209209；0571-87071973；0571-87074431",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "0571-88209209；0571-87071973；0571-87074431"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，这个业务的设定有什么依据吗？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "887"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是依据中华人民共和国主席令　第五十七号设定的",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "中华人民共和国主席令　第五十七号"
+        ],
+        "grounding_id": [
+            "903"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，那如果有违反这个法令的情况是可以投诉的吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以通过投诉电话、投诉地址、投诉网址进行投诉",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那投诉地址是哪里呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "投诉地址位于上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼４号窗口",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼４号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "谢谢，最后想问一下申请的方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "可以网上申请或现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

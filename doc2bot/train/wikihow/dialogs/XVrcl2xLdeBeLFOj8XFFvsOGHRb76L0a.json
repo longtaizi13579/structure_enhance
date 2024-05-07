@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解计算机与电子产品的相关信息",
+        "act": "what",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "计算机与电子产品"
+        ],
+        "grounding_id": [
+            "T2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解如何修复互联网连接还是如何全选内容？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "如何修复互联网连接"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何修复互联网连接",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "如何修复互联网连接"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1.清除电脑的DNS缓存 2.清除浏览器缓存 3.尝试不同的网站或程序。 4.修复连接。 5.增强Wi-Fi信号。 6.扫描病毒和恶意软件。 7.联系互联网服务提供商。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "清除电脑的DNS缓存",
+            "清除浏览器缓存",
+            "尝试不同的网站或程序。",
+            "修复连接。",
+            "增强Wi-Fi信号。",
+            "扫描病毒和恶意软件。",
+            "联系互联网服务提供商。"
+        ],
+        "grounding_id": [
+            "32",
+            "39",
+            "45",
+            "51",
+            "55",
+            "60",
+            "62"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "清除浏览器缓存要多久一次？",
+        "act": "when",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "清除浏览器缓存"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以考虑每月清除一次浏览器缓存来保持缓存数据库相对较新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "可以考虑每月清除一次浏览器缓存来保持缓存数据库相对较新。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为什么要扫描病毒和恶意软件？",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "扫描病毒和恶意软件。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "电脑感染了病毒和其他恶意软件可能会阻碍你上网。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何修复互联网连接.json",
+        "grounding": [
+            "电脑感染了病毒和其他恶意软件可能会阻碍你上网。通常可以通过使用电脑防病毒保护程序来清除病毒。"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "iPhone或iPad要如何复制粘贴？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "如何复制粘贴",
+            "iPhone或iPad"
+        ],
+        "grounding_id": [
+            "1",
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1.选择你想要复制的对象： 2.轻触复制。 3.在文档或其它程序中，长按你想要插入文本或图片的位置。 4.轻触粘贴。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象：",
+            "轻触复制。",
+            "在文档或其它程序中，长按你想要插入文本或图片的位置。",
+            "轻触粘贴。"
+        ],
+        "grounding_id": [
+            "33",
+            "36",
+            "38",
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "复制的对象可以选择什么类型文件？",
+        "act": "what",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "选择你想要复制的对象："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以选择文本和图片。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "文本：轻触你想要复制的文本，长按并拖拽控制点，直到高亮标记全部目标文本，然后松开手指。你也可以轻触屏幕，然后松开手指，自动选中一个词语。",
+            "图片：长按图片，直到屏幕上出现一个菜单。"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "要怎样复制？",
+        "act": "how",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "轻触复制。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "轻触复制。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何复制粘贴.json",
+        "grounding": [
+            "轻触复制。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好我想咨询一下浙江省杭州市小客车指标相关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "行驶驾驶",
+            "小客车指标"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T16",
+            "T153"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问单位新能源类小客车其他指标配置、单位被盗抢小客车其他指标配置、个人出租客运小客车其他指标配置还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "单位新能源类小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，我想问的是单位新能源类小客车其他指标配置的相关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "单位新能源类小客车其他指标配置"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们可以给您提供监督投诉方式、基本信息、线下办事点、申请条件等方面信息，您想了解哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "基本信息有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "113"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "审批结果类型、审批结果名称、审批结果样本、是否支持物流快递、送达时限、送达方式这些方面我都可以给您解答。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "单位新能源类小客车其他指标配置的送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这项业务支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这项业务的办理形式有哪些呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位新能源类小客车其他指标配置.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省绍兴市的，想咨询下公积金提取的问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "公积金提取"
+        ],
+        "grounding_id": [
+            "T7",
+            "T214"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解出境定居提取住房公积金，死亡或者被宣告死亡提取住房公积金，还是建造、翻建、大修自住住房提取住房公积金？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询下出境定居提取住房公积金，办事处那边的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "出境定居提取住房公积金",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址是：浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限为3（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "法定办结时限",
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理方式有哪些？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理形式有：网上申请和现场窗口申请两种方式。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_出境定居提取住房公积金.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问下死亡或者被宣告死亡提取住房公积金，如果在办理过程中遇到问题，应该怎么投诉？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "死亡或者被宣告死亡提取住房公积金",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "投诉地址是：浙江省绍兴市解放北路588号绍兴市住房公积金管理中心。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "投诉地址",
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "咨询电话是：0575-12329",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_公积金提取_死亡或者被宣告死亡提取住房公积金.json",
+        "grounding": [
+            "咨询电话",
+            "0575-12329"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下卒中概述",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "卒中概述",
+            "中风(CVA)"
+        ],
+        "grounding_id": [
+            "1",
+            "T1474"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "中风是指脑的某一动脉突然阻塞或破裂，因失去供血而导致局部脑组织坏死（脑梗死）并产生突发临床症状。请问您想了解的是中风的危险因素，症状，诊断还是预后等别的事宜？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "中风的危险因素"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道血管炎症是不是中风可改变风险因素之一？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "中风的危险因素",
+            "对于这两种类型的中风而言，主要可改变风险因素是",
+            "血管炎症（血管炎）"
+        ],
+        "grounding_id": [
+            "31",
+            "34",
+            "70"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "血管炎症（血管炎）"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那血管炎具体是指什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "血管炎",
+            "血管炎"
+        ],
+        "grounding_id": [
+            "72",
+            "72"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "血管疾病是由血管发炎引起的（血管炎）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_中风(CVA)_卒中概述.json",
+        "grounding": [
+            "血管疾病是由血管发炎引起的（血管炎）。"
+        ],
+        "grounding_id": [
+            "295"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，那关于结节性多动脉炎的信息我也想知道一下",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "结节性多动脉炎(PAN)"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "结节性多动脉炎是累及中等大小动脉的炎症。您想了解结节性多动脉炎的症状，诊断，预后还是治疗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "结节性多动脉炎的治疗"
+        ],
+        "grounding_id": [
+            "65"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道使用皮质类固醇治疗的话有没有效果？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "大剂量皮质类固醇（如强的松）可以阻止疾病恶化并缓解患者症状。治疗的目的是达到症状缓解。由于患者长期需要服用皮质类固醇并这类的长期服用能引起明显的副作用，因此当症状缓解时，剂量必须减少。",
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "71",
+            "67"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大剂量皮质类固醇（如强的松）可以阻止疾病恶化并缓解患者症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "大剂量皮质类固醇（如强的松）可以阻止疾病恶化并缓解患者症状。治疗的目的是达到症状缓解。由于患者长期需要服用皮质类固醇并这类的长期服用能引起明显的副作用，因此当症状缓解时，剂量必须减少。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那剂量越大，副作用是不是就越严重？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "大剂量皮质类固醇（如强的松）可以阻止疾病恶化并缓解患者症状。治疗的目的是达到症状缓解。由于患者长期需要服用皮质类固醇并这类的长期服用能引起明显的副作用，因此当症状缓解时，剂量必须减少。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，由于患者长期需要服用皮质类固醇并这类的长期服用能引起明显的副作用，因此当症状缓解时，剂量必须减少。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "大剂量皮质类固醇（如强的松）可以阻止疾病恶化并缓解患者症状。治疗的目的是达到症状缓解。由于患者长期需要服用皮质类固醇并这类的长期服用能引起明显的副作用，因此当症状缓解时，剂量必须减少。"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那诊断的时候需要做血液检查吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "诊断方式：",
+            "结节性多动脉炎的诊断",
+            "血液化验"
+        ],
+        "grounding_id": [
+            "51",
+            "50",
+            "53"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "需要进行血液化验的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "血液化验"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "除了皮质类固醇之外，还有什么有效的药物呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "及时用皮质类固醇，或另一种抑制免疫系统的药物或两者同时治疗都是有效的。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "另一种抑制免疫系统的药物或两者同时治疗都是有效的",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "及时用皮质类固醇，或另一种抑制免疫系统的药物或两者同时治疗都是有效的。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那会不会导致生殖器出现问题呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "生殖器：睾丸疼痛和压痛以及睾丸发炎（睾丸炎）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您说的是睾丸吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "生殖器：睾丸疼痛和压痛以及睾丸发炎（睾丸炎）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "对的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "生殖器：睾丸疼痛和压痛以及睾丸发炎（睾丸炎）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "会产生睾丸疼痛和压痛以及睾丸发炎（睾丸炎）",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_血管性疾病_结节性多动脉炎(PAN).json",
+        "grounding": [
+            "生殖器：睾丸疼痛和压痛以及睾丸发炎（睾丸炎）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    }
+]

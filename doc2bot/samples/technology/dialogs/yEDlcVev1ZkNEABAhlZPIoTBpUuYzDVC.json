@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于使用AppleID登录的问题？",
+        "act": "what",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "使用您的AppleID登录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：在iPhone、iPad或iPodtouch上登录，在Mac上登录，在AppleTV上登录，还是在App和其他设备上登录？",
+        "act": "multiple-choice",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上登录"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下在iPhone上的登录方式。",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上登录"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 首先，打开“设置”App。然后，轻点“登录[您的设备]”。接着，输入您的AppleID和密码。 最后，如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "具体步骤",
+            "打开“设置”App。",
+            "轻点“登录[您的设备]”。",
+            "输入您的AppleID和密码。",
+            "如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果我没有在Apple Watch配对的iPhone上登录iCloud，会自动登录到相应的AppleID吗？",
+        "act": "verification",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "您将自动登录到相应的AppleID。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不会。",
+        "act": "ans/no",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "如果您已经在与AppleWatch配对的iPhone上登录iCloud，",
+            "您将自动登录到相应的AppleID。"
+        ],
+        "grounding_id": [
+            "29",
+            "89"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎么使用AppleID在Mac上登录？",
+        "act": "how",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "在Mac上登录"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，选取苹果菜单>“系统偏好设置”。 然后，点按“登录”。 接着，输入您的AppleID和密码。 最后，如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“登录”。",
+            "输入您的AppleID和密码。",
+            "如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36",
+            "37"
+        ]
+    }
+]

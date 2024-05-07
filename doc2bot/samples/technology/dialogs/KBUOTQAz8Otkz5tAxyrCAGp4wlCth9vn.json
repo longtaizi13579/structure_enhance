@@ -1,0 +1,58 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下在iPad使用5g网络有型号要求吗？",
+        "act": "verification",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "在iPad上使用5G",
+            "所需条件"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）可与部分运营商的5G蜂窝网络搭配使用。",
+        "act": "ans/yes",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）可与部分运营商的5G蜂窝网络搭配使用。了解如何使用5G蜂窝网络服务。",
+            "12.9英寸iPadPro（第5代）、11英寸iPadPro（第3代）、iPadAir（第5代）或iPadmini（第6代）"
+        ],
+        "grounding_id": [
+            "2",
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "知道了，那么高频5g网络也是可以使用的吗？",
+        "act": "verification",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "*只有通过在美国购买的iPadPro才能在美国使用高频5G网络。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是的，只有通过在美国购买的iPadPro才能在美国使用高频5G网络。",
+        "act": "ans/no",
+        "document": "在iPad上使用5G.json",
+        "grounding": [
+            "*只有通过在美国购买的iPadPro才能在美国使用高频5G网络。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

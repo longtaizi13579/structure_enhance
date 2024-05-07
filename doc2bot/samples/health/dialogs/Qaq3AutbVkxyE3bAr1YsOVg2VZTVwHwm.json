@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一些纤维的一些资料",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "纤维"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解部分可溶性还是非可溶性纤维呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。",
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道部分可溶性的什么样的？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "它们溶解于水，并且机体能够吸收其中的一部分",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那非可溶性呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "非可溶性的这部分并不溶于水，而机体不能消化它们",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果摄入过多的非可溶性纤维会怎么样呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "纤维"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可能会会干扰某些维生素和矿物质的吸收",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "机体摄入过多的非可溶性纤维会干扰某些维生素和矿物质的吸收。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

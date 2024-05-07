@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何检查设备是不是在AppleCare计划或Apple有限保修的保障范围内？",
+        "act": "how",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "查找有关保修或AppleCare计划的信息",
+            "检查您的设备是不是在AppleCare计划或Apple有限保修的保障范围内"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样查找有关保修或AppleCare计划的信息？",
+        "act": "how",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "查找有关保修或AppleCare计划的信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "检查您的设备是不是在保障范围内，并查看您享有的保障服务包含哪些类型的维修和支持。您也可以查找协议编号、购买凭证和到期日期。",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "检查您的设备是不是在保障范围内，并查看您享有的保障服务包含哪些类型的维修和支持。您也可以查找协议编号、购买凭证和到期日期。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎样获取协议编号或保障凭证？",
+        "act": "how",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "查找有关保修或AppleCare计划的信息",
+            "获取协议编号或保障凭证"
+        ],
+        "grounding_id": [
+            "1",
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以按照以下步骤操作： 1.前往mysupport.apple.com。 2.使用您的AppleID登录。 3.选取您的设备。 4.点按“查看保障凭证”。如果您没有看到保障凭证，请确保为您的AppleID设置双重认证。",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "前往mysupport.apple.com。",
+            "使用您的AppleID登录。",
+            "选取您的设备。",
+            "点按“查看保障凭证”。如果您没有看到保障凭证，请确保为您的AppleID设置双重认证。"
+        ],
+        "grounding_id": [
+            "36",
+            "40",
+            "41",
+            "42"
+        ]
+    }
+]

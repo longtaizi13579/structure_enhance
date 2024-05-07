@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道清洁Apple产品需要注意什么？",
+        "act": "what",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "如何清洁Apple产品",
+            "Apple产品采用许多不同的材料制造而成，每种材料都可能有特定的清洁要求。在开始清洁之前，请注意以下适用于所有产品的提示："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "只能使用无绒软布。避免使用粗糙的布、毛巾、纸巾或类似物品。避免过度擦拭，这可能会造成损坏。 断开所有外部电源、设备和线缆。 除非特定产品另有说明，否则请让产品远离液体。 不要让开口处受潮。不要使用喷雾剂、漂白剂或研磨剂。不要将清洁剂直接喷到产品上。",
+        "act": "ans/open",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "只能使用无绒软布。避免使用粗糙的布、毛巾、纸巾或类似物品。",
+            "避免过度擦拭，这可能会造成损坏。",
+            "断开所有外部电源、设备和线缆。",
+            "除非特定产品另有说明，否则请让产品远离液体。",
+            "不要让开口处受潮。",
+            "不要使用喷雾剂、漂白剂或研磨剂。",
+            "不要将清洁剂直接喷到产品上。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我记住了，那如何清洁Apple产品呢？",
+        "act": "how",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "如何清洁Apple产品"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解笔记本电脑的清洁还是台式电脑的呢？",
+        "act": "multiple-choice",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "笔记本电脑"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你说说清洁MacBook、MacBookPro和MacBookAir的屏幕要怎么做？",
+        "act": "how",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "笔记本电脑",
+            "MacBook、MacBookPro和MacBookAir"
+        ],
+        "grounding_id": [
+            "69",
+            "71"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要清洁MacBook、MacBookPro或MacBookAir的屏幕，请先将电脑关机并拔下电源适配器。只用水蘸湿无绒软布，然后使用无绒软布来清洁电脑屏幕。要清洁难以清除的污迹，您可以用70%的异丙醇(IPA)溶液打湿布料。",
+        "act": "ans/open",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "要清洁MacBook、MacBookPro或MacBookAir的屏幕，请先将电脑关机并拔下电源适配器。只用水蘸湿无绒软布，然后使用无绒软布来清洁电脑屏幕。要清洁难以清除的污迹，您可以用70%的异丙醇(IPA)溶液打湿布料。"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我知道了，那在清洁台式电脑MacPro、MacStudio、Macmini和iMac的外部时要怎么做呢？",
+        "act": "how",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "台式电脑",
+            "MacPro、MacStudio、Macmini和iMac"
+        ],
+        "grounding_id": [
+            "80",
+            "82"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，将Mac关机，并拔下电源线以及连接的其他设备。然后使用湿润的无绒软布清洁电脑的外部。避免任何开口处受潮。不要将液体直接喷到电脑上。不要使用可能会破坏表面涂层的喷雾剂、溶剂、研磨剂或含有过氧化氢的清洁剂。",
+        "act": "ans/open",
+        "document": "如何清洁Apple产品.json",
+        "grounding": [
+            "首先，将Mac关机，并拔下电源线以及连接的其他设备。然后使用湿润的无绒软布清洁电脑的外部。避免任何开口处受潮。不要将液体直接喷到电脑上。不要使用可能会破坏表面涂层的喷雾剂、溶剂、研磨剂或含有过氧化氢的清洁剂。"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    }
+]

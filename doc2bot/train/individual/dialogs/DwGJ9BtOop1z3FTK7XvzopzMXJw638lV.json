@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我在浙江 衢州，之前买房贷款了，现在想用公积金提前还贷。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市",
+            "住房公积金提前还贷"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是想咨询哪方面的业务呢？ 办理地点还是办理时间 ？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问地址的，想去一趟。",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理地点在衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，谢谢。我想问一下我去办理了相关业务，会什么时候收到呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "送达时限是自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "忘了问了，需要几天才能出结果啊？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会在20个工作日内出结果的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以的，我只能现场去办理吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "支持网上申请和现场窗口申请2种方式的。不一定要亲自去的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "噢噢噢，那最好了，以防万一，给我一个咨询电话吧,我先打电话去问一下需要哪些相关文件。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以打0570-12329。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_公积金_跨省通办服务_住房公积金提前还贷.json",
+        "grounding": [
+            "0570-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下泰康健康关爱团体护理保险的合同问题？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "泰康健康关爱团体护理保险  ",
+            "合同的订立"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：合同构成，合同成立及生效，投保范围，还是投保年龄？",
+        "act": "multiple-choice",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "合同的构成都包括什么？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险单 或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效(见 7.1)的声明、 批注、批单及其他投保人与本公司共同认可的书面协议。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险单 或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效(见 7.1)的声明、 批注、批单及其他投保人与本公司共同认可的书面协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同中的合法有效，是以什么为判定依据？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "合法有效"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同所指合法有效均以中华人民共和国法律、法规、行政法规、地方性法规、 行政规章及有关规范性法律文件的规定为判定依据。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "本合同所指合法有效均以中华人民共和国法律、法规、行政法规、地方性法规、 行政规章及有关规范性法律文件的规定为判定依据。"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这款保险的投保范围是什么？",
+        "act": "what",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "政府部门、机关、企业、事业单位等法人组织团体均可作为投保人向本公司投保本合同。",
+        "act": "ans/open",
+        "document": "泰康健康关爱团体护理保险  .json",
+        "grounding": [
+            "政府部门、机关、企业、事业单位等法人组织团体均可作为投保人向本公司投保本 合同。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

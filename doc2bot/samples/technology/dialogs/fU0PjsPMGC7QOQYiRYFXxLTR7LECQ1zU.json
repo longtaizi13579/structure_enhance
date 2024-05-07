@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎们在分屏浏览中并排使用两个MacApp",
+        "act": "how",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "在分屏浏览中并排使用两个MacApp"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想问进入分屏浏览，在分屏浏览中操作，还是退出分屏浏览",
+        "act": "multiple-choice",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "在分屏浏览中操作"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道在分屏浏览中操作的话怎么选取窗口",
+        "act": "how",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "在分屏浏览中操作",
+            "在要操作的窗口中点按任意位置，即可选取这个窗口。"
+        ],
+        "grounding_id": [
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在要操作的窗口中点按任意位置，即可选取这个窗口。",
+        "act": "ans/open",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "在要操作的窗口中点按任意位置，即可选取这个窗口。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想调整窗口宽度的话应该怎么做",
+        "act": "how",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "拖移两个窗口之间的垂直线，即可调整窗口宽度。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "拖移两个窗口之间的垂直线，即可调整窗口宽度。",
+        "act": "ans/open",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "拖移两个窗口之间的垂直线，即可调整窗口宽度。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那用的是macOSMojave怎么进入分屏浏览呢",
+        "act": "how",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "进入分屏浏览",
+            "如果您使用的是macOSMojave、HighSierra、Sierra或ElCapitan："
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先点按并按住窗口左上角的全屏按钮，如何按住这个按钮时窗口会缩小，您可以将它向屏幕左侧或右侧拖移，最后释放这个按钮，然后点按屏幕另一侧的某个窗口以开始并排使用这两个窗口。",
+        "act": "ans/open",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "点按并按住窗口左上角的全屏按钮。",
+            "按住这个按钮时窗口会缩小，您可以将它向屏幕左侧或右侧拖移。",
+            "释放这个按钮，然后点按屏幕另一侧的某个窗口以开始并排使用这两个窗口。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，但是按照扇面的步骤之后分屏浏览无法正常工作是什么问题",
+        "act": "what",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "如果您无法进入分屏浏览",
+            "如果分屏浏览无法正常工作，请选取苹果菜单>“系统偏好设置”，点按“调度中心”，并确保已选择“显示器具有单独的空间”。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那请选取苹果菜单>“系统偏好设置”，点按“调度中心”，并确保已选择“显示器具有单独的空间”。",
+        "act": "ans/open",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "如果分屏浏览无法正常工作，请选取苹果菜单>“系统偏好设置”，点按“调度中心”，并确保已选择“显示器具有单独的空间”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，需要手动调整窗口的大小吗",
+        "act": "verification",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "无需手动移动窗口和调整窗口大小",
+        "act": "ans/no",
+        "document": "在分屏浏览中并排使用两个MacApp.json",
+        "grounding": [
+            "借助分屏浏览，您可以在Mac屏幕上满屏显示两个App，而无需手动移动窗口和调整窗口大小。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

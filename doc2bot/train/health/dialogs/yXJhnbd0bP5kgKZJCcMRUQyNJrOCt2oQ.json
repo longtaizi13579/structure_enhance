@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，手指腱鞘感染除了服用抗生素之外，还需要什么治疗？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "腱鞘感染的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "排出脓液。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "排出脓液"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那需要什么检查吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "嗯，需要医生的检查、培养和影像学检查。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "医生的检查",
+            "X光",
+            "培养",
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "需要什么影像学检查？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "腱鞘感染的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "X光就可以。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手指腱鞘感染.json",
+        "grounding": [
+            "X光"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想多了解下累及手和手指疾病？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "还有一些累及手部及手指的疾病，包括骨折、其他损伤、类风湿性关节炎、肌腱炎和腱鞘炎、DeQuervain综合征、雷诺综合征、杵状指、复杂性局部疼痛综合征及某些先天性缺陷。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "骨折、类风湿性关节炎，还是肌腱炎和腱鞘炎、DeQuervain综合征、雷诺综合征、杵状指、复杂性局部疼痛综合征及某些先天性缺陷？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "还有一些累及手部及手指的疾病，包括骨折、其他损伤、类风湿性关节炎、肌腱炎和腱鞘炎、DeQuervain综合征、雷诺综合征、杵状指、复杂性局部疼痛综合征及某些先天性缺陷。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "先了解下手的神经压迫综合征。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "手的神经压迫综合征"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "神经压迫症状包括针刺感、疼痛、感觉丧失、无力等同时或单独出现。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "腕管综合征、肘管综合征和桡管综合征均为神经压迫综合征。在这些疾病中，通常是骨和结缔组织压迫神经导致感觉、运动异常。神经压迫症状包括针刺感、疼痛、感觉丧失、无力等同时或单独出现。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我一个朋友经过其他治疗症状还是很严重怎么回事？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "在这些疾病中，如果经过其他治疗症状依然严重，或者感觉丧失或无力的症状持续存在，就有必要通过手术解除神经的压迫。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那有必要通过手术解除神经的压迫。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "在这些疾病中，如果经过其他治疗症状依然严重，或者感觉丧失或无力的症状持续存在，就有必要通过手术解除神经的压迫。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个病怎么诊断呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "神经压迫综合征可通过检查作出初步诊断，然后再通过肌电图和神经传导功能检查确诊。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "神经压迫综合征可通过检查作出初步诊断，然后再通过肌电图和神经传导功能检查确诊。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "神经压迫综合征可通过检查作出初步诊断，然后再通过肌电图和神经传导功能检查确诊。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，是这么回事。那手指感染呢？怎么确诊？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "医生根据查体和X光检查来诊断手和手指感染。",
+            "手和手指感染"
+        ],
+        "grounding_id": [
+            "40",
+            "31"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "医生根据查体和X光检查来诊断手和手指感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "医生根据查体和X光检查来诊断手和手指感染。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哦，明白了，那手指畸形怎么确诊？",
+        "act": "what",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "通常，医生根据手部畸形查体作出诊断。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "通常，医生根据手部畸形查体作出诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_骨、关节及肌肉疾病_手部疾病_手部疾病概述.json",
+        "grounding": [
+            "通常，医生根据手部畸形查体作出诊断。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    }
+]

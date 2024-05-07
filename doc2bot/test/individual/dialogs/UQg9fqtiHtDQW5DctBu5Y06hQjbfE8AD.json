@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问个体户办理住房公积金登记的办理时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "公积金",
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "T208",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你要了解是浙江省杭州市还是浙江省宁波市的住房公积金登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "宁波市的个体户公积金登记",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "T10",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您好，宁波市住房公积金的办理时间为工作日的上午8:30—17:00",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "工作日：上午8:30—17:00，无午休",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "25",
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问这个登记支持网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前暂时不支持网上支付的",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理该项登记，我需要缴纳什么费用？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前办理该项登记，暂时不收取费用。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "293"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的。请问个体户住房公积金缴存登记的监督联系方式是多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问你是要询问宁波市个体工商户住房公积金缴存登记的监督投诉电话还是业务咨询电话呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "投诉电话",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "宁波市个体工商户住房公积金缴存登记的投诉电话为0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的。请问具体的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体的办理地址为宁波市行政服务中心住房公积金分中心办事大厅3楼公积金专窗",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "宁波市行政服务中心住房公积金分中心办事大厅（宁波市海曙区解放南路166号）3楼公积金专窗"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我之前听朋友说宁波市行政服务中心住房公积金分中心（中国银行东城支行服务网点）也能办理。请问这个的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "144"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "宁波市行政服务中心住房公积金分中心（中国银行东城支行服务网点）（宁波市鄞州区福明街道和济街7-9号）1楼公积金专窗的办理时间为工作日8：40-16：30",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "工作日：8:40—16:30，无午休"
+        ],
+        "grounding_id": [
+            "145"
+        ]
+    }
+]

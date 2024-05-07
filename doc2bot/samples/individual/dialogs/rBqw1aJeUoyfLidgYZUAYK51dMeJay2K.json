@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省绍兴市这边想要申请领取那个驾驶证的增加，我可以怎样去申请呢？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理形式",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "100",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你可以网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我可以自己在那边的自助机器上申请办理吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你的意思是是否支持自助终端办理的吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对的，是这个意思的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以的哦，还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "行吧，那这个办理的话大概要多久可以办理完成？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "意思是法定办结时限是多长时间对吧？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯嗯，是的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个的法定办结时限是60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那我办理申请的结果大概多久可以出来呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理申请后10 个工作日内送达的",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那么办理这个增驾都需要什么流程？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "220"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "办理流程有 1.体检 2.申请 3.受理 4.审核 5.核发证件 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理流程",
+            "体检",
+            "申请",
+            "受理",
+            "审核",
+            "核发证件",
+            "送达"
+        ],
+        "grounding_id": [
+            "220",
+            "221",
+            "223",
+            "225",
+            "232",
+            "237",
+            "246"
+        ]
+    }
+]

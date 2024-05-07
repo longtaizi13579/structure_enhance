@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想咨询一点浙江省湖州市领取失业补助金的咨询方式有哪些？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "失业补助金申领",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有咨询电话和咨询地址您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询电话多少？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "咨询电话",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "27",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您记一下有两个号，0572-2200160、0572-2051161。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "0572-2200160、0572-2051161"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的记好了，咨询地址也告诉我一下？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "失业保险",
+            "咨询方式",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "T203",
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "湖州市民服务中心5号楼8楼802室或者4号楼1楼3号政务服务大厅人力社保窗口。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市民服务中心5号楼8楼802室（金盖山路66号）、湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "谢谢，我想知道申请完以后多长时间能到账啊？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是别的？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这边帮您查询到的法定办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "60",
+            "59"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦知道了，那我除了去线下窗口办理还有别的办理方式吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "基本信息",
+            "失业保险",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "T203",
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您也可以选择网上申请。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，一般情况下最快几天能到账？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "承诺办结时限",
+            "失业保险"
+        ],
+        "grounding_id": [
+            "1",
+            "61",
+            "T203"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "基本都是5天，因为我们承诺的办结时限也是5个工作日呢。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    }
+]

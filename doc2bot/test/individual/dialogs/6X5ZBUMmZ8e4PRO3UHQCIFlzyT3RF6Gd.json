@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省的，我之前因为工作受伤了，想了解下工伤保险怎么申报？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T7",
+            "T189"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想办理工伤医疗康复费用申报 ？还是供养亲属抚恤金申领啊？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想办理工伤医疗康复费用的申报，我得去什么地方进行咨询办理啊？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "工伤医疗（康复）费用申报",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你是想问绍兴市的吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的是的就是绍兴市的。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "绍兴市的咨询地址在政务服务办公室原绍兴市行政服务中心，就是凤林西路178号亿兆大厦。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那咨询电话是多少啊？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询电话是0575-81503569和0575-81162921。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "0575-81503569，0575-81162921"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我申报这个的法定办结时限是多久啊？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是42个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我去办理的时候，可以用自助终端办理吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个是不支持的。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

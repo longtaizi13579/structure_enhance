@@ -1,0 +1,276 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如果双重认证开启时怎么获取验证码并登录",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "双重认证开启时获取验证码并登录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以使用受信任设备上显示的验证码，获取短信或接听电话以及从受信任设备上的“设置”中获取验证码，您需要了解哪一种",
+        "act": "multiple-choice",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "从受信任设备上的“设置”中获取验证码"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么通过iPhone从受信任设备上的“设置”中获取验证码呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "从受信任设备上的“设置”中获取验证码",
+            "通过iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "20",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您的设备是在线还是离线状态呢",
+        "act": "multiple-choice",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的设备处于离线状态："
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是离线状态，应该怎么操作呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的设备处于离线状态："
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先前往“设置”>“[您的姓名]”，然后轻点“密码与安全性”，随即将显示一条信息，提示“帐户详情不可用”。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“密码与安全性”。",
+            "随即将显示一条信息，提示“帐户详情不可用”。轻点“获取验证码”。"
+        ],
+        "grounding_id": [
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "出现提示信息之后呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "随即将显示一条信息，提示“帐户详情不可用”。轻点“获取验证码”。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "然后轻点“获取验证码”就可以",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "随即将显示一条信息，提示“帐户详情不可用”。轻点“获取验证码”。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在新的设备上使用AppleID登录时的话需要什么方法来确认身份呢",
+        "act": "what",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "获取验证码的方式有哪些呢",
+        "act": "what",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我听说有的人是不用输入验证码的，这是为什么",
+        "act": "why",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的iPhone装有iOS11.3或更高版本，您可能不需要输入验证码。在某些情况下，iPhone上可在后台自动验证您的受信任电话号码。这样您可以少做一项操作，而且您的帐户仍会受到双重认证的保护。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "iPhone装有iOS11.3或更高版本，就不需要输入验证码。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的iPhone装有iOS11.3或更高版本，您可能不需要输入验证码。在某些情况下，iPhone上可在后台自动验证您的受信任电话号码。这样您可以少做一项操作，而且您的帐户仍会受到双重认证的保护。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "明白了，那是不是可以在后台自动验证受信任电话号码呢",
+        "act": "verification",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的iPhone装有iOS11.3或更高版本，您可能不需要输入验证码。在某些情况下，iPhone上可在后台自动验证您的受信任电话号码。这样您可以少做一项操作，而且您的帐户仍会受到双重认证的保护。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，在某些情况下，iPhone上可在后台自动验证您的受信任电话号码。这样您可以少做一项操作，而且您的帐户仍会受到双重认证的保护。",
+        "act": "ans/yes",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的iPhone装有iOS11.3或更高版本，您可能不需要输入验证码。在某些情况下，iPhone上可在后台自动验证您的受信任电话号码。这样您可以少做一项操作，而且您的帐户仍会受到双重认证的保护。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，我还想问一下使用OSXElCapitan的版本怎么使用受信任设备上显示的验证码呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "使用受信任设备上显示的验证码",
+            "如果您使用的是运行iOS9及更高版本、OSXElCapitan及更高版本、iPadOS13及更高版本或watchOS6及更高版本的受信任设备，则验证码会自动显示在您的受信任设备上。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您使用的是运行iOS9及更高版本、OSXElCapitan及更高版本、iPadOS13及更高版本或watchOS6及更高版本的受信任设备，则验证码会自动显示在您的受信任设备上。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您使用的是运行iOS9及更高版本、OSXElCapitan及更高版本、iPadOS13及更高版本或watchOS6及更高版本的受信任设备，则验证码会自动显示在您的受信任设备上。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那具体的步骤是怎么样的呢",
+        "act": "what",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您使用的是运行iOS9及更高版本、OSXElCapitan及更高版本、iPadOS13及更高版本或watchOS6及更高版本的受信任设备，则验证码会自动显示在您的受信任设备上。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先在新的设备或浏览器上使用AppleID和密码登录，然后在您的任意受信任设备上查找登录通知，轻点“允许”以接收验证码，最后在另一台设备上输入这个验证码以完成登录。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "在新的设备或浏览器上使用AppleID和密码登录。",
+            "在您的任意受信任设备上查找登录通知。",
+            "轻点“允许”以接收验证码。",
+            "在另一台设备上输入这个验证码以完成登录。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    }
+]

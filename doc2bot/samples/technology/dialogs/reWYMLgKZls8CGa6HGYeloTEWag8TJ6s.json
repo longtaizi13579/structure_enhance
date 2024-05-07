@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下iPhone的备份方法？",
+        "act": "what",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "iPhone、iPad和iPodtouch的备份方法"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有两种方法，在iCloud上备份，或者在电脑上备份。如果您需要一个额外的备份以供备用，可以使用iCloud备份您的设备，再使用电脑备份一次。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "确定哪种方法最适合您",
+            "如果您需要一个额外的备份以供备用，可以使用iCloud备份您的设备，再使用电脑备份一次。",
+            "iCloud",
+            "电脑"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "8",
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "备份的时候，可以拷贝和储存iPhone上的信息吗？",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "借助备份，您可以拷贝和存储iPhone、iPad或iPodtouch上的信息。如果您更换了设备，则可以通过备份将您的信息传输到新设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以。借助备份，您可以拷贝和存储iPhone、iPad或iPodtouch上的信息。",
+        "act": "ans/yes",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "借助备份，您可以拷贝和存储iPhone、iPad或iPodtouch上的信息。如果您更换了设备，则可以通过备份将您的信息传输到新设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果更换了设备怎么办？",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "借助备份，您可以拷贝和存储iPhone、iPad或iPodtouch上的信息。如果您更换了设备，则可以通过备份将您的信息传输到新设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您更换了设备，则可以通过备份将您的信息传输到新设备上。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "借助备份，您可以拷贝和存储iPhone、iPad或iPodtouch上的信息。如果您更换了设备，则可以通过备份将您的信息传输到新设备上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在iCloud上备份最多有多大空间？",
+        "act": "what",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "iCloud",
+            "提供最多2TB储存空间（如果您拥有AppleOne高级方案，则可以获得最多4TB）"
+        ],
+        "grounding_id": [
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iCloud中储存备份，提供最多2TB储存空间，如果您拥有AppleOne高级方案，则可以获得最多4TB。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "在iCloud中储存备份",
+            "提供最多2TB储存空间（如果您拥有AppleOne高级方案，则可以获得最多4TB）"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "备份会加密吗？",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "始终加密备份"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "始终加密备份。",
+        "act": "ans/yes",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "始终加密备份"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我可以随时使用备份吗？",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "您可以从无线局域网覆盖范围内的任何位置创建和使用备份"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以从无线局域网覆盖范围内的任何位置创建和使用备份。",
+        "act": "ans/yes",
+        "document": "iPhone、iPad和iPodtouch的备份方法.json",
+        "grounding": [
+            "您可以从无线局域网覆盖范围内的任何位置创建和使用备份"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

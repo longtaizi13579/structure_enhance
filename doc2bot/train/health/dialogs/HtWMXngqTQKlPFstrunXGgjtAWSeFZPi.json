@@ -1,0 +1,80 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道磷酸盐在人体内的作用是什么",
+        "act": "what",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "磷酸盐在人体内的作用概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "血液中的磷酸盐水平对人体的影响很重要，太高或太低都可能产生不好的后果，您需要了解吗",
+        "act": "question/open",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "血液中的磷酸盐水平可能"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果水平太高的话会怎么样？",
+        "act": "how",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "太高（高磷酸盐血症）"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "太高会导致高磷酸盐血症",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "太高（高磷酸盐血症）"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那水平太低的话是低磷酸盐血症吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "太低（低磷酸盐血症）"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_磷酸盐在人体内的作用概述.json",
+        "grounding": [
+            "太低（低磷酸盐血症）"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    }
+]

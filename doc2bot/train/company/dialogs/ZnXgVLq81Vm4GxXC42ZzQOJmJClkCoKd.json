@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，要在浙江绍兴这边办理封存住房的公积金，我个人的，大概要多久可以办理完成呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "个人住房公积金账户封存",
+            "法定办结时限",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这个法定办结时限是20个工作日的",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那如果我办理很不满意的话可以怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边有投诉地址和投诉电话，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你说一下投诉电话是多少吧",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是0575-85089016",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "0575-85089016"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，谢谢，我还有一些关于这个封存公积金的问题想要了解，我可以怎样咨询呢？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这里有咨询电话和咨询地址，您需要哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "先麻烦说一下咨询电话是多少，我记一下",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询电话是0575-12329",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "0575-12329"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询的地址麻烦和我说一下在什么地方吧？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询地址在浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心二楼窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，谢谢，办理这个我可以在网上交付费用吗?",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "222"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不可以的，还不支持网上交费的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "223"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "行吧，那我大概什么时候可以收到申请的结果呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工公积金_常用服务_个人住房公积金账户封存.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

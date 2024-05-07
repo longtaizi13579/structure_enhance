@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么更改AppleID付款方式呢？",
+        "act": "how",
+        "document": "在没有Apple设备的情况下更改AppleID付款方式.json",
+        "grounding": [
+            "在没有Apple设备的情况下更改AppleID付款方式"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想知道在PC或MicrosoftSurface上的iTunes中更改付款方式吗？",
+        "act": "verification",
+        "document": "在没有Apple设备的情况下更改AppleID付款方式.json",
+        "grounding": [
+            "在PC或MicrosoftSurface上的iTunes中更改付款方式"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，具体怎么操作呢？",
+        "act": "how",
+        "document": "在没有Apple设备的情况下更改AppleID付款方式.json",
+        "grounding": [
+            "在PC或MicrosoftSurface上的iTunes中更改付款方式"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开iTunes。 然后在iTunes窗口顶部的菜单栏中，轻点或点按“帐户”，然后轻点或点按“查看我的帐户”。 之后使用您的AppleID登录。 请确保“帐户信息”页面上列出的信息与您在相应金融机构登记的信息保持一致。再轻点或点按“付款信息”右侧的“管理付款方式”。（如果您使用的是旧版iTunes，请轻点或点按“付款类型”右侧的“编辑”。）最后要更新付款方式，请轻点或点按“编辑”。要添加付款方式，请轻点或点按“添加”。 然后更新、删除或添加付款方式。如果您有多个付款方式，则可以更改它们的顺序。Apple会按照从上到下的顺序尝试从您的付款方式中扣除费用。您无法更改AppleID余额的扣除顺序。",
+        "act": "ans/open",
+        "document": "在没有Apple设备的情况下更改AppleID付款方式.json",
+        "grounding": [
+            "打开iTunes。",
+            "在iTunes窗口顶部的菜单栏中，轻点或点按“帐户”，然后轻点或点按“查看我的帐户”。",
+            "使用您的AppleID登录。",
+            "请确保“帐户信息”页面上列出的信息与您在相应金融机构登记的信息保持一致。",
+            "轻点或点按“付款信息”右侧的“管理付款方式”。（如果您使用的是旧版iTunes，请轻点或点按“付款类型”右侧的“编辑”。）",
+            "要更新付款方式，请轻点或点按“编辑”。要添加付款方式，请轻点或点按“添加”。",
+            "更新、删除或添加付款方式。如果您有多个付款方式，则可以更改它们的顺序。Apple会按照从上到下的顺序尝试从您的付款方式中扣除费用。您无法更改AppleID余额的扣除顺序。"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "步骤还挺多，那如果我要更改、添加或移除AppleID付款方式，对其他App有影响吗？",
+        "act": "verification",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "更改、添加或移除AppleID付款方式"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您需要管理您及家人用于AppStore、iCloud、AppleMusic等的付款信息。当您更改付款信息时，系统会自动在使用您AppleID的所有App和服务中更新这一信息。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "管理您及家人用于AppStore、iCloud、AppleMusic等的付款信息。当您更改付款信息时，系统会自动在使用您AppleID的所有App和服务中更新这一信息。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样哦，那我要怎么在iPhone、iPad或iPodtouch上更改付款方式呢？",
+        "act": "how",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "更改、添加或移除AppleID付款方式",
+            "如何在iPhone、iPad或iPodtouch上更改付款方式"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开“设置”App。 然后轻点您的姓名。 再轻点“付款与配送”。系统可能会要求您使用AppleID登录。最后在这里，您可以进行一些操作。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "打开“设置”App。",
+            "轻点您的姓名。",
+            "轻点“付款与配送”。系统可能会要求您使用AppleID登录。",
+            "在这里，您可以进行以下操作："
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以进行哪些操作呢？",
+        "act": "how",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "在这里，您可以进行以下操作："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以进行以下操作：添加付款方式—轻点“添加付款方式”。更新付款方式—轻点相应的付款方式，然后编辑您的信息。您可能需要输入印在信用卡或借记卡上的安全码。如果您使用的是ApplePay中的卡片，请前往“钱包”App来编辑卡片信息。移除付款方式—轻点“编辑”，轻点红色的“删除”按钮，然后轻点“移除”。如果您有未付余款，或者有iCloud储存空间方案等订阅，又或者使用了购买项目共享功能，您将无法移除所有付款方式。更改付款方式的顺序—轻点“编辑”，然后拖动“调整顺序”图标*。",
+        "act": "ans/open",
+        "document": "更改、添加或移除AppleID付款方式.json",
+        "grounding": [
+            "添加付款方式—轻点“添加付款方式”。",
+            "更新付款方式—轻点相应的付款方式，然后编辑您的信息。您可能需要输入印在信用卡或借记卡上的安全码。如果您使用的是ApplePay中的卡片，请前往“钱包”App来编辑卡片信息。",
+            "移除付款方式—轻点“编辑”，轻点红色的“删除”按钮，然后轻点“移除”。如果您有未付余款，或者有iCloud储存空间方案等订阅，又或者使用了购买项目共享功能，您将无法移除所有付款方式。了解如何移除所有付款方式。",
+            "更改付款方式的顺序—轻点“编辑”，然后拖动“调整顺序”图标*。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "21"
+        ]
+    }
+]

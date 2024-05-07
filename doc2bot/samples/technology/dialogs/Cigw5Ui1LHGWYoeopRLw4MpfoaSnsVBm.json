@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下新的用户怎么创建AppleID",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想理解在iPhone、iPad或iPodtouch上创建AppleID还是在Mac上创建AppleID或者是在WindowsPC上创建AppleID等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上创建AppleID"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPhone上创建AppleID",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上创建AppleID"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在设置设备时创建新的AppleID，或稍后在AppStore中设置。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "您可以在设置设备时创建新的AppleID，或稍后在AppStore中设置。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "创建新的AppleID这个要提供什么呢",
+        "act": "what",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID",
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那一个AppleID可以享受所有Apple服务是这样的吗",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果忘了自己的AppleID这个怎么办呀",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "不确定是不是已有AppleID，或者忘记了自己的AppleID？要查找您的AppleID，请前往iforgot.apple.com并输入您的姓名和电子邮件地址。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不确定是不是已有AppleID，或者忘记了自己的AppleID？要查找您的AppleID，请前往iforgot.apple.com并输入您的姓名和电子邮件地址。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "不确定是不是已有AppleID，或者忘记了自己的AppleID？要查找您的AppleID，请前往iforgot.apple.com并输入您的姓名和电子邮件地址。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那个还有在Mac上怎么创建AppleID呢",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "在Mac上创建AppleID"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个具体步骤，首先选取苹果菜单>“系统偏好设置”。然后点按“登录”。接着点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*再然后输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。最后查看您有没有收到来自Apple的验证电子邮件，然后验证您的电子邮件地址。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "具体步骤",
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“登录”。",
+            "点按“创建AppleID”，然后按照屏幕上的步骤操作。您提供的电子邮件地址将会是您的新AppleID。*",
+            "输入您的信用卡和账单信息，然后点按“继续”。您也可以选取“无”。了解如果没有显示“无”或无法选择“无”时该怎么办。如果您没有购买任何项目，我们不会收取任何费用。",
+            "查看您有没有收到来自Apple的验证电子邮件，然后验证您的电子邮件地址。"
+        ],
+        "grounding_id": [
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "59"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "验证完了呢就是可以使用了吗还有别的吗",
+        "act": "verification",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "验证完电子邮件地址后，您便可以使用新的AppleID登录AppStore和其他Apple服务（如iCloud）。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "验证完电子邮件地址后，您便可以使用新的AppleID登录AppStore和其他Apple服务（如iCloud）。*在中国大陆，您可能需要提供+86开头的电话号码才能创建AppleID。您可以稍后更改这个号码，或者将国家或地区更改为不需要提供电话号码的地点。这个号码仅用于验证目的。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "验证完电子邮件地址后，您便可以使用新的AppleID登录AppStore和其他Apple服务（如iCloud）。",
+            "*在中国大陆，您可能需要提供+86开头的电话号码才能创建AppleID。您可以稍后更改这个号码，或者将国家或地区更改为不需要提供电话号码的地点。这个号码仅用于验证目的。"
+        ],
+        "grounding_id": [
+            "60",
+            "61"
+        ]
+    }
+]

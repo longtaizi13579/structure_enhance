@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想办理公司变更的登记，需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是公司的法人本人吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "320"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么我变更后的开户费用可以网上缴纳吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "抱歉，我们暂时不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "324"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么你们办理地址在哪里？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想咨询办理的地址还是登记地址？",
+        "act": "question/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想咨询办理地址。",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们办理地址在：浙江省杭州市西湖区莫干山路77号省市场监管局一楼注册大厅。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "浙江省杭州市西湖区莫干山路77号省市场监管局一楼注册大厅"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

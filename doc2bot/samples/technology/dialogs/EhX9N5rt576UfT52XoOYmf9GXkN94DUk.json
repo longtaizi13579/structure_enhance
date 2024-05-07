@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "Windows的电脑能下载iTunes吗？",
+        "act": "verification",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "下载和使用Windows版iTunes"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "当然可以，您希望探索Windows版iTunes、手动管理和同步iPhone、iPad或iPodtouch还是更改设置和管理帐户呢？",
+        "act": "multiple-choice",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "手动管理和同步iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想手动同步一下iPad的内容。",
+        "act": "ans/open",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "手动管理和同步iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通过Windows版iTunes，您可以备份和更新iPhone、iPad或iPodtouch，以及将内容从电脑同步到设备上。",
+        "act": "ans/open",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "通过Windows版iTunes，您可以备份和更新iPhone、iPad或iPodtouch，以及将内容从电脑同步到设备上。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我怎么使用Windows的iTunes呢？",
+        "act": "how",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "探索Windows版iTunes"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要浏览iTunes，请使用iTunes窗口顶部导航栏中的按钮。如果要切换到某个媒体类型，请点按左上角的弹出式菜单。",
+        "act": "ans/open",
+        "document": "下载和使用Windows版iTunes.json",
+        "grounding": [
+            "要浏览iTunes，请使用iTunes窗口顶部导航栏中的按钮。要切换到某个媒体类型，例如音乐、影片、电视节目、播客或有声书，请点按左上角的弹出式菜单。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了。对了，我还有一张iTunes充值卡，这个要怎么使用呢？",
+        "act": "how",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如何兑换AppleGiftCard或AppStore与iTunes充值卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您是想了解使用iPhone、iPad或iPodtouch兑换充值卡、兑换通过电子邮件收到的充值卡、在Mac上兑换充值卡还是在WindowsPC上兑换充值卡呢？",
+        "act": "multiple-choice",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如果您是通过电子邮件收到的充值卡"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道通过邮件收到的充值卡怎么使用。",
+        "act": "ans/open",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "如果您是通过电子邮件收到的充值卡"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要兑换某人通过电子邮件发送给您的充值卡，请打开相应的电子邮件，然后轻点或点按“RedeemNow”按钮。",
+        "act": "ans/open",
+        "document": "如何兑换AppleGiftCard或AppStore与iTunes充值卡.json",
+        "grounding": [
+            "要兑换某人通过电子邮件发送给您的充值卡，",
+            "请打开相应的电子邮件，然后轻点或点按“RedeemNow”（立即兑换）按钮。"
+        ],
+        "grounding_id": [
+            "50",
+            "72"
+        ]
+    }
+]

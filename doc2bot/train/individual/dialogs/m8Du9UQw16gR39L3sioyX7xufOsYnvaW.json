@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T4",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T269"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "港澳探亲签注的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "常用服务",
+            "港澳探亲签注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "T269",
+            "1",
+            "3894"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "3895",
+            "3897",
+            "3906",
+            "3915",
+            "3921"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么时间可以办理这个业务？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "内地居民接待大厅周一到周日（法定节假日及长假除外），上午9:00-12:00，下午13：30-17:00（夏令时14:00-17:30）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "内地居民接待大厅周一到周日（法定节假日及长假除外），上午9:00-12:00，下午13：30-17:00（夏令时14:00-17:30）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

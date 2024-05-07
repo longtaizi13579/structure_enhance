@@ -1,0 +1,370 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我不小心删除了手机里的重要短信，想咨询一下如何恢复被删除的手机短信？",
+        "act": "how",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "计算机与电子产品",
+            "如何恢复被删除的手机短信"
+        ],
+        "grounding_id": [
+            "T2",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您用的是iPhone手机还是安卓手机？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "iPhone"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我用的是iPhone。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "iPhone"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Phone: 1.只有之前创建过备份，才能使用这种方法来恢复短信。 2.在电脑上打开iTunes。 3.将iPhone连接到电脑。 4.点击“设备”图标。 5.点按恢复备份。 6.出现提示时，点击“iPhone名称”旁边的方框。 7.点击一个备份日期。 8.点击“备份”部分右边的恢复。 9.等待数据恢复完毕。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "iPhone",
+            "只有之前创建过备份，才能使用这种方法来恢复短信。",
+            "在电脑上打开iTunes。",
+            "将iPhone连接到电脑。",
+            "点击“设备”图标。",
+            "点按恢复备份。",
+            "出现提示时，点击“iPhone名称”旁边的方框。",
+            "点击一个备份日期。",
+            "点击“备份”部分右边的恢复。",
+            "等待数据恢复完毕。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "12",
+            "15",
+            "18",
+            "23",
+            "26",
+            "30",
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "iTunes图标是什么样子的？",
+        "act": "what",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "图标背景是白色的，上面有一个多彩的音符。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "图标背景是白色的，上面有一个多彩的音符。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "图标背景是白色的，上面有一个多彩的音符。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可以使用付费的数据恢复软件吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "本文会教你从备份恢复iPhone和安卓手机上已删除的短信。你可能很想使用付费的数据恢复软件，但一定要谨慎购买这类软件，因为并不保证一定会成功。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以，但一定要谨慎购买这类软件，因为并不保证一定会成功。",
+        "act": "ans/yesno",
+        "document": "计算机与电子产品_如何恢复被删除的手机短信.json",
+        "grounding": [
+            "本文会教你从备份恢复iPhone和安卓手机上已删除的短信。你可能很想使用付费的数据恢复软件，但一定要谨慎购买这类软件，因为并不保证一定会成功。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想咨询一下如何写代码？",
+        "act": "how",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "如何写代码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可选方法：学习一门语言、拓展自己的知识面。您想先了解哪一种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "学习一门语言",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "4",
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想先了解学习一门语言。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "学习一门语言"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "学习一门语言: 1.不要太担心选择什么语言。 2.根据你选择的语言在网上寻找免费资源。 3.下载一个好用的文本编辑器。 4.下载所需的编译器。 5.开始你的第一个项目。 6.注释所有代码。 7.挑选其他项目和网页项目。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "学习一门语言",
+            "不要太担心选择什么语言。",
+            "根据你选择的语言在网上寻找免费资源。",
+            "下载一个好用的文本编辑器。",
+            "下载所需的编译器。",
+            "开始你的第一个项目。",
+            "注释所有代码。",
+            "挑选其他项目和网页项目。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9",
+            "15",
+            "18",
+            "26",
+            "28",
+            "31"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "在什么网上寻找免费资源？",
+        "act": "what",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "常用网站包括Bento、CodeAcademy、Code.org、html.net、KhanAcademy、Udacity、W3Schools、CodeSchool等等。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "常用网站包括Bento、CodeAcademy、Code.org、html.net、KhanAcademy、Udacity、W3Schools、CodeSchool等等。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "常用网站包括Bento、CodeAcademy、Code.org、html.net、KhanAcademy、Udacity、W3Schools、CodeSchool等等。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "常用的文本编辑器包括什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "下载一个好用的文本编辑器。",
+            "常用程序包括Notepad++（Windows）、TextWrangler（OSX）或者JEdit（任何操作系统）。"
+        ],
+        "grounding_id": [
+            "15",
+            "17"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "常用程序包括Notepad++（Windows）、TextWrangler（OSX）或者JEdit（任何操作系统）。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "常用程序包括Notepad++（Windows）、TextWrangler（OSX）或者JEdit（任何操作系统）。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如何拓展自己的知识面？",
+        "act": "how",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "拓展自己的知识面"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "拓展自己的知识面: 1.报读课程。 2.拓展知识面。 3.学习更多语言。 4.要有耐心。 5.学会与他人合作。 6.找一份能锻炼编程技能的工作。 7.和其他程序员联系。 8.实践出真知。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "拓展自己的知识面",
+            "报读课程。",
+            "拓展知识面。",
+            "学习更多语言。",
+            "要有耐心。",
+            "学会与他人合作。",
+            "找一份能锻炼编程技能的工作。",
+            "和其他程序员联系。",
+            "实践出真知。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "39",
+            "44",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "除了学习编程语言外，还需要学什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "除了学习编程语言，学习逻辑和数学也会让你受益匪浅，因为高级编程通常需要这些知识。你不一定非要在学校里学习这些知识，但是课堂的学习环境会有所帮助。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "除了学习编程语言，学习逻辑和数学也会让你受益匪浅。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "除了学习编程语言，学习逻辑和数学也会让你受益匪浅，因为高级编程通常需要这些知识。你不一定非要在学校里学习这些知识，但是课堂的学习环境会有所帮助。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "无论你感兴趣的领域是什么，都有适合初学者学习的语言吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "随着技术的日益普及，对程序员的需求也在不断增加。编程是一种不断学习和完善的技能，但是每个想学习编程的人都需要一个切入点。无论你感兴趣的领域是什么，都有各种各样适合初学者学习的语言。请参见下面的步骤一了解如何学习代码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "随着技术的日益普及，对程序员的需求也在不断增加。编程是一种不断学习和完善的技能，但是每个想学习编程的人都需要一个切入点。无论你感兴趣的领域是什么，都有各种各样适合初学者学习的语言。请参见下面的步骤一了解如何学习代码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "我还想问一下，什么情况下需要重置PS3设备呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "如何重置PS3",
+            "可能有很多种不同的原因都需要你重置你的PS3设备。如果你的游戏或视频卡顿无响应，进行快速重置操作应该能修复这个问题。如果你更换了视频线后遇到问题，可以尝试重置视频输出设置来解决问题。如果你遇到频繁地锁定或是主界面（XMB又名图形化用户交互界面）有问题，你可能需要尝试使用安全模式中的硬盘驱动器工具来进行修复。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "如果你的游戏或视频卡顿无响应，进行快速重置操作应该能修复这个问题。如果你更换了视频线后遇到问题，可以尝试重置视频输出设置来解决问题。如果你遇到频繁地锁定或是主界面有问题，你可能需要尝试使用安全模式中的硬盘驱动器工具来进行修复。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何重置PS3.json",
+        "grounding": [
+            "可能有很多种不同的原因都需要你重置你的PS3设备。如果你的游戏或视频卡顿无响应，进行快速重置操作应该能修复这个问题。如果你更换了视频线后遇到问题，可以尝试重置视频输出设置来解决问题。如果你遇到频繁地锁定或是主界面（XMB又名图形化用户交互界面）有问题，你可能需要尝试使用安全模式中的硬盘驱动器工具来进行修复。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

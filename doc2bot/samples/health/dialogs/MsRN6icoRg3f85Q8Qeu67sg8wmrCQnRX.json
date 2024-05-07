@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我之前做体检，医生说我有什么威尔逊病，这是一个什么病？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "WILSON病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "威尔逊病是一种罕见的遗传性疾病，肝无法正常地把过量的铜随胆汁排出，您是想咨询威尔逊病的症状还是威尔逊病的治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "威尔逊病的治疗"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询相关治疗办法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "改变饮食或者药物和锌补充剂甚至严重者需要做肝移植。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "改变饮食",
+            "药物和锌补充剂",
+            "可能需要肝移植"
+        ],
+        "grounding_id": [
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我现在也没发现哪里不对劲的，但是尿检出来我的铜特别高者也是威尔逊病引起的吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "WILSON病",
+            "医生根据肝炎、震颤、无其他明显原因的性格改变等症状疑诊威尔逊病。以下测试帮助医生确诊此病：",
+            "检查尿中铜含量"
+        ],
+        "grounding_id": [
+            "1",
+            "31",
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，尿中铜含量也是症状之一。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "检查尿中铜含量"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为什么还要我做一个肝活检呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "如果诊断仍不明确，可以进行肝活检"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "通过尿检已经有铜高，但是诊断仍不明确，需要进行肝活检。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_矿物质_WILSON病.json",
+        "grounding": [
+            "检查尿中铜含量",
+            "如果诊断仍不明确，可以进行肝活检"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

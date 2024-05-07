@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解浙江省金华市危化品运输车申请异地核发检验合格标志通知书的情况",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "浙江省_金华市",
+            "危化品运输车申请异地核发检验合格标志通知书"
+        ],
+        "grounding_id": [
+            "T6",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解的是法定办结时限或承诺办结时限吗？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般一个工作日就可以",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是怎么办理的呢？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "通过网上申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，就是要用自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，目前不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，结果一般七天之内可以送到吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "122",
+            "123"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可能不太行，送达时限为自作出决定之日起10个工作日内",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "123",
+            "122"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那超过十天是可以投诉的吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，有投诉电话，投诉地址，投诉网址供您选择",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉地址在哪里",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "浙江省金华市婺城区双龙南街801号金华市信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_机动车_危化品运输车申请异地核发检验合格标志通知书.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

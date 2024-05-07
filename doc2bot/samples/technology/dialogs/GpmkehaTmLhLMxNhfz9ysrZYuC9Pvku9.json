@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道iPhone、iPad和iPodtouch的激活锁的作用是什么",
+        "act": "what",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "“查找”包含激活锁功能，如果您的iPhone、iPad或iPodtouch丢失或失窃，这项功能可以防止他人使用这台设备。当您在设备上打开“查找”时，激活锁会自动打开。",
+            "iPhone、iPad和iPodtouch的激活锁"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“查找”包含激活锁功能，如果您的iPhone、iPad或iPodtouch丢失或失窃，这项功能可以防止他人使用这台设备。当您在设备上打开“查找”时，激活锁会自动打开。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "“查找”包含激活锁功能，如果您的iPhone、iPad或iPodtouch丢失或失窃，这项功能可以防止他人使用这台设备。当您在设备上打开“查找”时，激活锁会自动打开。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如果iPhone丢了以后怎么在“查找”中标记",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "如果您的设备丢失或失窃",
+            "如果您不知道设备放在哪里了（无论是设备已丢失，还是您认为设备可能已失窃），应立即在“查找”App中使用“标记为丢失”。"
+        ],
+        "grounding_id": [
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您不知道设备放在哪里了（无论是设备已丢失，还是您认为设备可能已失窃），应立即在“查找”App中使用“标记为丢失”。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "如果您不知道设备放在哪里了（无论是设备已丢失，还是您认为设备可能已失窃），应立即在“查找”App中使用“标记为丢失”。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何想使用激活锁来保护AppleWatch的话应该用什么系统",
+        "act": "what",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "借助watchOS2及更高版本，您可以使用激活锁来保护您的AppleWatch。借助macOSCatalina或更高版本和配备AppleT2安全芯片或搭载Apple芯片的Mac电脑，您也可以使用激活锁来保护您的Mac。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以借助watchOS2及更高版本，您可以使用激活锁来保护您的AppleWatch。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "借助watchOS2及更高版本，您可以使用激活锁来保护您的AppleWatch。借助macOSCatalina或更高版本和配备AppleT2安全芯片或搭载Apple芯片的Mac电脑，您也可以使用激活锁来保护您的Mac。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那想保护Mac电脑的话也可以用这种系统吗",
+        "act": "verification",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "借助watchOS2及更高版本，您可以使用激活锁来保护您的AppleWatch。借助macOSCatalina或更高版本和配备AppleT2安全芯片或搭载Apple芯片的Mac电脑，您也可以使用激活锁来保护您的Mac。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不，是需要借助macOSCatalina或更高版本和配备AppleT2安全芯片或搭载Apple芯片的Mac电脑，您也可以使用激活锁来保护您的Mac。",
+        "act": "ans/no",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "借助watchOS2及更高版本，您可以使用激活锁来保护您的AppleWatch。借助macOSCatalina或更高版本和配备AppleT2安全芯片或搭载Apple芯片的Mac电脑，您也可以使用激活锁来保护您的Mac。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么样可以避免忘掉AppleID和密码呢",
+        "act": "how",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "如果您忘记了AppleID或密码",
+            "如果您无法找回AppleID或重设密码，将无法访问自己的帐户，并且可能无法使用或重新激活您的设备。为避免这个问题，请定期访问您的AppleID帐户页面，以查看并更新您的帐户信息。"
+        ],
+        "grounding_id": [
+            "27",
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "为避免这个问题，请定期访问您的AppleID帐户页面，以查看并更新您的帐户信息。",
+        "act": "ans/open",
+        "document": "iPhone、iPad和iPodtouch的激活锁.json",
+        "grounding": [
+            "如果您无法找回AppleID或重设密码，将无法访问自己的帐户，并且可能无法使用或重新激活您的设备。为避免这个问题，请定期访问您的AppleID帐户页面，以查看并更新您的帐户信息。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

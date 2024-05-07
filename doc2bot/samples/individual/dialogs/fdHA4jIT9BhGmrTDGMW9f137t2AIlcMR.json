@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T4",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询港澳通行证及签注的有关问题",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是出入境通行证—无有效证件港澳居民返回港澳、港澳商务签注哈士奇业务的有关问题呢？ ",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "出入境通行证—无有效证件港澳居民返回港澳"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "出入境通行证—无有效证件港澳居民返回港澳这项业务的办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "出入境通行证—无有效证件港澳居民返回港澳",
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97",
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "15个工作日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_港澳通行证及签注_出入境通行证—无有效证件港澳居民返回港澳.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

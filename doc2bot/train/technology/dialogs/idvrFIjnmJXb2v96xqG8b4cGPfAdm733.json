@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "在Mac上正常使用iMovie剪辑需要有什么前提条件吗",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果无法在Mac上正常使用iMovie剪辑",
+            "开始之前，务必备份您的iMovie剪辑资源库、媒体以及iMovie剪辑App。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "开始之前，务必备份您的iMovie剪辑资源库、媒体以及iMovie剪辑App。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "开始之前，务必备份您的iMovie剪辑资源库、媒体以及iMovie剪辑App。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果想将摄像机等外置设备与iMovie剪辑搭配使用的话应该怎么做",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那需要重置NVRAM",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "重置NVRAM的步骤是什么",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先将Mac关机，然后断开除键盘和鼠标之外所有外置设备的连接，重置NVRAM，最后打开iMovie剪辑，并尝试重现问题。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开除键盘和鼠标之外所有外置设备的连接。",
+            "重置NVRAM。",
+            "打开iMovie剪辑，并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果iMovie剪辑可以正常使用的话是不是就没问题",
+        "act": "verification",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）",
+        "act": "ans/no",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那iMovie剪辑仍无法正常使用的话怎么办",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您可能需要更新设备的固件或将设备送修。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑仍无法正常使用，您可能需要更新设备的固件或将设备送修。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我看还有用新的资源库和项目进行测试是怎么回事",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "使用新的资源库和项目进行测试"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以创建一个新的资源库并对项目进行测试，以检查问题是与资源库、项目还是iMovie剪辑App有关",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "您可以创建一个新的资源库并对项目进行测试，以检查问题是与资源库、项目还是iMovie剪辑App有关。首先，请创建一个新的资源库："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那具体应该怎么操作呢",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "您可以创建一个新的资源库并对项目进行测试，以检查问题是与资源库、项目还是iMovie剪辑App有关。首先，请创建一个新的资源库："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先，请创建一个新的资源库，然后.退出iMovie剪辑，在按住Option键的同时，点按程序坞中的iMovie剪辑应用，或连按“应用程序”文件夹中的iMovie剪辑应用，在“打开资源库”窗口中，点按“新建”以创建一个新的资源库，将这个测试资源库命名为“TestiMovieLibrary”，然后将它存储到个人文件夹中的“影片”文件夹。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "您可以创建一个新的资源库并对项目进行测试，以检查问题是与资源库、项目还是iMovie剪辑App有关。首先，请创建一个新的资源库：",
+            "退出iMovie剪辑。",
+            "在按住Option键的同时，点按程序坞中的iMovie剪辑应用，或连按“应用程序”文件夹中的iMovie剪辑应用。",
+            "在“打开资源库”窗口中，点按“新建”以创建一个新的资源库。",
+            "将这个测试资源库命名为“TestiMovieLibrary”，然后将它存储到个人文件夹中的“影片”文件夹。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "接下来该怎么做呢",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "怎么导出为视频文件呢",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "首先在iMovie剪辑中，点按“项目”以返回到“项目”视图，然后选取“文件”>“新建预告片”，点按“动作”预告片模板，然后点按“创建”，最后选取“文件”>“共享”>“文件”，点按“下一步”，将文件命名为“FinishLine”，然后将这个视频文件存储到桌面。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "在iMovie剪辑中，点按“项目”以返回到“项目”视图。",
+            "选取“文件”>“新建预告片”，点按“动作”预告片模板，然后点按“创建”。",
+            "选取“文件”>“共享”>“文件”，点按“下一步”，将文件命名为“FinishLine”，然后将这个视频文件存储到桌面。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "37"
+        ]
+    }
+]

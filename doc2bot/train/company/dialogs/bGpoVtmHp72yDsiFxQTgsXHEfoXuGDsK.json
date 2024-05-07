@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省想补办出口退税证明，有什么直接的联系方式吗？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "补办出口退（免）税证明"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，您是在浙江省绍兴市吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对的，我想要一个线下办理的地址，具体在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，绍兴市办理地点在越城区灵芝街道凤林西路178号市行政服务中心二楼，原绍兴市行政服务中心税务窗口，A14-16。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "原绍兴市行政服务中心税务窗口（绍兴市越城区灵芝街道凤林西路178号市行政服务中心二楼）A14-16"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我还想知道衢州市那的海关缴款书核查申请的办结时间是多久？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "海关缴款书核查申请",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时间呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定办结的时限，具体多久呢？",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限需要在7个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_纳税缴费_税务服务_海关缴款书核查申请.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，还有宁波这不是有个国家鼓励项目免税确认么，办理后大概多久能送到呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "送达时限",
+            "国家鼓励项目免税确认",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "120",
+            "1",
+            "T7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理后自作出决定之日起10个工作日内就可以送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "国家鼓励项目免税确认的办理流程能说一下吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "315"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "国家鼓励项目免税确认的办理流程分为五步，1.申请、 2.受理、3.审查、4.决定、5.送达，您想了解哪一步呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "315",
+            "316",
+            "318",
+            "327",
+            "332",
+            "337"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "怎么申请？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请人通过浙江政务服务网提出申请，并递交申请材料，等待结果通知。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "申请人通过浙江政务服务网提出申请，并递交申请材料。"
+        ],
+        "grounding_id": [
+            "317"
+        ]
+    }
+]

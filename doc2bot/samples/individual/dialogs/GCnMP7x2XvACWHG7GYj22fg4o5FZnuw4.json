@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问浙江省温州市机动车发动机号码、车辆识别代号变更备案复杂吗？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "浙江省_温州市",
+            "浙江省_温州市",
+            "机动车发动机号码、车辆识别代号变更备案"
+        ],
+        "grounding_id": [
+            "T3",
+            "T3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": " 你是想了解机动车发动机号码、车辆识别代号变更备案的申请条件 、申报材料、办理流程还是其他事宜呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解办理流程。",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是要了解是否实行告知承诺、到办事现场次数、必须现场办理原因说明还是其他事宜呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "自然人主题分类"
+        ],
+        "grounding_id": [
+            "93"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "去现场办理最快要多久能办理好，现在非常影响我的交通出行。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "交通出行"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "当天既可办理完成，不会影响你的交通出行。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "交通出行"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "去办理事项需要审查什么类型？是不是审核完事就直接办理？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "事项审查类型"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "携带好资料，找到相应工作人员审核之后即可办理。",
+        "act": "question/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "即审即办"
+        ],
+        "grounding_id": [
+            "82"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "去办事现场大概要去几次？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "到办事现场次数"
+        ],
+        "grounding_id": [
+            "65"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "0次。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "0次"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理的部门是否已经进驻了政务大厅？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "是否进驻政务大厅"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，已经可以在政务大厅办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我要办理的事项类型需要得到什么许可？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "事项类型"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "需要得到行政许可，才可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "行政许可"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    }
+]

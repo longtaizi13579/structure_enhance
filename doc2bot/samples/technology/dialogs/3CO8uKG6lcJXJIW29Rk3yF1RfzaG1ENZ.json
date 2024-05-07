@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近买了个新手机，里面有一个MainStage的应用程序，我想了解一下这个软件功能的相关信息。",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "MainStage中的新功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解关于MainStage中的新功能的MIDI输入过滤、VintageEQCollection、使用鼠标键移动鼠标指针还是更多呢比如一般功能、声音资源库、插件",
+        "act": "multiple-choice",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "MainStage中的新功能",
+            "MIDI输入过滤"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我先了解一下这个MIDI输入过滤有什么用吧？",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "MIDI输入过滤"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用通道条MIDI输入检查器，可以过滤、变换或传递任何MIDICC数据",
+        "act": "ans/open",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "MIDI输入过滤",
+            "使用通道条MIDI输入检查器，可以过滤、变换或传递任何MIDICC数据"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那这个VintageEQCollection又是干什么的呢？",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "VintageEQCollection"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "VintageEQCollection可准确模拟20世纪50年代到70年代的三款复古模拟均衡器",
+        "act": "ans/open",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "VintageEQCollection",
+            "VintageEQCollection可准确模拟20世纪50年代到70年代的三款复古模拟均衡器"
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，刚刚还有说更多的功能。我还想了解一下这个插件的相关信息。",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "插件"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "SpaceDesigner提供了新颖的设计和可缩放的视网膜界面；tepFX新增一项功能：利用三个强大的步进音序器以及X/Y鼓垫来进行节奏多重音效处理；PhatFX可以利用九种音效提升声音的暖度和冲击力，使轨道变得更加宏大、更加鲜明；录音室弦乐器和录音室铜管乐器是深度采样又逼真的合奏乐器，具有自定运音法控制。",
+        "act": "ans/open",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "SpaceDesigner提供了新颖的设计和可缩放的视网膜界面",
+            "StepFX新增一项功能：利用三个强大的步进音序器以及X/Y鼓垫来进行节奏多重音效处理",
+            "PhatFX可以利用九种音效提升声音的暖度和冲击力，使轨道变得更加宏大、更加鲜明",
+            "录音室弦乐器和录音室铜管乐器是深度采样又逼真的合奏乐器，具有自定运音法控制"
+        ],
+        "grounding_id": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那还有别的吗？",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "插件"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "魔音琴现在作为独立乐器插件提供；RetroSynth现在提供18种不同的滤波器模型；“自动琶音器”插件中各个音阶的长度可以进行调整；回送现在会在每个循环周期应用一个小的交叉渐变，以减少出现节拍或其他音频伪像的可能性。",
+        "act": "ans/open",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "魔音琴现在作为独立乐器插件提供。",
+            "RetroSynth现在提供18种不同的滤波器模型",
+            "“自动琶音器”插件中各个音阶的长度可以进行调整",
+            "回送现在会在每个循环周期应用一个小的交叉渐变，以减少出现节拍或其他音频伪像的可能性"
+        ],
+        "grounding_id": [
+            "42",
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这么多啊，那一般功能的话都会有些什么呢？",
+        "act": "what",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "一般功能"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "一般功能：使用通道条MIDI输入检查器，可以过滤、变换或传递任何MIDICC数据；可将文本备注添加到通道条的底部；节拍器现可进行全面配置，包括分别设置小节、组、节拍和等份；本次更新还对稳定性和性能进行了大量改进。",
+        "act": "ans/open",
+        "document": "MainStage中的新功能.json",
+        "grounding": [
+            "一般功能",
+            "使用通道条MIDI输入检查器，可以过滤、变换或传递任何MIDICC数据",
+            "可将文本备注添加到通道条的底部",
+            "节拍器现可进行全面配置，包括分别设置小节、组、节拍和等份",
+            "本次更新还对稳定性和性能进行了大量改进"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，还有那个使用鼠标键移动鼠标指针时什么意思呢？",
+        "act": "what",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "使用鼠标键移动鼠标指针"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个是打开“鼠标键”后，您可以使用键盘或数字小键盘上的按键来移动鼠标指针。",
+        "act": "ans/open",
+        "document": "Mac辅助功能快捷键.json",
+        "grounding": [
+            "打开“鼠标键”后，您可以使用键盘或数字小键盘上的按键来移动鼠标指针。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想了解下营养知识，可以吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "营养概述"
+        ],
+        "grounding_id": [
+            "T2293"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想了解哪方面的，是蛋白质、饱和脂肪、反式脂肪、糖、还是纤维？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "人们应吃各种富含蛋白质的食物，包括海鲜、瘦肉和禽肉、蛋类、豆类和豌豆、坚果、籽类以及豆制品。",
+            "进食的大部分脂肪应为多不饱和或单不饱和脂肪。",
+            "反式脂肪应少吃或不吃。",
+            "添加糖的摄取量应低于每日总热量的10%。"
+        ],
+        "grounding_id": [
+            "13",
+            "15",
+            "17",
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说说反式脂肪能吃吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "反式脂肪应少吃或不吃。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "反式脂肪应少吃或不吃。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "反式脂肪应少吃或不吃。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那吃多少糖合适呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "添加糖的摄取量应低于每日总热量的10%。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "添加糖的摄取量应低于每日总热量的10%。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_营养需求.json",
+        "grounding": [
+            "添加糖的摄取量应低于每日总热量的10%。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那纤维呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "一些食物中含有纤维，纤维是一种韧性复合碳水化合物。纤维可能是"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "纤维是一种韧性复合碳水化合物。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "一些食物中含有纤维，纤维是一种韧性复合碳水化合物。纤维可能是"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那纤维溶于水吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。",
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "纤维是部分可溶性。部分溶解于水，并且机体能够吸收其中的一部分。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "部分可溶性：它们溶解于水，并且机体能够吸收其中的一部分。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那不溶于水的部分呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非可溶性部分并不溶于水，而机体不能消化它们。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_营养概述_纤维.json",
+        "grounding": [
+            "非可溶性：这部分并不溶于水，而机体不能消化它们。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

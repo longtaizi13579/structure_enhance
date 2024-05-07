@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于机动车注册登记的问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "登记的话有残疾人机动轮椅车注册登记，机动车更换车身或者车架变更登记 ，机动车在车辆管理所管辖区域内转移登记 ，国产机动车注册登记，你是想了解那个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是想问下残疾人机动轮椅车注册登记的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那请问你是想在宁波市办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是想在宁波办理。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "T10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "宁波市你可以到公安局交通警察局非机动车辆管理所，就是宁波市鄞州区福明街道中兴北路33号一楼办证大厅5号窗办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "宁波市公安局交通警察局非机动车辆管理所（宁波市鄞州区福明街道中兴北路33号）一楼办证大厅5号窗"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那问下办理的时候收费吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "487"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "488"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那法定的办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "只要1个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那他们哪些时间可以办理业务啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "工作时间是工作日上午8：30—11：30，下午13：30—17：00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "工作日上午8：30—11：30，下午13：30—17：00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省衢州市的，我想知道个人住房公积金账户设立多久可以办结？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "个人住房公积金账户设立",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_个人住房公积金账户设立.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想了解一些住房公积金汇、补缴的办理问题。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "住房公积金汇、补缴",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "97"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解是否网办、办理形式还是通办范围呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你给我说说办理形式有哪些吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前有网上申请、现场窗口申请两种办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金汇、补缴.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那你可以告诉我住房公积金退缴有哪些办理形式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "住房公积金退缴",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前也是网上申请、现场窗口申请两种办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_职工公积金_常用服务_住房公积金退缴.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

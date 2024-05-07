@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "什么是激活锁？",
+        "act": "what",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "或者停用激活锁"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "激活锁是macOSCatalina10.15或更高版本的一项功能。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "激活锁是macOSCatalina10.15或更高版本的一项功能。macOS恢复功能使用完毕后，请按照以下步骤操作，以停用激活锁。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样使用Option-Command-R启动？",
+        "act": "how",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "使用Option-Command-R启动"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "将Mac关机，然后开机并立即按住Option-Command-R，以从最新版本的macOS恢复功能启动。在这种情况下，请勿使用Shift-Option-Command-R，否则您的Mac将从较低版本的macOS恢复功能启动。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "将Mac关机，然后开机并立即按住Option-Command-R，以从最新版本的macOS恢复功能启动。在这种情况下，请勿使用Shift-Option-Command-R，否则您的Mac将从较低版本的macOS恢复功能启动。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在macOS恢复功能中完成所需的操作后要做什么？",
+        "act": "what",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "如果您的Mac启动时出现错误-1008F",
+            "您现在应该能够从较低版本的macOS恢复功能启动，而不会出现-1008F错误。在macOS恢复功能中完成所需的操作后，您可以在AppleID偏好设置中重新打开“查找我的Mac”。"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以在AppleID偏好设置中重新打开“查找我的Mac”。",
+        "act": "ans/open",
+        "document": "如果您的Mac启动时出现错误-1008F.json",
+        "grounding": [
+            "您现在应该能够从较低版本的macOS恢复功能启动，而不会出现-1008F错误。在macOS恢复功能中完成所需的操作后，您可以在AppleID偏好设置中重新打开“查找我的Mac”。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    }
+]

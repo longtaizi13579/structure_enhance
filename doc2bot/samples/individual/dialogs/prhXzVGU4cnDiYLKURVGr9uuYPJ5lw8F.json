@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我陪我朋友在浙江省台州市这边申请办理恢复驾驶资格，办理得不满意，我们可以怎么投诉呀？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格",
+            "浙江省_台州市",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T8",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这边有投诉地址和电话投诉，你需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "投诉的地址在什么地方？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉地址在浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个地方有点远啊，那投诉电话是多少啊？我打电话投诉吧",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是0576-12345",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "0576-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，电话记好了，我也想要办理这个恢复驾驶资格，麻烦问一下这个的办理话是多久完成呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "驾驶人申请恢复驾驶资格",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你本人也是在浙江台州这边的吗?",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，我也在台州的",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个的法定办结时限是1个工作日",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人申请恢复驾驶资格.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

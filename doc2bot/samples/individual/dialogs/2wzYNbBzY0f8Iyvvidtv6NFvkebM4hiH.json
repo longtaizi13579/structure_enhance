@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问变更机动车所有人的联系方式需要交钱吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "机动车所有人联系方式变更备案",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "283"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不收费的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "284"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那就不用准备支付的付款码是吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，目前不支持网上支持",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那申请之后的结果怎么通知呢？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "申请",
+            "受理/审核"
+        ],
+        "grounding_id": [
+            "253",
+            "255"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您说的是受理或审核的结果吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "受理/审核"
+        ],
+        "grounding_id": [
+            "255"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "受理/审核"
+        ],
+        "grounding_id": [
+            "255"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那怎么知道管辖范围呢？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过咨询电话、咨询地址或咨询网址",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那咨询的具体地址在哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "咨询地址位于杭州市西湖区三墩镇古墩路699号一号大厅导办台",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "杭州市西湖区三墩镇古墩路699号一号大厅导办台"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，我周一上午八点去可以办吗？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以在周一至周日:上午9:00-12:00，下午13:30-17:00（法定节假日除外）办理",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车所有人_机动车所有人联系方式变更备案.json",
+        "grounding": [
+            "周一至周日:上午9:00-12:00，下午13:30-17:00（法定节假日除外）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，现在可以办理从浙江杭州的出境签证吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "出入境"
+        ],
+        "grounding_id": [
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，您需要办理哪里的出境签证？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "出入境"
+        ],
+        "grounding_id": [
+            "T239"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "台湾的出入通行证。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，您是需要现在办理吗？",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的，大概多久能拿到？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "正常的法定办结在30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我现在想办理赴台乘务签注，怎么知道自己是否符合赴台乘务签注的条件呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是否符合执行海峡两岸航运任务的条件呢?",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "执行海峡两岸航运任务的，可以申请赴台乘务签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我就是执行海峡两岸航运任务的。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "执行海峡两岸航运任务的，可以申请赴台乘务签注。\n（跑动次数、承诺时限等情况，根据疫情和政策管控，随时调控。）"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您符合赴台乘务签注申请条件，可以办理赴台乘务签注。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "赴台乘务签注",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "134"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我去办理没给我办理好我要投诉有没有投诉电话？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，0571-12345这是我们的投诉电话。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉电话",
+            "0571-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "你把线下投诉地址给我发一下可以吗？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的，地址是上城区望江街道婺江路169号杭州市公安局出入境接待大厅一楼４号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台乘务签注.json",
+        "grounding": [
+            "上城区望江街道婺江路169号（靠鲲鹏路一侧）杭州市公安局出入境接待大厅一楼４号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

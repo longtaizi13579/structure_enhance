@@ -1,0 +1,362 @@
+{
+    "document_id": 297,
+    "domain": "technology",
+    "name": "测定和校准AppleProDisplayXDR",
+    "graph": {
+        "1": {
+            "data": "测定和校准AppleProDisplayXDR",
+            "type": "root",
+            "pid": "0"
+        },
+        "19": {
+            "data": "每台ProDisplayXDR在装配线上都会经过先进的显示器出厂校准流程，以确保P3广色域面板和各个LED背光灯的准确性。此外，出厂校准流程会使用复杂的内建算法，准确再现当今的媒体工作流程所用的多种色彩空间，包括sRGB、BT.601、BT.709和P3-ST.2084(HDR)。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "出厂显示器校准流程让ProDisplayXDR用户在开箱后即可享受出色的观看体验。如果您的工作流程需要自定校准，您可以微调ProDisplayXDR的校准，也可以进行重新校准以便适应改用了第三方光谱辐射仪的工作流程。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "21": {
+            "data": "测定ProDisplayXDR",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "22": {
+            "data": "您可以使用Apple提供的一系列QuickTime影片测试图案来评估ProDisplayXDR的校准情况。借助这些已用颜色进行适当标记的SDR和HDR参考图案，您可以使用所在组织内部的光谱辐射仪来测定并验证原色/合成色和亮度，包括电光转换函数(EOTF)。在测定显示器的校准情况之前，请确保您的Mac使用的是macOSCatalina10.15.6或更高版本，并且您的显示器使用的是显示器固件4.2.37。",
+            "type": "ordinary",
+            "pid": "21"
+        },
+        "26": {
+            "data": "下载测试图案",
+            "type": "sequence",
+            "pid": "21"
+        },
+        "27": {
+            "data": "前往AVFoundation开发者页面。",
+            "type": "sequence-step",
+            "pid": "26"
+        },
+        "31": {
+            "data": "在“RelatedResources”（相关资源）部分中，点按“ColorTestPatterns”（颜色测试图案）以下载测试文件。",
+            "type": "sequence-step",
+            "pid": "26"
+        },
+        "32": {
+            "data": "连按两下QuickTime-Test-Pattern.zip文件，以解压缩这个归档文件。",
+            "type": "sequence-step",
+            "pid": "26"
+        },
+        "33": {
+            "data": "测定显示器",
+            "type": "sequence",
+            "pid": "21"
+        },
+        "35": {
+            "data": "将第三方光谱辐射仪对准显示器的中央。",
+            "type": "sequence-step",
+            "pid": "33"
+        },
+        "36": {
+            "data": "请确保室内环境保持昏暗或黑暗，以防杂散光或反光影响测定结果。",
+            "type": "sequence-step",
+            "pid": "33"
+        },
+        "37": {
+            "data": "打开QuickTimeTestPatternMovies文件夹，然后选取一组要测试的图案。每个文件夹中都包含一系列影片文件，用于测定HDR、BT.709和BT.601格式下的颜色或亮度。",
+            "type": "sequence-step",
+            "pid": "33"
+        },
+        "38": {
+            "data": "在QuickTimePlayer中打开各个文件，然后测定相应文件夹中的各个测试图案影片文件。请确保当前所用的参考模式与所选的测试图案相符。例如，在使用基于HDR10的图案时，请使用HDR视频(P3–ST2084)预置。",
+            "type": "sequence-step",
+            "pid": "33"
+        },
+        "39": {
+            "data": "将您测得的颜色（色度）和亮度值与测试图案文件夹内ReferenceValues.txt文件中的数据进行比较。根据光谱辐射仪的容差或校准情况，读数与参考值可能略有不同。",
+            "type": "sequence-step",
+            "pid": "33"
+        },
+        "44": {
+            "data": "微调校准",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "45": {
+            "data": "如果您的工作流程已调整到特定目标，",
+            "type": "condition",
+            "pid": "44"
+        },
+        "49": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "44"
+        },
+        "50": {
+            "data": "选取苹果菜单>“系统偏好设置”>“显示器”。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "51": {
+            "data": "从“预置”菜单中，选取要微调的参考模式。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "52": {
+            "data": "从“预置”菜单中，选取“微调校准”。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "53": {
+            "data": "设置白点值和亮度值，然后输入描述。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "54": {
+            "data": "点按“好”以存储微调校准。",
+            "type": "sequence-step",
+            "pid": "49"
+        },
+        "55": {
+            "data": "要移除微调校准，请从“微调校准”菜单中选取“恢复默认”。",
+            "type": "ordinary",
+            "pid": "44"
+        },
+        "56": {
+            "data": "如果您选取了其他参考模式，",
+            "type": "condition",
+            "pid": "44"
+        },
+        "57": {
+            "data": "进行现场重新校准",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "59": {
+            "data": "检查要求",
+            "type": "ordinary",
+            "pid": "57"
+        },
+        "60": {
+            "data": "要进行现场重新校准，必须装有macOSCatalina10.15.6或更高版本、显示器固件4.2.37，并使用以下任一仪器：",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "64": {
+            "data": "PhotoResearch",
+            "type": "ordinary",
+            "pid": "60"
+        },
+        "65": {
+            "data": "PR-740、PR-745或PR-788",
+            "type": "ordinary",
+            "pid": "64"
+        },
+        "66": {
+            "data": "推荐带宽：4nm或5nm",
+            "type": "ordinary",
+            "pid": "64"
+        },
+        "67": {
+            "data": "所需的光圈：0.1、0.125、0.2或0.25",
+            "type": "ordinary",
+            "pid": "64"
+        },
+        "68": {
+            "data": "ColorimetryResearch",
+            "type": "ordinary",
+            "pid": "60"
+        },
+        "69": {
+            "data": "CR-300",
+            "type": "ordinary",
+            "pid": "68"
+        },
+        "70": {
+            "data": "校准显示器",
+            "type": "ordinary",
+            "pid": "57"
+        },
+        "71": {
+            "data": "如果您想要为显示器确立基准，",
+            "type": "condition",
+            "pid": "70"
+        },
+        "75": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "70"
+        },
+        "76": {
+            "data": "将显示器设定到您最常用的参考模式。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "80": {
+            "data": "下载并打开ProDisplayXDR校准程序，然后点按“继续”。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "84": {
+            "data": "将支持的光谱辐射仪连接到您的Mac。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "88": {
+            "data": "点按“校准”，确保在要校准的ProDisplayXDR上已打开实用工具，然后点按“下一步”。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "89": {
+            "data": "将测量设备对准绿点的中心，然后点按“继续”。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "90": {
+            "data": "按照具体仪器所需的测定距离进行操作。例如，CR-300应该与显示器齐平。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "91": {
+            "data": "按照屏幕上的说明操作，确保您的仪器垂直于显示器，然后点按“开始”。如果显示器连接到Mac笔记本电脑，请勿在校准过程中合上电脑上盖。校准可能需要长达2小时才能完成，其中包括30分钟的预热期。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "92": {
+            "data": "校准完成后，点按“完成”。",
+            "type": "sequence-step",
+            "pid": "75"
+        },
+        "93": {
+            "data": "如果您选取了其他参考模式，",
+            "type": "condition",
+            "pid": "70"
+        },
+        "97": {
+            "data": "还原校准",
+            "type": "ordinary",
+            "pid": "57"
+        },
+        "98": {
+            "data": "要将显示器恢复为出厂校准，请打开ProDisplayXDR校准程序，点按“还原校准”，然后点按“还原”。",
+            "type": "ordinary",
+            "pid": "97"
+        },
+        "99": {
+            "data": "测定和校准显示器的技巧",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "100": {
+            "data": "如果您在测定和校准显示器时无法获得一致的结果，请了解该怎么做。",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "101": {
+            "data": "检查所处的环境",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "102": {
+            "data": "控制周围环境，以最大限度地减少反射到显示器光圈目标区域的杂散光。",
+            "type": "ordinary",
+            "pid": "101"
+        },
+        "103": {
+            "data": "Apple建议在环境温度为华氏77度或更低的环境中进行测定和校准。为了获得尽可能可复现的结果，校准期间和典型使用情况下的环境温度应保持相似。",
+            "type": "ordinary",
+            "pid": "101"
+        },
+        "104": {
+            "data": "检查光谱辐射仪的设置",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "105": {
+            "data": "确保显示器已预热至少30分钟且处于热稳定状态。",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "106": {
+            "data": "调整光谱辐射仪的方向，使它垂直于显示器并在x轴上保持水平，以尽量减少极化。",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "107": {
+            "data": "检查光谱辐射仪的曝光设置。如果光谱辐射仪有自动曝光模式，请打开这一模式，以便在不同亮度级别下获得更准确的读数。如果光谱辐射仪没有自动曝光模式，请咨询仪器的生产企业以了解推荐的设置。另请查看定位和焦距、光圈、带宽、曝光、测定速度、显示同步以及您的仪器可能具有的任何自动或动态功能的配置选项。",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "108": {
+            "data": "检查光谱辐射仪有没有积分时间设置。请尽量使用较长的积分时间，以获得更准确的结果。",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "109": {
+            "data": "如果光谱辐射仪有自动中性密度(ND)滤镜设置，请将它关闭。",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "110": {
+            "data": "检查光谱辐射仪的校准情况",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "111": {
+            "data": "查看生产企业提供的规格信息，以确定光谱辐射仪的容差。观察到的差异可能是由以下任一情况导致的：",
+            "type": "ordinary",
+            "pid": "110"
+        },
+        "112": {
+            "data": "不同的仪器校准使用了不同的光源A入射方式。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "113": {
+            "data": "各个光源A固有的不确定性。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "114": {
+            "data": "不同的仪器硬件设计和光路导致了不同的继承误差。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "115": {
+            "data": "强制重启光谱辐射仪",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "116": {
+            "data": "如果您的仪器没有响应，请联系生产企业，获取有关如何强制重启光谱辐射仪的说明。",
+            "type": "ordinary",
+            "pid": "115"
+        },
+        "119": {
+            "data": "您可以微调AppleProDisplayXDR的校准。这样您就可以调整显示器的白点值和亮度值，以更精确地匹配您所在组织内部的显示器校准目标。",
+            "type": "solution",
+            "pid": "45"
+        },
+        "120": {
+            "data": "请在必要时再次微调校准以获得最佳结果。",
+            "type": "solution",
+            "pid": "56"
+        },
+        "121": {
+            "data": "请在校准前后测定您的显示器。请务必使用同一光谱辐射仪进行测定和校准。",
+            "type": "solution",
+            "pid": "71"
+        },
+        "122": {
+            "data": "请在必要时微调校准以获得最佳结果。",
+            "type": "solution",
+            "pid": "93"
+        },
+        "123": {
+            "data": "如果您需要重新校准 Pro Display XDR 以便适应改用了第三方光谱辐射仪的工作流程，请按照这部分的说明操作。",
+            "type": "ordinary",
+            "pid": "57"
+        }
+    }
+}

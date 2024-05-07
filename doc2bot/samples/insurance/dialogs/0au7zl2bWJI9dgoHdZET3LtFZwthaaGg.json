@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道这个疾病保险合同的构成有哪些？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问您问的是中华好学生重大疾病保险吗？",
+        "act": "verification",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "中华好学生重大疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我就想知道这个保险的合同会有包含哪个方面的内容。",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个重大疾病保险的合同构成有保险条款、保险单等这些可以保障您合法权益的书面文件。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "本合同是您与我们约定保险权利义务关系的协议，包括本保险条款、保险单或其他有效的保险凭证、投保单、与保险合同有关的投保文件、合法有效的声明、批注、批单及其他约定您和我们之间权利义务关系的书面（见 9.1）文件。阅读指引和条款目录仅供辅助理解使用，不构成保险合同的组成部分。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那这个合同要怎么才算生效呢？",
+        "act": "how",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "当您向我们提出申请，我们签发保险单之后就可以生效了的。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后开始生效，具体的生效日在保险单上载明。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "签完保单就可以了啊，那这个投保人的年龄应该有限制吧，在几岁之间呢？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有限制的，投保时被保险人的年龄须为 3 至 25 周岁。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "投保年龄以周岁（见 9.2）计算，投保时被保险人的年龄须为 3 至 25 周岁。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "3岁就可以投了呀，那这个保险金要怎么算呢？",
+        "act": "how",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您说的是基本保险金额吧？",
+        "act": "question/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，就是合同上面写的那个基本保险金额，这个你们会怎么算？",
+        "act": "how",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个基本金额是由您投保时，我们一起商定的，并且也会在保险单上载明出来的。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单上载明。若金额发生变更，则以变更后的金额为基本保险金额",
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "13",
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "一起商定的呀，那好呀。我还想问一下关于那个免责条款有哪些？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "其他免责条款"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您可以看到合同中2.3、2.3、3.2、6.1、7.1、8 和 9.5 中灰色底纹背景字体的内容，这些都属于免责条款的内容。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "除“2.4 责任免除”外，本合同中还有一些免除本公司责任的条款，详见 2.3、3.2、6.1、7.1、8 和 9.5 中灰色底纹背景字体的内容。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "行，我等会看看。那我想问一下这个治疗的医院，你们有规定是哪些吗？",
+        "act": "what",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "医院"
+        ],
+        "grounding_id": [
+            "93"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们有指定医院的，被保险人在受到伤害时，必须在我们规定的医院治疗，保险才可以生效的。",
+        "act": "ans/open",
+        "document": "中华好学生重大疾病保险.json",
+        "grounding": [
+            "本附加合同所称医院指我们指定医院或经中华人民共和国卫生部门评审确定的二级或以上之基本医疗保险定点医院，但不包括精神病院及专供康复、护理、疗养、戒酒、戒毒、养老等非以直接诊治病人为目的之医疗机构。该医院必须具有符合国家有关医院管理规则设置标准的医疗设备，且全天 24 小时有合格的医生和护士驻院提供医疗和护理服务。当被保险人因遭受意外伤害事故须急救时不受此限，但经急救处理伤情稳定后，必须转入本合同所指医院治疗（急救情况不适用于私人诊所）。"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么通过Alexa播放AppleMusic？",
+        "act": "how",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "通过Alexa播放AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是否是AppleMusic订阅者呢？",
+        "act": "verification",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "您可以让Alexa播放AppleMusic中的歌曲、按艺人分类的音乐、播放列表等内容，或者播放您资料库中的播放列表。"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "您可以让Alexa播放AppleMusic中的歌曲、按艺人分类的音乐、播放列表等内容，或者播放您资料库中的播放列表。"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您是可以让Alexa播放AppleMusic中的歌曲、按艺人分类的音乐、播放列表等内容，或者播放您资料库中的播放列表。",
+        "act": "ans/yes",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "通过Alexa播放AppleMusic",
+            "您可以让Alexa播放AppleMusic中的歌曲、按艺人分类的音乐、播放列表等内容，或者播放您资料库中的播放列表。"
+        ],
+        "grounding_id": [
+            "1",
+            "81"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那支持Alexa的AppleMusic都在什么国家或地区提供呢？",
+        "act": "what",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "通过Alexa播放AppleMusic",
+            "支持Alexa的AppleMusic仅在以下国家或地区提供：奥地利、澳大利亚、巴西、加拿大、法国、德国、印度、爱尔兰、意大利、日本、墨西哥、新西兰、西班牙、英国和美国。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "奥地利、澳大利亚、巴西、加拿大、法国、德国、印度、爱尔兰、意大利、日本、墨西哥、新西兰、西班牙、英国和美国。",
+        "act": "ans/open",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "支持Alexa的AppleMusic仅在以下国家或地区提供：奥地利、澳大利亚、巴西、加拿大、法国、德国、印度、爱尔兰、意大利、日本、墨西哥、新西兰、西班牙、英国和美国。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这样啊，那要怎么样才可以通过Alexa播放AppleMusic呢？",
+        "act": "how",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "通过Alexa播放AppleMusic"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您具体是想了解您需要具备以下各项的内容还是使用Alexa设置AppleMusic呢？",
+        "act": "multiple-choice",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "您需要具备以下各项"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道你说的要具备的内容有什么？",
+        "act": "what",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "通过Alexa播放AppleMusic",
+            "您需要具备以下各项"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "已在iOS或安卓设备上使用AmazonAlexaApp设置妥当的AmazonEcho、AmazonFireTV或支持Alexa的Sonos扬声器。",
+        "act": "ans/open",
+        "document": "通过Alexa播放AppleMusic.json",
+        "grounding": [
+            "已在iOS或安卓设备上使用AmazonAlexaApp设置妥当的AmazonEcho、AmazonFireTV或支持Alexa的Sonos扬声器。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

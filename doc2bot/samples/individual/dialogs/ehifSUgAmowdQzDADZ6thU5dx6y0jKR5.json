@@ -1,0 +1,416 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省遗失补领机动车驾驶证的一些信息",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "T7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解办理地点，办理时间，咨询方式还是监督投诉方式",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想直都投诉方式有什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址和投诉网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，办理的地点和投诉地点是同一个吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，线下办事点的具体地址有多个，您需要了解哪个地方呢？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "124",
+            "125"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "绍兴市公安局交通管理局车辆管理所城南服务站可以办吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那有没有具体的门牌号",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "绍兴市越城区稽山街道浦江路4号",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所城南服务站（绍兴市越城区稽山街道浦江路4号）"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那上虞区有没有相关的办事点呢？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的，绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴市公安局交通管理局车辆管理所（绍兴市上虞区沥海街道勤丰路8号）"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，一般多长时间可以办完？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一个工作日就可以",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "很快啊，我还想知道一下期满换领机动车驾驶证相关流程有哪些？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "284"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "一般包括体检，申请 ，受理，审核 ，制证 ，送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "体检",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "285",
+            "287",
+            "289",
+            "296",
+            "303",
+            "310"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那应该向哪里提出申请？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "申请人向公安交管部门提出申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "申请人向公安交管部门提出申请。"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那满足什么标准会允许制证呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "制证",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "303",
+            "306"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "对材料齐全、符合法定形式的申请，核发机动车驾驶证。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "对材料齐全、符合法定形式的申请，核发机动车驾驶证。"
+        ],
+        "grounding_id": [
+            "307"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "是当场就能拿到证吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "送达",
+            "当场送达或邮寄送达。"
+        ],
+        "grounding_id": [
+            "310",
+            "311"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "可以选择当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "当场送达或邮寄送达。"
+        ],
+        "grounding_id": [
+            "311"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我还想了解一下遗失补领机动车驾驶证的一些情况有哪些途径呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "我可以为提供咨询电话，咨询地址和咨询网址，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "我想知道电话是多少？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "0575--88150009",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "0575--88150009"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "那具体的咨询地址呢？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

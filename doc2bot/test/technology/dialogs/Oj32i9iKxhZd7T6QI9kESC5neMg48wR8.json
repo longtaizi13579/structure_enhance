@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果iPad没发开机的话怎么办呢",
+        "act": "how",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "如果您的iPad无法开机或死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您的屏幕是显示黑屏或死机吗",
+        "act": "verification",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "如果屏幕显示黑屏或死机"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，应该怎么操作呢",
+        "act": "how",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "请按照适用于您设备的步骤操作："
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您的iPad有没有主屏幕按钮呢",
+        "act": "verification",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "在没有主屏幕按钮的iPad上"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "在没有主屏幕按钮的iPad上"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那首先按下最靠近顶部按钮的音量按钮再快速松开，然后按下离顶部按钮最远的音量按钮再快速松开，或者按住顶部按钮，直到设备开始重新启动。 如果您的iPad无法开机，检查硬件并为设备充电。充电时间最长可能需要一个小时。如果您的iPad仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "按下最靠近顶部按钮的音量按钮再快速松开。",
+            "按下离顶部按钮最远的音量按钮再快速松开。",
+            "按住顶部按钮，直到设备开始重新启动。",
+            "如果您的iPad无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPad仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那有主屏幕按钮的iPad的话有什么不同的操作方式呢",
+        "act": "what",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "在配备主屏幕按钮的iPad上"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以同时按住主屏幕按钮和顶部按钮，或者检查硬件并为设备充电。充电时间最长可能需要一个小时。 如果您的iPad仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。",
+            "如果您的iPad无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPad仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，那按住主屏幕按钮和顶部按钮的话应该到什么时候为止呢",
+        "act": "when",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "直到您看到Apple标志",
+        "act": "ans/open",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

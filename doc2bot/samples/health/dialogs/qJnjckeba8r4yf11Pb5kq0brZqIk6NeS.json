@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是皮肤病、骨、关节及肌肉疾病、激素和代谢性障碍还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "激素和代谢性障碍"
+        ],
+        "grounding_id": [
+            "T2781"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "电解质失衡的原因有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "电解质概述",
+            "激素和代谢性障碍",
+            "电解质平衡",
+            "如果电解质的平衡被打乱，就可能发生疾病。例如，电解质失衡的原因如下："
+        ],
+        "grounding_id": [
+            "1",
+            "T2781",
+            "T2803",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "静脉补液或食入的量不当",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "静脉补液或食入的量不当"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有其他原因吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "如果电解质的平衡被打乱，就可能发生疾病。例如，电解质失衡的原因如下："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "某些心脏、肾脏、肝脏疾病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "某些心脏、肾脏、肝脏疾病"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "服用某些药物会导致电解质失衡吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "如果电解质的平衡被打乱，就可能发生疾病。例如，电解质失衡的原因如下：",
+            "服用某些药物"
+        ],
+        "grounding_id": [
+            "20",
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_激素和代谢性障碍_电解质平衡_电解质概述.json",
+        "grounding": [
+            "服用某些药物"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

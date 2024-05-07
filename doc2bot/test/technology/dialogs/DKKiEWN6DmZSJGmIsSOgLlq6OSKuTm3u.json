@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于Apple耳塞与静电的问题？",
+        "act": "what",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "Apple耳塞与静电"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：这是怎么回事？设备上为何会积聚静电？还是哪些措施可减少设备上积聚的静电？",
+        "act": "multiple-choice",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "这是怎么回事？"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下这是怎么回事？",
+        "act": "why",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "这是怎么回事？"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在非常干燥的区域使用耳塞时，耳塞上可能会积聚静电，因此耳朵可能会感觉耳塞有微弱的静电放电。使用耳塞时感觉到静电击并不表示您的设备或耳塞有问题。",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "在非常干燥的区域使用耳塞时，耳塞上可能会积聚静电，因此耳朵可能会感觉耳塞有微弱的静电放电。使用耳塞时感觉到静电击并不表示您的设备或耳塞有问题。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这种情况是不是和从地毯上走过后触摸门把手时遭到静电击的情况类似？",
+        "act": "verification",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "上述情况与从地毯上走过后触摸门把手时遭到静电击的情况类似。所不同的是，这里电荷积聚的位置并不是在人体上，而是在耳塞所连接的设备上。积聚的静电并不是像在触摸门把手时那样通过手指放电，而是通过耳塞放电。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "上述情况与从地毯上走过后触摸门把手时遭到静电击的情况类似。所不同的是，这里电荷积聚的位置并不是在人体上，而是在耳塞所连接的设备上。积聚的静电并不是像在触摸门把手时那样通过手指放电，而是通过耳塞放电。",
+        "act": "ans/yesno",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "上述情况与从地毯上走过后触摸门把手时遭到静电击的情况类似。所不同的是，这里电荷积聚的位置并不是在人体上，而是在耳塞所连接的设备上。积聚的静电并不是像在触摸门把手时那样通过手指放电，而是通过耳塞放电。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "当Apple耳塞有静电时，人体会有什么感觉？",
+        "act": "what",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "在iPod、iPhone或Mac电脑上使用耳塞时，可能会感觉到微弱而短暂的电击。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iPod、iPhone或Mac电脑上使用耳塞时，可能会感觉到微弱而短暂的电击。",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "在iPod、iPhone或Mac电脑上使用耳塞时，可能会感觉到微弱而短暂的电击。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "设备上为何会积聚静电？",
+        "act": "why",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "设备上为何会积聚静电？"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "某些环境和动作可加快电子设备上的静电积聚。比如：湿度较低的干燥环境；风很大的环境；将设备放入和拿出口袋；携带设备慢跑或锻炼；由人造纤维（如尼龙）制成的衣物。",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "某些环境和动作可加快电子设备上的静电积聚。",
+            "湿度较低的干燥环境",
+            "风很大的环境",
+            "将设备放入和拿出口袋",
+            "携带设备慢跑或锻炼",
+            "由人造纤维（如尼龙）制成的衣物"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哪些措施可减少设备上积聚的静电？",
+        "act": "what",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "哪些措施可减少设备上积聚的静电？"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想了解室内，是是室外的处理措施？",
+        "act": "multiple-choice",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "室内"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "先说下天室内吧。",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "室内"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "增加空气湿度。您可以使用便携式加湿器或调节空调的湿度控制。 向空气中喷洒防静电喷雾剂。如果皮肤很干燥，可涂抹些防静电乳液。穿着由自然纤维（如棉花）制成的衣物。人造纤维更容易积聚静电。",
+        "act": "ans/open",
+        "document": "Apple耳塞与静电.json",
+        "grounding": [
+            "增加空气湿度。您可以使用便携式加湿器或调节空调的湿度控制。",
+            "向空气中喷洒防静电喷雾剂。",
+            "如果皮肤很干燥，可涂抹些防静电乳液。",
+            "穿着由自然纤维（如棉花）制成的衣物。人造纤维更容易积聚静电。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下，如何在iPhone上登录AppleID？",
+        "act": "how",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "使用您的AppleID登录",
+            "在iPhone、iPad或iPodtouch上登录"
+        ],
+        "grounding_id": [
+            "1",
+            "23"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤：首先，打开“设置”App。然后，轻点“登录[您的设备]”。接着， 输入您的AppleID和密码。如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。",
+        "act": "ans/open",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "具体步骤",
+            "打开“设置”App。",
+            "轻点“登录[您的设备]”。",
+            "输入您的AppleID和密码。",
+            "如果提示输入验证码，请输入已发送到您的受信任设备或电话号码的六位数验证码，并完成登录。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果我已经在与AppleWatch配对的iPhone上登录iCloud，是不是会自动登录到相应的AppleID？",
+        "act": "verification",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "您将自动登录到相应的AppleID。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "使用您的AppleID登录.json",
+        "grounding": [
+            "您将自动登录到相应的AppleID。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    }
+]

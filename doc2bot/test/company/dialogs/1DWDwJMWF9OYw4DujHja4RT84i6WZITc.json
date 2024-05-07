@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想维修一下我的有线广播电视，我要怎么搞？",
+        "act": "how",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们的办理形式有网上申请/现场窗口申请/邮寄申请，您要了解哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "99",
+            "98"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "现场办理吧，然后那个结果大概啥时候出？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是问承诺时限还是法定时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "法定时限。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定时限是20个工作日内完成，您已经申请完成了吗？",
+        "act": "question/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，修理好后会不会通知我？",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会的，维修完成会在1个工作日内告知您结果去取电视。您还有其他问题吗？",
+        "act": "question/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_有线广播电视运营服务的业务种类、服务范围、服务时限、资费标准备案.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个维修有安全资质保障吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "安全评价机构资质注销"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，2021-09-01起会有第三方安全机构进行评价的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "2021-09-01"
+        ],
+        "grounding_id": [
+            "198"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "后面有业务再需要办理的话支持自己自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "抱歉，目前是不支持的，后续可以的话我们会短信通知您。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    }
+]

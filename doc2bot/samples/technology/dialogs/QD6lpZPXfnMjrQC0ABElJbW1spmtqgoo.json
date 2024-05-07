@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下如何卸载iOS",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如何卸载iOS或iPadOSBeta版软件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解删除Beta版描述文件以移除PublicBeta版还是恢复设备以移除开发者Beta版或是在系统提醒有新的iOS或iPadOS更新可用时进行更新",
+        "act": "multiple-choice",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "在系统提醒有新的iOS或iPadOS更新可用时进行更新"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在系统提醒有新的iOS或iPadOS更新可用时进行更新",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "在系统提醒有新的iOS或iPadOS更新可用时进行更新"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果出现这个提醒，则表示设备上的iOS或iPadOSBeta版已过期并需要进行更新。轻点“设置”>“通用”>“软件更新”并安装更新。没有看到可用的更新？恢复设备以移除开发者Beta版。或者，如果您已经移除了Beta版描述文件，请在PublicBeta版计划或开发者Beta版计划中再次注册您的设备。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如果出现这个提醒，则表示设备上的iOS或iPadOSBeta版已过期并需要进行更新。轻点“设置”>“通用”>“软件更新”并安装更新。",
+            "没有看到可用的更新？恢复设备以移除开发者Beta版。或者，如果您已经移除了Beta版描述文件，请在PublicBeta版计划或开发者Beta版计划中再次注册您的设备。"
+        ],
+        "grounding_id": [
+            "48",
+            "52"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那删除Beta版描述文件以移除PublicBeta版如何呢",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "删除Beta版描述文件以移除PublicBeta版"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您曾使用电脑安装过iOS或iPadOSBeta版，则需要恢复iOS或iPadOS才能移除Beta版。要移除PublicBeta版，最简单的方法是删除Beta版描述文件，然后等待下一次的软件更新。当iOS或iPadOS的下一个公共版本推出时，安装它即可重新使用iOS或iPadOS的非Beta版本。如果已有可用的更新，您可以前往“设置”>“通用”>“软件更新”进行安装，但前提是这个iOS或iPadOS版本必须高于您当前使用的版本。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如果您曾使用电脑安装过iOS或iPadOSBeta版，则需要恢复iOS或iPadOS才能移除Beta版。",
+            "要移除PublicBeta版，最简单的方法是删除Beta版描述文件，然后等待下一次的软件更新。请按照以下步骤操作：",
+            "当iOS或iPadOS的下一个公共版本推出时，安装它即可重新使用iOS或iPadOS的非Beta版本。如果已有可用的更新，您可以前往“设置”>“通用”>“软件更新”进行安装，但前提是这个iOS或iPadOS版本必须高于您当前使用的版本。"
+        ],
+        "grounding_id": [
+            "11",
+            "15",
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果您不想等到有软件更新时再安装非Beta版的iOS或iPadOS要怎么操作",
+        "act": "how",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如果您不想等到有软件更新时再安装非Beta版的iOS或iPadOS，请按照恢复iOS或iPadOS的步骤操作。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您不想等到有软件更新时再安装非Beta版的iOS或iPadOS，请按照恢复iOS或iPadOS的步骤操作。",
+        "act": "ans/open",
+        "document": "如何卸载iOS或iPadOSBeta版软件.json",
+        "grounding": [
+            "如果您不想等到有软件更新时再安装非Beta版的iOS或iPadOS，请按照恢复iOS或iPadOS的步骤操作。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有问题想问一下就是iOS支持的蓝牙描述文件",
+        "act": "what",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "iOS支持的蓝牙描述文件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个您是想了解免提描述文件(HFP1.6)还是电话簿访问描述文件(PBAP)或是高级音频分发描述文件(A2DP)再或是音频/视频遥控描述文件(AVRCP1.4)等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "免提描述文件(HFP1.6)",
+            "电话簿访问描述文件(PBAP)",
+            "高级音频分发描述文件(A2DP)",
+            "音频/视频遥控描述文件(AVRCP1.4)"
+        ],
+        "grounding_id": [
+            "3",
+            "6",
+            "15",
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "想了解电话簿访问描述文件(PBAP)",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "电话簿访问描述文件(PBAP)"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "电话簿访问描述文件(PBAP)，这个描述文件适用于iPhone5s及更新机型。PBAP允许iPhone与其他蓝牙设备交换电话簿对象。*车载套件和移动电话使用这个描述文件来完成以下操作：允许车载套件显示来电者姓名。允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。允许车载套件显示通话记录。",
+        "act": "ans/open",
+        "document": "iOS支持的蓝牙描述文件.json",
+        "grounding": [
+            "电话簿访问描述文件(PBAP)",
+            "这个描述文件适用于iPhone5s及更新机型。",
+            "PBAP允许iPhone与其他蓝牙设备交换电话簿对象。*车载套件和移动电话使用这个描述文件来完成以下操作：",
+            "允许车载套件显示来电者姓名。",
+            "允许车载套件同步电话簿，以便用户可通过车载显示屏拨打电话。",
+            "允许车载套件显示通话记录。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "12",
+            "13",
+            "14"
+        ]
+    }
+]

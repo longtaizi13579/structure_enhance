@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省湖州市的，想咨询下台湾签注的问题？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "出入境",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T13",
+            "T239",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解赴台团队旅游签注，赴台学习签注，应邀赴台签注，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解赴台团队旅游签注，办完后几天能拿到结果？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "赴台团队旅游签注",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "送达时限是：自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "120",
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理的时候，能不能网上支付？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1517"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1518"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1489"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "设定依据是：中华人民共和国出境入境管理法。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "设定依据",
+            "中华人民共和国出境入境管理法"
+        ],
+        "grounding_id": [
+            "1489",
+            "1490"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "依据文号是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "依据文号"
+        ],
+        "grounding_id": [
+            "1493"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "依据文号是：中华人民共和国主席令，第五十七号。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台团队旅游签注.json",
+        "grounding": [
+            "依据文号",
+            "中华人民共和国主席令　第五十七号"
+        ],
+        "grounding_id": [
+            "1493",
+            "1494"
+        ]
+    }
+]

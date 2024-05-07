@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友得了甲沟炎，我想要了解一下相关甲沟炎的一些问题",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "急性甲沟炎",
+            "指甲疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "T25"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是急性甲沟炎吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "急性甲沟炎",
+            "指甲疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "T25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，得了这个急性甲沟炎的原因是什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "急性甲沟炎",
+            "急性甲沟炎是角质层的感染。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "急性甲沟炎是因为角质层的感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "急性甲沟炎是角质层的感染。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "了解了，那这个甲沟炎可以吃点药就医治好吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "急性甲沟炎的治疗"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你朋友的急性甲沟炎有积脓吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "如果有积脓，必须排干。医生用局麻药（如利多卡因）麻醉手指或足趾后用器械掀开甲皱襞。一般没有必要切开皮肤。可插入细纱布芯24～48小时进行引流。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "如果有积脓，必须排干。医生用局麻药（如利多卡因）麻醉手指或足趾后用器械掀开甲皱襞。一般没有必要切开皮肤。可插入细纱布芯24～48小时进行引流。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有积脓的话，必须排干。医生用局麻药麻醉手指或足趾后用器械掀开甲皱襞。一般不会切开皮肤。插入细纱布进行24到48小时的引流。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "如果有积脓，必须排干。医生用局麻药（如利多卡因）麻醉手指或足趾后用器械掀开甲皱襞。一般没有必要切开皮肤。可插入细纱布芯24～48小时进行引流。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那排干积脓后，需要吃什么药吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "吃点抗生素的药",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_指甲疾病_急性甲沟炎.json",
+        "grounding": [
+            "抗生素"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

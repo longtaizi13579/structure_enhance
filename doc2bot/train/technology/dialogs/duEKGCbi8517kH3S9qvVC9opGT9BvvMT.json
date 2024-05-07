@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我经常出差，每到一个地方都必须输入密码才能连接到Wi-Fi，太麻烦了，有没有什么办法可以解决？",
+        "act": "what",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "无需输入密码即可使用智能热点连接到个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以借助智能热点，手机上的个人热点可以为Mac、iPhone、iPad 或 iPod touch 提供互联网连接，而且无需输入密码。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "无需输入密码即可使用智能热点连接到个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，那我想具体了解一下使用智能热点连接到个人热点的相关问题？",
+        "act": "what",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "无需输入密码即可使用智能热点连接到个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体您想了解设置智能热点、使用智能热点还是其他？",
+        "act": "multiple-choice",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "使用智能热点"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解使用智能热点时，如何连接个人热点？",
+        "act": "how",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "使用智能热点",
+            "以下是连接个人热点的方法："
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "连接个人热点的方法：在Mac上，使用菜单栏中的Wi-Fi状态菜单选取提供个人热点的iPhone或iPad的名称；在iPad、iPodtouch或另一台iPhone上，前往“设置”>“Wi-Fi”，然后轻点提供个人热点的iPhone或iPad的名称。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "以下是连接个人热点的方法：",
+            "在Mac上，使用菜单栏中的Wi-Fi状态菜单选取提供个人热点的iPhone或iPad的名称。",
+            "在iPad、iPodtouch或另一台iPhone上，前往“设置”>“Wi-Fi”，然后轻点提供个人热点的iPhone或iPad的名称。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "打开个人热点后，我的Wi-Fi状态图标会有什么变化？",
+        "act": "what",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "只要您的设备保持个人热点连接，菜单栏中的Wi-Fi状态图标就会更改为个人热点图标。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "只要您的设备保持个人热点连接，菜单栏中的Wi-Fi状态图标就会更改为个人热点图标。",
+        "act": "ans/open",
+        "document": "无需输入密码即可使用智能热点连接到个人热点.json",
+        "grounding": [
+            "只要您的设备保持个人热点连接，菜单栏中的Wi-Fi状态图标就会更改为个人热点图标。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，如何设置个人热点？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "设置个人热点"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤：首先前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”；然后轻点“允许其他人加入”旁边的滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。",
+            "轻点“允许其他人加入”旁边的滑块。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我怎么没有看到我的“个人热点”选项？",
+        "act": "why",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如果您没有看到“个人热点”选项，请联系您的运营商，以确保您可以在自己的资费套餐中使用个人热点。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

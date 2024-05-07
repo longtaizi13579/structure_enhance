@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一关于将RadeonProW6800XMPX模块与MacPro搭配使用的问题",
+        "act": "what",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "将RadeonProW6800XMPX模块与MacPro搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您在此之前是否使用了“启动转换”并且安装了AMD提供的第三方图形卡，",
+        "act": "verification",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好像是",
+        "act": "ans/yes",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，那您可能需要在Windows中使用不同的AMD驱动程序",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我现在有六台分辨率为6016x3384、频率为60Hz的ProDisplayXDR，我该怎么连接",
+        "act": "how",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "六台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "六台ProDisplayXDR的话，首先拿两台显示器，每个图形卡的总线0上分别连接一台，然后再拿两台显示器在每个图形卡的总线1上分别连接一台，用一台显示器连接到Mac顶部*的雷雳3端口上，最后一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "六台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下：",
+            "两台显示器：每个图形卡的总线0上分别连接一台",
+            "两台显示器：每个图形卡的总线1上分别连接一台",
+            "一台显示器连接到Mac顶部*的雷雳3端口上",
+            "一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那将一台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的左侧HDMI端口上，我还能连几个显示器？",
+        "act": "what",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果您将一台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的左侧HDMI端口，则可以额外连接最多四台如下配置的显示器："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您将一台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的左侧HDMI端口，则可以额外连接最多四台如下配置的显示器，其中两台ProDisplayXDR，分辨率为6016x3384，频率为60Hz，连接到Mac上的雷雳3端口。请将一台显示器连接到Mac顶部*的雷雳3端口，将另一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口。",
+        "act": "ans/open",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果您将一台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的左侧HDMI端口，则可以额外连接最多四台如下配置的显示器：",
+            "两台ProDisplayXDR，分辨率为6016x3384，频率为60Hz，连接到Mac上的雷雳3端口。请将一台显示器连接到Mac顶部*的雷雳3端口，将另一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那如果是两台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的两个HDMI端口的话，我还有一台5K显示器",
+        "act": "how",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果您将两台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的两个HDMI端口，则可以额外连接最多两台如下配置的显示器：",
+            "一台5K显示器，分辨率为5120x2880，频率为60Hz，通过雷雳3连接。请将这台显示器连接到Mac上的任意一个雷雳3端口。"
+        ],
+        "grounding_id": [
+            "13",
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您将两台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的两个HDMI端口还有一台5K显示器的话，那么这台5K显示器可以通过雷雳3连接。",
+        "act": "ans/open",
+        "document": "将RadeonProW6600XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "一台5K显示器，分辨率为5120x2880，频率为60Hz，通过雷雳3连接。请将这台显示器连接到Mac上的任意一个雷雳3端口。",
+            "如果您将两台分辨率为3840x2160、频率为60Hz的4K显示器连接到MPX模块的两个HDMI端口，则可以额外连接最多两台如下配置的显示器："
+        ],
+        "grounding_id": [
+            "15",
+            "13"
+        ]
+    }
+]

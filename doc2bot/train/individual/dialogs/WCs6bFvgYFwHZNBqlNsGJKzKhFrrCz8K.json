@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江湖州电动车登记多久能好？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您进行登记时当即就为您办结的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "不是不是，我说的是那个什么结果送达要多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自您作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，我能不能直接在网上申请啊？赶不上你们营业时间。",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，您可以选择网上申请或现场窗口申请两种办理形式。",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我知道了，那我现在想申请电动自行车注册登记。",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您的电动自行车是否满足列入省经信委产品公告呢？",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "列入省经信委产品公告的电动自行车。\n温馨提示：需交验电动自行车。"
+        ],
+        "grounding_id": [
+            "162"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "满足。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "列入省经信委产品公告的电动自行车。\n温馨提示：需交验电动自行车。"
+        ],
+        "grounding_id": [
+            "162"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以申请电动自行车注册登记。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "161"
+        ]
+    }
+]

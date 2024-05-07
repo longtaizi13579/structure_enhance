@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询港澳通行证及签注相关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是港澳逗留签注、港澳商务签注、往来港澳通行证还是其他业务有关的内容呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "港澳逗留签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询港澳逗留签注费用的有关问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "港澳逗留签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "512"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "513"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "513"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收费",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "514"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哪些项目要收费？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "520"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1 往来港澳通行证、2 长期（三年以上，含三年）多次有效签注、3 二年以上三年以下（不含三年）多次有效签注、4 短期（不超过一年）多次有效签注、5 一年以上（不含一年）二年以下（含二年）多次有效签注以上这些都需要收费。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "3\t二年以上三年以下（不含三年）多次有效签注"
+        ],
+        "grounding_id": [
+            "539"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "二年以上三年以下（不含三年）多次有效签注怎么收费？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "3\t二年以上三年以下（不含三年）多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "539",
+            "540"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "160元/件",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "160元/件"
+        ],
+        "grounding_id": [
+            "541"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "往来港澳通行证多少钱一本？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "1\t往来港澳通行证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "521",
+            "522"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "六十元一本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "523"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理长期（三年以上，含三年）多次有效签注多少钱？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "2\t长期（三年以上，含三年）多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "530",
+            "531"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "240元/件",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳逗留签注.json",
+        "grounding": [
+            "240元/件"
+        ],
+        "grounding_id": [
+            "532"
+        ]
+    }
+]

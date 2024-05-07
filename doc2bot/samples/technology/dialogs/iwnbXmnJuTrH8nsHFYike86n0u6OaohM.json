@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果想查找有关保修或AppleCare计划的信息可以去哪里",
+        "act": "where",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "查找有关保修或AppleCare计划的信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以前往https://checkcoverage.apple.com/cn/zh/或者mysupport.apple.com",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "前往https://checkcoverage.apple.com/cn/zh/",
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "5",
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "去这两个网站是干什么呢",
+        "act": "what",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "为了查明您的设备是不是在保障范围内",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那登录的话用什么账号呢",
+        "act": "what",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请使用您的AppleID登录，然后选取您的设备。",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "您也可以前往mysupport.apple.com，以查明您的设备是不是在保障范围内。请使用您的AppleID登录，然后选取您的设备。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那检查设备是不是在AppleCare计划或Apple有限保修的保障范围内的具体操作步骤是什么",
+        "act": "what",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "检查您的设备是不是在AppleCare计划或Apple有限保修的保障范围内",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先前往https://checkcoverage.apple.com/cn/zh/ ，然后输入设备的序列号，最后按照屏幕上的说明操作",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "前往https://checkcoverage.apple.com/cn/zh/",
+            "输入设备的序列号。",
+            "按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果想查看保障服务所涵盖的范围应该怎么操作",
+        "act": "how",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "查看您的保障服务所涵盖的范围",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先前往mysupport.apple.com，然后使用您的AppleID登录，最后选取您的设备。您可以查看您有资格享受的支持服务的相关详细信息，包括硬件维修和技术支持。",
+        "act": "ans/open",
+        "document": "查找有关保修或AppleCare计划的信息.json",
+        "grounding": [
+            "前往mysupport.apple.com。",
+            "使用您的AppleID登录。",
+            "选取您的设备。您可以查看您有资格享受的支持服务的相关详细信息，包括硬件维修和技术支持。"
+        ],
+        "grounding_id": [
+            "17",
+            "21",
+            "22"
+        ]
+    }
+]

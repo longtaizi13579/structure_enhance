@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于iCloud通讯录、日历或提醒事项没有同步的相关的问题。",
+        "act": "what",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解删除已完成的提醒事项或逾期的提醒事项、要进行的几步检查、还是尝试按照适用于您设备的步骤操作呢？",
+        "act": "multiple-choice",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步",
+            "删除已完成的提醒事项或逾期的提醒事项"
+        ],
+        "grounding_id": [
+            "1",
+            "136"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "一个个了解吧，先了解一下要删除已完成的提醒事项或逾期的提醒事项怎么操作吧？",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "删除已完成的提醒事项或逾期的提醒事项"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤：首先 打开“提醒事项”App。然后 打开“提醒事项”App。 如果您发现了逾期的提醒事项，请选中空白圆圈以完成提醒事项，或者删除提醒事项。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "具体步骤",
+            "打开“提醒事项”App。",
+            "前往“今天”视图，并查看有没有任何逾期的提醒事项。",
+            "如果您发现了逾期的提醒事项，请选中空白圆圈以完成提醒事项，或者删除提醒事项。"
+        ],
+        "grounding_id": [
+            "137",
+            "138",
+            "139",
+            "140"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "明白，那这个要进行的几项检查要怎么做呢？",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "首先要进行的几项检查"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先要进行的几项检查:：查看iCloud通讯录、日历或提醒事项的系统状态，以确认存不存在服务中断或连接问题。如果某条提醒事项没有在您的部分设备上显示，请确保您的iPhone和iPad装有最新版iOS或iPadOS，或者您的Mac装有最新版macOS。 确保您已在所有设备上使用同一AppleID登录iCloud。然后，确认您已在iCloud设置中打开“通讯录”、“日历”和“提醒事项”。 检查设备上的日期和时间设置，以确保它们对您当前所在地是正确的。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "首先要进行的几项检查",
+            "查看iCloud通讯录、日历或提醒事项的系统状态，以确认存不存在服务中断或连接问题。",
+            "如果某条提醒事项没有在您的部分设备上显示，请确保您的iPhone和iPad装有最新版iOS或iPadOS，或者您的Mac装有最新版macOS。",
+            "确保您已在所有设备上使用同一AppleID登录iCloud。然后，确认您已在iCloud设置中打开“通讯录”、“日历”和“提醒事项”。",
+            "检查设备上的日期和时间设置，以确保它们对您当前所在地是正确的。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "8",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那还有尝试按照适用于设备的步骤操作是什么呢？",
+        "act": "what",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "尝试按照适用于您设备的步骤操作"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。iOS13和iPadOS或更高版本；watchOS；macOS；iCloud.com；MicrosoftWindows。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。",
+            "iOS13和iPadOS或更高版本",
+            "watchOS",
+            "macOS",
+            "iCloud.com",
+            "MicrosoftWindows"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "30",
+            "34",
+            "38"
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江湖州的，我想申领失业补助金，大概什么时候能办好？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "法定办结时限",
+            "浙江省_湖州市",
+            "失业补助金申领"
+        ],
+        "grounding_id": [
+            "59",
+            "T13",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "浙江省湖州市法定办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）",
+            "浙江省_湖州市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "60",
+            "T13",
+            "59"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我可以自己在自助机上办理吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "支持自助终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有其他什么办理方法呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "网上申请，现场窗口申请，现场自助机申请都是可以的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

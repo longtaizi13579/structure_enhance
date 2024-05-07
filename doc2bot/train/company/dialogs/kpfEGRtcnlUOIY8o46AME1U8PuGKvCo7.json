@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下在浙江宁波办理分公司的变更登记可以在自助机器上面办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "分公司变更登记",
+            "是否支持自助终端办理",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "91",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，支持自助终端办理",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我可以怎样先去申请办理这个呢？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以先通过网上申请、现场窗口申请、邮寄申请或者现场自助冀申请的",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，谢谢，那这个的办理完成的时间大概要多久呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您问的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "法定的办结时限是多久的？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，你问我申请的话大概要多久可以收到结果呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "送达时限是要自作出决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那办理地方的工作人员上班时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个的办理时间是工作日，上午9:00～12：00，下午13：30～17:00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "工作日，上午9:00～12：00，下午13：30～17:00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，那办理这个大概是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "253",
+            "254"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个是不用收费的",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "255"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还以为要收费呢，我还有其他关于办理这个的问题想要咨询，可以怎样来了解呢？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这边有咨询电话和咨询地址，您需要哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "打电话吧，咨询电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "咨询电话是0574-87185566",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "0574-87185566"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "社保医保",
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T168",
+            "T13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工伤保险、失业保险、医疗保险您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T203"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "失业保险关系转移申请的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "失业保险"
+        ],
+        "grounding_id": [
+            "1",
+            "T203"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.复核 4.审核 5.办结 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "复核",
+            "审核",
+            "送达"
+        ],
+        "grounding_id": [
+            "328",
+            "332",
+            "341",
+            "346",
+            "356"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个业务是谁负责办理的？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "受理",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "332",
+            "335"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "窗口工作人员会给您办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "窗口工作人员"
+        ],
+        "grounding_id": [
+            "336"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "复核的负责人又是谁？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "复核",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "341",
+            "344"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "科室经办人员负责。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "科室经办人员"
+        ],
+        "grounding_id": [
+            "350"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问问有关收费标准的问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "421"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "422"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这业务收费吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "422"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "423"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "三十个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个业务我可以自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "支持"
+        ],
+        "grounding_id": [
+            "71",
+            "72"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    }
+]

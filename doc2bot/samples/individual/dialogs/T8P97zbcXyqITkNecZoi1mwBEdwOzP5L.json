@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要在浙江省嘉兴市办理赴台其他签注，想要问一下一些关于办理的信息，我可以怎样去了解呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "浙江省_嘉兴市",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "T11",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这里有电话咨询和咨询地址，你要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那个咨询电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询电话是0573-12367",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "0573-12367"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "算了，还是咨询地址吧，电话里有的问题问不清楚",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询地址是在嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口这两个地方",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "1、嘉兴市南湖区越秀南路409号出入境接待大厅一楼四号窗口；2、嘉兴市南湖区凌公塘路1683号行政审批服务中心（政务数据办）四楼公安服务窗口。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢，那办理这个签注需要交付费用的吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是否收费",
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "9554",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是要交费的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "9555"
+        ]
+    }
+]

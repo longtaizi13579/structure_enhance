@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下如何在iPad上拍摄截屏？",
+        "act": "how",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的ipad是否有主屏幕按钮呢？",
+        "act": "verification",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "如何在配备主屏幕按钮的iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有的",
+        "act": "ans/yes",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "如何在配备主屏幕按钮的iPad上拍摄截屏"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1.同时按下顶部按钮和主屏幕按钮。 2.快速松开这两个按钮。 3.拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "同时按下顶部按钮和主屏幕按钮。",
+            "快速松开这两个按钮。",
+            "拍摄截屏后，屏幕左下角会短暂地显示一个缩略图。轻点缩略图可将它打开，或向左轻扫可将它关闭。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "截完的图片在哪能找到？",
+        "act": "what",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏",
+            "在哪里可以找到截屏"
+        ],
+        "grounding_id": [
+            "1",
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "打开“照片”，然后前往“相簿”>“截屏”。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "打开“照片”，然后前往“相簿”>“截屏”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "截屏有什么作用？",
+        "act": "what",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "在iPad上拍摄截屏",
+            "快速存储屏幕上的内容。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以快速存储屏幕上的内容。",
+        "act": "ans/open",
+        "document": "在iPad上拍摄截屏.json",
+        "grounding": [
+            "快速存储屏幕上的内容。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

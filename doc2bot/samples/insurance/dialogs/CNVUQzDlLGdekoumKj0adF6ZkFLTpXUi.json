@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道保险的保障期是多久？",
+        "act": "when",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你具体是哪种保险呢？",
+        "act": "question/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "国寿小额团体特定疾病保险。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "本合同保险期间为一年，除另有约定外，自本合同生效之日起至本合同约定终止日二十四时止，由投保人与保险公司在投保时协商确定。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "本合同保险期间为一年，除另有约定外，自本合同生效之日起至本合同约定终止日二十四时止，由投保人与本公司在投保时协商确定。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "因为心脏问题做了手术可以使用这个保险吗？",
+        "act": "verification",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是做了什么手术呢？",
+        "act": "question/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "冠状动脉搭桥术。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，该疾病是中国保险行业协会制定的《重大疾病保险的疾病定义使用规范》 中列明的十五种疾病中的一种。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "本合同所指特定疾病，是被保险人发生符合以下定义所述条件的疾病、疾病状态或手术，共计十五种，该十五种疾病为中国保险行业协会制定的《重大疾病保险的疾病定义使用规范》中列明的疾病。特定疾病的名称及定义如下："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "凡是有癌症都可以使用这个保险吗？",
+        "act": "verification",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想了解哪种呢？",
+        "act": "question/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "前列腺癌。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "国寿小额团体特定疾病保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "TNM分期为T11NN00MM00期或更轻分期的前列腺癌是不在保障范围内的。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "5.TNM分期为T11NN00MM00期或更轻分期的前列腺癌；"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么情况下才叫瘫痪？",
+        "act": "what",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "特定疾病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "瘫痪指因疾病或意外伤害导致两肢或两肢以上肢体机能永久完全丧失。肢体机能永 久完全丧失，指疾病确诊180天后或意外伤害发生180天后，每肢三大关节中的两大关节仍然 完全僵硬，或不能随意识活动。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "瘫痪指因疾病或意外伤害导致两肢或两肢以上肢体机能永久完全丧失。肢体机能永久完全丧失，指疾病确诊180天后或意外伤害发生180天后，每肢三大关节中的两大关节仍然完全僵硬，或不能随意识活动。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "这个保险保障疾病里面烧伤吗？",
+        "act": "verification",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "特定疾病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "只有严重Ⅲ度烧伤在保障范围。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "特定疾病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那怎么样才算Ⅲ度烧伤呢？",
+        "act": "how",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "特定疾病"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "严重Ⅲ度烧伤指烧伤程度为Ⅲ度,且Ⅲ度烧伤的面积达到全身体表面积的20％或20％ 以上。",
+        "act": "ans/open",
+        "document": "国寿小额团体特定疾病保险.json",
+        "grounding": [
+            "严重Ⅲ度烧伤指烧伤程度为Ⅲ度,且Ⅲ度烧伤的面积达到全身体表面积的20％或20％以上。体表面积根据《中国新九分法》计算。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

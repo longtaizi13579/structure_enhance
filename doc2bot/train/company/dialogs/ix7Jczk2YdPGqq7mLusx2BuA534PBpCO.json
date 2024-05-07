@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "终止外籍人员子女学校的管理审批有什么限制要求吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "1",
+            "134"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道外籍人员子女学校终止审批是否有禁止性要求吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "1",
+            "134"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "外籍人员子女学校终止审批无禁止性要求。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "135"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想问一下办事处电话是多少？",
+        "act": "what",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "为您查询到咨询电话是0571-88008987。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我打0571-88008987过去没有人接咋办？",
+        "act": "how",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "0571-88008987"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以多次尝试拨打咨询电话。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "0571-88008987"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我直接问你吧，你们这个终止审批的依据是啥？",
+        "act": "what",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "外籍人员子女学校终止审批",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "285"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我没太懂您的意思呢，您是想问终止审批的设定依据，还是条款内容呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "设定依据",
+            "条款内容"
+        ],
+        "grounding_id": [
+            "285",
+            "293"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "条款内容。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "条款内容"
+        ],
+        "grounding_id": [
+            "293"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以到《国务院决定调整的行政审批项目》中查看开办外籍人员子女学校审批条款内容。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人力资源_常用服务_外籍人员子女学校终止审批.json",
+        "grounding": [
+            "第一章附件2《国务院决定调整的行政审批项目目录（143项）》表《（一）下放管理层级的行政审批项目（117项）》第5项：开办外籍人员子女学校审批。",
+            "条款内容"
+        ],
+        "grounding_id": [
+            "294",
+            "293"
+        ]
+    }
+]

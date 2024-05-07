@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎样知道在哪里可以使用ApplePay乘坐公共交通？",
+        "act": "how",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请咨询当地的公共交通公司，了解他们是不是支持使用ApplePay进行付款。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "请咨询当地的公共交通公司，了解他们是不是支持使用ApplePay进行付款。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "香港可以使用ApplePay乘坐公共交通吗？",
+        "act": "verification",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通",
+            "亚太地区",
+            "香港"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以。添加八达通卡。在接受这种卡的任何地区都可以乘车。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加八达通卡*。在接受这种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "中国大陆哪里可以使用ApplePay乘坐公共交通？",
+        "act": "where",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通",
+            "中国大陆"
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "添加交通联合(ChinaT-Union)交通卡。在接受这种卡的任何地区都可以乘车。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "添加交通联合(ChinaT-Union)交通卡*。在接受这种卡的任何地区都可以乘车。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

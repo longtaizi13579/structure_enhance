@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好有问题想问一下关于这个在日本的iPhone或AppleWatch上使用Suica或PASMO卡",
+        "act": "what",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本的iPhone或AppleWatch上使用Suica或PASMO卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在日本，您可以在“钱包”App中使用Suica和PASMO卡乘坐公共交通工具，并在iPhone或AppleWatch上使用ApplePay在商店购物。",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本，您可以在“钱包”App中使用Suica和PASMO卡乘坐公共交通工具，并在iPhone或AppleWatch上使用ApplePay在商店购物。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果要将Suica或PASMO卡与ApplePay搭配使用如何呢",
+        "act": "how",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "可以将Suica或PASMO卡与ApplePay搭配使用"
+        ],
+        "grounding_id": [
+            "107"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "将您的Suica或PASMO卡添加到“钱包”App*。机型，装有最新版iOS的iPhone8、iPhone8Plus或更新机型，或者装有最新版watchOS的AppleWatchSeries3或更新机型。",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "将您的Suica或PASMO卡添加到“钱包”App*。",
+            "机型",
+            "装有最新版iOS的iPhone8、iPhone8Plus或更新机型，或者装有最新版watchOS的AppleWatchSeries3或更新机型。"
+        ],
+        "grounding_id": [
+            "9",
+            "106",
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想问一下就是我以前在日本买的7Plus是不是就不能用Suica卡",
+        "act": "verification",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "您还可以在日本境内购买的iPhone7、iPhone7Plus或AppleWatchSeries2上使用Suica卡。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的",
+        "act": "ans/no",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "您还可以在日本境内购买的iPhone7、iPhone7Plus或AppleWatchSeries2上使用Suica卡。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "将第一张Suica或PASMO卡添加到“钱包”App时会默认快捷模式吗",
+        "act": "verification",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "当您将第一张Suica或PASMO卡添加到“钱包”App时，默认情况下这张卡将打开“快捷模式”。“快捷模式”允许您在不唤醒或解锁设备，或者未使用面容ID、触控ID或密码进行身份验证的情况下使用卡片。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当您将第一张Suica或PASMO卡添加到“钱包”App时，默认情况下这张卡将打开“快捷模式”。“快捷模式”允许您在不唤醒或解锁设备，或者未使用面容ID、触控ID或密码进行身份验证的情况下使用卡片。",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "当您将第一张Suica或PASMO卡添加到“钱包”App时，默认情况下这张卡将打开“快捷模式”。“快捷模式”允许您在不唤醒或解锁设备，或者未使用面容ID、触控ID或密码进行身份验证的情况下使用卡片。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那还有问题想问一下也是关于在日本的iPhone或AppleWatch上使用Suica或PASMO卡",
+        "act": "what",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "在日本的iPhone或AppleWatch上使用Suica或PASMO卡"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的那您是想了解添加额外的Suica或PASMO卡还是使用Suica或PASMO卡乘坐公共交通或是在商店内使用Suica或PASMO卡再或是检查Suica或PASMO卡的余额等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "使用Suica或PASMO卡乘坐公共交通"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "使用Suica或PASMO卡乘坐公共交通",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "使用Suica或PASMO卡乘坐公共交通"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那这个您是想了解如何使用Suica或PASMO卡乘坐公共交通还是将您的Suica卡置于服务模式",
+        "act": "multiple-choice",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "将您的Suica卡置于服务模式"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "Suica卡置于服务模式",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "将您的Suica卡置于服务模式"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如何在iPhone上将Suica卡置于服务模式: 首先打开“钱包”App。然后选择您的Suica卡。其次轻点“更多”按钮。最后打开“服务模式”。",
+        "act": "ans/open",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "如何在iPhone上将Suica卡置于服务模式",
+            "打开“钱包”App。",
+            "选择您的Suica卡。",
+            "轻点“更多”按钮。",
+            "打开“服务模式”。"
+        ],
+        "grounding_id": [
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那如果添加额外的Suica或PASMO卡是不是也可以更改设置为“快捷模式”的卡。",
+        "act": "verification",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "您可以更改设置为“快捷模式”的卡。"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的可以更改设置为“快捷模式”的卡。",
+        "act": "ans/yes",
+        "document": "在日本的iPhone或AppleWatch上使用Suica或PASMO卡.json",
+        "grounding": [
+            "您可以更改设置为“快捷模式”的卡。"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    }
+]

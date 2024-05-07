@@ -1,0 +1,288 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下在香港人的孩子在浙江省杭州市中考的话有没有优待呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "中考优待",
+            "考试教育"
+        ],
+        "grounding_id": [
+            "T4",
+            "T229",
+            "T228"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是对港澳居民子女考生参加中考优待的确认还是对少数民族考生参加中考优待的确认呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对港澳居民子女考生参加中考优待的确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是对港澳居民子女考生参加中考优待的确认，那办理的流程是什么呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对港澳居民子女考生参加中考优待的确认",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "211"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程包括: 1.申请 2.受理 3. 初审 4.复核 5.公示 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            " 初审",
+            "复核",
+            "公示",
+            "送达"
+        ],
+        "grounding_id": [
+            "211",
+            "212",
+            "214",
+            "223",
+            "232",
+            "241",
+            "250"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那申请的话是去哪里呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "212"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "申请人向考生参加中考所在区的人民政府侨务办公室提交申请就可以",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "申请人向考生参加中考所在区的人民政府侨务办公室提交申请。"
+        ],
+        "grounding_id": [
+            "213"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "提交完申请之后是当场受理吗？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "受理",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "214",
+            "221"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果材料齐全符合法定条件的当场受理；如果.材料不齐全或不符合法定形式的当场告知。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "1.材料齐全符合法定条件的当场受理；2.材料不齐全或不符合法定形式的当场告知。 "
+        ],
+        "grounding_id": [
+            "222"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，如果初审和复核都通过的话去哪里能查到公示结果呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            " 初审",
+            "复核",
+            "公示"
+        ],
+        "grounding_id": [
+            "223",
+            "232",
+            "241"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据审核情况，对符合的通过杭州教育网进行集中公示",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "根据审核情况，对符合的通过杭州教育网进行集中公氏"
+        ],
+        "grounding_id": [
+            "247"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，公示的名单就是最后会加分的名单是吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "公示无异议的予以加分",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "公示无异议的予以加分"
+        ],
+        "grounding_id": [
+            "249"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个加分政策在填报志愿的时候能体现吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "送达",
+            " 填报中考志愿时在系统中告知"
+        ],
+        "grounding_id": [
+            "250",
+            "251"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "填报中考志愿时会在系统中告知",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            " 填报中考志愿时在系统中告知"
+        ],
+        "grounding_id": [
+            "251"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那就好，如果我还有问题想了解的话应该去哪里？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以到杭州市拱墅区屏风街8号203室咨询更多信息",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "杭州市拱墅区屏风街8号203室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，如果发现有弄虚作假的话可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以选择投诉电话、投诉地址或投诉网址进行投诉",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，请给我一下投诉电话吧",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_考试教育_中考优待_对港澳居民子女考生参加中考优待的确认.json",
+        "grounding": [
+            "0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道浙江省丽水市进口机动车注册登记的信息",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "进口机动车注册登记"
+        ],
+        "grounding_id": [
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解办理地点，办理时间，还是法定办结时限",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道法定办结时限",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "两个工作日",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个摩托车反光号牌怎么收费？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "2\t摩托车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "375",
+            "393",
+            "394"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "70元/副",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "70元/副"
+        ],
+        "grounding_id": [
+            "395"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，如果是农用车反光号牌也是70吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "1\t农用车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "384",
+            "385"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，40元/副",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "40元/副"
+        ],
+        "grounding_id": [
+            "386"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，更多的信息想咨询的话有什么途径",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我可以为您提供咨询电话，咨询地址和咨询网址，您需要哪一种",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道咨询地址",
+        "act": "where",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "丽水市公安局交通警察支队车辆管理所",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_进口机动车注册登记.json",
+        "grounding": [
+            "丽水市公安局交通警察支队车辆管理所"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

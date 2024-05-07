@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "台州市对公司章程的修改备案办结时限是多久？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "对公司章程修改备案",
+            "浙江省_台州市",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T8",
+            "57"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的办结时限，多久呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那能现场能自助终端办理业务吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "自助终端目前不支持办理。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，我想知道还有哪些办理的方法？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前有网上申请、现场窗口申请和邮寄申请的方式。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那公司章程修改备案后大概需要多久送到呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "送达时限",
+            "对公司章程修改备案"
+        ],
+        "grounding_id": [
+            "120",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内送达，耐心等待。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，给我个地址吧，我去修改一下，具体位置在哪？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理地点在台州市开发大道692号广达嘉苑3号楼二楼综合服务窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_企业变更_常用服务_对公司章程修改备案.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）二楼综合服务窗口（B03-06，09，11-15）(到一楼导办台取号)"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

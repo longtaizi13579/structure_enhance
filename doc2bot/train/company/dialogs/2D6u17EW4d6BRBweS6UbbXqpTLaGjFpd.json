@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在浙江省做公司股权质押登记，有什么方法咨询呢？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "公司股权质押登记（变更）",
+            "咨询方式",
+            "浙江省_温州市"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "T12"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们目前有电话咨询与线下的地址咨询，您需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "给我地址吧，在哪？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "咨询地址在温州市鹿城区滨江街道会展路1288号B幢三楼咨询窗口。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）B幢三楼咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有点远呀这里，还是给我个电话吧？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话是0577-88926105。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "0577-88926105"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我刚打了电话这个客服什么态度啊？我要投诉她！投诉电话多少？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不好意思，我们的投诉电话是0577-88926920。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "0577-88926920"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好啊，打投诉电话都没人接，态度太差了，线下的投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址在温州市鹿城区滨江街道会展路1288号B幢一楼投诉窗口。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业变更_企业登记变更_公司股权质押登记（变更）.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）B幢一楼投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对了还有一个，在宁波外商投资企业登记的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "外商投资企业登记（变更）",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在工作日，上午9：00-12：00，下午13:30-17：00。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "工作日，上午9：00-12：00，下午13:30-17：00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，能给我个咨询电话吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "咨询电话是0574-87185566。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "0574-87185566"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，还有其他的办理方法吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前支持网上申请、现场窗口申请、邮寄申请、现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_企业登记变更_外商投资企业登记（变更）.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

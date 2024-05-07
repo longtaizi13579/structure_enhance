@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果意外地从iCloud中删除了日历，可以从较早的版本恢复日历吗？",
+        "act": "verification",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复日历",
+            "如果意外地从iCloud中删除了日历、书签或通讯录"
+        ],
+        "grounding_id": [
+            "20",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以，但是在恢复较早版本的日历时，会发生几件事。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复日历",
+            "在恢复较早版本的日历时，会发生几件事："
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "会发生什么事情？",
+        "act": "what",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "在恢复较早版本的日历时，会发生几件事："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您的共享设置会被抹掉，iCloud会取消并重新创建所有即将发生的事件和已计划的事件，然后为您重新发送邀请。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "您的共享设置会被抹掉。您可以再次共享日历，或者让所有者再次共享这些内容。",
+            "iCloud会取消并重新创建所有即将发生的事件和已计划的事件，然后为您重新发送邀请。"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果从从较早的版本恢复会怎样?",
+        "act": "how",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复时，您所选的版本会替换您所有设备上的现有日历、书签或通讯录。在恢复较早版本之前，iCloud会存储您的现有日历、书签或通讯录，以便您能在需要的时候撤销恢复。只需重复恢复步骤，然后选择最新的日期进行恢复。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "从较早的版本恢复时，您所选的版本会替换您所有设备上的现有日历、书签或通讯录。在恢复较早版本之前，iCloud会存储您的现有日历、书签或通讯录，以便您能在需要的时候撤销恢复。只需重复恢复步骤，然后选择最新的日期进行恢复。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复时，您所选的版本会替换您所有设备上的现有日历、书签或通讯录。在恢复较早版本之前，iCloud会存储您的现有日历、书签或通讯录，以便您能在需要的时候撤销恢复。只需重复恢复步骤，然后选择最新的日期进行恢复。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问一下如何撤销恢复?",
+        "act": "how",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "撤销恢复"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你的意思是要回到恢复之前的日历、提醒事项、书签或通讯录吗?",
+        "act": "verification",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "要回到恢复之前的日历、提醒事项、书签或通讯录："
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的,给我具体讲一下步骤吧",
+        "act": "verification",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "要回到恢复之前的日历、提醒事项、书签或通讯录："
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的,首先在iPad或电脑上，登录到iCloud.com。然后点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。再向下滚动到页面底部。在“高级”下方，点按“恢复日历”、“恢复书签”或“恢复通讯录”。之后点按恢复日期旁边的“恢复”。最后再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "在iPad或电脑上，登录到iCloud.com。",
+            "点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。",
+            "向下滚动到页面底部。在“高级”下方，点按“恢复日历”、“恢复书签”或“恢复通讯录”。",
+            "点按恢复日期旁边的“恢复”。",
+            "再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。"
+        ],
+        "grounding_id": [
+            "38",
+            "42",
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我版本很早的能行吗?",
+        "act": "what",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复通讯录或书签"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是想问从较早的版本恢复通讯录或书签吗?",
+        "act": "verification",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复通讯录或书签"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的,给我讲一下需要如何操作吧?",
+        "act": "verification",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "从较早的版本恢复通讯录或书签"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先在iPad或电脑上，登录到iCloud.com。然后点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。再 向下滚动到页面底部。在“高级”下方，点按“恢复通讯录”或“恢复书签”。之后 点按在早于内容删除日的日期旁边的“恢复”。最后再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "在iPad或电脑上，登录到iCloud.com。",
+            "点按iCloud.com窗口顶部的姓名，然后点按“帐户设置”。",
+            "向下滚动到页面底部。在“高级”下方，点按“恢复通讯录”或“恢复书签”。",
+            "点按在早于内容删除日的日期旁边的“恢复”。",
+            "再次点按“恢复”以进行确认。恢复完成后，您会在iCloud.com上收到一个通知，还会在AppleID登记的地址上收到一封电子邮件。"
+        ],
+        "grounding_id": [
+            "9",
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我弟弟还让我问一下他昨天一不小心从iCloud中删除了日历、书签或通讯录咋办?",
+        "act": "how",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "如果意外地从iCloud中删除了日历、书签或通讯录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以告诉他前往iCloud.com，然后从较早的版本恢复丢失的日历、书签或通讯录。",
+        "act": "ans/open",
+        "document": "如果意外地从iCloud中删除了日历、书签或通讯录.json",
+        "grounding": [
+            "您可以前往iCloud.com，然后从较早的版本恢复丢失的日历、书签或通讯录。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

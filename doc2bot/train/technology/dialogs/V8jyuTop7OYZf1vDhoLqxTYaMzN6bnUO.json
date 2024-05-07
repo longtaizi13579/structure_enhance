@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么查看AppleID的余额呢",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想在什么设备上查看呢",
+        "act": "question/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在Mac上查看余额"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想在Mac上查看余额",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在Mac上查看余额"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。 如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。",
+            "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果是在WindowsPC上的话有什么不同呢",
+        "act": "what",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在WindowsPC上查看余额"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "步骤如下：打开Windows版iTunes。如果您还没有登录，请使用您的AppleID登录，在iTunes窗口的顶部，点按“商店”，如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "打开Windows版iTunes。如果您还没有登录，请使用您的AppleID登录。",
+            "在iTunes窗口的顶部，点按“商店”。",
+            "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果有无法使用的AppleID余额的话可以换成现金吗",
+        "act": "verification",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "如果您有无法使用的AppleID余额",
+            "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息："
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。",
+        "act": "ans/no",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可是我好像看待有人能将余额退款啊",
+        "act": "what",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，还需要提供一些信息",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "需要提供什么信息呢",
+        "act": "what",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "除非法律另有规定，否则您无法将AppleGiftCard、AppStore与iTunes充值卡或没有使用的AppleID余额兑换成现金或进行退款。如果您所在的司法管辖区允许对已兑换的充值卡余额进行退款，您可以联系Apple支持以请求退款。在您联系Apple时，请提供以下信息："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您的AppleID，退款金额，以及您当前的送货地址",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "您的AppleID。",
+            "退款金额。",
+            "您当前的送货地址。"
+        ],
+        "grounding_id": [
+            "38",
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那怎么查看具体的余额有多少",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问您是在在iPhone上查看吗",
+        "act": "verification",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上查看余额"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的，步骤是什么",
+        "act": "what",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上查看余额"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先打开AppStoreApp，然后轻点屏幕顶部您的照片或登录按钮。系统可能会要求您使用AppleID登录，如果您的帐户有余额，则会显示相应金额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "轻点屏幕顶部您的照片或登录按钮。系统可能会要求您使用AppleID登录。",
+            "如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我好像没有看到金额啊，这是怎么回事",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

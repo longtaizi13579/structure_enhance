@@ -1,0 +1,296 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下因为服兵役导致没有办法在规定时间内办理驾驶证审验的，可以申请延期办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "驾驶证延期审验",
+            "受理条件",
+            "机动车驾驶人因服兵役、出国（境）等原因，无法在规定时间内办理驾驶证审验的，可以向机动车驾驶证核发地车辆管理所申请延期办理",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "1",
+            "153",
+            "154",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "机动车驾驶人因服兵役、出国（境）等原因，无法在规定时间内办理驾驶证审验的，可以向机动车驾驶证核发地车辆管理所申请延期办理"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那应该去哪里申请呢？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "机动车驾驶人因服兵役、出国（境）等原因，无法在规定时间内办理驾驶证审验的，可以向机动车驾驶证核发地车辆管理所申请延期办理"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以向机动车驾驶证核发地车辆管理所申请延期办理",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "机动车驾驶人因服兵役、出国（境）等原因，无法在规定时间内办理驾驶证审验的，可以向机动车驾驶证核发地车辆管理所申请延期办理"
+        ],
+        "grounding_id": [
+            "154"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，有没有什么限制条件啊？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "155"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "无禁止性要求的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "156"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，那申请后当天就可以拿到驾驶证吗？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T89",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "正常情况下一个工作日就可以办结。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，是需要去现场申请对吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以选择现场窗口申请，也可以网上申请",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那到现场窗口的话是用自助机器自己办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是的，此项业务暂时不支持自助终端代理。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那申请完之后我多长时间就能拿到驾驶证呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一般自作出决定之日起0个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那就谁说我当天就可以拿到是吧？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "正常情况下一个工作日就可以的",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，如果还有别的问题咨询的话有没有联系方式啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有的，请问您是需要咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想知道咨询电话",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "好的，咨询电话为0571-12123",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "0571-12123；0571-96345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "我刚刚打过了，没有人接，还有没有别的电话号码？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "有的，您可以拨打0571-96345试试。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证延期审验.json",
+        "grounding": [
+            "0571-12123；0571-96345"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

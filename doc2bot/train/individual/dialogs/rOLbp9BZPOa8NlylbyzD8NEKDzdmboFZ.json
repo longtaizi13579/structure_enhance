@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我现在人在浙江省-温州市，我想出国需要办理一个普通护照，挺着急的，问一下多久能办理完成",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_温州市",
+            "护照"
+        ],
+        "grounding_id": [
+            "T3",
+            "T297"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们是遵循法定办结时限的，大约需要30个在工作日",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "最近比较忙支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1470"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "支持",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1471"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我再顺便问一下有线下可以办理的地点吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "124"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，您需要具体地址吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的，请告诉我具体地址是在哪",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们具体地址是温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "具体地址",
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口"
+        ],
+        "grounding_id": [
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你能不能一次性把地址和时间都告诉我，不然我也不知道啥时候办理啊",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理时间",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127",
+            "125"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，我们的办理地点地址是温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口，办理时间是工作日，夏季：上午8:30—12:00，下午14:30—17:30；春、秋、冬季：上午8:30—12:00，下午14:00—17:00；星期六（节假日除外）实行电话预约办证，预约电话：0577-89980376。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "办理时间",
+            "工作日，夏季：上午8:30—12:00，下午14:30—17:30；春、秋、冬季：上午8:30—12:00，下午14:00—17:00；星期六（节假日除外）实行电话预约办证，预约电话：0577-89980376。",
+            "具体地址",
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口"
+        ],
+        "grounding_id": [
+            "127",
+            "128",
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你每次说话都说不完整，我要投诉你们，有投诉方式吗",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的我们有投诉电话和线下投诉，您需要哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我需要你们的投诉电话",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "0577-89980358和“0577-12345”两个都可以接通",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "0577-89980358、“0577-12345”投诉热线。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "浙江省-温州市的线下投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "浙江省_温州市",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "T3",
+            "36"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区2楼73号窗口",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A区2楼73号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

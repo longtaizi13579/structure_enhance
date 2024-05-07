@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下怎么在iPhone或iPad上设置个人热点呢？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "如何在iPhone或iPad上设置个人热点"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "设置个人热点具体步骤：前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”；轻点“允许其他人加入”旁边的滑块。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”。",
+            "轻点“允许其他人加入”旁边的滑块。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，那如何通过Wi-Fi、蓝牙或USB连接到个人热点呢？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "通过Wi-Fi、蓝牙或USB连接到个人热点",
+            "Wi-Fi"
+        ],
+        "grounding_id": [
+            "8",
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想了解在提供个人热点的设备上还是在需要连接个人热点的设备上呢？",
+        "act": "multiple-choice",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我先了解一下在需要连接个人热点的设备上应该怎么操作吧？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在需要连接个人热点的设备上，前往“设置”>“无线局域网”，并在列表中查找您的iPhone或iPad。然后，轻点要加入的Wi-Fi网络。在系统提示您输入个人热点的密码时，请照做。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那通过Wi-Fi、蓝牙或USB连接到个人热点，屏幕被锁定，个人热点的设备还能保持连接吗？",
+        "act": "verification",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "您可以通过Wi-Fi、蓝牙或USB连接到个人热点。在iOS13或更高版本中，即使屏幕被锁定，连接到个人热点的设备也能保持连接，因此，这些设备仍能收到通知和信息。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的， 那在提供个人热点的设备上应该怎么弄呢？",
+        "act": "how",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在提供个人热点的设备上，前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，并确保“个人热点”处于打开状态。然后，验证手机的Wi-Fi密码和名称。停留在这一屏幕上，直到您的其他设备已连接到这个Wi-Fi网络。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在提供个人热点的设备上，前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，并确保“个人热点”处于打开状态。然后，验证手机的Wi-Fi密码和名称。停留在这一屏幕上，直到您的其他设备已连接到这个Wi-Fi网络。",
+        "act": "ans/open",
+        "document": "如何在iPhone或iPad上设置个人热点.json",
+        "grounding": [
+            "在提供个人热点的设备上，前往“设置”>“蜂窝网络”>“个人热点”，或“设置”>“个人热点”，并确保“个人热点”处于打开状态。然后，验证手机的Wi-Fi密码和名称。停留在这一屏幕上，直到您的其他设备已连接到这个Wi-Fi网络。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    }
+]

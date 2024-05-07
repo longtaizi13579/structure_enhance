@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省湖州市的，我想了解一下怎么知道自己是否符合电动自行车注册登记的条件呢？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的电动自行车是否被列入省经信委产品公告呢？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "列入省经信委产品公告的电动自行车。\n温馨提示：需交验电动自行车。"
+        ],
+        "grounding_id": [
+            "162"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的电动自行车是列入了的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "列入省经信委产品公告的电动自行车。\n温馨提示：需交验电动自行车。"
+        ],
+        "grounding_id": [
+            "162"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您就符合电动自行车注册登记的条件。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "电动自行车注册登记",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "161"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "按规定几天办完？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咨询地址：湖州市吴兴区青铜路298号政法楼4楼404室。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_电动自行车注册登记.json",
+        "grounding": [
+            "咨询地址",
+            "湖州市吴兴区青铜路298号政法楼4楼404室"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问一下，我的汽车贷款还完了，怎么解除质押？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以申请机动车质押备案。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "355"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不收费。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "356"
+        ]
+    }
+]

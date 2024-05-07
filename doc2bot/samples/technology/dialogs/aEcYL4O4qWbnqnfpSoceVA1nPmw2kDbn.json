@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问一下Mac怎么查妙控设备的序列号啊？",
+        "act": "how",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "查找妙控键盘、妙控鼠标或妙控板的序列号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想查找的是无线键盘、无线鼠标还是无线触控板的序列号呢？",
+        "act": "multiple-choice",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "Apple无线鼠标"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我都需要查一下，你先告诉我无限鼠标在哪里找吧，我的鼠标是很早之前买的了，实在没找到。",
+        "act": "ans/open",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "Apple无线鼠标"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "早期的无线鼠标，您可以在设备的电池槽中找到序列号。",
+        "act": "ans/open",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "对于早期的Apple无线鼠标型号，您可以在设备的电池槽中找到序列号。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那妙控板的在哪里找呀？",
+        "act": "what",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "妙控板"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "妙控板的序列号以及其他标记都位于设备底面。早期的在上半部分，晚期的在下半部分。",
+        "act": "ans/open",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "妙控板的序列号以及其他标记都位于设备底面。它是由17个字母和数字组成的字符串。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那最新的妙控鼠标也是在电池槽里找序列号吗？",
+        "act": "verification",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "妙控鼠标"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的，妙控鼠标的序列号以及其他标记都位于设备底面。它是由17个字母和数字组成的字符串。",
+        "act": "ans/open",
+        "document": "查找妙控键盘、妙控鼠标或妙控板的序列号.json",
+        "grounding": [
+            "妙控鼠标的序列号以及其他标记都位于设备底面。它是由17个字母和数字组成的字符串。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

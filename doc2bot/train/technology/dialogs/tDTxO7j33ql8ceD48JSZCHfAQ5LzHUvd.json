@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "删除我的个人资料后，我的用户别名和音乐活动还有保留吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容",
+            "管理您分享的内容",
+            "删除您的个人资料",
+            "删除您的个人资料后，您的用户别名和音乐活动将从AppleMusic中清除，但您的AppleMusic订阅不受影响。如果您与朋友分享了某个播放列表，并且他们将这个列表存储到自己的设备中，那么这个播放列表将会消失。您的资料库和播放列表不会更改。"
+        ],
+        "grounding_id": [
+            "1",
+            "17",
+            "40",
+            "45"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "删除您的个人资料后，您的用户别名和音乐活动将从AppleMusic中清除",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "删除您的个人资料后，您的用户别名和音乐活动将从AppleMusic中清除，但您的AppleMusic订阅不受影响。如果您与朋友分享了某个播放列表，并且他们将这个列表存储到自己的设备中，那么这个播放列表将会消失。您的资料库和播放列表不会更改。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询在AppleMusic上管理我分享的内容的问题",
+        "act": "what",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容",
+            "管理您分享的内容"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "查看您的个人资料、分享或隐藏您的播放列表、隐藏您正在收听的音乐、 删除您的个人资料，您想咨询哪个？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "隐藏您正在收听的音乐"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎样隐藏正在收听的音乐？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "隐藏您正在收听的音乐",
+            "要隐藏您正在收听的所有音乐，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "32",
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.在您的个人资料顶部，轻点“编辑”。 2.滚动到底部，然后按照适用于您设备的步骤操作。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "在您的个人资料顶部，轻点“编辑”。",
+            "滚动到底部，然后按照适用于您设备的步骤操作："
+        ],
+        "grounding_id": [
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎么样查看我的个人资料？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容",
+            "管理您分享的内容",
+            "查看您的个人资料"
+        ],
+        "grounding_id": [
+            "1",
+            "17",
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "1.打开“音乐”App。 2.轻点“现在就听”。 3.在“现在就听”的右上角，轻点头像图标或您的头像。 4.在屏幕顶部，轻点“[您的姓名]查看个人资料”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch或安卓设备上查看朋友在AppleMusic中收听的内容.json",
+        "grounding": [
+            "打开“音乐”App。",
+            "轻点“现在就听”。",
+            "在“现在就听”的右上角，轻点头像图标或您的头像。",
+            "在屏幕顶部，轻点“[您的姓名]查看个人资料”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ]
+    }
+]

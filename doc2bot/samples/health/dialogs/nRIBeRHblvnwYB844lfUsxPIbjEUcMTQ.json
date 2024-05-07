@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我可能怀孕了，想了解一些正常妊娠的知识，请问妊娠周期是怎么回事？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "正常妊娠",
+            "妊娠诊断和孕周计算"
+        ],
+        "grounding_id": [
+            "T659",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "若从末次月经第一天开始计算，妊娠过程平均为280天（40周）。以末次月经第一天为起点，妊娠可分为3个时期，你上次月经结束多久了",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "如果女性月经周期规律，为28天，那么若从受精开始计算，妊娠过程平均持续266天（38周），若从末次月经第一天开始计算，妊娠过程平均为280天（40周）。以末次月经第一天为起点，妊娠可分为3个时期："
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有40天了。那属于妊娠什么时期？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠早期：孕0至12周"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "属于妊娠早期，从孕0至12周。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠早期：孕0至12周"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那妊娠晚期呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠晚期：孕25周至分娩"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "妊娠晚期：孕25周至分娩",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠晚期：孕25周至分娩"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果我怀孕，是属于妊娠早期对吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠早期：孕0至12周"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。你知道妊娠中期的时间吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠中期：孕13至24周"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "孕13至24周，对吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠中期：孕13至24周"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，妊娠中期：孕13至24周",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "妊娠中期：孕13至24周"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那受精是在月经后多久开始？",
+        "act": "when",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "卵巢通常在月经开始后大约两周释放卵子（称为排卵），受精通常在排卵后不久进行。因此，受精卵实际要比传统计算得出的孕周小2周。换句话说，妊娠4周时受精卵实际只有2周大小。假如一个女性的月经周期不准确，那么实际差距可能小于或者大于2周。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "卵巢通常在月经开始后大约两周释放卵子（称为排卵），受精通常在排卵后不久进行。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "卵巢通常在月经开始后大约两周释放卵子（称为排卵），受精通常在排卵后不久进行。因此，受精卵实际要比传统计算得出的孕周小2周。换句话说，妊娠4周时受精卵实际只有2周大小。假如一个女性的月经周期不准确，那么实际差距可能小于或者大于2周。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我已经过正常月经期一个多礼拜了，是不是怀孕了？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "如果月经周期规律的女性月经推迟了一周以上未来潮，则有可能是怀孕了。有时女性可以根据典型的症状推测怀孕了。它们包括："
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有这种可能，你有非正常的疲劳感吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "非正常的疲劳"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的，我感觉不做事都累，还有时恶心，呕吐。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "恶心，有是时有呕吐",
+            "非正常的疲劳"
+        ],
+        "grounding_id": [
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "恶心、呕吐，非正常疲劳感这些是典型症状，可以推测是怀孕了",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "恶心，有是时有呕吐",
+            "非正常的疲劳"
+        ],
+        "grounding_id": [
+            "8",
+            "10"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我是恶心，有时有呕吐症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "恶心，有是时有呕吐"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这也是妊娠的反应，你还有其他症状吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "恶心，有是时有呕吐"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还有些尿频。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "尿频"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "尿频也可能是妊娠反应，建议你去医院检查一下，确诊是否怀孕。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_正常妊娠_妊娠诊断和孕周计算.json",
+        "grounding": [
+            "尿频"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

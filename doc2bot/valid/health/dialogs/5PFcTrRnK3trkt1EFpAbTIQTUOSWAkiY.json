@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我有消化功能障碍，吸收不良，想咨询下相关疾病的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "医学主题",
+            "消化道功能障碍",
+            "吸收不良"
+        ],
+        "grounding_id": [
+            "T3",
+            "T1809",
+            "T1822"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解惠普尔病，乳糜泻，小肠细菌过度生长，还是吸收不良综合征？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询下惠普尔病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解惠普尔病的病因，症状，诊断，还是治疗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病的诊断"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下惠普尔病的诊断，一般是用什么方法？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病的诊断"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般是采用活检的方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "活检"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这种病是由什么引起的？",
+        "act": "why",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病由一种可损伤小肠黏膜的罕见细菌感染而引起，可导致吸收不良，可能累及身体其他器官。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "惠普尔病由一种可损伤小肠黏膜的罕见细菌感染而引起。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "惠普尔病由一种可损伤小肠黏膜的罕见细菌感染而引起，可导致吸收不良，可能累及身体其他器官。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这种病通常会有什么症状表现？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "典型症状包括腹泻、关节发炎和疼痛、体重减轻和腹痛。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "典型症状包括腹泻、关节发炎和疼痛、体重减轻和腹痛。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "典型症状包括腹泻、关节发炎和疼痛、体重减轻和腹痛。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "活检的操作步骤是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "活检",
+            "为识别细菌，医生使用内镜（配备光源和照相机的可弯曲可视导管，通过该导管可插入小钳子）从小肠中取出组织（活检），或从肿大淋巴结中取出组织。然后，将组织放在显微镜下观察。"
+        ],
+        "grounding_id": [
+            "28",
+            "30"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "为识别细菌，医生使用内镜从小肠中取出组织，或从肿大淋巴结中取出组织。然后，将组织放在显微镜下观察。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_吸收不良_惠普尔病.json",
+        "grounding": [
+            "为识别细菌，医生使用内镜（配备光源和照相机的可弯曲可视导管，通过该导管可插入小钳子）从小肠中取出组织（活检），或从肿大淋巴结中取出组织。然后，将组织放在显微镜下观察。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

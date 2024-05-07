@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下浙江湖州市办理申请失业保险关系转移几天能办好？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限?",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有什么区别吗？我都想知道，承诺时限是几天？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "承诺办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "承诺办结时限",
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "55",
+            "56"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那法定时限呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "53"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限能长一些30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "30（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "54",
+            "53"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个业务可以自助办理吗？我怕去到时候还得排队。",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "71"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以，支持自助终端办理。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "72",
+            "71"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的有咨询电话吗？我去办之前先电话咨询一下。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的0572-2021490、0572-2051161这两个电话都可以拨打。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "0572-2021490、0572-2051161"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我周四下午去办，他们是工作日上班吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "办理时间",
+            "法定工作日（夏季：上午9：00-下午5：00（午间所有窗口开放）；冬季：上午9：00-下午5：00（午间所有窗口开放））"
+        ],
+        "grounding_id": [
+            "1",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，他们法定工作日上班，上午9：00-下午5：00午间所有窗口开放。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "法定工作日（夏季：上午9：00-下午5：00（午间所有窗口开放）；冬季：上午9：00-下午5：00（午间所有窗口开放））"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我去办理时候材料准备不齐全，他们那里可以调出来吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "1",
+            "251"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您意思他们是否可以提供材料对吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "申报材料"
+        ],
+        "grounding_id": [
+            "251"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是啊。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "失业保险关系转移申请",
+            "申报材料"
+        ],
+        "grounding_id": [
+            "1",
+            "251"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "材料都需要申请人自备的，不会给您提供材料。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系转移申请.json",
+        "grounding": [
+            "申请人自备"
+        ],
+        "grounding_id": [
+            "274"
+        ]
+    }
+]

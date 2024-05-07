@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下Beats—RemoteTalk线缆",
+        "act": "what",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "Beats—RemoteTalk线缆"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是接听或结束通话，拒接来电，保留通话，还是使用语音指令",
+        "act": "multiple-choice",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "使用语音指令"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么使用语音指令",
+        "act": "how",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "使用语音指令"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "按住中央按钮，直到语音激活功能启动。",
+        "act": "ans/open",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "按住中央按钮，直到语音激活功能启动。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果是拒接来电的话怎么设置",
+        "act": "how",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "拒接来电"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先按住中间按钮两秒钟，然后松开中央按钮，两次“哔”声表示已拒接来电。",
+        "act": "ans/open",
+        "document": "Beats—RemoteTalk线缆.json",
+        "grounding": [
+            "按住中间按钮两秒钟。",
+            "松开中央按钮。",
+            "两次“哔”声表示已拒接来电。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，如果遇到声音故障诊断–Beats头戴式耳机和入耳式耳机出现一侧没有声音的话怎么处理",
+        "act": "how",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "声音故障诊断–Beats头戴式耳机和入耳式耳机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先确保完全插入3.5毫米音频插孔。平直的输入端连接到耳机，L形输入端连接到音频设备，然后检查确保音频源已开机且正常运行，如果音频源是台式电脑或笔记本电脑，请尝试调整配置设置，如果您仍听到失真的声音，请尝试另一个音频源和备用线缆。",
+        "act": "ans/open",
+        "document": "声音故障诊断–Beats头戴式耳机和入耳式耳机.json",
+        "grounding": [
+            "确保完全插入3.5毫米音频插孔。平直的输入端连接到耳机，L形输入端连接到音频设备。",
+            "检查确保音频源已开机且正常运行。",
+            "如果音频源是台式电脑或笔记本电脑，请尝试调整配置设置。",
+            "如果您仍听到失真的声音，请尝试另一个音频源和备用线缆。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    }
+]

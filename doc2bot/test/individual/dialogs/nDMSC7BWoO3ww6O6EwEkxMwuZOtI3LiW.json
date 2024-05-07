@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，能给我个投诉方式吗？我在湖州办往来台湾通行证的时候办事人员态度也太不好了。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "往来台湾通行证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有投诉电话 ， 投诉地址 还有 投诉网址？您想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我看看地址在哪先。",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "地址是湖州市吴兴区青铜路298号主楼8楼810室。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "距离有点远啊，电话呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0572-12345。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0572-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那个因为办事人员态度不好，我直接走了，可以给个咨询电话先？不想去现场了。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0572-2252270、0572-2252275 都可以的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0572-2252270、0572-2252275"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "谢谢啊，那能不能顺便告诉一下需要多少钱能办证呢",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "690"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "60元一张证。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "691"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我能网上支付的吧？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "686"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "687"
+        ]
+    }
+]

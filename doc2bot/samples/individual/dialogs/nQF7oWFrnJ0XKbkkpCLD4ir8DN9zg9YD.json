@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问办理护照加注时的监督投诉方式有哪些？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "护照加注",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以选择投诉电话、投诉地址或投诉网址",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那给我一下投诉地址吧",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如有需要，您可以到绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处进行投诉",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）3楼监督检查处"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，那有没有投诉的电话呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，0575-88608106",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "0575-88608106"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "知道了，那是只能去现场申请吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您还可以网上申请或邮寄申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

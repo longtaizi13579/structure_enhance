@@ -1,0 +1,284 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解设置和使用BeatsStudioBuds的信息",
+        "act": "what",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "设置和使用BeatsStudioBuds"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是要了解为BeatsStudioBuds配对，还是使用BeatsStudioBuds",
+        "act": "multiple-choice",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "为BeatsStudioBuds配对"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么与iPhone、iPad或iPodtouch配对",
+        "act": "how",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "与iPhone、iPad或iPodtouch配对"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先在iPhone、iPad或iPodtouch上打开蓝牙，然后打开充电盒的盒盖，将BeatsStudioBuds靠近已解锁的iPhone、iPad或iPodtouch，最后按照屏幕上的说明操作。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上打开蓝牙。",
+            "打开充电盒的盒盖，将BeatsStudioBuds靠近已解锁的iPhone、iPad或iPodtouch。",
+            "按照屏幕上的说明操作。如果没有看到任何说明，请按照以下步骤将BeatsStudioBuds与另一台设备配对。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果没有看到说明怎么办",
+        "act": "how",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "按照屏幕上的说明操作。如果没有看到任何说明，请按照以下步骤将BeatsStudioBuds与另一台设备配对。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那请按照以下步骤将BeatsStudioBuds与另一台设备配对",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "按照屏幕上的说明操作。如果没有看到任何说明，请按照以下步骤将BeatsStudioBuds与另一台设备配对。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是与安卓设备配对的胡啊可以使用快速配对功能吗？",
+        "act": "verification",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "与安卓设备配对",
+            "您还可以使用快速配对功能，将BeatsStudioBuds与安卓设备配对："
+        ],
+        "grounding_id": [
+            "12",
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，您需要了解相关步骤吗",
+        "act": "question/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "您还可以使用快速配对功能，将BeatsStudioBuds与安卓设备配对："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "您还可以使用快速配对功能，将BeatsStudioBuds与安卓设备配对："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先确保手机运行的是Android6.0或更高版本，并且已打开蓝牙和定位服务。然后打开充电盒的盒盖，将BeatsStudioBuds靠近手机或平板电脑。收到通知时，轻点“Taptopair”（轻点以配对）。如果需要设置BeatsStudioBuds，请轻点“Setupnow”（现在设置）。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "确保手机运行的是Android6.0或更高版本，并且已打开蓝牙和定位服务。",
+            "打开充电盒的盒盖，将BeatsStudioBuds靠近手机或平板电脑。",
+            "收到通知时，轻点“Taptopair”（轻点以配对）。您将收到“Deviceconnected”（设备已连接）或“Pairingcomplete”（配对完成）通知。",
+            "如果需要设置BeatsStudioBuds，请轻点“Setupnow”（现在设置）。如果没有收到通知，请在手机或平板电脑上打开蓝牙设置，然后轻点要配对的设备。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那会收到什么样的通知呢",
+        "act": "what",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "收到通知时，轻点“Taptopair”（轻点以配对）。您将收到“Deviceconnected”（设备已连接）或“Pairingcomplete”（配对完成）通知。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您将收到“Deviceconnected”（设备已连接）或“Pairingcomplete”（配对完成）通知。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "收到通知时，轻点“Taptopair”（轻点以配对）。您将收到“Deviceconnected”（设备已连接）或“Pairingcomplete”（配对完成）通知。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果没有收到通知的话怎么办",
+        "act": "how",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "如果需要设置BeatsStudioBuds，请轻点“Setupnow”（现在设置）。如果没有收到通知，请在手机或平板电脑上打开蓝牙设置，然后轻点要配对的设备。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果没有收到通知，请在手机或平板电脑上打开蓝牙设置，然后轻点要配对的设备。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "如果需要设置BeatsStudioBuds，请轻点“Setupnow”（现在设置）。如果没有收到通知，请在手机或平板电脑上打开蓝牙设置，然后轻点要配对的设备。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那接听电话的规则是怎么样的",
+        "act": "what",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "接听电话"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要控制通话，请使用任意一只耳塞上的Beats标志按钮： 按一下可接听或挂断来电。 按一下可接听第二个来电并将第一个来电置于通话保留状态。当有两个通话处于活跃状态时，这样操作会在通话之间切换。按住可拒接来电。按两下可停止通过入耳式耳机接听，并转到手机上接听。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "要控制通话，请使用任意一只耳塞上的Beats标志按钮：",
+            "按一下可接听或挂断来电。",
+            "按一下可接听第二个来电并将第一个来电置于通话保留状态。当有两个通话处于活跃状态时，这样操作会在通话之间切换。",
+            "按住可拒接来电。",
+            "按两下可停止通过入耳式耳机接听，并转到手机上接听。"
+        ],
+        "grounding_id": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "使用主动降噪和通透模式的话可以选择按那个按钮吗",
+        "act": "verification",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "使用主动降噪和通透模式",
+            "您可以选择按住这个按钮时可在哪些模式之间切换。佩戴BeatsStudioBud时，请前往“设置”>“蓝牙”>“BeatsStudioBuds”>“按住BeatsStudioBuds”。"
+        ],
+        "grounding_id": [
+            "46",
+            "51"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以选择按住这个按钮时可在哪些模式之间切换。",
+        "act": "ans/yes",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "您可以选择按住这个按钮时可在哪些模式之间切换。佩戴BeatsStudioBud时，请前往“设置”>“蓝牙”>“BeatsStudioBuds”>“按住BeatsStudioBuds”。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那应该怎么操作呢",
+        "act": "how",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "您可以选择按住这个按钮时可在哪些模式之间切换。佩戴BeatsStudioBud时，请前往“设置”>“蓝牙”>“BeatsStudioBuds”>“按住BeatsStudioBuds”。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "佩戴BeatsStudioBud时，请前往“设置”>“蓝牙”>“BeatsStudioBuds”>“按住BeatsStudioBuds”。",
+        "act": "ans/open",
+        "document": "设置和使用BeatsStudioBuds.json",
+        "grounding": [
+            "您可以选择按住这个按钮时可在哪些模式之间切换。佩戴BeatsStudioBud时，请前往“设置”>“蓝牙”>“BeatsStudioBuds”>“按住BeatsStudioBuds”。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    }
+]

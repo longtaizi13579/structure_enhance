@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好咨询一下这个护理保险2020版的投保范围",
+        "act": "what",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "国寿团体护理保险（2020版）",
+            "投保范围"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "该保险有团体还有个人的，您想了解哪个",
+        "act": "multiple-choice",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "国寿团体护理保险（2020版）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "呃是团体的",
+        "act": "ans/open",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "国寿团体护理保险（2020版）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投保范围是凡基本医疗保险的参保人均可作为被保险人，由当地政府指定的部门作为投保人向中国人寿保险股份有限公司（以下简称本公司）投保本保险。投保应符合国务院保险监督管理机构的相关规定。",
+        "act": "ans/open",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "凡基本医疗保险的参保人均可作为被保险人，由当地政府指定的部门作为投保人向中国人寿保险股份有限公司（以下简称本公司）投保本保险。投保应符合国务院保险监督管理机构的相关规定。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "能给解释一下吗就是这个保险合同成立生效日期与开始承保的日期是一样的吗",
+        "act": "verification",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "保险合同成立、生效和保险责任开始"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的是这样投保人提出保险申请、本公司同意承保，本合同成立。本合同成立日期、合同生效日期在保险单上载明。除另有约定外，本合同生效的日期为本公司开始承担保险责任的日期",
+        "act": "ans/open",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "投保人提出保险申请、本公司同意承保，本合同成立。本合同成立日期、合同生效日期在保险单上载明。除另有约定外，本合同生效的日期为本公司开始承担保险责任的日期。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个保险期间是一年对吗",
+        "act": "verification",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，但是另有约定除外这个您清楚吧",
+        "act": "verification",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "本合同的保险期间为一年。除另有约定外，自本合同生效之日起至约定终止日二十四时止，由投保人在投保时与本公司协商确定。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "啥，没听明白，这样你把该保险的保险期间都有啥都说一下吧",
+        "act": "what",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的本合同的保险期间为一年。除另有约定外，自本合同生效之日起至约定终止日二十四时止，由投保人在投保时与本公司协商确定。",
+        "act": "ans/open",
+        "document": "国寿团体护理保险（2020版）.json",
+        "grounding": [
+            "本合同的保险期间为一年。除另有约定外，自本合同生效之日起至约定终止日二十四时止，由投保人在投保时与本公司协商确定。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

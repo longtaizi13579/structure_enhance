@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省宁波市，要给机动车上牌照，请问多长时间能办完？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "机动车",
+            "国产机动车注册登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "T17",
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，在我市，国产机动车注册登记2个工作日内办结。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "机动车上牌可以到自助终端办理吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我这边暂不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那上牌有哪些办理形式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "102"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前有网上申请和现场窗口申请两种办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "另外，我再问一下咱们浙江省宁波市残疾人机动车上牌可以到自助终端办理吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "残疾人机动轮椅车注册登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我这边暂不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "残疾人机动车上牌缴费可以网上支付吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "491"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "咱们这边暂不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "492"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "请问残疾人机动车上牌办结时间也是2个工作日吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你好，这边1个工作日即可办结。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想咨询一下驾驶证的事，就是开拖拉机的证外省转入换证这个能自助办理吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "拖拉机、联合收割机操作人员驾驶证省外转入换证",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T89",
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯浙江金华的",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "帮您查询了这个换证目前不支持自助",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那办这个换证一般多久能办好呀",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个法定办结时限2（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "2（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那您帮我看看这个换证都有什么办理形式呀",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，这个有三种方式一网上申请、二现场窗口申请、三邮寄申请",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那这个换证结果出来快递的话要多久能送达呀",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "120",
+            "111"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个自作出决定之日起5个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "自作出决定之日起5个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，麻烦您再给查一下，换证服务这块有什么监督投诉方式呀",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个有三种一投诉电话二投诉地址三投诉网址，您需要哪一个呢",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉地址是在哪个地方",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "地址您记一下金华市农业农村局（双龙南街828号3楼）办公室",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "金华市农业农村局（双龙南街828号3楼）办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，电话，投诉电话也告诉我吧",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的电话您记一下0579-88900000",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "0579-88900000"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哦对了，办这个换证的地点在哪",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个办理地点是金华市行政服务中心（金华市婺城区西关街道双龙南街858号）",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机操作人员驾驶证省外转入换证.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

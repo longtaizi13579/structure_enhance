@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "省级创新企业培育申请能在那个外面的机子上吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "省级创新型领军企业培育",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想问的是终端办理的机器是否支持申请省级创新型领军企业培育吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "省级创新型领军企业培育",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，就是想问终端能不能办理。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不好意思，目前不支持自助终端办理的呢。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行吧，那我要是办的话，你们有没有什么时限承诺？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想咨询法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先告诉我法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，法定办结时限是120个工作日呢。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级创新型领军企业培育.json",
+        "grounding": [
+            "120（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

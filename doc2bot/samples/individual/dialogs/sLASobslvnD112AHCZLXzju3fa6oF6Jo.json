@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在浙江省宁波市申请机动车驾驶证增驾的话，有没有相关的咨询方式啊？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "行驶证驾驶证",
+            "机动车驾驶证增驾申领",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T10",
+            "T10",
+            "T89",
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，请问您是需要咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想要电话号码，联系起来方便一些。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，咨询电话为0574-81983333。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0574-81983333"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，以防万一我还是再问一下地址吧？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，咨询地址为宁波市鄞州区福明街道中兴北路33号。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "宁波市鄞州区福明街道中兴北路33号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯嗯，我知道了，最快多长时间能拿到手啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "60个工作日之内会有人通知您的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "要两个月啊，那万一我一次没过是不是还得补考啊？补考的话还需要另外交钱吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "4\t补考（包括法律法规规章规定需重新进行的考试费）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "335",
+            "336"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "未通过的话需要补考的，每次考试需缴费80元。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "80元/类，次"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那我应该几点过去办啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以于工作日上午8:30—11:30或下午13:30—17:00前往办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "工作日上午8:30—11:30，下午13:30—17:00。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我知道家庭中的一个人购买项目付款之后可以和成员共享吗",
+        "act": "verification",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "如何与家庭成员共享购买项目",
+            "由家庭中的一名成年人担任家庭组织者，为每位家庭成员的购买项目付款。您可以共享App、音乐、图书等内容。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以共享App、音乐、图书等内容的",
+        "act": "ans/yes",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "由家庭中的一名成年人担任家庭组织者，为每位家庭成员的购买项目付款。您可以共享App、音乐、图书等内容。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那购买项目共享具体是指什么呢",
+        "act": "what",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "什么是购买项目共享？"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "打开购买项目共享后，您家庭中的每个人都可以访问家庭成员购买的App、音乐、影片、电视节目和图书。家庭组织者为家庭成员的购买项目付款。",
+        "act": "ans/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "打开购买项目共享后，您家庭中的每个人都可以访问家庭成员购买的App、音乐、影片、电视节目和图书。家庭组织者为家庭成员的购买项目付款。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是所有的项目都可以共享吗",
+        "act": "verification",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "某些项目无法共享。了解哪些类型的内容无法共享。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，某些项目无法共享",
+        "act": "ans/no",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "某些项目无法共享。了解哪些类型的内容无法共享。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那使用Mac打开购买项目共享的具体步骤怎么做呢",
+        "act": "how",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "使用Mac打开购买项目共享"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先如果您还没有设置“家人共享”，请先完成设置，然后在Mac上，选取苹果菜单>“系统偏好设置”，点按“家人共享”，点按边栏中的“购买项目共享”，点按“设置购买项目共享”，然后按照屏幕上的说明操作，最后要查看扣费将使用的付款方式，请查看“共享的付款方式”信息。",
+        "act": "ans/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "如果您还没有设置“家人共享”，请先完成设置。",
+            "在Mac上，选取苹果菜单>“系统偏好设置”。",
+            "点按“家人共享”。",
+            "点按边栏中的“购买项目共享”。",
+            "点按“设置购买项目共享”，然后按照屏幕上的说明操作。",
+            "要查看扣费将使用的付款方式，请查看“共享的付款方式”信息。"
+        ],
+        "grounding_id": [
+            "20",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，如果想关闭的话应该怎么做呢",
+        "act": "how",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "关闭购买项目共享"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问您是iPhone，iPad还是mac呢呢",
+        "act": "multiple-choice",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "在iPhone或iPad上的“设置”中或者Mac上的“系统偏好设置”中，查看您的“购买项目共享”设置。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在Mac中怎么查看购买项目呢",
+        "act": "how",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "在iPhone或iPad上的“设置”中或者Mac上的“系统偏好设置”中，查看您的“购买项目共享”设置。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以在Mac上的“系统偏好设置”中，查看您的“购买项目共享”设置",
+        "act": "ans/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "在iPhone或iPad上的“设置”中或者Mac上的“系统偏好设置”中，查看您的“购买项目共享”设置。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果想关闭的话需要在Mac上怎么操作",
+        "act": "how",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "在Mac上，点按“关闭”，然后点按“停止共享购买项目”。",
+            "关闭购买项目共享："
+        ],
+        "grounding_id": [
+            "37",
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在Mac上，点按“关闭”，然后点按“停止共享购买项目”。",
+        "act": "ans/open",
+        "document": "如何与家庭成员共享购买项目.json",
+        "grounding": [
+            "在Mac上，点按“关闭”，然后点按“停止共享购买项目”。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

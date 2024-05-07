@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近看到我朋友在吃一种写着什么蛋氨酸的药，我想了解一下关于这个药的相关信息。",
+        "act": "what",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您说的是S-腺苷-L-蛋氨酸吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想了解关于这个要的药效、副作用还是其他方面的呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）",
+            "可能的副作用"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，你先和我说一下这个药有啥副作用呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "可能的副作用"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个药有躁郁症的人不该应用腺苷蛋氨酸，因为它能引起躁狂发作。其他没有什么了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "可能的副作用",
+            "严重不良反应尚无报道。有躁郁症的人不该应用腺苷蛋氨酸，因为它能引起躁狂发作。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那 S-腺苷-L-蛋氨酸具体治疗什么病呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）",
+            "医用说明"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "据说SAMe可有效治疗抑郁症，骨关节炎，胆囊和肝脏疾病，但至今还没有科学研究的说法。需要更多研究来证实其对抑郁症的有效性，但它可能有助于患有骨关节炎的人改善功能。需要更好的研究来评估SAMe是否可以帮助肝病患者。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "据说SAMe可有效治疗抑郁症，骨关节炎，胆囊和肝脏疾病，但迄今为止的科学研究尚未明确证实这些说法。需要更多研究来证实其对抑郁症的有效性，但它可能有助于患有骨关节炎的人改善功能。需要更好的研究来评估SAMe是否可以帮助肝病患者。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "了解了，那还有关于这个药研究的更多的信息吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）",
+            "更多有关SAMe的信息"
+        ],
+        "grounding_id": [
+            "1",
+            "13"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以在在美国国家卫生研究院，国家补充与整合健康中心：关于使用SAME治疗抑郁症、骨关节炎和肝病的研究信息。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "美国国家卫生研究院（NIH），国家补充与整合健康中心：关于使用SAME治疗抑郁症、骨关节炎和肝病的研究信息"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个S-腺苷-L-蛋氨酸（SAMe）主要成分是什么呀？",
+        "act": "verification",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷-L-蛋氨酸（SAMe）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "S-腺苷--蛋氨酸（SAMe）是人体中天然存在的物质，主要由肝脏产生。它也可以作为补充剂通过人工合成。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_特殊话题_膳食补充剂_S-腺苷-L-蛋氨酸（SAMe）.json",
+        "grounding": [
+            "S-腺苷--蛋氨酸（SAMe）是人体中天然存在的物质，主要由肝脏产生。它也可以作为补充剂通过人工合成。（另请参见膳食补充剂概述。）"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

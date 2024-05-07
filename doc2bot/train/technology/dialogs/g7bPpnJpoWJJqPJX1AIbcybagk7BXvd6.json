@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，618马上到了，我想买个苹果手机，想了解一下关于iPhone7及更新机型的防溅、抗水和防尘性能的相关信息。",
+        "act": "what",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "关于iPhone7及更新机型的防溅、抗水和防尘性能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解iPhone机型可防溅、抗水、防尘的、抗水等级在IEC标准60529下达到IP68级别、水等级在IEC标准60529下达到IP68级别、抗水等级在IEC标准60529下达到IP68级别还是其他相关的呢？",
+        "act": "multiple-choice",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下iPhone机型可防溅、抗水、防尘，在受控实验室条件下经过相关测试：",
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深6米的水中放置最长30分钟）：",
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深4米的水中放置最长30分钟）：",
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深2米的水中放置最长30分钟）：",
+            "以下机型的抗水等级在IEC标准60529下达到IP67级别（最深1米的水中放置最长30分钟）："
+        ],
+        "grounding_id": [
+            "3",
+            "24",
+            "33",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，那就先了解一下可防溅、抗水、防尘的苹果手机有什么吧？",
+        "act": "what",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下iPhone机型可防溅、抗水、防尘，在受控实验室条件下经过相关测试："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "以下iPhone机型可防溅、抗水、防尘，在受控实验室条件下经过相关测试：iPhone13、iPhone13mini、iPhone13Pro、iPhone13ProMax、iPhone12、iPhone12mini、iPhone12Pro、iPhone12ProMax、iPhoneSE（第2代）、iPhone11、iPhone11Pro、iPhone11ProMax、iPhoneXS、iPhoneXSMax、iPhoneXR、iPhoneX、iPhone8、iPhone8Plus、iPhone7、iPhone7Plus",
+        "act": "ans/open",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下iPhone机型可防溅、抗水、防尘，在受控实验室条件下经过相关测试：",
+            "iPhone13",
+            "iPhone13mini",
+            "iPhone13Pro",
+            "iPhone13ProMax",
+            "iPhone12",
+            "iPhone12mini",
+            "iPhone12Pro",
+            "iPhone12ProMax",
+            "iPhoneSE（第2代）",
+            "iPhone11",
+            "iPhone11Pro",
+            "iPhone11ProMax",
+            "iPhoneXS",
+            "iPhoneXSMax",
+            "iPhoneXR",
+            "iPhoneX",
+            "iPhone8",
+            "iPhone8Plus",
+            "iPhone7",
+            "iPhone7Plus"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那抗水等级在IEC标准60529下达到IP68级别有什么呢？",
+        "act": "what",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深6米的水中放置最长30分钟）："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "以下机型的抗水等级在IEC标准60529下达到IP68级别：iPhone13、iPhone13mini、iPhone13Pro、iPhone13ProMax、iPhone12、iPhone12mini、iPhone12Pro、 iPhone12ProMax",
+        "act": "ans/open",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深6米的水中放置最长30分钟）：",
+            "iPhone13",
+            "iPhone13mini",
+            "iPhone13Pro",
+            "iPhone13ProMax",
+            "iPhone12",
+            "iPhone12mini",
+            "iPhone12Pro",
+            "iPhone12ProMax"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那抗水等级在IEC标准60529下达到IP68级别有哪些呢？",
+        "act": "what",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深2米的水中放置最长30分钟）："
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "以下机型的抗水等级在IEC标准60529下达到IP68级别：iPhone11、iPhoneXS、iPhoneXSMax",
+        "act": "ans/open",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深2米的水中放置最长30分钟）：",
+            "iPhone11",
+            "iPhoneXS",
+            "iPhoneXSMax"
+        ],
+        "grounding_id": [
+            "36",
+            "37",
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个有点少啊，那抗水等级在IEC标准60529下达到IP68级别的呢？",
+        "act": "what",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深4米的水中放置最长30分钟）："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "以下机型的抗水等级在IEC标准60529下达到IP68级别： iPhone11Pro、iPhone11ProMax。",
+        "act": "ans/open",
+        "document": "关于iPhone7及更新机型的防溅、抗水和防尘性能.json",
+        "grounding": [
+            "以下机型的抗水等级在IEC标准60529下达到IP68级别（最深4米的水中放置最长30分钟）：",
+            "iPhone11Pro",
+            "iPhone11ProMax"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35"
+        ]
+    }
+]

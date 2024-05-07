@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下如果您需要在Mac上安装Rosetta？",
+        "act": "how",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "如果您需要在Mac上安装Rosetta"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想咨询如何安装Rosetta吗？",
+        "act": "verification",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "如何安装Rosetta"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "如何安装Rosetta"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Rosetta2仅适用于搭载Apple芯片的Mac电脑。 首次打开需要Rosetta的App时，系统会要求您安装Rosetta。点按“安装”，然后输入您的用户名和密码以允许继续安装。如果您点按“以后”，则下次打开需要Rosetta的App时，系统会再次要求您安装Rosetta。 如果Rosetta已经安装，则系统不会再次要求您安装。",
+        "act": "ans/open",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "Rosetta2仅适用于搭载Apple芯片的Mac电脑。",
+            "首次打开需要Rosetta的App时，系统会要求您安装Rosetta。点按“安装”，然后输入您的用户名和密码以允许继续安装。",
+            "如果您点按“以后”，则下次打开需要Rosetta的App时，系统会再次要求您安装Rosetta。",
+            "如果Rosetta已经安装，则系统不会再次要求您安装。"
+        ],
+        "grounding_id": [
+            "4",
+            "8",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "安装之后，我需要打开Rosetta或与这个App互动吗？",
+        "act": "verification",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "您不需要打开Rosetta或与这个App互动。每当您使用专为搭载Intel处理器的Mac电脑构建的App时，Rosetta都会在后台自动运行。Rosetta会转换相应App，使它可以与Apple芯片搭配使用。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不需要打开Rosetta或与这个App互动。每当您使用专为搭载Intel处理器的Mac电脑构建的App时，Rosetta都会在后台自动运行。Rosetta会转换相应App，使它可以与Apple芯片搭配使用。",
+        "act": "ans/yesno",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "您不需要打开Rosetta或与这个App互动。每当您使用专为搭载Intel处理器的Mac电脑构建的App时，Rosetta都会在后台自动运行。Rosetta会转换相应App，使它可以与Apple芯片搭配使用。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我的APP无法进行识别安装的附加组件怎么办？",
+        "act": "how",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "对于标有“应用程序（通用）”的App，“简介”窗口包含“使用Rosetta打开”这项设置。通过这项设置，网页浏览器等通用App可以使用还没有更新为支持Apple芯片的插件、扩展或其他附加组件。如果某个通用App无法识别您为这个App安装的附加组件，您可以退出这个App，选择这项设置，然后再试一次。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果某个通用App无法识别您为这个App安装的附加组件，您可以退出这个App，选择这项设置，然后再试一次。",
+        "act": "ans/open",
+        "document": "如果您需要在Mac上安装Rosetta.json",
+        "grounding": [
+            "对于标有“应用程序（通用）”的App，“简介”窗口包含“使用Rosetta打开”这项设置。通过这项设置，网页浏览器等通用App可以使用还没有更新为支持Apple芯片的插件、扩展或其他附加组件。如果某个通用App无法识别您为这个App安装的附加组件，您可以退出这个App，选择这项设置，然后再试一次。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

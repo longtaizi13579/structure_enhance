@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下关于浙江省杭州市因工伤导致的医疗费用问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "浙江省_杭州市",
+            "工伤保险",
+            "工伤医疗（康复）费用申报"
+        ],
+        "grounding_id": [
+            "T4",
+            "T4",
+            "T189",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想咨询申请条件、申报材料、办理流程、设定依据或收费标准哪方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "660"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道相关的收费标准？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "660",
+            "661"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "此项费用的申报是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "662"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那之后的费用发放是通过网上吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "665"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的，此业务暂不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "666"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那我向申请的话应该怎么做？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有网上申请和现场窗口申请两种方式，您可以根据您的需求选择。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_工伤医疗（康复）费用申报.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

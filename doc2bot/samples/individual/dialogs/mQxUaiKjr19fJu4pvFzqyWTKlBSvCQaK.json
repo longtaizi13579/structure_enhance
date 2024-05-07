@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省金华市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T10",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车的有关问题。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车申请检验合格标志、机动车灭失注销登记还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "机动车申请检验合格标志"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "机动车申请检验合格标志这个业务的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "机动车申请检验合格标志",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "周一至周日上午8：30-11：30，下午13：30-17：00（法定节假日除外）。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "周一至周日上午8：30-11：30，下午13：30-17：00（法定节假日除外）。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "宁波市澳泊森机动车检测有限公司（宁波市江北区庄桥街道马径村）一楼5-11号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "宁波市澳泊森机动车检测有限公司（宁波市江北区庄桥街道马径村）一楼5-11号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询方式有哪些？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询地址告诉我一下吧。",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "宁波市鄞州区福明街道中兴北路33号后大厅11号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "宁波市鄞州区福明街道中兴北路33号后大厅11号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "基本信息",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "40",
+            "99",
+            "102"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那想要申请的话有没有数量上的限制",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "数量限制",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "156",
+            "155"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有的，1个检验周期内核发1次检验合格标志",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "1个检验周期内核发1次检验合格标志"
+        ],
+        "grounding_id": [
+            "157"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果有涉及到致两车的交通事故没有处理完可以受理吗",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "不可以，机动车所有人应当将涉及该车的道路交通安全违法行为和交通事故处理完毕我们才予以受理",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车申请检验合格标志.json",
+        "grounding": [
+            "机动车所有人应当将涉及该车的道路交通安全违法行为和交通事故处理完毕；\n《机动车安全技术检验合格证明》已经在检测站窗口提交\n《机动车交通事故责任强制保险凭证第三联》已经在检测站窗口提交\n已注册登记的机动车进行安全技术检验时，机动车行驶证记载的登记内容与该机动车的有关情况不符，或者未按照规定提供机动车第三者责任强制保险凭证的，不予通过检验。\n温馨提示：需交验机动车"
+        ],
+        "grounding_id": [
+            "159"
+        ]
+    }
+]

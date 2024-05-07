@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在LogicPro中看到了音频和MIDI同步提醒，为什么会有这个提示？",
+        "act": "why",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "如果您在LogicPro中看到音频和MIDI同步提醒",
+            "如果传入音频信号的采样速率与项目的采样速率不匹配，或采样速率发生波动，便会出现这个提醒。在使用外部音频接口、外部同步设备或插件时，这个提醒最为常见。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我该如何查看采样速率的设置问题",
+        "act": "how",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "在将外部音频接口与LogicPro配合使用时，接口的采样速率应会自动调整以与项目的采样速率相匹配。但有时，采样速率设置可能不匹配。请进行检查，以确保采样速率设置相匹配。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在将外部音频接口与LogicPro配合使用时，接口的采样速率应会自动调整以与项目的采样速率相匹配。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "查看采样速率设置",
+            "在将外部音频接口与LogicPro配合使用时，接口的采样速率应会自动调整以与项目的采样速率相匹配。但有时，采样速率设置可能不匹配。请进行检查，以确保采样速率设置相匹配。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那该如何查看项目的采样速率？",
+        "act": "how",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "要查看您的项目的采样速率，请选取“文件”>“项目设置”>“音频”。如果您的项目的采样速率与您的接口的采样速率不匹配，请从“采样速率”弹出式菜单中选择正确的采样速率。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以选取“文件”>“项目设置”>“音频”。如果您的项目的采样速率与您的接口的采样速率不匹配，请从“采样速率”弹出式菜单中选择正确的采样速率。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "查看LogicPro中的采样速率",
+            "要查看您的项目的采样速率，请选取“文件”>“项目设置”>“音频”。如果您的项目的采样速率与您的接口的采样速率不匹配，请从“采样速率”弹出式菜单中选择正确的采样速率。"
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那查看外部接口的采样速率是不是一个道理？",
+        "act": "verification",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "查看您的外部接口的采样速率"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "大多数外部音频接口都有一个应用程序（通常可在“系统偏好设置”中或在“应用程序”文件夹中访问它），可用于查看和更改硬件设置，包括设备的采样速率。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "查看您的外部接口的采样速率",
+            "大多数外部音频接口都有一个应用程序（通常可在“系统偏好设置”中或在“应用程序”文件夹中访问它），可用于查看和更改硬件设置，包括设备的采样速率。请参阅设备随附的文稿了解更多信息。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那然后采样速率与接口的采样速率相匹配是不是就不用这么麻烦了",
+        "act": "verification",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "查看LogicPro中的采样速率"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您的项目的采样速率与您的接口的采样速率相匹配，请从“采样速率”弹出式菜单中选择不同的采样速率，然后将其设置回原来的采样速率。",
+        "act": "ans/open",
+        "document": "如果您在LogicPro中看到音频和MIDI同步提醒.json",
+        "grounding": [
+            "请从“采样速率”弹出式菜单中选择不同的采样速率，然后将其设置回原来的采样速率。",
+            "查看LogicPro中的采样速率"
+        ],
+        "grounding_id": [
+            "49",
+            "9"
+        ]
+    }
+]

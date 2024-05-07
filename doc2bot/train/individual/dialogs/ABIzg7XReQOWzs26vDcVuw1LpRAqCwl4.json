@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省衢州市考试教育有关的问题。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "考试教育",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T228",
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您具体是想咨询中考优待还是其他服务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "中考优待"
+        ],
+        "grounding_id": [
+            "T229"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询中考优待有关的内容。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "中考优待"
+        ],
+        "grounding_id": [
+            "T229"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是对符合条件的警察子女考生参加中考优待的确认、对归侨、归侨子女、华侨子女考生参加中考优待的确认、对优抚对象子女考生参加中考优待的确认还是其他业务有关的内容呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对符合条件的警察子女考生参加中考优待的确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "对符合条件的警察子女考生参加中考优待的确认业务在哪里能办理？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对符合条件的警察子女考生参加中考优待的确认",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "柯城区花园东大道169号市行政服务中心一楼A厅",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对符合条件的警察子女考生参加中考优待的确认.json",
+        "grounding": [
+            "柯城区花园东大道169号市行政服务中心一楼A厅"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理对台胞子女考生参加中考优待的确认结果多久会送达？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "对台胞子女考生参加中考优待的确认",
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起7个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "自作出决定之日起7个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "九十个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "90（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "40",
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_考试教育_中考优待_对台胞子女考生参加中考优待的确认.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

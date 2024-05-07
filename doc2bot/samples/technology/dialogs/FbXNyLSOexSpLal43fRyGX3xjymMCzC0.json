@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，请问一下“iCloud照片”怎么打开呀？",
+        "act": "how",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "设置和使用“iCloud照片”",
+            "打开“iCloud照片”"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在iPhone、iPad或iPodtouch上，Mac上还是在AppleTV4K和AppleTVHD上打开“iCloud照片”呢？",
+        "act": "multiple-choice",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想在Mac上打开。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您需要选取苹果菜单里的“系统偏好设置”，然后点按“AppleID”，再点按边栏中的“iCloud”，最后选择“照片”就可以啦。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“AppleID”。",
+            "点按边栏中的“iCloud”，然后选择“照片”。"
+        ],
+        "grounding_id": [
+            "40",
+            "41",
+            "42"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "找到啦！对了，“iCloud照片”能和“照片”App搭配使用吗？",
+        "act": "verification",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的，“iCloud照片”与“照片”App搭配使用，可以使您的照片和视频安全储存在iCloud中，并再您的apple设备上保持最新状态。",
+        "act": "ans/open",
+        "document": "设置和使用“iCloud照片”.json",
+        "grounding": [
+            "“iCloud照片”可与“照片”App搭配使用，从而使您的照片和视频安全储存在iCloud中，并在您的iPhone、iPad、iPodtouch、Mac、AppleTV和iCloud.com上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这么好。我还想改一下我的订阅，这个要怎么操作呢？",
+        "act": "how",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "更改Apple提供的订阅"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您是想在iPhone、iPad或iPodtouch上更改还是在Mac上更改呢？",
+        "act": "multiple-choice",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上更改订阅方案"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我都想修改一下，你先告诉我在iPhone上怎么操作吧。",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如何在iPhone、iPad或iPodtouch上更改订阅方案"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，首先您要打开设置，轻点您的姓名，然后轻点“订阅”，再轻点您要更改的订阅的名称。如果有不同类型的订阅，会显示一个列表，选择所需的选项，点击购买即可。若您需要与家人共享，请继续向下滚动并打开“家人与共享”。iPad和iPodtouch的操作是一样的，",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "打开“设置”App。",
+            "轻点您的姓名，然后轻点“订阅”。",
+            "轻点您要更改的订阅的名称。",
+            "如果有不同类型的订阅可供使用，则会显示一个列表。轻点所需的选项。",
+            "轻点“购买”。",
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "找到了，那在Mac上怎么操作呢？",
+        "act": "how",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "在Mac上更改订阅方案"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在Mac上您需要打开AppStoreApp，点按边栏底部的登录按钮或您的姓名，再点按窗口顶部的“查看信息”。然后在显示的页面上找到“订阅”>“管理”，点击您需要修改的订阅旁的编辑选取另一个即可。",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "打开AppStoreApp。",
+            "点按边栏底部的登录按钮或您的姓名。",
+            "点按窗口顶部的“查看信息”。系统可能会要求您登录。",
+            "在显示的页面上，滚动至“订阅”，然后点按“管理”。",
+            "点按要更改的订阅旁边的“编辑”。",
+            "选取另一个订阅方案。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "电脑上不可以“与家人共享”吗？我怎么没找到？",
+        "act": "verification",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。",
+        "act": "ans/open",
+        "document": "更改Apple提供的订阅.json",
+        "grounding": [
+            "如果您选取了可与家人共享的订阅，请向下滚动并打开“与家人共享”。（没有看到“与家人共享”？请设置“家人共享”或加入家庭，然后返回这个页面并打开“与家人共享”。）如果您不想与家人共享这一订阅，请关闭“与家人共享”。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

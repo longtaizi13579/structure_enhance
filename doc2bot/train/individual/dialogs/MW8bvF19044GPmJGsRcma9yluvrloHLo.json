@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省嘉兴市涉外国人、涉港澳台居民、华侨补领婚姻登记证的情况",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨补领婚姻登记证",
+            "浙江省_嘉兴市",
+            "婚姻"
+        ],
+        "grounding_id": [
+            "1",
+            "T11",
+            "T302"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是办理形式，通办范围，是否支持预约办理哪一项？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道办理的形式是什么",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通过现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果是离婚登记的话有没有相关的投诉方式？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨离婚登记",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，请问您是想要投诉电话，投诉地址还是投诉网址",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我要知道投诉的地址在哪？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "衢州市民政局（衢州市柯城区白云街道须江路86号）纪检组",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "衢州市民政局（衢州市柯城区白云街道须江路86号）纪检组"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个法规的设定依据是那个机关颁布的呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "设定依据",
+            "颁布机关"
+        ],
+        "grounding_id": [
+            "1615",
+            "1641"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "全国人大",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨离婚登记.json",
+        "grounding": [
+            "全国人大"
+        ],
+        "grounding_id": [
+            "1642"
+        ]
+    }
+]

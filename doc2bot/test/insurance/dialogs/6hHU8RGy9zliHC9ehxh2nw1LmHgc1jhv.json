@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下国寿附加扶贫保意外住院定额给付团体医疗保险的有关内容。",
+        "act": "what",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "国寿附加扶贫保意外住院定额给付团体医疗保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "保险合同构成、保险期间、保险责任还是其他内容您具体想问哪方面？",
+        "act": "multiple-choice",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "保险期间是怎么计算的？",
+        "act": "how",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "本附加合同的保险期间为一年；除另有约定外，自本附加合同生效之日起至约定终止日二十四时止，由投保人在投保时与本公司协商确定。",
+        "act": "ans/open",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "本附加合同的保险期间为一年；除另有约定外，自本附加合同生效之日起至约定终止日二十四时止，由投保人在投保时与本公司协商确定。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "医疗保险金的累计给付日数最高是多少？",
+        "act": "when",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "保险责任",
+            "该被 保险人多次住院的，医疗保险金的累计给付日数以一百八十日为限。"
+        ],
+        "grounding_id": [
+            "8",
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "该被保险人多次住院的，医疗保险金的累计给付日数以一百八十日为限。",
+        "act": "ans/open",
+        "document": "国寿附加扶贫保意外住院定额给付团体医疗保险.json",
+        "grounding": [
+            "该被 保险人多次住院的，医疗保险金的累计给付日数以一百八十日为限。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

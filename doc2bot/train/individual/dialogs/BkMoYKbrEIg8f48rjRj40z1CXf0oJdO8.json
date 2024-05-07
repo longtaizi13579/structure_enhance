@@ -1,0 +1,364 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道机动车在车辆管理所管辖区域内转移登记设定依据的实施日期",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记",
+            "实施日期"
+        ],
+        "grounding_id": [
+            "1",
+            "1112"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您说的是机动车登记规定（公安部124号令）的实施日期吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车登记规定（公安部124号令）",
+            "实施日期"
+        ],
+        "grounding_id": [
+            "1105",
+            "1112"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车登记规定（公安部124号令）",
+            "实施日期"
+        ],
+        "grounding_id": [
+            "1105",
+            "1112"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "实施日期为2012年9月12日",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "2012-09-12"
+        ],
+        "grounding_id": [
+            "1113"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我想再了解一下办理的流程",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "1065"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理流程为: 1.申请 2. 查验 3.受理 4.审核 5.制证 6.送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            " 查验",
+            "受理",
+            "办理人员",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "1065",
+            "1066",
+            "1068",
+            "1077",
+            "1085",
+            "1091",
+            "1098"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "查验是查哪些项目呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            " 查验",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "1068",
+            "1073"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "查验机动车是否符合有关规范和标准",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "1073"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果不符合规范的话怎么告知呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "1075"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "查验合格后予以受理，不合格的当场告知申请人需要补正的全部内容",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "查验合格后予以受理，不合格的当场告知申请人需要补正的全部内容"
+        ],
+        "grounding_id": [
+            "1076"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那如果有不受理的情况应该怎么办呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "1082"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您说的是受理的结果吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "1082"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，这个结果怎么通知呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "1075"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "决定受理与否。如不属于本机关管辖范围的事项，即时决定不予办理，并告知申请人向有关行政机关申请。"
+        ],
+        "grounding_id": [
+            "1083"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那审核材料是审核什么呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "审核",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "1084",
+            "1087"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "审核申请人提交的材料，检查材料是否真实、有效。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "审批标准"
+        ],
+        "grounding_id": [
+            "1087"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，最后领证件的话是只能到现场吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "1098"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不是的，您可以选择当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "1099"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，那办理结果多长时间能出来呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "一个工作日就可以 ",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好，如果超出这个时间去哪里投诉呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您可以到嘉兴市中山东路1156号交警支队二楼政治处211室投诉",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "办理这个收不收费呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1117"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "是需要收费的",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "1118"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那怎么收钱的呢？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1135"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "1136"
+        ]
+    }
+]

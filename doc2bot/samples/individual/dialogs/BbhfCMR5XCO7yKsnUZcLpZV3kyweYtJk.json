@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解下宁波市机动车驾驶相关服务。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "行驶驾驶",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T10",
+            "T16",
+            "T138"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想了解期满换领机动车驾驶证还是遗失补领机动车驾驶证呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "期满换领机动车驾驶证在哪里可以办理？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "受理机构"
+        ],
+        "grounding_id": [
+            "1",
+            "47"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "期满换领机动车驾驶证受理机构为宁波市公安局交通警察局。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "宁波市公安局交通警察局"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想补办机动车驾驶证，要怎么办理呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "遗失补领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是想了解监督投诉方式、基本信息、线下办事点、申请条件还是其他相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解下补领的基本信息。",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你是想了解基本信息中关于承诺办结时限、 是否实行告知承诺、到办事现场次数还是其他相关内容呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否实行告知承诺"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理时要进行告知承诺吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "是否实行告知承诺"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不用进行告知承诺。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "否"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "基本信息还有哪些内容？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "基本信息中还包含事项类型、基本编码 、受理机构、 决定机构等其他信息，你是想了解哪方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "基本编码"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道基本编码是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "基本编码"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "基本编码是331009183006。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "331009183006"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我对办理结果有异议要如何保障我的权利呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "行政相对人权利和义务"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "申请人对本事项的办理结果有异议的，可依法申请行政复议或提起行政诉讼。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "申请人对本事项的办理结果有异议的，可依法申请行政复议或提起行政诉讼。"
+        ],
+        "grounding_id": [
+            "96"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我的这个权力是属于什么属性的权力呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "权力属性"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "该权力属于法定权力。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_常用服务_遗失补领机动车驾驶证.json",
+        "grounding": [
+            "法定权力"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    }
+]

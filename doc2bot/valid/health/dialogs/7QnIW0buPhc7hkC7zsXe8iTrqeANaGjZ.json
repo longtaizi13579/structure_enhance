@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我媳妇快到预产期了，我想了解一下相关知识。如果她突然羊水破了我该怎么办？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "你知道吗……一旦破水，孕妇应该联系医生或助产士。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "首先您不要慌张，先打电话联系医院医生带上待产包立即赶往医院。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "你知道吗……一旦破水，孕妇应该联系医生或助产士。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果我媳妇羊水破了，会出现什么风险？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "胎盘早期脱离（胎盘早剥）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个可能会出现胎盘早剥。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "胎盘早期脱离（胎盘早剥）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那羊水破了，该怎么办？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于34周，孕妇将在医院受到密切监测，看是否有感染或分娩迹象。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那就要视具体情况而言了，请问孕妇是否怀孕超过34周？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于34周，孕妇将在医院受到密切监测，看是否有感染或分娩迹象。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不到34周，现在是33周。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于34周，孕妇将在医院受到密切监测，看是否有感染或分娩迹象。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不到34周，如果羊水破了，需要将孕妇送到医院监测，看看有没有感染或分娩迹象。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于34周，孕妇将在医院受到密切监测，看是否有感染或分娩迹象。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "羊水破了，如果早产，会对新生儿有什么影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "可能死亡"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "严重的话，会造成新生儿死亡。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "可能死亡"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我听说早产会导致脑瘫，有什么解决办法吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于32周，可以使用硫酸镁来降低脑瘫的风险。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以使用硫酸镁来降低脑瘫。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果怀孕少于32周，可以使用硫酸镁来降低脑瘫的风险。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "孕妇在7天内有早产风险怎么办？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果孕妇在7天内有早产风险，则在妊娠23周开始"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "孕妇可在妊娠23周开始使用皮质类固醇，帮助胎儿肺成熟。孕妇在7天内有什么异样吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果孕妇在7天内有早产风险，则在妊娠23周开始"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "没有。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果孕妇在7天内有早产风险，则在妊娠23周开始"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那没什么问题，不要担心。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果孕妇在7天内有早产风险，则在妊娠23周开始"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "羊水破了之后，什么时候开始分娩？",
+        "act": "when",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果分娩未在6至12小时内开始，孕妇和胎儿感染的风险就会增加。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "分娩应在6到12小时内开始，不然会增加孕妇和胎儿感染的风险。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_分娩并发症_胎膜早破(PROM).json",
+        "grounding": [
+            "如果分娩未在6至12小时内开始，孕妇和胎儿感染的风险就会增加。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

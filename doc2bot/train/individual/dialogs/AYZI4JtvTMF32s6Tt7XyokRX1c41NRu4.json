@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我机动车驾驶证到期了要换一个，我想问一下换需要多少钱？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "期满换领机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "354"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请问是咨询哪个地方的收费标准呢？地方不同标准不一。是浙江吗？我看号码是浙江金华的。",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_金华市",
+            "浙江省_金华市",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "T6",
+            "T6",
+            "354"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对对对，我是金华的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "金华期满换领机动车驾驶证是需要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "356"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "换机动车驾驶证要多少钱？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "1\t机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "362",
+            "363"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "10元钱一本。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "364"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "上一次还不是这个价格，咋涨了呢？给我个投诉电话！",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉电话是0579-12345。时代在发展，物价上涨了，这个涨价也是可以理解的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "0579-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这话说的，给我个地址，我直接去。",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果有不满的地方可以去浙江省金华市婺城区双龙南街801号金华市信访局可以进行投诉的。",
+        "act": "ans/yesno",
+        "document": "浙江省_金华市_0_0_行驶驾驶_常用服务_期满换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

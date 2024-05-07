@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T13",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工伤保险、失业保险、医疗保险您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T203"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询失业保险有关的内容。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T203"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那具体是失业补助金申领、失业保险关系转移申请 、失业保险关系接续申请哪个业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "失业补助金申领可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个业务的承诺办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "五个工作日",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个业务的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "湖州市民服务中心（湖州市吴兴区金盖山路66号）4号楼1楼3号政务服务大厅（人力社保）窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "浙江宁波单位住房公积金缴纳登记要审核多长时间？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "单位住房公积金缴存登记",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "法定办结时限为20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "这个要是办好了，结果多久能送到？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "111"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，但是去办业务的人太多了，这个能不能用那个机器自助办理啊？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想问的是是否支持自主终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对对对，就是这个终端，能自助办吗？",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前我们不支持自助终端办理此业务的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我一般什么时候去办人能少一点呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们上班时间是工作日：8:30-16:45，无午休，人少一点的话可以午休的时间来。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "工作日：8:30—16:45，无午休"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "午休时间估计我赶不上呀，那你这还有啥其他能办理的渠道吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "除了现场窗口申请，您也可以到网上申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_职工公积金_跨省通办服务_单位住房公积金缴存登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

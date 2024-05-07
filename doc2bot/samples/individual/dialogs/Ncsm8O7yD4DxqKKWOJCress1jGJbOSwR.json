@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "哎，你好，就是这个职业技能鉴定这个一般什么时间能办理？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "申报省级职业技能鉴定",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是要咨询哪个省市的？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，浙江衢州市",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5",
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，查询到办理时间是工作日冬季：上午8:30-12:00，下午1:30-4:30；夏季：上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "工作日冬季：上午8:30-12:00，下午1:30-4:30；夏季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，对了还有人才引进落户关于这个有什么咨询方式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "人才引进落户",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "T308",
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，给您提供一个咨询电话可以吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，那电话你说吧，我记一下，说慢点。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，请您记录，咨询电话是0570-3081525",
+        "act": "ans/yesno",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "0570-3081525"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "谢谢，再问一下，就是这个技能鉴定申请有什么办理形式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "申报省级职业技能鉴定",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "78"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以网上申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "网上申请"
+        ],
+        "grounding_id": [
+            "79"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，您能给再查一下，咨询地址吗？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，您记一下，衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好，再麻烦您一下，这个有什么监督投诉方式？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的帮您查询了一下，有投诉电话、投诉地址 、还有投诉网址，您需要哪一个信息？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "哦，投诉地址是哪里呀？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "好的，地址是衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "啊，投诉电话您也再说一下吧？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "好的，0570-3086326",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人才引进落户__申报省级职业技能鉴定.json",
+        "grounding": [
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    }
+]

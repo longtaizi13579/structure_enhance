@@ -1,0 +1,302 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想了解浙江省嘉兴市出入境的相关问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，台湾通行证及签注还是港澳通行证及签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理往来台湾通行证有哪些监督投诉方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "三种，投诉电话 、投诉地址、投诉网址请问您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请告诉我投诉地址。",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "嘉兴市南湖区越秀南路409号出入境接待大厅一楼七号窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "往来台湾通行证申请有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "137"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "无数量限制",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "138"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理这个证件的受理条件是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "139"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "(一)大陆居民可按需单独申领往来台湾通行证； (二)大陆居民可同时申请往来台湾通行证和签注； (三)往来台湾通行证持证人具有下列情形之一的，可以申请换发往来台湾通行证： 1、往来台湾通行证有效期不足6个月，或者短于拟申请签注有效期的； 2、持证人身份信息发生变更的； 3、持本式往来台湾通行证换发电子往来台湾通行证的； 4、确需换发的其他情形。 (四)大陆居民往来台湾通行证损毁、遗失、被盗抢或者有需要补发的其他情形的，可以申请补发往来台湾通行证。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "(一)大陆居民可按需单独申领往来台湾通行证；\n(二)大陆居民可同时申请往来台湾通行证和签注；\n(三)往来台湾通行证持证人具有下列情形之一的，可以申请换发往来台湾通行证：\n1、往来台湾通行证有效期不足6个月，或者短于拟申请签注有效期的；\n2、持证人身份信息发生变更的；\n3、持本式往来台湾通行证换发电子往来台湾通行证的；\n4、确需换发的其他情形。\n(四)大陆居民往来台湾通行证损毁、遗失、被盗抢或者有需要补发的其他情形的，可以申请补发往来台湾通行证。"
+        ],
+        "grounding_id": [
+            "140"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有什么禁止性要求吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "申请人有下列情形之一的，不予批准签发往来台湾通行证和签注： （一）有法定不准出境情形的； （二）不符合申请条件的； （三）在申请过程中弄虚作假的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "申请人有下列情形之一的，不予批准签发往来台湾通行证和签注：\n",
+            "（一）有法定不准出境情形的； ",
+            "（二）不符合申请条件的；",
+            " （三）在申请过程中弄虚作假的。"
+        ],
+        "grounding_id": [
+            "142",
+            "1543",
+            "1544",
+            "1545"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理这个证件需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1517"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "1518"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "承诺办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "7个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "送达时限？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那赴台其他签注的送达时限又是多久呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的LogicPro不能正常使用了是怎么回事呀？",
+        "act": "why",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您的LogicPro现在是否可以正常打开呢？",
+        "act": "verification",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "请尝试旁通插件。",
+            "请尝试移除插件。"
+        ],
+        "grounding_id": [
+            "93",
+            "94"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我现在没有办法打开。",
+        "act": "ans/no",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "请尝试移除插件。"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您无法打开LogicPro或MainStage，请尝试移除插件。",
+        "act": "ans/open",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "请尝试移除插件。"
+        ],
+        "grounding_id": [
+            "94"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "插件在哪里找啊？我找不到啊。",
+        "act": "what",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "如果您找不到最近安装的插件，"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您找不到最近安装的插件，请重新启动Mac，确认有没有安装相应插件，并重新扫描您的插件。",
+        "act": "ans/open",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "如果您找不到最近安装的插件，",
+            "请重新启动Mac，确认有没有安装相应插件，并重新扫描您的插件。"
+        ],
+        "grounding_id": [
+            "12",
+            "95"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我找到了，我现在还不想移除插件，我能直接旁通吗？怎么操作呢？",
+        "act": "how",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "您可以通过几种不同的方式来旁通插件："
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，您可以通过将指针放在通道条中的插件插槽上，然后点按“旁通”按钮、按住Option键点按插件插槽、在插件窗口中，点按“旁通”按钮，这三种方法来旁通插件。",
+        "act": "ans/open",
+        "document": "旁通、移除或重新扫描LogicPro或MainStage中的音频单元插件.json",
+        "grounding": [
+            "您可以通过几种不同的方式来旁通插件：",
+            "将指针放在通道条中的插件插槽上，然后点按“旁通”按钮，以使插槽变暗。",
+            "按住Option键点按插件插槽，以使插槽变暗。",
+            "在插件窗口中，点按“旁通”按钮，以使插槽变暗。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的。对了，我还有个问题，Apple钱包中能移除凭证吗？",
+        "act": "verification",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "从Apple钱包中移除凭证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。不过一些已过期的凭证可能会自动隐藏。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "您可以从iPhone和AppleWatch上的“钱包”App中移除度假区票卡凭证、登机牌、回馈卡以及活动门票等凭证。一些已过期的凭证可能会自动隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那已经隐藏的凭证怎么做可以取消隐藏呢？",
+        "act": "how",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "某些具有使用限制的凭证或一次性凭证（例如，登机牌或活动门票）在过期后会自动隐藏。这类凭证将转移到一个单独的列表中，您可以在这个列表中查看、取消隐藏或删除凭证："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这些凭证在过期后会自动隐藏到一个单独的列表中，你找到列表后就可以查看、取消隐藏或删除凭证啦。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "某些具有使用限制的凭证或一次性凭证（例如，登机牌或活动门票）在过期后会自动隐藏。这类凭证将转移到一个单独的列表中，您可以在这个列表中查看、取消隐藏或删除凭证："
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我取消隐藏的话，这些凭证会显示到哪里呢？",
+        "act": "what",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "如果取消隐藏某个凭证，则这个凭证会回到“钱包”App的主视图中。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果取消隐藏某个凭证，则这个凭证会回到“钱包”App的主视图中。如果您删除某个凭证，则这个凭证会被永久移除。",
+        "act": "ans/open",
+        "document": "从Apple钱包中移除凭证.json",
+        "grounding": [
+            "如果取消隐藏某个凭证，则这个凭证会回到“钱包”App的主视图中。",
+            "如果删除某个凭证，则这个凭证会被永久移除。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    }
+]

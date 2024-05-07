@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道个人住房公积金账户转移的业务办理能不能投诉啊？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "个人住房公积金账户转移",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，请问您需要投诉电话、投诉地址、投诉网址中的哪一项呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道投诉地址",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "浙江省绍兴市解放北路588号绍兴市住房公积金管理中心"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那电话呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打0575-85089016",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "0575-85089016"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，这个支不支持网上支付呢？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "209"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那是怎么收费的呢？收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "204",
+            "205"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "此业务是不收费的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "206"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "免费吗？这么好，我是因为发生工作调动，这样是符合申请条件的吧？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "131",
+            "134"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "职工发生工作调动是符合我们的受理条件的",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "2.职工发生工作调动。"
+        ],
+        "grounding_id": [
+            "213"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，有没有什么禁止性的要求，我好避免一下",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "没有禁止性要求的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "无禁止性要求"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那就好，是怎么申请办理的呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以选择网上申请或者现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，是可以去自助终端办理的吧？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "目前我们是不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

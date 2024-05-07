@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要浙江省嘉兴市开个大型超市，要办个卫生许可证，请问我该办哪种证呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "浙江省_嘉兴市"
+        ],
+        "grounding_id": [
+            "1",
+            "T11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您需要办理最新版本的证书，可以申请办理公共场所卫生行政许可（新发证）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦，那我办理好后可以在网上支付相关费用吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1764"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "现目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1765"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果我办理公共场所卫生行政许可收费吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1760"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们这个服务是不收费用的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1761"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那申请成功通过后，多久可以拿到证件呢？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我这个公共场所卫生行政许可（新发证）证颁发下来后就可以马上营业了吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您申请通过后，作为经营场所管理者应当建立卫生管理制度，配备专职或者兼职卫生管理人员，方可正常营业。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "（四）经营场所管理者应当建立卫生管理制度，配备专职或者兼职卫生管理人员。"
+        ],
+        "grounding_id": [
+            "1789"
+        ]
+    }
+]

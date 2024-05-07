@@ -1,0 +1,280 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是个初中生，我想询问一下如何求五边形面积？",
+        "act": "how",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "如何求五边形的面积"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以使用公式也可以用小猿搜题进行搜索还可以询问你的老师你想咨询哪一个？\n",
+        "act": "multiple-choice",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "使用公式"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "公式计算的话具体都有什么公式能计算呢？",
+        "act": "what",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以 使用周长和边心距来计算面积。也可以 使用边长来计算面积。还可以选择只用半径来求面积的公式。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "使用周长和边心距来计算面积。",
+            "使用边长来计算面积。",
+            "选择只用半径来求面积的公式。"
+        ],
+        "grounding_id": [
+            "45",
+            "49",
+            "53"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如何想使用边长来计算面积应该如何计算呢？",
+        "act": "how",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "使用边长来计算面积。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果你只知道边长，那么使用以下公式进行计算：正五边形的面积=（5s）/（4tan（36º）），其中“s”=边长。 tan（36º）=√（5-2√5）。如果你的计算器没有“tan”功能，可以使用面积公式：面积=（5s）/（4√（5-2√5））。",
+        "act": "ans/open",
+        "document": "教育与交流_如何求五边形的面积.json",
+        "grounding": [
+            "如果你只知道边长，那么使用以下公式进行计算：",
+            "正五边形的面积=（5s）/（4tan（36º）），其中“s”=边长。",
+            "tan（36º）=√（5-2√5）。如果你的计算器没有“tan”功能，可以使用面积公式：面积=（5s）/（4√（5-2√5））。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我最近在学微机课，老师教我们如何使用ALT键输入特殊符号可是我不知道如果Windows系统中的“Alt代码”包含数字0，我可以省略吗？",
+        "act": "verification",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "如何使用ALT键输入特殊符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果Windows系统中的“Alt代码”包含数字0，你不能省略，一定要输入它们。",
+        "act": "ans/no",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "如果Windows系统中的“Alt代码”包含数字0，你不能省略，一定要输入它们。"
+        ],
+        "grounding_id": [
+            "117"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "Mac系统能跟我讲一遍吗？老师教完我我有些忘了",
+        "act": "what",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Mac系统"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，首先 可以输入货币符号。然后可以输入数学运算符，再就是可以输入特殊的标点符号和编辑符号，最后可以使用符号浏览器找到更多符号。",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入货币符号。",
+            "输入数学运算符。",
+            "输入特殊的标点符号和编辑符号。",
+            "使用符号浏览器找到更多符号。"
+        ],
+        "grounding_id": [
+            "74",
+            "82",
+            "95",
+            "110"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能跟我讲一下输入数学运算符具体需要如何输入呢？",
+        "act": "how",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入数学运算符。"
+        ],
+        "grounding_id": [
+            "82"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的可以Opt按键或Shift+Opt按键来修改键盘按键功能。使用下面的快捷键输入不同的数学运算符。\n||除号（除以）||Opt+/\n±||加减号|| Shift+Opt+TheButton \n°||度||Shift+Opt+8\n≥|| 大于等于 ||Opt+>\n≤||小于等于||Opt+<\nπ||圆周率||Opt+P\n≈||约等于||Opt+X\n≠||不等号||Opt+TheButton\n∞||无穷||Opt+5\n∫||积分号||Opt+B",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Opt按键或Shift+Opt按键来修改键盘按键功能。使用下面的快捷键输入不同的数学运算符。",
+            "符号||名称||快捷键",
+            "÷||除号（除以）||Opt+/",
+            "±||加减号|| Shift+Opt+TheButton ",
+            "°||度||Shift+Opt+8",
+            "≥|| 大于等于 ||Opt+>",
+            "≤||小于等于||Opt+<",
+            "π||圆周率||Opt+P",
+            "≈||约等于||Opt+X",
+            "≠||不等号||Opt+TheButton",
+            "∞||无穷||Opt+5",
+            "∫||积分号||Opt+B"
+        ],
+        "grounding_id": [
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如何如数特殊的标点符号和编辑符号呢",
+        "act": "how",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "输入特殊的标点符号和编辑符号。"
+        ],
+        "grounding_id": [
+            "95"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "Opt和Shift+Opt会改变、修改键盘打出的字符和符号。其中有些符号是特殊的标点符号和编辑符号。使用下述键盘组合键输入以下符号。符号||名称||快捷键 ¿||反问号|| Shift+Opt+?  ¡|| 反叹号 ||Opt+1 ©||版权||Opt+G®||商标注册标记||Opt+R™||商标||Opt+2[ ¶||段落||Opt+7 §||节||Opt+6 •||项目符号||Opt+8 –||短破折号||Opt+- —||长破折号||Shift+Opt+- †||匕首||Opt+T ‡||双匕首||Shift+Opt+7",
+        "act": "ans/open",
+        "document": "教育与交流_如何使用ALT键输入特殊符号.json",
+        "grounding": [
+            "Opt和Shift+Opt会改变、修改键盘打出的字符和符号。其中有些符号是特殊的标点符号和编辑符号。使用下述键盘组合键输入以下符号。",
+            "符号||名称||快捷键",
+            "¿||反问号|| Shift+Opt+? ",
+            "¡|| 反叹号 ||Opt+1",
+            "©||版权||Opt+G",
+            "®||商标注册标记||Opt+R",
+            "™||商标||Opt+2",
+            "¶||段落||Opt+7",
+            "§||节||Opt+6",
+            "•||项目符号||Opt+8",
+            "–||短破折号||Opt+-",
+            "—||长破折号||Shift+Opt+-",
+            "†||匕首||Opt+T",
+            "‡||双匕首||Shift+Opt+7"
+        ],
+        "grounding_id": [
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还不会找最小公分母，能告诉我如何找到最小公分母吗？",
+        "act": "how",
+        "document": "教育与交流_如何找到最小公分母.json",
+        "grounding": [
+            "如何找到最小公分母"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以用最小公倍数法，首先列出每个分母的整数倍数，然后确定最小公倍数，再重新写出原始数学式，最后计算公式",
+        "act": "ans/open",
+        "document": "教育与交流_如何找到最小公分母.json",
+        "grounding": [
+            "最小公倍数法",
+            "列出每个分母的整数倍数。",
+            "确定最小公倍数。",
+            "重新写出原始数学式。",
+            "计算等式。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "11",
+            "17",
+            "21"
+        ]
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下查找AppleTV的序列号的相关信息",
+        "act": "what",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查找AppleTV的序列号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想了解查看AppleTV的底部以获取反光的序列、使用您的AppleID查找序列号、查看“关于”屏幕以获取序列号还是其他的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查找AppleTV的序列号",
+            "使用您的AppleID查找序列号"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我先了解一下怎样使用AppleID来查找序列号？",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "使用您的AppleID查找序列号"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在已使用您的AppleID登录的iPhone、iPad或iPodtouch上，前往“设置”>“[您的姓名]”。然后向下滚动，并轻点您的AppleTV以查看序列号。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "在已使用您的AppleID登录的iPhone、iPad或iPodtouch上，前往“设置”>“[您的姓名]”。然后向下滚动，并轻点您的AppleTV以查看序列号。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，可是我没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，应该怎么弄呢？",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。首先前往appleid.apple.com，然后使用您用于AppleTV的AppleID登录。然后向下滚动到名为“设备”的部分，最后选择您的AppleTV。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果您没有与AppleTV搭配使用的iPhone、iPad或iPodtouch，您可以在电脑上前往AppleID帐户页面，以查找AppleTV的序列号。",
+            "前往appleid.apple.com，然后使用您用于AppleTV的AppleID登录。",
+            "向下滚动到名为“设备”的部分。",
+            "选择您的AppleTV。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，那要怎样查看“关于”屏幕以获取序列号呢？",
+        "act": "how",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "查看“关于”屏幕以获取序列号"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要查看AppleTV的序列号，请前往“设置”>“通用”>“关于”。您还可以查看SiriRemote或AppleTVRemote*的序列号，方法是前往“设置”>“遥控器与设备”>“遥控器”。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "要查看AppleTV的序列号，请前往“设置”>“通用”>“关于”。您还可以查看SiriRemote或AppleTVRemote*的序列号，方法是前往“设置”>“遥控器与设备”>“遥控器”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可是这样没有查到呀，怎么回事呢？",
+        "act": "why",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果仍未找到您需要的编号，请查看您的设备或包装盒。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果仍未找到您需要的编号，请查看您的设备或包装盒。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "如果仍未找到您需要的编号，请查看您的设备或包装盒。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "哦，那做什么需要提供这个序列号呢？",
+        "act": "what",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "注册AppleTV或请求获得支持时，可能需要提供序列号。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "注册AppleTV或请求获得支持时，可能需要提供序列号。",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "注册AppleTV或请求获得支持时，可能需要提供序列号。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "明白了，那查看AppleTV的底部以获取反光的序列号是什么呢？",
+        "act": "what",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "由于您设备底部的序列号可反射光，请对光查看编号。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "由于您设备底部的序列号可反射光，请对光查看编号",
+        "act": "ans/open",
+        "document": "查找AppleTV的序列号.json",
+        "grounding": [
+            "由于您设备底部的序列号可反射光，请对光查看编号。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

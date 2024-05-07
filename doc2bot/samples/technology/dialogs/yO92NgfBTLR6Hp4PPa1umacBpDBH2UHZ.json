@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下，我在购买的时候看不到购买前询问了，我应该怎么设置？",
+        "act": "how",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果看不到您的“购买前询问”请求"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以在iPhone、iPad、iPodtouch或Mac上的“通知中心”中查找相应请求。但您仍然看不到您的“购买前询问”请求，请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果看不到您的“购买前询问”请求",
+            "您可以在iPhone、iPad、iPodtouch或Mac上的“通知中心”中查找相应请求。如果您仍然看不到您的“购买前询问”请求，请检查您登录的是哪个AppleID，检查“家人共享”设置，并确保您使用的是受支持的设备。"
+        ],
+        "grounding_id": [
+            "3",
+            "65"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我孩子购买后看到“无法‘要求准许’”怎么办",
+        "act": "how",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "了解如果您看不到“购买前询问”通知，或者您的孩子在请求家庭群组组织者批准购买后看到“无法‘要求准许’”，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "打开“购买前询问”后，如果您的孩子请求家庭群组的组织者批准某项购买，则您的孩子可能会看到“无法‘要求准许’。检查您在购买项目时使用的AppleID。查看“家人共享”设置。确保您使用的是受支持的设备",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "如果“购买前询问”无法正常使用",
+            "了解如果您看不到“购买前询问”通知，或者您的孩子在请求家庭群组组织者批准购买后看到“无法‘要求准许’”，该怎么做。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在Mac上哪里打开“通知中心”",
+        "act": "where",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "在Mac上打开“通知中心”"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在macOSBigSur或更高版本中，点按屏幕右上角的日期。通知会显示在“通知中心”的顶部。",
+        "act": "ans/open",
+        "document": "如果“购买前询问”无法正常使用.json",
+        "grounding": [
+            "在macOSBigSur或更高版本中，点按屏幕右上角的日期。通知会显示在“通知中心”的顶部。",
+            "在Mac上打开“通知中心”"
+        ],
+        "grounding_id": [
+            "12",
+            "11"
+        ]
+    }
+]

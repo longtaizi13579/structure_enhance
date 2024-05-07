@@ -1,0 +1,350 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T11",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车所有人姓名（单位名称）、身份证明号码变更备案、机动车灭失注销登记还是其他业务有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车所有人姓名（单位名称）、身份证明号码变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理机动车所有人姓名（单位名称）、身份证明号码变更备案这个业务，有哪些咨询方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "机动车所有人姓名（单位名称）、身份证明号码变更备案",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0573—12123",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼2—6号窗口",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "嘉兴市南湖区文贤路1851号汽车商贸园二手车市场2号楼嘉兴市公安局交警支队车辆管理所车城分所1楼2—6号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务要怎么申请？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "137",
+            "140"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "已注册登记的机动车，机动车所有人住所在车辆管理所管辖区域内迁移或者机动车所有人姓名（单位名称）、联系方式变更的，应当向登记地车辆管理所备案。"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果这个车不符合环保规定可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "申请条件",
+            "禁止性要求",
+            " （七）不符合环保规定的。"
+        ],
+        "grounding_id": [
+            "137",
+            "142",
+            "384"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            " （七）不符合环保规定的。"
+        ],
+        "grounding_id": [
+            "384"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我想投诉，有哪些方式？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "投诉电话告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "嘉兴市中山东路1156号交警支队二楼政治处211室",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "嘉兴市中山东路1156号交警支队二楼政治处211室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "我还想咨询一些有关收费的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "358"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "365"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "具体什么东西需要收费？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "365"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "机动车行驶证是需要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "1\t机动车行驶证"
+        ],
+        "grounding_id": [
+            "366"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那是多少钱呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "367"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车所有人姓名（单位名称）、身份证明号码变更备案.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "368"
+        ]
+    }
+]

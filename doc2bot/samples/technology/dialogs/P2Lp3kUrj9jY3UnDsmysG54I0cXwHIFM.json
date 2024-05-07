@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想调节一下我iPad的亮度，我没找到在哪里调节，你能告诉我一下吗？",
+        "act": "verification",
+        "document": "调节iPhone、iPad或iPodtouch的亮度和色温.json",
+        "grounding": [
+            "在“设置”中调节亮度和色温"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，首先前往“设置”>“显示与亮度”。然后.向左或向右拖移滑块以调节亮度。",
+        "act": "ans/open",
+        "document": "调节iPhone、iPad或iPodtouch的亮度和色温.json",
+        "grounding": [
+            "具体步骤",
+            "前往“设置”>“显示与亮度”。",
+            "向左或向右拖移滑块以调节亮度。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，iPad可以调节色温吗？我不喜欢暖色调",
+        "act": "verification",
+        "document": "调节iPhone、iPad或iPodtouch的亮度和色温.json",
+        "grounding": [
+            "您还可以打开夜览，这项功能可将显示屏色彩调至较暖的色调，从而减少显示屏对眼睛的刺激。要将色温调暖或调冷，请前往“设置”>“显示与亮度”>“夜览”，然后使用色温滑块进行调节。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，如果要将色温调冷，请前往“设置”>“显示与亮度”>“夜览”，然后使用色温滑块进行调节即可。",
+        "act": "ans/open",
+        "document": "调节iPhone、iPad或iPodtouch的亮度和色温.json",
+        "grounding": [
+            "您还可以打开夜览，这项功能可将显示屏色彩调至较暖的色调，从而减少显示屏对眼睛的刺激。要将色温调暖或调冷，请前往“设置”>“显示与亮度”>“夜览”，然后使用色温滑块进行调节。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "ok，我还需要查看“控制中心”中识别的歌曲，咋搞？",
+        "act": "how",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "要查看您在“控制中心”中识别的歌曲，请按住Shazam按钮以打开“历史记录”视图。轻点“历史记录”视图中的任意歌曲，即可在ShazamApp或您设备上的轻App中打开。要在ShazamApp中将这首歌添加到您的音乐库中，请轻点“更多”按钮，然后轻点“添加到我的音乐”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要查看您在“控制中心”中识别的歌曲，请按住Shazam按钮以打开“历史记录”视图。轻点“历史记录”视图中的任意歌曲，即可在ShazamApp或您设备上的轻App中打开。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad、iPodtouch、AppleWatch或Mac上使用Shazam.json",
+        "grounding": [
+            "要查看您在“控制中心”中识别的歌曲，请按住Shazam按钮以打开“历史记录”视图。轻点“历史记录”视图中的任意歌曲，即可在ShazamApp或您设备上的轻App中打开。要在ShazamApp中将这首歌添加到您的音乐库中，请轻点“更多”按钮，然后轻点“添加到我的音乐”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

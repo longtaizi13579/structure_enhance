@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我现在在浙江省衢州市，我想知道办理人力资源服务许可审批的费用问题。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "人力资源服务许可审批",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "300"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解是否收费、是否支持网上支付还是收费依据呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道收不收费。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "人力资源服务许可审批是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "302"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那要多久才给我办结呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "人力资源服务许可审批"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯你给我说一下法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "要这么久啊，那我还想了解人力资源服务许可审批申请条件中的一些问题。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "人力资源服务许可审批"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "人力资源服务许可审批申请条件有数量限制、受理条件、禁止性要求三个，您具体想了解哪一个的呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "申请条件",
+            "数量限制",
+            "受理条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "129",
+            "130",
+            "132",
+            "134"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道需要满足什么样的受理条件呢？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "受理条件",
+            "人力资源服务许可审批"
+        ],
+        "grounding_id": [
+            "132",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有开展业务必备的固定场所、办公设施和一定数额的开办资金； 有3名以上具备相应职业资格的专职工作人员。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "2.有3名以上具备相应职业资格的专职工作人员。 具备相应职业资格是指：取得人力资源相关职业资格证书、人力资源相关专业毕业证书、参加人力资源市场主管部门和设区市以上人力资源服务协会组织的从业人员培训并取得培训合格证等情况，皆视同为满足该条件。 申请设立中外合资或外商独资中介机构的，中方和外方出资者应当是从事3年以上职业中介的公司、企业和其他经济组织。",
+            "1.有开展业务必备的固定场所、办公设施和一定数额的开办资金；\n"
+        ],
+        "grounding_id": [
+            "312",
+            "133"
+        ]
+    }
+]

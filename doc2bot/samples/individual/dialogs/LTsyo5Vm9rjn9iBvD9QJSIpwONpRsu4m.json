@@ -1,0 +1,300 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省绍兴市行驶驾驶有关的问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T7",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是机动车、行驶证驾驶证、常用服务、机动车所有人、小客车指标哪个的相关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询行驶证驾驶证的有关问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车驾驶证增驾申领、达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是其他业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询机动车驾驶证增驾申领的费用问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "273"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是否收费、收费依据、是否支持网上支付和收费项目名称您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么项目需要收费？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "1 汽车驾驶员考试费（含一次补考）、2 补考（包括法律法规规章规定需重新进行的考试费）、3 摩托车驾驶员考试费（含一次补考）、4 机动车驾驶证",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t摩托车驾驶员考试费（含一次补考）"
+        ],
+        "grounding_id": [
+            "299"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "摩托车驾驶员考试费（含一次补考）怎么收费？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "3\t摩托车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "299",
+            "300"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "230元/人次",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "230元/人次"
+        ],
+        "grounding_id": [
+            "301"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "补考（包括法律法规规章规定需重新进行的考试费）多少钱？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "2\t补考（包括法律法规规章规定需重新进行的考试费）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "290",
+            "291"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "80元/类，次",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "80元/类，次"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "汽车驾驶员考试费（含一次补考）怎么收费？",
+        "act": "how",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "1\t汽车驾驶员考试费（含一次补考）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "281",
+            "282"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "360元/人次",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "360元/人次"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "机动车驾驶证多少钱一本？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "4\t机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "308",
+            "309"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "十元",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "310"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "278"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "279"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果我想投诉，有哪些方式？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址和投诉网址请问您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "绍兴滨海新城沥海镇勤丰路8号绍兴市公安局车辆管理所（1号窗口）"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

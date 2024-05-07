@@ -1,0 +1,342 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下的iPodtouch无法开机或死机怎么办？",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch无法开机或死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有两种情况：屏幕显示黑屏或死机，iPodtouch可以开机，但在启动过程中卡住，您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果屏幕显示黑屏或死机"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下如果屏幕显示黑屏或死机怎么办。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果屏幕显示黑屏或死机"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "机型不同，操作方法也略有不同，您是想了解iPodtouch（第7代），还是iPodtouch（第6代）或更早机型？",
+        "act": "multiple-choice",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "请按照适用于您设备的步骤操作。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "先说下在iPodtouch（第7代）上怎么操作吧。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第7代）上"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "操作步骤：1.同时按住顶部按钮和调低音量按钮，直到您看到Apple标志。 2.如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。 3.如果您的iPodtouch仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "同时按住顶部按钮和调低音量按钮，直到您看到Apple标志。",
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPodtouch仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果在iPodtouch（第6代）或更早机型上，应该怎么操作？",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第6代）或更早机型上"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "操作步骤：1.同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。 2.如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。 3.如果您的iPodtouch仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。",
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPodtouch仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "充电的话需要多长时间？",
+        "act": "when",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "充电时间最长可能需要一个小时。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果iPodtouch可以开机，但在启动过程中卡住怎么办？",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch可以开机，但在启动过程中卡住"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "启动过程中，如果您看到Apple标志或者红色或蓝色屏幕，请尝试按照以下步骤操作： 1.将您的iPodtouch连接到一部电脑。在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。确定您的Mac使用的是哪个macOS版本。  2.在电脑上查找您的设备。 3.连接设备后，请按照以下步骤操作。 4.继续按住这两个按钮，直到您看到恢复模式屏幕。 5.当您看到恢复或更新选项时，选取“更新”。 6.您的电脑将下载适用于您设备的软件。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "启动过程中，如果您看到Apple标志或者红色或蓝色屏幕，请尝试按照以下步骤操作：",
+            "将您的iPodtouch连接到一部电脑。在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。确定您的Mac使用的是哪个macOS版本。",
+            "在电脑上查找您的设备。",
+            "连接设备后，请按照以下步骤操作：",
+            "继续按住这两个按钮，直到您看到恢复模式屏幕。",
+            "当您看到恢复或更新选项时，选取“更新”。",
+            "您的电脑将下载适用于您设备的软件。如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "33",
+            "38",
+            "41",
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "连接设备后，具体应该怎么操作？",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "连接设备后，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "在iPodtouch（第7代）上：同时按住顶部按钮和调低音量按钮。 在iPodtouch（第6代）或更早机型上：同时按住主屏幕按钮和顶部按钮。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第7代）上：同时按住顶部按钮和调低音量按钮。",
+            "在iPodtouch（第6代）或更早机型上：同时按住主屏幕按钮和顶部按钮。"
+        ],
+        "grounding_id": [
+            "39",
+            "40"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果下载时间超过15分钟怎么办？",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "您的电脑将下载适用于您设备的软件。如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "您的电脑将下载适用于您设备的软件。如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "还有个问题，如果iPod无法开机或似乎死机怎么办？",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果iPod无法开机或似乎死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以尝试强制重启，如果不行的话，可能是设备没电了，需要为设备进行充电。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "为设备充电"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "需要充多久？",
+        "act": "when",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod仍然没有响应，可能是因为电池电量不足。请至少为iPod充电30分钟："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "请至少为iPod充电30分钟",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "如果您的iPod仍然没有响应，可能是因为电池电量不足。请至少为iPod充电30分钟："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果30分钟后还是没有看到充电屏幕怎么办？",
+        "act": "how",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作：检查线缆连接是不是牢固。清除所有端口中的所有碎屑。尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。如果设备还是无法开机，则可能需要维修。请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果iPod无法开机或似乎死机.json",
+        "grounding": [
+            "30分钟后还是没有看到充电屏幕，或者没有看到指示灯变为橙色？请按照以下步骤操作：",
+            "检查线缆连接是不是牢固。清除所有端口中的所有碎屑。",
+            "尝试其他充电线、电源适配器和电源。请勿使用有任何损坏迹象的适配器或线缆。",
+            "如果设备还是无法开机，则可能需要维修。请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "怎么判断iPod是否死机？",
+        "act": "how",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "了解如果您的iPad屏幕死机、在您触摸后没有响应或者在开机时卡住，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您触摸后没有响应或者在开机时卡住，说明iPod可能死机。",
+        "act": "ans/open",
+        "document": "如果您的iPad无法开机或死机.json",
+        "grounding": [
+            "了解如果您的iPad屏幕死机、在您触摸后没有响应或者在开机时卡住，该怎么做。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

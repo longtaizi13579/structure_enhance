@@ -1,0 +1,173 @@
+{
+    "document_id": 111,
+    "domain": "technology",
+    "name": "如何重新安装macOS",
+    "graph": {
+        "1": {
+            "data": "如何重新安装macOS",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "使用macOS恢复功能重新安装Mac操作系统。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "通过macOS恢复功能启动",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "首先确保您的Mac已连接到互联网。然后确定您使用的是不是搭载Apple芯片的Mac，并按照相应的步骤操作：",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "8": {
+            "data": "Apple芯片",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "9": {
+            "data": "将Mac开机并继续按住电源按钮，直至您看到启动选项窗口。点按标有“选项”字样的齿轮图标，然后点按“继续”。",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "10": {
+            "data": "Intel处理器",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "11": {
+            "data": "将Mac开机并立即按住Command(⌘)-R，直至您看到Apple标志或其他图像。",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "如果系统要求您选择一个您知道相应密码的用户，",
+            "type": "condition",
+            "pid": "3"
+        },
+        "13": {
+            "data": "重新安装macOS",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "14": {
+            "data": "重新安装macOS并不会从Mac中移除数据。要开始安装，请从“macOS恢复”的实用工具窗口中选择“重新安装macOS”，然后点按“继续”并按照屏幕上的说明操作。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "15": {
+            "data": "在安装过程中，请遵循以下准则：",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "16": {
+            "data": "如果安装器要求解锁您的磁盘，",
+            "type": "condition",
+            "pid": "15"
+        },
+        "17": {
+            "data": "如果安装器无法识别您的磁盘，或者指出它无法安装到您的电脑或宗卷上，",
+            "type": "condition",
+            "pid": "15"
+        },
+        "21": {
+            "data": "如果安装器让您选择是安装在“MacintoshHD”上还是在“MacintoshHD-Data”上，",
+            "type": "condition",
+            "pid": "15"
+        },
+        "22": {
+            "data": "不要将Mac置于睡眠状态或合上上盖，以便安装完成。Mac可能会多次重新启动并显示进度条，并且屏幕可能每次持续几分钟处于空白状态。",
+            "type": "ordinary",
+            "pid": "15"
+        },
+        "23": {
+            "data": "安装完成后，Mac可能会重新启动并显示设置助理。如果您要出售、折抵或赠送Mac，请按下Command-Q以退出助理而不要完成设置。然后点按“关机”。当新的所有者启动这台Mac时，他们可以使用自己的信息来完成设置。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "24": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "23"
+        },
+        "25": {
+            "data": "出售、折抵或赠送Mac",
+            "type": "see-more",
+            "pid": "24",
+            "target": "出售、赠送或折抵Mac前该怎么做.json"
+        },
+        "27": {
+            "data": "其他macOS安装选项",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "28": {
+            "data": "当您从恢复功能安装macOS时，会获得最近所安装macOS的最新版本，但也有一些例外：",
+            "type": "ordinary",
+            "pid": "27"
+        },
+        "29": {
+            "data": "在基于Intel的Mac上，您可以在启动时使用Shift-Option-Command-R来获得Mac自带的macOS，或与它最接近且仍在提供的版本。或者，您也可以在启动时使用Option-Command-R来获得与Mac兼容的最新版macOS；在某些情况下，也可获得Mac自带的macOS或与它最接近且仍在提供的版本。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "30": {
+            "data": "如果刚刚更换过Mac主板，",
+            "type": "condition",
+            "pid": "28"
+        },
+        "31": {
+            "data": "如果刚刚抹掉了整个启动磁盘，",
+            "type": "condition",
+            "pid": "28"
+        },
+        "32": {
+            "data": "如果macOS与您的Mac兼容，您也可以使用以下方法来安装macOS：",
+            "type": "ordinary",
+            "pid": "27"
+        },
+        "33": {
+            "data": "使用AppStore下载并安装最新版macOS或较早版本的macOS。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "37": {
+            "data": "使用USB闪存驱动器或其他备用宗卷来创建可引导安装器。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "38": {
+            "data": "请选择这样的用户，点按“下一步”，然后输入用户的管理员密码。",
+            "type": "solution",
+            "pid": "12"
+        },
+        "39": {
+            "data": "请输入您在登录Mac时所使用的密码。",
+            "type": "solution",
+            "pid": "16"
+        },
+        "40": {
+            "data": "您可能需要先抹掉磁盘。",
+            "type": "solution",
+            "pid": "17"
+        },
+        "41": {
+            "data": "请选取“MacintoshHD”。",
+            "type": "solution",
+            "pid": "21"
+        },
+        "42": {
+            "data": "您可能只会获得与Mac兼容的最新版macOS。",
+            "type": "solution",
+            "pid": "30"
+        },
+        "43": {
+            "data": "您可能只会获得Mac自带的macOS，或与它最接近且仍在提供的版本。",
+            "type": "solution",
+            "pid": "31"
+        }
+    }
+}

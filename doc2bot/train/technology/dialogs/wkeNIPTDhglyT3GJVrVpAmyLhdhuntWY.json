@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果提示我创建新的iCloud安全码的话怎么办",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问是在iPhone、iPad或iPodtouch上还是在Mac上",
+        "act": "multiple-choice",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是在Mac上，应该怎么创建",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在Mac上",
+            "点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我还想问一下怎么在Mac上安全地打开App",
+        "act": "how",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上安全地打开App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在Mac上获取App最安全的途径是AppStore，您需要深入了解吗",
+        "act": "question/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道AppStore是怎么保证安全的",
+        "act": "how",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如有app存在问题的话怎么处理",
+        "act": "how",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果某个App存在问题，Apple会迅速将它从商店中下架。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "了解了，我还想了解一下在Mac上打开口述影像的信息",
+        "act": "what",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "在Mac上打开口述影像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您想了解什么方面呢",
+        "act": "question/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "在Mac上打开口述影像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果我确定视频中包含口述影像，但不知道如何打开的话怎么办",
+        "act": "how",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "一些第三方App和网站针对视频使用了自定控件。如果您知道视频中包含口述影像，但不知道如何打开，则可能需要联系App开发者或网站拥有者以获取更多信息。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可能需要联系App开发者或网站拥有者以获取更多信息。",
+        "act": "ans/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "一些第三方App和网站针对视频使用了自定控件。如果您知道视频中包含口述影像，但不知道如何打开，则可能需要联系App开发者或网站拥有者以获取更多信息。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那为某个视频打开口述影像的具体步骤是什么",
+        "act": "what",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "为某个视频打开口述影像",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先将指针移至视频上以显示播放控件，然后点按字幕气泡图标，最后选取一个口述影像轨道或其他音频选项。",
+        "act": "ans/open",
+        "document": "在Mac上打开口述影像.json",
+        "grounding": [
+            "将指针移至视频上以显示播放控件。",
+            "点按字幕气泡图标。",
+            "选取一个口述影像轨道或其他音频选项。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    }
+]

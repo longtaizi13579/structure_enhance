@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，如果在使用旁白的iPhone上设置HomePod，会自动传输到HomePod上吗？",
+        "act": "verification",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "在HomePod上使用“旁白”",
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "会的。如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。",
+        "act": "ans/yes",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎么还原HomePod？",
+        "act": "how",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "还原HomePod"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有3种方法：使用“家庭”App还原HomePo，按压HomePod顶部以将它还原，使用Mac或PC恢复HomePodmini，您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "使用“家庭”App还原HomePod需要注意什么？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "确保您已在iPhone、iPad、iPodtouch或Mac上使用设置HomePod时所用的AppleID登录“家庭”App。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "确保您已在iPhone、iPad、iPodtouch或Mac上使用设置HomePod时所用的AppleID登录“家庭”App。要将HomePod还原为出厂设置并将它从“家庭”App中移除，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我已将两个HomePod扬声器设置为立体声组合，是不是可以直接进行还原？",
+        "act": "verification",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以。如果您已将两个HomePod扬声器设置为立体声组合，则需要先取消立体声组合编组，然后才能还原HomePod。",
+        "act": "ans/no",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "按压HomePod顶部以将它还原的方法是什么？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "按压HomePod顶部以将它还原"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您无法从“家庭”App中移除HomePod，可以按压HomePod顶部以将它还原为出厂设置。具体操作如下：从电源处拔下HomePod的插头，或拔下HomePodmini的电源适配器。等待10秒钟，然后为HomePod重新插接电源。等待10秒，然后用手指按住HomePod顶部。白色旋转光会变为红色。保持手指的按压姿势不变。Siri会说HomePod即将还原。在听到三次哔哔声后，您便可抬起手指。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "如果您无法从“家庭”App中移除HomePod，可以按压HomePod顶部以将它还原为出厂设置。具体操作如下：",
+            "从电源处拔下HomePod的插头，或拔下HomePodmini的电源适配器。等待10秒钟，然后为HomePod重新插接电源。",
+            "等待10秒，然后用手指按住HomePod顶部。",
+            "白色旋转光会变为红色。保持手指的按压姿势不变。",
+            "Siri会说HomePod即将还原。在听到三次哔哔声后，您便可抬起手指。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果还原后您仍会在“家庭”App中看到“HomePod”，是不是需要手动将它从“家庭”App中移除？",
+        "act": "verification",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要手动将它从“家庭”App中移除。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要手动将它从“家庭”App中移除。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "使用“家庭”App还原HomePod的具体步骤是什么？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤: 首先，在iPhone、iPad、iPodtouch或Mac上打开“家庭”App。 然后，在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。 最后，选择“移除”。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone、iPad、iPodtouch或Mac上打开“家庭”App。",
+            "在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。",
+            "选择“移除”。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    }
+]

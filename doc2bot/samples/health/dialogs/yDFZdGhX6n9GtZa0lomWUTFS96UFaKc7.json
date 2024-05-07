@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的喉咙为什么会有一摊摊白色东西，还很臭。是什么细菌感染吗？",
+        "act": "why",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "细菌感染：革兰氏阳性菌"
+        ],
+        "grounding_id": [
+            "T418"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "极大可能是革兰氏阳性菌，请问您最近是否劳累过度、免疫力底下呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "细菌感染：革兰氏阳性菌"
+        ],
+        "grounding_id": [
+            "T418"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对，最近一直在熬夜加班，黑白不分的工作。应该就是那个阶段感染的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请及时就医，做细菌培养，白喉大多数都是肠球菌感染，确诊之后进行对应的治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "肠球菌感染",
+            "白喉"
+        ],
+        "grounding_id": [
+            "20",
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我手上还有很多水泡出来了，这个也是感染了嘛？",
+        "act": "why",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，您这是炭疽的症状，千万不要弄破水泡，会加重感染程度。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "感染",
+            "炭疽"
+        ],
+        "grounding_id": [
+            "T274",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我身上到底有几种菌啊？怎么都没听过。",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "感染"
+        ],
+        "grounding_id": [
+            "T274"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您确实是感染了革兰阳性杆菌，会诱发很多细菌比如：肠球菌感染、丹毒丝菌病、李斯特菌病等，具体还需要等您化验结果出来对症下药。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阳性菌_革兰氏阳性菌概述.json",
+        "grounding": [
+            "革兰氏阳性菌概述",
+            "李斯特菌病",
+            "感染",
+            "细菌感染：革兰氏阳性菌"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "T274",
+            "T418"
+        ]
+    }
+]

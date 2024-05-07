@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我新买了个iPhone13Pro，想要了解一下这里面的AppleProRes的相关信息。",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "关于iPhone13Pro上的AppleProRes"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解关于AppleProRes使用，管理ProRes文件、打开ProRes还是其他相关的信息呢？",
+        "act": "multiple-choice",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "关于iPhone13Pro上的AppleProRes"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先了解一下这个AppleProRes具体是干什么用的呢？",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "关于iPhone13Pro上的AppleProRes"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "ppleProRes支持多流实时编辑性能，同时提供专业的图像质量。在iOS15.1或更高版本中，您的iPhone13Pro或iPhone13ProMax可以使用任何处于视频模式的摄像头，在“相机”App中以AppleProRes格式录制视频您可以在iPhone版“照片”App或iMovie剪辑中编辑AppleProRes，也可以在支持ProRes的Mac、iPad和iPhone视频编辑App中编辑AppleProRes。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "AppleProRes支持多流实时编辑性能，同时提供专业的图像质量。在iOS15.1或更高版本中，您的iPhone13Pro或iPhone13ProMax可以使用任何处于视频模式的摄像头，在“相机”App中以AppleProRes格式录制视频*。您可以在iPhone版“照片”App或iMovie剪辑中编辑AppleProRes，也可以在支持ProRes的Mac、iPad和iPhone视频编辑App中编辑AppleProRes。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，明白了，那这个AppleProRes再别的手机上面怎么没有呢？",
+        "act": "why",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "关于iPhone13Pro上的AppleProRes",
+            "在装有iOS15.1或更高版本的iPhone13Pro和iPhone13ProMax上，您可以使用“相机”App以AppleProRes格式录制视频。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "只有在装有iOS15.1或更高版本的iPhone13Pro和iPhone13ProMax上，您可以使用“相机”App以AppleProRes格式录制视频。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "在装有iOS15.1或更高版本的iPhone13Pro和iPhone13ProMax上，您可以使用“相机”App以AppleProRes格式录制视频。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "原来是这样啊，那打开ProRes之后这个HDR或SDR录制ProRes，分辨率和帧速怎么说的呢？",
+        "act": "how",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "打开ProRes",
+            "iPhone13Pro支持以HDR（使用HLG格式）或SDR录制ProRes，并支持以下分辨率和帧速率："
+        ],
+        "grounding_id": [
+            "5",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iPhone13Pro支持以HDR（或SDR录制ProRes，并支持以下分辨率和帧速率：对于256GB、512GB和1TB存储容量和对于128GB的存储容量，您想了解哪一个呢？",
+        "act": "multiple-choice",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "iPhone13Pro支持以HDR（使用HLG格式）或SDR录制ProRes，并支持以下分辨率和帧速率：",
+            "对于256GB、512GB和1TB存储容量，ProRes支持：",
+            "对于128GB的存储容量，ProRes支持："
+        ],
+        "grounding_id": [
+            "7",
+            "9",
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，先了解一下对于256GB、512GB和1TB存储容量，ProRes支持什么吧？",
+        "act": "verification",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "对于256GB、512GB和1TB存储容量，ProRes支持："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对于256GB、512GB和1TB存储容量，ProRes支持：4K/每秒30帧(30fps)、 4K/25fps、4K/24fps、1080pHD/60fps、1080pHD/30fps、1080pHD/25fps。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "对于256GB、512GB和1TB存储容量，ProRes支持：",
+            "4K/每秒30帧(30fps)",
+            "4K/25fps",
+            "4K/24fps",
+            "1080pHD/60fps",
+            "1080pHD/30fps",
+            "1080pHD/25fps"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好，那对于128GB的存储容量，ProRes支持什么呢？",
+        "act": "what",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "对于128GB的存储容量，ProRes支持："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "对于128GB的存储容量，ProRes支持1080pHD/30fps、1080pHD/25fp。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "对于128GB的存储容量，ProRes支持：",
+            "1080pHD/30fps",
+            "1080pHD/25fps"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，还有就是打开ProRes之后要怎么使用ProRes格式录制视频呢？",
+        "act": "how",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "打开ProRes"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "要让您的iPhone能够以ProRes格式录制视频，请前往“设置”>“相机”>“格式”，然后在“视频拍摄”下打开“AppleProRes”。要录制ProRes视频，请轻点“相机”App中的“ProRes”，然后录制视频。",
+        "act": "ans/open",
+        "document": "关于iPhone13Pro上的AppleProRes.json",
+        "grounding": [
+            "要让您的iPhone能够以ProRes格式录制视频，请前往“设置”>“相机”>“格式”，然后在“视频拍摄”下打开“AppleProRes”。要录制ProRes视频，请轻点“相机”App中的“ProRes”，然后录制视频。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

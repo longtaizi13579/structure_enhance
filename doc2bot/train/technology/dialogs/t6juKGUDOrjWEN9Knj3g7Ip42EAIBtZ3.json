@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么加入FaceTime通话？",
+        "act": "how",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "用安卓或Windows设备加入FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "需要满足什么条件 可以进行FaceTime通话，比如你有安卓或Windows设备吗？",
+        "act": "multiple-choice",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "需要满足什么条件",
+            "安卓或Windows设备",
+            "可以进行FaceTime通话"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有，我有安卓和Windows设备。",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "安卓或Windows设备"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你有稳定的无线局域网或蜂窝数据网络吗？",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "稳定的无线局域网或蜂窝数据网络"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有稳定的无线局域网，蜂窝数据网络。",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "稳定的无线局域网或蜂窝数据网络"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有最新版本的GoogleChrome或MicrosoftEdge吗？",
+        "act": "ans/yes",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "最新版本的GoogleChrome或MicrosoftEdge"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这些都有。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "安卓或Windows设备",
+            "稳定的无线局域网或蜂窝数据网络",
+            "最新版本的GoogleChrome或MicrosoftEdge"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要满足这些条件，如安卓或Windows设备，稳定的无线局域网或蜂窝数据网络， 最新版本的GoogleChrome或MicrosoftEdge就可以进行FaceTime通话[",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "安卓或Windows设备",
+            "稳定的无线局域网或蜂窝数据网络",
+            "最新版本的GoogleChrome或MicrosoftEdge",
+            "可以进行FaceTime通话"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在网页上的FaceTime通话中可以共享吗？",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "通过网页进行的FaceTime通话不支持同播共享和屏幕共享。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何在网页上加入FaceTime通话？",
+        "act": "how",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "如何在网页上加入FaceTime通话"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先如果您收到FaceTime通话链接，请打开这个链接。 其次输入您的姓名，然后选择“继续”。您可能需要允许FaceTime通话使用您的麦克风和摄像头。 再次选择“加入”。然后等待通话的主持人让您加入通话。 最后选择“离开”，即可离开通话。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "如果您收到FaceTime通话链接，请打开这个链接。",
+            "输入您的姓名，然后选择“继续”。您可能需要允许FaceTime通话使用您的麦克风和摄像头。",
+            "选择“加入”。然后等待通话的主持人让您加入通话。",
+            "选择“离开”，即可离开通话。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么情况下选择“继续”？",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "输入您的姓名，然后选择“继续”。您可能需要允许FaceTime通话使用您的麦克风和摄像头。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "输入您的姓名，然后选择“继续”。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "输入您的姓名，然后选择“继续”。您可能需要允许FaceTime通话使用您的麦克风和摄像头。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "选择“加入”后做什么？",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "选择“加入”。然后等待通话的主持人让您加入通话。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "选择“加入”。然后等待通话的主持人让您加入通话。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "选择“加入”。然后等待通话的主持人让您加入通话。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "能简单的说说如何用安卓或Windows设备加入FaceTime通话吗？",
+        "act": "how",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "用安卓或Windows设备加入FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "在使用安卓或Windows设备，通过iOS15和macOSMonterey中的FaceTime通话链接，任何人都可以从网页浏览器加入FaceTime通话。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "在使用安卓或Windows设备？通过iOS15和macOSMonterey中的FaceTime通话链接，任何人都可以从网页浏览器加入FaceTime通话。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如何使用全屏幕模式？",
+        "act": "how",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "使用全屏幕模式"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "如果您看到“全屏幕”按钮，可使用它让您的FaceTime通话占据整个屏幕。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "如果您看到“全屏幕”按钮，可使用它让您的FaceTime通话占据整个屏幕。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

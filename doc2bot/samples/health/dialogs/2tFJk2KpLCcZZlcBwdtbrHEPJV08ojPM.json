@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下就是一会哭一会忽然笑要不就忽然特别激动大喊大叫这算精神健康方面的问题吧",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "精神健康障碍"
+        ],
+        "grounding_id": [
+            "T2551"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体想了解哪方面呢精神健康问题里有这种人格与行为的改变，还有是精神疾病的分类与诊断等等？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "人格与行为的改变"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那像这种极端的情绪变化是属于人格与行为的改变",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "人格与行为的改变",
+            "极端情绪（如抑郁或躁狂）"
+        ],
+        "grounding_id": [
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "极端情绪（如抑郁或躁狂）可归纳为人格与行为的变化",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "极端情绪（如抑郁或躁狂）",
+            "人格与行为的变化，大致可以归纳为下列之一："
+        ],
+        "grounding_id": [
+            "14",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "他还经常胡言乱语，瞎说话，乱动。这是人格与行为的改变吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "杂乱异常的言词或行为"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "杂乱异常的言词或行为也是人格与行为的变化。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "杂乱异常的言词或行为",
+            "人格与行为的变化，大致可以归纳为下列之一："
+        ],
+        "grounding_id": [
+            "12",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "他为什么会这样呢?药物中毒吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "药物",
+            "当药物引发中毒时，可能影响人格"
+        ],
+        "grounding_id": [
+            "81",
+            "83"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果他在戒断：酒精、巴比妥类、苯二氮卓类药物和阿片类物质，可能会影响人格。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "戒断：酒精、巴比妥类、苯二氮卓类药物和阿片类物质"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我不懂什么是阿片类物质。",
+        "act": "what",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "阿片类物质"
+        ],
+        "grounding_id": [
+            "96"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "阿片类药物是一类源自鸦片罂粟（包括人工合成的变体）的药物，是具有很高误用可能性的止痛药。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "阿片类药物是一类源自鸦片罂粟（包括人工合成的变体）的药物，是具有很高误用可能性的止痛药。"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那精神恍惚也是人格与行为的变化吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "精神恍惚或谵妄状态",
+            "人格与行为的变化，大致可以归纳为下列之一："
+        ],
+        "grounding_id": [
+            "10",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的。人格与行为的变化之一是精神恍惚或谵妄状态。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "极端情绪（如抑郁或躁狂）",
+            "人格与行为的变化，大致可以归纳为下列之一："
+        ],
+        "grounding_id": [
+            "14",
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有其他表现吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "妄想"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "妄想和幻觉也是人格与行为的变化。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_精神健康障碍_精神卫生保健概述_人格与行为的改变.json",
+        "grounding": [
+            "妄想",
+            "幻觉"
+        ],
+        "grounding_id": [
+            "11",
+            "13"
+        ]
+    }
+]

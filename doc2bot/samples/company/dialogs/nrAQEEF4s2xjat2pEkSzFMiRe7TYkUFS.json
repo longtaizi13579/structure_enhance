@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在嘉兴市办理合伙企业变更申报材料，对于材料有什么要求呢？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "申报材料",
+            "材料类型"
+        ],
+        "grounding_id": [
+            "143",
+            "237"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "材料类型只需原件或电子件即可。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "原件或电子件"
+        ],
+        "grounding_id": [
+            "238"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，我对嘉兴市不太熟悉，他办理的具体地址是在哪里呢？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T11",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理地点在嘉兴市南湖区城南街道展望路1号1楼行政审批服务中心综合受理窗口1-8号。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "嘉兴经济技术开发区（国际商务区）行政审批服务中心（嘉兴市南湖区城南街道展望路1号）1楼行政审批服务中心综合受理窗口1-8号"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还有一些问题想要咨询一下，你那边有电话给我一个嘛？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是需要经开区域的还是港区的呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "经开0573-82208343；港区0573-89170575，0573-89170353"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "经开的吧，多少？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "咨询电话",
+            "经开0573-82208343；港区0573-89170575，0573-89170353"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "经开电话是0573-82208343。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "经开0573-82208343；港区0573-89170575，0573-89170353"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我还想问一下，法定的办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那作出决定后不会很迟才给到结果吧？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不会的，自作出决定之日起3个工作日内就可以送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_企业变更_常用服务_合伙企业变更.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

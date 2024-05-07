@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何在Mac上查找已存储的密码？",
+        "act": "how",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "如何在Mac上查找已存储的密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码，在Safari浏览器中查看已存储的密码，使用iCloud钥匙串在您的多台设备上存储密码，使用“自动填充”储存信用卡信息，您想具体了解哪个？",
+        "act": "multiple-choice",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码",
+            "在Safari浏览器中查看已存储的密码",
+            "使用iCloud钥匙串在您的多台设备上存储密码",
+            "使用“自动填充”储存信用卡信息"
+        ],
+        "grounding_id": [
+            "3",
+            "15",
+            "22",
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下，在Mac上除了可以查找已存储的密码，还能对密码做什么？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "您可以在Mac上查找、更改或删除已存储的密码，还可以让密码在所有设备上保持最新。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在Mac上查找、更改或删除已存储的密码，还可以让密码在所有设备上保持最新。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "您可以在Mac上查找、更改或删除已存储的密码，还可以让密码在所有设备上保持最新。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "使用iCloud钥匙串在多台设备上存储密码是什么意思？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用iCloud钥匙串在您的多台设备上存储密码"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iCloud钥匙串还有什么作用？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在您批准的任一设备上，自动填充Safari浏览器用户名和密码、信用卡信息等内容。iCloud钥匙串可以让您的密码和其他安全信息在您的iPhone、iPad、iPodtouch、Mac或PC上保持最新。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在Safari浏览器中查看已存储的密码的步骤是什么？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在Safari浏览器中查看已存储的密码"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在Safari浏览器中查看已存储的密码: 首先，打开Safari浏览器。 然后，从Safari浏览器菜单中，选取“偏好设置”，然后点按“密码”。接着，使用触控ID登录，或输入您的用户帐户密码。 选择一个网站，然后点按“编辑”。最后，要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在Safari浏览器中查看已存储的密码",
+            "打开Safari浏览器。",
+            "从Safari浏览器菜单中，选取“偏好设置”，然后点按“密码”。",
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。",
+            "选择一个网站，然后点按“编辑”。",
+            "要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "除了使用触控ID登录，或输入用户帐户密码，还可以用什么方法来认证密码？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "自动填充功会自动输入哪些信息？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用“自动填充”储存信用卡信息"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "“自动填充”功能会自动输入您之前存储的信用卡详细信息、“通讯录”App中的联系人信息等内容。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "“自动填充”功能会自动输入您之前存储的信用卡详细信息、“通讯录”App中的联系人信息等内容。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

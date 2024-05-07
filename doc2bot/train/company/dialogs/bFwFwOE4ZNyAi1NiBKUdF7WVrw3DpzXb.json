@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省绍兴市的，我想知道职工参保登记什么情况下可以办理呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "职工参保登记受理条件为行政区域内经依法登记注册的用人单位（包括企业、个体经济组织、民办非企业单位、国家机关、事业单位、社会团体等）的职工。统筹区内符合条件的灵活就业人员。您只要是符合这些条件都可以办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "行政区域内经依法登记注册的用人单位（包括企业、个体经济组织、民办非企业单位、国家机关、事业单位、社会团体等）的职工。统筹区内符合条件的灵活就业人员。"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一些浙江省湖州市职工社保医保的办理问题。",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "职工社保医保"
+        ],
+        "grounding_id": [
+            "T13",
+            "T141"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解机关事业养老保险职业年金转入还是职工参保登记呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "机关事业养老保险职业年金转入"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道机关事业养老保险职业年金转入办理要钱吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "208",
+            "209"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机关事业养老保险职业年金转入办理不收费。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解一些职工参保登记的办理问题。",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想知道办件类型、法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道职工参保登记办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "法定办结时限",
+            "职工参保登记"
+        ],
+        "grounding_id": [
+            "53",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "职工参保登记法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想投诉给我办理机关事业养老保险职业年金转入的那个人要怎么投诉呢？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "机关事业养老保险职业年金转入"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您拨打0572-2215090或者0572-12345就可以投诉了。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_职工社保医保_常用服务_机关事业养老保险职业年金转入.json",
+        "grounding": [
+            "0572-2215090、0572-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

@@ -1,0 +1,398 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下国寿盛世传家终身寿险的问题？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "国寿盛世传家终身寿险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解哪方面的内容，比如保险合同构成，投保范围，保险责任等？",
+        "act": "multiple-choice",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "保险合同构成"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下保险合同构成。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "保险合同构成"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "国寿盛世传家终身寿险合同，由保险单及所附国寿盛世传家终身寿险利益条款，个人保险基本条款，现金价值表等方面构成。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "保险合同构成"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投保范围有年龄限制吗？",
+        "act": "verification",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "凡出生二十八日以上、七十周岁以下，身体健康者均可作为被保险人。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "凡出生二十八日以上、七十周岁以下，身体健康者均可作为被保险人，由本人或对其具有保险利益的人作为投保人向本公司投保本保险。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我可以帮父母买吗？",
+        "act": "verification",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以，该产品可由本人或对其具有保险利益的人作为投保人向本公司投保本保险。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "凡出生二十八日以上、七十周岁以下，身体健康者均可作为被保险人，由本人或对其具有保险利益的人作为投保人向本公司投保本保险。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "保障期限是多长时间？",
+        "act": "when",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "本合同的保险期间为本合同生效之日起至本合同终止日止。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本合同的保险期间为本合同生效之日起至本合同终止日止。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果在保险期间发生事故，保险金额是如何计算的？",
+        "act": "how",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "保险金额与保险金额变动",
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个要根据基本保险金额来计算，你了解基本保险金额吗？",
+        "act": "question/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "不了解，基本保险金额在哪里可以看到？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "基本保险金额是指本合同保险单上载明的保险金额。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本合同的基本保险金额是指本合同保险单上载明的保险金额。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果意外身故，保险金额怎么赔？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身故保险金额"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想了解第一个保单年度，还是一个保单年度之后？",
+        "act": "verification",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身故保险金额",
+            "自本合同生效之日起，本合同第一个保单年度内的身故保险金额等于本合同基本保险金额，本合同身故保险金额在被保险人生存至每满一个保单年度的年生效对应日按前一个保单年度身故保险金额的3%自动增加。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果是在第一个保单年度身故呢？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身故保险金额"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "本合同第一个保单年度内的身故，保险金额等于本合同基本保险金额。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "自本合同生效之日起，本合同第一个保单年度内的身故保险金额等于本合同基本保险金额，本合同身故保险金额在被保险人生存至每满一个保单年度的年生效对应日按前一个保单年度身故保险金额的3%自动增加。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果是第一个保单年度之后身故呢？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身故保险金额"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "每满一个保单年度，按前一个保单年度身故保险金额的3%自动增加。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "自本合同生效之日起，本合同第一个保单年度内的身故保险金额等于本合同基本保险金额，本合同身故保险金额在被保险人生存至每满一个保单年度的年生效对应日按前一个保单年度身故保险金额的3%自动增加。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "我具体问一下，如果是四十岁之前身故，怎么赔？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身故保险金额",
+            "1.被保险人于年满四十一周岁的年生效对应日前身故，"
+        ],
+        "grounding_id": [
+            "17",
+            "57"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "如果是四十一岁之前身故，按被保险人身故当时本合同身故保险金额、本合同所交保险费的160%与本合同现金价值三者的较大值给付身故保险金。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本公司按被保险人身故当时本合同 身故保险金额、本合同所交保险费（不计利息）的160%与本合同现金价值三者的较大值给付身 故保险金； "
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那五十岁身故呢？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "2.被保险人于年满四十一周岁的年生效对应日起至年满六十一周岁的年生效对应日前身 故，"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "四十一岁至六十一岁身故的，按被保险人身故当时本合同身故保险金额、本合同所交保险费的140% 与本合同现金价值三者的较大值给付身故保险金。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本公司按被保险人身故当时本合同身故保险金额、本合同所交保险费（不计利息）的140% 与本合同现金价值三者的较大值给付身故保险金；"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "六十一岁之后身故呢？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "3.被保险人于年满六十一周岁的年生效对应日起身故，"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "六十一岁之后身故的，按被保险人身故当时本合同 身故保险金额、本合同所交保险费的120%与本合同现金价值三者的较大值给付身故保险金。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本公司按被保险人身故当时本合同 身故保险金额、本合同所交保险费（不计利息）的120%与本合同现金价值三者的较大值给付身 故保险金。"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "如果发生意外，身体高度残疾，理赔过一次后，再次身故，还会赔付吗？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "身体高度残疾保险金"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "身故保险金和身体高度残疾保险金公司仅给付一项，并以一次为限。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本合同的身故保险金和身体高度残疾保险金本公司仅给付一项，并以一次为限。"
+        ],
+        "grounding_id": [
+            "67"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "如果是六十一岁后身体高度残疾，是怎么赔的？",
+        "act": "what",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "4.被保险人于年满六十一周岁的年生效对应日起身体高度残疾，"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "公司按当时合同身体高度残疾保险金额、合同所交保险费的120%与本合同现金价值三者的较大值给付身体高度残疾保险金。",
+        "act": "ans/open",
+        "document": "国寿盛世传家终身寿险.json",
+        "grounding": [
+            "本公司按被保险人身体高 度残疾当时本合同身体高度残疾保险金额、本合同所交保险费（不计利息）的120%与本合同现 金价值三者的较大值给付身体高度残疾保险金。 "
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    }
+]

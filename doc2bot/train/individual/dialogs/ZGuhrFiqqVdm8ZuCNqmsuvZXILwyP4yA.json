@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我真的服了，浙江这个失业保险接续办理这么没效率的吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "抱歉给您带来的不便，请问您是在浙江省的衢州市吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "别跟我不好意思了，我是在衢州市，这个投诉能上哪去投诉？太磨叽了，我受不了了。",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "投诉地址",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "34",
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "实在抱歉，您可以到衢州市行政服务中心一楼B厅B01—B05窗口进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "太远了，投诉电话有没有？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以拨打：0570-3086326。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "投诉电话",
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "除了你们市政局，能不能上其他地方去查这个事情？市政局太慢。",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "24",
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "衢州市的咨询办理地点只能到衢州市行政服务中心。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我就想知道，法律规定的审核时间是几天？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是5个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "5（工作日）"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我之前在杭州，去年才转回来衢州，符不符合办理要求？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "只要您符合参保职工跨统筹地区就业的，并且失业保险金申领条件并将社保关系转回到衢州市的就符合受理条件。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "受理条件",
+            "（二）失业人员符合失业保险金申领条件并要求回户籍地领取失业保险待遇的（社保关系转回市本级的）。",
+            "（一）参保职工跨统筹地区就业的（从衢州市外回市本级参保单位就业的）。\n"
+        ],
+        "grounding_id": [
+            "90",
+            "296",
+            "91"
+        ]
+    }
+]

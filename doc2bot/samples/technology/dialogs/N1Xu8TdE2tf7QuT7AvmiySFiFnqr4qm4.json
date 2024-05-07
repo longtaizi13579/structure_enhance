@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下如何更改我的AppleID密码？",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "更改您的AppleID密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想更改Mac上的，还是iPhone、iPad、iPodtouch或AppleWatch上的AppleID密码？",
+        "act": "multiple-choice",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在Mac上要如何操作？",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在Mac上"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Mac上你需要 1.选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。 2.点按“密码与安全性”。 3.点按“更改密码”。您需要先输入Mac的解锁密码，然后才能重设AppleID密码。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在Mac上",
+            "选取苹果菜单>“系统偏好设置”，然后点按“AppleID”。",
+            "点按“密码与安全性”。",
+            "点按“更改密码”。您需要先输入Mac的解锁密码，然后才能重设AppleID密码。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在iPhone、iPad、iPodtouch或AppleWatch上怎么更改？",
+        "act": "how",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或AppleWatch上"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iPhone、iPad、iPodtouch或AppleWatch上你需要 1.轻点“设置”>“[您的姓名]”>“密码与安全性”。 2.轻点“更改密码”。 3.输入当前密码或设备密码，然后输入新密码并确认新密码。忘记了密码？ 4.轻点“更改”或“更改密码”。 5.使用新的AppleID密码登录，以访问各项Apple功能和服务。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "在iPhone、iPad、iPodtouch或AppleWatch上",
+            "轻点“设置”>“[您的姓名]”>“密码与安全性”。",
+            "轻点“更改密码”。",
+            "输入当前密码或设备密码，然后输入新密码并确认新密码。忘记了密码？",
+            "轻点“更改”或“更改密码”。",
+            "使用新的AppleID密码登录，以访问各项Apple功能和服务。"
+        ],
+        "grounding_id": [
+            "3",
+            "5",
+            "6",
+            "7",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "创建新密码时，有什么需要注意的吗？",
+        "act": "what",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "创建新密码时，请记住以下几点："
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "创建新密码时，需要记住以下几点，一是新AppleID密码必须包含至少八个字符，且包含数字、大写字母和小写字母。二是不能使用空格，或连续三次使用同一字符，也不能使用您的AppleID或去年用过的密码。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "创建新密码时，请记住以下几点：",
+            "新AppleID密码必须包含至少八个字符，且包含数字、大写字母和小写字母。",
+            "不能使用空格，或连续三次使用同一字符，也不能使用您的AppleID或去年用过的密码。"
+        ],
+        "grounding_id": [
+            "41",
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个AppleID具体是用来做什么的啊？",
+        "act": "what",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "您的AppleID是您用来访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您的AppleID是您用来访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。",
+        "act": "ans/open",
+        "document": "更改您的AppleID密码.json",
+        "grounding": [
+            "您的AppleID是您用来访问AppStore、AppleMusic、iCloud、iMessage信息、FaceTime通话等Apple服务的帐户。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我在iPhone、iPad、iPodtouch、Mac和PC上更新了我的AppleID和密码后该如何操作？",
+        "act": "how",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "更改AppleID或密码后该如何操作",
+            "在iPhone、iPad、iPodtouch、Mac和PC上更新您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在装有OSXMountainLion或更高版本的Mac或WindowsPC上你需要1.前往Apple网站。 2.点按，然后点按“帐户”。 3.在“帐户设置”部分中，点按“AppleID和密码”。 4.输入更新后的AppleID和密码。",
+        "act": "ans/open",
+        "document": "更改AppleID或密码后该如何操作.json",
+        "grounding": [
+            "装有OSXMountainLion或更高版本的Mac或WindowsPC",
+            "前往Apple网站。",
+            "点按，然后点按“帐户”。",
+            "在“帐户设置”部分中，点按“AppleID和密码”。",
+            "输入更新后的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "21",
+            "22",
+            "23"
+        ]
+    }
+]

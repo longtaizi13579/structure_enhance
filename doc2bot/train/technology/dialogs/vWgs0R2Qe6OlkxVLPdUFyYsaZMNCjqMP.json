@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想问一下隐藏从AppStore购买的项目",
+        "act": "what",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏从AppStore购买的项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想问些什么呢?",
+        "act": "question/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "隐藏从AppStore购买的项目"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问隐藏从AppStore购买的项目什么时候需要隐藏和取消隐藏呢?",
+        "act": "when",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "如果您不想在AppStore的购买清单中看到某个App，请将它隐藏起来。如果您想要重新下载这个App，请首先将它取消隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您不想在AppStore的购买清单中看到某个App，请将它隐藏起来。如果您想要重新下载这个App，请首先将它取消隐藏。",
+        "act": "ans/open",
+        "document": "隐藏从AppStore购买的项目.json",
+        "grounding": [
+            "如果您不想在AppStore的购买清单中看到某个App，请将它隐藏起来。如果您想要重新下载这个App，请首先将它取消隐藏。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "原来如此,我还想问一下授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是想问有关对电脑授权的须知事项还是如何对 Mac 授权或取消对 Mac 的授权呢?",
+        "act": "multiple-choice",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "有关对电脑授权的须知事项"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问有关对电脑授权的须知事项,我现在有五台已授权电脑而且取消对其中一台电脑的授权会怎样呢?",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如果您有五台已授权电脑，并想要对新电脑进行授权，",
+            "则必须取消对其中一台电脑的授权。",
+            "有关对电脑授权的须知事项"
+        ],
+        "grounding_id": [
+            "18",
+            "88",
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会重新对电脑进行授权",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如果您有五台已授权电脑，并想要对新电脑进行授权，"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我可以授权五台电脑来播放您的iTunesStore购买项目吗?",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的,有关对电脑授权的须知事项有:您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "有关对电脑授权的须知事项",
+            "您一次最多可以授权五台电脑来播放您的iTunesStore购买项目。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我最后还想问一下我可以使用其他电脑对电脑进行授权吗?",
+        "act": "verification",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您只能在电脑本身上对电脑进行授权。您无法使用其他电脑或者iPhone、iPad或iPodtouch对电脑进行授权。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以,因为有关对电脑授权的须知事项提到:您只能在电脑本身上对电脑进行授权。您无法使用其他电脑或者iPhone、iPad或iPodtouch对电脑进行授权。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您只能在电脑本身上对电脑进行授权。您无法使用其他电脑或者iPhone、iPad或iPodtouch对电脑进行授权。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

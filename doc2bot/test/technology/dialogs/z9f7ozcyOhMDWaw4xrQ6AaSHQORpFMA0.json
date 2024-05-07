@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，想问一下为什么我在下载Windows版iCloud11的时候收到了一条短信，提示我需要安装媒体功能包才能使用iCloud？",
+        "act": "why",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "Windows版iCloud11或更高版本",
+            "如果您看到一条信息，提示电脑缺少媒体功能",
+            "WindowsMediaPlayer可在PC上播放视频和音频文件。您需要有MediaPlayer才能安装Windows版iCloud。如果您在尝试下载Windows版iCloud11或更高版本时收到一条信息，提示您需要安装媒体功能包才能使用iCloud，请选择“下载”。然后，按照下一屏幕上的说明进行操作。"
+        ],
+        "grounding_id": [
+            "6",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "因为WindowsMediaPlayer可在PC上播放视频和音频文件，您需要有MediaPlayer才能安装Windows版iCloud。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "WindowsMediaPlayer可在PC上播放视频和音频文件。您需要有MediaPlayer才能安装Windows版iCloud。如果您在尝试下载Windows版iCloud11或更高版本时收到一条信息，提示您需要安装媒体功能包才能使用iCloud，请选择“下载”。然后，按照下一屏幕上的说明进行操作。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那我应该选择下载吗？",
+        "act": "verification",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "WindowsMediaPlayer可在PC上播放视频和音频文件。您需要有MediaPlayer才能安装Windows版iCloud。如果您在尝试下载Windows版iCloud11或更高版本时收到一条信息，提示您需要安装媒体功能包才能使用iCloud，请选择“下载”。然后，按照下一屏幕上的说明进行操作。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，选择“下载”。然后，按照下一屏幕上的说明进行操作。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "WindowsMediaPlayer可在PC上播放视频和音频文件。您需要有MediaPlayer才能安装Windows版iCloud。如果您在尝试下载Windows版iCloud11或更高版本时收到一条信息，提示您需要安装媒体功能包才能使用iCloud，请选择“下载”。然后，按照下一屏幕上的说明进行操作。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询一些关于Windows版iCloud11或更高版本的相关问题？",
+        "act": "what",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "Windows版iCloud11或更高版本"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想咨询Windows版iCloud11或更高版本无法下载或安装，点按“iCloudPasswords”时Windows版iCloud13重新启动，还是其他？",
+        "act": "multiple-choice",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "如果点按“iCloudPasswords”时Windows版iCloud13重新启动"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问一下，我点按“iCloudPasswords”时Windows版iCloud13会重新启动，这种情况怎么解决？",
+        "act": "how",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "如果点按“iCloudPasswords”时Windows版iCloud13重新启动"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您在较低版本的Windows版iCloud中将iCloudPasswords快捷方式固定到任务栏，然后升级到Windows版iCloud13，请取消固定iCloudPasswords快捷方式，然后从“开始”菜单中创建一个新的快捷方式。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "如果您在较低版本的Windows版iCloud中将iCloudPasswords快捷方式固定到任务栏，然后升级到Windows版iCloud13，请取消固定iCloudPasswords快捷方式，然后从“开始”菜单中创建一个新的快捷方式。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "为什么我的Windows版iCloud11无法下载？",
+        "act": "why",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "如果Windows版iCloud11或更高版本无法下载或安装"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您需要有Microsoft帐户才能下载Windows版iCloud11或更高版本。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "您需要有Microsoft帐户才能下载Windows版iCloud11或更高版本。您可以在Microsoft网站上创建一个。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在什么地方创建帐户？",
+        "act": "where",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "您需要有Microsoft帐户才能下载Windows版iCloud11或更高版本。您可以在Microsoft网站上创建一个。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以在Microsoft网站上创建一个。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "您需要有Microsoft帐户才能下载Windows版iCloud11或更高版本。您可以在Microsoft网站上创建一个。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "打开WindowsMediaPlayer的具体步骤是什么？",
+        "act": "what",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "打开WindowsMediaPlayer",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先 前往“控制面板”>“所有控制面板项”>“程序和功能”，点按“启用或关闭Windows功能”；然后选中媒体功能对应的框，以重新打开该功能；最后点按“确定”。",
+        "act": "ans/open",
+        "document": "如果您无法下载或安装Windows版iCloud.json",
+        "grounding": [
+            "前往“控制面板”>“所有控制面板项”>“程序和功能”。",
+            "点按“启用或关闭Windows功能”。",
+            "选中媒体功能对应的框，以重新打开该功能。",
+            "点按“确定”。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    }
+]

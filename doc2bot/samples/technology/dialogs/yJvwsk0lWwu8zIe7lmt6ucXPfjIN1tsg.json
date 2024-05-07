@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道在提示创建新的iCloud安全码的时候要怎么办？",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解在iPhone、iPad或iPodtouch上的情况还是在Mac上的呢？",
+        "act": "multiple-choice",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道在iPhone、iPad或iPodtouch上如果不想升级的话，是不是会一直重复这个升级提示呢？",
+        "act": "verification",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码",
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，如果您不升级，您将在24小时后再次看到这条信息。",
+        "act": "ans/yes",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果您不升级，您将在24小时后再次看到这条信息。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这样啊，那怎么看看自己是否启用了双重认证的帐户呢？",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上，依次轻点“设置”、“[您的姓名]”、“密码与安全性”可查看是否打开了双重认证。在Mac上，选取苹果菜单>“系统偏好设置”，点按AppleID，然后选择“密码与安全性”就可以了。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "本文不适用于启用了双重认证的帐户。在iPhone、iPad或iPodtouch上，依次轻点“设置”、“[您的姓名]”、“密码与安全性”可查看是否打开了双重认证。在Mac上，选取苹果菜单>“系统偏好设置”，点按AppleID，然后选择“密码与安全性”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我知道了，那iCloud安全地方码一般适用在什么地方呢？",
+        "act": "what",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iCloud安全码用于当您在新设备上设置iCloud钥匙串和恢复iCloud钥匙串时验证您的身份。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "当看到这条信息时，您可以更新您设备的操作系统并继续操作，而无需更新iCloud安全码。iCloud安全码用于当您在新设备上设置iCloud钥匙串和恢复iCloud钥匙串时验证您的身份。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我明白了，那你能告诉我什么情况下必须要创建新的安全码吗？",
+        "act": "what",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您如果在iOS8.4或更早版本或者OSX10.10.4或更早版本中使用iCloud钥匙串，您可能会看到信息“由于iCloud钥匙串服务器发生更改”，这个时候必须创建新的安全码。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果在iOS8.4或更早版本或者OSX10.10.4或更早版本中使用iCloud钥匙串，您可能会看到信息“由于iCloud钥匙串服务器发生更改，必须创建新的安全码。”"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我记住了，我还有一个问题问你，就是怎么创建AppleID？",
+        "act": "how",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "如何创建新的AppleID"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。",
+        "act": "ans/open",
+        "document": "如何创建新的AppleID.json",
+        "grounding": [
+            "使用同一AppleID可以享受所有Apple服务。您只需提供自己的全名、出生日期、电子邮件地址和电话号码，即可创建一个AppleID。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

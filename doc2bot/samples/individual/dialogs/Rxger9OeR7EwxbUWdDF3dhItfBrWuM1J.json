@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江衢州，想咨询港澳通行证办好后多长时间能送达？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳通行证及签注",
+            "浙江省_衢州市",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "T281",
+            "T5",
+            "120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，你需要办理的是港澳商务签注、往来港澳通行证、港澳其他签注、港澳团队旅游签注中的哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我要办理港澳商务签注",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "港澳商务签注，自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问这个可以在网上申请吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以通过网上申请或现场窗口申请，俩种方法都可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那得需要多长时间办好？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定的办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "请问可以在自助机上办理吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "暂时不支持自助终端办理，您可以来现场柜台办理",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那你们几点上班？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "星期一至星期五我们的办公时间是，上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00），法定节假日除外",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "星期一至星期五（法定节假日除外）上午8:30—12：00，下午13:30-16:30（5月至9月夏令时14：00—17:00）"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "你们的具体地址在哪里？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的具体地址是：衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）3楼E厅2-10号窗口",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）3楼E厅2-10号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "有咨询电话吗？我先打电话过去问一下。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们的办公电话是：0570-3015588",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "0570-3015588"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

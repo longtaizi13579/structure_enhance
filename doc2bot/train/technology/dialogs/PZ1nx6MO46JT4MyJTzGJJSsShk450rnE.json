@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下APN的问题",
+        "act": "what",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "在iPhone和iPad上查看和编辑接入点名称(APN)"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何查看和编辑APN设置 、 还原APN设置还是自动输入APN设置",
+        "act": "multiple-choice",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问在编辑APN的时候需要注意什么？",
+        "act": "what",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您要注意如果您输入了错误的APN设置，可能会失去蜂窝数据连接并产生额外费用。除非您的运营商或移动设备管理员指示您编辑APN，否则不要这样做。请联系您的运营商以确认正确的APN设置。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上查看和编辑接入点名称(APN).json",
+        "grounding": [
+            "查看和编辑APN设置",
+            "如果您输入了错误的APN设置，可能会失去蜂窝数据连接并产生额外费用。除非您的运营商或移动设备管理员指示您编辑APN，否则不要这样做。请联系您的运营商以确认正确的APN设置。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，对了我想查看我的AppleID余额怎么查？",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您在什么终端上查看？",
+        "act": "question/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Mac端",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在Mac上查看余额"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先您需要打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在Mac上查看余额",
+            "打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。",
+            "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我要是在iPad蛇该怎么看？",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上查看余额"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果是在iPad上需要打开AppStoreApp。 轻点屏幕顶部您的照片或登录按钮。系统可能会要求您使用AppleID登录。.如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上查看余额",
+            "打开AppStoreApp。",
+            "轻点屏幕顶部您的照片或登录按钮。系统可能会要求您使用AppleID登录。",
+            "如果您的帐户有余额，则会显示相应金额。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]

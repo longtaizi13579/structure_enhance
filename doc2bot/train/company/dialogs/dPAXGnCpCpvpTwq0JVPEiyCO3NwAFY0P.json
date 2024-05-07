@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问问有一个关于科技创新认定的事情。",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "科技创新认定"
+        ],
+        "grounding_id": [
+            "T41"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想问省级国际科技合作基地认定，还是省级重点企业研究院认定啊？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "就是省级国际科技合作基地认定，我想问问这个的承诺办好时间是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "省级国际科技合作基地认定",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个需要48个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "48（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行，你在告诉我下办理的地址呗？",
+        "act": "where",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以到浙江省科技厅就是杭州市西湖区环城西路33号浙江科技大楼408室进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "浙江省科技厅(杭州市西湖区环城西路33号浙江科技大楼)408室"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个可以在自助终端上进行办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还不支持哦。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在办理的时候需要缴纳费用吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "209"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那办理的流程是什么样的？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "176"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理的流程是 1.申请 2.受理 3.审查 4.决定",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审查",
+            "决定",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "177",
+            "179",
+            "188",
+            "193",
+            "176"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那受理时需要多久能办好啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "179",
+            "180"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "需要5个工作。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "5个工作日"
+        ],
+        "grounding_id": [
+            "181"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那最后做决定的人是谁啊？",
+        "act": "what",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "决定",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "193",
+            "194"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是由厅领导做决定。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_科技创新认定_科技创新认定_省级国际科技合作基地认定.json",
+        "grounding": [
+            "厅领导",
+            "决定"
+        ],
+        "grounding_id": [
+            "195",
+            "193"
+        ]
+    }
+]

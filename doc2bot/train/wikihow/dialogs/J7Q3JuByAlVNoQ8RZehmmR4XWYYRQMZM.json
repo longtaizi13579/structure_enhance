@@ -1,0 +1,264 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在知道创建YouTube频道的订阅链接之后点击就能直接转到YouTube频道的订阅界面呢？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如何创建YouTube频道的订阅链接",
+            "本篇文章教你如何创建自己YouTube频道的订阅链接。当别人点击你个人网站上或社交媒体个人信息中的链接，就能直接转到你YouTube频道的订阅界面。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "本篇文章教你如何创建自己YouTube频道的订阅链接。当别人点击你个人网站上或社交媒体个人信息中的链接，就能直接转到你YouTube频道的订阅界面。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那应该怎么创建呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如何创建YouTube频道的订阅链接",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是要用电脑还是手机创建呢",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "使用电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我使用的是电脑，具体步骤是什么",
+        "act": "what",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "使用电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先用浏览器访问网站：https://www.youtube.com，然后单击页面右上角的头像，随后会弹出一个菜单，单击菜单顶部的你的频道，打开你的频道主页之后选中地址栏中的网址，按⌘Cmd+C(Mac)或Ctrl+C(PC)，复制网址，接着打开电脑的文本编辑器，在空白页中单击右键，选择粘贴，记得在网址末尾加上?，复制新网址，打开要插入链接的地方，最后在编辑区单击右键，选择粘贴",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "用浏览器访问网站：https://www.youtube.com。",
+            "单击页面右上角的头像，随后会弹出一个菜单。",
+            "单击菜单顶部的你的频道，打开你的频道主页。",
+            "选中地址栏中的网址。",
+            "按⌘Cmd+C(Mac)或Ctrl+C(PC)，复制网址。",
+            "打开电脑的文本编辑器。",
+            "在空白页中单击右键，选择粘贴。",
+            "在网址末尾加上?",
+            "复制新网址。",
+            "打开要插入链接的地方。",
+            "在编辑区单击右键，选择粘贴。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "8",
+            "9",
+            "11",
+            "12",
+            "14",
+            "16",
+            "19",
+            "21",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "访问网站的话还需要登录吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "用浏览器访问网站：https://www.youtube.com。",
+            "如果你没有登录，单击页面右上角的登录按钮即可登录。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，如果你没有登录，单击页面右上角的登录按钮即可登录",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你没有登录，单击页面右上角的登录按钮即可登录。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么选中地址栏中的网址呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "选中地址栏中的网址。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "单击浏览器顶部的地址即可",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "单击浏览器顶部的地址即可。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "文本编辑器应该到哪里打开",
+        "act": "where",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "打开电脑的文本编辑器。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您使用的是Windows系统还是Mac系统",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你使用的Windows系统，可以在开始菜单中选择“记事本”或“写字板”。如果你使用Mac系统，可以在应用程序中选择“文本编辑器”或“Pages”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是Mac系统",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你使用的Windows系统，可以在开始菜单中选择“记事本”或“写字板”。如果你使用Mac系统，可以在应用程序中选择“文本编辑器”或“Pages”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果你使用Mac系统，可以在应用程序中选择“文本编辑器”或“Pages”",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "如果你使用的Windows系统，可以在开始菜单中选择“记事本”或“写字板”。如果你使用Mac系统，可以在应用程序中选择“文本编辑器”或“Pages”。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "复制新网址的话可以按Ctrl+C吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "复制新网址。",
+            "你可以选中网址，按⌘Cmd+C（Mac）或Ctrl+C（PC）进行复制。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "你可以选中网址，按⌘Cmd+C（Mac）或Ctrl+C（PC）进行复制。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那怎么保存更改呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "一定要保存你的代码和/或更新页面来保存你的更改。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "保存你的代码或更新页面",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何创建YouTube频道的订阅链接.json",
+        "grounding": [
+            "一定要保存你的代码和/或更新页面来保存你的更改。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

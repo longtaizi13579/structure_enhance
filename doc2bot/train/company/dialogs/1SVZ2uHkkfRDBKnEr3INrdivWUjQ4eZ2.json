@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在浙江办安全评价机构资质注销的办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "安全评价机构资质注销",
+            "浙江省",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "T4",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您是需要法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的办结时限吧，多久？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的知道了，我还想了解一些其他的事情，咨询电话是多少？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们的咨询电话是0571-81051471或是拨打0571-87056935。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_许可备案_安全评价机构资质注销.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

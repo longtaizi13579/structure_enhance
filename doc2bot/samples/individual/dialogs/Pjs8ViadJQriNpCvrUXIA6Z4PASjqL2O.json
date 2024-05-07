@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我要想办一下台湾通行证，想了解一下办理方式有哪些？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "98",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您在浙江台州是吗？我看电话是浙江台州的。",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的是的。不好意思忘了说了。我台州人。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那办理的是应邀赴台签注对吧？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是这个，太拗口了，不记得了。有啥办理方式吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "网上申请和现场窗口申请都可以的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那办理大概需要多少天呢？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在30个工作日内会出结果的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，多谢。我再问一下我是要去台湾参加体育、学术交流活动的，台办已经批准了，我是可以申请下来签注的吧？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "应邀赴台签注",
+            "受理条件",
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。"
+        ],
+        "grounding_id": [
+            "1",
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_出入境_台湾通行证及签注_应邀赴台签注.json",
+        "grounding": [
+            "经台办批准前往台湾从事科技、文化、体育、学术等交流活动，或者参加两岸事务性商谈、采访的，可申请应邀赴台签注。"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    }
+]

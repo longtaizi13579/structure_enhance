@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么使用“照片”中的第三方App和扩展进行编辑呢？",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用“照片”中的第三方App和扩展进行编辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想知道在iPhone、iPad或iPodtouch上使用第三方扩展还是在Mac上使用第三方扩展呢？",
+        "act": "multiple-choice",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用第三方扩展"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道怎么在iPhone、iPad或iPodtouch上使用第三方扩展编辑照片呢？",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用“照片”中的第三方App和扩展进行编辑",
+            "在iPhone、iPad或iPodtouch上使用第三方扩展"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在iOS设备上使用扩展编辑照片的时候，首先打开“照片”App，然后轻点一张照片。 然后轻点“编辑”，再轻点“更多”按钮。 之后从出现的菜单中选择一个App。 再使用扩展中的工具编辑这张照片。 如果您对自己所作的编辑感到满意，请点按“完成”。您可以选取另一扩展以将更多编辑应用到照片，或者使用内建于“照片”中的任何编辑工具。 最后如果您完成了所有编辑，请点按“完成”以退出编辑模式就可以了。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片",
+            "打开“照片”App，然后轻点一张照片。",
+            "轻点“编辑”，然后轻点“更多”按钮。",
+            "从出现的菜单中选择一个App。",
+            "使用扩展中的工具编辑这张照片。",
+            "如果您对自己所作的编辑感到满意，请点按“完成”。您可以选取另一扩展以将更多编辑应用到照片，或者使用内建于“照片”中的任何编辑工具。",
+            "如果您完成了所有编辑，请点按“完成”以退出编辑模式。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我知道了，那我想在Mac上编辑照片可以使用什么MacApp呢？",
+        "act": "what",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在Mac上使用第三方扩展",
+            "安装允许编辑或提供了扩展的MacApp"
+        ],
+        "grounding_id": [
+            "30",
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以选择AppStore上“使用扩展快速编辑照片”中所列的App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "您也可以选择AppStore上“使用扩展快速编辑照片”中所列的App。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，那在Mac上使用第三方扩展编辑照片的时候，MacAppStore可以显示其他第三方的照片编辑App吗？",
+        "act": "verification",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在Mac上使用第三方扩展",
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。"
+        ],
+        "grounding_id": [
+            "30",
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，MacAppStore打开会显示与“照片”兼容的各种第三方照片编辑App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

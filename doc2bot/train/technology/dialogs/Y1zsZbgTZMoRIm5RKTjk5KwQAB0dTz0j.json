@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一些关于在iPhone或iPodtouch上使用“健康”App相关问题？",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想设置您的健康资料、选择您喜欢的类别进行跟踪、添加您的健康信息还是其他？",
+        "act": "multiple-choice",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "设置您的健康资料"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，在iOS14中，设置我的健康资料后，我应该从哪里查看我的健康核对清单？",
+        "act": "where",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "设置您的健康资料",
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "4",
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还有其他方法吗？",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iOS14中，设置您的健康资料后，您可以先从“摘要”标签中查看您的健康核对清单。通过健康核对清单，您可以查看并启用可用的健康功能。您也可以轻点右上角的个人头像，然后轻点“健康核对清单”进行访问。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“健康”App的作用是什么？",
+        "act": "what",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "在iPhone或iPodtouch上使用“健康”App",
+            "“健康”App会从您的iPhone、AppleWatch和您使用的App中收集健康数据，因此您可以在一个位置方便地查看您的所有进度。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“健康”App会从您的iPhone、AppleWatch和您使用的App中收集健康数据，因此您可以在一个位置方便地查看您的所有进度。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "“健康”App会从您的iPhone、AppleWatch和您使用的App中收集健康数据，因此您可以在一个位置方便地查看您的所有进度。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何设置我的健康资料？",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "设置您的健康资料"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先打开“健康”App，然后轻点“摘要”标签，轻点位于右上角的您的个人头像，轻点“健康详细信息”，然后轻点“编辑”；然后添加您的信息，例如身高、体重和年龄；最后轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "打开“健康”App，然后轻点“摘要”标签。",
+            "轻点位于右上角的您的个人头像。",
+            "轻点“健康详细信息”，然后轻点“编辑”。",
+            "添加您的信息，例如身高、体重和年龄。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我可以在资料中设置医疗急救卡吗？",
+        "act": "verification",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "您还可以在您的资料中设置您的医疗急救卡，或注册成为器官捐献者。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以，还可以注册成为器官捐献者。",
+        "act": "ans/yes",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "您还可以在您的资料中设置您的医疗急救卡，或注册成为器官捐献者。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何添加我的健康信息？",
+        "act": "how",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "添加您的健康信息"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开“健康”App，然后轻点“浏览”标签，轻点一个类别，例如，“健身记录”；然后轻点一个子类别，例如“步数”，轻点右上角的“添加数据”，输入该活动的日期、时间和数据。最后完成后，轻点“添加”。",
+        "act": "ans/open",
+        "document": "在iPhone或iPodtouch上使用“健康”App.json",
+        "grounding": [
+            "打开“健康”App，然后轻点“浏览”标签。",
+            "轻点一个类别，例如，“健身记录”。",
+            "轻点一个子类别，例如“步数”。",
+            "轻点右上角的“添加数据”。",
+            "输入该活动的日期、时间和数据。",
+            "完成后，轻点“添加”。"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    }
+]

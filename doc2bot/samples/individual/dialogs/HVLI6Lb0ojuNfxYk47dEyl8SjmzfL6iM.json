@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江温州，想咨询一些行驶证驾驶证的问题。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_温州市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T3",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询达到规定年龄换领机动车驾驶证、临时入境机动车号牌、行驶证核发还是 驾驶人申请恢复驾驶资格呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询达到规定年龄换领机动车驾驶证规定几个工作日能完成呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "达到规定年龄换领机动车驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "规定在1个工作日内办理完成。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询一下办事大厅的联系方式。",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解咨询电话。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们咨询电话为：0577-12123。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "咨询电话",
+            "0577-12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我能在大厅机子上办理吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "抱歉，我们现在不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_达到规定年龄换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "更换好的证件可以通过什么方式送到我手上呢？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "驾驶人信息变化换领机动车驾驶证",
+            "制证核发"
+        ],
+        "grounding_id": [
+            "1",
+            "222"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们会当场核发机动车驾驶证或邮寄送达。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "当场核发机动车驾驶证或邮寄送达。"
+        ],
+        "grounding_id": [
+            "223"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "能用支付宝或微信支付吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "243"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "都是支持可以使用。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "244"
+        ]
+    }
+]

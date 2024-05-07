@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近在学习金融和商业的一些东西，现在想问问你知道如何不用Paypal在eBay上购物吗？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "金融与商业",
+            "如何不用Paypal在eBay上购物"
+        ],
+        "grounding_id": [
+            "T35",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的，如果您之前用过Paypal，选择作为访客进行支付就更简单了。不使用的话可以清除你的浏览器历史信息，或是不要将Paypal账户和eBay账户绑定，您还想了解些什么呢？。",
+        "act": "multiple-choice",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果之前用过Paypal，选择作为访客进行支付就更简单了。",
+            "清除你的浏览器历史信息。",
+            "不要将Paypal账户和eBay账户绑定。"
+        ],
+        "grounding_id": [
+            "29",
+            "31",
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "为什么要清除浏览器历史信息呀？",
+        "act": "what",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "清除你的浏览器历史信息。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有时，即使你选择不使用Paypal支付，eBay网站还是会跳转到PayPal支付页面，如果遇到这种情况，可以清除浏览器的历史信息和Cookie试试，这样可能会管用。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "有时，即使你选择不使用Paypal支付，eBay网站还是会跳转到PayPal支付页面。如果遇到这种情况，可以清除浏览器的历史信息和Cookie试试。这样可能会管用。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那要怎么在eBay上购物不用Paypal呢？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如何不用Paypal在eBay上购物"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果你没有Paypal账户或者不想用自己的Paypal账户，在eBay上购物可能会比较麻烦，好在Paypal上还有其他支付方式可供选择，你可以用信用卡、借记卡或者礼品卡进行支付。选好商品之后，确认订单就可以结账了。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "如果你没有Paypal账户或者不想用自己的Paypal账户，在eBay上购物可能会比较麻烦。好在Paypal上还有其他支付方式可供选择。你可以用信用卡、借记卡或者礼品卡进行支付。选好商品之后，确认订单就可以结账了。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我可以用礼品卡或优惠券支付吗？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "用礼品卡或优惠券进行支付"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以用礼品卡或优惠券进行支付的，点击“立即支付”后，点击“礼品卡、礼品券或优惠券兑换”按钮，输入代码后继续并登录账户，就可以完成购物。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "用礼品卡或优惠券进行支付",
+            "点击“立即支付”。",
+            "点击“礼品卡、礼品券或优惠券兑换”按钮。",
+            "输入代码。",
+            "继续并登录账户。",
+            "完成购物。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "19",
+            "21",
+            "23",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我要选用借记卡/信用卡或Paypal支付再去点礼券吗？",
+        "act": "how",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "不要选择用借记卡/信用卡或Paypal支付，而是点击用礼品卡、礼品券或优惠券兑换的选项。然后页面会跳转到让你输入代码的页面。",
+            "点击“礼品卡、礼品券或优惠券兑换”按钮。"
+        ],
+        "grounding_id": [
+            "20",
+            "19"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不用选择用借记卡/信用卡或Paypal支付，可以直接点击用礼品卡、礼品券或优惠券兑换的选项，然后页面会跳转到让你输入代码的页面。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "不要选择用借记卡/信用卡或Paypal支付，而是点击用礼品卡、礼品券或优惠券兑换的选项。然后页面会跳转到让你输入代码的页面。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的好的，那为什么输入完代码还需要登录账户呢？",
+        "act": "why",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "继续并登录账户。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "点击“使用”按钮，然后点击出现的“继续”按钮，如果你还没有登录，则会要求登录你的账户，如果没有账户，你也可以选择作为访客下单，可以在以访客身份下单时输入收货地址。",
+        "act": "ans/open",
+        "document": "金融与商业_如何不用Paypal在eBay上购物.json",
+        "grounding": [
+            "点击“使用”按钮，然后点击出现的“继续”按钮。如果你还没有登录，则会要求登录你的账户。",
+            "如果没有账户，你也可以选择作为访客下单。你可以在以访客身份下单时输入收货地址。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    }
+]

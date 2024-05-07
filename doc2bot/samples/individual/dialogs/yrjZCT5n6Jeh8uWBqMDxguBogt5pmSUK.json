@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们公司想要申请省级专业技术人员高级研修班遴选的证件，我能什么时间去呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "省级专业技术人员高级研修班遴选",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想要夏季还是冬季的时间？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想要夏季的办理时间。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以在工作日的上午8:30—12:00，下午2:30—6:00这个时间办理。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "工作日：上午8:30—12:00，下午2:00—5:30（夏季下午2:30—6:00）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那有哪些办理方式呢？",
+        "act": "what",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "78"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有两种办理方式，一种是网上申请，一种是邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "网上申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "79"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能自助办理吗？这样更方便。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "69"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前还不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "70"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有规定多少天办理下来吗？",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有规定的办理时限。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_人才引进落户__省级专业技术人员高级研修班遴选.json",
+        "grounding": [
+            "无特定法定办结时限"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想问一下 iCloud.com上Numbers表格中创建工作表，每个表格最多包含多少列和行？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以根据需要在Numbers电子表格中创建任意数量的工作表。每个表格最多可包含255列、65,535行和大约130,000个含有数据的单元格。您可以查看表格行数和列数更多的电子表格，但无法进行编辑。",
+            "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能"
+        ],
+        "grounding_id": [
+            "6",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "每个表格最多可包含255列、65,535行和大约130,000个含有数据的单元格。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以根据需要在Numbers电子表格中创建任意数量的工作表。每个表格最多可包含255列、65,535行和大约130,000个含有数据的单元格。您可以查看表格行数和列数更多的电子表格，但无法进行编辑。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "Pages文稿在功能方面，三维图表会显示为二维图表吗？",
+        "act": "verification",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "三维图表会显示为二维图表。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，三维图表会显示为二维图表。",
+        "act": "ans/yes",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "三维图表会显示为二维图表。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那么iCloud.com上Pages文稿、Numbers表格对添加的图片文件有什么限制吗？",
+        "act": "what",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的文件限制"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。",
+        "act": "ans/open",
+        "document": "iCloud.com上Pages文稿、Numbers表格和Keynote讲演的功能.json",
+        "grounding": [
+            "您可以添加每张最大为10MB的GIF、JPEG和PNG图像。要添加更大的图像，请使用Mac、iPhone或iPad上的Pages文稿、Numbers表格和Keynote讲演。然后，您可以在iCloud.com上查看文稿中的图像。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

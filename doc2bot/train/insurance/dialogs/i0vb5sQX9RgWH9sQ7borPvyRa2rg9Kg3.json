@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们公司想购买团体重大疾病保险，签订的合同有哪些内容吗？",
+        "act": "what",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "团体重大疾病保险",
+            "基本条款",
+            "合同构成"
+        ],
+        "grounding_id": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，签订的合同包括了本保险条款、保险单或其他保险凭证、投保单及其他投保文件、合法有效的声明、注和批单。",
+        "act": "ans/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险单或其他保险凭证、投保单及其他投保文件、合法有效的声明、注和批单。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那合同签好后，保险什么时候开始生效呢？",
+        "act": "when",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "从你提交保险申请，本公司同意承保，本合同成立，保险就开始生效了。",
+        "act": "ans/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "投保人提出保险申请、本公司同意承保，本合同成立。合同生效日期在保险单上载明。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我要为职工的家人也投保可以吗？",
+        "act": "what",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问是要为他的谁投保？",
+        "act": "question/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "他的父母。",
+        "act": "ans/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是不行的，只能为职工的配偶或者是子女才能成为连带被保险人。",
+        "act": "ans/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "投保人可为其团体成员及成员配偶、子女向本公司投保本保险。投保时，参加本保险的团体成员及成员配偶、子女须符合本公司当时规定的投保条参保的团体成员为被保险人，随其参保的配偶和子女为连带被保险人，除特别指明外，本合同所述被保险人均包含连带被保险人。件。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么样合同就会被解除掉？",
+        "act": "what",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "本公司合同解除权的限制"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果你有隐瞒疾病过着类似情况的，保险公司可以按照本保险条款“1.7 明确说明与如实告知”规定的合同解除权。",
+        "act": "ans/open",
+        "document": "团体重大疾病保险.json",
+        "grounding": [
+            "本保险条款“1.7 明确说明与如实告知”规定的合同解除权，自本公司知道有解除事由之日起，超过 30 日不行使而消灭。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

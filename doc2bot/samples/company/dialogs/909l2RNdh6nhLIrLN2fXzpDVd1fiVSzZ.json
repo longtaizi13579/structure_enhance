@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我人在浙江杭州，想办个纳税信用补评，能直接在自助机器上办理吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "浙江省_台州市",
+            "纳税信用补评",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T8",
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "纳税信用补评目前暂不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我要是去窗口办补评，大概多久能给我办理完毕啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "承诺办结时限为10个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那你们这个符合那个法定的审核时间吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想问的是法定办结时限是多久吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对，法定办结时限。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我能不能在网上办理啊？平时没什么时间去柜台。",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，网上申请和线下窗口申请都可以。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个办理结果快递是啥时候出？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "送达时限",
+            "结果信息"
+        ],
+        "grounding_id": [
+            "118",
+            "109"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我不太明白您的意思，您是想询问办理完成后选择快递方式送达您的结果需要多久吗？",
+        "act": "question/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "109",
+            "118"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对，我办理完以后想用快递寄过来办理结果。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自您做出决定起的3个日内即可将您的结果送达的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    }
+]

@@ -1,0 +1,340 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道怎么识别AppleTV遥控器",
+        "act": "how",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您的设备是SiriRemote（第2代）或AppleTVRemote（第2代），SiriRemote（第1代）或AppleTVRemote（第1代）还是AppleRemote（铝金属）",
+        "act": "multiple-choice",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第2代）或AppleTVRemote（第2代）"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "应该是SiriRemote（第2代）或AppleTVRemote（第2代），可以描述一下外观吗",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第2代）或AppleTVRemote（第2代）",
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那序列号是在哪里看",
+        "act": "where",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "序列号：在“设置”>“遥控器与设备”>“遥控器”中列出",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "黑色铝金属外壳和玻璃触控表面连接的话是第几代",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）",
+            "描述：黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：AppleTV4K和AppleTVHD序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是SiriRemote（第1代）或AppleTVRemote（第1代）",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "第一代的兼容性怎么样",
+        "act": "how",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "SiriRemote（第1代）或AppleTVRemote（第1代）",
+            "描述：黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：AppleTV4K和AppleTVHD序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "兼容性：AppleTV4K和AppleTVHD",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：AppleTV4K和AppleTVHD序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "AppleRemote（铝金属）的话可以搭配别的AppleTV机型使用吗",
+        "act": "verification",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "AppleRemote（铝金属）",
+            "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。"
+        ],
+        "grounding_id": [
+            "17",
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以，但功能可能会受限",
+        "act": "ans/yes",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那遥控器上面有什么按钮呢",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，如果在AppleTV上看到警告符号的话怎么办",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您使用的是AppleTV4K还是AppleTVHD或更早机型",
+        "act": "multiple-choice",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTVHD或更早机型"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是AppleTVHD，应该怎么恢复",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果您使用的是AppleTVHD或更早机型",
+            "恢复AppleTV"
+        ],
+        "grounding_id": [
+            "12",
+            "22"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "首先从AppleTV上拔下HDMI线缆和电源线，然后在AppleTVHD的背面，接入USB-C连接线。将USB-C或Micro-USB连接线的另一端插入电脑上的USB端口。对于AppleTV（HD或第3代），请插入电源线，如果使用的是Mac，请打开“访达”窗点按“恢复AppleTV”。AppleTV完成恢复后，请拔下USB-C或Micro-USB连接线及电源线（如果已连接）。然后将HDMI线缆和电源线重新连接到AppleTV。口。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "从AppleTV上拔下HDMI线缆和电源线。",
+            "将USB-C或Micro-USB连接线的另一端插入电脑上的USB端口。",
+            "在AppleTVHD的背面，接入USB-C连接线。对于AppleTV（第3代），请使用Micro-USB连接线。务必使用适合您所用机型的线缆，不得将闪电转USB连接线接入您的AppleTV。",
+            "对于AppleTV（HD或第3代），请插入电源线。",
+            "如果使用的是Mac，请打开“访达”窗口。如果使用的是PC，请打开最新版本的iTunes。",
+            "在设备显示在电脑上时，将它选中。",
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。",
+            "在AppleTV完成恢复后，请拔下USB-C或Micro-USB连接线及电源线（如果已连接）。然后将HDMI线缆和电源线重新连接到AppleTV。"
+        ],
+        "grounding_id": [
+            "23",
+            "25",
+            "24",
+            "26",
+            "27",
+            "31",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "AppleTV（第3代）应该用什么连接线呢",
+        "act": "what",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "在AppleTVHD的背面，接入USB-C连接线。对于AppleTV（第3代），请使用Micro-USB连接线。务必使用适合您所用机型的线缆，不得将闪电转USB连接线接入您的AppleTV。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "对于AppleTV（第3代），请使用Micro-USB连接线。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "在AppleTVHD的背面，接入USB-C连接线。对于AppleTV（第3代），请使用Micro-USB连接线。务必使用适合您所用机型的线缆，不得将闪电转USB连接线接入您的AppleTV。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "恢复AppleTV需要多长时间呢",
+        "act": "when",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "恢复AppleTV所需的时间取决于您的互联网连接速度。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "点按“恢复AppleTV”。在恢复AppleTV期间，请勿断开任何连接。恢复AppleTV所需的时间取决于您的互联网连接速度。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "如果用的是AppleTV4K看到警告符号呢",
+        "act": "how",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "如果在AppleTV上看到警告符号",
+            "如果您使用的是AppleTV4K"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "如果您在尝试更新AppleTV上的软件时看到警告符号，或看到电视机上显示黑屏并且AppleTV正面的指示灯闪烁， 请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果在AppleTV上看到警告符号.json",
+        "grounding": [
+            "请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    }
+]

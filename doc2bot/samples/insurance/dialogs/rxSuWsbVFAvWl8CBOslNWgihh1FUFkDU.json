@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问航空旅客意外伤害保险的简称是什么？",
+        "act": "what",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "航空旅客意外伤害保险  ",
+            "本保险合同（以下简称“本合同”）由保险单和其他保险凭证、所附条款、投保单及其他投保文件、声明、批注、附贴批单及其他书面协议构成。“航空旅客意外伤害保险”简称“航意险”。",
+            "合同构成"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": " “航空旅客意外伤害保险”简称“航意险”。",
+        "act": "ans/open",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "本保险合同（以下简称“本合同”）由保险单和其他保险凭证、所附条款、投保单及其他投保文件、声明、批注、附贴批单及其他书面协议构成。“航空旅客意外伤害保险”简称“航意险”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个合同成立的条件是什么？",
+        "act": "what",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "航空旅客意外伤害保险  ",
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投保人提出保险申请、本公司同意承保，本合同成立。",
+        "act": "ans/open",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "投保人提出保险申请、本公司同意承保，本合同成立。合同生效日期在保险单上载明。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，只要乘坐这趟飞机的人就能投保是吧？",
+        "act": "verification",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道投保的范围吗？",
+        "act": "verification",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "投保范围"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "凡持有效机票乘坐客运航班班机的旅客，可作为被保险人参加本保险。",
+        "act": "ans/open",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "凡持有效机票乘坐客运航班班机的旅客，可作为被保险人参加本保险。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那保险责任的承担是怎么规定的呢？",
+        "act": "how",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "保险责任"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在本合同保险期间内， 被保险人因乘坐本合同约定的航班班机（或等效航班） 遭受意外伤害， 本公司依约给付保险金",
+        "act": "ans/open",
+        "document": "航空旅客意外伤害保险  .json",
+        "grounding": [
+            "在本合同保险期间内， 被保险人因乘坐本合同约定的航班班机（或等效航班） 遭受意外伤害，本公司依下列约定给付保险金："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

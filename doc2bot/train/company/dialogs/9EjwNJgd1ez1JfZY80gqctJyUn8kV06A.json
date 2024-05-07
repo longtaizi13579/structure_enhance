@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是浙江省舟山市的，我想了解一些关于卫生许可证的问题。",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解公共场所卫生行政许可（新发证）还是省重点建设项目招投标合同（含招投标情况）备案呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解公共场所卫生行政许可可以在机子上办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "公共场所卫生行政许可不支持自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "1766"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "公共场所卫生行政许可不支持网上支付。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "1767"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我想投诉给我办理公共场所卫生行政许可的那个人要怎么投诉？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以拨打0580-12345这个电话进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "除了打电话投诉的方式，还有什么投诉方式呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还可以到舟山市新城海天大道681号市信访局投诉。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "舟山市新城海天大道681号市信访局"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "公共场所卫生行政许可证都办理好久了怎么还没办好呀，到底要办多久呢？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问法定办结时限吗？",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "公共场所卫生行政许可的办理法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想咨询一下公共场所卫生行政许可的办理需要什么材料呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以拨打0580-2034302这个电话咨询一下。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "0580-2034302"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理公共场所卫生行政许可证要交多少钱？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "公共场所卫生行政许可（新发证）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "1761"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您不用交钱，公共场所卫生行政许可办理是不收费的。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_企业经营_常用服务_公共场所卫生行政许可（新发证）.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1763"
+        ]
+    }
+]

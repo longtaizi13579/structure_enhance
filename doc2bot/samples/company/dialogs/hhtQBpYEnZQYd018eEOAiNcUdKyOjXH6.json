@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我们公司是做安全评价机构的，现在我们公司要变更下法人信息，请问应该走哪个申请呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "安全评价机构资质变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，贵公司可以申请办理安全评价机构资质变更的流程。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "安全评价机构资质变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "请问你们办公时间是什么什么时候？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在工作日的上午8:30-11:30，下午14:00—17:00期间都可以申请办理的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "工作日上午8:30-11:30，下午14:00—17:00"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我可以在自助终端申请办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，现目前不支持自助终端办理哦。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好吧，如果我对你们给出的结果不满意，可以去哪里投诉？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您对我们的结果不满意，可以去浙江省杭州市西湖区体育场路479号浙江省应急管理厅机关纪委708办公室申请反馈。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质变更.json",
+        "grounding": [
+            "浙江省杭州市西湖区体育场路479号浙江省应急管理厅机关纪委708办公室"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有没有投诉电话呢？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质认可（新申请、改制、分立、合并和业务范围、延期）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，我们的投诉电话是0571-81051660.",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全评价机构资质认可（新申请、改制、分立、合并和业务范围、延期）.json",
+        "grounding": [
+            "0571-81051660"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想咨询下如何注销，有咨询电话吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构资质注销.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有的，咨询电话是0571-81051471;0571-87056935。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构资质注销.json",
+        "grounding": [
+            "咨询电话",
+            "0571-81051471;0571-87056935"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我要注销安全生产检测检验机构资质的证书，该去哪里申请呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构资质注销.json",
+        "grounding": [
+            "办理形式",
+            "安全生产检测检验机构资质注销"
+        ],
+        "grounding_id": [
+            "98",
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们有三种办理形式你可以选选择，分别是网上申请/现场窗口申请/邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_安全生产_安全生产检测检验机构资质注销.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解关于Mac上的系统完整性保护的相关信息。",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护是OSXElCapitan及更高版本所采用的一项安全技术，旨在帮助防止潜在恶意软件修改Mac上受保护的文件和文件夹。系统完整性保护可以限制root用户帐户，以及root用户能够在Mac操作系统的受保护部分完成的操作。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "第三方应用和安装器可以针对哪些路径和应用继续完成写入操作？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "第三方应用和安装器可以针对以下路径和应用继续完成写入操作："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "应用程序、资源库、usr、local。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "/应用程序",
+            "/资源库",
+            "/usr/local"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "系统完整性保护包含对哪些系统部分的保护？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "系统完整性保护包含对以下系统部分的保护："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "系统、usr、bin、sbin、var、OSX预装的应用。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "/系统",
+            "/usr",
+            "/bin",
+            "/sbin",
+            "/var",
+            "OSX预装的应用"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "OSXElCapitan及更高版本有什么优势？",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "OSXElCapitan及更高版本内含安全技术，有助于保护Mac免受恶意软件的侵害。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想多了解些关于Mac上的系统完整性保护的信息。",
+        "act": "what",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "关于Mac上的系统完整性保护"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "仅当进程拥有Apple签名并拥有对系统文件（如Apple软件更新和Apple安装器）完成写入操作的特殊授权时，系统完整性保护才会允许它修改这些受保护部分。从MacAppStore下载的应用兼容系统完整性保护。升级至OSXElCapitan或更高版本时，与系统完整性保护冲突的其他第三方软件可能会被忽略。",
+        "act": "ans/open",
+        "document": "关于Mac上的系统完整性保护.json",
+        "grounding": [
+            "仅当进程拥有Apple签名并拥有对系统文件（如Apple软件更新和Apple安装器）完成写入操作的特殊授权时，系统完整性保护才会允许它修改这些受保护部分。从MacAppStore下载的应用兼容系统完整性保护。升级至OSXElCapitan或更高版本时，与系统完整性保护冲突的其他第三方软件可能会被忽略。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

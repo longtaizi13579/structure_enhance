@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想咨询一下用安卓或Windows设备加入FaceTime通话的事",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "用安卓或Windows设备加入FaceTime通话"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想询问需要满足什么条件还是如何在网页上加入 FaceTime 通话还是进行进一步了解呢?",
+        "act": "multiple-choice",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想进行进一步了解.",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "任何人都可以通过装有iOS15的iPhone、iPad或iPodtouch或是装有macOSMonterey的Mac创建FaceTime通话链接。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "任何人都可以通过装有iOS15的iPhone、iPad或iPodtouch或是装有macOSMonterey的Mac创建FaceTime通话链接。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在中国大陆购买的iPhone机型支持创建FaceTime通话链接吗?",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "在中国大陆购买的iPhone机型不支持创建FaceTime通话链接。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在中国大陆购买的iPhone机型不支持创建FaceTime通话链接。",
+        "act": "ans/no",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "在中国大陆购买的iPhone机型不支持创建FaceTime通话链接。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我还可以在网页上的FaceTime通话中进行哪些操作呢?",
+        "act": "what",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "您可以在网页上的FaceTime通话中进行哪些操作"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以以网格布局查看参与者",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "以网格布局查看参与者"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "能跟我具体讲一下什么叫以网格布局查看参与者吗?",
+        "act": "verification",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "以网格布局查看参与者"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "就是您可以在按网格排列的方块中查看FaceTime群聊通话中的人员。代表发言者的方块会自动高亮显示，因此很容易知道是谁在讲话。",
+        "act": "ans/open",
+        "document": "用安卓或Windows设备加入FaceTime通话.json",
+        "grounding": [
+            "您可以在按网格排列的方块中查看FaceTime群聊通话中的人员。代表发言者的方块会自动高亮显示，因此很容易知道是谁在讲话。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的谢谢,我最后还想问一下使用Mac上的SD和SDXC卡插槽",
+        "act": "what",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "使用Mac上的SD和SDXC卡插槽"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你是想问什么Mac机型配备SDXC卡插槽吗?",
+        "act": "verification",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "以下Mac机型配备SDXC卡插槽："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的都有什么机型呢?",
+        "act": "what",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "以下Mac机型配备SDXC卡插槽："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "2022年推出的MacStudio,2021年推出的MacBookPro,2011年至2015年推出的MacBookPro,2011年至2014年推出的Macmini,2013年至2017年推出的13英寸MacBookAir机型,2010年或之后推出的27英寸iMac机型,2010年或之后推出的21.5英寸iMac机型",
+        "act": "ans/open",
+        "document": "使用Mac上的SD和SDXC卡插槽.json",
+        "grounding": [
+            "2022年推出的MacStudio",
+            "2021年推出的MacBookPro",
+            "2011年至2015年推出的MacBookPro",
+            "2011年至2014年推出的Macmini",
+            "2013年至2017年推出的13英寸MacBookAir机型",
+            "2010年或之后推出的27英寸iMac机型",
+            "2010年或之后推出的21.5英寸iMac机型"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    }
+]

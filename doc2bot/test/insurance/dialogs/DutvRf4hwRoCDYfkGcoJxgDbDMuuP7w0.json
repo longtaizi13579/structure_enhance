@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下人保寿险花开富贵年金保险。",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "人保寿险花开富贵年金保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您具体是想咨询您与我们的合同、您获得的保障、您的义务还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询合同相关的问题",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，合同构成和合同成立及生效您想咨询哪方面？",
+        "act": "multiple-choice",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同成立与生效是怎么判定的？",
+        "act": "how",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您提出保险申请，我们同意承保，本合同成立。本合同成立、我们收取首期保险费并签发保险单为本合同的生效条件，合同生效日期在保险单上载明。保单生效对应日（见 7.1）、保单年度（见 7.2）、保险费约定交纳日（见 7.3）均以该日期计算。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您提出保险申请，我们同意承保，本合同成立。本合同成立、我们收取首期保险费并签发保险单为本合同的生效条件，合同生效日期在保险单上载明。保单生效对应日（见 7.1）、保单年度（见 7.2）、保险费约定交纳日（见 7.3）均以该日期计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问问能提供什么保障",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您获得的保障"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，那具体是基本保险金额、未成年人身故保险金限制、 保险期间、保险责任还是责任免除相关内容呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "基本保险金额是怎么定的？",
+        "act": "how",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若该金额发生变更，则以变更后的金额为基本保险金额。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若该金额发生变更，则以变更后的金额为基本保险金额。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "未成年人身故保险金限制是怎么规定的？",
+        "act": "how",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "未成年人身故保险金限制"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "为未成年子女投保的人身保险，因被保险人身故给付的保险金总和不得超过国务院保险监督管理机构规定的限额，身故给付的保险金额总和约定也不得超过前述限额。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "为未成年子女投保的人身保险，因被保险人身故给付的保险金总和不得超过国务院保险监督管理机构规定的限额，身故给付的保险金额总和约定也不得超过前述限额。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投保人有哪些义务？",
+        "act": "what",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "您的义务"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "明确说明与如实告知和保险费的交纳，您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "保险费的交纳"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "保险费的交纳是怎么规定的？",
+        "act": "how",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "保险费的交纳"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "本合同的保险费可一次交清或分期交纳。分期交纳的交费期间为 3 年和 5 年两种。分期交纳的交费方式为年交或我们同意的其他方式。交费期间和交费方式由您在投保时与我们约定并在保险单上载明。若您选择分期交纳保险费，在交纳首期保险费后，您应当按照本合同的约定按期足额向我们交纳续期保险费。",
+        "act": "ans/open",
+        "document": "人保寿险花开富贵年金保险.json",
+        "grounding": [
+            "本合同的保险费可一次交清或分期交纳。分期交纳的交费期间为 3 年和 5 年两种。分期交纳的交费方式为年交或我们同意的其他方式。交费期间和交费方式由您在投保时与我们约定并在保险单上载明。若您选择分期交纳保险费，在交纳首期保险费后，您应当按照本合同的约定按期足额向我们交纳续期保险费。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

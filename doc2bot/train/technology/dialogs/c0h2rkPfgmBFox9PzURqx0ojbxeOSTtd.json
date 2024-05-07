@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下如何使用iPhone上的通知？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "使用iPhone、iPad和iPodtouch上的“通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：从锁定屏幕打开，从“通知中心”打开，管理通知，设定通知摘要的接收时间，更改提醒风格，更改群组通知设置，关闭特定App的通知，还是其它？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下如何从锁定屏幕打开通知吧。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从锁定屏幕打开"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以从锁定屏幕进行以下操作：轻点某个通知，以打开发出这个通知的App。轻点一组通知，以查看相应App最近发出的所有通知。在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。按住某个通知，以查看这个通知并进行快速操作。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "拿起您的iPhone或唤醒您的iPad，即可在锁定屏幕上查看最近收到的通知。您还可以从锁定屏幕进行以下操作：",
+            "轻点某个通知，以打开发出这个通知的App。",
+            "轻点一组通知，以查看相应App最近发出的所有通知。",
+            "在某个通知上向左轻扫，以管理相应App的提醒或清除这个通知。",
+            "按住某个通知，以查看这个通知并进行快速操作（如果相应App提供这类操作）。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想在不解锁手机的情况下显示内容，应该怎么设置？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要在不解锁设备的情况下在锁定屏幕上显示通知内容，请前往“设置”>“通知”>“显示预览”，然后选择“始终”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要在不解锁设备的情况下在锁定屏幕上显示通知内容，请前往“设置”>“通知”>“显示预览”，然后选择“始终”。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要在不解锁设备的情况下在锁定屏幕上显示通知内容，请前往“设置”>“通知”>“显示预览”，然后选择“始终”。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "通知中心有什么作用？",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "从“通知中心”查看您收到的提醒，除了从屏幕顶部中央向下轻扫，还有什么打开方式？",
+        "act": "what",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "从“通知中心”打开",
+            "“通知中心”会显示您的通知历史记录，让您可以向回滚动并查看错过的通知。有两种方式可以从“通知中心”查看您收到的提醒。",
+            "在任何其他屏幕上，从屏幕顶部中央向下轻扫。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还可以在锁定屏幕上，从屏幕中间向上轻扫。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "在锁定屏幕上，从屏幕中间向上轻扫。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何设定通知摘要的接收时间？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "设定通知摘要的接收时间"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要设定通知摘要的接收时间，请按照以下步骤操作：首先，前往“设置”>“通知”>“定时推送摘要”，然后打开“定时推送摘要”。 然后，在“摘要中的App”下方，选择要包含在通知摘要中的App。 最后，在“定时”下方，轻点“添加”按钮以添加新的定时，或者轻点“移除”按钮以移除某个定时。然后，调整您设定的各个定时推送摘要的时间。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的“通知”.json",
+        "grounding": [
+            "要设定通知摘要的接收时间，请按照以下步骤操作：",
+            "前往“设置”>“通知”>“定时推送摘要”，然后打开“定时推送摘要”。",
+            "在“摘要中的App”下方，选择要包含在通知摘要中的App。",
+            "在“定时”下方，轻点“添加”按钮以添加新的定时，或者轻点“移除”按钮以移除某个定时。然后，调整您设定的各个定时推送摘要的时间。"
+        ],
+        "grounding_id": [
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    }
+]

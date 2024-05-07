@@ -1,0 +1,320 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下医学方面的问题关于眼睛的",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "医学主题",
+            "眼疾"
+        ],
+        "grounding_id": [
+            "T3",
+            "T2321"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您是想了解视网膜疾病、视神经疾病、角膜疾病还是眼眶疾病等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "角膜疾病"
+        ],
+        "grounding_id": [
+            "T2340"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": " 想了解角膜疾病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "角膜疾病"
+        ],
+        "grounding_id": [
+            "T2340"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那这个您具体是想了解Cogan综合征、眼部带状疱疹、水疱性角膜结膜炎还是角膜移植等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "Cogan综合征这是一种什么病",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征",
+            "Cogan综合征是一种可能影响角膜的罕见眼部自身免疫病。"
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "Cogan综合征是一种可能影响角膜的罕见眼部自身免疫病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "Cogan综合征是一种可能影响角膜的罕见眼部自身免疫病。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个病治疗一般用什么药呢",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "使用皮质类固醇滴眼液和皮质类固醇药片治疗。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "使用皮质类固醇滴眼液和皮质类固醇药片治疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_Cogan综合征.json",
+        "grounding": [
+            "使用皮质类固醇滴眼液和皮质类固醇药片治疗。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这个角膜疾病除了刚说的几种还有别的什么吗",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "角膜疾病"
+        ],
+        "grounding_id": [
+            "T2340"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "还有圆锥形角膜、角膜溃疡、干燥性角膜结膜炎、周边溃疡性角膜炎等等您想了解哪个呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "圆锥形角膜这个病的治疗有什么方式呢",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜",
+            "圆锥形角膜的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "1",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "治疗方式：隐形眼镜、紫外线治疗、角膜环、角膜移植",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "治疗方式：",
+            "紫外线治疗",
+            "隐形眼镜",
+            "角膜环",
+            "角膜移植"
+        ],
+        "grounding_id": [
+            "29",
+            "31",
+            "30",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那哪种治疗有助于预防早期圆锥形角膜进一步进展。",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "使角膜硬化（称为胶原交联）的紫外线治疗有助于预防早期圆锥形角膜进一步进展。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "使角膜硬化（称为胶原交联）的紫外线治疗有助于预防早期圆锥形角膜进一步进展。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "使角膜硬化（称为胶原交联）的紫外线治疗有助于预防早期圆锥形角膜进一步进展。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "一般什么年龄会容易得这个病呀",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜常起病于10～25岁之间。总是双眼发病，在很多人中导致视力显著变化，需频繁更换框架眼镜或隐形眼镜处方。病因不明，但有下列情况者更容易患病："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "圆锥形角膜常起病于10～25岁之间。总是双眼发病，在很多人中导致视力显著变化，需频繁更换框架眼镜或隐形眼镜处方",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜常起病于10～25岁之间。总是双眼发病，在很多人中导致视力显著变化，需频繁更换框架眼镜或隐形眼镜处方。病因不明，但有下列情况者更容易患病："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那哪些情况更容易换这个病呀",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜常起病于10～25岁之间。总是双眼发病，在很多人中导致视力显著变化，需频繁更换框架眼镜或隐形眼镜处方。病因不明，但有下列情况者更容易患病："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "病因不明，但有下列情况者更容易患病，其他家庭成员患圆锥形角膜；有多种过敏的倾向（有时被称为特应性）；倾向于用力揉眼；眼睑松弛；某些结缔组织疾病（例如埃勒斯－当洛斯综合征、马凡综合征和成骨不全）；唐氏综合症；出生时就很明显且造成视力不良的疾病（例如雷伯氏先天性黑内障、早产儿视网膜病变和眼睛虹膜缺失）；阻塞性睡眠呼吸暂停",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "圆锥形角膜常起病于10～25岁之间。总是双眼发病，在很多人中导致视力显著变化，需频繁更换框架眼镜或隐形眼镜处方。病因不明，但有下列情况者更容易患病：",
+            "其他家庭成员患圆锥形角膜",
+            "有多种过敏的倾向（有时被称为特应性）",
+            "倾向于用力揉眼",
+            "眼睑松弛",
+            "某些结缔组织疾病（例如埃勒斯－当洛斯综合征、马凡综合征和成骨不全）",
+            "唐氏综合症",
+            "出生时就很明显且造成视力不良的疾病（例如雷伯氏先天性黑内障、早产儿视网膜病变和眼睛虹膜缺失）",
+            "阻塞性睡眠呼吸暂停"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "19",
+            "22",
+            "25"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "还有问题想问一下这个缔结组织病儿童也会得吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "埃勒斯－当洛斯综合征"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "是的那您具体是想了解埃勒斯-当洛斯综合征、 髌骨软骨软化症、成骨不全症还是髌腱炎等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "埃勒斯－当洛斯综合征"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "想了解埃勒斯-当洛斯综合征",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "埃勒斯－当洛斯综合征"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "Ehlers-Danlos综合征是一种罕见的遗传性结缔组织疾病，可致关节柔韧异常、皮肤弹性过度及组织脆弱。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_角膜疾病_圆锥形角膜.json",
+        "grounding": [
+            "Ehlers-Danlos综合征是一种罕见的遗传性结缔组织疾病，可致关节柔韧异常、皮肤弹性过度及组织脆弱。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    }
+]

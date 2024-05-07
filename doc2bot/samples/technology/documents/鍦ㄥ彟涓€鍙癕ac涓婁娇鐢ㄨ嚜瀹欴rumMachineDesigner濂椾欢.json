@@ -1,0 +1,127 @@
+{
+    "document_id": 310,
+    "domain": "technology",
+    "name": "在另一台Mac上使用自定DrumMachineDesigner套件",
+    "graph": {
+        "1": {
+            "data": "在另一台Mac上使用自定DrumMachineDesigner套件",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "如果您使用自己的样本在LogicPro中创建了DrumMachineDesigner套件，则可以存储这个套件并在另一台Mac上使用它。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "DrumMachineDesigner套件由套件中的样本和一个PATCH文件组成，这个文件用来储存套件的鼓垫分配和其他设置。您可以存储这些组件，然后将它们拷贝到另一台Mac，以便与LogicPro10.5或更高版本搭配使用。您可以使用外置驱动器、iCloud云盘、“隔空投送”、电子邮件或第三方云服务将这些组件转移到另一台Mac。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "将套件的设置存储为PATCH文件",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "5": {
+            "data": "打开带有您想要存储的自定套件的LogicPro项目。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "6": {
+            "data": "要打开“DrumMachineDesigner”窗口，请点按通道条的“乐器”插槽中的“DMD”。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "7": {
+            "data": "在“DrumMachineDesigner”窗口顶部，选择显示有轨道名称的套件名称鼓垫。这样可确保将完整的套件存储为一个patch。如果您只选择了一个套件鼓垫，则只会将相应的鼓件存储为patch。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "8": {
+            "data": "如有必要，请点按“资源库”按钮。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "9": {
+            "data": "点按“资源库”底部的“存储”，然后输入自定套件的名称。为确保您的自定套件显示在“资源库”中的“用户Patch”文件夹中，请将它存储到您的个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "10": {
+            "data": "点按“存储”对话框中的“存储”。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "11": {
+            "data": "前往~/音乐/AudioMusicApps/Patches/Instrument/，然后将PATCH文件拷贝到另一台Mac。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "12": {
+            "data": "存储套件的样本",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "13": {
+            "data": "使用新软件乐器轨道创建一个新的空项目。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "14": {
+            "data": "选择轨道，然后从“资源库”中的“用户Patch”文件夹中选取您的自定套件。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "15": {
+            "data": "选取“文件”>“存储”。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "16": {
+            "data": "在“存储”对话框中，选择“文件夹”以将您的项目存储为文件夹，选择“采样器音频数据”，为您的项目输入名称并选取位置，然后点按“存储”。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "17": {
+            "data": "在“访达”中，打开您刚才为项目创建的文件夹。找到名为“快速采样器”的子文件夹，其中包含您套件中使用的样本。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "18": {
+            "data": "将“快速采样器”文件夹拷贝到另一台Mac。",
+            "type": "sequence-step",
+            "pid": "12"
+        },
+        "19": {
+            "data": "在另一台Mac上重命名和移动文件夹",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "19"
+        },
+        "21": {
+            "data": "在另一台Mac上，找到“快速采样器”文件夹和PATCH文件。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "22": {
+            "data": "将“快速采样器”文件夹的名称更改为您为自定套件PATCH文件指定的相同名称。例如，如果您的PATCH文件名为MyDrumKit.patch，则将“快速采样器”文件夹名称更改为“MyDrumKit”。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "23": {
+            "data": "在“访达”中，将PATCH文件和已重命名的文件夹移到个人文件夹中的这个位置：~/音乐/AudioMusicApps/Patches/Instrument/。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "24": {
+            "data": "现在，您可以在任意LogicPro项目中载入“资源库”中的自定DMD套件。",
+            "type": "ordinary",
+            "pid": "19"
+        }
+    }
+}

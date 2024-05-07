@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果服务提供商使用非正品电池部件，那他提供的是什么？",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池",
+            "此外，如果服务提供商使用非正品电池部件，则电池更换件可能是："
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "设计或制造粗劣的电池、二手电池、损坏的电池、不适用于您iPhone机型的电池。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "设计或制造粗劣的电池",
+            "二手电池",
+            "损坏的电池",
+            "不适用于您iPhone机型的电池"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "用非正品电池或进行非正品维修对手机的使用有什么影响？",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池",
+            "正品电池可与iOS正常配合工作，包括报告电量和电池健康信息。因此，如果使用非正品电池或进行非正品维修，将无法获得电池健康信息。"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "正品电池可与iOS正常配合工作，包括报告电量和电池健康信息。因此，如果使用非正品电池或进行非正品维修，将无法获得电池健康信息。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "正品电池可与iOS正常配合工作，包括报告电量和电池健康信息。因此，如果使用非正品电池或进行非正品维修，将无法获得电池健康信息。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "AppleTV4K支持哪些4K显示格式？",
+        "act": "what",
+        "document": "关于AppleTV4K上采用的4K、HDR和杜比视界技术.json",
+        "grounding": [
+            "关于AppleTV4K上采用的4K、HDR和杜比视界技术",
+            "AppleTV4K可以充分利用4KHDR技术，让您在观看电视时享受到迄今最完美的画质。AppleTV4K支持以下4K显示格式："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "4K标准动态范围(SDR)：适用于不支持HDR10或杜比视界格式的4K电视机。4K高动态范围(HDR)：适用于支持HDR格式的4K电视机，能够显示颜色和亮度范围更广的视频。4K杜比视界：适用于支持杜比视界HDR格式的4K电视机，能够显示颜色和亮度范围更广且针对您的电视机进行过优化的视频。",
+        "act": "ans/open",
+        "document": "关于AppleTV4K上采用的4K、HDR和杜比视界技术.json",
+        "grounding": [
+            "4K标准动态范围(SDR)：适用于不支持HDR10或杜比视界格式的4K电视机。",
+            "4K高动态范围(HDR)：适用于支持HDR格式的4K电视机，能够显示颜色和亮度范围更广的视频。",
+            "4K杜比视界：适用于支持杜比视界HDR格式的4K电视机，能够显示颜色和亮度范围更广且针对您的电视机进行过优化的视频。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "在使用AppleTV4K时会遇到什么问题？",
+        "act": "what",
+        "document": "关于AppleTV4K上采用的4K、HDR和杜比视界技术.json",
+        "grounding": [
+            "关于AppleTV4K上采用的4K、HDR和杜比视界技术",
+            "获取最佳画质",
+            "AppleTV4K可以根据4K电视机的各项功能提供最佳观看体验。在某些情况下，您可能会遇到问题，或需要手动检查您的配置。这些情况可能包括："
+        ],
+        "grounding_id": [
+            "1",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "电视机画面出现着色、颜色过亮，或是出现间歇性显示或无视频问题。屏幕会间歇性地静止、出现雪花或闪亮现象。无法在受支持的电视机上使用HDR或杜比视界格式。音频问题，如音频中断、存在噪音或音频/视频不同步。",
+        "act": "ans/open",
+        "document": "关于AppleTV4K上采用的4K、HDR和杜比视界技术.json",
+        "grounding": [
+            "电视机画面出现着色、颜色过亮，或是出现间歇性显示或无视频问题。",
+            "屏幕会间歇性地静止、出现雪花或闪亮现象。",
+            "无法在受支持的电视机上使用HDR或杜比视界格式。",
+            "音频问题，如音频中断、存在噪音或音频/视频不同步。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "使用MagSafe外接电池有什么优点？",
+        "act": "what",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "如何使用MagSafe外接电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "MagSafe外接电池可以快速安全地为支持MagSafe的各款iPhone机型进行无线充电，让您有更多时间来使用设备。",
+        "act": "ans/open",
+        "document": "如何使用MagSafe外接电池.json",
+        "grounding": [
+            "MagSafe外接电池可以快速安全地为支持MagSafe的各款iPhone机型进行无线充电，让您有更多时间来使用设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

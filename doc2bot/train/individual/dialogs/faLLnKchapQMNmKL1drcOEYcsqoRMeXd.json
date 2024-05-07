@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我老婆是外国人，现在我们要离婚，该怎么办？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "婚姻",
+            "涉外国人、涉港澳台居民、华侨补领婚姻登记证"
+        ],
+        "grounding_id": [
+            "T11",
+            "T302",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向相关单位申请涉外国人、涉港澳台居民、华侨补领婚姻登记证。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "涉外国人、涉港澳台居民、华侨补领婚姻登记证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话是：0573-12345",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "投诉电话",
+            "0573-12345"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉地址是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉地址是：嘉兴市信访局。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "投诉地址",
+            "嘉兴市信访局"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理地点是：嘉兴市行政审批服务中心（嘉兴市南湖区东栅街道凌公塘路1683号）四楼。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "办理地点",
+            "嘉兴市行政审批服务中心（嘉兴市南湖区东栅街道凌公塘路1683号）四楼"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不能。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_婚姻生育_婚姻_涉外国人、涉港澳台居民、华侨补领婚姻登记证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    }
+]

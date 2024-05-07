@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道iPhone系统的提醒事项怎么使用呢？",
+        "act": "how",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您用的是iPhone、iPad还是iPodtouch呢？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我用的是iPhone，怎么设置呢？",
+        "act": "how",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用iPhone、iPad或iPodtouch上的“提醒事项”",
+            "创建提醒事项"
+        ],
+        "grounding_id": [
+            "1",
+            "45"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 1.打开“提醒事项”App。 2.轻点“+新建提醒事项”，然后键入您的提醒事项。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "具体步骤",
+            "打开“提醒事项”App。",
+            "轻点“+新建提醒事项”，然后键入您的提醒事项。"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "有没有更简单一点的方式呢？",
+        "act": "verification",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "您还可以通过主屏幕上的“提醒事项”小组件将提醒事项添加到最重要的待办事项列表中。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您还可以通过主屏幕上的“提醒事项”小组件将提醒事项添加到最重要的待办事项列表中。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "您还可以通过主屏幕上的“提醒事项”小组件将提醒事项添加到最重要的待办事项列表中。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好像不太行，有没有别的办法呢？",
+        "act": "verification",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "尝试按照适用于您设备的步骤操作"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。1. iOS13和iPadOS或更高版本2. watchOS3.macOS4. iCloud.com5.MicrosoftWindows",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您仍需要协助，请尝试按照以下适用于您设备的步骤操作。",
+            "iOS13和iPadOS或更高版本",
+            "watchOS",
+            "macOS",
+            "iCloud.com",
+            "MicrosoftWindows"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "26",
+            "30",
+            "34",
+            "38"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我怎么确认我的提醒事项有没有同步呢？",
+        "act": "what",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先要进行的几项检查: 1.查看iCloud通讯录、日历或提醒事项的系统状态，以确认存不存在服务中断或连接问题。 2.如果某条提醒事项没有在您的部分设备上显示，请确保您的iPhone和iPad装有最新版iOS或iPadOS，或者您的Mac装有最新版macOS。 3.确保您已在所有设备上使用同一AppleID登录iCloud。然后，确认您已在iCloud设置中打开“通讯录”、“日历”和“提醒事项”。 4.检查设备上的日期和时间设置，以确保它们对您当前所在地是正确的。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "首先要进行的几项检查",
+            "查看iCloud通讯录、日历或提醒事项的系统状态，以确认存不存在服务中断或连接问题。",
+            "如果某条提醒事项没有在您的部分设备上显示，请确保您的iPhone和iPad装有最新版iOS或iPadOS，或者您的Mac装有最新版macOS。",
+            "确保您已在所有设备上使用同一AppleID登录iCloud。然后，确认您已在iCloud设置中打开“通讯录”、“日历”和“提醒事项”。",
+            "检查设备上的日期和时间设置，以确保它们对您当前所在地是正确的。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "8",
+            "12",
+            "16"
+        ]
+    }
+]

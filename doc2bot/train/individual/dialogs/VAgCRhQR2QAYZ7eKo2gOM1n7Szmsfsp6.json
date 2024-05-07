@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在办理个人账户一次性待遇申领，请问有什么投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领",
+            "社保医保",
+            "养老保险"
+        ],
+        "grounding_id": [
+            "1",
+            "T168",
+            "T179"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你是在哪个省份办理的？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是在浙江省衢州市办理的。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "个人账户一次性待遇申领"
+        ],
+        "grounding_id": [
+            "T5",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你是想要线上还是线下的投诉方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "线下的，能告诉我投诉地址吗？",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你可以前往衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "除了投诉地址，有投诉电话吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你可以拨打0570-30863进行投诉。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我知道了，那申请个人账户一次性待遇申领时有数量限制吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "数量限制"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "没有，个人账户一次性待遇申领无数量限制。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "个人账户一次性待遇申领",
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "129"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "窗口办理太麻烦了，我能自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "非常抱歉，暂时还不支持自助办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理完成我多久能收到结果呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "出结果的那天起，三个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那法律规定是多少天内能办理完成呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "法定办结的时限是14个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "14（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "除了现场窗口办理，还有什么办理方式吗?",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "你还可以在网上申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_养老保险_个人账户一次性待遇申领.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    }
+]

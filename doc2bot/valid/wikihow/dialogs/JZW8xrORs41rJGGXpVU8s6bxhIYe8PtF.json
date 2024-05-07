@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在Facebook上下载几个视频，但好像都要收费，想问下如何免费下载Facebook视频？",
+        "act": "how",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "如何免费下载Facebook视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有两种方法：使用在线下载程序，使用Facebook的HTML代码，您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "可选方法",
+            "使用Facebook的HTML代码"
+        ],
+        "grounding_id": [
+            "3",
+            "28"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "说一下使用Facebook的HTML代码的方法吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "使用Facebook的HTML代码"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用Facebook的HTML代码: 1.打开电脑上的网络浏览器。 2.前往你想下载的Facebook视频。 3.点击视频右下方的双头箭头。 4.从地址栏中复制URL。 5.在Chrome中打开一个新的无痕式浏览窗口。 6.把复制的URL粘贴到地址栏，然后按↵Enter或⏎Return。 7.右键单击页面的空白区域，选择查看页面来源。 8.勾选“换行”旁边的方框。 9.按Control+F(PC)或⌘Command+F(Mac)。 10.输入hd_src。 11.复制两个hd_src条目之间的长URL。 12.按Control+T(PC)或⌘Command+C(Mac)打开一个新的浏览器标签页。 13.把URL粘贴到新浏览器标签页中，然后按↵Enter或⏎Return。 14.点击底部的三点图标并选择下载。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "使用Facebook的HTML代码",
+            "打开电脑上的网络浏览器。",
+            "前往你想下载的Facebook视频。",
+            "点击视频右下方的双头箭头。",
+            "从地址栏中复制URL。",
+            "在Chrome中打开一个新的无痕式浏览窗口。",
+            "把复制的URL粘贴到地址栏，然后按↵Enter或⏎Return。",
+            "右键单击页面的空白区域，选择查看页面来源。",
+            "勾选“换行”旁边的方框。",
+            "按Control+F(PC)或⌘Command+F(Mac)。",
+            "输入hd_src。",
+            "复制两个hd_src条目之间的长URL。",
+            "按Control+T(PC)或⌘Command+C(Mac)打开一个新的浏览器标签页。",
+            "把URL粘贴到新浏览器标签页中，然后按↵Enter或⏎Return。",
+            "点击底部的三点图标并选择下载。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "31",
+            "33",
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "47",
+            "49",
+            "51",
+            "53",
+            "55",
+            "57"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "所有的视频都能下载吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "前往你想下载的Facebook视频。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不是的。它必须是一个公共视频——你不能下载私人视频或只在朋友圈分享的视频。",
+        "act": "ans/no",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "它必须是一个公共视频——你不能下载私人视频或只在朋友圈分享的视频。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“换行”旁边的方框在哪里？",
+        "act": "where",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "勾选“换行”旁边的方框。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在Chrome和Edge中，这个方框都位于源代码的左上角。这样会让你的下一个任务变得更加轻松。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "在Chrome和Edge中，这个方框都位于源代码的左上角。这样会让你的下一个任务变得更加轻松。"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "复制两个hd_src条目之间的长URL，需要注意什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "复制两个hd_src条目之间的长URL。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不要包括开头和结尾的引号，只用从https开始，一直复制到逗号前的最后一个数字。一旦选中了整个URL，按Control+C或Command+C把它复制下来。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何免费下载Facebook视频.json",
+        "grounding": [
+            "不要包括开头和结尾的引号，只用从https开始，一直复制到逗号前的最后一个数字。一旦选中了整个URL，按Control+C或Command+C把它复制下来。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "学会全选内容有什么用处？",
+        "act": "what",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "如何全选内容",
+            "快速选中工作区域中的所有内容是一项基本的电脑技能。通过全选，你可以一次性选择一个目录下的所有文件、文档中的所有文本或者程序中的所有对象。牢记并掌握这一技能可以大幅提高你的工作效率。阅读本文，了解如何使用“全选”。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "快速选中工作区域中的所有内容是一项基本的电脑技能。通过全选，你可以一次性选择一个目录下的所有文件、文档中的所有文本或者程序中的所有对象。牢记并掌握这一技能可以大幅提高你的工作效率。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "快速选中工作区域中的所有内容是一项基本的电脑技能。通过全选，你可以一次性选择一个目录下的所有文件、文档中的所有文本或者程序中的所有对象。牢记并掌握这一技能可以大幅提高你的工作效率。阅读本文，了解如何使用“全选”。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那你教我一下，如何全选内容？",
+        "act": "how",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "如何全选内容"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不同设备上，操作方法不同，有移动设备，Mac OS X系统的计算机，Windows系统的计算机，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "可选方法",
+            "Windows系统的计算机"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "先讲一下Windows系统的计算机的操作方法吧。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "Windows系统的计算机"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "Windows系统的计算机: 1.使用键盘快捷键。 2.使用“全选”按钮。 3.使用键盘快捷键。 4.使用编辑菜单。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "Windows系统的计算机",
+            "使用键盘快捷键。",
+            "使用“全选”按钮。",
+            "使用键盘快捷键。",
+            "使用编辑菜单。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "8",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "移动设备的操作方法是什么？",
+        "act": "what",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "移动设备"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "移动设备: 1.长按你想要选择的文本。 2.长按你想要选择的文本。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何全选内容.json",
+        "grounding": [
+            "移动设备",
+            "长按你想要选择的文本。",
+            "长按你想要选择的文本。"
+        ],
+        "grounding_id": [
+            "27",
+            "28",
+            "33"
+        ]
+    }
+]

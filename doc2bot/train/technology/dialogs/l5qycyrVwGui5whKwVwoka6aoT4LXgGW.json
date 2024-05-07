@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果看到“无法创建AppleID”或“无法设置iCloud”信息怎么办？",
+        "act": "how",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”或“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想先了解“无法创建AppleID”还是“无法设置iCloud”？",
+        "act": "multiple-choice",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法创建AppleID”或“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "无法设置iCloud”信息怎么呢？",
+        "act": "how",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您另外还有一台iPhone、iPad、iPodtouch或Mac， 则可以尝试在这台设备上使用您的AppleID设置iCloud。使用您的AppleID登录，然后按照屏幕上的步骤开始使用iCloud。或者，如果您已有设置了iCloud的AppleID，请使用这个AppleID登录。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "则可以尝试在这台设备上使用您的AppleID设置iCloud。使用您的AppleID登录，然后按照屏幕上的步骤开始使用iCloud。",
+            "请使用这个AppleID登录。"
+        ],
+        "grounding_id": [
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果您仍需要使用这个AppleID来设置iCloud，怎么办？",
+        "act": "how",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果您仍需要使用这个AppleID来设置iCloud，"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请联系Apple支持寻求协助。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "请联系Apple支持寻求协助。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那为什么会看到“无法设置iCloud”信息？",
+        "act": "why",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果看到“无法设置iCloud”信息"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在下列情况下，您可能会看到这条信息： 使用您已经在网页、AppleTV或第三方设备上创建但还没有设置iCloud的AppleID登录，使用具有iCloud的仅网页访问权限的AppleID登录",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "在下列情况下，您可能会看到这条信息：",
+            "使用您已经在网页、AppleTV或第三方设备上创建但还没有设置iCloud的AppleID登录",
+            "使用具有iCloud的仅网页访问权限的AppleID登录"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还是新设备登陆不上去，怎么办？",
+        "act": "how",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "则可以尝试在这台设备上使用您的AppleID设置iCloud。使用您的AppleID登录，然后按照屏幕上的步骤开始使用iCloud。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你设置了iCloud的AppleID妈？",
+        "act": "verification",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "或者，如果您已有设置了iCloud的AppleID，"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "不记得了。",
+        "act": "ans/no",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "或者，如果您已有设置了iCloud的AppleID，"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您已有设置了iCloud的AppleID，[19] 请使用这个AppleID登录。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "请使用这个AppleID登录。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那该怎么做？",
+        "act": "how",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "您该怎么做？"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您另外还有一台iPhone？iPad？iPodtouch？Mac？",
+        "act": "multiple-choice",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果您另外还有一台iPhone、iPad、iPodtouch或Mac，"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "iPhone",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "如果您另外还有一台iPhone、iPad、iPodtouch或Mac，"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以尝试在这台设备上使用您的AppleID设置iCloud。使用您的AppleID登录，然后按照屏幕上的步骤开始使用iCloud。",
+        "act": "ans/open",
+        "document": "如果看到“无法创建AppleID”或“无法设置iCloud”信息.json",
+        "grounding": [
+            "则可以尝试在这台设备上使用您的AppleID设置iCloud。使用您的AppleID登录，然后按照屏幕上的步骤开始使用iCloud。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

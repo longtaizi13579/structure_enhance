@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下时间机器可以备份到什么设备上？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "可与“时间机器”搭配使用的备份磁盘"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“时间机器”可以备份到与Mac连接或在网络上可供使用的某些外置储存设备。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到与Mac连接或在网络上可供使用的某些外置储存设备。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "要使用“时间机器”备份 Mac，需要哪些类型的储存设备？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "使用“时间机器”备份您的Mac"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您需要以下类型的储存设备之一：连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动；支持通过SMB进行“时间机器”备份的联网储存(NAS)设备；共享为“时间机器”备份目标位置的Mac；连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器； AirPort时间返回舱。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "连接到Mac的外置USB驱动器、雷雳驱动器或FireWire驱动器",
+            "支持通过SMB进行“时间机器”备份的联网储存(NAS)设备",
+            "共享为“时间机器”备份目标位置的Mac",
+            "连接到AirPortExtreme基站(802.11ac)或AirPort时间返回舱的外置驱动器",
+            "AirPort时间返回舱",
+            "使用“时间机器”备份您的Mac"
+        ],
+        "grounding_id": [
+            "4",
+            "8",
+            "12",
+            "16",
+            "20",
+            "56"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "连接到Mac的外置驱动器指的是什么？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "连接到Mac的外置驱动器"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果磁盘没有使用正确的格式，会出现什么提示？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到您Mac上的USB端口、雷雳端口或FireWire端口所连接的外置驱动器。如果磁盘没有使用正确的格式，则“时间机器”会提示您抹掉磁盘。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "AirPort时间返回舱指的是什么？",
+        "act": "what",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "AirPort时间返回舱"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "“时间机器”可以备份到位于网络上的AirPort时间返回舱的内建硬盘。",
+        "act": "ans/open",
+        "document": "可与“时间机器”搭配使用的备份磁盘.json",
+        "grounding": [
+            "“时间机器”可以备份到位于网络上的AirPort时间返回舱的内建硬盘。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我我想问一下我是浙江省湖州人，我驾驶证昨天洗衣服在兜里没拿出来洗坏了，我想补办一个新的怎么办?",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T13",
+            "T89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你可以办理驾驶证损毁换证的业务，你有想了解关于这个业务的什么东西吗？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，我想知道多久我能收到新的驾驶证",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1天之内您就可以收到",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那补办这个驾驶证需要多少钱啊",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "345"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我大约了解了，可以告诉我咨询的地址吗？方便我咨询",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的湖州市吴兴区青铜路298号政法楼4楼404室",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号政法楼4楼404室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我这个证要是办理的话，线下的办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "行驶证驾驶证",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T89",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在湖州市公安局交通警察支队车辆管理所湖州市开发区龙溪街道三天门路799号1-15号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "湖州市公安局交通警察支队车辆管理所湖州市开发区龙溪街道三天门路799号1-15号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "最近比较忙，我可以网上进行支付吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "340"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以网上支付",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "341"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我以前的驾驶证不是在这里办理的，需要做一些其他的事吗",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，如果你以前驾驶证不是在这里那你需要办理转入换领机动车驾驶证",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "转入换领机动车驾驶证",
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "1",
+            "T89"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那办理的地点在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "湖州市公安局交通警察支队车辆管理所湖州市开发区龙溪街道三天门路799号1-15号受理窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "湖州市公安局交通警察支队车辆管理所湖州市开发区龙溪街道三天门路799号1-15号受理窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我需要多久能收到我的驾驶证呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "行驶证驾驶证"
+        ],
+        "grounding_id": [
+            "T89"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "十天之内送达",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_行驶证驾驶证_转入换领机动车驾驶证.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

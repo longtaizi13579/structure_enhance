@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江省金华市，驾驶证破损了，如果去补办的话都有什么流程？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省_金华市",
+            "行驶证驾驶证",
+            "驾驶证损毁换证",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "T6",
+            "T89",
+            "1",
+            "280"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，根据相关规定，驾驶证损毁换证的办理流程为：1.申请 2.受理 3.审核 4.制证 5.送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "驾驶证损毁换证",
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "1",
+            "280",
+            "281",
+            "283",
+            "290",
+            "297",
+            "304"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请的话，是向什么部门申请？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "281"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "申请人向公安交管部门提出申请。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "申请人向公安交管部门提出申请。"
+        ],
+        "grounding_id": [
+            "282"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "由谁负责受理？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "受理"
+        ],
+        "grounding_id": [
+            "283"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "由该部门的办理人员进行受理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "办理人员"
+        ],
+        "grounding_id": [
+            "284"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "谁负责审核？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "审核"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "由该部门的办理人员负责审核。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "办理人员"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办好之后，怎么给我？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "304"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有两种方式：一种是当场领证，另一种是通过邮寄的方式进行送达。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "当场送达或邮寄送达。"
+        ],
+        "grounding_id": [
+            "305"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果在办理过程中发生问题，有没有什么投诉方式？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "给你投诉地址可以吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投诉地址是：浙江省金华市婺城区双龙南街801号金华市信访局，有问题的话可以到这边反映。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办事处的地址在哪？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "地址是：金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_驾驶证损毁换证.json",
+        "grounding": [
+            "金华市交警支队车管所（金华市金东区赤松镇汽车城内横三路）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

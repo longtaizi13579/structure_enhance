@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市行驶驾驶的有关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T13",
+            "T16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想咨询机动车、常用服务、行驶证驾驶证还是其他方面的有关问题呢",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询机动车有关的问题",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）、机动车灭失注销登记还是其他业务有关的问题？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "3个工作日",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "3（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个业务的办理方式有几种？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "结果多久会给反馈呢？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "基本信息",
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "40",
+            "111",
+            "120"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "结果自作出决定之日起1个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不行",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那如果我遇到问题想投诉怎么办？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "三种方式，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "投诉电话告诉我吧",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "0572-12345",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车共同所有人姓名变更登记（变更后所有人住所迁出辖区）.json",
+        "grounding": [
+            "0572-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

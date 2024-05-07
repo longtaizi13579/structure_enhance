@@ -1,0 +1,408 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下将CarPlay车载与iPhone搭配使用的相关问题？",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "将CarPlay车载与iPhone搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：什么是CarPlay车载？设置CarPlay车载，使用Siri控制CarPlay车载，让Siri播报信息，使用汽车的内建控制项来操作CarPlay车载，整理您的CarPlay车载App，还是更改CarPlay车载墙纸？",
+        "act": "multiple-choice",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "设置CarPlay车载"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下设置CarPlay车载的方法具体方法吧。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "设置CarPlay车载",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 1.启动您的汽车，然后确保Siri已打开。 2.将iPhone连接到汽车。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "具体步骤",
+            "启动您的汽车，然后确保Siri已打开。",
+            "将iPhone连接到汽车："
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果汽车支持通过USB连接线连接CarPlay车载，应该怎么连接？",
+        "act": "how",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果汽车支持通过USB连接线连接CarPlay车载，请将iPhone插接到车内的USB端口。这类USB端口可能标有CarPlay车载图标或智能手机图标。请务必使用Apple闪电转USB连接线。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果汽车支持通过USB连接线连接CarPlay车载，请将iPhone插接到车内的USB端口。这类USB端口可能标有CarPlay车载图标或智能手机图标。请务必使用Apple闪电转USB连接线。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果汽车支持通过USB连接线连接CarPlay车载，请将iPhone插接到车内的USB端口。这类USB端口可能标有CarPlay车载图标或智能手机图标。请务必使用Apple闪电转USB连接线。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果汽车仅支持无线CarPlay车载，应该怎么连接？",
+        "act": "how",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果汽车仅支持无线CarPlay车载，请按住方向盘上的语音命令按钮。确保您的立体声系统处于无线或蓝牙模式。然后，在您的iPhone上，前往“设置”>“通用”>“CarPlay车载”，并选择您的汽车。请查看您的汽车使用手册，以了解更多信息。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果汽车仅支持无线CarPlay车载，请按住方向盘上的语音命令按钮。确保您的立体声系统处于无线或蓝牙模式。然后，在您的iPhone上，前往“设置”>“通用”>“CarPlay车载”，并选择您的汽车。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "如果汽车仅支持无线CarPlay车载，请按住方向盘上的语音命令按钮。确保您的立体声系统处于无线或蓝牙模式。然后，在您的iPhone上，前往“设置”>“通用”>“CarPlay车载”，并选择您的汽车。请查看您的汽车使用手册，以了解更多信息。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何使用Siri控制CarPlay车载？",
+        "act": "how",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "使用Siri控制CarPlay车载"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以通过以下两种方法来使用Siri控制CarPlay车载，具体取决于您的汽车：按住方向盘上的语音命令按钮，然后问Siri一个问题或向Siri发出某个操作指令。按住CarPlay车载仪表盘或触控屏上的CarPlay车载主屏幕按钮，然后问Siri一个问题或向Siri发出某个操作指令。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "您可以通过以下两种方法来使用Siri控制CarPlay车载，具体取决于您的汽车：",
+            "按住方向盘上的语音命令按钮，然后问Siri一个问题或向Siri发出某个操作指令。",
+            "按住CarPlay车载仪表盘或触控屏上的CarPlay车载主屏幕按钮，然后问Siri一个问题或向Siri发出某个操作指令。"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "Siri在CarPlay车载中还有其它什么作用？",
+        "act": "what",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及。",
+        "act": "ans/open",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "Siri还会在CarPlay车载中针对您接下来可能想做的事情提供建议，例如驱车前往下一个会议地点。Siri建议和CarPlay车载可以完美搭配使用，让您喜爱的App触手可及。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我的汽车可以在快到家时直接向Siri发出“打开车库门”之类的操作指令吗？",
+        "act": "verification",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "则可以采用CarPlay车载仪表盘上显示的Siri建议，或者在快到家时直接向Siri发出“打开车库门”之类的操作指令。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您的汽车是否支持HomeKit的配件，例如车库门遥控开关？",
+        "act": "verification",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "则可以采用CarPlay车载仪表盘上显示的Siri建议，或者在快到家时直接向Siri发出“打开车库门”之类的操作指令。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "支持。",
+        "act": "ans/yes",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "则可以采用CarPlay车载仪表盘上显示的Siri建议，或者在快到家时直接向Siri发出“打开车库门”之类的操作指令。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "那可以的。",
+        "act": "ans/yes",
+        "document": "将CarPlay车载与iPhone搭配使用.json",
+        "grounding": [
+            "则可以采用CarPlay车载仪表盘上显示的Siri建议，或者在快到家时直接向Siri发出“打开车库门”之类的操作指令。"
+        ],
+        "grounding_id": [
+            "68"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我还想咨询下将Shazam与AppleMusic、Snapchat等搭配使用的相关问题？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "将Shazam与AppleMusic、Snapchat等搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您是想了解收听Shazam已识别的歌曲，还是在Snapchat中使用Shazam？",
+        "act": "multiple-choice",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想了解下收听Shazam已识别的歌曲。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您是想了解在AppleMusic，Spotify，Deezer，还是YouTubeMusic中收听Shazam已识别的歌曲？",
+        "act": "multiple-choice",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "YouTubeMusic"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "先说下在安卓设备上的YouTubeMusic中收听Shazam已识别的歌曲的操作方法吧。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "YouTubeMusic",
+            "收听Shazam已识别的歌曲"
+        ],
+        "grounding_id": [
+            "31",
+            "3"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "要在安卓设备上的YouTubeMusic中收听Shazam已识别的歌曲，请轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在YouTubeMusic中打开”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "要在安卓设备上的YouTubeMusic中收听Shazam已识别的歌曲，请轻点Shazam已识别的某首歌曲旁边的“更多”按钮，然后选取“在YouTubeMusic中打开”。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "在Spotify中收听Shazam已识别的歌曲的方法是什么？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "Spotify"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "如果您的设备上装有SpotifyApp，则可以将Shazam连接到您的Spotify帐户。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "如果您的设备上装有SpotifyApp，则可以将Shazam连接到您的Spotify帐户："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "如果您的设备上装有SpotifyApp，则可以将Shazam连接到您的Spotify帐户："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "首先，在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”。然后，轻点“设置”按钮，然后轻点Spotify旁边的“连接”。最后， 3.轻点Spotify中的“Agree”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”。在安卓设备上，从Shazam主屏幕向左轻扫至“资料库”。",
+            "轻点“设置”按钮，然后轻点Spotify旁边的“连接”。",
+            "轻点Spotify中的“Agree”（同意）。要将Shazam已识别的歌曲自动同步到Spotify中的“我的Shazam曲目”播放列表，请轻点“确定”。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "在安卓设备上怎么找到我的音乐？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”。在安卓设备上，从Shazam主屏幕向左轻扫至“资料库”。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "在安卓设备上，从Shazam主屏幕向左轻扫至“资料库”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "在iPhone或iPad上，从Shazam主屏幕向上轻扫至“我的音乐”。在安卓设备上，从Shazam主屏幕向左轻扫至“资料库”。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "要将Shazam已识别的歌曲自动同步到Spotify中的“我的Shazam曲目”播放列表怎么操作？",
+        "act": "how",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Spotify中的“Agree”（同意）。要将Shazam已识别的歌曲自动同步到Spotify中的“我的Shazam曲目”播放列表，请轻点“确定”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "要将Shazam已识别的歌曲自动同步到Spotify中的“我的Shazam曲目”播放列表，请轻点“确定”。",
+        "act": "ans/open",
+        "document": "将Shazam与AppleMusic、Snapchat等搭配使用.json",
+        "grounding": [
+            "轻点Spotify中的“Agree”（同意）。要将Shazam已识别的歌曲自动同步到Spotify中的“我的Shazam曲目”播放列表，请轻点“确定”。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

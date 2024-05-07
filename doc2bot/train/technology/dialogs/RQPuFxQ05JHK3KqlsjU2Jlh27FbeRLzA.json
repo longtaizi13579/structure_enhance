@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下延长AppleCare+服务计划保障期限的相关问题？",
+        "act": "what",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "延长AppleCare+服务计划保障期限"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：在澳大利亚、加拿大、法国、德国、意大利、日本、西班牙、英国和美国，在中国大陆，还是如何查看保障到期日期？",
+        "act": "multiple-choice",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "在澳大利亚、加拿大、法国、德国、意大利、日本、西班牙、英国和美国"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下在美国吧，什么情况下才能够购买按年续期的新保障？",
+        "act": "how",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "在澳大利亚、加拿大、法国、德国、意大利、日本、西班牙、英国和美国",
+            "如果您为Mac预先支付了AppleCare+服务计划费用，则您或许能够购买按年续期的新保障。"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您为Mac预先支付了AppleCare+服务计划费用，则您或许能够购买按年续期的新保障。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "如果您为Mac预先支付了AppleCare+服务计划费用，则您或许能够购买按年续期的新保障。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "购买新保障有时间期限限制吗？",
+        "act": "verification",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，请在原有保障结束后30天内购买新保障。",
+        "act": "ans/yes",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎么才能知道自己是否可以购买新保障？",
+        "act": "how",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "新保障会自动续期吗？",
+        "act": "verification",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "会的，新保障将自动续期，直到您取消为止。",
+        "act": "ans/yes",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在原有保障结束后30天内购买新保障。要了解您是不是可以购买新保障，请前往mysupport.apple.com并按照屏幕上的说明操作。新保障将自动续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何如何查看保障到期日期？",
+        "act": "how",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "如何查看保障到期日期"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上，前往“设置”>“通用”>“关于本机”，然后轻点您的AppleCare计划名称。在Mac上，从屏幕角落的苹果菜单中选取“关于本机”，然后点按“支持”。或者，前往mysupport.apple.com，然后使用您的AppleID登录。然后，从列表中选取您的设备。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，前往“设置”>“通用”>“关于本机”，然后轻点您的AppleCare计划名称。",
+            "在Mac上，从屏幕角落的苹果菜单中选取“关于本机”，然后点按“支持”。",
+            "或者，前往mysupport.apple.com，然后使用您的AppleID登录。然后，从列表中选取您的设备。",
+            "您还可以在您购买AppleCare+服务计划时收到的保障凭证或计划确认信息中找到到期日期。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有别的办法吗？",
+        "act": "what",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "您还可以在您购买AppleCare+服务计划时收到的保障凭证或计划确认信息中找到到期日期。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您还可以在您购买AppleCare+服务计划时收到的保障凭证或计划确认信息中找到到期日期。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "您还可以在您购买AppleCare+服务计划时收到的保障凭证或计划确认信息中找到到期日期。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在中国大陆的话，应该如何操作？",
+        "act": "how",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在您的保障结束之日起30天内前往“设置”>“通用”>“关于本机”。然后，轻点“可添加AppleCare+服务计划保障”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请在您的保障结束之日起30天内前往“设置”>“通用”>“关于本机”。然后，轻点“可添加AppleCare+服务计划保障”并按照屏幕上的说明操作。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "请在您的保障结束之日起30天内前往“设置”>“通用”>“关于本机”。然后，轻点“可添加AppleCare+服务计划保障”并按照屏幕上的说明操作。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我还想问一下，在美国的话，服务计划保障从什么时候开始就能按月续费了？",
+        "act": "when",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "您的服务计划保障可以在24或36个月过后按月或按年续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您的服务计划保障可以在24或36个月过后按月或按年续期，直到您取消为止。",
+        "act": "ans/open",
+        "document": "延长AppleCare+服务计划保障期限.json",
+        "grounding": [
+            "您的服务计划保障可以在24或36个月过后按月或按年续期，直到您取消为止。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

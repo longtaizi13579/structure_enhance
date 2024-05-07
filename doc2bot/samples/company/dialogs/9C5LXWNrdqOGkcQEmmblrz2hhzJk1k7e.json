@@ -1,0 +1,234 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在宁波市注销分公司，有哪些服务呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "分公司注销登记",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "T24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，分公司注销登记，咨询电话，您想知晓哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "分公司注销登记",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "咨询电话吧，是多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "0574-87185566。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "0574-87185566"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我如果不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定还可以进行登记吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "1.符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。\n",
+            "不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。"
+        ],
+        "grounding_id": [
+            "135",
+            "137"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以。因为不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定的话就不符合受理条件。\n\n",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "不符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。",
+            "受理条件",
+            "1.符合《中华人民共和国公司法》及《公司登记管理条例》相关规定。\n"
+        ],
+        "grounding_id": [
+            "137",
+            "134",
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我能在自助弹簧端上办理注销业务吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "企业注销",
+            "分公司注销登记"
+        ],
+        "grounding_id": [
+            "91",
+            "T16",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前我们已经开通了自助终端办理功能。您在办理过程中，如遇到问题，可以向我们的工作人员咨询。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "边理这个业务，有时间限制吗？因为最近的事多，现在办不了。",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您最好在法定规定的20个工作日之内办理完成。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "能否提供一个线下咨询方式给我？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的，有联系方式和线下地址，您需要哪一个？",
+        "act": "ans/yesno",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "地址告诉我吧？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理更改企业的其他基本信息，也有时效限制吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "基本信息",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "40",
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是的，法定办结时限也是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    }
+]

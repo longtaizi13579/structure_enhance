@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省温州市的，想咨询下签注的问题？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "浙江省_温州市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T3",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解赴台探亲签注，还是护照加注？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解赴台探亲签注，能不能自助办理？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "赴台探亲签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "法定办结时限为30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "9983"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "9984"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "收费标准是什么？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "9987"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "根据国家发展和改革委员会、财政部发改价格〔2017〕1186号规定，赴台探亲一次有效签注15元/件；多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_常用服务_赴台探亲签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号；赴台探亲一次有效签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "9988"
+        ]
+    }
+]

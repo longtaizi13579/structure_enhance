@@ -1,0 +1,216 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我是浙江省宁波人，我想办理机动车驾驶证增驾申领，我先问一下如果在过程中遇到服务态度不满的话我想投诉怎么办？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "T10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们这有电话投诉和线下投诉地址，您需要哪一个?",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先告诉我投诉电话是多少?",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的0574-12345",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0574-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "投诉地址方便的话也告诉我在哪",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "距离你最近的是宁波市鄞州区福明街道中兴北路33号",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "宁波市鄞州区福明街道中兴北路33号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "言归正传，我办理这个机动车驾驶增驾证应该在哪里办理呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "宁波市公安局交通警察局车辆管理所（宁波市鄞州区福明街道中兴北路33号）前大厅一楼5号窗口",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "宁波市公安局交通警察局车辆管理所（宁波市鄞州区福明街道中兴北路33号）前大厅一楼5号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "大约多久能给我办理完成？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "60天之内",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还有个车证我想换一下，我现在岁数大了想把大车的驾驶证换成小车的，我爸告诉我应该办理自愿降低准驾车型换领机动车驾驶证，这个是否支持自助终端办理？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不好意思不支持",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我的证件大约多久可以给我办理完成",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自愿降低准驾车型换领机动车驾驶证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一天之内就可以",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理的话应该怎么办理呢？有什么办理形式呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以网上申请办理，也可以现场窗口申请办理",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

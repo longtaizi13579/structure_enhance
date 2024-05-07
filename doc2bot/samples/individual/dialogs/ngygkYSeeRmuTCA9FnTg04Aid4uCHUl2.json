@@ -1,0 +1,360 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下机动车的事",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江舟山",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "关于这个机动车您是想问哪方面呢比如是注册登记还是注销登记还是变更登记等等",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是新买的车注册登记",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想问国产车还是进口车",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "国产机动车注册登记这个支持网上支付吗",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "314"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "315"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个收费项目叫什么",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "316"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "挂车反光号牌",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "3\t挂车反光号牌"
+        ],
+        "grounding_id": [
+            "335"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个收多少钱",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "336"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "50元每副",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "50元/副"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那这个有什么咨询方式呢",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "这个有咨询地址还有咨询电话再有就是咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "咨询地址在哪我记一下",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "地址是浙江省舟山市新城海天大道399号",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "浙江省舟山市新城海天大道399号",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "30",
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "这个办事点具体地址在哪",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "线下办事点",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "126",
+            "127"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "地址是舟山市公安局交通警察支队车辆管理所双桥分所1-4号窗口（舟山市定海区双坝线南150米汽车城12号）",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "具体地址",
+            "舟山市公安局交通警察支队车辆管理所双桥分所1-4号窗口（舟山市定海区双坝线南150米汽车城12号）"
+        ],
+        "grounding_id": [
+            "127",
+            "128"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那这有联系电话吗",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "联系电话"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "联系电话0580-12123",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "联系电话",
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好的再核实一下这个国产机动车注册登记是收费的对吧",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "308"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "309"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那这个登记像三轮的呢怎么收费",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "7\t三轮汽车/低速货车反光号牌",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "371",
+            "372"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您是问三轮汽车或低速货车反光号牌收费对吗",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费项目名称",
+            "7\t三轮汽车/低速货车反光号牌"
+        ],
+        "grounding_id": [
+            "316",
+            "371"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "是这意思",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "7\t三轮汽车/低速货车反光号牌"
+        ],
+        "grounding_id": [
+            "371"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "标准40元每副",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "收费标准",
+            "40元/副"
+        ],
+        "grounding_id": [
+            "372",
+            "373"
+        ]
+    }
+]

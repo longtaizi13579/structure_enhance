@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，为什么iPhone可以发送加密电子邮件？",
+        "act": "why",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS的Exchange环境中使用S_MIME发送加密邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "iOS提供针对S/MIME的支持，因此您可以发送加密电子邮件。",
+        "act": "ans/open",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "iOS提供针对S/MIME的支持，因此您可以发送加密电子邮件。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我还想了解下关于MIME发送加密邮件的其它问题？",
+        "act": "what",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS的Exchange环境中使用S_MIME发送加密邮件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解：邮件加密，向位于您Exchange环境中的联系人发送加密邮件，还是向位于您Exchange环境之外的某人发送加密邮件？",
+        "act": "multiple-choice",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "邮件加密"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下，可以给账户设置默认加密吗？",
+        "act": "verification",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。",
+        "act": "ans/yes",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "为您的帐户配置S/MIME时，您可以在编写新邮件时选取“默认加密”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "ios可以查找邮件加密所需的证书吗？",
+        "act": "verification",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "向位于您Exchange环境中的联系人发送加密邮件",
+            "iOS可查找邮件加密所需的证书。"
+        ],
+        "grounding_id": [
+            "8",
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "收件人是否位于同一Exchange环境中的用户？",
+        "act": "verification",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "如果收件人是位于同一Exchange环境中的用户，"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "如果收件人是位于同一Exchange环境中的用户，"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那可以的。",
+        "act": "ans/yes",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "iOS可查找邮件加密所需的证书。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "发送加密邮件的基本要求是什么？",
+        "act": "what",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "在iOS的Exchange环境中使用S_MIME发送加密邮件",
+            "要发送加密邮件，您需要收件人的证书（公钥）。“邮件”会使用两种方法之一访问此证书，具体取决于收件人是否在您的Exchange环境中。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要发送加密邮件，您需要收件人的证书（公钥）。",
+        "act": "ans/open",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "要发送加密邮件，您需要收件人的证书（公钥）。“邮件”会使用两种方法之一访问此证书，具体取决于收件人是否在您的Exchange环境中。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "邮件会通过什么方式访问证书？",
+        "act": "what",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "要发送加密邮件，您需要收件人的证书（公钥）。“邮件”会使用两种方法之一访问此证书，具体取决于收件人是否在您的Exchange环境中。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "“邮件”会使用两种方法之一访问此证书，具体取决于收件人是否在您的Exchange环境中。",
+        "act": "ans/open",
+        "document": "在iOS的Exchange环境中使用S_MIME发送加密邮件.json",
+        "grounding": [
+            "要发送加密邮件，您需要收件人的证书（公钥）。“邮件”会使用两种方法之一访问此证书，具体取决于收件人是否在您的Exchange环境中。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

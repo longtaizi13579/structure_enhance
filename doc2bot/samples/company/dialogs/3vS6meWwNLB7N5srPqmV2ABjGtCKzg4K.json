@@ -1,0 +1,352 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我上次在浙江省台州办的国外贷款项目资金申请审核业务，很不满意，我要投诉！有什么投诉方式吗？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "浙江省_台州市",
+            "国外贷款项目资金申请审核（审核转报）",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T8",
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们有投诉电话、投诉地址和投诉网址，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "给我一个地址吧，我直接过去。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们的投诉地址是台州市椒江区白云山南路233号十五楼1536房间。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "台州市人民政府（台州市椒江区白云山南路233号）十五楼1536房间"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我要是想重新办理这个贷款业务审核，到哪里办呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "国外贷款项目资金申请审核（审核转报）",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以到台州市开发大道692号广达嘉苑3号楼一楼综合受理A13-14窗口进行办理。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）一楼综合受理A13-14窗口"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我办之前还想再咨询一下材料的问题，都有什么方式呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想了解咨询电话、咨询地址还是咨询网址呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "给我一个咨询地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的咨询地址是台州市开发大道692号广达嘉苑3号楼一楼综合导办台。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "台州市人民政府行政服务中心（台州市开发大道692号广达嘉苑3号楼）一楼综合导办台"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "有点远啊，如果要办理的话都有什么形式呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "98"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们业务办理形式有网上申请和现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "一般办理贷款业务的办结时限都是多久啊？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你想了解的是法定办理时限还是承诺办理时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想知道法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们的法定办理时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "再问一下，我要办理这个贷款申请业务，申请资料的类型是什么呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "国外贷款项目资金申请审核（审核转报）",
+            "材料类型"
+        ],
+        "grounding_id": [
+            "1",
+            "141"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您需要提供材料的原件。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "原件"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "贷款申请的审核办理流程都是什么呢？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "国外贷款项目资金申请审核（审核转报）",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "176"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您这项业务的办理流程： 1.受理 2.审核 3.决定 4.转报",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "176"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果已经受理的话，我怎么知道材料合不合格呢？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "受理"
+        ],
+        "grounding_id": [
+            "177"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "您去办理的时候受理岗位对材料齐全的申请，出具受理通知，对材料不齐全的受理，一次性告知补充材料。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "176"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "如果到了审核步骤，我怎么提交申请材料呢？",
+        "act": "how",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "审核"
+        ],
+        "grounding_id": [
+            "180"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您可以由申请人向浙江政务服务网提出网上申请，或向受理窗口提交申请材料，或邮寄申请材料。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "申请人向浙江政务服务网提出网上申请，或向受理窗口提交申请材料，或邮寄申请材料；"
+        ],
+        "grounding_id": [
+            "181"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "那一般要多久才能出决定结果啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "审核"
+        ],
+        "grounding_id": [
+            "180"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "决定业务是即办的。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_招标拍卖_招标拍卖_国外贷款项目资金申请审核（审核转报）.json",
+        "grounding": [
+            "决定",
+            "即办\t委领导\t"
+        ],
+        "grounding_id": [
+            "183",
+            "185"
+        ]
+    }
+]

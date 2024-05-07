@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "ApplePay使用设备软硬件中内置的安全功能来帮助保护我的交易时我要做什么？",
+        "act": "what",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览",
+            "ApplePay使用设备软硬件中内置的安全功能来帮助保护您的交易。此外，要使用ApplePay，您必须在设备上设置密码和可选的面容ID或触控ID。您可以使用简单的密码，也可以设置更复杂的密码以提高安全性。"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "要使用ApplePay，您必须在设备上设置密码和可选的面容ID或触控ID。您可以使用简单的密码，也可以设置更复杂的密码以提高安全性。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay使用设备软硬件中内置的安全功能来帮助保护您的交易。此外，要使用ApplePay，您必须在设备上设置密码和可选的面容ID或触控ID。您可以使用简单的密码，也可以设置更复杂的密码以提高安全性。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "ApplePay有什么功能？",
+        "act": "what",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通过ApplePay，您可以便捷、安全且私密地在商店里、应用内和网站上进行交易。您还可以在“信息”中使用ApplePay（仅限美国）向朋友和家人汇款以及从他们那里收款。借助“钱包”中的免接触式回馈卡，您可以在使用ApplePay付款时接收和兑换回馈积分。ApplePay在设计时就考虑到了您的安全和隐私。因此，相较于实体信用卡、借记卡和储值卡，ApplePay是一种更加安全和便捷的付款方式。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "通过ApplePay，您可以便捷、安全且私密地在商店里、应用内和网站上进行交易。您还可以在“信息”中使用ApplePay（仅限美国）向朋友和家人汇款以及从他们那里收款。借助“钱包”中的免接触式回馈卡，您可以在使用ApplePay付款时接收和兑换回馈积分。ApplePay在设计时就考虑到了您的安全和隐私。因此，相较于实体信用卡、借记卡和储值卡，ApplePay是一种更加安全和便捷的付款方式。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在应用内或网站上使用ApplePay时要注意什么？",
+        "act": "what",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览",
+            "在应用内或网站上使用ApplePay时"
+        ],
+        "grounding_id": [
+            "1",
+            "31"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "为了在应用内或网站上支付时安全传输付款信息，ApplePay会收到加密的交易，并通过特定于开发者的密钥对它重新加密，然后再将交易信息发送给开发者或付款处理机构。这个密钥有助于确保只有您从中进行购买的应用或网站才能访问您的加密付款信息。网站在每次提供ApplePay付款选项时都必须验证它们的域名。就跟在店内支付一样，Apple会将您的设备卡号以及每笔交易专用的动态安全码发送给应用或网站。Apple和您的设备都不会将您的实际支付卡卡号发送给应用。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Apple会储存我添加到ApplePay的信用卡、借记卡或储值卡原始卡号吗？",
+        "act": "verification",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "ApplePay安全性与隐私政策概览",
+            "Apple不会储存您添加到ApplePay的信用卡、借记卡或储值卡原始卡号，也无法访问这些信息。ApplePay只会储存实际卡号的一部分和设备卡号的一部分，以及卡片的描述。您的卡片会与您的AppleID相关联，以帮助您在您的所有设备上添加和管理卡片。"
+        ],
+        "grounding_id": [
+            "1",
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Apple不会储存您添加到ApplePay的信用卡、借记卡或储值卡原始卡号，也无法访问这些信息。ApplePay只会储存实际卡号的一部分和设备卡号的一部分，以及卡片的描述。您的卡片会与您的AppleID相关联，以帮助您在您的所有设备上添加和管理卡片。",
+        "act": "ans/open",
+        "document": "ApplePay安全性与隐私政策概览.json",
+        "grounding": [
+            "Apple不会储存您添加到ApplePay的信用卡、借记卡或储值卡原始卡号，也无法访问这些信息。ApplePay只会储存实际卡号的一部分和设备卡号的一部分，以及卡片的描述。您的卡片会与您的AppleID相关联，以帮助您在您的所有设备上添加和管理卡片。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

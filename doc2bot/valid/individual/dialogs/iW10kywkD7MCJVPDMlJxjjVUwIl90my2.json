@@ -1,0 +1,300 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下浙江舟山市机动车解除质押备案正常多久能办完？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "法定办结时限",
+            "浙江省_舟山市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "T9",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "正常法定办结时限就是1天。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "1（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，知道了还有个问题，我朋友想把车身改个颜色要做一下变更登记这个需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "浙江省_舟山市",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "T9",
+            "520"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，机动车改变车身颜色变更登记是需要收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "是",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "521",
+            "520"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哪一环节要收费？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "526"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "变更后的机动车行驶证是要收文本费用的。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "1\t机动车行驶证"
+        ],
+        "grounding_id": [
+            "527"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "多少钱啊？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "机动车改变车身颜色变更登记",
+            "收费标准",
+            "收费项目名称",
+            "1\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "519",
+            "526",
+            "527",
+            "528"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "10元一本。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车改变车身颜色变更登记.json",
+        "grounding": [
+            "10元/本",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "529",
+            "528"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的知道了，还想再问一个问题，我另一个朋友刚买辆国产车要办理注册登记，也有收费项目嘛？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "316"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "汽车反光号牌挂上了吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还没有呢。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那办理这个是要收费。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5\t汽车反光号牌"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么价格？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "5\t汽车反光号牌",
+            "收费项目名称",
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "353",
+            "316",
+            "307",
+            "354"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "汽车反光号牌100元一副。",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "100元/副"
+        ],
+        "grounding_id": [
+            "355"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好，办理机动车质押备案可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自助办理？意思是是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "对的对的，就是这意思。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "抱歉，机动车质押备案是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "不支持",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "92",
+            "91"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，我知道了，那咨询电话是多少？我先电话咨询看看需要准备什么材料。",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "机动车质押备案",
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您记一下，0580-12123。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车质押备案.json",
+        "grounding": [
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

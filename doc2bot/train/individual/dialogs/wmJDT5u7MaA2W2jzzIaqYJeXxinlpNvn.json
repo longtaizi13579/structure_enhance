@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我如果在浙江省衢州市换领驾驶证，得多久才能送到？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限",
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "122",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您问的是送达时限吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起10个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我怎么办理这个登记",
+        "act": "how",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理形式",
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "102",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有两种方式，网上申请或者是去现场窗口申请",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请",
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "102",
+            "103",
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那多久才会办理我的签证？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "法定办结时限1（工作日）就会立刻办理",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

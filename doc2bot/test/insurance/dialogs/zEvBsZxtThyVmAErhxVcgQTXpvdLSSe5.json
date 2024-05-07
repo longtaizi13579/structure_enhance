@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下泰康常安终身团体重大疾病保险",
+        "act": "what",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "泰康常安终身团体重大疾病保险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您具体是想咨询合同的订立、提供的保障、保险金的申请还是其他方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合同的订立"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询合同订立的有关问题。",
+        "act": "what",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合同的订立"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的那具体是合同构成、合同成立及生效、投保年龄、犹豫期的问题呢？",
+        "act": "multiple-choice",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同是怎么构成的呢？",
+        "act": "how",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险 单或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效（见 9.1） 的声明、批注、批单及其他投保人与本公司共同认可的书面协议。",
+        "act": "ans/open",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险 单或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效（见 9.1） 的声明、批注、批单及其他投保人与本公司共同认可的书面协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个合同如何判断是否合法有效呢？",
+        "act": "how",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合法有效"
+        ],
+        "grounding_id": [
+            "146"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": " 本合同所指合法有效均指以中华人民共和国法律、法规、行政法规、地方性法规、 行政规章及有关规范性法律文件的规定为判定依据。",
+        "act": "ans/open",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "本合同所指合法有效均指以中华人民共和国法律、法规、行政法规、地方性法规、 行政规章及有关规范性法律文件的规定为判定依据。"
+        ],
+        "grounding_id": [
+            "147"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "合同成立及生效条件又是怎么规定的呢？",
+        "act": "how",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投保人提出保险申请且本公司同意承保，本合同成立。本合同的成立日、生效日 以保险单记载的日期为准。 保单年度(见 9.2)、保险费约定交纳日(见 9.3)均依据本合同的生效日确定。",
+        "act": "verification",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "投保人提出保险申请且本公司同意承保，本合同成立。本合同的成立日、生效日 以保险单记载的日期为准。 保单年度(见 9.2)、保险费约定交纳日(见 9.3)均依据本合同的生效日确定。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "保险费约定交纳日是什么时候？",
+        "act": "what",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "保险费约定交纳日"
+        ],
+        "grounding_id": [
+            "150"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "保险合同生效日在每月、每季、每半年或者每年（根据交费方式确定）的对应日。 如果当月无对应的同一日，则以该月最后一日为对应日。",
+        "act": "ans/open",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "保险合同生效日在每月、每季、每半年或者每年（根据交费方式确定）的对应日。 如果当月无对应的同一日，则以该月最后一日为对应日。"
+        ],
+        "grounding_id": [
+            "151"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投保年龄是怎么定义的？",
+        "act": "how",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "投保年龄是指投保时被保险人的年龄，以周岁(见 9.4)计算。",
+        "act": "ans/open",
+        "document": "泰康常安终身团体重大疾病保险  .json",
+        "grounding": [
+            "投保年龄是指投保时被保险人的年龄，以周岁(见 9.4)计算。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

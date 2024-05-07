@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下双重认证开启时获取验证码并登录的信息",
+        "act": "what",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "双重认证开启时获取验证码并登录"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是通过iPhone、iPad或iPodtouch，还是使用Mac呢",
+        "act": "multiple-choice",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "通过iPhone、iPad或iPodtouch"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是通过iPhone，设备处于在线状态的话怎么操作呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "如果您的设备处于在线状态："
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先前往“设置”>“[您的姓名]”，然后轻点“密码与安全性”>“获取验证码”。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“密码与安全性”>“获取验证码”。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "每次在新的设备上登录的时候都需要确认身份吗",
+        "act": "verification",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。",
+        "act": "ans/yes",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那一般是怎么获取验证码的呢",
+        "act": "how",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。",
+        "act": "ans/open",
+        "document": "双重认证开启时获取验证码并登录.json",
+        "grounding": [
+            "每次在新的设备或浏览器上使用AppleID登录时，您都需要使用密码和六位验证码来确认您的身份。您可以通过多种方式获取验证码。您可以使用受信任设备上显示的验证码、获取短信或接听电话，或者从受信任设备生成验证码。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "使用的是iOS8版本的话可以使用双重认证吗",
+        "act": "verification",
+        "document": "AppleID两步验证.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您的设备使用的是iOS8或OSXYosemite或者更低版本的话是无法针对自己的帐户使用双重认证的",
+        "act": "ans/no",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "则您可以改用两步验证来保护AppleID的安全。"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那应该怎么保护AppleID呢",
+        "act": "how",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "则您可以改用两步验证来保护AppleID的安全。",
+            "AppleID两步验证"
+        ],
+        "grounding_id": [
+            "353",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可以改用两步验证来保护AppleID的安全。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "则您可以改用两步验证来保护AppleID的安全。"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    }
+]

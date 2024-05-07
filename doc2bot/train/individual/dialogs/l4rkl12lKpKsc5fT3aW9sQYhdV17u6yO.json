@@ -1,0 +1,266 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省杭州市的，我有辆汽车到年限该报废了，怎么销户？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "机动车",
+            "机动车回收注销登记"
+        ],
+        "grounding_id": [
+            "T4",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以向有关单位申请机动车回收注销登记。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "机动车回收注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "260"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "260",
+            "261",
+            "263",
+            "272",
+            "281",
+            "290"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "受理的话，需要多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "263",
+            "264"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "即办，也就是当场受理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "受理",
+            "办理时限",
+            "即办"
+        ],
+        "grounding_id": [
+            "263",
+            "264",
+            "265"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "制证是由谁负责？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "制证",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "281",
+            "284"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "制证由制证岗工作人员负责。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "制证",
+            "办理人员",
+            "制证岗"
+        ],
+        "grounding_id": [
+            "281",
+            "284",
+            "285"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我投诉地址吧。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉地址是：杭州市西湖区三墩镇古墩路699号二层2019房间。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "投诉地址",
+            "杭州市西湖区三墩镇古墩路699号二层2019房间"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "能不能通过网上付款？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "313"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "314"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "咨询电话是：0571-96345；0571-12123",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_机动车回收注销登记.json",
+        "grounding": [
+            "咨询电话",
+            "0571-96345；0571-12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

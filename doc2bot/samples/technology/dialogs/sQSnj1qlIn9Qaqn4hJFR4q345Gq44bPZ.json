@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下为什么在Mac上打开App非常安全？",
+        "act": "why",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上安全地打开App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "macOS中包含一项名为“门禁”的技术，旨在确保只有受信任的软件才能在Mac上运行。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "macOS中包含一项名为“门禁”的技术，旨在确保只有受信任的软件才能在Mac上运行。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在Mac上获取App最安全的途径是哪里？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "在Mac上获取App最安全的途径是AppStore。Apple会审查AppStore中的每个App，审查通过后予以接受并添加签名，以此确保App未经篡改或改动。如果某个App存在问题，Apple会迅速将它从商店中下架。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果运行未经签名和公证的软件，会出现什么后果？",
+        "act": "what",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "运行未经签名和公证的软件可能会使您的电脑和个人信息受到恶意软件的侵害，从而损害您的Mac或泄露您的隐私。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "运行未经签名和公证的软件可能会使您的电脑和个人信息受到恶意软件的侵害，从而损害您的Mac或泄露您的隐私。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "运行未经签名和公证的软件可能会使您的电脑和个人信息受到恶意软件的侵害，从而损害您的Mac或泄露您的隐私。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是直接从网上下载的App，Mac会得到保护吗？",
+        "act": "verification",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "如果您是从互联网或直接从开发者那里下载并安装的App，macOS仍会保护您的Mac。当您安装来自AppStore外部的MacApp、插件和安装器软件包时，macOS会检查开发者ID签名，以确认软件来自获得认可的开发者并且没有遭到改动。默认情况下，macOSCatalina及更高版本还要求对软件进行公证，因此能够确保您在Mac上运行的软件不包含已知的恶意软件。首次打开下载的软件之前，macOS会先征求您的批准，以确保您没有被误导运行您不希望安装的软件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您是从互联网或直接从开发者那里下载并安装的App，macOS仍会保护您的Mac。当您安装来自AppStore外部的MacApp、插件和安装器软件包时，macOS会检查开发者ID签名，以确认软件来自获得认可的开发者并且没有遭到改动。",
+        "act": "ans/yes",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "如果您是从互联网或直接从开发者那里下载并安装的App，macOS仍会保护您的Mac。当您安装来自AppStore外部的MacApp、插件和安装器软件包时，macOS会检查开发者ID签名，以确认软件来自获得认可的开发者并且没有遭到改动。默认情况下，macOSCatalina及更高版本还要求对软件进行公证，因此能够确保您在Mac上运行的软件不包含已知的恶意软件。首次打开下载的软件之前，macOS会先征求您的批准，以确保您没有被误导运行您不希望安装的软件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么预防那些被误导下载安装的App？",
+        "act": "how",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "如果您是从互联网或直接从开发者那里下载并安装的App，macOS仍会保护您的Mac。当您安装来自AppStore外部的MacApp、插件和安装器软件包时，macOS会检查开发者ID签名，以确认软件来自获得认可的开发者并且没有遭到改动。默认情况下，macOSCatalina及更高版本还要求对软件进行公证，因此能够确保您在Mac上运行的软件不包含已知的恶意软件。首次打开下载的软件之前，macOS会先征求您的批准，以确保您没有被误导运行您不希望安装的软件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首次打开下载的软件之前，macOS会先征求您的批准，以确保您没有被误导运行您不希望安装的软件。",
+        "act": "ans/open",
+        "document": "在Mac上安全地打开App.json",
+        "grounding": [
+            "如果您是从互联网或直接从开发者那里下载并安装的App，macOS仍会保护您的Mac。当您安装来自AppStore外部的MacApp、插件和安装器软件包时，macOS会检查开发者ID签名，以确认软件来自获得认可的开发者并且没有遭到改动。默认情况下，macOSCatalina及更高版本还要求对软件进行公证，因此能够确保您在Mac上运行的软件不包含已知的恶意软件。首次打开下载的软件之前，macOS会先征求您的批准，以确保您没有被误导运行您不希望安装的软件。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想咨询下，在中国大陆获取购买iCloud储存空间，发生退款后，原来的发票是不是需要退回？",
+        "act": "verification",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "在中国大陆获取购买iCloud储存空间的发票",
+            "如果您需要退款发票"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不需要。我们处理完退款后，系统会自动生成红字发票并发送到您的原始电子邮件地址。",
+        "act": "ans/no",
+        "document": "在中国大陆获取购买iCloud储存空间的发票.json",
+        "grounding": [
+            "则无需进行任何其他操作。我们处理完退款后，系统会自动生成红字发票并发送到您的原始电子邮件地址。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

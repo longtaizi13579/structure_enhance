@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在Pad上关注播客中的节目，怎么找到他呢？",
+        "act": "how",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "在iPhone和iPad上关注和播放Apple播客中的节目",
+            "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。"
+        ],
+        "grounding_id": [
+            "1",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "要查找您关注的播客或您通过URL手动添加的播客，请前往“资料库”标签页。轻点“节目”，然后轻点“已关注”。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我该如何筛选呢？",
+        "act": "how",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "如何筛选季和单集"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您具体说的是筛选什么呢？",
+        "act": "question/open",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "如何筛选季和单集"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "筛选季和单集，在哪？",
+        "act": "how",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "如何筛选季和单集"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "对于包含多季的播客，您可以按季筛选。如果您关注了播客，或者存储或下载了单集，您还可以进行筛选以仅查看未播放的单集、已下载的单集等。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "对于包含多季的播客，您可以按季筛选。如果您关注了播客，或者存储或下载了单集，您还可以进行筛选以仅查看未播放的单集、已下载的单集等。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我取消了播客中的节目，新单集还会下载吗？",
+        "act": "verification",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "在iPhone和iPad上关注和播放Apple播客中的节目",
+            "新单集不再会下载，但资料库中已有的单集并不会删除。在您取消关注包含优质内容的节目时，您的订阅仍然有效。"
+        ],
+        "grounding_id": [
+            "1",
+            "48"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "新单集不再会下载，但资料库中已有的单集并不会删除。",
+        "act": "ans/open",
+        "document": "在iPhone和iPad上关注和播放Apple播客中的节目.json",
+        "grounding": [
+            "新单集不再会下载，但资料库中已有的单集并不会删除。在您取消关注包含优质内容的节目时，您的订阅仍然有效。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    }
+]

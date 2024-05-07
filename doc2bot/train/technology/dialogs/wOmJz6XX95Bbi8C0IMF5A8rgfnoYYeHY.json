@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "AppleWatch或iPhone都会受到新通知吗？",
+        "act": "verification",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "AppleWatch上的通知",
+            "通知的显示位置"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "通知会发送到您的AppleWatch或iPhone，但不会同时发送到这两台设备。",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "通知会发送到您的AppleWatch或iPhone，但不会同时发送到这两台设备。请查看下文，以了解什么时候通知会发送到iPhone而不是AppleWatch。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样管理活动跟踪权限？",
+        "act": "how",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "管理活动跟踪权限"
+        ],
+        "grounding_id": [
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以随时改变主意，为App授予或撤销活动跟踪权限。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "您可以随时改变主意，为App授予或撤销活动跟踪权限。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iOS14.5或更高版本、iPadOS14.5或更高版本以及AppletvOS14.5或更高版本中，App请求跟踪怎么办？",
+        "act": "how",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iOS14.5或更高版本、iPadOS14.5或更高版本以及AppletvOS14.5或更高版本中，App必须先请求跟踪权限，然后才能跟踪您在其他公司的App和网站上的活动。当某款App收集了能够识别您身份或您设备的信息，并将它们与归第三方所有的App、网站和其他位置上收集的这类信息相关联，从而用于定向广告投放或广告效果评估时，或者当这款App将收集的上述信息与数据代理商共享时，就发生了跟踪。进一步了解App跟踪和其他隐私控制。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在iOS14.5或更高版本、iPadOS14.5或更高版本以及AppletvOS14.5或更高版本中，App必须先请求跟踪权限，然后才能跟踪您在其他公司的App和网站上的活动。当某款App收集了能够识别您身份或您设备的信息，并将它们与归第三方所有的App、网站和其他位置上收集的这类信息相关联，从而用于定向广告投放或广告效果评估时，或者当这款App将收集的上述信息与数据代理商共享时，就发生了跟踪。进一步了解App跟踪和其他隐私控制。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果帐户或设备状态发生了变化怎么办？",
+        "act": "how",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "如果App请求跟踪您的活动",
+            "管理活动跟踪权限",
+            "在这些情况下，所有请求进行跟踪的App都会被默认拒绝授予权限，并且不会收到IDFA。如果您的帐户或设备状态发生了变化，并且您随后选择启用了“允许App请求跟踪”，那么当这个App下一次请求进行跟踪时，系统会向您显示权限提示。"
+        ],
+        "grounding_id": [
+            "1",
+            "14",
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的帐户或设备状态发生了变化，并且您随后选择启用了“允许App请求跟踪”，那么当这个App下一次请求进行跟踪时，系统会向您显示权限提示。",
+        "act": "ans/open",
+        "document": "如果App请求跟踪您的活动.json",
+        "grounding": [
+            "在这些情况下，所有请求进行跟踪的App都会被默认拒绝授予权限，并且不会收到IDFA。如果您的帐户或设备状态发生了变化，并且您随后选择启用了“允许App请求跟踪”，那么当这个App下一次请求进行跟踪时，系统会向您显示权限提示。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "AppleWatch上的激活锁有什么功能？",
+        "act": "what",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "关于AppleWatch上的激活锁"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。",
+        "act": "ans/open",
+        "document": "关于AppleWatch上的激活锁.json",
+        "grounding": [
+            "“查找”包括一项称为“激活锁”的功能，这项功能用于在您的AppleWatch丢失或失窃的情况下，防止他人使用您的手表。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

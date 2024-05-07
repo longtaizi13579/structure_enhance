@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "办理中华怡恒定期寿险合同后要签署签收回执吗？",
+        "act": "verification",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "合同的签收"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在您收到本合同时，您应当签署本合同的签收回执。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "在您收到本合同时，您应当签署本合同的签收回执。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道保险合同有犹豫期吗？",
+        "act": "verification",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "犹豫期"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您具体想知道哪一种保险呢？",
+        "act": "question/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "犹豫期"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "中华怡恒定期寿险。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "中华怡恒定期寿险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "中华怡恒定期寿险是有犹豫期的。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "犹豫期"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那犹豫期的作用是什么呢？",
+        "act": "what",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "犹豫期"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自您签收本合同的次日起，有 10 日（指自然日，本条款中如无特别说明，涉及日期的均指自然日）的犹豫期。在此期间，请您仔细阅读本合同，如果您认为本合同与您的需求不相符，您可以在犹豫期结束前解除本合同。若您在犹豫期内申请解除本合同，您需要填写申请书，并提供您的保险合同或其他有效的保险凭证及有效身份证件（见 10.3）。自您申请解除合同时起，本合同即被解除，自本合同生效日起我们不承担保险责任，我们将无息退还您所交纳的保险费。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "自您签收本合同的次日起，有 10 日（指自然日，本条款中如无特别说明，涉及日期的均指自然日）的犹豫期。在此期间，请您仔细阅读本合同，如果您认为本合同与您的需求不相符，您可以在犹豫期结束前解除本合同。若您在犹豫期内申请解除本合同，您需要填写申请书，并提供您的保险合同或其他有效的保险凭证及有效身份证件（见 10.3）。自您申请解除合同时起，本合同即被解除，自本合同生效日起我们不承担保险责任，我们将无息退还您所交纳的保险费。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我的身份证丢失还在补办，但是又想办理这个保险该怎么办呢？",
+        "act": "how",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "中华怡恒定期寿险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您还可以带上由政府主管部门规定的证明其身份的证件去办理，如：按规定可使用的有效护照、军官证、警官证、士兵证、户口簿等证件。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "指由政府主管部门规定的证明其身份的证件，如：居民身份证、按规定可使用的有效护照、军官证、警官证、士兵证、户口簿等证件。"
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "怎么样知道保险金额是多少？",
+        "act": "how",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "本合同的基本保险金额由您在投保时与保险公司约定并在保险单上载明，您找到保险单看看就可以知道了。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单上载明。若金额发生变更，则以变更后的金额为基本保险金额。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "中华怡恒定期寿险交一次钱管多久？",
+        "act": "when",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是指保险期间是吗？",
+        "act": "question/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "本合同的保险期间自本合同生效时起，至合同约定的保险合同期满日止。本合同的保险期间在保险单上载明。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "本合同的保险期间自本合同生效时起，至合同约定的保险合同期满日止。本合同的保险期间在保险单上载明。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "什么情况下没有等待期？",
+        "act": "what",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "等待期"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "被保险人因意外伤害导致身故或全残的，无等待期。",
+        "act": "ans/open",
+        "document": "中华怡恒定期寿险.json",
+        "grounding": [
+            "自本合同生效（或最后复效）之日起 180 日内，被保险人因疾病身故或全残（见10.4），我们向您无息退还已交保险费，本合同终止。这 180 日的时间称为等待期；被保险人因意外伤害（见 10.5）导致身故或全残的，无等待期。如果在等待期后发生保险事故，我们按照下列方式给付保险金："
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

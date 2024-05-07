@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "为什么会在iPhone或iPad上看到“无服务”或“正在搜索”？",
+        "act": "why",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您在iPhone或iPad上看到“无服务”或“正在搜索”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可能因为您使用的是AT&T的3G网络。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您使用的是AT&T的3G网络"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "为什么会出现这种情况？",
+        "act": "why",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您使用的是AT&T的3G网络"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那要怎么处理？",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作：将您的iPhone或iPad更新到最新版本的iOS或iPadOS。前往“设置”>“蜂窝网络”。然后：对于iPhone，请轻点“蜂窝数据选项”，然后打开“启用LTE”。对于iPad，请打开LTE。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "AT&T正在逐步淘汰3G网络。如果您在设备的状态栏中看到“无服务”，并且您持有的是iPhone5s、iPhone5c或更早机型，或持有的是iPad2无线局域网+蜂窝网络机型或更早机型，请联系您的运营商来讨论您的选项。如果您使用的是iPhone6或更新机型或者iPad（第3代）或更新机型，请按照以下步骤操作：",
+            "将您的iPhone或iPad更新到最新版本的iOS或iPadOS。",
+            "前往“设置”>“蜂窝网络”。然后：",
+            "对于iPhone，请轻点“蜂窝数据选项”，然后打开“启用LTE”。",
+            "对于iPad，请打开LTE。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "13",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "运营商可以解决哪些问题？",
+        "act": "what",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "联系您的运营商"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "确认帐户处于活跃状态，且信誉良好。确保您所在区域没有停电。确认您的设备没有被阻止接收蜂窝网络服务，并设置了正确的数据套餐。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "运营商问题或帐户问题可能会对服务造成影响。请联系您的运营商来确认以下事项：",
+            "确认帐户处于活跃状态，且信誉良好。",
+            "确保您所在区域没有停电。",
+            "确认您的设备没有被阻止接收蜂窝网络服务，并设置了正确的数据套餐。"
+        ],
+        "grounding_id": [
+            "50",
+            "51",
+            "52",
+            "53"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎样检查网络覆盖区域？",
+        "act": "how",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "如果您在iPhone或iPad上看到“无服务”或“正在搜索”",
+            "检查网络覆盖区域"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "关闭蜂窝数据，然后重新打开。请前往“设置”，然后轻点“蜂窝网络”或“蜂窝数据”。如果您使用的是iPad，则可能会看到“设置”>“蜂窝数据”。",
+        "act": "ans/open",
+        "document": "如果您在iPhone或iPad上看到“无服务”或“正在搜索”.json",
+        "grounding": [
+            "关闭蜂窝数据，然后重新打开。请前往“设置”，然后轻点“蜂窝网络”或“蜂窝数据”。如果您使用的是iPad，则可能会看到“设置”>“蜂窝数据”。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

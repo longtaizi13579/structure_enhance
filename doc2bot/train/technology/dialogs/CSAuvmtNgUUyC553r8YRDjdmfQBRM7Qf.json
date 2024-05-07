@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下释放Mac上的储存空间。",
+        "act": "what",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "释放Mac上的储存空间"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想优化储存空间还是，单纯节省空间呢？",
+        "act": "multiple-choice",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "优化储存空间"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我是因为想优化储存空间才想释放Mac上的储存空间。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "释放Mac上的储存空间",
+            "优化储存空间"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，大致分为五步，首先 从屏幕角落的苹果菜单中选取“关于本机”。然后 点按“储存空间”。首先，储存空间指示条会估算已用和可用的储存空间大小。完成计算后，它会显示多个分段，再点按“管理”按钮以打开“储存空间管理”窗口，之后 要开始优化存储空间，请从“储存在iCloud中”*、“优化储存空间”和“避免杂乱”等功能中进行选择。最后如果 做出更改时，要衡量您的进度，请参考这个窗口顶部或“关于本机”中显示的“可用”空间大小。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "从屏幕角落的苹果菜单中选取“关于本机”。",
+            "点按“储存空间”。首先，储存空间指示条会估算已用和可用的储存空间大小。完成计算后，它会显示多个分段，这些分段代表了多个文件类别。",
+            "点按“管理”按钮以打开“储存空间管理”窗口：",
+            "要开始优化存储空间，请从“储存在iCloud中”*、“优化储存空间”和“避免杂乱”等功能中进行选择。进一步了解这些功能。",
+            "做出更改时，要衡量您的进度，请参考这个窗口顶部或“关于本机”中显示的“可用”空间大小。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "9",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "显示多个分段，可是分段代表什么？",
+        "act": "what",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "点按“储存空间”。首先，储存空间指示条会估算已用和可用的储存空间大小。完成计算后，它会显示多个分段，这些分段代表了多个文件类别。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这些分段代表了多个文件类别。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "点按“储存空间”。首先，储存空间指示条会估算已用和可用的储存空间大小。完成计算后，它会显示多个分段，这些分段代表了多个文件类别。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有其他方法可以释放储存空间呢？",
+        "act": "what",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "以其他方式释放储存空间"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以删除不需要的媒体，例如音乐、影片或播客，这些媒体会占用大量储存空间。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "删除不需要的媒体，例如音乐、影片或播客，这些媒体会占用大量储存空间。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "而且我最近手机显示说我达到了达到了iCloud储存空间限制怎么办呢？",
+        "act": "how",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "*在iCloud中储存文件会占用您iCloud储存空间方案中的储存空间。如果您达到了iCloud储存空间限制，您可以购买更多iCloud储存空间，也可以腾出更多可用的iCloud储存空间。iCloud储存空间的起始购买容量为50GB，价格为每月0.99美元。您可以直接使用自己的Apple设备购买更多储存空间。进一步了解您所在地区的价格。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您达到了iCloud储存空间限制，您可以购买更多iCloud储存空间，也可以腾出更多可用的iCloud储存空间。iCloud储存空间的起始购买容量为50GB，价格为每月0.99美元。您可以直接使用自己的Apple设备购买更多储存空间。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "*在iCloud中储存文件会占用您iCloud储存空间方案中的储存空间。如果您达到了iCloud储存空间限制，您可以购买更多iCloud储存空间，也可以腾出更多可用的iCloud储存空间。iCloud储存空间的起始购买容量为50GB，价格为每月0.99美元。您可以直接使用自己的Apple设备购买更多储存空间。进一步了解您所在地区的价格。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可是我这些方法都尝试过了，我还是想在Mac上腾出一些储存空间怎么办呢？",
+        "act": "how",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "释放Mac上的储存空间"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您需要在Mac上腾出更多的可用储存空间，请使用Mac的内置工具优化储存空间，或以其他方式释放空间。",
+        "act": "ans/open",
+        "document": "释放Mac上的储存空间.json",
+        "grounding": [
+            "如果您需要在Mac上腾出更多的可用储存空间，请使用Mac的内置工具优化储存空间，或以其他方式释放空间。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前报过一份医疗保险，想再保一个附加险，想问问这份险种的合同内容都有什么？",
+        "act": "what",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您保的医疗保险是团体的还是个人的？",
+        "act": "multiple-choice",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦是团体的医疗险，想再增加一个附加险。",
+        "act": "ans/open",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "合同构成"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "附加险合同由保险单和其他保险凭证、所附条款及主险条款、投保单、与本附加险合同有关的投保文件、声明、批注、附贴批单构成。",
+        "act": "ans/open",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "本附加险合同附加于本公司一年期各类团体人身保险合同（以下简称“主险合同”）。本附加险合同由保险单和其他保险凭证、所附条款及主险条款、投保单、与本附加险合同有关的投保文件、声明、批注、附贴批单构成。“附加团体医疗保险”简称“附加团体医疗”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "签订合同即时生效吗？",
+        "act": "verification",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投保人提出保险申请、本公司同意承保，本附加险合同成立，合同生效日期会在保险单上载明的。",
+        "act": "ans/open",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "投保人提出保险申请、本公司同意承保，本附加险合同成立。合同生效日期在保险单上载明"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个险对投保范围有什么严格要求吗？",
+        "act": "what",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "投保范围"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投保时年满 16 周岁至法定退休年龄，身体健康、能正常工作的投保单位在 职人员，可作为本附加险合同的被保险人。",
+        "act": "ans/open",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "除特 别指明外，本条款以下所称“被保险人”均包括共同被保险人。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "子女和配偶也可以作为被保险人投保吗？",
+        "act": "verification",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "出生满 90 天至 18 周岁（含 18 周岁）、身体健康、能正常学习、生活的被保险人子女，以及身体健康、能正常工 作、生活的被保险人配偶，经本公司同意可作为共同被保险人，由投保人统一向本公司投保本保险。",
+            "投保范围"
+        ],
+        "grounding_id": [
+            "1",
+            "50",
+            "6"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的，除特 别指明外，本条款以下所称被保险人均包括共同被保险人。",
+        "act": "ans/yes",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "除特 别指明外，本条款以下所称“被保险人”均包括共同被保险人。"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我再问一下你们这个出什么样的事故才赔付？",
+        "act": "what",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "保险责任"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问合同保险期间内，出现什么样的事故才承担保险责任金吗？",
+        "act": "verification",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "在本附加险合同保险期间内，且主险合同及本附加险合同均有效的前提下，本公司对被保险人负下列保险金给付责任。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "对对。",
+        "act": "ans/yes",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "附加团体医疗保险  ",
+            "保险责任"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "住院津贴医疗保险责，任女性生育保险责任在保期内并有效的前提下，本公司对被保险人负下列保险金给付责任。",
+        "act": "ans/open",
+        "document": "附加团体医疗保险  .json",
+        "grounding": [
+            "在本附加险合同保险期间内，且主险合同及本附加险合同均有效的前提下，本公司对被保险人负下列保险金给付责任。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

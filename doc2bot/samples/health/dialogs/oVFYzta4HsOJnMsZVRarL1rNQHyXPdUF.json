@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，最近在学校的体检时，体检医生说我可能有点屈光不正，我想了解一下关于屈光不正的信息",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正"
+        ],
+        "grounding_id": [
+            "T2409"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您是想要了解关于屈光不正的诊断，治疗方法还是其他的一些信息呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的诊断"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我先了解一下怎么诊断屈光不正吧",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "诊断屈光不正的方法有眼科检查，包括视敏度的测量。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的诊断方法主要有：",
+            "眼科检查，包括视敏度的测量"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那这个屈光不正可以通过佩戴眼镜来治疗的吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的治疗方法主要有：",
+            "配眼镜"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，那你还了解其他的治疗方法吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "手术"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "不知道了，能说一下吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还可以配戴隐形眼镜或者手术治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "手术"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那视力可以怎样来矫正呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "视力可采用框架眼镜、接触镜或屈光手术进行矫正。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "视力的话可以通过框架眼镜、接触镜或屈光手术进行矫正的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "视力可采用框架眼镜、接触镜或屈光手术进行矫正。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "了解了，那治疗屈光不正是佩戴眼镜好呢，还是进行手术比较靠谱呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的常规治疗方式是佩戴框架眼镜或隐形眼镜（矫正镜片）。但是，进行改变角膜形状的特定手术和激光治疗也可矫正屈光不正。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "佩戴框架眼镜或隐形眼镜是常规的治疗方式，如果进行改变角膜形状的特定手术和激光治疗也可矫正屈光不正。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_屈光不正概述.json",
+        "grounding": [
+            "屈光不正的常规治疗方式是佩戴框架眼镜或隐形眼镜（矫正镜片）。但是，进行改变角膜形状的特定手术和激光治疗也可矫正屈光不正。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，如果佩戴眼睛的话有什么可以建议的呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "矫正镜片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "框架眼镜的话可以选择佩戴安装在镜框内的玻璃或塑料镜片。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "可以佩戴安装在镜框内的玻璃或塑料镜片（框架眼镜）或者浮在或贴在角膜上的塑料小镜片（隐形眼镜）矫正屈光不正。框架眼镜和接触镜均可以良好地矫正视力。对大部分人而言，选择取决于外观、方便性、成本、风险和舒适性。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那隐形眼镜有什么好的建议呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "矫正镜片"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "隐形眼镜的话可以选择浮在或贴在角膜上的塑料小镜片。这两种均可以良好地矫正视力，相对很多人来说外观、方便性、成本、风险和舒适性都挺好的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "可以佩戴安装在镜框内的玻璃或塑料镜片（框架眼镜）或者浮在或贴在角膜上的塑料小镜片（隐形眼镜）矫正屈光不正。框架眼镜和接触镜均可以良好地矫正视力。对大部分人而言，选择取决于外观、方便性、成本、风险和舒适性。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "嗯嗯，那对于框架的眼镜应该如何选择矫正的镜片呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "矫正镜片",
+            "配眼镜"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个镜片可以由塑料或玻璃制成。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_屈光不正_矫正镜片.json",
+        "grounding": [
+            "框架眼镜镜片可以由塑料或玻璃制成。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

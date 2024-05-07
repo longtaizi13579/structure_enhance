@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省舟山市的，我的汽车因为发生事故，发动机号码显示不清楚了，应该怎么办？",
+        "act": "how",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "浙江省_舟山市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T9",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请机动车发动机号码、车辆识别代号变更备案。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "机动车发动机号码、车辆识别代号变更备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请的话，需要验车吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "申请条件",
+            "受理条件",
+            "发动机号码、车辆识别代号因磨损、锈蚀、事故等原因辨认不清或者损坏的，可以向登记地车辆管理所申请备案。\n机动车在被盗抢期间，发动机号码、车辆识别代号或者车身颜色被改变的，有关技术鉴定证明或者公安机关的发还证明能够确认该机动车与被盗抢的机动车为同一辆车的。\n温馨提示：需交验机动车"
+        ],
+        "grounding_id": [
+            "133",
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的，需交验机动车。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_机动车发动机号码、车辆识别代号变更备案.json",
+        "grounding": [
+            "申请条件",
+            "受理条件",
+            "发动机号码、车辆识别代号因磨损、锈蚀、事故等原因辨认不清或者损坏的，可以向登记地车辆管理所申请备案。\n机动车在被盗抢期间，发动机号码、车辆识别代号或者车身颜色被改变的，有关技术鉴定证明或者公安机关的发还证明能够确认该机动车与被盗抢的机动车为同一辆车的。\n温馨提示：需交验机动车"
+        ],
+        "grounding_id": [
+            "133",
+            "136",
+            "137"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下，国产汽车登记方面的问题？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "机动车"
+        ],
+        "grounding_id": [
+            "T17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解国产机动车注册登记，机动车灭失注销登记，机动车解除抵押登记，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想了解国产机动车注册登记。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "国产机动车注册登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想了解监督投诉方式，法定办结时限，办理流程，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道监督投诉方式。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "投诉电话是：0580-12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "投诉电话",
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办事处的咨询方式是什么？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "咨询电话是：0580-12123",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_行驶驾驶_机动车_国产机动车注册登记.json",
+        "grounding": [
+            "咨询电话",
+            "0580-12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    }
+]

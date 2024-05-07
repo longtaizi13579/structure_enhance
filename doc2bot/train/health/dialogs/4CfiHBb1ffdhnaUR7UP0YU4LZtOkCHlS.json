@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我家孩子得肿瘤了，想咨询下相关方面的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "医学主题",
+            "儿童期肿瘤"
+        ],
+        "grounding_id": [
+            "T3",
+            "T823"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您家孩子得的是哪种肿瘤，髓母细胞瘤，星形细胞瘤，室管膜瘤，纹肌肉瘤？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是髓母细胞瘤，引起这种病的原因是什么？",
+        "act": "why",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤",
+            "其病因不明。它们有时发生在患某些遗传性疾病（例如Gorlin综合征或特科特综合征）的人中。"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "其病因不明。它们有时发生在患某些遗传性疾病的人中。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "其病因不明。它们有时发生在患某些遗传性疾病（例如Gorlin综合征或特科特综合征）的人中。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "医生一般通过什么方法来确诊髓母细胞瘤？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解髓母细胞瘤的具体诊断方法对吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断方法有："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断方法有："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前主要通过磁共振成像， 活检或常手术切除整个肿瘤，脊椎穿剌三种方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断方法有：",
+            "磁共振成像(MRI)",
+            "活检或常手术切除整个肿瘤",
+            "脊椎穿剌"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "活检是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断",
+            "活检或常手术切除整个肿瘤"
+        ],
+        "grounding_id": [
+            "19",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "活检从肿瘤中取组织样本，并在显微镜下检查，这样做还可以对肿瘤细胞的染色体进行特殊检测，以帮助诊断和治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "为诊断髓母细胞瘤，医生用造影剂（一种能使影像更清晰的物质）进行MRI检查以寻找肿瘤。然后他们从肿瘤中取组织样本，并在显微镜下检查（活检）。他们还可以对肿瘤细胞的染色体进行特殊检测（细胞遗传学或分子遗传学检测），以帮助诊断和治疗。通常，通过手术切除整个肿瘤并进行检查，而不是切除一部分肿瘤作为样本。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这种病很危险吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这个要看具体病理检查结果，才能确定严重程度。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "髓母细胞瘤的诊断"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么情况下会很危险？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "如果是以下情况，则为高危"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "手术期间无法切除大量肿瘤，或者是肿瘤已扩散到大脑的其他部位、脊髓或身体的其他部位，这种就属于高危。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童期肿瘤_髓母细胞瘤.json",
+        "grounding": [
+            "手术期间无法切除大量肿瘤。",
+            "肿瘤已扩散到大脑的其他部位、脊髓或身体的其他部位。"
+        ],
+        "grounding_id": [
+            "37",
+            "38"
+        ]
+    }
+]

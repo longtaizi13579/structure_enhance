@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在浙江省杭州市办理单位被盗抢小客车其他指标配置，你可以给我提供相关信息吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "单位被盗抢小客车其他指标配置 "
+        ],
+        "grounding_id": [
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，请问您需要办理地点，办理时间，咨询方式哪些信息呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下办理的时间是什么时候",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是说夏令时还是冬令时呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间",
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "夏令时吧",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "办理时间",
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "工作日（星期一至星期五）上午9:00-12:00，夏令14:00-17:00",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "工作日（星期一至星期五）上午9:00-12:00下午夏令14:00-17:00冬令13:30-17:00夏季工作日午间值班：12:00-14:00;冬季工作日午间值班：12:00-14:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果在规定时间不能办理的话可以投诉吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，您可以通过投诉电话，投诉地址，投诉网址进行投诉",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那投诉的电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "全国统一咨询投诉热线0571-12345",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "全国统一咨询投诉热线0571-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，七天之内可以办完吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "法定办结时限",
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可能不行，法定办结时限为10个工作日",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "10（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，超过这个时间也能投诉吧？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，您可以到杭州市中河北路108号港航大楼14楼1417室进行投诉",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "杭州市中河北路108号港航大楼14楼1417室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "嗯，一般多久能送达呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "自作出决定之日起1个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_小客车指标_单位被盗抢小客车其他指标配置.json",
+        "grounding": [
+            "自作出决定之日起1个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

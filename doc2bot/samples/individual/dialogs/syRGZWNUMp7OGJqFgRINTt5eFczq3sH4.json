@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问往来台湾通行证多久能办下来？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "出入境",
+            "台湾通行证及签注",
+            "往来台湾通行证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T239",
+            "T240",
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问你要了解的是湖州市的往来台湾通行证办理时长吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "往来台湾通行证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T13",
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般来说办理需要30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问办理通行证怎么收费？",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "681"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问你要了解的是湖州市办理往来台湾通行证的收费标准对吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准",
+            "往来台湾通行证"
+        ],
+        "grounding_id": [
+            "690",
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "690"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "每本往来台湾通行证收取每证60元。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "691"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "了解。一般证件多久能拿到？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对省内居民申请往来台湾通行证，在7个工作日内签发",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以支持网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "2292"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "支持的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "2293"
+        ]
+    }
+]

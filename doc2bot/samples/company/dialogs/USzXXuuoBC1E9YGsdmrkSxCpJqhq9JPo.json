@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想买金华生产的管道，是否支持网上付费？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "238"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前不支持网上支付，您本人在金华吗？",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "239"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在的，购买后如果坏了报废维修需要收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "234"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您已经从店铺购买了吗？后面报废维修是不收费的。",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "235"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还没有，请问有什么材质的以及相应的价位？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "管道停止运行、封存、报废备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体信息您可以拔打电话0579-82469776进行咨询，还有什么可以帮助您的吗？",
+        "act": "question/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "0579-82469776"
+        ],
+        "grounding_id": [
+            "128"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，购买的话是在这个地址吗？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是，购买的地址在婺城区双龙南街801号市府主楼632能源处。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_招标拍卖_招标拍卖_管道停止运行、封存、报废备案.json",
+        "grounding": [
+            "金华市婺城区双龙南街801号市府主楼632能源处"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

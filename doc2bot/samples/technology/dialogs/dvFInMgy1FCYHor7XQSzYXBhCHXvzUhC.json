@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些设置并使用“回到我的Mac”的相关问题？",
+        "act": "what",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "设置并使用“回到我的Mac”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想想了解设置“回到我的Mac” 、连接到“回到我的Mac”网络中的远程Mac或AirPort基站还是从“回到我的Mac”网络中移除Mac或AirPort基站？",
+        "act": "multiple-choice",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "从“回到我的Mac”网络中移除Mac或AirPort基站"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下从“回到我的Mac”网络中移除Mac或AirPort基站。",
+        "act": "ans/open",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "从“回到我的Mac”网络中移除Mac或AirPort基站"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在您想要移除的Mac上，请按照以下步骤操作：首先选取苹果()菜单>“系统偏好设置”，然后点按“iCloud”；然后取消选择“回到我的Mac”以将它关闭。或者点按“退出登录”以完全退出登录iCloud。",
+        "act": "ans/open",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "在您想要移除的Mac上，请按照以下步骤操作：",
+            "选取苹果()菜单>“系统偏好设置”，然后点按“iCloud”。",
+            "取消选择“回到我的Mac”以将它关闭。或者点按“退出登录”以完全退出登录iCloud。"
+        ],
+        "grounding_id": [
+            "49",
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“回到我的Mac”这个功能是用来干什么的？",
+        "act": "what",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "“回到我的Mac”是一项iCloud功能，您可以使用这个功能来设置可以远程访问的Mac电脑网络。以下是“回到我的Mac”的一些功能："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“回到我的Mac”是一项iCloud功能，您可以使用这个功能来设置可以远程访问的Mac电脑网络。",
+        "act": "ans/open",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "“回到我的Mac”是一项iCloud功能，您可以使用这个功能来设置可以远程访问的Mac电脑网络。以下是“回到我的Mac”的一些功能："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "都有什么功能呢？",
+        "act": "what",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "“回到我的Mac”是一项iCloud功能，您可以使用这个功能来设置可以远程访问的Mac电脑网络。以下是“回到我的Mac”的一些功能："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "文件共享：在远程Mac上查找文件和文件夹，并可将它们拖移到本地Mac；屏幕共享：使用远程Mac，就像您正坐在这台Mac前面一样。您可以使用本地鼠标和键盘在远程Mac上打开应用程序或编辑文稿。",
+        "act": "ans/open",
+        "document": "设置并使用“回到我的Mac”.json",
+        "grounding": [
+            "文件共享：在远程Mac上查找文件和文件夹，并可将它们拖移到本地Mac。",
+            "屏幕共享：使用远程Mac，就像您正坐在这台Mac前面一样。您可以使用本地鼠标和键盘在远程Mac上打开应用程序或编辑文稿。"
+        ],
+        "grounding_id": [
+            "4",
+            "5"
+        ]
+    }
+]

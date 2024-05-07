@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下iPhone电池的信息",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢",
+        "act": "question/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "关于正品iPhone电池"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道非正品电池的话会有什么后果",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "以上任一电池都可能会导致电池容量不足、尺寸不合适或性能问题。使用非正品电池可能还会导致安装后、设备软件更新后或充电时出现意外行为。使用非正品电池可能还会导致安全问题。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用非正品电池可能还会导致安装后、设备软件更新后或充电时出现意外行为。使用非正品电池可能还会导致安全问题。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "以上任一电池都可能会导致电池容量不足、尺寸不合适或性能问题。使用非正品电池可能还会导致安装后、设备软件更新后或充电时出现意外行为。使用非正品电池可能还会导致安全问题。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是只能由已通过Apple服务培训并且使用Apple正品部件和工具的技术人员更换电池吗",
+        "act": "verification",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "由接受过培训的技术人员使用正品Apple电池进行维修的重要性",
+            "只能由已通过Apple服务培训并且使用Apple正品部件和工具的技术人员更换电池。这样的服务提供商包括Apple授权服务提供商，或使用Apple正品部件的独立维修提供商。不要尝试自己更换iPhone电池。未接受过培训的技术人员在更换电池时可能不会遵循正确的安全和维修规程，并可能会导致不当更换或维修。这可能还会损坏电池、导致电池过热或人身伤害。"
+        ],
+        "grounding_id": [
+            "3",
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，不要尝试自己更换iPhone电池。未接受过培训的技术人员在更换电池时可能不会遵循正确的安全和维修规程，并可能会导致不当更换或维修。这可能还会损坏电池、导致电池过热或人身伤害。",
+        "act": "ans/yes",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "只能由已通过Apple服务培训并且使用Apple正品部件和工具的技术人员更换电池。这样的服务提供商包括Apple授权服务提供商，或使用Apple正品部件的独立维修提供商。不要尝试自己更换iPhone电池。未接受过培训的技术人员在更换电池时可能不会遵循正确的安全和维修规程，并可能会导致不当更换或维修。这可能还会损坏电池、导致电池过热或人身伤害。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这样的服务提供商有哪些",
+        "act": "what",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "只能由已通过Apple服务培训并且使用Apple正品部件和工具的技术人员更换电池。这样的服务提供商包括Apple授权服务提供商，或使用Apple正品部件的独立维修提供商。不要尝试自己更换iPhone电池。未接受过培训的技术人员在更换电池时可能不会遵循正确的安全和维修规程，并可能会导致不当更换或维修。这可能还会损坏电池、导致电池过热或人身伤害。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这样的服务提供商包括Apple授权服务提供商，或使用Apple正品部件的独立维修提供商。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "只能由已通过Apple服务培训并且使用Apple正品部件和工具的技术人员更换电池。这样的服务提供商包括Apple授权服务提供商，或使用Apple正品部件的独立维修提供商。不要尝试自己更换iPhone电池。未接受过培训的技术人员在更换电池时可能不会遵循正确的安全和维修规程，并可能会导致不当更换或维修。这可能还会损坏电池、导致电池过热或人身伤害。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那为什么电池需要更换呢",
+        "act": "why",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "所有可充电电池都是消耗品，寿命有限，这意味着这些电池的容量和性能最终都会下降，因而需要更换。iPhone使用内置的高品质锂离子电池。这些电池经过严格的设计、测试和生产，可以满足Apple的质量和性能标准。这些正品Apple电池也已通过安全认证。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "因为所有可充电电池都是消耗品，寿命有限，这意味着这些电池的容量和性能最终都会下降，因而需要更换。",
+        "act": "ans/open",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "所有可充电电池都是消耗品，寿命有限，这意味着这些电池的容量和性能最终都会下降，因而需要更换。iPhone使用内置的高品质锂离子电池。这些电池经过严格的设计、测试和生产，可以满足Apple的质量和性能标准。这些正品Apple电池也已通过安全认证。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果服务提供商使用非正品电池部件的话会不会换成不适用于iPhone机型的电池",
+        "act": "verification",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "此外，如果服务提供商使用非正品电池部件，则电池更换件可能是：",
+            "不适用于您iPhone机型的电池"
+        ],
+        "grounding_id": [
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是有可能的",
+        "act": "ans/yes",
+        "document": "关于正品iPhone电池.json",
+        "grounding": [
+            "此外，如果服务提供商使用非正品电池部件，则电池更换件可能是：",
+            "不适用于您iPhone机型的电池"
+        ],
+        "grounding_id": [
+            "11",
+            "15"
+        ]
+    }
+]

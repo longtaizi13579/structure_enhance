@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想去降低准驾车型，要不要收费啊？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "自愿降低准驾车型换领机动车驾驶证",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "287"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是在浙江省丽水市本地办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市"
+        ],
+        "grounding_id": [
+            "T12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，本地办要收钱吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "287"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您是自愿办理的话，是需要收费的。",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "288"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦哦，那能直接在网上支付么？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "291"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前支持网上支付的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "292"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "要交多少钱呀？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "295"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会收您10元一本的工本费的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这有啥条件不？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您想了解数量限制、受理条件、禁止性要求的哪一方面条件呢？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "数量限制",
+            "受理条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "137",
+            "139",
+            "141"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我不具有记满12分的情况应该是满足受理条件吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "受理条件",
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。"
+        ],
+        "grounding_id": [
+            "139",
+            "140"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "申请人需要满足不具有记满12分、逾期未审验、被扣押等情形是可以满足受理条件的。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_自愿降低准驾车型换领机动车驾驶证.json",
+        "grounding": [
+            "申请人不具有记满12分、逾期未审验、被扣押、扣留、暂扣、注销、吊销或者撤销机动车驾驶证的情形。",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "140",
+            "139"
+        ]
+    }
+]

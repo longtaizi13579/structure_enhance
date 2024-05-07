@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，咨询一下，出入境护照加注服务这个有什么办理形式呀？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "出入境",
+            "常用服务",
+            "护照加注",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T239",
+            "T269",
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您希望了解哪个省市的？",
+        "act": "question/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，浙江绍兴市呀。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，该服务可以网上申请、现场窗口申请、邮寄申请。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，那这个是否支持自助办理呀？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个不支持的",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "啊，问一下，这个多久能办好呀？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "承诺办结时限7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，就是我朋友问，网上写了一个很长的法定时限，那个是多少日来着？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，麻烦您再给查一下这个咨询地址在哪里？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C05、C06、C07、C08",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_出入境_常用服务_护照加注.json",
+        "grounding": [
+            "绍兴市政务服务办公室(原绍兴市行政服务中心）（凤林西路178号亿兆大厦）一楼C05、C06、C07、C08"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

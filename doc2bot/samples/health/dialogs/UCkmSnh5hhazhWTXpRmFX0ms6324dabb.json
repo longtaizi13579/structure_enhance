@@ -1,0 +1,58 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想来一下肘关节脱位",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "肘关节脱位",
+            "关节脱位"
+        ],
+        "grounding_id": [
+            "1",
+            "T1343"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解的是桡骨小头半脱位，症状，诊断，还是预防",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "桡骨头半脱位的治疗"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道桡骨头半脱位的治疗需要复位吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "桡骨头半脱位的治疗",
+            "通常运用手法将关节复位"
+        ],
+        "grounding_id": [
+            "48",
+            "50"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通常运用手法将关节复位",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_关节脱位_肘关节脱位.json",
+        "grounding": [
+            "通常运用手法将关节复位"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    }
+]

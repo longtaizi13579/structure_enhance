@@ -1,0 +1,528 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何使用Inkscape临摹图像",
+        "act": "how",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "如何使用Inkscape临摹图像"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果想在Inkscape中把光栅图（位图）转换成矢量图，你就需要临摹图像。但转换之前有些注意事项您需要了解吗？",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "如果想在Inkscape中把光栅图（位图）转换成矢量图，你就需要临摹图像。好在Inkscape提供了自动临摹工具，让你既不需要高超的手动临摹技术，也不需要花费大量的时间。如果要更精确地控制创建的路径，可以选择使用Inkscape的内置绘图工具手动临摹。无论选择哪种方法，Inkscape都可以让位图向量化变得非常简单。",
+            "在将位图转换为矢量图之前，将背景从位图中移除将提高路径质量。专家建议在开始临摹之前，使用SIOX删除位图中的背景。"
+        ],
+        "grounding_id": [
+            "2",
+            "52"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "如果想在Inkscape中把光栅图（位图）转换成矢量图，你就需要临摹图像。好在Inkscape提供了自动临摹工具，让你既不需要高超的手动临摹技术，也不需要花费大量的时间。如果要更精确地控制创建的路径，可以选择使用Inkscape的内置绘图工具手动临摹。无论选择哪种方法，Inkscape都可以让位图向量化变得非常简单。",
+            "在将位图转换为矢量图之前，将背景从位图中移除将提高路径质量。专家建议在开始临摹之前，使用SIOX删除位图中的背景。"
+        ],
+        "grounding_id": [
+            "2",
+            "52"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在将位图转换为矢量图之前，将背景从位图中移除将提高路径质量。专家建议在开始临摹之前，使用SIOX删除位图中的背景。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何使用Inkscape临摹图像.json",
+        "grounding": [
+            "在将位图转换为矢量图之前，将背景从位图中移除将提高路径质量。专家建议在开始临摹之前，使用SIOX删除位图中的背景。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那怎么打开有密码保护的Excel文件呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "如何打开有密码保护的Excel文件",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以通过解锁工作表或工作簿，您需了解相关步骤吗",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "解锁工作表/工作簿"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，应该怎么操作呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "解锁工作表/工作簿"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": " 1.在电脑上找到Excel文件。 2.启用文件扩展名（如果没有启用的话）。 3.将“xlsx”扩展名更改为“zip”。 4.右键点击ZIP文件，选择“全部解压缩”。 5.打开“xl”文件夹，然后选择“工作表”文件夹。 6.右键点击锁定的工作表，选择“编辑”。 7.按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”。 8.选择<>里的所有所有内容。 9.复制编辑好的工作簿或工作表文件。 10.打开之前创建的ZIP文件。 11.找到同名文件夹，里面有编辑好的工作表或工作簿。 12.粘贴编辑好的文件，覆盖原始文件。 13.关闭ZIP文件，将扩展名重命名为“xlsx”。 14.打开文件，导入工作簿、工作表。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "在电脑上找到Excel文件。",
+            "启用文件扩展名（如果没有启用的话）。",
+            "将“xlsx”扩展名更改为“zip”。",
+            "右键点击ZIP文件，选择“全部解压缩”。",
+            "打开“xl”文件夹，然后选择“工作表”文件夹。",
+            "右键点击锁定的工作表，选择“编辑”。",
+            "按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”。",
+            "选择<>里的所有所有内容。",
+            "复制编辑好的工作簿或工作表文件。",
+            "打开之前创建的ZIP文件。",
+            "找到同名文件夹，里面有编辑好的工作表或工作簿。",
+            "粘贴编辑好的文件，覆盖原始文件。",
+            "关闭ZIP文件，将扩展名重命名为“xlsx”。",
+            "打开文件，导入工作簿、工作表。"
+        ],
+        "grounding_id": [
+            "17",
+            "20",
+            "22",
+            "24",
+            "26",
+            "28",
+            "31",
+            "34",
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "46"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "打开“xl”文件夹，然后选择“工作表”文件夹会有什么显示？",
+        "act": "what",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "打开“xl”文件夹，然后选择“工作表”文件夹。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这样会显示文档中所有的工作表。每个工作表都是独立的文件，如“sheet1.xml”。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "打开“xl”文件夹，然后选择“工作表”文件夹。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”可以找到什么呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "按下Ctrl+F快捷键，打开查找窗口，搜索“sheetProtection”。",
+            "你将能查看用来保护工作表或工作簿的算法信息。"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你将能查看用来保护工作表或工作簿的算法信息。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "你将能查看用来保护工作表或工作簿的算法信息。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那可以直接解锁文件吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "解锁文件"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以下载密码破解工具。 2.在密码破解程序里载入Excel文件，开始破解密码，等待密码恢复程序找回密码",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "下载密码破解工具。",
+            "在密码破解程序里载入Excel文件。",
+            "开始破解密码。",
+            "等待密码恢复程序找回密码。"
+        ],
+        "grounding_id": [
+            "5",
+            "10",
+            "12",
+            "14"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "在密码破解程序里载入Excel文件就能看到密码吗？",
+        "act": "verification",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "在密码破解程序里载入Excel文件。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "密码破解程序通常能自动检测文件密码，并显示文件加密类型。",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "密码破解程序通常能自动检测文件密码，并显示文件加密类型。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "等待密码恢复程序找回密码的时间要多久？",
+        "act": "when",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "等待密码恢复程序找回密码。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "根据密码强度和计算机运行速度，破解进程可能会耗费几分钟到几个月不等。预计的剩余时间会显示在窗口中。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何打开有密码保护的Excel文件.json",
+        "grounding": [
+            "根据密码强度和计算机运行速度，破解进程可能会耗费几分钟到几个月不等。预计的剩余时间会显示在窗口中。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果想要将手机网络共享给笔记本电脑的话需要准备什么呢？",
+        "act": "what",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "如何将手机网络共享给笔记本电脑",
+            "你需要准备"
+        ],
+        "grounding_id": [
+            "1",
+            "95"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "可上网的手机，包含网络共享的运营商套餐，以下任选其一：带有Wi-Fi的笔记本电脑，兼容手机和笔记本电脑的USB线，带有蓝牙的笔记本电脑，笔记本电脑和蓝牙适配器",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "可上网的手机",
+            "包含网络共享的运营商套餐",
+            "以下任选其一：",
+            "带有Wi-Fi的笔记本电脑",
+            "兼容手机和笔记本电脑的USB线",
+            "带有蓝牙的笔记本电脑",
+            "笔记本电脑和蓝牙适配器"
+        ],
+        "grounding_id": [
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果是iPhone手机网络共享给笔记本电脑的话流程是什么样的？",
+        "act": "what",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "将iPhone手机网络共享给笔记本电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "1.查看运营商的流量套餐。 2.选择共享方式。 3.启用个人热点。 4.连接到WiFi共享网络。 5.通过USB连接。 6.连接蓝牙共享网络。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "查看运营商的流量套餐。",
+            "选择共享方式。",
+            "启用个人热点。",
+            "连接到WiFi共享网络。",
+            "通过USB连接。",
+            "连接蓝牙共享网络。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "12",
+            "16",
+            "23",
+            "26"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "为什么需要查看运营商的流量套餐呢？",
+        "act": "why",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "查看运营商的流量套餐。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "因为某些运营商会对网络共享额外收费，或者要求购买网络共享套餐。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "某些运营商会对网络共享额外收费，或者要求购买网络共享套餐。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "好吧，那可以选择的共享方式有什么",
+        "act": "what",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "选择共享方式。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "以选择三种方式将手机网络共享给笔记本电脑：WiFi共享方式，USB共享方式，以及蓝牙共享方式",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "可以选择三种方式将手机网络共享给笔记本电脑。每种方式的要求如下：",
+            "WiFi共享方式适用于运行iOS4.3以上的iPhone4以上机型。这种方式可以连接运行MacOS10.4.11或WindowsXPSP2以上操作系统，并具备WiFi功能的笔记本电脑，数量不限。",
+            "USB共享方式适用于iPhone3G以上机型。需要使用USB线将iPhone连接到笔记本电脑。电脑需要运行MacOS10.5.7或WindowsXPSP2以上操作系统，并安装iTunes8.2+。",
+            "蓝牙共享方式适用于iPhone3G以上机型。这种方式可以连接运行MacOS10.4.11或WindowsXPSP2以上操作系统，并带有蓝牙2.0功能的笔记本电脑，只能连接一台。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "Windows10怎么连接蓝牙共享网络呢？",
+        "act": "how",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "连接蓝牙共享网络。",
+            "Windows10："
+        ],
+        "grounding_id": [
+            "26",
+            "33"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "在任务栏上选择对话气泡形状的“操作中心”图标，然后单击“蓝牙”。单击“连接”，然后选择iPhone。在iPhone上输入配对码",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何将手机网络共享给笔记本电脑.json",
+        "grounding": [
+            "在任务栏上选择对话气泡形状的“操作中心”图标，然后单击“蓝牙”。",
+            "单击“连接”，然后选择iPhone。",
+            "在iPhone上输入配对码。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "好的，我还想问一下如何彻底禁用谷歌Chrome更新",
+        "act": "how",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如何彻底禁用谷歌Chrome更新",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "请问您是什么系统呢？",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "Mac电脑",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "Mac电脑"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": " 1.在实用程序文件夹中打开终端程序。 2.输入命令，禁用谷歌产品的自动更新。 3.如果打开了Chrome浏览器，请重新启动它。 4.手动查看更新。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "在实用程序文件夹中打开终端程序。",
+            "输入命令，禁用谷歌产品的自动更新。",
+            "如果打开了Chrome浏览器，请重新启动它。",
+            "手动查看更新。"
+        ],
+        "grounding_id": [
+            "5",
+            "8",
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 32,
+        "role": "user",
+        "utterance": "如果打开了Chrome浏览器为什么还要重新启动？",
+        "act": "why",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "如果打开了Chrome浏览器，请重新启动它。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 33,
+        "role": "system",
+        "utterance": "这样会应用你的更改，而浏览器以后就不再自动检查更新包了。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何彻底禁用谷歌Chrome更新.json",
+        "grounding": [
+            "这样会应用你的更改，而浏览器以后就不再自动检查更新包了。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

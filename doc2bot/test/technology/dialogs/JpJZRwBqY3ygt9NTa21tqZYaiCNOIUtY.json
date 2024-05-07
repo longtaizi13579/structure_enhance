@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下如何在Mac上查找已存储的密码？",
+        "act": "how",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "如何在Mac上查找已存储的密码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解在Safari浏览器中查看已存储的密码，还是在 macOS Monterey 或更高版本 macOS 的“系统偏好设置”中查看存储的密码？",
+        "act": "multiple-choice",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在Safari浏览器中查看已存储的密码"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下在Safari浏览器中查看已存储的密码的方法吧。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在Safari浏览器中查看已存储的密码"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Safari浏览器中查看已存储的密码: 1.打开Safari浏览器。 2.从Safari浏览器菜单中，选取“偏好设置”，然后点按“密码”。 3.使用触控ID登录，或输入您的用户帐户密码。 4.选择一个网站，然后点按“编辑”。 5.要删除密码，请点按“删除密码”。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在Safari浏览器中查看已存储的密码",
+            "打开Safari浏览器。",
+            "从Safari浏览器菜单中，选取“偏好设置”，然后点按“密码”。",
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。",
+            "选择一个网站，然后点按“编辑”。",
+            "要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "除了使用触控ID登录，或输入您的用户帐户密码，还有什么方法认证密码？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "使用触控ID登录，或输入您的用户帐户密码。您还可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果要更新密码怎么操作？",
+        "act": "how",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要更新密码，请更改密码，然后点按“存储”。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码的方法是什么？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码: 1.选取苹果菜单>“系统偏好设置”。 2.点按“密码”。3.使用触控ID登录，或输入您的用户帐户密码。 4.选择一个网站，然后点按“编辑”。 5.要删除密码，请点按“删除密码”。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "在macOSMonterey或更高版本macOS的“系统偏好设置”中查看存储的密码",
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“密码”。在“系统偏好设置”中看不到密码？",
+            "使用触控ID登录，或输入您的用户帐户密码。您也可以使用运行watchOS6或更高版本的AppleWatch来认证您的密码。",
+            "选择一个网站，然后点按“编辑”。",
+            "要删除密码，请点按“删除密码”。要更新密码，请更改密码，然后点按“存储”。"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "9",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "除了可以在Mac上查找、更改或删除已存储的密码，还能进行什么操作？",
+        "act": "what",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "您可以在Mac上查找、更改或删除已存储的密码，还可以让密码在所有设备上保持最新。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "还可以让密码在所有设备上保持最新。",
+        "act": "ans/open",
+        "document": "如何在Mac上查找已存储的密码.json",
+        "grounding": [
+            "您可以在Mac上查找、更改或删除已存储的密码，还可以让密码在所有设备上保持最新。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

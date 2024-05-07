@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在AppleWatch上使用“对讲机”的相关问题？",
+        "act": "what",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "在AppleWatch上使用“对讲机”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：如何在“对讲机”App中添加好友，如何接受来自“对讲机”App的邀请，如何使用“对讲机”进行对话，如何通过“对讲机”对话，还是打开或关闭“对讲机” ？",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如何在“对讲机”App中添加好友"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何在“对讲机”App中添加好友？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如何在“对讲机”App中添加好友"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤: 首先，打开AppleWatch上的“对讲机”App。 然后，轻点“添加朋友”，然后选取联系人。最后，等待您的朋友接受邀请。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "具体步骤",
+            "打开AppleWatch上的“对讲机”App。",
+            "轻点“添加朋友”，然后选取联系人。",
+            "等待您的朋友接受邀请。在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在对方接受邀请前，他们的AppleWatch上会显示什么？",
+        "act": "what",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "等待您的朋友接受邀请。在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "等待您的朋友接受邀请。在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果对方接受邀请后，颜色会发生什么改变？",
+        "act": "what",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "等待您的朋友接受邀请。在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "等待您的朋友接受邀请。在您的朋友接受邀请前，他们的联系人名片会一直在“您邀请的好友”下显示为灰色。当他们接受邀请后，他们的联系人名片会变为黄色，此时您与您的朋友可立即交谈。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果看不到“对讲机”App怎么办？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您看不到“对讲机”App"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以这样操作，具体步骤: 1.“对讲机”必须借助FaceTime通话才能正常运行，因此，如果您删除了FaceTime通话，请在iPhone上重新下载。2.确保FaceTime通话已打开。3.打开FaceTime通话App。为确保FaceTime通话已正确设置，请尝试拨打电话。 4.重新启动AppleWatch。 5.重新启动iPhone。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "具体步骤",
+            "“对讲机”必须借助FaceTime通话才能正常运行，因此，如果您删除了FaceTime通话，请在iPhone上重新下载。在iPhone上打开AppStore，搜索FaceTime通话，然后轻点“下载”按钮。",
+            "确保FaceTime通话已打开。打开“设置”App，轻点“FaceTime通话”，然后打开“FaceTime通话”。",
+            "打开FaceTime通话App。为确保FaceTime通话已正确设置，请尝试拨打电话。",
+            "重新启动AppleWatch。",
+            "重新启动iPhone。"
+        ],
+        "grounding_id": [
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何下载FaceTime？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "“对讲机”必须借助FaceTime通话才能正常运行，因此，如果您删除了FaceTime通话，请在iPhone上重新下载。在iPhone上打开AppStore，搜索FaceTime通话，然后轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在iPhone上打开AppStore，搜索FaceTime通话，然后轻点“下载”按钮。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "“对讲机”必须借助FaceTime通话才能正常运行，因此，如果您删除了FaceTime通话，请在iPhone上重新下载。在iPhone上打开AppStore，搜索FaceTime通话，然后轻点“下载”按钮。"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何确保保FaceTime通话已打开？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "确保FaceTime通话已打开。打开“设置”App，轻点“FaceTime通话”，然后打开“FaceTime通话”。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "打开“设置”App，轻点“FaceTime通话”，然后打开“FaceTime通话”。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "确保FaceTime通话已打开。打开“设置”App，轻点“FaceTime通话”，然后打开“FaceTime通话”。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何确保FaceTime通话已正确设置？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "打开FaceTime通话App。为确保FaceTime通话已正确设置，请尝试拨打电话。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以尝试拨打电话进行确认。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "打开FaceTime通话App。为确保FaceTime通话已正确设置，请尝试拨打电话。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如果iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，这是什么原因？",
+        "act": "why",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，您可能已将其删除。请在AppleWatch上打开AppStore并重新下载该App。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "如果您的iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，您可能已将其删除。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，您可能已将其删除。请在AppleWatch上打开AppStore并重新下载该App。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那我应该怎么办？",
+        "act": "how",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，您可能已将其删除。请在AppleWatch上打开AppStore并重新下载该App。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "请在AppleWatch上打开AppStore并重新下载该App。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“对讲机”.json",
+        "grounding": [
+            "如果您的iPhone上安装有FaceTime通话，但手表上没有“对讲机”App，您可能已将其删除。请在AppleWatch上打开AppStore并重新下载该App。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    }
+]

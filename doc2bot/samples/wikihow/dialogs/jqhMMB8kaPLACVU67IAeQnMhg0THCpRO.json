@@ -1,0 +1,288 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下在Photoshop中解锁图层的一些问题",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "如何在Photoshop中解锁图层"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道哪方面呢",
+        "act": "question/open",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "如何在Photoshop中解锁图层"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如果工作区中没有“图层”调色板的话怎么办",
+        "act": "how",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "如果工作区中没有“图层”调色板，可以单击菜单栏中的“窗口”，然后选择“图层”。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您可以单击菜单栏中的“窗口”，然后选择“图层”",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "如果工作区中没有“图层”调色板，可以单击菜单栏中的“窗口”，然后选择“图层”。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是打开的图像刚开始就会自动锁定吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "图层锁定可防止意外更改作品的原图或任何部分。这就是打开的任何图像会从一开始就被锁定，并被标记为“背景图层”的原因。之所以这样，Photoshop是为了避免意外破坏原图。但这并不意味着就没有办法调整锁定的图层。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，打开的任何图像会从一开始就被锁定，并被标记为“背景图层”",
+        "act": "ans/yes",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "图层锁定可防止意外更改作品的原图或任何部分。这就是打开的任何图像会从一开始就被锁定，并被标记为“背景图层”的原因。之所以这样，Photoshop是为了避免意外破坏原图。但这并不意味着就没有办法调整锁定的图层。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那怎么样对已锁定和未锁定图层排查呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "已锁定和未锁定图层排查"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先如果无法使用图层或者添加新的图层，请立即检查“颜色设置”，通过单击图层面板中的小挂锁重新锁定图层，然后用快捷键来快速锁定和解锁图层，用Ctrl/Cmd+Alt/Opt+/解锁除背景之外的所有图层，最后锁定图层的某些部分可以进行复杂编辑",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "如果无法使用图层或者添加新的图层，请立即检查“颜色设置”。",
+            "单击图层面板中的小挂锁重新锁定图层。",
+            "用快捷键来快速锁定和解锁图层。",
+            "用Ctrl/Cmd+Alt/Opt+/解锁除背景之外的所有图层。",
+            "锁定图层的某些部分可以进行复杂编辑。"
+        ],
+        "grounding_id": [
+            "22",
+            "27",
+            "29",
+            "33",
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "单击小挂锁的作用是什么",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "单击图层面板中的小挂锁重新锁定图层。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "单击挂锁可锁定突出显示的任何图层（或多个图层，可以按住Ctrl/Cmd进行多选）",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "图层面板在实际图层上有几个按钮。单击挂锁可锁定突出显示的任何图层（或多个图层，可以按住Ctrl/Cmd进行多选）。这样也会将其解锁。但请注意，该操作对背景图层无效。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "可以对背景图层进行这样的操作吗",
+        "act": "verification",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "图层面板在实际图层上有几个按钮。单击挂锁可锁定突出显示的任何图层（或多个图层，可以按住Ctrl/Cmd进行多选）。这样也会将其解锁。但请注意，该操作对背景图层无效。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "该操作对背景图层无效",
+        "act": "ans/no",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "图层面板在实际图层上有几个按钮。单击挂锁可锁定突出显示的任何图层（或多个图层，可以按住Ctrl/Cmd进行多选）。这样也会将其解锁。但请注意，该操作对背景图层无效。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那Mac系统的快捷方式是什么",
+        "act": "what",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "用Ctrl/Cmd+Alt/Opt+/解锁除背景之外的所有图层。",
+            "Mac：Cmd+Opt+/"
+        ],
+        "grounding_id": [
+            "33",
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "Mac：Cmd+Opt+/",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何在Photoshop中解锁图层.json",
+        "grounding": [
+            "Mac：Cmd+Opt+/"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想知道如何写代码",
+        "act": "how",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "如何写代码",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以先学习一门语言",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "学习一门语言"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那应该怎么做呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "学习一门语言"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "首先不要太担心选择什么语言，然后根据你选择的语言在网上寻找免费资源，下载一个好用的文本编辑器，下载所需的编译器，接着开始你的第一个项目，注释所有代码之后挑选其他项目和网页项目。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "不要太担心选择什么语言。",
+            "根据你选择的语言在网上寻找免费资源。",
+            "下载一个好用的文本编辑器。",
+            "下载所需的编译器。",
+            "开始你的第一个项目。",
+            "注释所有代码。",
+            "挑选其他项目和网页项目。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "15",
+            "18",
+            "26",
+            "28",
+            "31"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "怎么样挑选其他项目和网页项目呢",
+        "act": "how",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "挑选其他项目和网页项目。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "随着不断地学习，不要羞于查阅资料，看看别人是如何完成同样的任务。花点时间来理解代码的工作原理。 有关如何查看网站源代码的详细信息，请参阅这篇指南。",
+        "act": "ans/open",
+        "document": "计算机与电子产品_如何写代码.json",
+        "grounding": [
+            "随着不断地学习，不要羞于查阅资料，看看别人是如何完成同样的任务。花点时间来理解代码的工作原理。",
+            "有关如何查看网站源代码的详细信息，请参阅这篇指南。"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    }
+]

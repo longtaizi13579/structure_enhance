@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省嘉兴市的，我的汽车丢了，该怎么销户？",
+        "act": "how",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请机动车灭失注销登记。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "机动车灭失注销登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请后，几天能办完？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限为1（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办事处的联系方式是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "给我咨询电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询电话是：0573—12123。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "咨询电话",
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理流程都有什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "337"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理流程是：步骤1: 申请 步骤2: 受理 步骤3: 审核 步骤4: 制证 步骤5: 送达",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "337",
+            "338",
+            "340",
+            "349",
+            "358",
+            "367"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "审核的话，标准是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "审核",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "349",
+            "354"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "审核申请人提交的材料，检查材料是否真实、有效。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "审核",
+            "审批标准",
+            "审核申请人提交的材料，检查材料是否真实、有效。"
+        ],
+        "grounding_id": [
+            "349",
+            "354",
+            "355"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理完成后，一般通过什么方式给我结果？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "367"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "送达方式是：当场送达或邮寄送达。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_机动车灭失注销登记.json",
+        "grounding": [
+            "送达",
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "367",
+            "368"
+        ]
+    }
+]

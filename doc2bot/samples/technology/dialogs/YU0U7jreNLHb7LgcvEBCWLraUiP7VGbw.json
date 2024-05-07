@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，iPhone手机上的“照片”App会识别照片中的人物面孔，并对它们进行分组吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "会的。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以为照片中的人物命名吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会识别照片中的人物面孔并对它们进行分组。您可以为照片中的人物命名、标记您喜爱的人物，还可进行其他操作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想咨询一些关于在iPhone上使用“照片”中的“人物”相簿的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想将某人添加到“人物”相簿中、在“人物”相簿中查找某人、给面孔取名、还是其他？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "将某人添加到“人物”相簿中"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道如何将某人添加到“人物”相簿中？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "将某人添加到“人物”相簿中"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先打开您想要添加的人物的照片，轻点信息按钮，然后轻点带有问号的人物面孔。然后轻点“标记姓名”并键入人物的姓名或轻点出现的姓名。最后轻点“下一步”，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "打开您想要添加的人物的照片。",
+            "轻点信息按钮，然后轻点带有问号的人物面孔。",
+            "轻点“标记姓名”并键入人物的姓名或轻点出现的姓名。",
+            "轻点“下一步”，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "“照片”App的运作方式是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "运作方式"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。另外，在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上使用“照片”中的“人物”相簿.json",
+        "grounding": [
+            "“照片”App会扫描您的照片以协助您快速识别照片中的人物、场景和物体。根据您拥有的照片数量，您可以观看与这些特定照片内容相关的“回忆”影片。另外，在您打开“iCloud照片”后，您收藏或命名的人物会在您的所有Apple设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还想问一个问题，如何通过“共享建议”共享照片？",
+        "act": "how",
+        "document": "在“照片”应用中使用“共享建议”.json",
+        "grounding": [
+            "在“照片”应用中使用“共享建议”",
+            "如何通过“共享建议”共享照片"
+        ],
+        "grounding_id": [
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先在iPhone、iPad或iPodtouch上打开“iCloud照片”，打开“照片”应用，轻点“为你推荐”标签页，然后查找“共享建议”。然后向左轻扫以浏览所有建议的照片集，轻点要共享的照片集，轻点“下一步”以共享所有内容，或轻点“选择”，然后取消选择您不想包含的项目。 选取要与之共享的人物。最后 轻点“信息”按钮中的“共享”。根据需要添加评论，然后轻点“发送”按钮。",
+        "act": "ans/open",
+        "document": "在“照片”应用中使用“共享建议”.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上打开“iCloud照片”。",
+            "打开“照片”应用。",
+            "轻点“为你推荐”标签页，然后查找“共享建议”。",
+            "向左轻扫以浏览所有建议的照片集，然后轻点要共享的照片集。",
+            "轻点“下一步”以共享所有内容，或轻点“选择”，然后取消选择您不想包含的项目。",
+            "选取要与之共享的人物。如果“照片”应用识别出所拍摄的人物，则将自动显示他们的姓名。可能还会显示您之前与之共享照片的人物。取消选择您不想包含的所有人物。轻点“添加用户”以选择更多朋友。",
+            "轻点“信息”按钮中的“共享”。此时将出现“信息”窗口，显示收件人和他们将获取的信息预览。",
+            "根据需要添加评论，然后轻点“发送”按钮。"
+        ],
+        "grounding_id": [
+            "9",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "21",
+            "22"
+        ]
+    }
+]

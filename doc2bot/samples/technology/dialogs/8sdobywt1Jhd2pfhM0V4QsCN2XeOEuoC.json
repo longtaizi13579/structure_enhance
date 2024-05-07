@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果iPhone处于锁定状态或睡眠状态还能收到通知吗？",
+        "act": "verification",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "AppleWatch上的通知",
+            "通知的显示位置"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您的iPhone处于锁定状态或睡眠状态，则您将在AppleWatch上收到通知，除非您的AppleWatch已被密码锁定。",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "如果您的iPhone处于锁定状态或睡眠状态，则您将在AppleWatch上收到通知，除非您的AppleWatch已被密码锁定。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "所有App的通知都会显示在手机上吗？",
+        "act": "verification",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "AppleWatch上的通知",
+            "通知的显示位置"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "某些App（例如“噪声”App）仅在AppleWatch上提供。这些App的通知不会显示在您的iPhone上。",
+        "act": "ans/no",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "某些App（例如“噪声”App）仅在AppleWatch上提供。这些App的通知不会显示在您的iPhone上。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“遗落时通知”有什么功能？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "借助“遗落时通知”，当您将受支持的Apple设备、AirTag或“查找”网络配件遗落在未知位置时，您的iPhone将会向您发出提醒。了解如何在“查找”App中设置“遗落时通知”。您还可以添加位置，以指定当设备或物品遗落在哪里时，您不希望收到这一通知。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么型号的手机能将这一功能用于AirPodsPro、AirPodsMax和AirPods？",
+        "act": "what",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”",
+            "需要满足的条件"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "您可以将“遗落时通知”用于装有iOS15或更高版本的iPhone、装有iPadOS15或更高版本的iPad、搭载Apple芯片的Mac电脑以及“查找”物品。如果要将这一功能用于AirPodsPro、AirPodsMax和AirPods（第3代），您需要拥有iPhone12或更新机型。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎样查看设备的遗落位置？",
+        "act": "how",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "在“查找”App中设置和使用“遗落时通知”",
+            "查看设备的遗落位置",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先设置“遗落时通知”后，如果您将设备或物品遗落在未知位置，您就会在iPhone上收到一条通知*。然后轻点通知以查看物品的遗落位置。 最后轻点“继续”以打开“查找”App。",
+        "act": "ans/open",
+        "document": "在“查找”App中设置和使用“遗落时通知”.json",
+        "grounding": [
+            "设置“遗落时通知”后，如果您将设备或物品遗落在未知位置，您就会在iPhone上收到一条通知*。",
+            "轻点通知以查看物品的遗落位置。",
+            "轻点“继续”以打开“查找”App。在“查找”App中，您可以："
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "24"
+        ]
+    }
+]

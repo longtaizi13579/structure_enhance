@@ -1,0 +1,82 @@
+{
+    "document_id": 335,
+    "domain": "technology",
+    "name": "在AppleTV上下载App",
+    "graph": {
+        "1": {
+            "data": "在AppleTV上下载App",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "您可以从AppleTV上的AppStore下载App和游戏。如果您使用的是AppleTV（第3代），则只能更新内建App。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "如何下载适用于AppleTV的App",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "16": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "15"
+        },
+        "17": {
+            "data": "打开AppStoreApp。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "18": {
+            "data": "浏览或搜索您要下载的App。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "19": {
+            "data": "选择价格或“获取”按钮。如果您看到的是“打开”按钮，而不是价格或“获取”按钮，说明这个App已经下载过。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "20": {
+            "data": "在AppStore中，如果某个App有“获取”按钮而没有价格，",
+            "type": "condition",
+            "pid": "15"
+        },
+        "24": {
+            "data": "如何查找您购买的App",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "25": {
+            "data": "App会显示在主屏幕上。您可以在主屏幕上移动App，也可以隐藏App。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "29": {
+            "data": "在主屏幕上找不到某个App？如果您使用的是AppleTV（第3代），请查看这个App是否已被隐藏。要选取和取消隐藏App，请前往“设置”>“主菜单”。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "30": {
+            "data": "如果您找不到AppStore",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "31": {
+            "data": "AppleTV（第3代）上不提供AppStore。如果您使用的是这个机型，",
+            "type": "condition",
+            "pid": "30"
+        },
+        "36": {
+            "data": "则表示这个App是免费的。",
+            "type": "solution",
+            "pid": "20"
+        },
+        "37": {
+            "data": "则无法下载新的App，但您可以更新软件以更新内建App。",
+            "type": "solution",
+            "pid": "31"
+        }
+    }
+}

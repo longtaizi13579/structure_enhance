@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近有出国的打算，想了解一下在浙江省温州市办理护照的话，办理地方的办理时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照",
+            "办理时间",
+            "浙江省_温州市"
+        ],
+        "grounding_id": [
+            "1",
+            "127",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是要在温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口那里办理的吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，就是那里",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）A座2楼61-74号窗口"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那里的办理时间是工作日，夏季：上午8:30—12:00，下午14:30—17:30；春、秋、冬季：上午8:30—12:00，下午14:00—17:00；星期六（节假日除外）实行电话预约办证，预约电话：0577-89980376。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "工作日，夏季：上午8:30—12:00，下午14:30—17:30；春、秋、冬季：上午8:30—12:00，下午14:00—17:00；星期六（节假日除外）实行电话预约办证，预约电话：0577-89980376。",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "128",
+            "127"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，谢谢，那我办理护照大概要花费多少钱？",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "收费标准",
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1474",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你办理的是普通护照吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "普通护照"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "普通护照的话收费标准是120元一本",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "120元/本"
+        ],
+        "grounding_id": [
+            "1475"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那我可以网上支付这个费用吗？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1470"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你可以网上支付的",
+        "act": "ans/yes",
+        "document": "浙江省_温州市_0_0_出入境_护照_普通护照.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1471"
+        ]
+    }
+]

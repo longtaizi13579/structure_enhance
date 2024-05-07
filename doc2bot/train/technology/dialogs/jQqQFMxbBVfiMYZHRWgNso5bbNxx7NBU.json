@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想对我的iphone和ipad做一个备份，但我担心备份过程中会有损坏文件的情况，怎么能规避掉这种情况呢？",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找iPhone、iPad和iPodtouch的备份",
+            "为了避免损坏任何备份文件，您应了解以下内容："
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "不要对备份文件进行编辑、移动、重命名或提取其内容。例如，要从改变位置的备份文件恢复，您需要将备份文件移回到“备份”文件夹中原来的位置，否则文件将不起作用。备份可作为您设备上几乎所有数据和设置的安全副本。因此，虽然您可以查看或访问备份文件的内容，但这些内容通常不是以您可以读取的格式储存的。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好我知道了，那我还想问一下备份文件夹步骤是怎么样的？",
+        "act": "how",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在Windows8或10上搜索备份文件夹",
+            "查找iPhone、iPad和iPodtouch的备份"
+        ],
+        "grounding_id": [
+            "34",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您是问Mac系统还是windows系统？",
+        "act": "multiple-choice",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在Windows8或10上搜索备份文件夹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "Windows8系统。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在Windows8或10上搜索备份文件夹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先查找搜索栏，然后搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%，按下Return键，最后连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找搜索栏：",
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。",
+            "连按以下文件夹：“Apple”或“AppleComputer”>“MobileSync”>“Backup”。",
+            "按下Return键。"
+        ],
+        "grounding_id": [
+            "35",
+            "39",
+            "41",
+            "40"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果输入%appdata%看不到备份咋办？",
+        "act": "why",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那请再输入%USERPROFILE%。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "在搜索栏中输入%appdata%。如果看不到备份，请输入%USERPROFILE%。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想将Mac备份拷到其他位置上，可以这么操作吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "查找iPhone、iPad和iPodtouch的备份",
+            "将备份拷贝到其他位置"
+        ],
+        "grounding_id": [
+            "1",
+            "44"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当然可以，可以查找“备份”文件夹，然后将整个文件夹拷贝到其他位置。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "可以查找“备份”文件夹，然后将整个文件夹（而不是其中一部分）拷贝到其他位置，例如外置驱动器或网络储存位置。"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "明白那我想备份Mac上的个人文件夹也可以吗？",
+        "act": "verification",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "当您备份Mac上的个人文件夹时，时间机器会自动拷贝您的“备份”文件夹。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的可以，时间机器会自动拷贝您的“备份”文件夹。",
+        "act": "ans/open",
+        "document": "查找iPhone、iPad和iPodtouch的备份.json",
+        "grounding": [
+            "当您备份Mac上的个人文件夹时，时间机器会自动拷贝您的“备份”文件夹。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    }
+]

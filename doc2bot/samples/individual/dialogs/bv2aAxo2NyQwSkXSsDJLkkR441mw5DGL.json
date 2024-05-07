@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省嘉兴市出入境有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "出入境"
+        ],
+        "grounding_id": [
+            "T11",
+            "T239"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是台湾通行证及签注、常用服务、港澳通行证及签注还是护照方面呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询台湾通行证及签注有关的问题。",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T240"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是赴台其他签注、赴台学习签注 、应邀赴台签注还是其他签注有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "赴台其他签注的法定办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个签注可以自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "基本信息",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想咨询一下有关收费的问题",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "赴台其他签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "9553"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那您具体是想了解，是否收费、收费依据、收费项目名称还是是否支持网上支付？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "9560"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "收费的标准是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "1\t赴台其他",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "9561",
+            "9562"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台其他一次签注15元/件；多次有效签注80元/件。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_台湾通行证及签注_赴台其他签注.json",
+        "grounding": [
+            "国家发展和改革委员会、财政部发改价格〔2017〕1186号：赴台其他一次签注15元/件；多次有效签注80元/件。"
+        ],
+        "grounding_id": [
+            "9563"
+        ]
+    }
+]

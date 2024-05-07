@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下在Pages文稿、Numbers表格和Keynote讲演中录制音频",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在Pages文稿、Numbers表格和Keynote讲演中录制音频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在iPhone或iPad上录制音频还是在Mac上录制音频呢",
+        "act": "multiple-choice",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在iPhone或iPad上录制音频"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPhone或iPad上录制的话可以编辑录音吗",
+        "act": "verification",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在iPhone或iPad上录制音频",
+            "在iPhone或iPad上的Pages文稿、Numbers表格或Keynote讲演文稿中录制音频，然后播放录音。您可以随时编辑录音。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，您可以随时编辑录音",
+        "act": "ans/yes",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "在iPhone或iPad上的Pages文稿、Numbers表格或Keynote讲演文稿中录制音频，然后播放录音。您可以随时编辑录音。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果录制的话应该用什么麦克风",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "录制音频",
+            "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "录音的过程中可以查看幻灯片吗",
+        "act": "verification",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。",
+        "act": "ans/yes",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，你具体的操作步骤是怎么样的呢",
+        "act": "what",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "录制音频",
+            "您可以使用iPhone或iPad的内建麦克风、有线耳机或蓝牙耳机或者兼容的麦克风来录制音频。录音期间，您可以滚动浏览、缩放和查看其他页面、幻灯片或工作表。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "首先打开文稿后，依次轻点“添加”按钮、“媒体”按钮和“录制音频”，要开始录音，请轻点“录制”按钮，要停止录音，请轻点“停止”按钮。这段新录音随即将出现在屏幕底部的音频编辑器中，要试听录音，请轻点“试听”按钮。要从特定位置开始试听，请在录音上向左或向右轻扫来前往时间轴上的所需位置，然后轻点“试听”按钮。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "打开文稿后，依次轻点“添加”按钮、“媒体”按钮和“录制音频”。",
+            "要开始录音，请轻点“录制”按钮。",
+            "要停止录音，请轻点“停止”按钮。这段新录音随即将出现在屏幕底部的音频编辑器中。",
+            "要试听录音，请轻点“试听”按钮。要从特定位置开始试听，请在录音上向左或向右轻扫来前往时间轴上的所需位置，然后轻点“试听”按钮。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要编辑修剪录音的话应该怎么做",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "要修剪录音以仅播放所需的部分，请按照以下步骤操作：",
+            "编辑和替换录音"
+        ],
+        "grounding_id": [
+            "17",
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先拖移录音上的控制柄，以选择要保留的部分，然后轻点“修剪”按钮，以移除控制柄所选区域之外的所有内容。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "拖移录音上的控制柄，以选择要保留的部分。",
+            "轻点“修剪”按钮，以移除控制柄所选区域之外的所有内容。"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "想要从特定位置重新开始录音的话应该怎么办",
+        "act": "how",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "要从特定位置重新开始录音，请在录音上向左或向右轻扫来前往时间轴上的所需位置，然后轻点“录制”按钮。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请在录音上向左或向右轻扫来前往时间轴上的所需位置，然后轻点“录制”按钮。",
+        "act": "ans/open",
+        "document": "在Pages文稿、Numbers表格和Keynote讲演中录制音频.json",
+        "grounding": [
+            "要从特定位置重新开始录音，请在录音上向左或向右轻扫来前往时间轴上的所需位置，然后轻点“录制”按钮。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

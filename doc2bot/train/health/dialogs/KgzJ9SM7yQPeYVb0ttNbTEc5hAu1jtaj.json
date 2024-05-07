@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下青霉素的知识，有个英文名的青霉素类药物叫什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "青霉素类包括如下药物："
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您说的是Ampicillin？Carbenicillin?还是PenicillinV？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "Ampicillin",
+            "Carbenicillin",
+            "PenicillinV"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是C字母开头的青霉素类药物。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "青霉素类包括如下药物：",
+            "Carbenicillin"
+        ],
+        "grounding_id": [
+            "17",
+            "20"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那是Carbenicillin。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "Carbenicillin"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那哌拉西林常和哪一种药物联用呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "哌拉西林联合他佐巴坦"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "临床上，哌拉西林联合他佐巴坦使用。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "哌拉西林联合他佐巴坦"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那么哺乳期能用青霉素吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "哺乳期间使用青霉素通常被认为是可以接受的。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以，哺乳期间使用青霉素通常被认为是可以接受的（也请参见哺乳期用药。）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_抗生素_青霉素类.json",
+        "grounding": [
+            "哺乳期间使用青霉素通常被认为是可以接受的。（也请参见哺乳期用药。）"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那正在母乳喂养的母亲必须服药的，该停止母乳喂养吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期用药_哺乳期用药.json",
+        "grounding": [
+            "正在母乳喂养的母亲必须服药时，她们会想知道是否应停止母乳喂养。这一问题的答案取决于以下因素："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": " 正在母乳喂养的母亲必须服药时，她们会想知道是否应停止母乳喂养。这一问题的答案取决于四个因素：多少药物能够进入乳汁；药物是否被婴儿吸收；药物对婴儿的作用；婴儿的吸乳量。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期用药_哺乳期用药.json",
+        "grounding": [
+            "正在母乳喂养的母亲必须服药时，她们会想知道是否应停止母乳喂养。这一问题的答案取决于以下因素："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

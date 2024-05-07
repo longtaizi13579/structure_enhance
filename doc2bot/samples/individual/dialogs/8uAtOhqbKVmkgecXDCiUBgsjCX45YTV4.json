@@ -1,0 +1,402 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省绍兴市的，想咨询下医疗保险的问题？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "医疗保险",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T7",
+            "T169",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解未就业配偶医疗待遇核准支付，城乡居民参保信息变更登记，转移接续手续办理，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "未就业配偶医疗待遇核准支付"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解未就业配偶医疗待遇核准支付的问题。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "未就业配偶医疗待遇核准支付"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解办理时间，办理地点，咨询方式，监督投诉方式，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解办理时间。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "办理时间是：工作日，上午：08:30-12:00下午：14:00-17:00",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_社保医保_医疗保险_未就业配偶医疗待遇核准支付.json",
+        "grounding": [
+            "办理时间",
+            "工作日，上午：08:30-12:00下午：14:00-17:00"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我还想问下转移接续手续办理的办理流程？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理流程是：步骤1: 收件 步骤2: 受理 步骤3: 审核 步骤4: 办结 步骤5: 送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理流程",
+            "收件",
+            "受理",
+            "审核",
+            "办结",
+            "送达"
+        ],
+        "grounding_id": [
+            "120",
+            "121",
+            "130",
+            "139",
+            "148",
+            "157"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "审核的话，审查标准是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "审核",
+            "审查标准"
+        ],
+        "grounding_id": [
+            "139",
+            "144"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "审核标准是：根据《杭州市基本医疗保障办法》等法规要求，对申请材料内容进行审核并对业务处理进行核对。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "审查标准",
+            "根据《杭州市基本医疗保障办法》等法规要求，对申请材料内容进行审核并对业务处理进行核对。"
+        ],
+        "grounding_id": [
+            "144",
+            "145"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办结的话，办理期限是多久？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办结",
+            "办理期限"
+        ],
+        "grounding_id": [
+            "148",
+            "149"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "办理期限是：即办。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办结",
+            "办理期限",
+            "即办"
+        ],
+        "grounding_id": [
+            "148",
+            "149",
+            "150"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问下转移接续手续办理的问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您是想了解是否支持自助终端办理，法定办结时限，到办事现场次数，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想了解是否支持自助终端办理？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "支持。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理过程中遇到问题，应该通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "给我投诉电话就行。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "投诉电话是：0571-12345-1",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉电话",
+            "0571-12345-1"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "投诉地址是什么，也告诉我一下吧？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "投诉地址是：杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）4号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉地址",
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）4号窗口"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "我还想问下办理过程中的一些问题？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "77"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "您是想了解是否网办，办理形式，通办范围，还是其它？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "我想了解办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "办理形式有：网上申请，现场窗口申请，现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "80",
+            "81"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "一般几天能办完？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "法定办结时限为30（工作日）。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "53",
+            "54"
+        ]
+    }
+]

@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一下关于感染的一些疾病？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "医学主题",
+            "感染"
+        ],
+        "grounding_id": [
+            "T3",
+            "T274"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询细菌感染：革兰氏阴性菌、脑膜炎球菌感染、 痘病毒 、疱疹病毒感染还是其他？",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "细菌感染：革兰氏阴性菌"
+        ],
+        "grounding_id": [
+            "T315"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下细菌感染：革兰氏阴性菌。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "细菌感染：革兰氏阴性菌"
+        ],
+        "grounding_id": [
+            "T315"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "细菌感染：革兰氏阴性菌有猫抓病、假单胞菌感染、革兰氏阴性菌概述 、大肠杆菌感染等，您想具体了解哪一种？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "猫抓病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道猫抓病，如果对这种病诊断不明，并且怀疑是癌症时，医生会做些什么检查？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "猫抓病",
+            "如果诊断不明，尤其当怀疑癌症时，医生可从肿大淋巴结采集组织样本，并进行分析（淋巴结活检）。"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果诊断不明，尤其当怀疑癌症时，医生可从肿大淋巴结采集组织样本，并进行分析。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "如果诊断不明，尤其当怀疑癌症时，医生可从肿大淋巴结采集组织样本，并进行分析（淋巴结活检）。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "猫抓病的诊断方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "猫抓病的诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "诊断方式：血液化验、有时做血液培养、有时进行淋巴结液穿刺或活检。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "诊断方式：",
+            "血液化验",
+            "有时做血液培养",
+            "有时进行淋巴结液穿刺或活检"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "猫抓病的治疗方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "猫抓病的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "治疗方式：热敷和止痛、必要时可使用抗生素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "治疗方式：",
+            "热敷和止痛",
+            "必要时可使用抗生素"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对于免疫系统健全的人，他们一般怎么治疗？",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "对于免疫系统健全的人，通常只需热敷感染区域和服用止痛药。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "对于免疫系统健全的人，通常只需热敷感染区域和服用止痛药。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "对于免疫系统健全的人，通常只需热敷感染区域和服用止痛药。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "免疫系统弱的人因该如何防止感染呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "免疫系统受损者可通过避免接触家猫来防止感染。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "免疫系统受损者可通过避免接触家猫来防止感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "免疫系统受损者可通过避免接触家猫来防止感染。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "对于免疫系统受损的人需要怎么治疗？",
+        "act": "how",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "通常，治疗上只需要热敷感染部位和服用止痛药，但免疫系统受损的人需要使用抗生素。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "免疫系统受损的人需要使用抗生素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_细菌感染：革兰氏阴性菌_猫抓病.json",
+        "grounding": [
+            "通常，治疗上只需要热敷感染部位和服用止痛药，但免疫系统受损的人需要使用抗生素。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

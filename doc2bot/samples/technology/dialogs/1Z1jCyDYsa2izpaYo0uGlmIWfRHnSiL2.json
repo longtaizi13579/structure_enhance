@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于AppleUSB-C数字影音多端口转换器的相关信息。",
+        "act": "what",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "关于AppleUSB-C数字影音多端口转换器"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解关于转换器连接设备、视频、数据传输以及为其他设备充电还是其他的一些相关信息呢？",
+        "act": "multiple-choice",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "这款转换器还可将Mac或iPadPro连接到USB-A设备，它配备一个可为Mac笔记本电脑或iPadPro充电的USB-C端口。所有三个端口可以同时使用。",
+            "视频",
+            "数据传输以及为其他设备充电"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "48"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我想先问一下这款转换器可以将Mac或iPadPro连接USB-A设备吗？",
+        "act": "verification",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "这款转换器还可将Mac或iPadPro连接到USB-A设备，它配备一个可为Mac笔记本电脑或iPadPro充电的USB-C端口。所有三个端口可以同时使用。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以连接的，它配备一个可为Mac笔记本电脑或iPadPro充电的USB-C端口。所有三个端口可以同时使用。",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "这款转换器还可将Mac或iPadPro连接到USB-A设备，它配备一个可为Mac笔记本电脑或iPadPro充电的USB-C端口。所有三个端口可以同时使用。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我家里还有那个HDMI线缆的显示屏，我想问一下USB-C这个可以将什么设备连接呢？",
+        "act": "what",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "USB-C数字影音多端口转换器可将以下设备连接到使用HDMI线缆的显示屏："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "SB-C数字影音多端口转换器可将以下设备连接到使用HDMI线缆的显示屏：配备雷雳3(USB-C)或USB-C端口的Mac、配备USB-C端口的iPadPro。",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "USB-C数字影音多端口转换器可将以下设备连接到使用HDMI线缆的显示屏：",
+            "配备雷雳3(USB-C)或USB-C端口的Mac",
+            "配备USB-C端口的iPadPro"
+        ],
+        "grounding_id": [
+            "3",
+            "7",
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，明白了，我还想问一下ppleUSB-C数字影音多端口转换器的视频这方面信息。",
+        "act": "what",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "关于AppleUSB-C数字影音多端口转换器",
+            "视频"
+        ],
+        "grounding_id": [
+            "1",
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想了解视频HDMI中端口连接显示屏、型号方面的还是其他的相关的问题呢？",
+        "act": "multiple-choice",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "您可以将这款转换器的HDMI端口与使用HDMI线缆连接的显示屏、电视机或投影仪搭配使用。它与HDCP兼容，并支持以下规格，具体取决于转换器的型号。",
+            "A1621型号在与macOSSierra10.12或更高版本或者iOS12或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI1.4b。"
+        ],
+        "grounding_id": [
+            "18",
+            "44"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我是想问一下1621型号在与macOSSierra10.12或更高版本搭配使用的话怎么样呢？",
+        "act": "how",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "A1621型号在与macOSSierra10.12或更高版本或者iOS12或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI1.4b。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "A1621型号在与macOSSierra10.12或更高版本或者iOS12或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI1.4b。最高1080p(60Hz)、3840x2160(30Hz)",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "A1621型号在与macOSSierra10.12或更高版本或者iOS12或更高版本搭配使用时，支持以下分辨率和刷新率的HDMI1.4b。",
+            "最高1080p(60Hz)",
+            "3840x2160(30Hz)"
+        ],
+        "grounding_id": [
+            "44",
+            "45",
+            "46"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那这个AppleUSB-C数字影音多端口转换器连接使用起来怎么样呢？",
+        "act": "how",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "关于AppleUSB-C数字影音多端口转换器",
+            "将配备雷雳3(USB-C)或USB-C端口的Mac连接到HDMI显示屏，同时还可以为Mac充电以及连接到USB-A设备。配备USB-C端口的iPadPro机型也可以使用这款转换器。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "将配备雷雳3(USB-C)或USB-C端口的Mac连接到HDMI显示屏，同时还可以为Mac充电以及连接到USB-A设备。配备USB-C端口的iPadPro机型也可以使用这款转换器。",
+        "act": "ans/open",
+        "document": "关于AppleUSB-C数字影音多端口转换器.json",
+        "grounding": [
+            "将配备雷雳3(USB-C)或USB-C端口的Mac连接到HDMI显示屏，同时还可以为Mac充电以及连接到USB-A设备。配备USB-C端口的iPadPro机型也可以使用这款转换器。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

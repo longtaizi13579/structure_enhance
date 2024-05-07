@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下使用Keynote直播的信息",
+        "act": "what",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "开始使用Keynote直播"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解在iPhone或iPad上启动演示文稿，在Mac上启动演示文稿，还是在iCloud版Keynote讲演中启动演示文稿",
+        "act": "multiple-choice",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "在iPhone或iPad上启动演示文稿"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道在iPhone或iPad上启动演示文稿的具体步骤",
+        "act": "what",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone或iPad上启动演示文稿"
+        ],
+        "grounding_id": [
+            "14",
+            "13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Keynote讲演App中，打开您的演示文稿。轻点“更多”按钮，轻点“使用Keynote直播”，然后轻点“继续”。将为您的演示文稿创建Keynote直播链接。 轻点“邀请观看者”。选择您想要用来发送邀请的服务并添加观看者。轻点“发送”或“发布”。。如果您想要让观看者必须先输入密码才能查看您的演示文稿，请轻点“更多选项”。轻点“添加密码”，然后输入您的密码并轻点“完成”。确保将此密码发送给您邀请的观看者。如果您的观看者已准备好观看，请轻点“现在播放”。",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "在Keynote讲演App中，打开您的演示文稿。轻点“更多”按钮。",
+            "轻点“使用Keynote直播”，然后轻点“继续”。将为您的演示文稿创建Keynote直播链接。",
+            "轻点“邀请观看者”。选择您想要用来发送邀请的服务并添加观看者。轻点“发送”或“发布”。您还可以拷贝演示文稿的链接并将该链接粘贴到任何位置。",
+            "如果您想要让观看者必须先输入密码才能查看您的演示文稿，请轻点“更多选项”。轻点“添加密码”，然后输入您的密码并轻点“完成”。确保将此密码发送给您邀请的观看者。",
+            "如果您的观看者已准备好观看，请轻点“现在播放”。如果您想要另选时间来启动播放，请轻点“待播”。如果您轻点“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。当您准备进行演示时，请轻点工具栏中的“播放”按钮，然后轻点“在Keynote直播上播放”。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想要另选时间来启动播放的话怎么办",
+        "act": "how",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "如果您的观看者已准备好观看，请轻点“现在播放”。如果您想要另选时间来启动播放，请轻点“待播”。如果您轻点“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。当您准备进行演示时，请轻点工具栏中的“播放”按钮，然后轻点“在Keynote直播上播放”。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "另选时间来启动播放，请轻点“待播”。如果您轻点“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "如果您的观看者已准备好观看，请轻点“现在播放”。如果您想要另选时间来启动播放，请轻点“待播”。如果您轻点“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。当您准备进行演示时，请轻点工具栏中的“播放”按钮，然后轻点“在Keynote直播上播放”。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在开始之前Keynote演示文稿位于共享文件夹中的话可以吗",
+        "act": "verification",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "开始之前",
+            "请将它移至iCloud云盘中未进行共享的另一个文件夹，或停止共享相应文件夹，以便使用Keynote直播。"
+        ],
+        "grounding_id": [
+            "3",
+            "48"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要将它移至iCloud云盘中未进行共享的另一个文件夹，或停止共享相应文件夹，以便使用Keynote直播。",
+        "act": "ans/no",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "请将它移至iCloud云盘中未进行共享的另一个文件夹，或停止共享相应文件夹，以便使用Keynote直播。"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "可以使用iCloud.com网站上的Keynote讲演吗",
+        "act": "verification",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "要通过Keynote直播功能在线播放演示文稿，请更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "要通过Keynote直播功能在线播放演示文稿，请更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那是必须在设备上登录iCloud吗",
+        "act": "verification",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "要通过Keynote直播功能在线播放演示文稿，请更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，并在iCloud云盘中储存演示文稿",
+        "act": "ans/yes",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "要通过Keynote直播功能在线播放演示文稿，请更新至最新版本的Keynote讲演（iPhone、iPad、iPodtouch或Mac版），或者使用iCloud.com网站上的Keynote讲演。您还必须在设备上登录iCloud，并在iCloud云盘中储存演示文稿。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，如果是要在iCloud版Keynote讲演中启动演示文稿的话步骤是怎么样的",
+        "act": "how",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "在iCloud版Keynote讲演中启动演示文稿"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先打开您的演示文稿后，点按工具栏中的“工具”按钮，然后选取“使用Keynote直播”。点按“继续”。将在iCloud.com上创建您的演示文稿的链接。要随时访问这个链接，请点按“工具”按钮，然后点按“Keynote直播设置”。如果您想要让观看者必须先输入密码才能查看您的演示文稿，请点按“更多选项”。点按“邀请观看者”。键入您要邀请的人员的电子邮件地址，然后点按“发送”。您还可以拷贝演示文稿的链接并将它粘贴到任何位置。如果您的观看者已准备好观看，请点按“现在播放”。如果您想要另选时间来启动播放，请点按“待播”。如果您点按“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。当您准备进行演示时，请点按工具栏中的“播放”按钮，然后点按“在Keynote直播上播放”。",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "打开您的演示文稿后，点按工具栏中的“工具”按钮，然后选取“使用Keynote直播”。点按“继续”。将在iCloud.com上创建您的演示文稿的链接。要随时访问这个链接，请点按“工具”按钮，然后点按“Keynote直播设置”。",
+            "如果您想要让观看者必须先输入密码才能查看您的演示文稿，请点按“更多选项”。点按“添加密码”，然后键入您的密码并点按“设定密码”。",
+            "点按“邀请观看者”。键入您要邀请的人员的电子邮件地址，然后点按“发送”。您还可以拷贝演示文稿的链接并将它粘贴到任何位置。",
+            "如果您的观看者已准备好观看，请点按“现在播放”。如果您想要另选时间来启动播放，请点按“待播”。如果您点按“待播”，您可以继续邀请更多观看者，并添加或更改Keynote直播密码。当您准备进行演示时，请点按工具栏中的“播放”按钮，然后点按“在Keynote直播上播放”。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "点按“更多选项”之后怎么做呢",
+        "act": "how",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "如果您想要让观看者必须先输入密码才能查看您的演示文稿，请点按“更多选项”。点按“添加密码”，然后键入您的密码并点按“设定密码”。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "点按“添加密码”，然后键入您的密码并点按“设定密码”",
+        "act": "ans/open",
+        "document": "开始使用Keynote直播.json",
+        "grounding": [
+            "如果您想要让观看者必须先输入密码才能查看您的演示文稿，请点按“更多选项”。点按“添加密码”，然后键入您的密码并点按“设定密码”。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在Mac上查看AppleID的余额，该怎么操作呢？",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额",
+            "在Mac上查看余额"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在Mac上查看余额你需要1.打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。 2.如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "在Mac上查看余额",
+            "打开AppStore。如果您在边栏底部看到登录按钮，请点按这个按钮并使用您的AppleID登录。",
+            "如果您的帐户有余额，相应金额会显示在您的姓名下方。如果您没有看到金额，则说明您的帐户没有余额。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那查看我AppleID的余额可以在PC上，使用Windows版iTunes吗？",
+        "act": "verification",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "查看您的AppleID余额",
+            "要查看您的余额，请使用AppStore。或在PC上，使用Windows版iTunes。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，要查看您的余额，除了使用AppStore。也可以在PC上，使用Windows版iTunes。",
+        "act": "ans/yes",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "要查看您的余额，请使用AppStore。或在PC上，使用Windows版iTunes。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": " 我总觉得我AppleID的余额似乎不正确怎么办？",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "如果您的AppleID余额似乎不正确"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您认为自己的AppleID余额不正确，请退出登录AppStore或iTunesStore。然后重新登录并再次查看余额。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "请退出登录AppStore或iTunesStore。然后重新登录并再次查看余额。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可余额还是不对，如果我对某个订阅进行了续订会导致我AppleID余额变动吗？",
+        "act": "verification",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "请查看您的购买历史记录，看看您是不是购买了某个项目，或者是不是对某个订阅进行了续订。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，如果您认为余额仍不正确，那就需要查看您的购买历史记录，看看您是不是购买了某个项目，或者是不是对某个订阅进行了续订，这些都是会导致余额变动的。",
+        "act": "ans/yes",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "请查看您的购买历史记录，看看您是不是购买了某个项目，或者是不是对某个订阅进行了续订。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我想删除我的AppleID，该怎么办？",
+        "act": "how",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "如果计划删除您的AppleID或更改您的国家或地区"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那你必须用完所有AppleID余额，然后才能删除您的AppleID，您还可能需要等待所有待处理的退款处理完毕。如果您的余额低于单个项目的价格，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "查看您的AppleID余额.json",
+        "grounding": [
+            "您必须用完所有AppleID余额，然后才能删除您的AppleID或更改您的AppleID国家或地区。您还可能需要等待所有待处理的退款处理完毕。如果您的余额低于单个项目的价格，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

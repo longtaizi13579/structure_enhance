@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我是一个新官携带者，但是我现在怀孕了怎么办？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "COVID-19是一种可能导致重症的呼吸系统疾病。是想咨询怀孕期间COVID-19的预防还是怀孕期间COVID-19的治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的治疗"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的预产期也要到了，分娩前我都要做什么准备呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的治疗"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在分娩前，COVID-19孕妇应通知医院她们已被感染。医院工作人员之后可以采取预防措施来防止病毒播散。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "在分娩前，COVID-19孕妇应通知医院她们已被感染。医院工作人员之后可以采取预防措施来防止病毒播散。"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "因为新冠我一直在出于发烧状态，给我吃了一个药缓解了我症状，这是什么药呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "对乙酰氨基酚可用于减轻发热和疼痛，如肌肉酸痛。",
+            "怀孕期间COVID-19的治疗"
+        ],
+        "grounding_id": [
+            "55",
+            "51"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您服用的药物里含有乙酰氨基酚可用于减轻发热和疼痛，如肌肉酸痛。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "对乙酰氨基酚可用于减轻发热和疼痛，如肌肉酸痛。"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我母体带着新冠的病毒，会影响我的孩子吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "美国妇产科医师学会：冠状病毒(COVID-19)、妊娠和哺乳：患者须知：本网站讨论了COVID-19可能如何影响孕妇和胎儿、孕妇是否应接种COVID-19疫苗、如何避免感染病毒、在疫情期间如何保持健康、如果孕妇认为自己患有COVID-19或如果她们感染COVID-19应怎么做，以及疫情如何影响其分娩计划。还讨论了母乳喂养和COVID-19。本网页会在得到有关COVID-19和怀孕的新信息后进行更新。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是会有一定的影响。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "美国妇产科医师学会：冠状病毒(COVID-19)、妊娠和哺乳：患者须知：本网站讨论了COVID-19可能如何影响孕妇和胎儿、孕妇是否应接种COVID-19疫苗、如何避免感染病毒、在疫情期间如何保持健康、如果孕妇认为自己患有COVID-19或如果她们感染COVID-19应怎么做，以及疫情如何影响其分娩计划。还讨论了母乳喂养和COVID-19。本网页会在得到有关COVID-19和怀孕的新信息后进行更新。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "一直在发高烧保持在39.5度以上，会不会也影响到胎儿呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险：",
+            "孕期发烧"
+        ],
+        "grounding_id": [
+            "5",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想咨询孕期发烧会增加哪些风险还是有哪些症状呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "孕期发烧",
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想咨询对于胎儿有哪些风险。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "在孕早期，高于103°F（39.5°C）的体温会增加下列风险："
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "会出现自然流产或者婴儿大脑或脊髓缺陷。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_孕期发烧.json",
+        "grounding": [
+            "自然流产",
+            "婴儿大脑或脊髓缺陷"
+        ],
+        "grounding_id": [
+            "6",
+            "9"
+        ]
+    }
+]

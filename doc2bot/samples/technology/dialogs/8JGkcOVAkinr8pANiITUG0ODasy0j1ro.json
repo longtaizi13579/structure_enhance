@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道提示创建新的iCloud安全码怎么办",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果提示您创建新的iCloud安全码"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问是在iPhone、iPad或iPodtouch上还是在Mac上呢",
+        "act": "multiple-choice",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上，不升级的话可以吗",
+        "act": "verification",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您不升级，您将在24小时后再次看到这条信息。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "如果您不升级，您将在24小时后再次看到这条信息。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那创建新安全码之后还能继续使用iCloud钥匙串吗？",
+        "act": "verification",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "创建新的iCloud安全码",
+            "当您看到这条信息时，也可以创建新安全码，并在设备上继续使用iCloud钥匙串。"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "当您看到这条信息时，也可以创建新安全码，并在设备上继续使用iCloud钥匙串。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "iCloud安全码的用处是什么呢",
+        "act": "what",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "选择一个您可以记住的安全码。iCloud安全码用于当您在新设备上设置iCloud钥匙串和恢复iCloud钥匙串时验证您的身份。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iCloud安全码用于当您在新设备上设置iCloud钥匙串和恢复iCloud钥匙串时验证您的身份。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "选择一个您可以记住的安全码。iCloud安全码用于当您在新设备上设置iCloud钥匙串和恢复iCloud钥匙串时验证您的身份。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "怎么看有没有启用双重认证呢",
+        "act": "how",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "本文不适用于启用了双重认证的帐户。在iPhone、iPad或iPodtouch上，依次轻点“设置”、“[您的姓名]”、“密码与安全性”可查看是否打开了双重认证。在Mac上，选取苹果菜单>“系统偏好设置”，点按AppleID，然后选择“密码与安全性”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在iPhone、iPad或iPodtouch上，依次轻点“设置”、“[您的姓名]”、“密码与安全性”可查看是否打开了双重认证。在Mac上，选取苹果菜单>“系统偏好设置”，点按AppleID，然后选择“密码与安全性”。",
+        "act": "ans/open",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "本文不适用于启用了双重认证的帐户。在iPhone、iPad或iPodtouch上，依次轻点“设置”、“[您的姓名]”、“密码与安全性”可查看是否打开了双重认证。在Mac上，选取苹果菜单>“系统偏好设置”，点按AppleID，然后选择“密码与安全性”。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那在Mac上创建新安全码需要更新吗",
+        "act": "verification",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "在Mac上",
+            "点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS。"
+        ],
+        "grounding_id": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "需要点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS",
+        "act": "ans/yes",
+        "document": "如果提示您创建新的iCloud安全码.json",
+        "grounding": [
+            "点按信息菜单上的“创建新安全码”，最小化打开的窗口，并将您的Mac更新到最新版本的macOS。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    }
+]

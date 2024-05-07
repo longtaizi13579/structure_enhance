@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下，在温州注销外商投资合伙人怎么咨询？",
+        "act": "how",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询方式",
+            "浙江省_温州市",
+            "外商投资合伙企业注销登记"
+        ],
+        "grounding_id": [
+            "26",
+            "T12",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想电话咨询还是现场咨询？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "现场吧，因为我是法人，要到现场的。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，地址在：温州市民中心B幢三楼咨询窗口。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询地址",
+            "温州市民中心（温州市鹿城区滨江街道会展路1288号）B幢三楼咨询窗口"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行，那除了地址，有电话不？我怕我在后面准备材料的过程中有问题，我有电话还可以再继续了解。",
+        "act": "what",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以拨打我们的咨询电话，0577-88926105。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外商投资合伙企业注销登记.json",
+        "grounding": [
+            "咨询电话",
+            "0577-88926105"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我提交申请后什么时候能办理下来？",
+        "act": "when",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您想问法定时限还是承诺时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限呗。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日内。",
+        "act": "ans/open",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "59",
+            "60"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "知道了，然后我想问最后一个，每次过去都有100来号人了。能不能在旁边的自助机办理？",
+        "act": "verification",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不支持。",
+        "act": "ans/no",
+        "document": "浙江省_温州市_0_0_企业注销_常用服务_外国企业常驻代表机构注销登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我之前在浙江杭州市办理了一个供养亲属的抚恤金申请挺不满意的，想问一下投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "浙江省_杭州市",
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "T4",
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以到这里投诉杭州市人力社保综合服务大厅服务台，在中河中路248号。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（中河中路248号）服务台"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的谢谢，我再咨询个别的事，浙江衢州市申请统筹地区以外的交通食宿费的事。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的您是想咨询统筹地区以外交通和食宿费申领哪方面的事呢？",
+        "act": "question/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想知道多长时间能办完？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "57"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这边帮您查询到法定办结时限是42个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "42（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "想问有自助机器可以办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个是不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，我有个朋友想在浙江杭州市办理老工伤托管登记想问都有什么办理方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记",
+            "办理形式",
+            "工伤保险",
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "1",
+            "100",
+            "T189",
+            "T4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "查询到两种方式网上申请办理或者到现场窗口申请办理都可以的，您想选择哪种形式？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我选网上办理，有什么地方是需要收费的吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "老工伤人员托管登记",
+            "收费标准",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "244",
+            "245"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "老工伤人员托管登记是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_工伤保险_老工伤人员托管登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "246"
+        ]
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何加入FaceTime群聊通话？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的FaceTime群聊功能.json",
+        "grounding": [
+            "加入FaceTime群聊通话"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“通知中心”或锁定屏幕中的通知进入，或者从“信息”加入FaceTime群聊通话，或者从“FaceTime通话”App加入某一通话，你想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad和iPodtouch上的FaceTime群聊功能.json",
+        "grounding": [
+            "轻点“通知中心”或锁定屏幕中的通知，然后轻点“FaceTime通话”按钮。",
+            "要从“信息”加入FaceTime群聊通话，请轻点屏幕顶部的通知，或轻点“信息”内相应群组对话中的“加入”。轻点“加入”后，系统会自动将您接入通话。",
+            "要从“FaceTime通话”App加入某一通话，只需前往“FaceTime通话”中正在进行的通话，然后轻点“FaceTime通话”按钮。"
+        ],
+        "grounding_id": [
+            "25",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "从“FaceTime通话”App加入某一通话怎么做？",
+        "act": "how",
+        "document": "使用iPhone、iPad和iPodtouch上的FaceTime群聊功能.json",
+        "grounding": [
+            "要从“FaceTime通话”App加入某一通话，只需前往“FaceTime通话”中正在进行的通话，然后轻点“FaceTime通话”按钮。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要从“FaceTime通话”App加入某一通话，只需前往“FaceTime通话”中正在进行的通话，然后轻点“FaceTime通话”按钮。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad和iPodtouch上的FaceTime群聊功能.json",
+        "grounding": [
+            "要从“FaceTime通话”App加入某一通话，只需前往“FaceTime通话”中正在进行的通话，然后轻点“FaceTime通话”按钮。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎么使用“隔空打印”进行打印?",
+        "act": "how",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "使用“隔空打印”进行打印"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开您想要从中进行打印的App。 其次要找到打印选项，请轻点这个App的共享图标—或—或者轻点。 再次向下滚动并轻点或“打印”。 然后轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。 接着选取打印份数或其他选项，例如要打印的页面。 最后轻点右上角的“打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "打开您想要从中进行打印的App。",
+            "要找到打印选项，请轻点这个App的共享图标—或—或者轻点。",
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。",
+            "轻点“选择打印机”，然后选取一台支持“隔空打印”的打印机。",
+            "选取打印份数或其他选项，例如要打印的页面。",
+            "轻点右上角的“打印”。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "所有App都支持“隔空打印”吗？",
+        "act": "verification",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "并非所有App都支持“隔空打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "向下滚动并轻点或“打印”。如果找不到打印选项，请查看这个App的使用手册或“帮助”部分。并非所有App都支持“隔空打印”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "“隔空打印”要连网吗？",
+        "act": "verification",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "在连接到Wi-Fi或有线网络的情况下可以使用“隔空打印”。如果将“隔空打印”设备连接到AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑，则这些设备无法使用“隔空打印”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的。在连接到Wi-Fi或有线网络的情况下可以使用“隔空打印”。",
+        "act": "ans/yes",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "在连接到Wi-Fi或有线网络的情况下可以使用“隔空打印”。如果将“隔空打印”设备连接到AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑，则这些设备无法使用“隔空打印”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑呢？",
+        "act": "verification",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "在连接到Wi-Fi或有线网络的情况下可以使用“隔空打印”。如果将“隔空打印”设备连接到AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑，则这些设备无法使用“隔空打印”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果将“隔空打印”设备连接到AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑，则这些设备无法使用“隔空打印”。",
+        "act": "ans/open",
+        "document": "使用“隔空打印”通过iPhone、iPad或iPodtouch进行打印.json",
+        "grounding": [
+            "在连接到Wi-Fi或有线网络的情况下可以使用“隔空打印”。如果将“隔空打印”设备连接到AppleAirPort基站或AirPort时间返回舱的USB端口，或使用蓝牙连接到电脑，则这些设备无法使用“隔空打印”。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    }
+]

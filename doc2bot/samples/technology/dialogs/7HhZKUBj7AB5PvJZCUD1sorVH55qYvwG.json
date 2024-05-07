@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，AppleWatchSeries7中的“血氧”App测量的数据，可以用于医疗用途吗？",
+        "act": "verification",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App",
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不可以。“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。",
+        "act": "ans/no",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "“血氧”App的测量数据不适用于医疗用途，只能用于一般健身与健康目的。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如何使用“血氧”App？",
+        "act": "how",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "如何使用“血氧”App"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想了解：需要满足的条件，设置“血氧”App和后台读数，还是如何进行血氧测量？",
+        "act": "multiple-choice",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "设置“血氧”App和后台读数"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "先说下怎么设置“血氧”App和后台读数吧。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "设置“血氧”App和后台读数"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体步骤：首先，在iPhone上，打开“健康”App。然后，按照屏幕上的步骤操作。如果您没有看到设置提示，请轻点“浏览”标签，然后轻点“呼吸”>“血氧”>“启用”。完成设置后，在AppleWatch上打开“血氧”App以测量血氧水平。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone上，打开“健康”App。",
+            "按照屏幕上的步骤操作。如果您没有看到设置提示，请轻点“浏览”标签，然后轻点“呼吸”>“血氧”>“启用”。",
+            "完成设置后，在AppleWatch上打开“血氧”App以测量血氧水平。"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我怎么看不到血氧”App？",
+        "act": "why",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "则可在AppleWatch上的AppStore中搜索“血氧”，然后下载这个App。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您仍然没有在AppleWatch上看到“血氧”App， 则可在AppleWatch上的AppStore中搜索“血氧”，然后下载这个App。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "则可在AppleWatch上的AppStore中搜索“血氧”，然后下载这个App。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "血氧App的主要作用是什么？",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "您可以根据需要使用“血氧”App直接在手腕上测量血氧水平，以了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "什么是血氧？",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "什么是血氧"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "血氧水平是指由血红细胞从肺部输送至身体其他部位的氧气所占的百分比。了解血液的携氧能力有助于您了解自己的整体健康状况。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "正常人的血氧水平是多少？",
+        "act": "what",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。",
+        "act": "ans/open",
+        "document": "如何在AppleWatchSeries6或AppleWatchSeries7上使用“血氧”App.json",
+        "grounding": [
+            "大多数人的血氧水平在95%到100%之间。不过，有些人的血氧水平会低于95%，但他们仍能正常生活。睡眠期间测得的数值会略微偏低，这是正常情况；部分用户的数值可能会低于95%。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

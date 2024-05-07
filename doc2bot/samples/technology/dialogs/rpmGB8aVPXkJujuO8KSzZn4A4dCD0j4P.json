@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解有关对电脑授权的须知事项。",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权",
+            "有关对电脑授权的须知事项"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您有五台已授权电脑，并想要对新电脑进行授权，[18] 则必须取消对其中一台电脑的授权。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "则必须取消对其中一台电脑的授权。"
+        ],
+        "grounding_id": [
+            "88"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还有哪些事项？",
+        "act": "what",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "您授权的每台电脑都算作一个授权额度，即使您多次授权同一台电脑，也算作一个授权额度。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果需要对无法使用的电脑取消授权要怎么做？",
+        "act": "how",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "如果需要对您无法使用的电脑取消授权"
+        ],
+        "grounding_id": [
+            "73"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。您每年只能取消一次对所有电脑的授权。",
+        "act": "ans/open",
+        "document": "授权电脑播放iTunesStore购买项目或取消您对电脑访问iTunesStore购买项目的授权.json",
+        "grounding": [
+            "要对您无法使用的电脑取消授权，您必须取消对所有电脑的授权。然后再次授权您拥有的每台电脑。您每年只能取消一次对所有电脑的授权。"
+        ],
+        "grounding_id": [
+            "74"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我现在要去台湾办业务，我的签证多久会下来？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "台湾通行证及签注",
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "T240",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，请为你现在在哪个省？",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我现在在浙江省湖州市",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想知道承诺办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "7（工作日）",
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "62",
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我会多久才能收到啊",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道iCloud通讯录、日历或提醒事项没有同步的话怎么办",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的iCloud通讯录、日历或提醒事项没有同步"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以试试重新启动“通讯录”、“日历”或“提醒事项”App，刷新您的联系人和日历，检查您的App设置或者将iCloud通讯录、日历或提醒事项设置为您的默认选择",
+        "act": "multiple-choice",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "刷新您的联系人和日历"
+        ],
+        "grounding_id": [
+            "48"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果要刷新日历的话应该怎么做呢",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "要刷新您的日历，请按照以下步骤操作："
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“日历”App，然后轻点“日历”标签，最后在列表上向下轻扫以刷新您的日程。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "打开“日历”App。",
+            "轻点“日历”标签。",
+            "在列表上向下轻扫以刷新您的日程。"
+        ],
+        "grounding_id": [
+            "51",
+            "52",
+            "53"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那日历在iCloud中是不是就会自动更新",
+        "act": "verification",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "将iCloud通讯录、日历或提醒事项设置为您的默认选择",
+            "如果您的通讯录、日历和提醒事项在iCloud中，则iCloud会自动更新您的信息。如果您的信息位于第三方帐户（如Google或Yahoo）中，您可以将默认帐户更改为iCloud。将默认帐户更改为iCloud不会将现有信息从第三方服务移至iCloud。"
+        ],
+        "grounding_id": [
+            "65",
+            "66"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的通讯录、日历和提醒事项在iCloud中，则iCloud会自动更新您的信息。如果您的信息位于第三方帐户（如Google或Yahoo）中，您可以将默认帐户更改为iCloud。将默认帐户更改为iCloud不会将现有信息从第三方服务移至iCloud。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果信息位于第三方帐户（如Google或Yahoo）中的话怎么办",
+        "act": "how",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的通讯录、日历和提醒事项在iCloud中，则iCloud会自动更新您的信息。如果您的信息位于第三方帐户（如Google或Yahoo）中，您可以将默认帐户更改为iCloud。将默认帐户更改为iCloud不会将现有信息从第三方服务移至iCloud。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以将默认帐户更改为iCloud。将默认帐户更改为iCloud不会将现有信息从第三方服务移至iCloud。",
+        "act": "ans/open",
+        "document": "如果您的iCloud通讯录、日历或提醒事项没有同步.json",
+        "grounding": [
+            "如果您的通讯录、日历和提醒事项在iCloud中，则iCloud会自动更新您的信息。如果您的信息位于第三方帐户（如Google或Yahoo）中，您可以将默认帐户更改为iCloud。将默认帐户更改为iCloud不会将现有信息从第三方服务移至iCloud。"
+        ],
+        "grounding_id": [
+            "66"
+        ]
+    }
+]

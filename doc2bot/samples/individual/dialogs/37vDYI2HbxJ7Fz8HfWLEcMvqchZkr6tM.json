@@ -1,0 +1,296 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省宁波市的，没有固定工作，怎么缴纳公积金？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "公积金",
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "T10",
+            "T208",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以申请个体工商户、自由职业者住房公积金缴存登记。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "个体工商户、自由职业者住房公积金缴存登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有什么特殊的条件限制吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "164"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您有本市户籍或取得本市居住证吗？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "申请条件",
+            "受理条件",
+            "（二）具有本市户籍或取得本市居住证；"
+        ],
+        "grounding_id": [
+            "161",
+            "164",
+            "302"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我是本市户籍啊。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "（二）具有本市户籍或取得本市居住证；"
+        ],
+        "grounding_id": [
+            "302"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您可以办理此项业务。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "（二）具有本市户籍或取得本市居住证；"
+        ],
+        "grounding_id": [
+            "302"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理的时候，能不能网上支付？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "296"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "非常抱歉，目前不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办事处的正常工作时间是几点到几点？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理时间是：工作日：上午8:30—17:00，无午休。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "工作日：上午8:30—17:00，无午休"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想问下，这个公积金缴存登记设定依据是什么？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "根据国务院《居住证暂行条例》进行设定。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "国务院《居住证暂行条例》"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "什么时候开始实施的？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "实施日期"
+        ],
+        "grounding_id": [
+            "267"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "实施日期是：2015-11-26。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "2015-11-26"
+        ],
+        "grounding_id": [
+            "268"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "办理过程中遇到问题，可以通过什么方式投诉？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "目前有投诉电话，投诉地址，投诉网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我投诉地址。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "投诉地址是：宁波市海曙区解放南路166号。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "宁波市海曙区解放南路166号"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "如果我想咨询问题，应该去通过什么方式咨询？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "咨询方式有：咨询电话，咨询地址，咨询网址，您需要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "给我地址就行。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "咨询地址是：宁波市海曙区解放南路166号三楼。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_公积金_常用服务_个体工商户、自由职业者住房公积金缴存登记.json",
+        "grounding": [
+            "宁波市海曙区解放南路166号三楼"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

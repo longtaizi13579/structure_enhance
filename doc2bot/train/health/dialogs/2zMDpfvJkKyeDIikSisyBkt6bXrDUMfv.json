@@ -1,0 +1,56 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下踝关节扭伤的情况",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_扭伤和其他软组织损伤_踝关节扭伤.json",
+        "grounding": [
+            "踝关节扭伤"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "踝关节扭伤是维持踝关节在位的韧带出现撕裂，通常出现踝关节肿胀，行走时疼痛，您还想了解什么呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_损伤及中毒_扭伤和其他软组织损伤_踝关节扭伤.json",
+        "grounding": [
+            "踝关节扭伤是维持踝关节在位的韧带出现撕裂。",
+            "通常出现踝关节肿胀，行走时疼痛。"
+        ],
+        "grounding_id": [
+            "5",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道扭伤和其他软组织损伤有没有关于踝关节扭伤的信息呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_扭伤和其他软组织损伤_踝关节扭伤.json",
+        "grounding": [
+            "（另见扭伤和其他软组织损伤概述。）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以见扭伤和其他软组织损伤概述",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_扭伤和其他软组织损伤_踝关节扭伤.json",
+        "grounding": [
+            "（另见扭伤和其他软组织损伤概述。）"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

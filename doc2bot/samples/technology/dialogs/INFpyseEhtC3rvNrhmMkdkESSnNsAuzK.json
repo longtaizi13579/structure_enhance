@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下解决Compressor中的问题",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "解决Compressor中的问题"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你具体是想问检查媒体和设备的兼容性，还是确保 Compressor 为最新版本还是在另一个用户帐户中进行测试还是什么呢？",
+        "act": "multiple-choice",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "7.检查媒体和设备的兼容性"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下检查媒体和设备的兼容性",
+        "act": "what",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "7.检查媒体和设备的兼容性"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，确保您使用的是兼容的媒体格式、设备以及外部储存设备格式。请联系设备制造商以获取支持。如果设备有软件更新可用，请按照制造商的说明更新摄像机和外部储存设备等设备的固件，或更新接口等设备的驱动程序。",
+        "act": "ans/open",
+        "document": "解决Compressor中的问题.json",
+        "grounding": [
+            "确保您使用的是兼容的媒体格式、设备以及外部储存设备格式。请联系设备制造商以获取支持。如果设备有软件更新可用，请按照制造商的说明更新摄像机和外部储存设备等设备的固件，或更新接口等设备的驱动程序。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下使用Windows版iTunes中的“iTunes诊断”并收集信息",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "使用Windows版iTunes中的“iTunes诊断”并收集信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那你具体是想问运行“iTunes 诊断”还是存储结果还是获取协助呢？",
+        "act": "multiple-choice",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行“iTunes诊断”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问运行“iTunes诊断，能跟我说一下具体的操作步骤吗？",
+        "act": "verification",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行“iTunes诊断”"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，首先确保您装有最新版本的iTunes再打开iTunes，然后从iTunes窗口顶部的菜单栏中，选取“帮助”>“运行诊断程序”。之后 选取一项或所有的可用测试，然后点按“下一步”。最后运行测试。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "确保您装有最新版本的iTunes。",
+            "打开iTunes。",
+            "从iTunes窗口顶部的菜单栏中，选取“帮助”>“运行诊断程序”。",
+            "选取一项或所有的可用测试，然后点按“下一步”。",
+            "运行测试。完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "运行测试之后还会出现什么吗？",
+        "act": "what",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行测试。完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "运行测试。完成各项测试后，您可能会看到指向支持文章的链接，这些文章可以帮助您解决问题。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那“iTunes诊断“可以修复问题吗？",
+        "act": "verification",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。",
+        "act": "ans/open",
+        "document": "使用Windows版iTunes中的“iTunes诊断”并收集信息.json",
+        "grounding": [
+            "“iTunes诊断”可以收集和显示有关电脑的信息，但是无法修复问题。可使用“iTunes诊断”所提供的信息来识别问题。然后，参考“iTunes诊断”中所列文章或下方的“进一步了解”部分，或者向AppleAdvisor（技术顾问）寻求更多协助，以修复问题。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

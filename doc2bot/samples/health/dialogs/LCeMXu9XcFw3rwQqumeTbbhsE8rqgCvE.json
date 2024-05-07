@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，最近舌头溃疡很严重，想知道一般什么原因会引起？",
+        "act": "why",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "舌部溃疡和包块",
+            "下列情况可引起舌部溃疡（水疱和溃疡）",
+            "医学主题",
+            "唇部和舌部疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "5",
+            "T3",
+            "T1971"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您有反复性口疮或者结核病、免疫系统病吗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "结核病",
+            "过敏或其他免疫系统紊乱",
+            "口疮（复发性阿弗他口炎）"
+        ],
+        "grounding_id": [
+            "13",
+            "20",
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "没有",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您最近有吃什么刺激性食物吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "某些食物或化学物质刺激"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "也没有，我饮食一般很清淡的。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那有可能是病毒感染或者舌头咬伤。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "舌咬伤"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，病毒感染一般指什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "口腔单纯疱疹病毒感染"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一般是口腔单纯疱疹病毒感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "口腔单纯疱疹病毒感染"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我最近一般都在家，家人也没有感染孢疹病毒的，或者是细菌感染吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "口腔单纯疱疹病毒感染",
+            "细菌感染"
+        ],
+        "grounding_id": [
+            "7",
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，有可能是细菌感染。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "细菌感染"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "你刚开始说可能通过刺激性食物导致溃疡，我突然想起我女儿前天买了食用色素，我尝了一口，会刺激吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "某些食物或化学物质刺激"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "会的，化学物质刺激也会导致溃疡的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_口腔和牙齿疾病_唇部和舌部疾病_舌部溃疡和包块.json",
+        "grounding": [
+            "某些食物或化学物质刺激"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

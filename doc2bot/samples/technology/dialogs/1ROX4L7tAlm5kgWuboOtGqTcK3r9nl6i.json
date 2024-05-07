@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想使用AppleWatch上的“健身记录”App的话怎么办",
+        "act": "how",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "使用AppleWatch上的“健身记录”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想使用的是跟踪您的活动情况，活动，锻炼，站立，查看“健身记录”历史记录，设置活动提醒哪种功能呢",
+        "act": "multiple-choice",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "查看“健身记录”历史记录"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想查看“健身记录”历史记录",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "查看“健身记录”历史记录"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以在AppleWatch上查看当天的进度，或是通过iPhone上的“健身”App查看完整的历史记录，请问您是要在什么设备上查看呢",
+        "act": "question/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "您可以在AppleWatch上查看当天的进度，或是通过iPhone上的“健身”App查看完整的历史记录。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在AppleWatch上，步骤是什么",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "在AppleWatch上"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先打开AppleWatch上的“健身记录”App，向上轻扫可查看每个圆环的详细信息，然后再次向上滑动可查看更多内容，例如您的总步数、距离和体能训练信息，要查看您的每周摘要，请再次向上轻扫，然后轻点“每周摘要”。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "打开AppleWatch上的“健身记录”App。",
+            "向上轻扫可查看每个圆环的详细信息。",
+            "再次向上滑动可查看更多内容，例如您的总步数、距离和体能训练信息。",
+            "要查看您的每周摘要，请再次向上轻扫，然后轻点“每周摘要”。"
+        ],
+        "grounding_id": [
+            "34",
+            "35",
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那活动圆环会显示什么呢",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "活动",
+            "“活动”圆环显示了目前您活动时消耗了多少卡路里。通过每日活动消耗卡路里来完成您的每日活动目标。与静止时消耗的卡路里不同，活动时消耗的卡路里是指您站立或四处移动时消耗的卡路里。就赢得“活动”和“锻炼”分数获取协助。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“活动”圆环显示了目前您活动时消耗了多少卡路里。通过每日活动消耗卡路里来完成您的每日活动目标。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "“活动”圆环显示了目前您活动时消耗了多少卡路里。通过每日活动消耗卡路里来完成您的每日活动目标。与静止时消耗的卡路里不同，活动时消耗的卡路里是指您站立或四处移动时消耗的卡路里。就赢得“活动”和“锻炼”分数获取协助。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "活动时消耗的卡路里是指什么",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "“活动”圆环显示了目前您活动时消耗了多少卡路里。通过每日活动消耗卡路里来完成您的每日活动目标。与静止时消耗的卡路里不同，活动时消耗的卡路里是指您站立或四处移动时消耗的卡路里。就赢得“活动”和“锻炼”分数获取协助。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是指您站立或四处移动时消耗的卡路里。就赢得“活动”和“锻炼”分数获取协助。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "“活动”圆环显示了目前您活动时消耗了多少卡路里。通过每日活动消耗卡路里来完成您的每日活动目标。与静止时消耗的卡路里不同，活动时消耗的卡路里是指您站立或四处移动时消耗的卡路里。就赢得“活动”和“锻炼”分数获取协助。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "AppleWatch上的“健身记录”App一般会记录哪些项目呢",
+        "act": "what",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "使用AppleWatch上的“健身记录”App",
+            "通过AppleWatch上的“健身记录”App，您可以跟踪您每天的活动、锻炼和站立量。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以跟踪您每天的活动、锻炼和站立量。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "通过AppleWatch上的“健身记录”App，您可以跟踪您每天的活动、锻炼和站立量。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，如果想设置活动提醒的话应该怎么操作",
+        "act": "how",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "设置活动提醒"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "首先在iPhone上，打开WatchApp，然后轻点“我的手表”标签，轻点“健身记录”，最后选取您的通知和提醒事项。例如，教练通知内容取决于您先前的进度。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“健身记录”App.json",
+        "grounding": [
+            "在iPhone上，打开WatchApp。",
+            "轻点“我的手表”标签，然后轻点“健身记录”。",
+            "选取您的通知和提醒事项。例如，教练通知内容取决于您先前的进度。"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "41"
+        ]
+    }
+]

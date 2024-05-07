@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想要从Mac上的AppStore下载App，想问一下关于这方面的一些信息",
+        "act": "what",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "从Mac上的AppStore下载App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，您想了解如何下载Mac版App、查找AppStore还是其他相关的信息呢？",
+        "act": "multiple-choice",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "从Mac上的AppStore下载App",
+            "如何下载Mac版App"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，我先了解一下下载Mac版App的具体步骤吧",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如何下载Mac版App",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体步骤：首先打开AppStoreApp，然后浏览或搜索您要下载的App， 最后点按价格或“获取”按钮。如果您看到“打开”按钮而不是价格或“获取”按钮，则表示您已经购买或下载了这个App。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "具体步骤",
+            "打开AppStoreApp。",
+            "浏览或搜索您要下载的App。",
+            "点按价格或“获取”按钮。如果您看到“打开”按钮而不是价格或“获取”按钮，则表示您已经购买或下载了这个App。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那我在Mac上的AppStore下载App，可是我找不到这个AppStore，怎么办？",
+        "act": "how",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "从Mac上的AppStore下载App",
+            "如果您找不到AppStore"
+        ],
+        "grounding_id": [
+            "1",
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您还可以在“程序坞”中查找AppStore图标。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "“程序坞”中",
+            "在“程序坞”中查找AppStore图标。"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白，咦，为什么在AppStore中有App没有价格呢？",
+        "act": "why",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "在AppStore中，如果某个App有“获取”按钮而没有价格，则表示这个App是免费的。下载免费App无需付费。某些免费App提供了您可以购买的App内购买项目和订阅。通过订阅和App内购买项目，您可以访问更多功能、内容等。进一步了解App内购买项目和订阅。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在AppStore中，如果某个App有“获取”按钮而没有价格，则表示这个App是免费的。下载免费App无需付费。某些免费App提供了您可以购买的App内购买项目和订阅。通过订阅和App内购买项目，您可以访问更多功能、内容等。进一步了解App内购买项目和订阅。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "在AppStore中，如果某个App有“获取”按钮而没有价格，则表示这个App是免费的。下载免费App无需付费。某些免费App提供了您可以购买的App内购买项目和订阅。通过订阅和App内购买项目，您可以访问更多功能、内容等。进一步了解App内购买项目和订阅。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好，我之前有购买的App现在找不到了，我可以在怎么查找呢？",
+        "act": "how",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "如何查找您购买的App"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用“启动台”打开您下载的App。某些App可能会要求您在打开App之前下载Rosetta。还可以重新下载这个App。重新下载某个App时，您无需再次付费。",
+        "act": "ans/open",
+        "document": "从Mac上的AppStore下载App.json",
+        "grounding": [
+            "使用“启动台”打开您下载的App。某些App可能会要求您在打开App之前下载Rosetta。",
+            "如果您需要的App没有出现在“启动台”中，请重新下载这个App。重新下载某个App时，您无需再次付费。"
+        ],
+        "grounding_id": [
+            "13",
+            "17"
+        ]
+    }
+]

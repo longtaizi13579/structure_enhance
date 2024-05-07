@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想用那个项目扩展程序在照片里创建和订购冲印产品，想要问一下这个可以怎么弄呢？",
+        "act": "how",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "使用项目扩展程序在“照片”中创建和订购冲印产品"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "查找和安装照片项目扩展程序: 首先打开“照片”。 然后在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”>“AppStore”。此时MacAppStore将打开，并显示可用的项目扩展程序。 再点按某个扩展程序以进一步了解，或者点按“获取”以下载这个扩展程序。 最后扩展程序下载完成后，它将作为项目扩展程序出现在“照片”中。",
+        "act": "ans/open",
+        "document": "使用项目扩展程序在“照片”中创建和订购冲印产品.json",
+        "grounding": [
+            "如何查找和安装照片项目扩展程序",
+            "打开“照片”。",
+            "在“照片”菜单栏中，选取“文件”>“创建”>“[项目类型]”>“AppStore”。此时MacAppStore将打开，并显示可用的项目扩展程序。",
+            "点按某个扩展程序以进一步了解，或者点按“获取”以下载这个扩展程序。",
+            "扩展程序下载完成后，它将作为项目扩展程序出现在“照片”中。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "明白了，我还想了解一下使用“照片”中的第三方App和扩展进行编辑的相关信息。",
+        "act": "what",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用“照片”中的第三方App和扩展进行编辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想要了解在iPhone、iPad或iPodtouch上使用第三方扩展还是在安卓或者其他的上面扩展呢？",
+        "act": "multiple-choice",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用“照片”中的第三方App和扩展进行编辑",
+            "在iPhone、iPad或iPodtouch上使用第三方扩展"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在iPhone、iPad或iPodtouch上使用第三方扩展的",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上使用第三方扩展"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您想了解在iOS设备上使用扩展编辑照片、安装提供扩展的iOSApp、安装允许编辑或提供了扩展的MacApp还是其他像概念的呢？",
+        "act": "multiple-choice",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，先和我说一下在iOS设备上使用扩展编辑照片这个要怎么做呢？",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iOS设备上使用扩展编辑照片: 首先打开“照片”App，然后轻点一张照片。轻点“编辑”，然后轻点“更多”按钮。再从出现的菜单中选择一个App。然后使用扩展中的工具编辑这张照片。如果您对自己所作的编辑感到满意，请点按“完成”。您可以选取另一扩展以将更多编辑应用到照片，或者使用内建于“照片”中的任何编辑工具。如果您完成了所有编辑，请点按“完成”以退出编辑模式。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "在iOS设备上使用扩展编辑照片",
+            "打开“照片”App，然后轻点一张照片。",
+            "轻点“编辑”，然后轻点“更多”按钮。",
+            "从出现的菜单中选择一个App。",
+            "使用扩展中的工具编辑这张照片。",
+            "如果您对自己所作的编辑感到满意，请点按“完成”。您可以选取另一扩展以将更多编辑应用到照片，或者使用内建于“照片”中的任何编辑工具。",
+            "如果您完成了所有编辑，请点按“完成”以退出编辑模式。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那这个安装提供扩展的iOSApp是怎么说的呢？",
+        "act": "how",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装提供扩展的iOSApp"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "使用设备上的AppStore查找并安装允许从“照片”进行完整编辑的App，或包含“照片”扩展的App。包含“照片”扩展的App通常会在其描述中加以说明；可搜索诸如“照片扩展”等词语来探索更多App。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个有点麻烦，那可以还有别的App吗？",
+        "act": "verification",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "您也可以选择AppStore上“修图神器助你轻松修图”中所列的App。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您也可以选择AppStore上“修图神器助你轻松修图”中所列的App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "您也可以选择AppStore上“修图神器助你轻松修图”中所列的App。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，还有这个安装允许编辑或提供了扩展的MacApp这个是什么呢？",
+        "act": "what",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "安装允许编辑或提供了扩展的MacApp"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。",
+        "act": "ans/open",
+        "document": "使用“照片”中的第三方App和扩展进行编辑.json",
+        "grounding": [
+            "MacAppStore会打开并显示与“照片”兼容的各种第三方照片编辑App。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

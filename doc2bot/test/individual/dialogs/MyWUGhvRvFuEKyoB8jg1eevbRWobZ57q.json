@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想了解一下出入境通行证签注的事",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "出入境",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T239",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市的",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江湖州市",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "T13"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想办港澳还是台湾的通行证及签注",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "去港澳的签注",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T281"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是这样港澳签注有多重类型，您能说的具体些吗，比如旅游，学习，商务，探亲或者其他签注等",
+        "act": "question/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我是陪我朋友去看病，这要办什么签注",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您说的这个情况可以选择办理港澳其他签注",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这签注多久能办好",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "61"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个承诺办结时限是7（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "承诺办结时限",
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "61",
+            "62"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那这个签注的收费项目叫什么",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1002"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是这样该类型签注有一次的还有短期（不超过一年）多次有效签注，您想办哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注"
+        ],
+        "grounding_id": [
+            "1012"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "第二 短期（不超过一年）多次有效签注",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注"
+        ],
+        "grounding_id": [
+            "1012"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的，这个一次和多次有效签注收费标准是不一样的这个您清楚吧",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1013"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我知道你就告诉我多次有效的要多钱吧",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "2\t短期（不超过一年）多次有效签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1012",
+            "1013"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "80元/件",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "80元/件"
+        ],
+        "grounding_id": [
+            "1014"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，那那个一次签注要多钱呢",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "1\t一次签注",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1003",
+            "1004"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "15元/件",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "15元/件"
+        ],
+        "grounding_id": [
+            "1005"
+        ]
+    }
+]

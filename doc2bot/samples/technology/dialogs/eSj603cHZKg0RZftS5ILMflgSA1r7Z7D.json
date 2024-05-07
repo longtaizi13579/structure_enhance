@@ -1,0 +1,90 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下通过“家人共享”都可以共享什么？",
+        "act": "what",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "通过“家人共享”，您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能*。进一步了解iCloud+。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能",
+        "act": "ans/open",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "与家人共享iCloud+",
+            "通过“家人共享”，您可以与家庭群组中的所有人共享iCloud+订阅。这包括50GB、200GB或2TB的iCloud储存空间，以及iCloud专用代理、“隐藏邮件地址”和HomeKit安防视频支持等功能*。进一步了解iCloud+。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个“家人共享”，对人数有什么限制吗？",
+        "act": "verification",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "通过“家人共享”，您可与最多五位其他家庭成员共享iCloud+订阅。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，您可与最多五位其他家庭成员共享iCloud+订阅",
+        "act": "ans/open",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "与家人共享iCloud+",
+            "通过“家人共享”，您可与最多五位其他家庭成员共享iCloud+订阅。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在iPhone如何与家人共享？",
+        "act": "how",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "先前往“设置”>“[您的姓名]”。 然后轻点“家人共享”。再轻点“iCloud+”。",
+        "act": "ans/open",
+        "document": "与家人共享iCloud+.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上",
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“家人共享”。",
+            "轻点“iCloud+”。"
+        ],
+        "grounding_id": [
+            "37",
+            "38",
+            "39",
+            "40"
+        ]
+    }
+]

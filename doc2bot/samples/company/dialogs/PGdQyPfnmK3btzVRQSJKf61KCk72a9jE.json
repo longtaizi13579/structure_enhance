@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在舟山市外籍人员的子女学校地址变更审批能支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "外籍人员子女学校地址变更审批",
+            "浙江省_舟山市",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "T3",
+            "89"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不好意思，目前不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我想知道在我办理地址变更审批做出决定后几日把结果送到呀。",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内可以送达，请您耐心等待。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "119"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，我还想了解一些其他的事情，有没有其他的咨询途径呀？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "目前有咨询电话、咨询地址、咨询网址，您想咨询哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询电话吧，是多少？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "咨询电话是0580-2027108。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_人力资源_常用服务_外籍人员子女学校地址变更审批.json",
+        "grounding": [
+            "0580-2027108"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想办理浙江省的公司变更登记业务，到哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "浙江省",
+            "公司变更登记",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "T4",
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "我们的办理业务在浙江省杭州市西湖区西溪街道莫干山路77号金汇大厦一楼注册大厅1-6号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "浙江省市场监督管理局（浙江省知识产权局）（浙江省杭州市西湖区西溪街道莫干山路77号金汇大厦一楼注册大厅1-6号窗口）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我过去的话不方便等啊，能在自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们这个业务不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果我要办这个公司变更登记，都有什么流程啊？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "我们这项业务的办理流程：1.申请 2.受理 3.审查 4.决定 5.送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "申请的步骤只能去现场提交吗？有没有别的方式啊？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "申请"
+        ],
+        "grounding_id": [
+            "262"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们的申请步骤可以由申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网进行网上申报，并选择结果送达方式。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "申请人向登记（发照）机关窗口提交申请材料，或在浙江政务服务网进行网上申报，并选择结果送达方式。"
+        ],
+        "grounding_id": [
+            "263"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那受理的话，我要等多久呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "受理"
+        ],
+        "grounding_id": [
+            "266"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你是想了解受理步骤的办理时限吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "办理时限"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对，这个业务要办多久啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "办理时限"
+        ],
+        "grounding_id": [
+            "269"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们的受理步骤是即办的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "270"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果决定了，审核标准是什么呢？",
+        "act": "what",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "决定",
+            "审查标准"
+        ],
+        "grounding_id": [
+            "284",
+            "289"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的审核结果会根据审核情况，作出准予登记或不予行政许可的决定。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "审查标准"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果我觉得办理的不好，有什么投诉方式呢？",
+        "act": "how",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "我们有投诉电话、投诉地址和投诉网址，您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "给我一个投诉电话吧。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "我们的投诉电话是0571-88391212。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "0571-88391212"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "打电话如果说不清楚的话，能给我一个投诉地址吗？我直接过去。",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "我们的监督投诉地址是浙江省杭州市西湖区莫干山路77号省市场监管局九楼922室。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "浙江省杭州市西湖区莫干山路77号省市场监管局九楼922室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "对了，我想再问一下，如果我的公司变更登记办理完成，什么时候能送到啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "公司变更登记",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "122"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "我们会在自作出决定之日起3个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业变更_常用服务_公司变更登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    }
+]

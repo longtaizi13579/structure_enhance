@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好想问一下显示屏连接到Mac",
+        "act": "what",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "将显示屏连接到Mac"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解可连接的显示屏数量还是连接显示屏或是使用“隔空播放”",
+        "act": "multiple-choice",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "了解可连接的显示屏数量",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "根据Mac机型，您可以连接一台或多台外置显示屏。要了解Mac支持的外置显示屏数量，请查看它的技术规格页面：首先选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。其次前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。最后点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "根据Mac机型，您可以连接一台或多台外置显示屏。要了解Mac支持的外置显示屏数量，请查看它的技术规格页面：",
+            "选取苹果菜单>“关于本机”，连按序列号，然后按Command-C拷贝这个序列号。",
+            "前往“技术规格”页面，点按“搜索技术规格”栏，按Command-V输入电脑的序列号，然后点按“搜索”。",
+            "点按您的Mac对应的规格页面。Mac支持的显示屏数量会显示在“视频支持”或“图形处理器”下方。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "关于这个连接的显示屏数量那想问一下搭载Apple芯片的Mac电脑是如何呢",
+        "act": "how",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "了解可连接的显示屏数量",
+            "搭载Apple芯片的Mac电脑"
+        ],
+        "grounding_id": [
+            "3",
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您是想了解使用的是搭载M1Max的Mac还是使用的是搭载M1Pro的Mac或者是使用的是搭载M1芯片的Mac",
+        "act": "multiple-choice",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1芯片的Mac："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果使用的是搭载M1芯片的Mac如何呢",
+        "act": "how",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1芯片的Mac："
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iMac、Macmini、MacBookAir和13英寸MacBookPro上，您可以使用任一雷雳/USB4端口连接一台外置显示屏。在iMac上，请将显示屏连接到带雷雳符号的任一端口。在Macmini上，您可以将第二台显示屏连接到HDMI端口。使用基座或以菊花链方式连接设备时，并不会增加可连接的显示屏数量。",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "在iMac、Macmini、MacBookAir和13英寸MacBookPro上，您可以使用任一雷雳/USB4端口连接一台外置显示屏。在iMac上，请将显示屏连接到带雷雳符号的任一端口。",
+            "在Macmini上，您可以将第二台显示屏连接到HDMI端口。",
+            "使用基座或以菊花链方式连接设备时，并不会增加可连接的显示屏数量。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "就是哪种条件的MacStudio最多五台外置显示屏连接到Mac",
+        "act": "how",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "如果您使用的是搭载M1Ultra的MacStudio：",
+            "您可以使用电脑正面和背面的雷雳4(USB-C)端口和HDMI端口，将最多五台外置显示屏连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您说的这个是符合搭载M1Ultra的MacStudio的条件",
+        "act": "ans/open",
+        "document": "将显示屏连接到Mac.json",
+        "grounding": [
+            "您可以使用电脑正面和背面的雷雳4(USB-C)端口和HDMI端口，将最多五台外置显示屏连接到您的Mac。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还想问一下如果连接到Mac的外置显示器没有被检测到或画面模糊如何呢",
+        "act": "how",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果连接到Mac的外置显示器没有被检测到或画面模糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想了解开始之前还是显示器显示为空白或没有被检测到或是显示器画面模糊",
+        "act": "multiple-choice",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果显示器显示为空白或没有被检测到"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果显示器显示为空白或没有被检测到",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "如果显示器显示为空白或没有被检测到"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "一个检查线缆或转换器另一个是查看可以连接的显示器数量您具体想了解哪个呢",
+        "act": "multiple-choice",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "检查线缆或转换器"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "检查线缆或转换器",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "检查线缆或转换器"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "断开外置显示器的线缆与Mac的连接，然后重新连接。如果外置显示器的线缆无法连接Mac上的端口，您可以使用USB-C或雷雳转换器。如果您使用USB-C或雷雳转换器来连接显示器，这个转换器必须符合DisplayPortAltMode或雷雳/USB4标准。",
+        "act": "ans/open",
+        "document": "如果连接到Mac的外置显示器没有被检测到或画面模糊.json",
+        "grounding": [
+            "断开外置显示器的线缆与Mac的连接，然后重新连接。如果外置显示器的线缆无法连接Mac上的端口，您可以使用USB-C或雷雳转换器。如果您使用USB-C或雷雳转换器来连接显示器，这个转换器必须符合DisplayPortAltMode或雷雳/USB4标准。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

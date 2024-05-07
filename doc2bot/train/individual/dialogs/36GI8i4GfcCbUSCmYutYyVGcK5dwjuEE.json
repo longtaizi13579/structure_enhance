@@ -1,0 +1,268 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好要在浙江舟山市办理出入境通行证和香港定居进入许可证，想咨询一下多长时间能办完？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "出入境通行证—持香港定居类进入许可",
+            "浙江省_舟山市",
+            "出入境",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "1",
+            "T9",
+            "T239",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边帮您查到法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "15（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "58",
+            "57"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我已经满足持香港入境事务处签发的定居许可是不是这个业务就能申请办下来吧？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "受理条件",
+            "内地居民持香港入境事务处签发的定居类进入许可申请赴香港定居的，可以申请办理三个月一次中华人民共和国出入境通行证"
+        ],
+        "grounding_id": [
+            "132",
+            "133"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果内地居民持香港入境事务处签发的定居类进入许可申请赴香港定居的，是可以申请办理三个月一次中华人民共和国出入境通行证。",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_港澳通行证及签注_出入境通行证—持香港定居类进入许可.json",
+        "grounding": [
+            "内地居民持香港入境事务处签发的定居类进入许可申请赴香港定居的，可以申请办理三个月一次中华人民共和国出入境通行证"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我朋友是在浙江嘉兴事想咨询一下港澳签注的办理流程是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "办理流程",
+            "浙江省_嘉兴市",
+            "港澳通行证及签注",
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "439",
+            "T11",
+            "T281",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "他是要办理港澳什么类型的签注？其他签注？逗留签注？还是港澳商务签注？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "他是想办理港澳商务签注。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "1.申请2.受理3.审核审批 4.制证签发 5.送达 。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "440",
+            "442",
+            "451",
+            "460",
+            "466"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "审核办理时限是几天？",
+        "act": "when",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "审核审批",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "451",
+            "452"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是3个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "3个工作日"
+        ],
+        "grounding_id": [
+            "453"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那支持自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "港澳商务签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "自助办理？您意思是是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "对的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不好意思，暂时不支持自助终端办理的。",
+        "act": "ans/no",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "是否支持自助终端办理",
+            "不支持"
+        ],
+        "grounding_id": [
+            "91",
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "好的，最后个问题，港澳商务签注的颁布机关是什么？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "颁布机关",
+            "港澳商务签注"
+        ],
+        "grounding_id": [
+            "476",
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "颁布机关是中华人民共和国第十一届全国人民代表大会常务委员会。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_出入境_港澳通行证及签注_港澳商务签注.json",
+        "grounding": [
+            "中华人民共和国第十一届全国人民代表大会常务委员会"
+        ],
+        "grounding_id": [
+            "477"
+        ]
+    }
+]

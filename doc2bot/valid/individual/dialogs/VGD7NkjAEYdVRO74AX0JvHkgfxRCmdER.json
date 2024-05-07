@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省金华市的，我想问下医保的事，就是有个什么家庭共济啊？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "浙江省_金华市",
+            "医疗保险",
+            "社保医保",
+            "基本医疗保险参保人员历年账户家庭共济备案"
+        ],
+        "grounding_id": [
+            "T6",
+            "T169",
+            "T168",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想咨询基本医疗保险参保人员历年账户家庭共济备案这项业务吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "基本医疗保险参保人员历年账户家庭共济备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的，就是这个，我想问问这个要去什么地方办理？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "你可以去金华市行政服务中心，就在金华市婺城区西关街道双龙南街858号三楼。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_医疗保险_基本医疗保险参保人员历年账户家庭共济备案.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）三楼"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的我知道了，还想帮我朋友问下杭州市有个医保转移接续的事。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "社保医保",
+            "医疗保险",
+            "转移接续手续办理"
+        ],
+        "grounding_id": [
+            "T4",
+            "T168",
+            "T169",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是想问转移接续手续办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的是的，想问问收不收费啊？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "196"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "197"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那还需要网上付款之类的吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "200"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不需要网上付款，也不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "201"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那麻烦给我个相关的咨询电话吧。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你记下，电话是0571123331。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "0571-12333-1"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个是咨询电话，那有投诉电话吗，也给我下吧。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "有的，投诉电话是0571123451。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "0571-12345-1"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，再问下杭州市的医保如果发生信息变更怎么办啊？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "社保医保",
+            "医疗保险",
+            "城乡居民参保信息变更登记"
+        ],
+        "grounding_id": [
+            "T4",
+            "T168",
+            "T169",
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以办理城乡居民参保信息变更登记这项业务。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "城乡居民参保信息变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那办理的时候可以在自助终端办吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "71"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "抱歉，这个还不支持。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    }
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下我的车暂时被浙江湖州市法院扣押了我现在是不是不能办质押备案解除",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "浙江省_湖州市",
+            "机动车",
+            "2.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的。",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "1",
+            "T13",
+            "T17",
+            "374",
+            "148"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是的，如果您的车人民法院查封、扣押都不予办理解除质押备案。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "2.机动车被人民法院、人民检察院、行政执法部门依法查封、扣押的。",
+            "有下列情形之一的，不予办理解除质押备案："
+        ],
+        "grounding_id": [
+            "374",
+            "154"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好知道了就是问问，你帮我看看有什么投诉方式吗？我怕我到时候去办有不满意的地方。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投诉地址可以吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "湖州市吴兴区青铜路298号主楼8楼810室。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号主楼8楼810室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，办理解除质押备案收费吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "363"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "364"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "解除完之后的登记证是当场可以拿走吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "送达",
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "1",
+            "344",
+            "345"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以当场拿走或者邮寄送达给您。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "当场送达或邮寄送达",
+            "送达"
+        ],
+        "grounding_id": [
+            "345",
+            "344"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "行知道了，那个办理地点在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "机动车解除质押备案",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "湖州市公安局交通警察支队车辆管理所一楼大厅1-14号窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_行驶驾驶_机动车_机动车解除质押备案.json",
+        "grounding": [
+            "湖州市公安局交通警察支队车辆管理所（湖州市开发区龙溪街道三天门路799号）一楼大厅1-14号窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我是科技类民办的非企业单位，想要办理个进口科教用品的免税资格，流程是什么啊？",
+        "act": "what",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "省级科技类民办非企业单位进口科教用品免税资格审核",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "225"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "办理流程是1.申请 2.受理 3.审查 4.决定 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审查",
+            "决定",
+            "送达"
+        ],
+        "grounding_id": [
+            "225",
+            "226",
+            "228",
+            "237",
+            "242",
+            "247"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那是进行审查的人是谁啊？",
+        "act": "what",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "审查",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "237",
+            "238"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是由李易、夏昶祺进行审查。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "李易、夏昶祺"
+        ],
+        "grounding_id": [
+            "239"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在办理好后要多久能够送到我这啊？",
+        "act": "when",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "送达",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "247",
+            "248"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "10个工作日就能送到。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_纳税缴费_税务服务_省级科技类民办非企业单位进口科教用品免税资格审核.json",
+        "grounding": [
+            "10个工作日"
+        ],
+        "grounding_id": [
+            "249"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，还有一个事，我还想问下浙江省湖州市的税务服务。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "税务服务"
+        ],
+        "grounding_id": [
+            "T13",
+            "T73"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是想问哪方面？一照一码户信息变更?纳税信用补评?海关缴款书核查申请?跨区域涉税事项报验?国家鼓励项目免税确认?",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是想问一照一码户信息变更的办理地点在那？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "地点在湖州市民服务中心，就是湖州市吴兴区金盖山路66号1号楼2楼C区税务窗口",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "湖州市民服务中心（湖州市吴兴区金盖山路66号）1号楼2楼C区税务窗口"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "办理的时候收不收费啊？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "248"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是不收取费用的。",
+        "act": "ans/no",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "249"
+        ]
+    }
+]

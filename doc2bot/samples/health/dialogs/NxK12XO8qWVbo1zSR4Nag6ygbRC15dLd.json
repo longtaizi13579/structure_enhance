@@ -1,0 +1,221 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下皮肤新生物方面的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "医学主题",
+            "非癌性皮肤新生物",
+            "皮肤病"
+        ],
+        "grounding_id": [
+            "T3",
+            "T36",
+            "T4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：皮肤增生物的原因，皮肤增生物的诊断，还是皮肤增生物的治疗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "皮肤增生物的诊断"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下，皮肤增生物的诊断方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "皮肤增生物的诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "诊断方式：皮肤检查； 有时进行活组织检查。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "诊断方式：",
+            "皮肤检查",
+            "有时进行活组织检查"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "导致皮肤增生物的原因是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "皮肤新生物概述"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "医生并不知道大多数的良性皮肤增生物是由什么导致的。但某些增生物已知是以下原因造成的：病毒，比如疣；系统性疾病；遗传；环境因素。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "医生并不知道大多数的良性皮肤增生物是由什么导致的。但某些增生物已知是以下原因造成的",
+            "病毒（如疣）",
+            "系统性（全身）疾病（如血液脂肪过量引起的黄斑瘤或黄色瘤）",
+            "遗传（如脂溢性角化病）",
+            "环境因素（如受日光刺激产生的痣或粟丘疹）"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "17",
+            "20",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "system",
+        "utterance": "您了解疣是什么吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "疣"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "user",
+        "utterance": "不了解，你说一下吧。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "疣"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "system",
+        "utterance": "疣（瘊）是人乳头瘤病毒感染导致的皮肤小增生物。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_非癌性皮肤新生物_皮肤新生物概述.json",
+        "grounding": [
+            "疣（瘊）是人乳头瘤病毒感染导致的皮肤小增生物。"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "user",
+        "utterance": "那我想继续了解下病毒性皮肤感染的问题？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "医学主题",
+            "病毒性皮肤感染"
+        ],
+        "grounding_id": [
+            "T3",
+            "T146"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "您是想了解：传染性软疣，还是疣？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "传染性软疣"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "user",
+        "utterance": "我想了解下传染性软疣，这种病一般通过什么方式进行诊断？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "传染性软疣",
+            "传染性软疣的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "传染性软疣的诊断方法主要有：医师的评估。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "传染性软疣的诊断方法主要有：",
+            "医师的评估"
+        ],
+        "grounding_id": [
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "user",
+        "utterance": "医生是通过什么诊断的？",
+        "act": "what",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "医生基于外观诊断传染性软疣。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "system",
+        "utterance": "医生基于外观诊断传染性软疣。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_皮肤病_病毒性皮肤感染_传染性软疣.json",
+        "grounding": [
+            "医生基于外观诊断传染性软疣。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

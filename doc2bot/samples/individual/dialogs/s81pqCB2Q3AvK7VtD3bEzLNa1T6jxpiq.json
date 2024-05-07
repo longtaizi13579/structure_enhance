@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询浙江省绍兴市公积金的有关问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "浙江省_绍兴市",
+            "公积金"
+        ],
+        "grounding_id": [
+            "T7",
+            "T7",
+            "T208"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您想咨询公积金提取、常用服务、跨省通办服务中的哪方面问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T223"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "个人住房公积金账户转移这项业务的办理时间是什么时候？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "个人住房公积金账户转移",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "工作日，夏季：上午8:30-12:00，下午2:00-5:30；冬季：上午8:30-12:00，下午2:00-5:00",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "工作日，夏季：上午8:30-12:00，下午2:00-5:30；冬季：上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问问有关此项业务线下办事点的问题。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "线下办事点"
+        ],
+        "grounding_id": [
+            "126"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想知道线下办事点的具体地址吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对，具体地址在哪啊？",
+        "act": "where",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "具体地址"
+        ],
+        "grounding_id": [
+            "127"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "具体地址在绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "绍兴市行政服务中心住房公积金管理分中心（绍兴市越城区塔山街道解放北路588号4号楼）二楼窗口",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "128",
+            "127"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个业务我在网上支付可以吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "209"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不可以",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "210"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "结果的送达时限是多久？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "结果信息",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "113",
+            "122"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理形式有几种？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "两种，分别是网上申请办理和现场窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_公积金_常用服务_个人住房公积金账户转移.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

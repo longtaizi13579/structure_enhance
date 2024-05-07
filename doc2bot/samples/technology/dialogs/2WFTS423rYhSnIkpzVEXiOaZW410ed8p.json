@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下，什么情况下才需要还原HomePod？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "还原HomePod"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果HomePod没有响应，请先尝试通过“家庭”App重新启动HomePod。如果HomePod仍然没有响应，请将它还原。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "如果HomePod没有响应，请先尝试通过“家庭”App重新启动HomePod。如果HomePod仍然没有响应，请将它还原。您应当仅在下列情况下还原HomePod："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果我把两个HomePod扬声器设置为立体声组合，可以直接还原吗？",
+        "act": "verification",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不可以。如果您已将两个HomePod扬声器设置为立体声组合，则需要先取消立体声组合编组，然后才能还原HomePod。",
+        "act": "ans/no",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还原HomePod的方法是什么？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "还原HomePod"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有3种方法：使用“家庭”App 还原 HomePod，按压 HomePod 顶部以将它还原，使用 Mac 或 PC 恢复 HomePod mini，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用Mac或PC恢复HomePodmini"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "先说下使用Mac或PC恢复HomePodmini吧。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用Mac或PC恢复HomePodmini"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先，使用随附的USB-C线缆将HomePodmini插入电脑。然后，等待几秒钟。接着，当您的HomePod出现在电脑上时，选择您的HomePod。最后，点按“恢复HomePod”。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用随附的USB-C线缆将HomePodmini插入电脑。",
+            "等待几秒钟。如果您使用的是Mac，请打开一个“访达”窗口。如果您使用的是PC，请打开最新版本的iTunes。",
+            "当您的HomePod出现在电脑上时，选择您的HomePod。",
+            "点按“恢复HomePod”。您的电脑将准备恢复HomePodmini上的软件。当您不再看到顶部指示灯呈橙色闪烁时，HomePodmini就完成了恢复。"
+        ],
+        "grounding_id": [
+            "31",
+            "32",
+            "36",
+            "40"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "HomePodmini完成恢复后会有什么提示？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "点按“恢复HomePod”。您的电脑将准备恢复HomePodmini上的软件。当您不再看到顶部指示灯呈橙色闪烁时，HomePodmini就完成了恢复。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当您不再看到顶部指示灯呈橙色闪烁时，HomePodmini就完成了恢复。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "点按“恢复HomePod”。您的电脑将准备恢复HomePodmini上的软件。当您不再看到顶部指示灯呈橙色闪烁时，HomePodmini就完成了恢复。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "使用“家庭”App还原HomePod的步骤是什么？",
+        "act": "what",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "具体步骤：首先，在iPhone、iPad、iPodtouch或Mac上打开“家庭”App。然后， 在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。最后，选择“移除”。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone、iPad、iPodtouch或Mac上打开“家庭”App。",
+            "在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。",
+            "选择“移除”。"
+        ],
+        "grounding_id": [
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "按住HomePod后怎么做？",
+        "act": "how",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "向下滚动到底部，并选择“移除配件”。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上，按住“HomePod”。在Mac上，连按“HomePod”。然后，向下滚动到底部，并选择“移除配件”。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想问一下，iPhone上的旁白设置会自动传输到HomePod上吗？",
+        "act": "verification",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "在HomePod上使用“旁白”",
+            "打开“旁白”",
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。",
+        "act": "ans/open",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那我是不是可以直接开始使用旁白？",
+        "act": "verification",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "在HomePod上使用“旁白”.json",
+        "grounding": [
+            "如果您在使用“旁白”的iPhone、iPad或iPodtouch上设置HomePod，则这台设备上的“旁白”设置会自动传输到HomePod上。随后，您即可开始使用“旁白”。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

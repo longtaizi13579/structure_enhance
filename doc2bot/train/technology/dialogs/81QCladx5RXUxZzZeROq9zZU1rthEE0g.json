@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，iPhone上的“切换控制”的作用是什么？",
+        "act": "what",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用设备上的“切换控制”控制其他Apple设备",
+            "借助“使用其他设备进行切换控制”，您可以在同一个Wi-Fi网络上远程控制其他Apple设备，而无需调整任何切换连接。这样，您就可以借助在控制iPhone时所使用的同一切换设置来浏览Mac或AppleTV。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "借助“使用其他设备进行切换控制”，您可以在同一个Wi-Fi网络上远程控制其他Apple设备，而无需调整任何切换连接。这样，您就可以借助在控制iPhone时所使用的同一切换设置来浏览Mac或AppleTV。",
+        "act": "ans/open",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "借助“使用其他设备进行切换控制”，您可以在同一个Wi-Fi网络上远程控制其他Apple设备，而无需调整任何切换连接。这样，您就可以借助在控制iPhone时所使用的同一切换设置来浏览Mac或AppleTV。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询一些关于使用设备上的“切换控制”控制其他Apple设备的相关问题？",
+        "act": "what",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用设备上的“切换控制”控制其他Apple设备"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想咨询使用Mac控制其他设备、使用您的iPhone、iPad或iPodtouch控制其他设备或者是关闭切换控制？",
+        "act": "multiple-choice",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用您的Mac控制其他设备"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下，如何使用我的Mac控制其他设备？",
+        "act": "how",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用您的Mac控制其他设备"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先将您的设备连接到同一个Wi-Fi网络，在两台设备上使用同一个AppleID登录到iCloud；然后在Mac上打开“切换控制”，使用切换来浏览“切换控制”个人面板。选取“设备”。最后选择要控制的设备，然后选择“连接”。现在，您可以使用连接到Mac的切换来控制其他设备。",
+        "act": "ans/open",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "将您的设备连接到同一个Wi-Fi网络。",
+            "在两台设备上使用同一个AppleID登录到iCloud。",
+            "在Mac上打开“切换控制”（如果您还没有打开这项设置）。",
+            "使用切换来浏览“切换控制”个人面板。选取“设备”。",
+            "选择要控制的设备，然后选择“连接”。现在，您可以使用连接到Mac的切换来控制其他设备。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如何使用您的iPhone、iPad或iPodtouch控制其他设备？",
+        "act": "how",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用您的iPhone、iPad或iPodtouch控制其他设备"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先将您的设备连接到同一个Wi-Fi网络，在两台设备上使用同一个AppleID登录到iCloud；然后在iPhone、iPad或iPodtouch上打开“切换控制”，使用切换来浏览“切换控制”菜单。选择“设备”。: 选择“使用其他设备”；最后选择要控制的设备，然后选择“连接”。",
+        "act": "ans/open",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "将您的设备连接到同一个Wi-Fi网络。",
+            "在两台设备上使用同一个AppleID登录到iCloud。",
+            "在iPhone、iPad或iPodtouch上打开“切换控制”（如果您还没有打开这项设置）。",
+            "使用切换来浏览“切换控制”菜单。选择“设备”。",
+            "选择“使用其他设备”。",
+            "选择要控制的设备，然后选择“连接”。现在，您可以使用与iPhone、iPad或iPodtouch相连接的切换来控制其他设备。"
+        ],
+        "grounding_id": [
+            "4",
+            "6",
+            "10",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何关闭iPhone上的切换控制？",
+        "act": "how",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "关闭切换控制",
+            "关闭iPhone、iPad或iPodtouch上的切换控制"
+        ],
+        "grounding_id": [
+            "35",
+            "37"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "使用您的切换前往“设置”>“辅助功能”>“切换控制”，然后关闭这项设置。",
+        "act": "ans/open",
+        "document": "使用设备上的“切换控制”控制其他Apple设备.json",
+        "grounding": [
+            "使用您的切换前往“设置”>“辅助功能”>“切换控制”，然后关闭这项设置。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

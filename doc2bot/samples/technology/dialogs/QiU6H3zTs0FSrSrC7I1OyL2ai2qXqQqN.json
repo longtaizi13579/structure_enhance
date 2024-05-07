@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下我的风扇有点问题，我需要重置一下我的SMC，在重置之前需要做些什么？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如何重置Mac的SMC"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您在配备T2芯片的电脑上重置SMC 、还是在其他电脑上重置SMC",
+        "act": "multiple-choice",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "在配备T2芯片的电脑上重置SMC"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的电脑上有T2芯片",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "在配备T2芯片的电脑上重置SMC"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，在您重置SMC之前，请将Mac关机，然后按住电源按钮10秒钟，然后松开这个按钮。等待几秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "重置SMC之前，请尝试以下步骤：",
+            "将Mac关机。",
+            "按住电源按钮10秒钟，然后松开这个按钮。",
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行，我知道了，那要是在其他电脑上重置SMC是不是不一样",
+        "act": "verification",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "在其他电脑上重置SMC"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，而且还区分装有不可拆卸电池的笔记本电脑、装有可拆卸电池的笔记本电脑和台式电脑您想咨询哪一个",
+        "act": "multiple-choice",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "装有可拆卸电池的笔记本电脑"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "装有可拆卸电池的笔记本电脑怎么操作",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "装有可拆卸电池的笔记本电脑"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您是装有可拆卸电池的笔记本电脑，需要.将Mac关机。 然后拆下电池。（如果您需要拆卸电池方面的协助，请联系AppleStore商店或Apple授权服务提供商。） ，再按住电源按钮5秒钟。再重新安装电池。最后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "具体步骤",
+            "将Mac关机。",
+            "拆下电池。（如果您需要拆卸电池方面的协助，请联系AppleStore商店或Apple授权服务提供商。）",
+            "按住电源按钮5秒钟。",
+            "重新安装电池。",
+            "按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "66",
+            "67",
+            "68",
+            "72",
+            "73",
+            "74"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那哪些是装有不可拆卸电池的笔记本电脑？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "装有不可拆卸电池的笔记本电脑"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这类电脑包括2009年中至2017年推出的MacBookPro机型、2017年或之前推出的MacBookAir机型，以及所有MacBook机型，但MacBook（13英寸，2009年中）除外。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "装有不可拆卸电池的笔记本电脑",
+            "这类电脑包括2009年中至2017年推出的MacBookPro机型、2017年或之前推出的MacBookAir机型，以及所有MacBook机型，但MacBook（13英寸，2009年中）除外。"
+        ],
+        "grounding_id": [
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "重置SMC除了解决风扇问题还能解决什么？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "系统管理控制器(SMC)可控制Mac的电源管理方式。通过重置SMC，可以解决某些与电源、电池、风扇和其他功能相关的问题。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "通过重置SMC，除了可以解决某些与扇的问题，还能解决某些与电源、电池和其他功能相关的问题。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "系统管理控制器(SMC)可控制Mac的电源管理方式。通过重置SMC，可以解决某些与电源、电池、风扇和其他功能相关的问题。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

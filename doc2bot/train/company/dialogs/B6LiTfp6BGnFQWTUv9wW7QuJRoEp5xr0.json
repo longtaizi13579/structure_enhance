@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在宁波市做分公司变更登记的话办结时限是多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "分公司变更登记",
+            "法定办结时限",
+            "浙江省_宁波市"
+        ],
+        "grounding_id": [
+            "1",
+            "8",
+            "T7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您需要的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "法定的办结时限吧，多久？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我要投诉，服务态度也太差了，这就是大公司的服务吗？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不好意思，我们的投诉方式有电话投诉与线下投诉地址，您需要哪个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "投诉电话是0574－12345－0。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "0574－12345－0"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "电话打不通呀，投诉地址呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投诉地址在鄞州区宁穿路1901号二楼商事登记区。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "宁波市行政服务中心（鄞州区宁穿路1901号）二楼商事登记区"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "对了，我记得这不是要交钱吗，现在支不支持网上支付？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "258"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不好意思，暂时不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_企业变更_常用服务_分公司变更登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "259"
+        ]
+    }
+]

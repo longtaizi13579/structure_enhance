@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好您好，我的驾驶证是浙江省丽水市的，我想改一下我的行驶证信息，这种一般多久可以办完",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "浙江省_丽水市",
+            "浙江省_丽水市",
+            "行驶驾驶",
+            "驾驶人信息变化换领机动车驾驶证",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "T12",
+            "T12",
+            "T16",
+            "1",
+            "8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "一般一个工作日就可以了",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_驾驶人信息变化换领机动车驾驶证.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我上次问的时候，咋说的不是这样子呢？我要去投诉一下，有投诉电话嘛？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，您记一下，0578-12345。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "0578-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你好，我办的驾驶证增驾申领还有多久会到",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "机动车驾驶证增驾申领",
+            "送达时限"
+        ],
+        "grounding_id": [
+            "1",
+            "120"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "一般办完之后从那天起10个工作日内就可以送达了",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是这样的啊 那一般多久可以办完呢？",
+        "act": "when",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一般60个工作日内就可以办理完成。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那更换这个驾驶证是怎么收费的呢？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "收费标准",
+            "2\t机动车驾驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "261",
+            "278",
+            "279"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "更换的话，10元一本",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "280"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "懂了懂了，那补考还需要什么费用吗",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "1\t补考（包括法律法规规章规定需重新进行的考试费）",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "269",
+            "270"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "80元一次。",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_行驶证驾驶证_机动车驾驶证增驾申领.json",
+        "grounding": [
+            "80元/类，次"
+        ],
+        "grounding_id": [
+            "271"
+        ]
+    }
+]

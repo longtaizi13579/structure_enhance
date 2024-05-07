@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想问一下在哪可以咨询到换领行驶证相关业务的信息？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "补换领行驶证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "是咨询台州的补换领行驶证吗？",
+        "act": "verification",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是的。浙江台州的。",
+        "act": "ans/yes",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省_台州市",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "T8",
+            "T8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，咨询方式有3种，电话 ，地址 和咨询网址。您看需要了解哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "电话是啥？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "0576-12123，您记一下。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "0576-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那地址呢？",
+        "act": "where",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台咨询窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有点远啊，那怎么收费的啊机动车行驶证？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "1\t机动车行驶证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "248",
+            "249"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "10元/本。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "250"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "价格可以接受，话说我如果对这个办事效率不满意能不能投诉啊？",
+        "act": "what",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，地址的话是和咨询地址一样的只是在不同窗口在监督投诉窗口。电话和网页需要了解一下吗？",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "浙江省台州市椒江区机场北路451号台州市公安局交通警察局一楼车驾管大厅导办台监督投诉窗口"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "不用了，我只是假设一下，那我什么时候可以去办啊?",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季:上午8:30-12:00，下午2:00-5:00。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_行驶驾驶_常用服务_补换领行驶证.json",
+        "grounding": [
+            "工作日夏季：上午8:30-12:00，下午2:30-5:30；冬季:上午8:30-12:00，下午2:00-5:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

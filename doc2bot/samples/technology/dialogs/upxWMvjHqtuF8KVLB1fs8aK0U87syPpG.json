@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我问一下，我在AppleTV上购买的App找不到了，我现在不会整了",
+        "act": "what",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "如何查找您购买的App"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在主屏幕上找不到某个App？如果您使用的是AppleTV（第3代），请查看这个App是否已被隐藏。",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "如何查找您购买的App",
+            "在主屏幕上找不到某个App？如果您使用的是AppleTV（第3代），请查看这个App是否已被隐藏。要选取和取消隐藏App，请前往“设置”>“主菜单”。"
+        ],
+        "grounding_id": [
+            "24",
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我该怎么知道是不是被隐藏了",
+        "act": "how",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "在主屏幕上找不到某个App？如果您使用的是AppleTV（第3代），请查看这个App是否已被隐藏。要选取和取消隐藏App，请前往“设置”>“主菜单”。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请前往“设置”>“主菜单”中查看这个App是否已被隐藏，然后要选取和取消隐藏App即可",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "如何查找您购买的App",
+            "在主屏幕上找不到某个App？如果您使用的是AppleTV（第3代），请查看这个App是否已被隐藏。要选取和取消隐藏App，请前往“设置”>“主菜单”。"
+        ],
+        "grounding_id": [
+            "24",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，对了还有一个问题，我在选择要下载的App是，发现没有显示价格，只有获取，我该点吗？",
+        "act": "verification",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "则表示这个App是免费的。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在AppStore中，如果某个App有“获取”按钮而没有价格，则表示这个App是免费的。",
+        "act": "ans/open",
+        "document": "在AppleTV上下载App.json",
+        "grounding": [
+            "则表示这个App是免费的。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我知道了，我现在想下载AppleMusicApp但是提示我的设备无法访问GooglePlay，我该咋办？",
+        "act": "how",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "好的，您说的情况我了解了，首先从手机的主屏幕顶部向下轻扫以打开通知抽屉。轻点“applemusic.apk”。如果您看到“禁止安装”，请轻点“设置”，然后选中“未知来源”旁边的方框。在确认屏幕上，选中“仅允许本次安装”旁边的方框。当您下次更新AppleMusicApp时，也需要完成这一过程。要继续安装，请轻点“确定”。IT轻点“安装”。 然后等待安装完成，然后打开AppleMusicApp就可以了",
+        "act": "ans/open",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "安装AppleMusicApp",
+            "从手机的主屏幕顶部向下轻扫以打开通知抽屉。",
+            "轻点“applemusic.apk”。如果您看到“禁止安装”，请轻点“设置”，然后选中“未知来源”旁边的方框。",
+            "在确认屏幕上，选中“仅允许本次安装”旁边的方框。当您下次更新AppleMusicApp时，也需要完成这一过程。",
+            "要继续安装，请轻点“确定”。",
+            "轻点“安装”。",
+            "等待安装完成，然后打开AppleMusicApp。"
+        ],
+        "grounding_id": [
+            "17",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那在中国大陆，是不是也这样操作？",
+        "act": "verification",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "也可以前往百度下载AppleMusicApp。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您在中国大陆，也可以前往百度下载AppleMusicApp。",
+        "act": "ans/open",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "也可以前往百度下载AppleMusicApp。"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我现在无法访问GooglePlay，我可以换安卓机吗？",
+        "act": "verification",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "请了解如何在安卓设备上下载AppleMusic。您可能需要调整安全设置才能完成安装。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您可能需要调整安全设置才能完成安装。",
+        "act": "ans/open",
+        "document": "在所在国家或地区或所持设备无法访问GooglePlay的情况下下载AppleMusicApp.json",
+        "grounding": [
+            "请了解如何在安卓设备上下载AppleMusic。您可能需要调整安全设置才能完成安装。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    }
+]

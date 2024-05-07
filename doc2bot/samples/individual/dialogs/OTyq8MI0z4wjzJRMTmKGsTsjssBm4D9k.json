@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下鉴定计划生育手术相关并发症的申请材料是需要原件还是复印件呢？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "计划生育手术并发症鉴定",
+            "申报材料",
+            "材料类型"
+        ],
+        "grounding_id": [
+            "1",
+            "138",
+            "186"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "复印件就可以的",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "复印件"
+        ],
+        "grounding_id": [
+            "187"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那除了现场申请还有别的申请方式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您还可以网上申请或邮寄申请",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以告诉一下相应的办理时间吗？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "夏令时（工作日）：上午8:30～12:00，下午14:00～17:30；或者冬令时（工作日）：上午8:30～12:00，下午13:30～17:00",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "夏令时（工作日）：上午8:30～12:00，下午14:00～17:30；冬令时（工作日）：上午8:30～12:00，下午13:30～17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，材料提交之后需要等多久结果才能出来呢？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "规定的法定办结时限为60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是60天之后才能收到吗?",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是最迟60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "60（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那就好，那可以不用自助机器办理吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的，目前不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_生育保险_计划生育手术并发症鉴定.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

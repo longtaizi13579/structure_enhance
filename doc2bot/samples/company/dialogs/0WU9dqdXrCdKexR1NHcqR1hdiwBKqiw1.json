@@ -1,0 +1,348 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询浙江省金华市企业开办的相关信息",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "浙江省_金华市",
+            "企业开办"
+        ],
+        "grounding_id": [
+            "T9",
+            "T96"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解企业设立、项目审批还是常用服务的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "企业设立"
+        ],
+        "grounding_id": [
+            "T97"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "企业设立",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "企业设立"
+        ],
+        "grounding_id": [
+            "T97"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您想了解外商投资合伙企业分支机构设立登记还是营业单位及非法人分支机构开业登记的相关信息呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "外商投资合伙企业分支机构设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "外商投资合伙企业分支机构设立登记",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "外商投资合伙企业分支机构设立登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您是想了解申请条件吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "申请条件"
+        ],
+        "grounding_id": [
+            "131"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "申请条件中有 数量限制、受理条件和禁止性要求，请问您想了解哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "数量限制",
+            "受理条件",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "132",
+            "134",
+            "136"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那不符合《合伙企业法》及《外国企业或个人在中国境内设立合伙企业管理办法》的规定可以办理吗",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不符合《合伙企业法》及《外国企业或个人在中国境内设立合伙企业管理办法》的规定是不可以办理的",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "不符合《合伙企业法》及《外国企业或个人在中国境内设立合伙企业管理办法》的规定"
+        ],
+        "grounding_id": [
+            "137"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想知道监督投诉方式都有哪些",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址和投诉网址，您想了解哪种？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "投诉电话",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "0579-82468973",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "0579-82468973"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我想了解一下外商投资合伙企业分支机构设立登记的基本信息",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您想了解是否进驻政务大厅、是否支持自助终端办理还是法人主题分类呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是否支持自助终端办理",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "我想问一下外商投资合伙企业分支机构设立登记的咨询方式",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "外商投资合伙企业分支机构设立登记",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "有咨询电话、咨询地址和咨询网址，您想了解哪种方式？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "咨询电话",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "0579-82101790、0579-82469502、0579-82466883",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "0579-82101790、0579-82469502、0579-82466883"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "咨询地址可以告诉我一下吗？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "金华市双龙南街858号三楼E9-E12窗口",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "金华市双龙南街858号三楼E9-E12窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "请告诉我投诉地址",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "金华市双龙南街1698号金华市市场监督管理局910办公室",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_企业开办_企业设立_外商投资合伙企业分支机构设立登记.json",
+        "grounding": [
+            "金华市双龙南街1698号金华市市场监督管理局910办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

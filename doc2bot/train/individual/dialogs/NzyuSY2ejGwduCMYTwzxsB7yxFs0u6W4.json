@@ -1,0 +1,274 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江杭州，想咨询社保医保和医疗保险问题。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "社保医保",
+            "医疗保险"
+        ],
+        "grounding_id": [
+            "T4",
+            "T168",
+            "T169"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询转移接续手续办理、城乡居民参保信息变更登记还是基本医疗保险参保人员历年账户家庭共济备案呢？",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先咨询一下转移接续手续办理可以自己办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "71"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的，我们支持自助终端办理。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问具体要怎么办理呢？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "转移接续手续办理",
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "77"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您想了解办理形式、通办范围还是是否支持预约办理问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道办理形式有什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们有网上申请、现场窗口申请和现场自助机申请，您可以按需选择。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那什么时候能知道办理结果呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "我们的法定办结时限是30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，我还想知道能不能网上支付呢？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "200"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不可以，我们不支持网上支付。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "201"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那办理需要缴纳费用吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "196"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "197"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "我还想了解一下城乡居民参保信息变更登记。",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "城乡居民参保信息变更登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想知道服务办理区域、统一社会信用代码还是咨询方式呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "咨询方式，我想知道可以在哪里咨询？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "咨询方式",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "您可以到杭州市医疗保障事务受理中心，也就是在杭州市上城区小营街道西湖大道149号2楼处的1-2号咨询服务窗口办理。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "杭州市医疗保障事务受理中心（杭州市上城区小营街道西湖大道149号2楼(万科金色城品楼)）1-2号咨询服务窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "这个变更登记的办理形式有什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "您可以选择网上申请或者现场窗口申请。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_城乡居民参保信息变更登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    }
+]

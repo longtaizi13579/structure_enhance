@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下办港澳签注的事",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您想了解哪个省市",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "浙江舟山市",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "浙江省_舟山市"
+        ],
+        "grounding_id": [
+            "T9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "港澳签注有多重类型，您能说得具体些吗比如是旅游还是探亲再或者是商务等等",
+        "act": "question/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "探亲，孩子在香港念书想去看看这可以申请这个港澳探亲签注吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "申请条件",
+            "申请人探望在港澳定居、长期居住、就学或者就业亲属的，可申请香港探亲签注。申请人的配偶、未满18周岁子女可随同申请。"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "135"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的可以，您说的这个情况符合受理条件。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "134"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果申请人在港澳地区的，是不得委托他人代为申请的吧？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "（二）申请人在港澳地区的，不得委托他人代为申请。",
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "4449",
+            "136"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "（二）申请人在港澳地区的，不得委托他人代为申请。"
+        ],
+        "grounding_id": [
+            "4449"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那关于这个签注都有什么咨询方式呀",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询方式",
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "26",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个有咨询电话还有咨询地址再有就是咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "咨询电话是多少",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "电话是0580-2072077",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "咨询电话",
+            "0580-2072077"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有些信息要了解一下也是这个探亲签注的",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "1",
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "好的您是想了解基本信息还是办事信息",
+        "act": "multiple-choice",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "基本信息",
+            "办事信息"
+        ],
+        "grounding_id": [
+            "40",
+            "97"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "就是想问这个签注都有什么办理形式",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "100"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "这个可以网上申请还可以现场窗口申请",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那这个探亲签注多久能办好呀",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "港澳探亲签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这个法定办结时限30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_常用服务_港澳探亲签注.json",
+        "grounding": [
+            "法定办结时限",
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    }
+]

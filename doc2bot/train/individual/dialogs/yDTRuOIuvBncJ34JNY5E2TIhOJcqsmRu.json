@@ -1,0 +1,472 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问如果我想申请工伤认定应该去哪儿呢？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "工伤认定申请",
+            "办理地点"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）人力社保综合窗口1-10号",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "金华市行政服务中心（金华市婺城区西关街道双龙南街858号）人力社保综合窗口1-10号"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，我想知道提交相关材料之后多长时间会受理呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理流程",
+            "受理"
+        ],
+        "grounding_id": [
+            "342",
+            "352"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "5个工作日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "5个工作日"
+        ],
+        "grounding_id": [
+            "354"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我怎么知道有没有被受理呢？会有什么证明吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理结果"
+        ],
+        "grounding_id": [
+            "359"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "社会保险行政部门决定受理的，应当出具《工伤认定申请受理决定书》；决定不予受理的，应当出具《工伤认定申请不予受理决定书》",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "社会保险行政部门决定受理的，应当出具《工伤认定申请受理决定书》；决定不予受理的，应当出具《工伤认定申请不予受理决定书》。"
+        ],
+        "grounding_id": [
+            "360"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "受理之后还有什么别的流程吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理流程"
+        ],
+        "grounding_id": [
+            "342"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "还需要审查 、审核（审批）、办结和送达",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审查",
+            "审核（审批）",
+            "办结",
+            "送达"
+        ],
+        "grounding_id": [
+            "361",
+            "370",
+            "379",
+            "388"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "审查要花多长时间呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审查",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "361",
+            "362"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "24个工作日之后就会有结果的",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "24个工作日"
+        ],
+        "grounding_id": [
+            "363"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那审查的话主要是查什么呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审查"
+        ],
+        "grounding_id": [
+            "361"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "看您的相关资料是否满足我们的审核标准",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审核标准"
+        ],
+        "grounding_id": [
+            "366"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，那审核（审批）又是怎么回事呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审核（审批）"
+        ],
+        "grounding_id": [
+            "370"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "请问你说的是审核（审批）的办理人员还是审核标准？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理人员",
+            "审核标准"
+        ],
+        "grounding_id": [
+            "373",
+            "375"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "审核标准吧，是什么呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "审核标准"
+        ],
+        "grounding_id": [
+            "375"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "对审查过程及相关材料进行审核。如工伤科负责人认为需要局领导决定的，上报局领导审批",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "对审查过程及相关材料进行审核。如工伤科负责人认为需要局领导决定的，上报局领导审批"
+        ],
+        "grounding_id": [
+            "376"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那最后办结的结果怎么通知呢？",
+        "act": "how",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办结",
+            "办理结果"
+        ],
+        "grounding_id": [
+            "379",
+            "386"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "出具《认定工伤决定书》或者《不予认定工伤决定书》，并对材料进行归档处理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "出具《认定工伤决定书》或者《不予认定工伤决定书》，并对材料进行归档处理。"
+        ],
+        "grounding_id": [
+            "387"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，那最后结果在多长时间能送到呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "送达",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "388",
+            "389"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "20个工作日之内",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "20日"
+        ],
+        "grounding_id": [
+            "390"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "好的，支付的时候可以用手机支付吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "443"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "抱歉，目前不支持网上支付",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "444"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "好吧，那办理的时间是什么时候呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "周一至周五，10月1日-次年4月30日，上午9:00-12:00，下午13:00-17:00，5月1日-9月30日，上午8:30-12:00,下午13:30-17:00",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "周一至周五，10月1日-次年4月30日，上午9:00-12:00，下午13:00-17:00，5月1日-9月30日，上午8:30-12:00,下午13:30-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "好的，最迟多久能办完呢？",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "法定办结时限为60个工作日",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "60（天）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "好的，这一系列的规定是根据什么制定的呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "工伤认定申请",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "397"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "请问您问的是设定依据吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "设定依据"
+        ],
+        "grounding_id": [
+            "397"
+        ]
+    },
+    {
+        "turn": 28,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "工伤认定申请",
+            "设定依据"
+        ],
+        "grounding_id": [
+            "1",
+            "397"
+        ]
+    },
+    {
+        "turn": 29,
+        "role": "system",
+        "utterance": "设定依旧为浙江省人大颁布的浙江省工伤保险条例第四章工伤认定",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "设定依据",
+            "浙江省工伤保险条例",
+            "浙江省人大",
+            "第四章工伤认定"
+        ],
+        "grounding_id": [
+            "397",
+            "398",
+            "402",
+            "406"
+        ]
+    },
+    {
+        "turn": 30,
+        "role": "user",
+        "utterance": "好的，那能告诉我一下投诉有哪些方式吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 31,
+        "role": "system",
+        "utterance": "有投诉电话、投诉地址和投诉网址，您需要知道哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 32,
+        "role": "user",
+        "utterance": "投诉地址吧",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 33,
+        "role": "system",
+        "utterance": "投诉地址位于金华市长山路181号A幢2楼201办公室",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_社保医保_常用服务_工伤认定申请.json",
+        "grounding": [
+            "金华市长山路181号A幢2楼201办公室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的拖拉机行驶证在浙江省金华市丢了，需要走什么流程呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "浙江省_金华市"
+        ],
+        "grounding_id": [
+            "T6"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您可以在官网里先申请，拖拉机、联合收割机行驶证换、补领的流程。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "拖拉机、联合收割机行驶证换、补领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申请之后呢，大概什么时候通过可以去办理。",
+        "act": "when",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "拖拉机、联合收割机行驶证换、补领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您这边申请成功后，一般在法定办结时限1个工作日后就可以去办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "法定办结时限",
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "57",
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理后，我的行驶证就可以拿到了吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "行驶驾驶"
+        ],
+        "grounding_id": [
+            "T16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您申请的行驶证是以邮寄的方式给您的，到货时间是自作出决定之日起5个工作日内送达，当天是拿不到的。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "自作出决定之日起5个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那我该在哪里申请办理呢？",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "办事信息"
+        ],
+        "grounding_id": [
+            "97"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前有两种可办理形式，一种是网上申请，另一种是现在窗口申请办理。",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_行驶驾驶_行驶证驾驶证_拖拉机、联合收割机行驶证换、补领.json",
+        "grounding": [
+            "办理形式",
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "100",
+            "101"
+        ]
+    }
+]

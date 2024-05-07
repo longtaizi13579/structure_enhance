@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问问这个社保医保的相关业务可以自助办理吗",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "社保医保",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T168",
+            "71"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在哪个省市缴纳社保呀",
+        "act": "question/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "浙江省_杭州市"
+        ],
+        "grounding_id": [
+            "T4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，是浙江杭州，我是想问我以前在别的城市缴纳过社保我现在在杭州想接着缴纳社保",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "转移接续手续办理"
+        ],
+        "grounding_id": [
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，您说的这个情况是可以自助办理的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "72"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，好，那这个手续办理一般要多长时间呀",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个时限是20（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "56"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好，但是我朋友查网上看到有一个什么法定办结时限比20天长那怎么回事呀",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "为您查询了这个转移接续手续办理法定办结时限是30（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，那这个办理有什么形式呀",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "80"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，这个办理形式有三种一网上申请、二现场窗口申请、三现场自助机申请",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_医疗保险_转移接续手续办理.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    }
+]

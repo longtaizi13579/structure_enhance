@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想在浙江宁波市办理一下分公司的注销，在线下门店能不能用自助终端机办理啊？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "分公司注销登记",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "T7",
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "目前门店支持自助终端办理业务。",
+        "act": "ans/yes",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道一下，注销登记的办结时限大概是多久啊？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限",
+            "分公司注销登记"
+        ],
+        "grounding_id": [
+            "59",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想知道的是法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "法定办结的时限吧，能有多长时间呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，法定办结时限有20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "20（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我想知道在我办理注销登记做出决定后几日把结果送到呀。",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自作出决定之日起3个工作日内送达结果。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "自作出决定之日起3个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "啊，我决定去办理了，有什么可以申请办理的方法呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前一共有四个办理方式，网上申请、现场窗口申请、邮寄申请、现场自助机申请。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_企业注销_常用服务_分公司注销登记.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    }
+]

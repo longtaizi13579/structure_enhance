@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好,我想咨询一下使用iPhone、iPad或iPodtouch上的“提醒事项",
+        "act": "what",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想问开始之前的操作还是创建提醒事项?",
+        "act": "multiple-choice",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "创建提醒事项"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下的具体步骤?",
+        "act": "what",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "创建提醒事项",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "45",
+            "46"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先打开“提醒事项”App, 然后轻点“+新建提醒事项”，然后键入您的提醒事项。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "打开“提醒事项”App。",
+            "轻点“+新建提醒事项”，然后键入您的提醒事项。"
+        ],
+        "grounding_id": [
+            "47",
+            "48"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "给联系人发送“提醒事项”应该怎么操作?",
+        "act": "how",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用iPhone、iPad或iPodtouch上的“提醒事项”",
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "1",
+            "71"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先轻点某个提醒事项，然后轻点编辑详细信息按钮,然后打开“发信息”,最后轻点“选取联系人”，然后轻点某个联系人的姓名。",
+        "act": "ans/open",
+        "document": "使用iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "轻点某个提醒事项，然后轻点编辑详细信息按钮。",
+            "打开“发信息”。",
+            "轻点“选取联系人”，然后轻点某个联系人的姓名。"
+        ],
+        "grounding_id": [
+            "72",
+            "73",
+            "74"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "提醒事项都有哪些分类呢?",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "想要对提醒事项按“工作”、“个人”或“学校”等类别分类？创建一个提醒事项列表可以让一切变得井井有条。要在多个列表间切换，请轻点提醒事项列表的名称，或从提醒事项列表顶部向下轻扫。"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "提醒事项可以按“工作”、“个人”或“学校”等类别分类.",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "想要对提醒事项按“工作”、“个人”或“学校”等类别分类？创建一个提醒事项列表可以让一切变得井井有条。要在多个列表间切换，请轻点提醒事项列表的名称，或从提醒事项列表顶部向下轻扫。"
+        ],
+        "grounding_id": [
+            "62"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "装有iOS12的iPhone、iPad可以与iCloud搭配使用吗?",
+        "act": "verification",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。",
+            "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可以,如果与iCloud搭配使用还可以使提醒事项在所有设备上保持最新状态。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

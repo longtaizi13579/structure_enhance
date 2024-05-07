@@ -1,0 +1,322 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下社保的事",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的社保一般涉及五险您清楚吗具体想了解哪个保险",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "T189"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我知道那个工伤保险就是统筹地区以外交通、食宿费申领这个设定依据是什么",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "统筹地区以外交通、食宿费申领",
+            "设定依据",
+            "工伤保险"
+        ],
+        "grounding_id": [
+            "1",
+            "293",
+            "T189"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这个依据一人力资源和社会保障部关于印发工伤保险经办规程的通知二工伤保险条例三浙江省工伤保险条例",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "设定依据",
+            "人力资源和社会保障部关于印发工伤保险经办规程的通知",
+            "工伤保险条例",
+            "浙江省工伤保险条例"
+        ],
+        "grounding_id": [
+            "293",
+            "294",
+            "303",
+            "312"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "就是第三个浙江省条例是哪个文号依据",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "浙江省工伤保险条例",
+            "依据文号"
+        ],
+        "grounding_id": [
+            "312",
+            "315"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个依据文号浙江省人民代表大会常务委员会公告第64号",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "依据文号",
+            "浙江省人民代表大会常务委员会公告第64号"
+        ],
+        "grounding_id": [
+            "315",
+            "316"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那这个申领都有什么咨询方式呢",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "帮您查询了有三种方式一咨询电话二咨询地址三咨询网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "咨询地址是在哪里",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "地址是衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "28",
+            "27"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那个咨询电话也给我来一个吧",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "好的电话是0570-3079086",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3079086"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "就是社保这块有什么监督投诉方式吗",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "社保医保",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T168",
+            "31"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "帮您查询了这个有投诉电话还有投诉地址再有就是投诉网址您需要哪个",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "投诉电话我记一下",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "电话是0570-3086326",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉电话",
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "麻烦你把投诉地址也一起告诉我吧万一电话没人接呢",
+        "act": "where",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "投诉地址是衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_统筹地区以外交通、食宿费申领.json",
+        "grounding": [
+            "投诉地址",
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "好的，就是还想问一下也是浙江的工伤保险供养亲属抚恤金申领这个有什么咨询电话吗",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "工伤保险",
+            "供养亲属抚恤金申领",
+            "咨询电话",
+            "浙江省_衢州市"
+        ],
+        "grounding_id": [
+            "T189",
+            "1",
+            "25",
+            "T5"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "咨询电话0570-3079086",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "咨询电话",
+            "0570-3079086"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那办这抚恤金申领还收费吗",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "供养亲属抚恤金申领",
+            "是否收费"
+        ],
+        "grounding_id": [
+            "1",
+            "1628"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "不收费",
+        "act": "ans/no",
+        "document": "浙江省_衢州市_0_0_社保医保_工伤保险_供养亲属抚恤金申领.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "1629"
+        ]
+    }
+]

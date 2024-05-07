@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问换领机动车驾驶证的话当天能不能办好？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "换领机动车登记证书",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "59"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "一个工作日内可以办结的",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "1（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那办理完成后能够当场拿到驾驶证吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "122"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "抱歉，不能，我们会自作出决定之日起10个工作日内送达",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "123"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那别的基本信息还有吗？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "基本信息"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您还想了解办理形式、通办范围还是是否支持预约办理呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道办理的形式有哪些？",
+        "act": "what",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以选择网上申请、现场窗口申请或邮寄申请",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "网上申请/现场窗口申请/邮寄申请"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "知道了，那能去大厅的自助机器办理吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不好意思，我们目前还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那是申请之后就等着办理就好是吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "申请条件",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "138",
+            "141"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不是，您需要满足我们的受理条件才可以办理",
+        "act": "ans/no",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "受理条件"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那受理条件是不是机动车登记证书损毁或签注满后？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "受理条件",
+            "机动车登记证书损毁或签注满后。"
+        ],
+        "grounding_id": [
+            "141",
+            "142"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "机动车登记证书损毁或签注满后。"
+        ],
+        "grounding_id": [
+            "142"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "288",
+            "297"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "请问您问的是收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的，一本多少钱呢？",
+        "act": "ans/yes",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "297"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "十元一本",
+        "act": "ans/open",
+        "document": "浙江省_丽水市_0_0_行驶驾驶_机动车_换领机动车登记证书.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "298"
+        ]
+    }
+]

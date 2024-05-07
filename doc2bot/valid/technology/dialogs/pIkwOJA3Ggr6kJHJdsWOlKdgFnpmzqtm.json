@@ -1,0 +1,226 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的手机更新或重启后，看到了“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”的信息，我想具体了解一下？",
+        "act": "what",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想具体了解检测到蜂窝号码问题、检测到超宽带问题、检测到ApplePay问题还是后续步骤？",
+        "act": "multiple-choice",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "后续步骤"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下后续步骤。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "后续步骤"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先您在继续之前，请确保您已备份自己的iPhone或iPad，然后按照以下步骤重新安装iOS或iPadOS：首先将您的设备连接到一部电脑上。然后如果看到“要信任此电脑吗？”提醒，请将设备解锁并轻点“信任”，选择您的设备；最后在“访达”中，点按“通用”。或者，在iTunes中，点按“摘要”，然后按以下步骤操作。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "在继续之前，请确保您已备份自己的iPhone或iPad。然后按照以下步骤重新安装iOS或iPadOS：",
+            "将您的设备连接到一部电脑上。确保您使用的是最新版本的macOS或iTunes。在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。",
+            "如果看到“要信任此电脑吗？”提醒，请将设备解锁并轻点“信任”。",
+            "选择您的设备。",
+            "在“访达”中，点按“通用”。或者，在iTunes中，点按“摘要”，然后按以下步骤操作："
+        ],
+        "grounding_id": [
+            "20",
+            "25",
+            "26",
+            "27",
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "设备和电脑都有什么要求吗？",
+        "act": "what",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "将您的设备连接到一部电脑上。确保您使用的是最新版本的macOS或iTunes。在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "确保您使用的是最新版本的macOS或iTunes。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "将您的设备连接到一部电脑上。确保您使用的是最新版本的macOS或iTunes。在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“将您的设备连接到一部电脑上”这一步具体怎么操作？",
+        "act": "how",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "将您的设备连接到一部电脑上。确保您使用的是最新版本的macOS或iTunes。在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "将您的设备连接到一部电脑上。确保您使用的是最新版本的macOS或iTunes。在装有macOSCatalina10.15或更高版本的Mac上，打开“访达”窗口。在装有macOSMojave10.14.4或更早版本的Mac上或PC上，打开iTunes。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "最后一步中，如果是在在Mac上，我要如何操作？",
+        "act": "how",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "在“访达”中，点按“通用”。或者，在iTunes中，点按“摘要”，然后按以下步骤操作：",
+            "在Mac上：按住Command键点按“检查更新”。"
+        ],
+        "grounding_id": [
+            "31",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在Mac上：按住Command键点按“检查更新”。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "在Mac上：按住Command键点按“检查更新”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "在Windows电脑上呢？",
+        "act": "how",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "在Windows电脑上：按住Control键点按“检查更新”。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在Windows电脑上：按住Control键点按“检查更新”。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "在Windows电脑上：按住Control键点按“检查更新”。"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我还想问一下，检测到ApplePay问题，我该怎么办？",
+        "act": "how",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "检测到ApplePay问题"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果出现“检测到ApplePay问题”这条信息，则您必须先在设备上重新安装iOS或iPadOS，然后才能使用ApplePay或“钱包”进行支付或通行。某些“钱包”凭证可能在无法进行支付时仍然可用。",
+        "act": "ans/open",
+        "document": "如果您在iOS更新或重新启动后看到“蜂窝网络问题”、“超宽带问题”或“ApplePay问题”信息.json",
+        "grounding": [
+            "则您必须先在设备上重新安装iOS或iPadOS，然后才能使用ApplePay或“钱包”进行支付或通行。某些“钱包”凭证可能在无法进行支付时仍然可用。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "你好，我现在在美国的芝加哥，想问一下使用ApplePay乘坐公共交通时，应该怎么付款？",
+        "act": "how",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "在哪里可以使用ApplePay乘坐公共交通",
+            "根据您所在的位置，您可以添加交通卡，或使用“钱包”App中已有的付款卡。",
+            "美国",
+            "芝加哥：添加Ventra卡*。在接受这种卡的任何地区都可以乘车，也可以使用“钱包”App中的付款卡支付费用。"
+        ],
+        "grounding_id": [
+            "1",
+            "4",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "根据您所在的位置，您可以添加交通卡，或使用“钱包”App中已有的付款卡。",
+        "act": "ans/open",
+        "document": "在哪里可以使用ApplePay乘坐公共交通.json",
+        "grounding": [
+            "根据您所在的位置，您可以添加交通卡，或使用“钱包”App中已有的付款卡。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

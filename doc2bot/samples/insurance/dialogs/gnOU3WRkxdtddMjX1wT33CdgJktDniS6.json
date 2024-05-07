@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "泰康保险，就是你们那个吉祥相伴定期寿险，那个保险期间是怎么个情况呢",
+        "act": "how",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "泰康吉祥相伴（2018）定期寿险  ",
+            "保险期间"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是想了解哪一个，该保险有2018,2020 等等",
+        "act": "multiple-choice",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "泰康吉祥相伴（2018）定期寿险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "哦是2018定期寿险",
+        "act": "ans/open",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "泰康吉祥相伴（2018）定期寿险  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的该保险期间是指本合同的保险期间自本合同生效日零时开始, 至保险单上载明的保险期间期满日 的 24 时止",
+        "act": "ans/open",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "本合同的保险期间自本合同生效日零时开始, 至保险单上载明的保险期间期满日 的 24 时止。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那等待期呢",
+        "act": "what",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "等待期"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同自生效（或最后复效）之日起，被保险人因意外伤害3以外的原因发生本合 同所定义的高度残疾4或者身故的，有 180 日的等待期。被保险人因意外伤害发生 保险事故的，无等待期。 等待期内被保险人发生保险事故，我们不承担保险责任，无息退还您累计已交纳的 本合同的保险费，本合同终止",
+        "act": "ans/open",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "本合同自生效（或最后复效）之日起，被保险人因意外伤害3以外的原因发生本合 同所定义的高度残疾4或者身故的，有 180 日的等待期。被保险人因意外伤害发生 保险事故的，无等待期。 等待期内被保险人发生保险事故，我们不承担保险责任，无息退还您累计已交纳的 本合同的保险费，本合同终止。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个保险你们都保什么呢",
+        "act": "what",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "我们保多久、保什么"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你是想了解保险责任对吧",
+        "act": "verification",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "保险责任"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我是想问你们都承担什么保险责任",
+        "act": "what",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "在本合同保险期间内，我们承担下列保险责任："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在本合同保险期间内，我们承担下列保险责任分高残保险金还有身故保险金",
+        "act": "ans/open",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "高残保险金",
+            "身故保险金"
+        ],
+        "grounding_id": [
+            "11",
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "高残保险金是怎样的",
+        "act": "how",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "高残保险金"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "高残保险金是被保险人在等待期后发生高残，我们将按本合同的基本保险金额向高残保险金受益 人给付高残保险金，本合同终止。",
+        "act": "ans/open",
+        "document": "泰康吉祥相伴（2018）定期寿险  .json",
+        "grounding": [
+            "被保险人在等待期后发生高残，我们将按本合同的基本保险金额向高残保险金受益 人给付高残保险金，本合同终止。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

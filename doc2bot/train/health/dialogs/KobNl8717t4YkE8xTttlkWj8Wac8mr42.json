@@ -1,0 +1,201 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解过量毒性的更多信息应该去哪里",
+        "act": "where",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "过量毒性",
+            "了解更多信息"
+        ],
+        "grounding_id": [
+            "1",
+            "13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是什么信息呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "过量毒性"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道获取各种毒物的相关信息、紧急求助热线和避免中毒的可以去哪里",
+        "act": "where",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "美国毒物控制中心协会：获取各种毒物的相关信息、紧急求助热线(1-800-222-1222)和避免中毒的提示。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "美国毒物控制中心协会",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "美国毒物控制中心协会：获取各种毒物的相关信息、紧急求助热线(1-800-222-1222)和避免中毒的提示。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果需要用镇静剂、抗焦虑药或安眠药时一般会选择什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "当两种药物的药效相当时，医生往往会选用过量毒性风险较低的药物。例如需使用镇静剂、抗焦虑药或安眠药时，医生会选用苯二氮卓(benzodiazepines)类药物，如地西泮(diazepam)和替马西泮(temazepam)，而不是戊巴比妥(phenobarbital)等巴比妥(barbiturates)类药物。苯二氮卓类药物并不比巴比妥类药物更加有效，但其安全系数更大，在意外或故意过量使用时，较不容易造成严重毒性反应。安全因素也是新型抗抑郁药出现的原因，如氟西汀(fluoxetine)和帕罗西汀(paroxetine)，这些新型抗抑郁药已广泛替代了疗效相同的老药，如丙咪嗪(imipramine)和阿米替林(amitriptyline)（请参见治疗抑郁症的一些药）。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "医生会选用苯二氮卓(benzodiazepines)类药物，如地西泮(diazepam)和替马西泮(temazepam)，而不是戊巴比妥(phenobarbital)等巴比妥(barbiturates)类药物。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "当两种药物的药效相当时，医生往往会选用过量毒性风险较低的药物。例如需使用镇静剂、抗焦虑药或安眠药时，医生会选用苯二氮卓(benzodiazepines)类药物，如地西泮(diazepam)和替马西泮(temazepam)，而不是戊巴比妥(phenobarbital)等巴比妥(barbiturates)类药物。苯二氮卓类药物并不比巴比妥类药物更加有效，但其安全系数更大，在意外或故意过量使用时，较不容易造成严重毒性反应。安全因素也是新型抗抑郁药出现的原因，如氟西汀(fluoxetine)和帕罗西汀(paroxetine)，这些新型抗抑郁药已广泛替代了疗效相同的老药，如丙咪嗪(imipramine)和阿米替林(amitriptyline)（请参见治疗抑郁症的一些药）。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "有什么原因吗？",
+        "act": "why",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "当两种药物的药效相当时，医生往往会选用过量毒性风险较低的药物。例如需使用镇静剂、抗焦虑药或安眠药时，医生会选用苯二氮卓(benzodiazepines)类药物，如地西泮(diazepam)和替马西泮(temazepam)，而不是戊巴比妥(phenobarbital)等巴比妥(barbiturates)类药物。苯二氮卓类药物并不比巴比妥类药物更加有效，但其安全系数更大，在意外或故意过量使用时，较不容易造成严重毒性反应。安全因素也是新型抗抑郁药出现的原因，如氟西汀(fluoxetine)和帕罗西汀(paroxetine)，这些新型抗抑郁药已广泛替代了疗效相同的老药，如丙咪嗪(imipramine)和阿米替林(amitriptyline)（请参见治疗抑郁症的一些药）。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "因为苯二氮卓类药物并不比巴比妥类药物更加有效，但其安全系数更大，在意外或故意过量使用时，较不容易造成严重毒性反应。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "当两种药物的药效相当时，医生往往会选用过量毒性风险较低的药物。例如需使用镇静剂、抗焦虑药或安眠药时，医生会选用苯二氮卓(benzodiazepines)类药物，如地西泮(diazepam)和替马西泮(temazepam)，而不是戊巴比妥(phenobarbital)等巴比妥(barbiturates)类药物。苯二氮卓类药物并不比巴比妥类药物更加有效，但其安全系数更大，在意外或故意过量使用时，较不容易造成严重毒性反应。安全因素也是新型抗抑郁药出现的原因，如氟西汀(fluoxetine)和帕罗西汀(paroxetine)，这些新型抗抑郁药已广泛替代了疗效相同的老药，如丙咪嗪(imipramine)和阿米替林(amitriptyline)（请参见治疗抑郁症的一些药）。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果想知道有关化学药品和药物中毒信息可以去哪里获取呢？",
+        "act": "where",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "美国许多大城市都建立了毒物控制中心，提供有关化学药品和药物中毒信息，且大多数电话簿都列出了当地毒物控制中心的号码。应该将这些号码抄录并贴在电话机旁，或设置成电话自动拨号。（另请参见药物不良反应概述。）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "美国许多大城市都建立了毒物控制中心，提供有关化学药品和药物中毒信息，且大多数电话簿都列出了当地毒物控制中心的号码。应该将这些号码抄录并贴在电话机旁，或设置成电话自动拨号。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "美国许多大城市都建立了毒物控制中心，提供有关化学药品和药物中毒信息，且大多数电话簿都列出了当地毒物控制中心的号码。应该将这些号码抄录并贴在电话机旁，或设置成电话自动拨号。（另请参见药物不良反应概述。）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "请问您还想了解哪方面的信息呢",
+        "act": "question/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "见药物不良反应概述"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "user",
+        "utterance": "我想知道药物不良反应是指什么",
+        "act": "what",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "见药物不良反应概述"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "system",
+        "utterance": "药物不良反应（不良作用）指任何不想要的药物作用。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_过量毒性.json",
+        "grounding": [
+            "药物不良反应（不良作用）指任何不想要的药物作用。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "user",
+        "utterance": "那药物过敏会对气道有什么影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_药品_药物不良反应_药物过敏.json",
+        "grounding": [
+            "药物过敏",
+            "气道收缩和喘息"
+        ],
+        "grounding_id": [
+            "1",
+            "14"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "system",
+        "utterance": "可能会导致气道收缩和喘息",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_药品_药物不良反应_药物过敏.json",
+        "grounding": [
+            "气道收缩和喘息"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    }
+]

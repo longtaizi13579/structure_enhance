@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下如何使用Mac上的“辅助功能快捷键”面板呢？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "使用Mac上的“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你是想询问“辅助功能快捷键”面板的打开还是关闭还是什么？",
+        "act": "multiple-choice",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "打开“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何打开“辅助功能快捷键”面板？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "打开“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先同时按下以下按键：Option(⌥)、Command(⌘)和F5。在配备触控栏的笔记本电脑上，可能还需要按下Fn（功能）键。再在配备触控ID的笔记本电脑上，连按三次触控ID。（如果在进行这项操作时按住Command键，则会打开或关闭旁白。）最后 要关闭这个面板的话，请点按“完成”或点按窗口以外的任意位置。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "同时按下以下按键：Option(⌥)、Command(⌘)和F5。在配备触控栏的笔记本电脑上，可能还需要按下Fn（功能）键。",
+            "在配备触控ID的笔记本电脑上，连按三次触控ID。（如果在进行这项操作时按住Command键，则会打开或关闭旁白。）",
+            "要关闭这个面板，请点按“完成”或点按窗口以外的任意位置。"
+        ],
+        "grounding_id": [
+            "4",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可是我最近发现，我的“辅助功能快捷键”面板中的快捷键不好使了，我该如何更改“辅助功能快捷键”面板中的快捷键呢？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "更改“辅助功能快捷键”面板中的快捷键"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果要更改这个面板中显示的快捷键，请选取苹果菜单>“系统偏好设置”，然后点按“辅助功能”。在边栏中选择“快捷键”，然后使用复选框打开或关闭快捷键。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "要更改这个面板中显示的快捷键，请选取苹果菜单>“系统偏好设置”，然后点按“辅助功能”。在边栏中选择“快捷键”，然后使用复选框打开或关闭快捷键。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "可是我总感觉我对使用Mac上的“辅助功能快捷键”面板还是有一些不明白的？",
+        "act": "how",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "使用Mac上的“辅助功能快捷键”面板"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问你是想进行进一步的了解吗？",
+        "act": "verification",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的，跟我详细讲一下吧。",
+        "act": "what",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。也可以了解其他Mac辅助功能快捷键。",
+        "act": "ans/open",
+        "document": "使用Mac上的“辅助功能快捷键”面板.json",
+        "grounding": [
+            "您可以让Siri打开或关闭许多辅助功能。例如，让Siri“打开旁白”或“打开缩放”。",
+            "了解其他Mac辅助功能快捷键。"
+        ],
+        "grounding_id": [
+            "16",
+            "20"
+        ]
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在浙江绍兴市开了个公司，现在需要给员工买社保，有什么要求呢？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "浙江省_绍兴市"
+        ],
+        "grounding_id": [
+            "T5"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您要满足是行政区域内经依法登记注册的用人单位（包括企业、个体经济组织、民办非企业单位、国家机关、事业单位、社会团体等）的职工即可办理",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记",
+            "行政区域内经依法登记注册的用人单位（包括企业、个体经济组织、民办非企业单位、国家机关、事业单位、社会团体等）的职工。统筹区内符合条件的灵活就业人员。"
+        ],
+        "grounding_id": [
+            "1",
+            "97"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我申请的的这个职工参保登记申请流程会收费吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "目前是不收费的。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "不收费"
+        ],
+        "grounding_id": [
+            "191"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "绍兴市这边的社保局电话多少呢？我先打电话过去咨询下。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话：0575-81162923。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "咨询电话",
+            "0575-81162923"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我给员工购买的职工参保有没有什么依据？表示我已经买了。",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "职工参保登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，到时候为您办理好后，会给您邮件资料，资料上会有颁布机关的名称：中华人民共和国人力资源和社会保障部。",
+        "act": "ans/yes",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "颁布机关",
+            "中华人民共和国人力资源和社会保障部"
+        ],
+        "grounding_id": [
+            "161",
+            "162"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，那我就放心了，就怕白忙活一场。资料帮我邮件过来后，邮费我可以在网上支付吗？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "194"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "邮费不支持网上支付哦。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_职工社保医保_常用服务_职工参保登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "195"
+        ]
+    }
+]

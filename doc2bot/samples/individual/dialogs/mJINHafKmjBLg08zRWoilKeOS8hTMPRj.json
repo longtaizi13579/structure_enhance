@@ -1,0 +1,260 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江杭州办理台湾通行证及签注的情况",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "台湾通行证及签注"
+        ],
+        "grounding_id": [
+            "T4",
+            "T240"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您办理的是赴台商务签注，赴台学习签注，应邀赴台签注还是赴台其他签注",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是赴台商务签注，具体流程是怎么样的呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "赴台商务签注",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "2814"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.审核审批 4.制证签发 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "受理",
+            "审核审批",
+            "制证签发",
+            "送达"
+        ],
+        "grounding_id": [
+            "2814",
+            "2815",
+            "2817",
+            "2826",
+            "2835",
+            "2841"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "审核审批的办理人员是那个部门的呢？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "审核审批",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "2826",
+            "2829"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是各地市具体行使单位具体办理人员",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "各地市具体行使单位具体办理人员"
+        ],
+        "grounding_id": [
+            "2830"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那审批标准是什么？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "审核审批",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "2826",
+            "2831"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "审查提交材料是否齐全、是否符合法定形式，核查相关管理信息库，核实有无法定不准出境等情形，审查有报警事件的转调查。",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "审查提交材料是否齐全、是否符合法定形式，核查相关管理信息库，核实有无法定不准出境等情形，审查有报警事件的转调查。"
+        ],
+        "grounding_id": [
+            "2832"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "制证签发的时候还需要再审查一次吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "制证签发",
+            "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。"
+        ],
+        "grounding_id": [
+            "2835",
+            "2836"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，需要再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "再次核查相关管理信息库，通过核查的制作签发出入境证件，不通过的退回审核审批环节。"
+        ],
+        "grounding_id": [
+            "2836"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "一般多长时间可以送达？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "送达"
+        ],
+        "grounding_id": [
+            "2841"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "EMS工作人员2日送达",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台商务签注.json",
+        "grounding": [
+            "EMS工作人员2日送达"
+        ],
+        "grounding_id": [
+            "2842"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，如果是赴台定居签注的话可以网上收费吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "1813"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "1814"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那是怎么收费的呢？",
+        "act": "how",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "收费标准",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1808",
+            "1817"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您说的是赴台定居一次签注的收费标准吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "1\t赴台定居一次签注"
+        ],
+        "grounding_id": [
+            "1816"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "1\t赴台定居一次签注"
+        ],
+        "grounding_id": [
+            "1816"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "赴台定居一次签注15元/件",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居一次签注15元/件"
+        ],
+        "grounding_id": [
+            "1818"
+        ]
+    }
+]

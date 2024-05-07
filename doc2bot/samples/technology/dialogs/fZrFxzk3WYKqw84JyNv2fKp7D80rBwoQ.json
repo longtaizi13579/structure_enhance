@@ -1,0 +1,342 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何重置Mac的SMC?",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如何重置Mac的SMC"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "配备T2芯片的笔记本电脑还是配备T2芯片的台式电脑？",
+        "act": "multiple-choice",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "配备T2芯片的笔记本电脑"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "配备T2芯片的笔记本电脑",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "配备T2芯片的笔记本电脑"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请按照以下步骤重置SMC：首先将Mac关机。其次.在内建键盘上，按住以下所有按键。Mac可能会开机。 再次.按住全部三个按键7秒钟，然后在不松开按键的情况下按住电源按钮。 接着继续按住全部四个按键7秒钟，然后松开这些按键。 最后等待几秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "如果问题仍然存在，请按照以下步骤重置SMC：",
+            "将Mac关机。",
+            "在内建键盘上，按住以下所有按键。Mac可能会开机。",
+            "按住全部三个按键7秒钟，然后在不松开按键的情况下按住电源按钮。如果Mac处于开机状态，它将在您按住这些按键时关机。",
+            "继续按住全部四个按键7秒钟，然后松开这些按键。",
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "17",
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "在内建键盘上，按住哪些按键？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "在内建键盘上，按住以下所有按键。Mac可能会开机。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "键盘左侧的Control，键盘左侧的Option(Alt)，键盘右侧的Shift",
+        "act": "ans/yesno",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "键盘左侧的Control",
+            "键盘左侧的Option(Alt)",
+            "键盘右侧的Shift"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "第四步松开这些按键后，需要等待多久按下电源按钮以将Mac开机",
+        "act": "when",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": " 等待几秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "重置SMC之前需要做什么？",
+        "act": "what",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "重置SMC之前，请尝试以下步骤："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "重置SMC之前，请尝试以下步骤：:首先将Mac关机。 其次按住电源按钮10秒钟，然后松开这个按钮。 最后等待几秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "重置SMC之前，请尝试以下步骤：",
+            "将Mac关机。",
+            "按住电源按钮10秒钟，然后松开这个按钮。",
+            "等待几秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果是配备T2芯片的台式电脑，怎么做？",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "配备T2芯片的台式电脑"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "第一步将Mac关机，然后拔下电源线。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "将Mac关机，然后拔下电源线。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "拔下电源线然后呢？",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "将Mac关机，然后拔下电源线。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "等待15秒钟，然后重新接回电源线。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "等待15秒钟，然后重新接回电源线。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "重新接回电源线，之后呢？",
+        "act": "how",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "等待15秒钟，然后重新接回电源线。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "等待5秒钟，然后按下电源按钮以将Mac开机。",
+        "act": "ans/open",
+        "document": "如何重置Mac的SMC.json",
+        "grounding": [
+            "等待5秒钟，然后按下电源按钮以将Mac开机。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "如何重置AirPort基站？",
+        "act": "how",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "如何重置AirPort基站"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "你是想软重置吗",
+        "act": "verification",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "软重置："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "是的。软重置该怎么做？",
+        "act": "how",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "软重置："
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先确保基站已连接到电源。 其次.按住重置按钮1秒钟，然后松开该按钮。 接着从菜单栏中的Wi-Fi状态菜单选取您的基站所创建的Wi-Fi网络。 然后打开“AirPort实用工具” 最后在“AirPort实用工具”中，点按您的基站图标，然后点按弹出式菜单中的“编辑”。现在，您可以更改密码，或根据需要重新配置基站。完成后，点按“更新”。",
+        "act": "ans/open",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "确保基站已连接到电源。",
+            "按住重置按钮1秒钟，然后松开该按钮。基站上的状态指示灯将呈琥珀色闪烁。",
+            "从菜单栏中的Wi-Fi状态菜单选取您的基站所创建的Wi-Fi网络。",
+            "打开“AirPort实用工具”（位于“应用程序”文件夹的“实用工具”文件夹中）。",
+            "在“AirPort实用工具”中，点按您的基站图标，然后点按弹出式菜单中的“编辑”。现在，您可以更改密码，或根据需要重新配置基站。完成后，点按“更新”。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "25",
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "按住重置按钮1秒钟，然后松开该按钮。基站上的状态指示灯有什么变化？",
+        "act": "how",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "按住重置按钮1秒钟，然后松开该按钮。基站上的状态指示灯将呈琥珀色闪烁。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "基站上的状态指示灯将呈琥珀色闪烁。",
+        "act": "ans/open",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "按住重置按钮1秒钟，然后松开该按钮。基站上的状态指示灯将呈琥珀色闪烁。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "点按您的基站图标，然后点按弹出式菜单中的“编辑”后，可以做哪些操作？",
+        "act": "what",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "在“AirPort实用工具”中，点按您的基站图标，然后点按弹出式菜单中的“编辑”。现在，您可以更改密码，或根据需要重新配置基站。完成后，点按“更新”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "点按您的基站图标，然后点按弹出式菜单中的“编辑”。现在，您可以更改密码，或根据需要重新配置基站。",
+        "act": "ans/open",
+        "document": "如何重置AirPort基站.json",
+        "grounding": [
+            "在“AirPort实用工具”中，点按您的基站图标，然后点按弹出式菜单中的“编辑”。现在，您可以更改密码，或根据需要重新配置基站。完成后，点按“更新”。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

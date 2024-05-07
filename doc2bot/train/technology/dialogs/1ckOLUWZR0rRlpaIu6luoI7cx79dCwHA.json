@@ -1,0 +1,230 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下AppleWatch上使用“正念”App是怎么个情况",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "在AppleWatch上使用“正念”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "使用“正念”App进行沉思和呼吸，协助您放松身心并保持专注。借助AppleWatch上的“正念”App，您可以通过一连串的深呼吸来专注于呼吸，或花点时间来思考某个想法或行动。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "使用“正念”App进行沉思和呼吸，协助您放松身心并保持专注。",
+            "借助AppleWatch上的“正念”App，您可以通过一连串的深呼吸来专注于呼吸，或花点时间来思考某个想法或行动。"
+        ],
+        "grounding_id": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "还有问题想问一下也是关于在AppleWatch上使用“正念”App",
+        "act": "what",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "在AppleWatch上使用“正念”App"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的您是想了解如何开始“沉思”练习还是如何开始“呼吸”练习或是如何调整或关闭正念提醒再或是如何查看和跟踪正念分钟数",
+        "act": "multiple-choice",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何调整或关闭正念提醒"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何调整或关闭正念提醒",
+        "act": "how",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "如何调整或关闭正念提醒"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "具体步骤: 首先在AppleWatch上，轻点“设置”。然后轻点“正念”。最后选择“一天开始时”或“一天结束时”。您还可以轻点“添加提醒”来安排自定提醒。",
+        "act": "ans/open",
+        "document": "在AppleWatch上使用“正念”App.json",
+        "grounding": [
+            "具体步骤",
+            "在AppleWatch上，轻点“设置”。",
+            "轻点“正念”。",
+            "选择“一天开始时”或“一天结束时”。您还可以轻点“添加提醒”来安排自定提醒。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "还有想问一下AppleWatch上的通知这个就是方便及时查看对吗",
+        "act": "verification",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "AppleWatch上的通知",
+            "自定在AppleWatch上接收通知的时间和方式，以便立即做出响应或在方便时查看。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "自定在AppleWatch上接收通知的时间和方式，以便立即做出响应或在方便时查看。",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "自定在AppleWatch上接收通知的时间和方式，以便立即做出响应或在方便时查看。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "还有问题想问一下关于AppleWatch上的通知",
+        "act": "what",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "AppleWatch上的通知"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的您是想了解通知的显示位置还是查看您的所有通知或是清除所有通知再或是管理通知等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "管理通知"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "管理通知",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "管理通知"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那这个您是想了解如何更改AppleWatch上的通知接收方式还是自定通知设置或是隐藏通知内容再或是管理锁定时的通知摘要",
+        "act": "multiple-choice",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "如何更改AppleWatch上的通知接收方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何更改AppleWatch上的通知接收方式",
+        "act": "how",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "如何更改AppleWatch上的通知接收方式"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "具体步骤，首先按住表盘顶部。然后等待“通知中心”出现，然后向下轻扫。其次在通知上向左轻扫，然后轻点“更多”按钮。接着如果您不希望相应App发出声音或触感提醒，请轻点“隐式推送”。这个App的通知会直接出现在AppleWatch和iPhone上的“通知中心”中，而不会显示通知并发出声音或触感提醒。最后如果您不想接收这个App的通知，请轻点“在AppleWatch上关闭”。",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "具体步骤",
+            "按住表盘顶部。",
+            "等待“通知中心”出现，然后向下轻扫。",
+            "在通知上向左轻扫，然后轻点“更多”按钮。",
+            "如果您不希望相应App发出声音或触感提醒，请轻点“隐式推送”。这个App的通知会直接出现在AppleWatch和iPhone上的“通知中心”中，而不会显示通知并发出声音或触感提醒。",
+            "如果您不想接收这个App的通知，请轻点“在AppleWatch上关闭”。"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "要再次看到或听到这些通知要如何",
+        "act": "how",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "要再次看到或听到这些通知，请在这个App的通知上向左轻扫，轻点“更多”图标，然后轻点“显式推送”。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "要再次看到或听到这些通知，请在这个App的通知上向左轻扫，轻点“更多”图标，然后轻点“显式推送”。",
+        "act": "ans/open",
+        "document": "AppleWatch上的通知.json",
+        "grounding": [
+            "要再次看到或听到这些通知，请在这个App的通知上向左轻扫，轻点“更多”图标，然后轻点“显式推送”。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    }
+]

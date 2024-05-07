@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省杭州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "浙江省_杭州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T4",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工伤保险、养老保险、医疗保险您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "养老保险"
+        ],
+        "grounding_id": [
+            "T179"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解养老保险有关的问题。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "养老保险"
+        ],
+        "grounding_id": [
+            "T179"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是基本养老保险视同缴费年限核定、参保人员达到法定退休年龄领取基本养老保险待遇资格确认还是其他业务有关的问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "办理基本养老保险视同缴费年限核定这个业务有哪些监督投诉方式？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "三种，投诉电话、投诉地址、投诉网址您想要哪个？",
+        "act": "multiple-choice",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "投诉电话告诉我一下吧。",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "0571-12345-1",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "0571-12345-1"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投诉地址在哪？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "杭州市人力社保综合服务大厅（中河中路248号）服务台",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "杭州市人力社保综合服务大厅（中河中路248号）服务台"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这个业务申请是不是没有数量限制？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "基本养老保险视同缴费年限核定",
+            "申请条件",
+            "数量限制"
+        ],
+        "grounding_id": [
+            "1",
+            "131",
+            "132"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，无数量限制",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "无数量限制"
+        ],
+        "grounding_id": [
+            "133"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "法定办结时限是多久呢？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "15个工作日",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_社保医保_养老保险_基本养老保险视同缴费年限核定.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

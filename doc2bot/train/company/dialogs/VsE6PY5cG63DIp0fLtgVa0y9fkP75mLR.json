@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一些浙江省宁波市税务服务相关的业务，你可以给我介绍一下吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "税务服务"
+        ],
+        "grounding_id": [
+            "T7",
+            "T73"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您希望了解国家鼓励项目免税确认、纳税信用补评、跨区域涉税事项报验等业务中的哪一个呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下国家鼓励项目免税确认的咨询方式。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "国家鼓励项目免税确认",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "我们目前有咨询电话，咨询地址，咨询网址三种方式，您需要哪一种呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你给我一个咨询地址可以吗？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "好的，咨询地址是宁波市鄞州区福明街道宁穿路1901号。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_纳税缴费_税务服务_国家鼓励项目免税确认.json",
+        "grounding": [
+            "宁波市鄞州区福明街道宁穿路1901号"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，谢谢。我还想再问一下浙江绍兴补办出口退税证明。有哪些渠道能办理？",
+        "act": "what",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "浙江省_绍兴市",
+            "补办出口退（免）税证明",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "T5",
+            "1",
+            "98"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "我们目前有网上和现场窗口两种渠道提供给您办理的。",
+        "act": "ans/open",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "99"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个如果收费的话，能不能直接在网上交啊？",
+        "act": "verification",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "218"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "目前是不支持网上支付的。",
+        "act": "ans/no",
+        "document": "浙江省_绍兴市_0_0_纳税缴费_税务服务_补办出口退（免）税证明.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "219"
+        ]
+    }
+]

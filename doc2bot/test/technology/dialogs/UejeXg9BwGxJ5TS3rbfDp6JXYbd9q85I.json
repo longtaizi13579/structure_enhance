@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在2019年的MacPro上将AMD图形卡与MicrosoftWindows搭配使用的一些问题，就是我另外安装了AppleMPX模块和相应驱动程序后，AMD的图形卡会有什么状况吗？",
+        "act": "what",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用",
+            "在另外安装了AppleMPX模块和相应驱动程序后，AMD的图形卡可能无法在MicrosoftWindows中正常工作。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果另外安装了AppleMPX模块和相应驱动程序后，AMD的图形卡可能无法在MicrosoftWindows中正常工作。",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "在另外安装了AppleMPX模块和相应驱动程序后，AMD的图形卡可能无法在MicrosoftWindows中正常工作。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那如果在2019年的MacPro中安装了AMD提供的成品图形卡，在使用“启动转换”运行MicrosoftWindows时会遇到什么症状呢？",
+        "act": "what",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "如果在MacPro（2019年）中安装了AMD提供的成品图形卡，则在使用“启动转换”运行MicrosoftWindows时可能会遇到以下症状："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果在2019年的MacPro中安装了AMD提供的成品图形卡，则在使用“启动转换”运行MicrosoftWindows时可能会遇到以下症状，一是与您安装的AMD图形卡相连的任何显示屏上无视频，二是与您Mac上的雷雳3端口相连的任何显示屏上无视频。",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "如果在MacPro（2019年）中安装了AMD提供的成品图形卡，则在使用“启动转换”运行MicrosoftWindows时可能会遇到以下症状：",
+            "与您安装的AMD图形卡相连的任何显示屏上无视频",
+            "与您Mac上的雷雳3端口相连的任何显示屏上无视频"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我想要移除MPX模块及相应驱动程序应该怎么做呢？",
+        "act": "how",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "移除MPX模块及相应驱动程序"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "移除的具体步骤有 1.在控制面板中，点按“程序”，然后点按“程序和功能”。 2.右键点按名为AMDRadeonSoftware的程序，然后选取“更改”。 3.点按“CleanUninstall”（完全卸载），然后按照屏幕上的说明移除驱动程序。 4.将Mac关机，然后移除MPX模块。",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "具体步骤",
+            "在控制面板中，点按“程序”，然后点按“程序和功能”。",
+            "右键点按名为AMDRadeonSoftware的程序，然后选取“更改”。",
+            "点按“CleanUninstall”（完全卸载），然后按照屏幕上的说明移除驱动程序。",
+            "将Mac关机，然后移除MPX模块。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我已经安装了AMD图形卡，但目前连接的显示屏上无视频，我可以使用HDMI来显示视频吗？",
+        "act": "verification",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "必要时使用HDMI来显示视频",
+            "如果您已经安装AMD图形卡，但目前连接的显示屏上无视频，则可以使用HDMI来显示视频而无需卸下AMD卡："
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，如果您已经安装AMD图形卡，但目前连接的显示屏上无视频，则可以使用HDMI来显示视频而无需卸下AMD卡。",
+        "act": "ans/yes",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "如果您已经安装AMD图形卡，但目前连接的显示屏上无视频，则可以使用HDMI来显示视频而无需卸下AMD卡："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想要使用HDMI来显示视频，该怎么操作呢？",
+        "act": "how",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "必要时使用HDMI来显示视频"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你需要按照以下步骤操作， 1.按住电源按钮10秒钟，直到Mac关机。 2.断开所有显示屏与Mac的连接，然后将某台显示屏接入MPX模块的HDMI端口。 3.重新在Windows中启动Mac。现在，显示屏上应该会显示视频。 4.如果要使用AMD图形卡来显示视频，请在MicrosoftWindows中按照以下步骤操作。",
+        "act": "ans/open",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "按住电源按钮10秒钟，直到Mac关机。",
+            "断开所有显示屏与Mac的连接，然后将某台显示屏接入MPX模块的HDMI端口。",
+            "重新在Windows中启动Mac。现在，显示屏上应该会显示视频。",
+            "如果要使用AMD图形卡来显示视频，请在MicrosoftWindows中按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "9",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我还可以在你这了解如何使用第三方PCIe卡吗？",
+        "act": "verification",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "进一步了解如何在MacPro中使用第三方PCIe卡。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，你可以进一步咨询如何在MacPro中使用第三方PCIe卡。",
+        "act": "ans/yes",
+        "document": "在MacPro（2019年）上将AMD图形卡与MicrosoftWindows搭配使用.json",
+        "grounding": [
+            "进一步了解如何在MacPro中使用第三方PCIe卡。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    }
+]

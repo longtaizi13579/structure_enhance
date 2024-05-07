@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用的话怎么操作",
+        "act": "how",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您是在Mac上使用“幕帘屏”还是在iPhone、iPad和iPodtouch上使用“幕帘屏”",
+        "act": "multiple-choice",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "在Mac上使用“幕帘屏”"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是在Mac上使用，有什么键盘上的快捷命令吗",
+        "act": "what",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "请使用以下键盘命令启用“幕帘屏”："
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请使用以下键盘命令启用“幕帘屏”：按下VO-Shift-Fn-_",
+        "act": "ans/open",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "请使用以下键盘命令启用“幕帘屏”：",
+            "按下VO-Shift-Fn-_"
+        ],
+        "grounding_id": [
+            "12",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那打开“幕帘屏”后显示屏关闭设备还可以用吗？",
+        "act": "verification",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "打开“幕帘屏”后，即使显示屏已关闭，您的设备和“旁白”导航仍处于活跃状态。例如，如果您想在公共场所查看您的银行账户，“幕帘屏”会关闭屏幕，以便不显示您的信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "打开“幕帘屏”后，即使显示屏已关闭，您的设备和“旁白”导航仍处于活跃状态。",
+        "act": "ans/open",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "打开“幕帘屏”后，即使显示屏已关闭，您的设备和“旁白”导航仍处于活跃状态。例如，如果您想在公共场所查看您的银行账户，“幕帘屏”会关闭屏幕，以便不显示您的信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那在公共场所查看银行账户的话会显示信息吗",
+        "act": "verification",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "打开“幕帘屏”后，即使显示屏已关闭，您的设备和“旁白”导航仍处于活跃状态。例如，如果您想在公共场所查看您的银行账户，“幕帘屏”会关闭屏幕，以便不显示您的信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您想在公共场所查看您的银行账户，“幕帘屏”会关闭屏幕，以便不显示您的信息。",
+        "act": "ans/no",
+        "document": "在Mac、iPhone、iPad、iPodtouch和AppleWatch上将“幕帘屏”与“旁白”搭配使用.json",
+        "grounding": [
+            "打开“幕帘屏”后，即使显示屏已关闭，您的设备和“旁白”导航仍处于活跃状态。例如，如果您想在公共场所查看您的银行账户，“幕帘屏”会关闭屏幕，以便不显示您的信息。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，我还想问一下戴着口罩或太阳镜时可以使用AppleWatch解锁iPhone吗",
+        "act": "verification",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "戴着口罩或太阳镜时使用AppleWatch解锁iPhone",
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。",
+        "act": "ans/yes",
+        "document": "戴着口罩或太阳镜时使用AppleWatch解锁iPhone.json",
+        "grounding": [
+            "在您戴着口罩或太阳镜并佩戴AppleWatch的情况下，只需抬起iPhone看一眼，就能解锁iPhone。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

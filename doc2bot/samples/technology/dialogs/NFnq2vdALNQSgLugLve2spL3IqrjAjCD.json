@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在所有Apple设备上使用Siri的问题？",
+        "act": "what",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "在您的所有Apple设备上使用Siri"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：如何在iPhone上使用Siri，如何在iPad上使用Siri，如何在Mac上使用Siri，还是其它？",
+        "act": "multiple-choice",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "如何在Mac上使用Siri"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何在Mac上使用Siri，如何激活Siri？",
+        "act": "how",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "如何在Mac上使用Siri",
+            "您可以通过以下多种方式激活Siri。"
+        ],
+        "grounding_id": [
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有三种方法：说“嘿Siri”，使用Siri按钮，通过键入而非说话来使用Sir，您想了解哪一种？",
+        "act": "multiple-choice",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "使用Siri按钮"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下，使用Siri按钮的话，是不是可以按住听写键盘，然后提出请求？",
+        "act": "verification",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按住听写键，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，这个需要您的Apple键盘带有听写键。",
+        "act": "ans/yes",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按住听写键，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "108"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是在iPhone上使用Siri，应该如何激活？",
+        "act": "how",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "如何在iPhone上使用Siri",
+            "您可以通过以下多种方式激活Siri。"
+        ],
+        "grounding_id": [
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有三种方法：说“嘿Siri”，按下再松开按钮，通过键入而非说话来使用Siri，您想了解哪一种？",
+        "act": "ans/open",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "按下再松开按钮"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想了解下按下再松开按钮这种方法，如果要提出更长的请求，是不是按一下马上就能松开？",
+        "act": "verification",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按住侧边按钮或主屏幕按钮，直到提完您的请求。"
+        ],
+        "grounding_id": [
+            "104"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "不是的。要提出更长的请求，请按住侧边按钮或主屏幕按钮，直到提完您的请求。",
+        "act": "ans/no",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按住侧边按钮或主屏幕按钮，直到提完您的请求。"
+        ],
+        "grounding_id": [
+            "104"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "Siri这个功能有什么作用？",
+        "act": "what",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "当您需要查找信息、获取信息或处理日常事务时，可以让Siri助您一臂之力。只需说“嘿Siri”或按下一个按钮，然后说出您的需求。在下方找到您的Apple设备，以了解如何使用Siri。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当您需要查找信息、获取信息或处理日常事务时，可以让Siri助您一臂之力。只需说“嘿Siri”或按下一个按钮，然后说出您的需求。",
+        "act": "ans/open",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "当您需要查找信息、获取信息或处理日常事务时，可以让Siri助您一臂之力。只需说“嘿Siri”或按下一个按钮，然后说出您的需求。在下方找到您的Apple设备，以了解如何使用Siri。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果iPhone没有主屏幕，是不是需要按下侧边按钮，然后提出请求？",
+        "act": "verification",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按下侧边按钮，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按下侧边按钮，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "103"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果iPhone带有主屏幕，是不是也可以按下侧边按钮，然后提出请求？",
+        "act": "verification",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按下主屏幕按钮，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不是的。如果iPhone带有主屏幕按钮，请按下主屏幕按钮，然后提出您的请求。",
+        "act": "ans/no",
+        "document": "在您的所有Apple设备上使用Siri.json",
+        "grounding": [
+            "请按下主屏幕按钮，然后提出您的请求。"
+        ],
+        "grounding_id": [
+            "102"
+        ]
+    }
+]

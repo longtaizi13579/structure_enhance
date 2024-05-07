@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想在浙江省湖州市办理一个台湾通行证想问下几天能办下来？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "浙江省_湖州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T13"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想问法定办结时限还是承诺办结时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "承诺办结是几天？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "承诺办结时限"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这边查询到的承诺办结时限是7个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "7（工作日）"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，那咨询方式都有啥？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "咨询电话咨询地址都有，您需要哪一个？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "咨询地址",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "29",
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以到湖州市吴兴区青铜路298号政法楼4楼404室去咨询。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "湖州市吴兴区青铜路298号政法楼4楼404室"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那我要是在网上办的话费用也是可以直接在网上支付的吗",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "收费标准",
+            "是否支持网上支付"
+        ],
+        "grounding_id": [
+            "1",
+            "681",
+            "686"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，费用是支持网上支付的。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "支持"
+        ],
+        "grounding_id": [
+            "687"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "收取的费用有哪些呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "收费标准",
+            "收费项目名称",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "681",
+            "688",
+            "690"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "只有一个通行证的证件费用。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "1\t往来台湾通行证"
+        ],
+        "grounding_id": [
+            "689"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "费用怎么收取？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "收费标准",
+            "收费项目名称",
+            "1\t往来台湾通行证",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "1",
+            "681",
+            "688",
+            "689",
+            "690"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "收费标准是一个证件60元。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "60元/证"
+        ],
+        "grounding_id": [
+            "691"
+        ]
+    }
+]

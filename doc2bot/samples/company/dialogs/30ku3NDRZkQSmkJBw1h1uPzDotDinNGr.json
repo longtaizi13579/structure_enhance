@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我现在在浙江省台州市，我想知道办理这个纳税信用补评多久可以办结？",
+        "act": "when",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "纳税信用补评",
+            "浙江省_台州市"
+        ],
+        "grounding_id": [
+            "1",
+            "T8"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道法定办结时限还是承诺办结时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯法定办结时限吧。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "法定办结时限是15个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_台州市_0_0_纳税缴费_税务服务_纳税信用补评.json",
+        "grounding": [
+            "15（工作日）"
+        ],
+        "grounding_id": [
+            "58"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想了解一些一照一码户信息变更的办理问题。",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是想了解是否进驻政务大厅还是是否支持自助终端办理呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道可不可以在自助终端办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "目前是不支持自助终端办理的。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理完这个一照一码户信息变更之后多久可以收到结果？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般是在自作出决定之日起0个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "自作出决定之日起0个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "还挺快，那你还能告诉我一些关于一照一码户信息变更的办理问题吗？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想知道办理形式还是通办范围呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "办理形式都有哪些你给我说说吧。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "目前有网上申请、现场窗口申请两种办理形式。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "周末可以去办理这个一照一码户信息变更吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "一照一码户信息变更",
+            "办理时间"
+        ],
+        "grounding_id": [
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "不可以，您可以在星期一至星期五，9:00-17:00去办理。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_纳税缴费_税务服务_一照一码户信息变更.json",
+        "grounding": [
+            "星期一至星期五，9:00-17:00"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

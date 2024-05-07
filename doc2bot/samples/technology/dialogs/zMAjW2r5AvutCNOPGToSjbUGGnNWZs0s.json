@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下Mac键盘快捷键要使用键盘快捷键要怎么样",
+        "act": "how",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键",
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键："
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键：Command（或Cmd）⌘、Shift⇧、 Option（或Alt）⌥、Control（或Ctrl）⌃、CapsLock⇪、Fn",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用Command-C（拷贝），请按住Command键并按C键，然后同时松开这两个键。Mac菜单和键盘通常使用符号来表示某些按键，其中包括以下修饰键：",
+            "Command（或Cmd）⌘",
+            "Shift⇧",
+            "Option（或Alt）⌥",
+            "Control（或Ctrl）⌃",
+            "CapsLock⇪",
+            "Fn"
+        ],
+        "grounding_id": [
+            "3",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个快捷键撤销是哪个",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键",
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "18",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-Z：撤销上一个命令。随后您可以按Shift-Command-Z来重做，从而反向执行撤销命令。在某些应用中，您可以撤销和重做多个命令。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "还以问题想问一下也是关于Mac键盘快捷键的",
+        "act": "what",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Mac键盘快捷键"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": " 好的那您是想了解剪切、拷贝、粘贴和其他常用快捷键还是睡眠、退出登录和关机快捷键或者是访达和系统快捷键等等哪方面呢",
+        "act": "multiple-choice",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "剪切快捷键",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "剪切、拷贝、粘贴和其他常用快捷键"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Command-X：剪切所选项并拷贝到剪贴板。",
+        "act": "ans/open",
+        "document": "Mac键盘快捷键.json",
+        "grounding": [
+            "Command-X：剪切所选项并拷贝到剪贴板。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    }
+]

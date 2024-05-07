@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省金华市港澳通行证及签注",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省_金华市",
+            "港澳通行证及签注"
+        ],
+        "grounding_id": [
+            "T6",
+            "T281"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是要办理港澳其他签注，港澳商务签注，港澳逗留签注哪一种？",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "港澳其他签注支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "港澳其他签注",
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "1",
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，我还想知道投诉方式有什么？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "投诉电话，投诉地址，投诉网址，您想了解哪一个",
+        "act": "multiple-choice",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我要知道投诉地址在哪",
+        "act": "where",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "浙江省金华市婺城区双龙南街801号金华市信访局",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "浙江省金华市婺城区双龙南街801号金华市信访局"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那有没有咨询的电话呢？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，0579-82512200，0579-82512431",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "0579-82512200，0579-82512431"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "嗯，办理这个收费吗？",
+        "act": "verification",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是否收费"
+        ],
+        "grounding_id": [
+            "360"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是收费的",
+        "act": "ans/yes",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "是"
+        ],
+        "grounding_id": [
+            "361"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "申请的话有什么 是禁止的吗？",
+        "act": "what",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "禁止性要求"
+        ],
+        "grounding_id": [
+            "141"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "申请人有下列情形之一的，不予批准签发往来港澳通行证和签注： 1、有法定不准出境情形的； 2、不符合申请条件的；3、在申请过程中弄虚作假的",
+        "act": "ans/open",
+        "document": "浙江省_金华市_0_0_出入境_港澳通行证及签注_港澳其他签注.json",
+        "grounding": [
+            "（一）申请人有下列情形之一的，不予批准签发往来港澳通行证和签注：",
+            "1、有法定不准出境情形的；",
+            "2、不符合申请条件的；",
+            "3、在申请过程中弄虚作假的。"
+        ],
+        "grounding_id": [
+            "142",
+            "379",
+            "380",
+            "381"
+        ]
+    }
+]

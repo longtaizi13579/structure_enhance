@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下将HumanwareBrailliantBI显示器与旁白配合使用的问题？",
+        "act": "what",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "将HumanwareBrailliantBI显示器与旁白配合使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：导航，滚动，转子，互动，阅读，编辑，控制，还是盲文？",
+        "act": "multiple-choice",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "互动"
+        ],
+        "grounding_id": [
+            "61"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下互动吧，如果旁白操作是激活调低音量按钮，显示器按键应该是什么？",
+        "act": "what",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "互动",
+            "旁白操作",
+            "激活调低音量按钮"
+        ],
+        "grounding_id": [
+            "61",
+            "62",
+            "81"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "显示器按键C1+C2+C6。",
+        "act": "ans/open",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "显示器按键",
+            "C1+C2+C6"
+        ],
+        "grounding_id": [
+            "82",
+            "83"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "再说下滚动，旁白操作如果是向上滚动一页，那显示器按键是什么？",
+        "act": "what",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "滚动",
+            "旁白操作",
+            "显示器按键"
+        ],
+        "grounding_id": [
+            "33",
+            "34",
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "显示器按键是C3+C4+C5+C6。",
+        "act": "ans/open",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "C3+C4+C5+C6"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "再说下控制，如果旁白操作是暂停或继续语音，那显示器按键是什么？",
+        "act": "what",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "控制",
+            "旁白操作",
+            "暂停或继续语音",
+            "显示器按键"
+        ],
+        "grounding_id": [
+            "133",
+            "134",
+            "138",
+            "139"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "显示器按键是C1+C2+C3+C4。",
+        "act": "ans/open",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "显示器按键",
+            "C1+C2+C3+C4"
+        ],
+        "grounding_id": [
+            "139",
+            "140"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "最后再说下导航的旁白操作对应的显示器按键吧？",
+        "act": "what",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "导航",
+            "旁白操作"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "旁白操作移到上一个项目，显示器按键向上或C1；移到下一个项目，显示器按键向下或C4；移到第一个项目，移到第一个项目C1+C2+C3；移到最后一个项目，显示器按键C4+C5+C6；前往状态栏，显示器按键C2+C3+C4；前往通知中心， 显示器按键 C4+C6；前往控制中心，显示器按键C2+C5；激活返回按钮（如果有），显示器按键 C1+C2。",
+        "act": "ans/open",
+        "document": "将HumanwareBrailliantBI显示器与旁白配合使用.json",
+        "grounding": [
+            "旁白操作",
+            "移到上一个项目",
+            "显示器按键",
+            "向上或C1",
+            "移到下一个项目",
+            "显示器按键",
+            "向下或C4",
+            "移到第一个项目",
+            "显示器按键",
+            "C1+C2+C3",
+            "移到最后一个项目",
+            "显示器按键",
+            "C4+C5+C6",
+            "前往状态栏",
+            "显示器按键",
+            "C2+C3+C4",
+            "前往通知中心",
+            "显示器按键",
+            "C4+C6",
+            "前往控制中心",
+            "显示器按键",
+            "C2+C5",
+            "激活返回按钮（如果有）",
+            "显示器按键",
+            "C1+C2"
+        ],
+        "grounding_id": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
+        ]
+    }
+]

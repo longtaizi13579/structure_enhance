@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我在浙江省，想咨询企业经营常用服务问题。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "浙江省",
+            "企业经营",
+            "常用服务"
+        ],
+        "grounding_id": [
+            "T4",
+            "T120",
+            "T129"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解省重点建设项目招标文件备案、公共场所卫生行政许可还是二手车拍卖企业备案呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "省重点建设项目招标文件备案"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道有关省重点建设项目备案在哪里办理呢？",
+        "act": "where",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "省重点建设项目招标文件备案",
+            "具体地址"
+        ],
+        "grounding_id": [
+            "1",
+            "123"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体地址在浙江省招标投标管理中心，也就是杭州市曙光路140号。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "具体地址",
+            "浙江省招标投标管理中心（杭州市曙光路140号）"
+        ],
+        "grounding_id": [
+            "123",
+            "124"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那什么时候可以去办理呢？",
+        "act": "when",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "125"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "工作日就可以过来，具体时间的话，夏季是上午8：30-11：45，下午14：00-17：45；冬季是上午8：30-11：45，下午13：30-17：15。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "办理时间",
+            "工作日，夏季：上午8：30-11：45，下午14：00-17：45冬季：上午8：30-11：45，下午13：30-17：15"
+        ],
+        "grounding_id": [
+            "125",
+            "126"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，我还想咨询一下有关办理结果的事情。",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "结果信息"
+        ],
+        "grounding_id": [
+            "109"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以的，您想知道审批结果类型、是否支持物流快递还是送达时限呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道送达时限。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "118"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "好的，送达时限是自作出决定之日起5个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "送达时限",
+            "自作出决定之日起5个工作日内送达。"
+        ],
+        "grounding_id": [
+            "118",
+            "119"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那请问我们可以自己办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您是想问我们是否支持自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "不好意思，我们暂不支持自助终端办理。",
+        "act": "ans/no",
+        "document": "浙江省_0_0_0_企业经营_常用服务_省重点建设项目招标文件备案.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "90"
+        ]
+    }
+]

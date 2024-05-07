@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想办理建设公里许可证，你们什么时候开门？",
+        "act": "when",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理时间",
+            "国内外经济组织投资建设公路项目许可"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你想知道的是夏季工作时间还是冬季？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理时间",
+            "夏季工作日：上午8:30-12:00，下午12:00-17:30；冬季工作日：上午8:30-12:00，下午12:00-17:30。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "冬季吧，我要过几个月后来。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理时间"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，我们的工作时间是冬季工作日：上午8:30-12:00，下午12:00-17:30。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "办理时间",
+            "夏季工作日：上午8:30-12:00，下午12:00-17:30；冬季工作日：上午8:30-12:00，下午12:00-17:30。"
+        ],
+        "grounding_id": [
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我能在先打个电话咨询一下吗？",
+        "act": "what",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "不可以，我们需要您带上您公司的营业执照与合同来线下办理的。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那具体咨询地址在那？",
+        "act": "where",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "地址在：浙江省杭州市上城区小营街道梅花碑4号604办公室。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省杭州市上城区小营街道梅花碑4号604办公室"
+        ],
+        "grounding_id": [
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "多久能申请下来？",
+        "act": "when",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "国内外经济组织投资建设公路项目许可"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想问多久出结果还是多久能将结果书送至您单位？",
+        "act": "multiple-choice",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "国内外经济组织投资建设公路项目许可"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "想知道多久能将许可证拿到手。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "国内外经济组织投资建设公路项目许可"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "我们会在自作出决定之日起10个工作日内送达。",
+        "act": "ans/open",
+        "document": "浙江省_0_0_0_项目投资_常用服务_国内外经济组织投资建设公路项目许可.json",
+        "grounding": [
+            "自作出决定之日起10个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    }
+]

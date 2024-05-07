@@ -1,0 +1,396 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下浙江省湖州市社保医保的相关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "浙江省_湖州市",
+            "社保医保"
+        ],
+        "grounding_id": [
+            "T13",
+            "T168"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "工伤保险、失业保险、医疗保险您想了解哪方面？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T203"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询失业保险的有关问题。",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业保险"
+        ],
+        "grounding_id": [
+            "T203"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是失业补助金申领、失业保险关系转移申请、失业保险关系接续申请哪个业务的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "失业补助金申领都需要提交什么材料？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "申报材料",
+            "材料名称"
+        ],
+        "grounding_id": [
+            "1",
+            "293",
+            "294"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要提交失业补助金申领表、居民身份证或社会保障卡和用人单位开具的终止或解除劳动关系证明。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领表",
+            "居民身份证或社会保障卡",
+            "用人单位开具的终止或解除劳动关系证明"
+        ],
+        "grounding_id": [
+            "295",
+            "310",
+            "327"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "失业补助金申领表需要多大纸张打印？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领表",
+            "纸质材料规格"
+        ],
+        "grounding_id": [
+            "295",
+            "304"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要A4纸打印",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "A4"
+        ],
+        "grounding_id": [
+            "305"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我还想问一下，我是否可以申请失业补助金？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "失业补助金申领",
+            "申请条件"
+        ],
+        "grounding_id": [
+            "1",
+            "286"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请问你是否在2021年1月至12月，领取失业保险金期满仍未就业、参保缴费不足1年或参保缴费满1年但因本人原因解除劳动合同",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "（一）2021年1月至12月，领取失业保险金期满仍未就业、参保缴费不足1年或参保缴费满1年但因本人原因解除劳动合同的；\n"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，我的失业保险金在2021年8月到期了。",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "（一）2021年1月至12月，领取失业保险金期满仍未就业、参保缴费不足1年或参保缴费满1年但因本人原因解除劳动合同的；\n"
+        ],
+        "grounding_id": [
+            "290"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "请问您失业前最后参保的经办机构是在湖州市吗？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "（二）失业人员凭本人身份证或社会保障卡向失业前最后参保地经办机构申领失业补助金，无需办理失业登记。"
+        ],
+        "grounding_id": [
+            "401"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，我最后是在湖州市参保的",
+        "act": "ans/yes",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "（二）失业人员凭本人身份证或社会保障卡向失业前最后参保地经办机构申领失业补助金，无需办理失业登记。"
+        ],
+        "grounding_id": [
+            "401"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "您好，您满足当前湖州市申请失业补助金的条件。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业补助金申领.json",
+        "grounding": [
+            "申请条件",
+            "失业补助金申领"
+        ],
+        "grounding_id": [
+            "286",
+            "1"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "失业保险关系接续申请这项业务的办理形式有哪些？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "失业保险关系接续申请",
+            "办事信息",
+            "办理形式"
+        ],
+        "grounding_id": [
+            "1",
+            "77",
+            "80"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "一共有三种，网上申请、现场窗口申请、现场自助机申请均可。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "网上申请/现场窗口申请/现场自助机申请"
+        ],
+        "grounding_id": [
+            "81"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "办理这个业务的流程是如何",
+        "act": "how",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "办理流程",
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "337",
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.受理 3.复核 4.审核 5.办结 6.送达。请问您是否需要了解更多有关第一步申请的一些详细信息？",
+        "act": "verification",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "办理流程",
+            "申请"
+        ],
+        "grounding_id": [
+            "337",
+            "338"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "先不了，我想知道受理时限是多久？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "受理",
+            "办理时限"
+        ],
+        "grounding_id": [
+            "342",
+            "343"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "当场受理",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "即办"
+        ],
+        "grounding_id": [
+            "344"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "谁负责审核？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "审核",
+            "办理人员"
+        ],
+        "grounding_id": [
+            "356",
+            "359"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "科室经办人员负责审核。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "科室经办人员"
+        ],
+        "grounding_id": [
+            "360"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "这个业务规定的办理时间是多长？",
+        "act": "when",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "法定办结时限",
+            "失业保险关系接续申请"
+        ],
+        "grounding_id": [
+            "8",
+            "1"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "30个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 24,
+        "role": "user",
+        "utterance": "如果我还有不明白的地方，还有哪些咨询方式呢？",
+        "act": "what",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 25,
+        "role": "system",
+        "utterance": "一共三种，咨询电话、咨询地址、咨询网址请问您需要哪个？",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 26,
+        "role": "user",
+        "utterance": "咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 27,
+        "role": "system",
+        "utterance": "湖州市市民服务中心5号楼8楼802办公室（金盖山路66号）、湖州市市民服务中心4号楼1楼3号政务服务大厅（人力社保）窗口咨询台（金盖山路66号）都可以进行咨询",
+        "act": "ans/open",
+        "document": "浙江省_湖州市_0_0_社保医保_失业保险_失业保险关系接续申请.json",
+        "grounding": [
+            "湖州市市民服务中心5号楼8楼802办公室（金盖山路66号）、湖州市市民服务中心4号楼1楼3号政务服务大厅（人力社保）窗口咨询台（金盖山路66号）"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问附加投保人豁免保险费意外伤害保险什么时候成立呢？",
+        "act": "when",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "合同成立与生效",
+            "附加投保人豁免保险费意外伤害保险"
+        ],
+        "grounding_id": [
+            "7",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您提出保险申请、我们同意承保，本附加险合同成立。",
+        "act": "ans/open",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "您提出保险申请、我们同意承保，本附加险合同成立。 本附加险合同自我们收到首期保险费并同意承保后开始生效，我们签发保险单作为保险凭证。合同生效日期在保险单上载明。",
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "8",
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那成立时间和生效时间相同吗？",
+        "act": "verification",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不一致的，请问您需要了解合同生效的条件吗？",
+        "act": "verification",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本附加险合同自我们收到首期保险费并同意承保后开始生效，我们签发保险 单作为保险凭证。合同生效日期在保险单上载明。",
+        "act": "ans/open",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "您提出保险申请、我们同意承保，本附加险合同成立。 本附加险合同自我们收到首期保险费并同意承保后开始生效，我们签发保险单作为保险凭证。合同生效日期在保险单上载明。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那投保人有没有年龄上的限制呢？",
+        "act": "verification",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "投保人"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的，投保人投保时的年龄范围为 18 周岁至 64 周岁",
+        "act": "ans/open",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "本附加险合同的投保人同主险合同的投保人，且投保人投保时的年龄范围为18 周岁至 64 周岁。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "知道了，是只有在保险期之内才承担保险的责任吗？",
+        "act": "verification",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "保险责任"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是，在本附加险合同保险期间内，且主险合同和本附加险合同均有效的前提下， 我们承担保险责任",
+        "act": "ans/yes",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "在本附加险合同保险期间内，且主险合同和本附加险合同均有效的前提下，我们按以下约定承担保险责任："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我还想知道一下豁免保险费的相关信息？",
+        "act": "what",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "意外身故或全残豁免保险费"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "您需要知道哪方面的内容呢？",
+        "act": "question/open",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "意外身故或全残豁免保险费"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我想知道被豁免的保险费是不是就看作已支付了？",
+        "act": "verification",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "  被豁免的保险费视为已支付。"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "  被豁免的保险费视为已支付。"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "了解了，那这个保险费是怎么交的呢？",
+        "act": "how",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "保险费的支付"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "本附加险合同的保险费采用限期年交（即在约定的交费期间内每年支付一次保险费）的方式支付。",
+        "act": "ans/open",
+        "document": "附加投保人豁免保险费意外伤害保险.json",
+        "grounding": [
+            "本附加险合同的保险费采用限期年交（即在约定的交费期间内每年支付一次保险费）的方式支付。本附加险合同的交费期间同保险期间。 在支付首期保险费后，您应当按照约定，在每个保险费约定支付日支付其余各期的保险费。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    }
+]

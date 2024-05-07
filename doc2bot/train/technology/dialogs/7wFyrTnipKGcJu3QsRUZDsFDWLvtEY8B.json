@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么还原HomePod呢",
+        "act": "how",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "还原HomePod"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以尝试使用“家庭”App还原HomePod，按压HomePod顶部以将它还原，或者使用Mac或PC恢复HomePodmini",
+        "act": "multiple-choice",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那使用“家庭”App还原HomePod需要从“家庭”App中移除吗",
+        "act": "verification",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "使用“家庭”App还原HomePod",
+            "确保您已在iPhone、iPad、iPodtouch或Mac上使用设置HomePod时所用的AppleID登录“家庭”App。要将HomePod还原为出厂设置并将它从“家庭”App中移除，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "14",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "需要",
+        "act": "ans/yes",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "确保您已在iPhone、iPad、iPodtouch或Mac上使用设置HomePod时所用的AppleID登录“家庭”App。要将HomePod还原为出厂设置并将它从“家庭”App中移除，请按照以下步骤操作。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "将HomePod送修的话是不是也要还原HomePod",
+        "act": "verification",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "如果HomePod没有响应，请先尝试通过“家庭”App重新启动HomePod。如果HomePod仍然没有响应，请将它还原。您应当仅在下列情况下还原HomePod：",
+            "您需要将HomePod送修。"
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "您需要将HomePod送修。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我已经将两个HomePod扬声器设置为立体声组合的话怎么办",
+        "act": "how",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那需要先取消立体声组合编组，然后才能还原HomePod。",
+        "act": "ans/open",
+        "document": "还原HomePod.json",
+        "grounding": [
+            "则需要先取消立体声组合编组，然后才能还原HomePod。"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    }
+]

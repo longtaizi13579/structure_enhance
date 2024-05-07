@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解下浙江省嘉兴市行驶驾驶机动车的问题？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "浙江省_嘉兴市",
+            "浙江省_嘉兴市",
+            "行驶驾驶",
+            "机动车"
+        ],
+        "grounding_id": [
+            "T11",
+            "T11",
+            "T16",
+            "T17"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询申领、补领机动车登记证书、机动车所有人姓名（单位名称）、身份证明号码变更备案、补换领号牌、机动车跨车辆管理所管辖区域转移登记 还是其他问题呢？",
+        "act": "multiple-choice",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "申领、补领机动车登记证的办理有什么收费项目？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书",
+            "收费标准",
+            "收费项目名称"
+        ],
+        "grounding_id": [
+            "1",
+            "250",
+            "258"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "机动车登记证书是需要收费的。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "1\t机动车登记证书"
+        ],
+        "grounding_id": [
+            "259"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "机动车登记证书的收费标准是什么呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "1\t机动车登记证书",
+            "收费标准"
+        ],
+        "grounding_id": [
+            "259",
+            "260"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "机动车登记证书十元一本。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "261"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想问下申领、补领机动车登记证书有咨询电话吗？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有的。",
+        "act": "ans/yes",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那么咨询电话是多少呢？",
+        "act": "what",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您可以拨打0573—12123咨询。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "0573—12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "申领、补领机动车登记证书的咨询地址在哪？",
+        "act": "where",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "申领、补领机动车登记证书",
+            "咨询方式",
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "地址为嘉兴市南湖区南江路长水路口嘉兴市公安局交通警察支队车辆管理所1号楼1楼3—5号窗口。",
+        "act": "ans/open",
+        "document": "浙江省_嘉兴市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "嘉兴市南湖区南江路长水路口嘉兴市公安局交通警察支队车辆管理所1号楼1楼3—5号窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

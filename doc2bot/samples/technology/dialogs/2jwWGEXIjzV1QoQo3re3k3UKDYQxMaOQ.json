@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想问一下就是那个iPodtouch无法开机",
+        "act": "why",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch无法开机或死机"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您是幕显示黑屏或死机还是您的iPodtouch可以开机，但在启动过程中卡住",
+        "act": "multiple-choice",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果屏幕显示黑屏或死机"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "就是黑屏",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果屏幕显示黑屏或死机"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那给您说一下吧按照适用于您设备的操作步骤",
+        "act": "verification",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "请按照适用于您设备的步骤操作。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的",
+        "act": "ans/yes",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "请按照适用于您设备的步骤操作。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在iPodtouch（第7代）上: 首先同时按住顶部按钮和调低音量按钮，直到您看到Apple标志。然后如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。最后如果您的iPodtouch仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第7代）上",
+            "同时按住顶部按钮和调低音量按钮，直到您看到Apple标志。",
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPodtouch仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果是第六代或是更早的机型又如何呢",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第6代）或更早机型上"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iPodtouch（第7代）上: 首先同时按住顶部按钮和调低音量按钮，直到您看到Apple标志。然后如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。最后如果您的iPodtouch仍然无法开机，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "在iPodtouch（第6代）或更早机型上",
+            "同时按住主屏幕按钮和顶部按钮，直到您看到Apple标志。",
+            "如果您的iPodtouch无法开机，请按照以下步骤检查硬件并为设备充电。充电时间最长可能需要一个小时。",
+            "如果您的iPodtouch仍然无法开机，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "23"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，还想问一下就是如果可以开机但是卡主了怎么办呢",
+        "act": "how",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "如果您的iPodtouch可以开机，但在启动过程中卡住"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "启动过程中，如果您看到Apple标志或者红色或蓝色屏幕，请尝试按照以下步骤操作：首先将您的iPodtouch连接到一部电脑。然后在电脑上查找您的设备。接着连接设备后，请按照步骤操作；第四步继续按住这两个按钮，直到您看到恢复模式屏幕。第五步当您看到恢复或更新选项时，选取“更新”。最后您的电脑将下载适用于您设备的软件。如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。",
+        "act": "ans/open",
+        "document": "如果您的iPodtouch无法开机或死机.json",
+        "grounding": [
+            "启动过程中，如果您看到Apple标志或者红色或蓝色屏幕，请尝试按照以下步骤操作：",
+            "将您的iPodtouch连接到一部电脑。在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。确定您的Mac使用的是哪个macOS版本。",
+            "在电脑上查找您的设备。",
+            "连接设备后，请按照以下步骤操作：",
+            "继续按住这两个按钮，直到您看到恢复模式屏幕。",
+            "当您看到恢复或更新选项时，选取“更新”。",
+            "您的电脑将下载适用于您设备的软件。如果下载时间超过15分钟，您的iPodtouch会退出恢复模式。请重复第2步至第4步。"
+        ],
+        "grounding_id": [
+            "28",
+            "29",
+            "33",
+            "38",
+            "41",
+            "42",
+            "43"
+        ]
+    }
+]

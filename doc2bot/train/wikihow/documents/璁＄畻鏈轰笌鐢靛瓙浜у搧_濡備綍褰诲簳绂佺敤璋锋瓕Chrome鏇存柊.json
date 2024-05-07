@@ -1,0 +1,307 @@
+{
+    "document_id": 88,
+    "domain": "wikihow",
+    "name": "计算机与电子产品_如何彻底禁用谷歌Chrome更新",
+    "graph": {
+        "1": {
+            "data": "如何彻底禁用谷歌Chrome更新",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "在Chrome浏览器中禁用自动更新可以阻止浏览器在未授权的情况下下载和安装更新。如果想在Windows电脑上禁用Chrome更新，那就得用注册表编辑器来阻止进行更新。而在Mac电脑上，要用到终端应用程序。如果是移动设备端，则可以禁用Chrome应用程序的自动更新功能。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "可选方法",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "Mac电脑",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "5": {
+            "data": "在实用程序文件夹中打开终端程序。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "6": {
+            "data": "在桌面上，点击“前往”菜单，选择“实用程序”。从这个文件夹中打开终端程序。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "7": {
+            "data": "你也可以在任意Finder窗口或桌面按下Command+Shift+U组合键，打开应用程序文件夹。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "8": {
+            "data": "输入命令，禁用谷歌产品的自动更新。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "9": {
+            "data": "输入以下命令，按下返回键。这样会禁用全部谷歌产品的自动更新检查功能：",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "10": {
+            "data": "defaultswritecom.google.Keystone.AgentcheckInterval0",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "11": {
+            "data": "如果打开了Chrome浏览器，请重新启动它。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "12": {
+            "data": "这样会应用你的更改，而浏览器以后就不再自动检查更新包了。",
+            "type": "ordinary",
+            "pid": "11"
+        },
+        "13": {
+            "data": "手动查看更新。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "14": {
+            "data": "定期更新Chrome浏览器能够保证电脑的安全。你可以打开浏览器菜单，选择“帮助”→“关于GoogleChrome”，来手动检查更新。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "15": {
+            "data": "你也可以再次打开终端程序，使用相同的命令，用检查更新的间隔时间（秒计时）来代替0，切换回自动更新。例如，如果想要每24小时检查一次更新，请设置为checkInterval86400。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "16": {
+            "data": "Windows电脑",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "17": {
+            "data": "打开注册表编辑器。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "18": {
+            "data": "更改系统注册表，阻止Chrome浏览器检查更新。",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "19": {
+            "data": "按下Win+R，输入regedit，打开注册表编辑器。",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "20": {
+            "data": "展开“HKEY_LOCAL_MACHINE”文件夹。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "21": {
+            "data": "这样会显示计算机上已安装的软件选项。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "22": {
+            "data": "展开“SOFTWARE”文件夹。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "23": {
+            "data": "接着会列出电脑上已安装程序的公司信息。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "24": {
+            "data": "展开“Policies”文件夹。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "25": {
+            "data": "这里面只有几个文件夹，其中包括Mircosoft。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "26": {
+            "data": "右键点击“Policies”文件夹，选择“新建”→“项”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "27": {
+            "data": "将新的项命名为“Google”。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "28": {
+            "data": "右键点击新建的“Google”文件夹，选择“新建”→“项”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "29": {
+            "data": "将新建的项命名为“Update”（更新）。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "30": {
+            "data": "右键点击右侧的面板，选择“新建”→“DWORD”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "31": {
+            "data": "将新的DWORD命名为“UpdateDefault”（默认更新）。",
+            "type": "ordinary",
+            "pid": "30"
+        },
+        "32": {
+            "data": "双击新的“UpdateDefault”DWORD值。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "33": {
+            "data": "这样会打开一个新窗口。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "34": {
+            "data": "确保将“数据”一栏设置为“0”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "35": {
+            "data": "点击“确定”保存数值。",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "36": {
+            "data": "关闭注册表编辑器。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "37": {
+            "data": "以后Chrome浏览器不会自动下载和安装更新了。",
+            "type": "ordinary",
+            "pid": "36"
+        },
+        "38": {
+            "data": "定期手动检查更新。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "39": {
+            "data": "由于更新包能够帮助你保护电脑安全，因此我们强烈建议你定期手动检查更新，并应用更新。具体操作是，打开Chrome菜单，选择“帮助”→“关于GoogleChrome”。如果有可用的更新，浏览器会提示你安装它们。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "40": {
+            "data": "你也可以返回注册表编辑器，删除创建的DWORD值，就可以再次启用自动更新功能。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "41": {
+            "data": "iOS设备",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "42": {
+            "data": "在iOS设备上打开“设置”应用程序。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "43": {
+            "data": "默认情况下，所有应用程序都会自动下载和安装更新包。如果你不想Chrome浏览器自动更新，那么你需要在“设置”程序里禁用更新。这样会禁用所有应用程序的自动更新功能。",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "44": {
+            "data": "选择“iTunes和AppStore”。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "45": {
+            "data": "打开AppStore（应用程序商店）的设置选项。",
+            "type": "ordinary",
+            "pid": "44"
+        },
+        "46": {
+            "data": "关闭“更新”开关。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "47": {
+            "data": "这样会阻止应用程序商店自动检查更新并安装更新。",
+            "type": "ordinary",
+            "pid": "46"
+        },
+        "48": {
+            "data": "定期检查更新。",
+            "type": "sequence-step",
+            "pid": "41"
+        },
+        "49": {
+            "data": "将Chrome浏览器更新到最新版本能够保护设备安全。你可以打开应用程序商店的“更新”选项卡，检查程序更新。点击谷歌Chrome浏览器旁边的“更新”按钮来更新程序。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "50": {
+            "data": "安卓设备",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "51": {
+            "data": "在安卓设备上打开谷歌应用程序商店。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "52": {
+            "data": "你可以通过谷歌应用程序商店来禁用Chrome浏览器的自动更新功能。",
+            "type": "ordinary",
+            "pid": "51"
+        },
+        "53": {
+            "data": "搜索Chrome。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "54": {
+            "data": "进入Chrome应用程序页面最快捷的方式就是使用商店顶部的搜索框搜索程序。你也可以打开菜单，选择“我的应用程序”，然后滚动列表找到Chrome程序。",
+            "type": "ordinary",
+            "pid": "53"
+        },
+        "55": {
+            "data": "点击右上角的⋮按钮。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "56": {
+            "data": "它位于Chrome应用程序页面的顶部。",
+            "type": "ordinary",
+            "pid": "55"
+        },
+        "57": {
+            "data": "取消勾选“自动更新”复选框。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "58": {
+            "data": "这样就会禁用Chrome应用程序的自动更新功能。强烈建议你定期检查并安装可用的更新包，来保障浏览器的安全。",
+            "type": "ordinary",
+            "pid": "57"
+        },
+        "59": {
+            "data": "警告",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "60": {
+            "data": "建议定期将Chrome浏览器更新至最新版本，这样可以修补安全漏洞，保护电脑免受病毒和恶意软件的侵袭。",
+            "type": "ordinary",
+            "pid": "59"
+        }
+    }
+}

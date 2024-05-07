@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果无法在Mac上正常使用iMovie剪辑的话怎么办",
+        "act": "how",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果无法在Mac上正常使用iMovie剪辑"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以试试重新启动Mac，重置NVRAM，或者更新macOS和iMovie剪辑 ",
+        "act": "multiple-choice",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "重置NVRAM"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那什么情况下需要重置NVRAM",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，具体操作步骤是什么",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果您将摄像机/相机等外置设备与iMovie剪辑搭配使用，请重置NVRAM："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先将Mac关机，然后断开除键盘和鼠标之外所有外置设备的连接，重置NVRAM，最后打开iMovie剪辑，并尝试重现问题。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "将Mac关机。",
+            "断开除键盘和鼠标之外所有外置设备的连接。",
+            "重置NVRAM。",
+            "打开iMovie剪辑，并尝试重现问题。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果iMovie剪辑可以正常使用的话还需要再做什么吗",
+        "act": "verification",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要，如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。",
+        "act": "ans/yes",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "如果iMovie剪辑可以正常使用，请逐个重新连接设备，直到您可以重现问题。重新连接设备后，请重新启动您的Mac（如果设备需要的话）。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那对于摄像机有什么要求吗",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "检查摄像机/相机和媒体格式的兼容性",
+            "请确保您使用的是支持iMovie剪辑的摄像机/相机和媒体格式。如果您在列表中没有找到您的摄像机/相机，或者您需要进一步的协助，请联系设备制造商以寻求支持。"
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请确保您使用的是支持iMovie剪辑的摄像机和媒体格式。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "请确保您使用的是支持iMovie剪辑的摄像机/相机和媒体格式。如果您在列表中没有找到您的摄像机/相机，或者您需要进一步的协助，请联系设备制造商以寻求支持。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果在列表中没有找到摄像机是怎么回事",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "请确保您使用的是支持iMovie剪辑的摄像机/相机和媒体格式。如果您在列表中没有找到您的摄像机/相机，或者您需要进一步的协助，请联系设备制造商以寻求支持。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "那请联系设备制造商以寻求支持",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "请确保您使用的是支持iMovie剪辑的摄像机/相机和媒体格式。如果您在列表中没有找到您的摄像机/相机，或者您需要进一步的协助，请联系设备制造商以寻求支持。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好的，我听说还可以使用新的资源库和项目进行测试是吗",
+        "act": "verification",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "使用新的资源库和项目进行测试"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件",
+        "act": "ans/yes",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "操作步骤是什么样的呢",
+        "act": "what",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "接下来，使用内建的预告片模板来创建测试项目，然后将它导出为QuickTime视频文件："
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先在iMovie剪辑中，点按“项目”以返回到“项目”视图，然后选取“文件”>“新建预告片”，点按“动作”预告片模板，然后点按“创建”，最后选取“文件”>“共享”>“文件”，点按“下一步”，将文件命名为“FinishLine”，然后将这个视频文件存储到桌面。",
+        "act": "ans/open",
+        "document": "如果无法在Mac上正常使用iMovie剪辑.json",
+        "grounding": [
+            "在iMovie剪辑中，点按“项目”以返回到“项目”视图。",
+            "选取“文件”>“新建预告片”，点按“动作”预告片模板，然后点按“创建”。",
+            "选取“文件”>“共享”>“文件”，点按“下一步”，将文件命名为“FinishLine”，然后将这个视频文件存储到桌面。"
+        ],
+        "grounding_id": [
+            "35",
+            "36",
+            "37"
+        ]
+    }
+]

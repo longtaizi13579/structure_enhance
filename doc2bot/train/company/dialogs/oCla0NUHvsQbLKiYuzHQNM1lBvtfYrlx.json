@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是衢州的，我之前去弄那个人力资源服务许可审批的时候，遇到了骂人的工作人员，我想投诉他们，有什么方式吗？",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "浙江省_衢州市",
+            "人力资源服务许可审批",
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "T6",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想要到现场去投诉吗？",
+        "act": "verification",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "监督投诉方式"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那你可以到衢州市行政服务中心一楼B厅B01—B05窗口那里进行现场投诉。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "衢州市行政服务中心（衢州市柯城区白云街道花园东大道169号）一楼B厅B01—B05窗口",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "37",
+            "36"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "行。那除了地址还有电话什么的吗？我怕我赶不上他们的工作时间。",
+        "act": "what",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "监督投诉方式",
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有的，投诉电话是0570-3086326。然后因为2个星期的时间是在办结时限内的，所以您的投诉不一定会被处理。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "投诉电话",
+            "0570-3086326"
+        ],
+        "grounding_id": [
+            "34",
+            "35"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "2个星期都不行吗，那一般办结时间是多长？",
+        "act": "when",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "法定办结时限",
+            "人力资源服务许可审批"
+        ],
+        "grounding_id": [
+            "59",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是想问法定办结时限还是承诺时限？",
+        "act": "multiple-choice",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "法定办结时限。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这个的法定办结时限是20个工作日。",
+        "act": "ans/open",
+        "document": "浙江省_衢州市_0_0_人力资源_人力资源_人力资源服务许可审批.json",
+        "grounding": [
+            "20（工作日）",
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "60",
+            "59"
+        ]
+    }
+]

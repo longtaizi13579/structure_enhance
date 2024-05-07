@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "Siri有什么用呢，你给我介绍介绍呗？我感觉除了能指挥Siri打电话和闲聊，别的她都做不了。",
+        "act": "what",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "使用Siri实现更多操作"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "Siri还可以为您计划日程、准备晚餐、获取日常问题的答案。您提出各种需求，探索Siri能为您提供的各种帮助。",
+        "act": "ans/open",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "计划日程、准备晚餐、获取日常问题的答案。提出各种需求，探索Siri能为您提供的各种帮助。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那用Siri能给我播报新闻吗？",
+        "act": "verification",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "了解最新新闻"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当然可以，您可以从全球热门新闻来源获取新闻简报。需要我给您提供具体的操作吗？",
+        "act": "verification",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "您可以从全球热门新闻来源获取新闻简报。请说“嘿Siri”，然后可以这样说："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "可以呀，你告诉我怎么做。",
+        "act": "ans/yes",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "您可以从全球热门新闻来源获取新闻简报。请说“嘿Siri”，然后可以这样说："
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以说“嘿Siri”来唤醒她，然后可以这样说：“今天有什么新闻？”或“给我最近的体育新闻。”等等",
+        "act": "ans/open",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "您可以从全球热门新闻来源获取新闻简报。请说“嘿Siri”，然后可以这样说：",
+            "“今天有什么新闻？”",
+            "“给我最近的体育新闻。”"
+        ],
+        "grounding_id": [
+            "29",
+            "30",
+            "31"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "为啥我说“嘿Siri”唤醒不出来了呢？",
+        "act": "why",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "如果您的设备支持免提使用Siri，请直接说“嘿Siri”。如果不支持，则按一下按钮即可使用Siri。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的设备不支持语音唤醒，则按一下按钮即可使用Siri。",
+        "act": "ans/open",
+        "document": "使用Siri实现更多操作.json",
+        "grounding": [
+            "如果您的设备支持免提使用Siri，请直接说“嘿Siri”。如果不支持，则按一下按钮即可使用Siri。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

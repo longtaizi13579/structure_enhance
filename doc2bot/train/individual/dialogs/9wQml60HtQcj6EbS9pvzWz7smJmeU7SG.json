@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我是浙江省宁波市的，我朋友去办理了这个赴台定居签注，结果不满意，我想问一下我们可以到哪里去投诉呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "浙江省_宁波市",
+            "浙江省_宁波市",
+            "监督投诉方式",
+            "投诉地址"
+        ],
+        "grounding_id": [
+            "1",
+            "T10",
+            "T10",
+            "33",
+            "36"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "投诉地址是宁波市鄞州区北明程路788号9061室",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "宁波市鄞州区北明程路788号9061室"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我记下地址了，谢谢你。我现在想办理申请赴台定居签注。",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是否取得经台湾主管部门批准的在台定居资格呢？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "目前还没有。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "经台湾主管部门批准取得在台定居资格的大陆居民，可以申请赴台定居签注"
+        ],
+        "grounding_id": [
+            "136"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那您就不可以申请赴台定居签注。",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "赴台定居签注",
+            "受理条件"
+        ],
+        "grounding_id": [
+            "1",
+            "135"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那申请办理的话结果大概要多久可以送达呢？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "申请办理后2个工作日内送达的",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那办理这个赴台定居签注的地点在哪里呢？",
+        "act": "where",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "办理地点"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "办理地点在宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼公安服务区D2001-D2007",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "宁波市行政服务中心（宁波市鄞州区福明街道宁穿路1901号）二楼公安服务区D2001-D2007"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那我申请办理的话可以怎么样申请呢？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你可以网上申请或者现场窗口申请的",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_出入境_台湾通行证及签注_赴台定居签注.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    }
+]

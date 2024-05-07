@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "办理往来台湾的通行证应该去什么地方找相关信息？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "往来台湾通行证",
+            "咨询方式"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以通过咨询电话、咨询地址或咨询网址",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，应该拨打多少号呢？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询电话"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "0580-2072077",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0580-2072077"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好，如果到现场咨询的话要去哪儿？",
+        "act": "where",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "咨询地址"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境窗口",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "市行政服务中心（浙江省舟山市定海区临城翁山路555号市行政服务中心）二楼公安出入境窗口"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，申请的话有什么途径吗？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "请问您说的是办理形式吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "办理形式"
+        ],
+        "grounding_id": [
+            "100"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "网上申请和现场窗口申请两种",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "网上申请/现场窗口申请"
+        ],
+        "grounding_id": [
+            "101"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我大概多长时间能拿到呢？",
+        "act": "when",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "送达时限"
+        ],
+        "grounding_id": [
+            "120"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "自作出决定之日起2个工作日内送达",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "自作出决定之日起2个工作日内送达。"
+        ],
+        "grounding_id": [
+            "121"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "意思就是从办理到拿到签注两天就可以吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "我们的法定办结时限为30个工作日",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "30（工作日）"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好吧，可以不用那种自助机器吗？",
+        "act": "verification",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以的，我们目前还不支持自助终端办理",
+        "act": "ans/no",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "那就好，我还在问一下投诉电话是多少？",
+        "act": "what",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "投诉电话"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "0580-12345",
+        "act": "ans/open",
+        "document": "浙江省_舟山市_0_0_出入境_台湾通行证及签注_往来台湾通行证.json",
+        "grounding": [
+            "0580-12345"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    }
+]

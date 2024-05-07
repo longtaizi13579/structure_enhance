@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，在AppleID帐户中登记正确的出生日期的作用是什么？",
+        "act": "what",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "更新与AppleID相关联的出生日期",
+            "在AppleID帐户中登记正确的出生日期十分重要。这一信息会用于“家人共享”等功能，在某些情况下可能还会用来协助您重设密码。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "这一信息会用于“家人共享”等功能，在某些情况下可能还会用来协助您重设密码。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "在AppleID帐户中登记正确的出生日期十分重要。这一信息会用于“家人共享”等功能，在某些情况下可能还会用来协助您重设密码。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，我想咨询一些更新与AppleID相关联的出生日期的相关问题？",
+        "act": "what",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "更新与AppleID相关联的出生日期"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想编辑您的出生日期还是更改儿童的出生日期？",
+        "act": "multiple-choice",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "编辑您的出生日期"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下如何为我的女儿更改出生日期？",
+        "act": "how",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "如果您需要为年龄不满13岁的儿童更改出生日期，请联系Apple支持*。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您的女儿几岁了？",
+        "act": "question/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "如果您需要为年龄不满13岁的儿童更改出生日期，请联系Apple支持*。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "9岁。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "如果您需要为年龄不满13岁的儿童更改出生日期，请联系Apple支持*。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您需要为年龄不满13岁的儿童更改出生日期，请联系Apple支持*。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "如果您需要为年龄不满13岁的儿童更改出生日期，请联系Apple支持*。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何在iPhone编辑我的出生日期？",
+        "act": "how",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "编辑您的出生日期",
+            "在iPhone、iPad或iPodtouch上"
+        ],
+        "grounding_id": [
+            "3",
+            "17"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "步骤1: 前往“设置”>“[您的姓名]”。步骤2: 轻点“姓名、电话号码、电子邮件”。步骤3: 轻点“更改出生日期”或“出生日期”。步骤4: 更新您的出生日期，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "前往“设置”>“[您的姓名]”。",
+            "轻点“姓名、电话号码、电子邮件”。您可能需要输入您的AppleID密码。",
+            "轻点“更改出生日期”或“出生日期”。",
+            "更新您的出生日期，然后轻点“完成”。如果您要更改儿童的出生日期，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "步骤2中，我需要输入我的AppleID密码吗？",
+        "act": "verification",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "轻点“姓名、电话号码、电子邮件”。您可能需要输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可能需要输入您的AppleID密码。",
+        "act": "ans/yes",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "轻点“姓名、电话号码、电子邮件”。您可能需要输入您的AppleID密码。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "可以在网页上编辑我的出生日期吗？",
+        "act": "verification",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "在网页上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以的。",
+        "act": "ans/yes",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "在网页上"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "具体如何操作呢？",
+        "act": "how",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "具体步骤"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "具体步骤：首先登录appleid.apple.com；然后选择“个人信息”，然后选取“出生日期”；最后更新您的出生日期，然后点按“存储”。",
+        "act": "ans/open",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "具体步骤",
+            "登录appleid.apple.com。",
+            "选择“个人信息”，然后选取“出生日期”。",
+            "更新您的出生日期，然后点按“存储”。如果您要更改儿童的出生日期，请了解该怎么做。"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "根据我创建AppleID的方式，系统会将我的AppleID用户名从电话号码更改为电子邮件地址吗？",
+        "act": "verification",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。",
+        "act": "ans/yes",
+        "document": "更新与AppleID相关联的出生日期.json",
+        "grounding": [
+            "根据您创建AppleID的方式，系统可能会要求您提供更多信息，或将您的AppleID用户名从电话号码更改为电子邮件地址。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

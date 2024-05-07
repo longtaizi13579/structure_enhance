@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我在杭州市，我车的登记证书丢了，补办的话我需要去哪咨询？",
+        "act": "where",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "咨询地址",
+            "浙江省_杭州市",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "29",
+            "T4",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，这边为您查到去杭州市西湖区三墩镇古墩路699号二号大厅导办台办理即可",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "杭州市西湖区三墩镇古墩路699号二号大厅导办台",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "30",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "有没有咨询电话？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "咨询电话",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "27",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有的，电话是0571-96345；0571-12123",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "0571-96345；0571-12123"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我要是没时间的话，我可以在网上自助办理吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "很抱歉，不可以的",
+        "act": "ans/no",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我这个得多久能收到啊？",
+        "act": "when",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "8",
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您是问法定办结时限吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "对",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "法定办结时限"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "这边为您查到5（工作日）",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "5（工作日）",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "9",
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我补办这个可以网上付款吗？",
+        "act": "verification",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "是否支持网上支付",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "285",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "支持",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "286",
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那我需要交多钱？？？",
+        "act": "what",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "289"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "10元/本",
+        "act": "ans/open",
+        "document": "浙江省_杭州市_0_0_行驶驾驶_机动车_申领、补领机动车登记证书.json",
+        "grounding": [
+            "10元/本",
+            "申领、补领机动车登记证书"
+        ],
+        "grounding_id": [
+            "290",
+            "1"
+        ]
+    }
+]

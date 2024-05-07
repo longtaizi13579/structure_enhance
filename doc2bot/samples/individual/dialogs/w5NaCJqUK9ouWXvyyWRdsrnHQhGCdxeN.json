@@ -1,0 +1,204 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下浙江省宁波市机动车在车辆管理所管辖区域内转移登记的信息",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "浙江省_宁波市",
+            "机动车",
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "T10",
+            "T17",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道哪方面的呢？",
+        "act": "question/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "机动车在车辆管理所管辖区域内转移登记"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道可以用自助终端办理吗？",
+        "act": "verification",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "是否支持自助终端办理"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不支持",
+        "act": "ans/no",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "不支持"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，那收费的话是怎么收的？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "收费标准"
+        ],
+        "grounding_id": [
+            "333"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "收费的项目名称为机动车行驶证，10元/本",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_机动车在车辆管理所管辖区域内转移登记.json",
+        "grounding": [
+            "10元/本"
+        ],
+        "grounding_id": [
+            "370"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，那办理残疾人机动轮椅车注册登记的流程是怎么样的呢？",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "残疾人机动轮椅车注册登记",
+            "办理流程"
+        ],
+        "grounding_id": [
+            "1",
+            "426"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "办理流程: 1.申请 2.车辆查验 3.受理审核 4.制证 5.送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "办理流程",
+            "申请",
+            "车辆查验",
+            "受理审核",
+            "制证",
+            "送达"
+        ],
+        "grounding_id": [
+            "426",
+            "427",
+            "429",
+            "436",
+            "443",
+            "450"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道最后制证的标准是什么",
+        "act": "what",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "制证",
+            "审批标准"
+        ],
+        "grounding_id": [
+            "443",
+            "446"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "对材料齐全、符合法定形式的申请，制作残疾人机动轮轮车行驶证交发放号牌。",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "对材料齐全、符合法定形式的申请，制作残疾人机动轮轮车行驶证交发放号牌。"
+        ],
+        "grounding_id": [
+            "447"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，这个证是怎么拿呢？邮寄还是？",
+        "act": "how",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "送达",
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "450",
+            "451"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可以选择当场送达或邮寄送达",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "当场送达或邮寄送达"
+        ],
+        "grounding_id": [
+            "451"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果是邮寄的话多长时间能拿到？",
+        "act": "when",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1个工作日（邮寄送达的，以邮政公司时间为准）"
+        ],
+        "grounding_id": [
+            "453"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "邮寄送达的，以邮政公司时间为准",
+        "act": "ans/open",
+        "document": "浙江省_宁波市_0_0_行驶驾驶_机动车_残疾人机动轮椅车注册登记.json",
+        "grounding": [
+            "1个工作日（邮寄送达的，以邮政公司时间为准）"
+        ],
+        "grounding_id": [
+            "453"
+        ]
+    }
+]

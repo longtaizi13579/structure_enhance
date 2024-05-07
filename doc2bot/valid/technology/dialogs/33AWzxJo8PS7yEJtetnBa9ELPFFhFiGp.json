@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果在更新或安装macOS时发生错误的话是怎么回事",
+        "act": "how",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "如果在更新或安装macOS时发生错误"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以检查您的互联网连接，即使您没有通过互联网安装macOS，安装器也需要访问互联网，以获取特定于您Mac的固件和其他信息。请确保您的Mac拥有工作正常且稳定的互联网连接。",
+        "act": "ans/open",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "检查您的互联网连接",
+            "即使您没有通过互联网安装macOS，安装器也需要访问互联网，以获取特定于您Mac的固件和其他信息。请确保您的Mac拥有工作正常且稳定的互联网连接。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果是以安全模式安装应该怎么做呢",
+        "act": "how",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "以安全模式安装",
+            "在Mac以安全模式启动时安装。要以安全模式启动，请确定您使用的是不是搭载Apple芯片的Mac，然后按照相应的步骤操作："
+        ],
+        "grounding_id": [
+            "9",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "要以安全模式启动，请确定您使用的是不是搭载Apple芯片的Mac，然后按照相应的步骤操作，您需要了解吗",
+        "act": "question/open",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "在Mac以安全模式启动时安装。要以安全模式启动，请确定您使用的是不是搭载Apple芯片的Mac，然后按照相应的步骤操作："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "需要，步骤是怎么样的呢",
+        "act": "what",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "Apple芯片"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先将Mac关机，然后将Mac开机并继续按住电源按钮，直至看到启动选项窗口，选择启动磁盘，然后按住Shift键并点按“继续以安全模式运行”，最后登录Mac。系统可能会要求您再次登录。",
+        "act": "ans/open",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "将Mac关机。",
+            "将Mac开机并继续按住电源按钮，直至看到启动选项窗口。",
+            "选择启动磁盘，然后按住Shift键并点按“继续以安全模式运行”。",
+            "登录Mac。系统可能会要求您再次登录。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果是Intel处理器的话怎么做呢",
+        "act": "how",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "Intel处理器"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先将Mac开机或重新启动，然后在Mac启动时立即按住Shift键，然后看到登录窗口时，松开这个按键，然后登录Mac，最后系统可能会要求您再次登录。在第一个或第二个登录窗口中，您应该会在窗口的右上角看到“安全启动”。",
+        "act": "ans/open",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "看到登录窗口时，松开这个按键，然后登录Mac。",
+            "将Mac开机或重新启动，然后在Mac启动时立即按住Shift键。",
+            "系统可能会要求您再次登录。在第一个或第二个登录窗口中，您应该会在窗口的右上角看到“安全启动”。"
+        ],
+        "grounding_id": [
+            "24",
+            "23",
+            "25"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果出现错误的信息中推荐了解决方案是不是需要先按照提示做",
+        "act": "verification",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "出现这类信息的原因可能各不相同，有时这些信息只是暂时的。如果信息中推荐了解决方案（例如，重新下载安装器并重试），请先尝试这一解决方案。本文介绍了其他解决方案，它们按照从简单到复杂的顺序排列。如果问题仍然存在，或是您需要协助，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的，请先尝试这一解决方案",
+        "act": "ans/yes",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "出现这类信息的原因可能各不相同，有时这些信息只是暂时的。如果信息中推荐了解决方案（例如，重新下载安装器并重试），请先尝试这一解决方案。本文介绍了其他解决方案，它们按照从简单到复杂的顺序排列。如果问题仍然存在，或是您需要协助，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果问题仍然存在的话怎么办",
+        "act": "how",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "出现这类信息的原因可能各不相同，有时这些信息只是暂时的。如果信息中推荐了解决方案（例如，重新下载安装器并重试），请先尝试这一解决方案。本文介绍了其他解决方案，它们按照从简单到复杂的顺序排列。如果问题仍然存在，或是您需要协助，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果问题仍然存在，或是您需要协助，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果在更新或安装macOS时发生错误.json",
+        "grounding": [
+            "出现这类信息的原因可能各不相同，有时这些信息只是暂时的。如果信息中推荐了解决方案（例如，重新下载安装器并重试），请先尝试这一解决方案。本文介绍了其他解决方案，它们按照从简单到复杂的顺序排列。如果问题仍然存在，或是您需要协助，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]
